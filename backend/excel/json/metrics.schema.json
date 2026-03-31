@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EduDashboardQuarterlyMetrics",
+  "type": "object",
+  "required": ["reportDate", "teams", "quarters", "metrics"],
+  "properties": {
+    "reportDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "teams": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "quarters": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9]{4}-Q[1-4]$"
+      },
+      "uniqueItems": true
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "team",
+          "quarter",
+          "metricName",
+          "value",
+          "unit",
+          "source",
+          "automationStatus",
+          "note",
+          "lastRefreshUtc"
+        ],
+        "properties": {
+          "team": {
+            "type": "string"
+          },
+          "quarter": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-Q[1-4]$"
+          },
+          "metricName": {
+            "type": "string",
+            "enum": ["Jira Card Churn %", "Estimated Cycle Time (weeks)"]
+          },
+          "value": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string",
+            "enum": ["percent", "weeks"]
+          },
+          "source": {
+            "type": "string",
+            "const": "Jira"
+          },
+          "automationStatus": {
+            "type": "string",
+            "enum": ["Yes", "Yes (partial)", "No"]
+          },
+          "note": {
+            "type": "string"
+          },
+          "lastRefreshUtc": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

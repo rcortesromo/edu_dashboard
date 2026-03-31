@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "export:metrics-json": "node scripts/export-jira-metrics-json.mjs",
+    "pull:jira-quarterly-metrics": "node scripts/pull-jira-quarterly-metrics.mjs"
   },
   "dependencies": {
     "react": "^19.1.1",

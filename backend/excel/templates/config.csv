@@ -1,0 +1,23 @@
+config_section,key,value,order_index,required_flag,notes
+jira_field,sprint_field_id,customfield_10020,,yes,Replace with the Jira sprint field id if different.
+jira_field,team_field_id,customfield_10032,,yes,Shared Jira Team field for all tracked teams.
+jira_field,story_points_field_id,customfield_10043,,yes,Story Points field used for re-estimation detection.
+issue_scope,include_issue_types,"Story|Bug|Task",,yes,Pipe-delimited list for v1 scope.
+issue_scope,exclude_issue_types,"Epic|Sub-task",,no,Optional exclusion list.
+status_rule,completed_statuses,Closed,,yes,Current shared done status for Team Webstore and Team Connexpoint.
+workflow_order,status_name,New,10,yes,Lower numbers mean earlier workflow stages.
+workflow_order,status_name,Ready For Refinement,20,yes,Shared workflow order for Team Webstore and Team Connexpoint.
+workflow_order,status_name,Ready for Sprint,30,yes,Shared workflow order for Team Webstore and Team Connexpoint.
+workflow_order,status_name,In Development,40,yes,Shared workflow order for Team Webstore and Team Connexpoint.
+workflow_order,status_name,Awaiting Build,50,yes,Shared workflow order for Team Webstore and Team Connexpoint.
+workflow_order,status_name,In Secure Code Review,60,yes,Shared workflow order for Team Webstore and Team Connexpoint.
+workflow_order,status_name,Ready To Test,70,yes,Shared workflow order for Team Webstore and Team Connexpoint.
+workflow_order,status_name,In Test,80,yes,Shared workflow order for Team Webstore and Team Connexpoint.
+workflow_order,status_name,In Verification,90,yes,Shared workflow order for Team Webstore and Team Connexpoint.
+workflow_order,status_name,Closed,100,yes,Shared workflow order for Team Webstore and Team Connexpoint.
+business_rule,committed_at_sprint_start,in_sprint_at_exact_sprint_start_timestamp,,yes,Default v1 sprint commitment rule.
+business_rule,late_added_cards_treatment,churn_only,,yes,Change if late-added cards should also affect throughput or WIP.
+business_rule,throughput_unit,completed_cards,,yes,Default for estimated cycle time proxy.
+business_rule,reestimate_counting,once_per_issue_per_sprint,,yes,Count multiple point changes on the same issue once in v1.
+business_rule,backward_move_rule,transition_to_earlier_workflow_stage_after_sprint_start,,yes,Uses workflow order rows above.
+quarter_rule,quarter_convention,calendar,,yes,Examples: calendar or fiscal.

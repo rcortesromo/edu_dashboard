@@ -1,0 +1,152 @@
+# Excel Backend For Jira Metrics
+
+This folder defines the first Excel-based backend for the executive dashboard.
+
+The design uses sprint-level Jira data as the raw layer, then rolls the metrics up to quarter-level executive reporting.
+
+## V1 scope
+
+- `Jira Card Churn %`
+- `Estimated Cycle Time (weeks)`
+
+## Reporting model
+
+- Raw ingestion grain: `issue`, `change event`, and `team x sprint`
+- Executive reporting grain: `team x quarter`
+- Source system: `Jira`
+- Data handoff to frontend: `JSON`
+
+## Workbook tabs
+
+The workbook should contain these tabs in this order:
+
+1. `config`
+2. `jira_issues_raw`
+3. `jira_changelog_raw`
+4. `sprint_calendar`
+5. `metric_inputs_by_sprint`
+6. `metric_outputs_by_quarter`
+7. `json_export_view`
+
+CSV templates for each tab live in `templates/`.
+
+The Jira extraction script writes generated quarter data to `backend/excel/generated/`.
+That generated folder is intentionally ignored by git.
+
+## Required Jira definitions
+
+Fill these before automating the Jira pull:
+
+- sprint field id or name
+- team field id or team-mapping rule
+- story points field id or name
+- issue types included in scope
+- completed statuses
+- workflow order used to detect backward movement
+
+These placeholders live in `jira-field-mapping.template.json` and `templates/config.csv`.
+
+## Default business rules
+
+Unless you override them later, this implementation assumes:
+
+- `committed at sprint start` means the issue belongs to the sprint at the exact sprint start timestamp
+- `re-estimated` means story points changed after sprint start
+- `sent backward` means a post-start status transition to an earlier configured workflow stage
+- `Average WIP` is tracked in cards
+- `Average Throughput per Sprint` is tracked as completed cards per sprint
+- quarter labels use calendar quarter format such as `2026-Q1`
+
+## Metric formulas
+
+### Jira Card Churn %
+
+Sprint-level formula:
+
+`((Cards removed + Cards re-estimated + Cards sent backward after sprint start) / Cards committed at sprint start) * 100`
+
+Quarter-level rollup:
+
+`((Sum removed + Sum re-estimated + Sum sent backward) / Sum committed at sprint start) * 100`
+
+This avoids distorting quarter results by averaging sprint percentages directly.
+
+### Estimated Cycle Time (weeks)
+
+Sprint-level proxy:
+
+`(Average WIP / Average Throughput per Sprint) * 2`
+
+Quarter-level rollup:
+
+`(Average sprint WIP across the quarter / Average sprint throughput across the quarter) * 2`
+
+This remains a proxy until true cycle time can be derived from Jira timestamps.
+
+## File roles
+
+- `templates/`: workbook tab templates
+- `jira-field-mapping.template.json`: Jira API field mapping placeholders
+- `json/metrics.schema.json`: JSON contract for the frontend
+- `json/metrics.sample.json`: example exported payload
+
+## Secrets and environment variables
+
+Keep Jira credentials in a root-level `.env.local` file and do not expose them to the React app.
+
+- `.env.example`: committed template with variable names only
+- `.env.local`: real local credentials, ignored by git
+
+Recommended variables:
+
+- `JIRA_BASE_URL`
+- `JIRA_EMAIL`
+- `JIRA_API_TOKEN`
+- `JIRA_SPRINT_FIELD_ID`
+- `JIRA_TEAM_FIELD_ID`
+- `JIRA_STORY_POINTS_FIELD_ID`
+
+Separation of responsibilities in the same repo:
+
+- `src/`: frontend code, should only consume the final JSON output
+- `scripts/`: private extraction or transformation scripts, can read `.env.local`
+- `backend/excel/`: workbook templates, rules, and export structure
+
+Do not pass Jira secrets into `src/`, `public/`, or any `VITE_*` variable unless the value is explicitly safe for browser exposure.
+
+## Export flow
+
+1. Pull raw Jira issue and changelog data.
+2. Populate the raw tabs.
+3. Calculate `metric_inputs_by_sprint`.
+4. Roll up to `metric_outputs_by_quarter`.
+5. Flatten into `json_export_view`.
+6. Export that view to a JSON payload matching `json/metrics.schema.json`.
+
+## JSON export helper
+
+Use the included script after exporting the `json_export_view` tab to CSV:
+
+```bash
+npm run export:metrics-json -- "backend/excel/examples/json_export_view.sample.csv" "backend/excel/json/metrics.generated.json"
+```
+
+Replace the sample CSV path with the real CSV export from Excel.
+
+## Jira extraction helper
+
+Use the Node.js pipeline to pull the current quarter for the configured teams and calculate the first two metrics:
+
+```bash
+npm run pull:jira-quarterly-metrics
+```
+
+Generated files:
+
+- `backend/excel/generated/jira_issues_raw.csv`
+- `backend/excel/generated/jira_changelog_raw.csv`
+- `backend/excel/generated/sprint_calendar.csv`
+- `backend/excel/generated/metric_inputs_by_sprint.csv`
+- `backend/excel/generated/metric_outputs_by_quarter.csv`
+- `backend/excel/generated/json_export_view.csv`
+- `backend/excel/generated/refresh_control.csv`

@@ -1,0 +1,29 @@
+{
+  "reportDate": "2026-03-31",
+  "teams": ["Payments"],
+  "quarters": ["2026-Q1"],
+  "metrics": [
+    {
+      "team": "Payments",
+      "quarter": "2026-Q1",
+      "metricName": "Jira Card Churn %",
+      "value": 18.4,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from sprint changelog events rolled into the quarter.",
+      "lastRefreshUtc": "2026-03-31T18:00:00Z"
+    },
+    {
+      "team": "Payments",
+      "quarter": "2026-Q1",
+      "metricName": "Estimated Cycle Time (weeks)",
+      "value": 2.7,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP and throughput per sprint.",
+      "lastRefreshUtc": "2026-03-31T18:00:00Z"
+    }
+  ]
+}

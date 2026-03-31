@@ -1,0 +1,31 @@
+{
+  "sourceSystem": "Jira",
+  "quarterConvention": "calendar",
+  "fields": {
+    "sprintFieldId": "customfield_10020",
+    "teamFieldId": "customfield_10032",
+    "storyPointsFieldId": "customfield_10043",
+    "statusFieldName": "status",
+    "issueTypeFieldName": "issuetype"
+  },
+  "issueScope": {
+    "includeIssueTypes": ["Story", "Bug", "Task"],
+    "excludeIssueTypes": ["Epic", "Sub-task"]
+  },
+  "teamMapping": {
+    "strategy": "jira_field",
+    "notes": "The same Jira Team field is used for all tracked teams. Team scope is centralized below."
+  },
+  "boardsOrProjects": [
+    {
+      "teamName": "Team Webstore",
+      "boardId": "175",
+      "projectKeys": ["OV"]
+    },
+    {
+      "teamName": "Team Connexpoint",
+      "boardId": "170",
+      "projectKeys": ["OV"]
+    }
+  ]
+}
