@@ -20,8 +20,7 @@ function HomeView({
         <span className="hero-tag">Executive Delivery Snapshot</span>
         <h2>Quarter-to-date Jira metrics for CXP and Revtrak</h2>
         <p>
-          This dashboard summarizes backlog stability, system flow, and actual delivery elapsed time so
-          leaders can compare team health without diving into raw sprint data.
+          This dashboard summarizes backlog stability, system flow, and actual delivery.
         </p>
 
         <div className="hero-actions">
