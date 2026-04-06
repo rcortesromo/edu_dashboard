@@ -58,22 +58,6 @@ function formatMetricValue(metric: MetricRecord) {
   return String(metric.value);
 }
 
-function formatLastRefresh(value: string) {
-  const date = new Date(value);
-
-  if (Number.isNaN(date.getTime())) {
-    return "Refresh unavailable";
-  }
-
-  return new Intl.DateTimeFormat("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-    hour: "numeric",
-    minute: "2-digit",
-  }).format(date);
-}
-
 export function buildTeamSummaries(payload: MetricsPayload | null) {
   if (!payload) {
     return [];
@@ -109,10 +93,6 @@ function MetricsView({
   const hasAnyMetrics = teams.some((team) => team.metrics.length > 0);
   const visibleTeams = teams.filter((team) => team.metrics.length > 0);
   const activeQuarter = visibleTeams[0]?.quarter ?? "Quarter unavailable";
-  const latestRefreshUtc = visibleTeams
-    .map((team) => team.lastRefreshUtc)
-    .filter(Boolean)
-    .sort((left, right) => right.localeCompare(left))[0];
 
   return (
     <main className="content-shell metrics-shell">
