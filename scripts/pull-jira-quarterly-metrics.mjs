@@ -10,12 +10,14 @@ const envPath = path.join(repoRoot, ".env.local");
 const mappingPath = path.join(repoRoot, "backend/excel/jira-field-mapping.template.json");
 const configPath = path.join(repoRoot, "backend/excel/templates/config.csv");
 const generatedDir = path.join(repoRoot, "backend/excel/generated");
+const doneOnlyResolution = "done";
 
 const outputFiles = {
   jiraIssuesRaw: path.join(generatedDir, "jira_issues_raw.csv"),
   jiraChangelogRaw: path.join(generatedDir, "jira_changelog_raw.csv"),
   sprintCalendar: path.join(generatedDir, "sprint_calendar.csv"),
   metricInputsBySprint: path.join(generatedDir, "metric_inputs_by_sprint.csv"),
+  cycleTimeIssueLevel: path.join(generatedDir, "cycle_time_issue_level.csv"),
   metricOutputsByQuarter: path.join(generatedDir, "metric_outputs_by_quarter.csv"),
   jsonExportView: path.join(generatedDir, "json_export_view.csv"),
   refreshControl: path.join(generatedDir, "refresh_control.csv"),
@@ -90,6 +92,25 @@ const headers = {
     "data_quality_note",
     "last_refresh_utc",
   ],
+  cycleTimeIssueLevel: [
+    "issue_key",
+    "issue_id",
+    "team_name",
+    "project_key",
+    "issue_type",
+    "quarter_label",
+    "cycle_time_start_status",
+    "cycle_time_start_utc",
+    "cycle_time_end_status",
+    "cycle_time_end_utc",
+    "resolution_at_cycle_time_end",
+    "cycle_time_days",
+    "cycle_time_weeks",
+    "completed_in_done_category_flag",
+    "completed_with_allowed_resolution_flag",
+    "data_quality_note",
+    "last_refresh_utc",
+  ],
   metricOutputsByQuarter: [
     "team_name",
     "quarter_label",
@@ -103,7 +124,9 @@ const headers = {
     "jira_card_churn_pct",
     "average_wip_cards",
     "average_throughput_cards_per_sprint",
-    "estimated_cycle_time_weeks",
+    "flow_based_cycle_time_proxy_weeks",
+    "actual_cycle_time_weeks",
+    "actual_cycle_time_issue_count",
     "data_quality_note",
     "last_refresh_utc",
   ],
@@ -383,14 +406,7 @@ function buildConfig(rows) {
 }
 
 function ensureRequiredEnv(env) {
-  const requiredKeys = [
-    "JIRA_BASE_URL",
-    "JIRA_EMAIL",
-    "JIRA_API_TOKEN",
-    "JIRA_SPRINT_FIELD_ID",
-    "JIRA_TEAM_FIELD_ID",
-    "JIRA_STORY_POINTS_FIELD_ID",
-  ];
+  const requiredKeys = ["JIRA_BASE_URL", "JIRA_EMAIL", "JIRA_API_TOKEN"];
 
   const missing = requiredKeys.filter((key) => !env[key]);
 
@@ -509,22 +525,34 @@ class JiraClient {
 
     return entries;
   }
+
+  async getStatuses() {
+    return this.requestJson("/rest/api/3/status");
+  }
 }
 
-function issueIsInScope(issue, teamName, mapping, config) {
+function issueTypeScopeForTeam(teamConfig, config) {
+  return {
+    includeIssueTypes: new Set(teamConfig?.workItemScope?.includeIssueTypes ?? config.includeIssueTypes),
+    excludeIssueTypes: new Set(teamConfig?.workItemScope?.excludeIssueTypes ?? config.excludeIssueTypes),
+  };
+}
+
+function issueIsInScope(issue, teamConfig, mapping, config) {
   const teamField = issue.fields?.[mapping.fields.teamFieldId];
   const resolvedTeamName = teamField?.value ?? teamField?.name ?? "";
   const issueTypeName = issue.fields?.issuetype?.name ?? "";
+  const scope = issueTypeScopeForTeam(teamConfig, config);
 
-  if (normalizeName(resolvedTeamName) !== normalizeName(teamName)) {
+  if (resolvedTeamName && normalizeName(resolvedTeamName) !== normalizeName(teamConfig?.teamName)) {
     return false;
   }
 
-  if (config.includeIssueTypes.size > 0 && !config.includeIssueTypes.has(issueTypeName)) {
+  if (scope.includeIssueTypes.size > 0 && !scope.includeIssueTypes.has(issueTypeName)) {
     return false;
   }
 
-  if (config.excludeIssueTypes.has(issueTypeName)) {
+  if (scope.excludeIssueTypes.has(issueTypeName)) {
     return false;
   }
 
@@ -610,6 +638,13 @@ function getSprintHistory(histories, sprintFieldId) {
   return getHistoryItems(histories, (item) => item.fieldId === sprintFieldId || item.field === "Sprint");
 }
 
+function getResolutionHistory(histories) {
+  return getHistoryItems(
+    histories,
+    (item) => item.fieldId === "resolution" || normalizeName(item.field) === "resolution",
+  );
+}
+
 function scalarValueAtTime(currentValue, historyItems, targetDate, selector) {
   let value = selector.current(currentValue);
   const targetTime = targetDate.getTime();
@@ -644,6 +679,13 @@ function pointsAtTime(currentPoints, pointsHistory, targetDate) {
 
   const parsed = toNumber(value);
   return parsed ?? "";
+}
+
+function resolutionAtTime(currentResolutionName, resolutionHistory, targetDate) {
+  return scalarValueAtTime(currentResolutionName, resolutionHistory, targetDate, {
+    current: (value) => value,
+    from: (item) => item.fromString,
+  });
 }
 
 function sprintAddOrRemoveFlags(sprintHistory, sprint, sprintStart, sprintEnd, issueCreatedAt) {
@@ -721,28 +763,173 @@ function buildBackwardMoveFlag(statusHistory, sprintStart, sprintEnd, workflowOr
   });
 }
 
-function buildCompletedInSprintFlag(
-  statusHistory,
-  sprintStart,
-  sprintEnd,
-  completedStatuses,
-  statusAtStart,
-  statusAtEnd,
-) {
-  const completedDuringSprint = statusHistory.some((item) => {
-    const itemDate = new Date(item.created);
-    if (itemDate <= sprintStart || itemDate > sprintEnd) {
-      return false;
-    }
+function buildCompletedInSprintFlag(validCompletionCandidates, sprintStart, sprintEnd) {
+  return validCompletionCandidates.some(
+    (candidate) => candidate.endEvent.at > sprintStart && candidate.endEvent.at <= sprintEnd,
+  );
+}
 
-    return completedStatuses.has(item.toString);
-  });
+function buildStatusCategoryMap(statuses) {
+  return new Map(
+    (statuses ?? []).map((status) => [
+      status.name,
+      {
+        name: status.statusCategory?.name ?? "",
+        key: status.statusCategory?.key ?? "",
+      },
+    ]),
+  );
+}
 
-  if (completedDuringSprint) {
-    return true;
+function matchesCycleTimeRule(statusName, statusCategory, ruleType, ruleValue) {
+  if (!ruleType || !ruleValue) {
+    return false;
   }
 
-  return completedStatuses.has(statusAtEnd) && !completedStatuses.has(statusAtStart);
+  if (ruleType === "status_name") {
+    return normalizeName(statusName) === normalizeName(ruleValue);
+  }
+
+  if (ruleType === "status_category") {
+    return (
+      normalizeName(statusCategory?.name) === normalizeName(ruleValue) ||
+      normalizeName(statusCategory?.key) === normalizeName(ruleValue)
+    );
+  }
+
+  return false;
+}
+
+function isDateWithinQuarter(date, quarterWindow) {
+  return date >= quarterWindow.start && date <= quarterWindow.end;
+}
+
+function latestCycleTimeStartBefore({
+  issue,
+  teamRule,
+  statusHistory,
+  statusCategoryMap,
+  endDate,
+}) {
+  const initialStatus = statusHistory[0]?.fromString ?? "";
+  const initialStatusCategory = statusCategoryMap.get(initialStatus) ?? { name: "", key: "" };
+  let latestStart =
+    initialStatus &&
+    new Date(issue.fields.created) <= endDate &&
+    matchesCycleTimeRule(initialStatus, initialStatusCategory, teamRule.startType, teamRule.startValue)
+      ? {
+          at: new Date(issue.fields.created),
+          status: initialStatus,
+        }
+      : null;
+
+  for (const item of statusHistory) {
+    const itemDate = new Date(item.created);
+
+    if (itemDate > endDate) {
+      break;
+    }
+
+    const toStatus = item.toString ?? "";
+    const toCategory = statusCategoryMap.get(toStatus) ?? { name: "", key: "" };
+
+    if (matchesCycleTimeRule(toStatus, toCategory, teamRule.startType, teamRule.startValue)) {
+      latestStart = {
+        at: itemDate,
+        status: toStatus,
+      };
+    }
+  }
+
+  return latestStart;
+}
+
+function buildValidCompletionCandidates({
+  issue,
+  teamRule,
+  statusHistory,
+  resolutionHistory,
+  currentResolutionName,
+  statusCategoryMap,
+}) {
+  if (!teamRule?.startType || !teamRule?.startValue || !teamRule?.endType || !teamRule?.endValue) {
+    return [];
+  }
+
+  const candidates = [];
+
+  for (const item of statusHistory) {
+    const itemDate = new Date(item.created);
+    const toStatus = item.toString ?? "";
+    const toCategory = statusCategoryMap.get(toStatus) ?? { name: "", key: "" };
+
+    if (!matchesCycleTimeRule(toStatus, toCategory, teamRule.endType, teamRule.endValue)) {
+      continue;
+    }
+
+    const resolutionNameAtEnd = resolutionAtTime(currentResolutionName, resolutionHistory, itemDate);
+
+    if (normalizeName(resolutionNameAtEnd) !== doneOnlyResolution) {
+      continue;
+    }
+
+    const startEvent = latestCycleTimeStartBefore({
+      issue,
+      teamRule,
+      statusHistory,
+      statusCategoryMap,
+      endDate: itemDate,
+    });
+
+    if (!startEvent || itemDate < startEvent.at) {
+      continue;
+    }
+
+    candidates.push({
+      startEvent,
+      endEvent: {
+        at: itemDate,
+        status: toStatus,
+      },
+      resolutionNameAtEnd,
+    });
+  }
+
+  return candidates;
+}
+
+function computeActualCycleTime({ issue, quarterWindow, validCompletionCandidates }) {
+  const quarterCandidates = validCompletionCandidates.filter((candidate) =>
+    isDateWithinQuarter(candidate.endEvent.at, quarterWindow),
+  );
+  const candidate = quarterCandidates[quarterCandidates.length - 1];
+
+  if (!candidate) {
+    return null;
+  }
+
+  const durationMs = candidate.endEvent.at.getTime() - candidate.startEvent.at.getTime();
+
+  if (durationMs < 0) {
+    return null;
+  }
+
+  return {
+    issue_key: issue.key,
+    issue_id: issue.id,
+    project_key: issue.fields.project?.key ?? "",
+    issue_type: issue.fields.issuetype?.name ?? "",
+    quarter_label: quarterWindow.label,
+    cycle_time_start_status: candidate.startEvent.status,
+    cycle_time_start_utc: toIsoDateTime(candidate.startEvent.at),
+    cycle_time_end_status: candidate.endEvent.status,
+    cycle_time_end_utc: toIsoDateTime(candidate.endEvent.at),
+    resolution_at_cycle_time_end: candidate.resolutionNameAtEnd,
+    cycle_time_days: round(durationMs / (1000 * 60 * 60 * 24), 2),
+    cycle_time_weeks: round(durationMs / (1000 * 60 * 60 * 24 * 7), 2),
+    completed_in_done_category_flag: "yes",
+    completed_with_allowed_resolution_flag: "yes",
+  };
 }
 
 function computeWipDurationMs({
@@ -933,6 +1120,8 @@ async function main() {
     email: env.JIRA_EMAIL,
     token: env.JIRA_API_TOKEN,
   });
+  const statuses = await client.getStatuses();
+  const statusCategoryMap = buildStatusCategoryMap(statuses);
 
   const teams = mapping.boardsOrProjects.filter((entry) => entry.teamName && entry.boardId);
 
@@ -962,6 +1151,7 @@ async function main() {
       const issues = await client.getSprintIssues(sprint.id, [
         "summary",
         "status",
+        "resolution",
         "issuetype",
         "created",
         "updated",
@@ -972,7 +1162,7 @@ async function main() {
       ]);
 
       for (const issue of issues) {
-        if (!issueIsInScope(issue, team.teamName, mapping, config)) {
+        if (!issueIsInScope(issue, team, mapping, config)) {
           continue;
         }
 
@@ -985,6 +1175,7 @@ async function main() {
   const jiraIssuesRawRows = [];
   const jiraChangelogRawRows = [];
   const metricInputsBySprintRows = [];
+  const cycleTimeIssueLevelRows = [];
 
   const wipStatuses = new Set(
     [...config.workflowOrder.entries()]
@@ -1024,15 +1215,40 @@ async function main() {
   for (const { issue, changelog } of issueEntries) {
     const teamField = issue.fields?.[mapping.fields.teamFieldId];
     const teamName = teamField?.value ?? teamField?.name ?? "";
+    const teamConfig = teams.find((team) => normalizeName(team.teamName) === normalizeName(teamName));
     const teamSprints = trackedSprints.filter((sprint) => sprint.teamName === teamName);
 
     const statusHistory = getStatusHistory(changelog);
     const pointsHistory = getStoryPointsHistory(changelog, mapping.fields.storyPointsFieldId);
     const sprintHistory = getSprintHistory(changelog, mapping.fields.sprintFieldId);
+    const resolutionHistory = getResolutionHistory(changelog);
 
     const issueCreatedAt = new Date(issue.fields.created);
     const currentStatusName = issue.fields.status?.name ?? "";
+    const currentResolutionName = issue.fields.resolution?.name ?? "";
     const currentPoints = issue.fields?.[mapping.fields.storyPointsFieldId] ?? "";
+    const validCompletionCandidates = buildValidCompletionCandidates({
+      issue,
+      teamRule: teamConfig?.cycleTime,
+      statusHistory,
+      resolutionHistory,
+      currentResolutionName,
+      statusCategoryMap,
+    });
+    const actualCycleTime = computeActualCycleTime({
+      issue,
+      quarterWindow,
+      validCompletionCandidates,
+    });
+
+    if (actualCycleTime) {
+      cycleTimeIssueLevelRows.push({
+        ...actualCycleTime,
+        team_name: teamName,
+        data_quality_note: "",
+        last_refresh_utc: refreshTimestamp,
+      });
+    }
 
     for (const sprint of teamSprints) {
       if (!issueTouchesSprint(issue, sprint, sprintHistory, mapping.fields.sprintFieldId)) {
@@ -1063,14 +1279,7 @@ async function main() {
         sprintEnd,
         config.workflowOrder,
       );
-      const completedInSprint = buildCompletedInSprintFlag(
-        statusHistory,
-        sprintStart,
-        sprintEnd,
-        config.completedStatuses,
-        statusAtStart,
-        statusAtEnd,
-      );
+      const completedInSprint = buildCompletedInSprintFlag(validCompletionCandidates, sprintStart, sprintEnd);
 
       const wipDurationMs = computeWipDurationMs({
         statusHistory,
@@ -1208,8 +1417,15 @@ async function main() {
         : 0;
     const churnPct =
       committedTotal > 0 ? ((removedTotal + reestimatedTotal + backwardTotal) / committedTotal) * 100 : null;
-    const estimatedCycleTime =
+    const flowBasedCycleTimeProxy =
       averageThroughput > 0 ? (averageWipCards / averageThroughput) * 2 : null;
+    const completedCycleTimeIssues = cycleTimeIssueLevelRows.filter((row) => row.team_name === team.teamName);
+    const actualCycleTimeIssueCount = completedCycleTimeIssues.length;
+    const actualCycleTimeWeeks =
+      actualCycleTimeIssueCount > 0
+        ? completedCycleTimeIssues.reduce((sum, row) => sum + Number(row.cycle_time_weeks), 0) /
+          actualCycleTimeIssueCount
+        : null;
     const latestSprintEndProcessed = teamSprintsInQuarter
       .map((sprint) => sprint.endDate)
       .filter(Boolean)
@@ -1233,7 +1449,9 @@ async function main() {
       jira_card_churn_pct: round(churnPct),
       average_wip_cards: round(averageWipCards, 4),
       average_throughput_cards_per_sprint: round(averageThroughput, 4),
-      estimated_cycle_time_weeks: round(estimatedCycleTime),
+      flow_based_cycle_time_proxy_weeks: round(flowBasedCycleTimeProxy),
+      actual_cycle_time_weeks: round(actualCycleTimeWeeks),
+      actual_cycle_time_issue_count: String(actualCycleTimeIssueCount),
       data_quality_note:
         quarterStatus === "in_progress"
           ? "Quarter is still in progress; values are quarter-to-date."
@@ -1241,30 +1459,43 @@ async function main() {
       last_refresh_utc: refreshTimestamp,
     });
 
-    jsonExportViewRows.push(
-      {
+    jsonExportViewRows.push({
+      team_name: team.teamName,
+      quarter_label: quarterWindow.label,
+      metric_name: "Jira Card Churn %",
+      metric_value: round(churnPct),
+      metric_unit: "percent",
+      source_system: "Jira",
+      coverage_status: "Yes (partial)",
+      note: "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      last_refresh_utc: refreshTimestamp,
+    });
+
+    jsonExportViewRows.push({
+      team_name: team.teamName,
+      quarter_label: quarterWindow.label,
+      metric_name: "Flow-based Cycle Time Proxy (weeks)",
+      metric_value: round(flowBasedCycleTimeProxy),
+      metric_unit: "weeks",
+      source_system: "Jira",
+      coverage_status: "Yes (partial)",
+      note: "Proxy metric based on average WIP cards and completed cards per sprint.",
+      last_refresh_utc: refreshTimestamp,
+    });
+
+    if (actualCycleTimeIssueCount > 0) {
+      jsonExportViewRows.push({
         team_name: team.teamName,
         quarter_label: quarterWindow.label,
-        metric_name: "Jira Card Churn %",
-        metric_value: round(churnPct),
-        metric_unit: "percent",
-        source_system: "Jira",
-        coverage_status: "Yes (partial)",
-        note: "Calculated from removed, re-estimated, and backward-move events after sprint start.",
-        last_refresh_utc: refreshTimestamp,
-      },
-      {
-        team_name: team.teamName,
-        quarter_label: quarterWindow.label,
-        metric_name: "Estimated Cycle Time (weeks)",
-        metric_value: round(estimatedCycleTime),
+        metric_name: "Actual Cycle Time (weeks)",
+        metric_value: round(actualCycleTimeWeeks),
         metric_unit: "weeks",
         source_system: "Jira",
         coverage_status: "Yes (partial)",
-        note: "Proxy metric based on average WIP cards and completed cards per sprint.",
+        note: "Average completed-item cycle time from the configured team start point to the Jira Done category.",
         last_refresh_utc: refreshTimestamp,
-      },
-    );
+      });
+    }
 
     refreshControlRows.push({
       team_name: team.teamName,
@@ -1286,6 +1517,7 @@ async function main() {
   const existingJiraChangelogRaw = await readCsvFile(outputFiles.jiraChangelogRaw);
   const existingSprintCalendar = await readCsvFile(outputFiles.sprintCalendar);
   const existingMetricInputsBySprint = await readCsvFile(outputFiles.metricInputsBySprint);
+  const existingCycleTimeIssueLevel = await readCsvFile(outputFiles.cycleTimeIssueLevel);
   const existingMetricOutputsByQuarter = await readCsvFile(outputFiles.metricOutputsByQuarter);
   const existingJsonExportView = await readCsvFile(outputFiles.jsonExportView);
   const existingRefreshControl = await readCsvFile(outputFiles.refreshControl);
@@ -1317,6 +1549,16 @@ async function main() {
       "quarter_label",
     ),
     ["team_name", "quarter_label", "sprint_id"],
+  );
+  const mergedCycleTimeIssueLevel = sortByKeys(
+    mergeRowsKeepingOtherQuarters(
+      existingCycleTimeIssueLevel,
+      cycleTimeIssueLevelRows,
+      quarterWindow.label,
+      teams,
+      "quarter_label",
+    ),
+    ["team_name", "quarter_label", "cycle_time_end_utc", "issue_key"],
   );
   const mergedMetricOutputs = sortByKeys(
     mergeRowsKeepingOtherQuarters(
@@ -1351,6 +1593,11 @@ async function main() {
     fs.writeFile(
       outputFiles.metricInputsBySprint,
       toCsv(headers.metricInputsBySprint, mergedMetricInputs),
+      "utf8",
+    ),
+    fs.writeFile(
+      outputFiles.cycleTimeIssueLevel,
+      toCsv(headers.cycleTimeIssueLevel, mergedCycleTimeIssueLevel),
       "utf8",
     ),
     fs.writeFile(

@@ -20,12 +20,32 @@
     {
       "teamName": "Team Webstore",
       "boardId": "175",
-      "projectKeys": ["OV"]
+      "projectKeys": ["OV"],
+      "workItemScope": {
+        "includeIssueTypes": ["Story", "Bug", "Task"],
+        "excludeIssueTypes": ["Epic", "Sub-task"]
+      },
+      "cycleTime": {
+        "startType": "status_name",
+        "startValue": "In Development",
+        "endType": "status_category",
+        "endValue": "Done"
+      }
     },
     {
       "teamName": "Team Connexpoint",
       "boardId": "170",
-      "projectKeys": ["OV"]
+      "projectKeys": ["OV"],
+      "workItemScope": {
+        "includeIssueTypes": ["Sub-task"],
+        "excludeIssueTypes": ["Epic"]
+      },
+      "cycleTime": {
+        "startType": "status_name",
+        "startValue": "In Development",
+        "endType": "status_category",
+        "endValue": "Done"
+      }
     }
   ]
 }

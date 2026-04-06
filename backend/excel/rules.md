@@ -34,6 +34,11 @@ For v1, calculate sprint churn per issue once per churn category:
 
 If the same issue changes story points multiple times in the same sprint, count it once in `cards_reestimated_after_start`.
 
+Team-specific work-item scope:
+
+- `Team Webstore`: `Story`, `Bug`, `Task`
+- `Team Connexpoint`: `Sub-task`
+
 Quarter churn should be calculated from summed components, not from the average of sprint percentages:
 
 `((sum removed + sum re-estimated + sum sent backward) / sum committed at start) * 100`
@@ -54,7 +59,7 @@ Default v1 rule:
 - late-added cards count toward churn if they represent sprint scope instability
 - they do not affect throughput unless the team chooses to include them later
 
-### Throughput for estimated cycle time
+### Throughput for flow-based cycle time proxy
 
 Default v1 throughput unit:
 
@@ -62,7 +67,32 @@ Default v1 throughput unit:
 
 This matches the default WIP assumption of `average_wip_cards`.
 
-If the team later wants a points-based proxy instead, both WIP and throughput should be shifted to the same unit family before calculating cycle time.
+If the team later wants a points-based proxy instead, both WIP and throughput should be shifted to the same unit family before calculating the proxy.
+
+## Actual cycle time rules
+
+Actual cycle time is calculated from Jira changelog timestamps, not from WIP or throughput.
+
+Completion gate:
+
+- the issue must enter the Jira Done category
+- the issue resolution at that same completion timestamp must be `Done`
+
+Current v1 team rules:
+
+- `Team Webstore`: last transition into `In Development` before a valid Jira Done-category close
+- `Team Connexpoint`: last transition into `In Development` before a valid Jira Done-category close
+
+Quarter rollup rule:
+
+- calculate cycle time per completed issue first
+- assign the issue to the quarter where it entered the Done category
+- for each valid close, pair it to the last matching start-state transition before that close
+- average those completed-item cycle times for the executive quarter metric
+
+Flow-based proxy throughput rule:
+
+- `completed_cards` only counts issues that satisfy the same `resolution = Done` completion gate and valid latest-start-to-close pairing
 
 ## Quarterly rollup rules
 

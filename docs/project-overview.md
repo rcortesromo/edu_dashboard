@@ -10,14 +10,15 @@ The current implementation focus is the backend data pipeline for Jira-based met
 - Excel-compatible CSV layers as the reporting backend
 - JSON as the frontend handoff format
 - quarter-level executive reporting
-- sprint-level raw calculations underneath
+- sprint-level and issue-level raw calculations underneath
 
 ## Current Scope
 
-The first version currently targets these two metrics:
+The first version currently targets these three metrics:
 
 1. `Jira Card Churn %`
-2. `Estimated Cycle Time (weeks)`
+2. `Flow-based Cycle Time Proxy (weeks)`
+3. `Actual Cycle Time (weeks)`
 
 These metrics are reported by:
 
@@ -25,7 +26,7 @@ These metrics are reported by:
 
 But are calculated from:
 
-- `team x sprint`
+- `team x sprint` and completed-issue history
 
 ## Teams In Scope
 
@@ -49,6 +50,13 @@ Both currently use:
 - the same shared workflow assumptions
 - the same team field in Jira
 
+Actual cycle time rules are also stored per team in the same mapping file so the pipeline can support different start points by team.
+
+Work-item unit by team:
+
+- `Team Webstore`: parent delivery items (`Story`, `Bug`, `Task`)
+- `Team Connexpoint`: board-moving subtasks (`Sub-task`)
+
 ## Jira Field Mapping
 
 The confirmed Jira fields for the current implementation are:
@@ -59,8 +67,6 @@ The confirmed Jira fields for the current implementation are:
 
 These are currently represented in:
 
-- `.env.local`
-- `.env.example`
 - `backend/excel/jira-field-mapping.template.json`
 - `backend/excel/templates/config.csv`
 
@@ -85,8 +91,9 @@ Important design choices:
 - count sprint churn from sprint events, not by averaging sprint percentages
 - count each issue once per churn category per sprint
 - use changelog timestamps to determine if the event happened after sprint start
+- the work-item unit can differ by team when the board flow is driven by subtasks instead of parent items
 
-### Estimated Cycle Time (weeks)
+### Flow-based Cycle Time Proxy (weeks)
 
 Formula:
 
@@ -102,10 +109,63 @@ Current unit choice for v1:
 So the current interpretation is:
 
 ```text
-Estimated Cycle Time (weeks) = (Average WIP in cards / Average completed cards per sprint) * 2
+Flow-based Cycle Time Proxy (weeks) = (Average WIP in cards / Average completed cards per sprint) * 2
 ```
 
-This remains a proxy until true timestamp-based cycle time is introduced.
+What it means:
+
+- this is not per-card elapsed time
+- it is a flow-health signal for the team’s delivery system
+- lower usually means less congestion, lower WIP, higher throughput, or a combination of those
+- higher usually means more congestion, higher WIP, lower throughput, or a combination of those
+
+Executive reading:
+
+- `lower = better flow`
+- `higher = more work accumulating in the system`
+
+### Actual Cycle Time (weeks)
+
+This is the true elapsed-time metric for completed items.
+
+Definition:
+
+```text
+Actual Cycle Time (weeks) = average elapsed weeks from the configured team start point until the item enters the Jira Done category with resolution Done
+```
+
+Team-specific start definitions:
+
+- `Team Webstore`: `In Development -> Done category`
+- `Team Connexpoint`: `In Development -> Done category`
+
+Completion gate for both teams:
+
+- the closing event must land in the Jira `Done` category
+- the issue resolution at that closing timestamp must be `Done`
+
+Important design choices:
+
+- this metric is calculated per completed issue first
+- for each valid close, the start used is the last matching start-state transition before that close, not the first historical one
+- the quarter value is the average of completed-item cycle times whose completion happened inside that quarter
+- it uses Jira changelog timestamps, not WIP or throughput ratios
+
+How to read it:
+
+- this is the closest metric to "how long does it actually take to finish a card once work starts?"
+- if it drops, completed work is moving faster from active work to done
+- if it rises, completed work is spending more elapsed time in the delivery system
+
+### Completion Rule Shared By Both Cycle Time Metrics
+
+For this implementation, both cycle-time metrics now use the same completion gate for counting finished work:
+
+- the issue must reach the configured closed / done status logic
+- the issue resolution must be exactly `Done`
+- when a valid completion is found, the related start point is the last matching active-work start before that close
+
+For `Flow-based Cycle Time Proxy`, this affects the throughput denominator because `completed_cards` only counts those valid `Done` completions.
 
 ## Core Business Rules
 
@@ -206,9 +266,10 @@ Workbook-compatible tabs:
 3. `jira_changelog_raw`
 4. `sprint_calendar`
 5. `metric_inputs_by_sprint`
-6. `metric_outputs_by_quarter`
-7. `json_export_view`
-8. `refresh_control` (added for incremental quarter tracking)
+6. `cycle_time_issue_level`
+7. `metric_outputs_by_quarter`
+8. `json_export_view`
+9. `refresh_control` (added for incremental quarter tracking)
 
 Template files:
 
@@ -217,6 +278,7 @@ Template files:
 - `backend/excel/templates/jira_changelog_raw.csv`
 - `backend/excel/templates/sprint_calendar.csv`
 - `backend/excel/templates/metric_inputs_by_sprint.csv`
+- `backend/excel/templates/cycle_time_issue_level.csv`
 - `backend/excel/templates/metric_outputs_by_quarter.csv`
 - `backend/excel/templates/json_export_view.csv`
 - `backend/excel/templates/refresh_control.csv`
@@ -233,6 +295,7 @@ Current generated output targets:
 - `jira_changelog_raw.csv`
 - `sprint_calendar.csv`
 - `metric_inputs_by_sprint.csv`
+- `cycle_time_issue_level.csv`
 - `metric_outputs_by_quarter.csv`
 - `json_export_view.csv`
 - `refresh_control.csv`
@@ -253,14 +316,16 @@ What it does:
 2. reads Jira team scope and field mapping from `backend/excel/jira-field-mapping.template.json`
 3. reads rules from `backend/excel/templates/config.csv`
 4. determines the current quarter
-5. fetches sprints for the configured boards
-6. fetches Jira issues for the current quarter
-7. fetches changelog for relevant issues
-8. writes raw issue and changelog CSV outputs
-9. calculates sprint-level metric inputs
-10. calculates quarter-level outputs
-11. updates `refresh_control.csv`
-12. produces `json_export_view.csv`
+5. fetches Jira statuses to resolve status categories such as `In Progress` and `Done`
+6. fetches sprints for the configured boards
+7. fetches Jira issues for the current quarter
+8. fetches changelog for relevant issues
+9. writes raw issue and changelog CSV outputs
+10. calculates sprint-level metric inputs
+11. calculates issue-level actual cycle time for completed work
+12. calculates quarter-level outputs
+13. updates `refresh_control.csv`
+14. produces `json_export_view.csv`
 
 ### JSON Export Script
 
@@ -282,6 +347,7 @@ Current package scripts:
 - `npm run preview`
 - `npm run export:metrics-json`
 - `npm run pull:jira-quarterly-metrics`
+- `npm run refresh:static-metrics`
 
 ## Environment Variables
 
@@ -298,14 +364,11 @@ Current relevant variables:
 - `JIRA_BASE_URL`
 - `JIRA_EMAIL`
 - `JIRA_API_TOKEN`
-- `JIRA_SPRINT_FIELD_ID`
-- `JIRA_TEAM_FIELD_ID`
-- `JIRA_STORY_POINTS_FIELD_ID`
-- `JIRA_COMPLETED_STATUSES`
-- `JIRA_INCLUDED_ISSUE_TYPES`
-- `JIRA_EXCLUDED_ISSUE_TYPES`
-- `JIRA_BOARD_IDS`
-- `JIRA_PROJECT_KEYS`
+
+The following are not read from `.env.local` anymore and are now sourced from project config files instead:
+
+- Jira field IDs and tracked team/board definitions: `backend/excel/jira-field-mapping.template.json`
+- issue type scope, completed statuses, and workflow rules: `backend/excel/templates/config.csv`
 
 Important rule:
 
@@ -341,6 +404,12 @@ Important rule:
 
 - `backend/excel/json/metrics.schema.json`
 - `backend/excel/json/metrics.sample.json`
+- `backend/excel/json/metrics.generated.json`
+- `public/data/metrics.generated.json`
+
+The Azure-hosted frontend should read the deployed public file at:
+
+- `/data/metrics.generated.json`
 
 ## Current End-To-End Flow
 
@@ -358,11 +427,29 @@ Jira API
   -> jira_changelog_raw.csv
   -> sprint_calendar.csv
   -> metric_inputs_by_sprint.csv
+  -> cycle_time_issue_level.csv
   -> metric_outputs_by_quarter.csv
   -> json_export_view.csv
-  -> metrics JSON
+  -> backend/excel/json/metrics.generated.json
+  -> public/data/metrics.generated.json
   -> frontend
 ```
+
+## Azure Static Web Apps Flow
+
+Recommended deployment split:
+
+- GitHub Actions workflow `refresh-metrics-json.yml` runs the private Jira pull using repository secrets
+- that workflow writes `backend/excel/json/metrics.generated.json` and copies it to `public/data/metrics.generated.json`
+- GitHub Actions workflow `azure-static-web-apps.yml` builds and deploys the frontend to Azure Static Web Apps
+- the deployed site serves the JSON at `/data/metrics.generated.json`
+
+Required GitHub secrets:
+
+- `AZURE_STATIC_WEB_APPS_API_TOKEN`
+- `JIRA_BASE_URL`
+- `JIRA_EMAIL`
+- `JIRA_API_TOKEN`
 
 ## Current Assumptions
 
@@ -374,12 +461,15 @@ These assumptions are currently in effect:
 - two teams are in scope
 - both teams share the same workflow
 - throughput is based on completed cards
-- cycle time is a proxy, not true Jira timestamp cycle time
+- the dashboard now carries two different cycle time metrics on purpose:
+- `Flow-based Cycle Time Proxy` for system congestion / flow health
+- `Actual Cycle Time` for true elapsed time on completed items
 
 ## Known Limitations
 
 - the current pipeline is focused on Jira only
-- the cycle time metric is still a proxy
+- actual cycle time depends on reliable Jira changelog history and status-category mapping
+- actual cycle time is only available for items that reached the Jira Done category with resolution `Done`
 - the current implementation depends on Jira changelog access
 - generated files are CSV-first, not direct `.xlsx` output
 - the local execution environment used by the coding agent did not have `node` available for runtime smoke testing, so execution must be validated on the user machine

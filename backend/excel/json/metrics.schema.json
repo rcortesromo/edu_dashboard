@@ -48,7 +48,11 @@
           },
           "metricName": {
             "type": "string",
-            "enum": ["Jira Card Churn %", "Estimated Cycle Time (weeks)"]
+            "enum": [
+              "Jira Card Churn %",
+              "Flow-based Cycle Time Proxy (weeks)",
+              "Actual Cycle Time (weeks)"
+            ]
           },
           "value": {
             "type": "number"

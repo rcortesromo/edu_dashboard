@@ -1,0 +1,53 @@
+name: Refresh Metrics JSON
+
+on:
+  workflow_dispatch:
+    inputs:
+      quarter:
+        description: Optional quarter override in YYYY-Q# format
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  refresh_metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Write Jira credentials
+        run: |
+          cat > .env.local <<'EOF'
+          JIRA_BASE_URL=${{ secrets.JIRA_BASE_URL }}
+          JIRA_EMAIL=${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN=${{ secrets.JIRA_API_TOKEN }}
+          EOF
+
+      - name: Refresh metrics assets
+        run: |
+          if [ -n "${{ inputs.quarter }}" ]; then
+            npm run refresh:static-metrics -- --quarter "${{ inputs.quarter }}"
+          else
+            npm run refresh:static-metrics
+          fi
+
+      - name: Commit refreshed metrics
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "refresh metrics json"
+          file_pattern: |
+            backend/excel/json/metrics.generated.json
+            public/data/metrics.generated.json

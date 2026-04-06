@@ -1,110 +1,56 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import TopBar from "./components/TopBar";
+import MetricsView, {
+  buildTeamSummaries,
+  metricDescriptions,
+  metricDisplayOrder,
+  type MetricsPayload,
+} from "./metrics.tsx";
 
 type ViewKey = "home" | "metrics";
 
-const metricPreview = [
-  {
-    name: "Cycle Time Reduction",
-    status: "Yes (partial)",
-    source: "Jira",
-  },
-  {
-    name: "Jira Card Churn",
-    status: "Yes (partial)",
-    source: "Jira",
-  },
-  {
-    name: "Customer Satisfaction",
-    status: "No",
-    source: "Survey tool",
-  },
-];
-
-function HomeView({ onOpenMetrics }: { onOpenMetrics: () => void }) {
+function HomeView({
+  onOpenMetrics,
+}: {
+  onOpenMetrics: () => void;
+}) {
   return (
     <main className="hero">
       <section className="hero-card">
-        <span className="hero-tag">Static SharePoint Pilot</span>
-        <h2>Executive dashboard landing page</h2>
+        <span className="hero-tag">Executive Delivery Snapshot</span>
+        <h2>Quarter-to-date Jira metrics for CXP and Revtrak</h2>
         <p>
-          This React and TypeScript starter mirrors the kind of structure we
-          would use for the real dashboard while still compiling to static files
-          that can be tested in SharePoint.
+          This dashboard summarizes backlog stability, system flow, and actual delivery elapsed time so
+          leaders can compare team health without diving into raw sprint data.
         </p>
 
         <div className="hero-actions">
           <button type="button" className="primary-action" onClick={onOpenMetrics}>
-            Open Dashboard
+            Open Metrics
           </button>
-          <a href="#" className="secondary-action">
-            View Data Sources
-          </a>
         </div>
       </section>
-    </main>
-  );
-}
 
-function MetricsView() {
-  return (
-    <main className="content-shell">
-      <section className="panel">
-        <div className="section-heading">
-          <span className="hero-tag">Preview</span>
-          <h2>Metrics coverage preview</h2>
-          <p>
-            This second view shows how the app can evolve into a modular
-            executive dashboard fed by Excel, JSON, or Power Automate later.
-          </p>
-        </div>
-
-        <div className="kpi-grid">
-          <article className="kpi-card">
-            <span className="kpi-label">Metrics in scope</span>
-            <strong>6</strong>
-          </article>
-          <article className="kpi-card">
-            <span className="kpi-label">Automated</span>
-            <strong>2</strong>
-          </article>
-          <article className="kpi-card">
-            <span className="kpi-label">Partial</span>
-            <strong>2</strong>
-          </article>
-          <article className="kpi-card">
-            <span className="kpi-label">Manual</span>
-            <strong>2</strong>
-          </article>
-        </div>
-
-        <div className="table-card">
-          <div className="table-header">
-            <h3>Sample metric registry</h3>
-            <span className="table-note">Mock data for SharePoint validation</span>
+      <section className="content-shell home-details">
+        <div className="panel">
+          <div className="section-heading">
+            <span className="hero-tag">Current Scope</span>
+            <h2>What the current metrics tell us</h2>
+            <p>
+              These are the three quarter-level measures currently automated from Jira.
+            </p>
           </div>
 
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Metric</th>
-                  <th>Automation</th>
-                  <th>Source</th>
-                </tr>
-              </thead>
-              <tbody>
-                {metricPreview.map((metric) => (
-                  <tr key={metric.name}>
-                    <td>{metric.name}</td>
-                    <td>
-                      <span className="status-pill">{metric.status}</span>
-                    </td>
-                    <td>{metric.source}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div className="metric-summary-grid">
+            {metricDisplayOrder.map((metricName: string, index: number) => (
+              <article key={metricName} className={`metric-summary-card metric-summary-tone-${(index % 3) + 1}`}>
+                <div className="metric-summary-heading">
+                  <p className="metric-explainer-label">Metric</p>
+                  <h3>{metricName}</h3>
+                </div>
+                <p className="metric-summary-description">{metricDescriptions[metricName]}</p>
+              </article>
+            ))}
           </div>
         </div>
       </section>
@@ -114,14 +60,60 @@ function MetricsView() {
 
 function App() {
   const [activeView, setActiveView] = useState<ViewKey>("home");
+  const [payload, setPayload] = useState<MetricsPayload | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadMetrics() {
+      try {
+        setLoading(true);
+        setError("");
+
+        const response = await fetch("./data/metrics.generated.json");
+
+        if (!response.ok) {
+          throw new Error("Published metrics feed is unavailable.");
+        }
+
+        const data = (await response.json()) as MetricsPayload;
+
+        if (!cancelled) {
+          setPayload(data);
+        }
+      } catch (fetchError) {
+        if (!cancelled) {
+          setError(
+            fetchError instanceof Error
+              ? fetchError.message
+              : "Unable to load the published metrics feed.",
+          );
+        }
+      } finally {
+        if (!cancelled) {
+          setLoading(false);
+        }
+      }
+    }
+
+    loadMetrics();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const teamSummaries = useMemo(() => buildTeamSummaries(payload), [payload]);
 
   const currentView = useMemo(() => {
     if (activeView === "metrics") {
-      return <MetricsView />;
+      return <MetricsView teams={teamSummaries} loading={loading} error={error} />;
     }
 
     return <HomeView onOpenMetrics={() => setActiveView("metrics")} />;
-  }, [activeView]);
+  }, [activeView, error, loading, teamSummaries]);
 
   return (
     <div className="app-shell">

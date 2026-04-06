@@ -17,7 +17,7 @@ workflow_order,status_name,In Verification,90,yes,Shared workflow order for Team
 workflow_order,status_name,Closed,100,yes,Shared workflow order for Team Webstore and Team Connexpoint.
 business_rule,committed_at_sprint_start,in_sprint_at_exact_sprint_start_timestamp,,yes,Default v1 sprint commitment rule.
 business_rule,late_added_cards_treatment,churn_only,,yes,Change if late-added cards should also affect throughput or WIP.
-business_rule,throughput_unit,completed_cards,,yes,Default for estimated cycle time proxy.
+business_rule,throughput_unit,completed_cards,,yes,Default for flow-based cycle time proxy.
 business_rule,reestimate_counting,once_per_issue_per_sprint,,yes,Count multiple point changes on the same issue once in v1.
 business_rule,backward_move_rule,transition_to_earlier_workflow_stage_after_sprint_start,,yes,Uses workflow order rows above.
 quarter_rule,quarter_convention,calendar,,yes,Examples: calendar or fiscal.

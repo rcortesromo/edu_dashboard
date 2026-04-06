@@ -17,12 +17,23 @@
     {
       "team": "Payments",
       "quarter": "2026-Q1",
-      "metricName": "Estimated Cycle Time (weeks)",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 2.7,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
-      "note": "Proxy metric based on average WIP and throughput per sprint.",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-03-31T18:00:00Z"
+    },
+    {
+      "team": "Payments",
+      "quarter": "2026-Q1",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.9,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start status to the Jira Done category.",
       "lastRefreshUtc": "2026-03-31T18:00:00Z"
     }
   ]

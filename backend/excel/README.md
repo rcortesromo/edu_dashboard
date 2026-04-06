@@ -7,7 +7,8 @@ The design uses sprint-level Jira data as the raw layer, then rolls the metrics 
 ## V1 scope
 
 - `Jira Card Churn %`
-- `Estimated Cycle Time (weeks)`
+- `Flow-based Cycle Time Proxy (weeks)`
+- `Actual Cycle Time (weeks)`
 
 ## Reporting model
 
@@ -15,6 +16,7 @@ The design uses sprint-level Jira data as the raw layer, then rolls the metrics 
 - Executive reporting grain: `team x quarter`
 - Source system: `Jira`
 - Data handoff to frontend: `JSON`
+- Work-item unit can be team-specific when one board flows on subtasks
 
 ## Workbook tabs
 
@@ -25,8 +27,9 @@ The workbook should contain these tabs in this order:
 3. `jira_changelog_raw`
 4. `sprint_calendar`
 5. `metric_inputs_by_sprint`
-6. `metric_outputs_by_quarter`
-7. `json_export_view`
+6. `cycle_time_issue_level`
+7. `metric_outputs_by_quarter`
+8. `json_export_view`
 
 CSV templates for each tab live in `templates/`.
 
@@ -71,7 +74,7 @@ Quarter-level rollup:
 
 This avoids distorting quarter results by averaging sprint percentages directly.
 
-### Estimated Cycle Time (weeks)
+### Flow-based Cycle Time Proxy (weeks)
 
 Sprint-level proxy:
 
@@ -81,7 +84,25 @@ Quarter-level rollup:
 
 `(Average sprint WIP across the quarter / Average sprint throughput across the quarter) * 2`
 
-This remains a proxy until true cycle time can be derived from Jira timestamps.
+This is a system-flow proxy, not true elapsed issue duration.
+
+### Actual Cycle Time (weeks)
+
+True cycle time is calculated per completed issue from a team-specific start rule until the Jira Done category, but only when the issue resolution at that closing timestamp is `Done`.
+
+Current v1 team rules:
+
+- `Team Webstore`: `In Development -> Done category`
+- `Team Connexpoint`: `In Development -> Done category`
+
+Quarter rollup:
+
+- average the completed-item cycle times whose end timestamp falls inside the target quarter
+- for each completed item, use the last matching start-state transition before the valid close
+
+Flow-based completion rule:
+
+- completed cards used for throughput only count when the issue also has resolution `Done`
 
 ## File roles
 
@@ -102,9 +123,11 @@ Recommended variables:
 - `JIRA_BASE_URL`
 - `JIRA_EMAIL`
 - `JIRA_API_TOKEN`
-- `JIRA_SPRINT_FIELD_ID`
-- `JIRA_TEAM_FIELD_ID`
-- `JIRA_STORY_POINTS_FIELD_ID`
+
+Configuration source of truth:
+
+- Jira field IDs and tracked team settings live in `jira-field-mapping.template.json`
+- issue type scope, completed statuses, and workflow rules live in `templates/config.csv`
 
 Separation of responsibilities in the same repo:
 
@@ -122,6 +145,7 @@ Do not pass Jira secrets into `src/`, `public/`, or any `VITE_*` variable unless
 4. Roll up to `metric_outputs_by_quarter`.
 5. Flatten into `json_export_view`.
 6. Export that view to a JSON payload matching `json/metrics.schema.json`.
+7. Copy the generated JSON into `public/data/metrics.generated.json` when publishing through the frontend.
 
 ## JSON export helper
 
@@ -133,9 +157,22 @@ npm run export:metrics-json -- "backend/excel/examples/json_export_view.sample.c
 
 Replace the sample CSV path with the real CSV export from Excel.
 
+## Static App refresh helper
+
+To refresh both the internal JSON contract and the public frontend JSON in one step:
+
+```bash
+npm run refresh:static-metrics -- --quarter 2026-Q1
+```
+
+This updates:
+
+- `backend/excel/json/metrics.generated.json`
+- `public/data/metrics.generated.json`
+
 ## Jira extraction helper
 
-Use the Node.js pipeline to pull the current quarter for the configured teams and calculate the first two metrics:
+Use the Node.js pipeline to pull the current quarter for the configured teams and calculate the current v1 metrics:
 
 ```bash
 npm run pull:jira-quarterly-metrics
@@ -147,6 +184,7 @@ Generated files:
 - `backend/excel/generated/jira_changelog_raw.csv`
 - `backend/excel/generated/sprint_calendar.csv`
 - `backend/excel/generated/metric_inputs_by_sprint.csv`
+- `backend/excel/generated/cycle_time_issue_level.csv`
 - `backend/excel/generated/metric_outputs_by_quarter.csv`
 - `backend/excel/generated/json_export_view.csv`
 - `backend/excel/generated/refresh_control.csv`
