@@ -36,6 +36,115 @@ The tracked teams for v1 are:
 - `Team Webstore`
 - `Team Connexpoint`
 
+Frontend display labels currently used:
+
+- `Team Webstore` -> `Revtrak`
+- `Team Connexpoint` -> `CXP`
+
+## EDU Portfolio Rollup
+
+The frontend now includes an `EDU` portfolio rollup.
+
+`EDU` is not a separate Jira team or board.
+
+It is a derived quarter-level aggregate built from the in-scope delivery teams:
+
+- `CXP`
+- `Revtrak`
+
+Today that means:
+
+- `Team Connexpoint`
+- `Team Webstore`
+
+In the future, more teams can be added to the same portfolio rollup without changing the frontend structure.
+
+### Why EDU Is Derived
+
+`EDU` must not be calculated by taking a simple average of already-rolled team metrics.
+
+Some metrics are ratios and some are weighted averages, so averaging the visible team values would distort the portfolio result.
+
+Instead, the pipeline rebuilds `EDU` from the correct denominators or weights.
+
+### EDU Aggregation Rules
+
+#### Jira Card Churn %
+
+`EDU` churn is rebuilt from the total churn-event counts and the total committed baseline across all in-scope teams.
+
+Formula:
+
+```text
+EDU Jira Card Churn % =
+((sum removed + sum re-estimated + sum sent backward) / sum committed at sprint start) * 100
+```
+
+This is a weighted portfolio ratio, not the average of team churn percentages.
+
+#### Average Velocity (points per sprint)
+
+`EDU` velocity is weighted by the number of counted sprints across the in-scope teams.
+
+Formula:
+
+```text
+EDU Average Velocity =
+sum(team average velocity * team sprint count) / sum(team sprint count)
+```
+
+Equivalent interpretation:
+
+```text
+EDU Average Velocity =
+total completed points across in-scope teams / total counted sprints across in-scope teams
+```
+
+This is not the simple average of team velocity values.
+
+#### Flow-based Cycle Time Proxy (weeks)
+
+`EDU` flow-based cycle time proxy is rebuilt from total WIP and total throughput across the included teams.
+
+Formula:
+
+```text
+EDU Flow-based Cycle Time Proxy =
+(sum portfolio WIP across counted sprints / sum portfolio throughput across counted sprints) * 2
+```
+
+Equivalent implementation using the current quarter output rows:
+
+```text
+((sum(team average WIP * team sprint count)) / (sum(team average throughput * team sprint count))) * 2
+```
+
+This is not the average of team proxy values.
+
+#### Actual Cycle Time (weeks)
+
+`EDU` actual cycle time is weighted by the completed issue count from each team.
+
+Formula:
+
+```text
+EDU Actual Cycle Time =
+sum(team actual cycle time * team completed-item count) / sum(team completed-item count)
+```
+
+This preserves the true portfolio average elapsed time for completed work.
+
+### Current Example: 2026-Q1
+
+Using the current `CXP + Revtrak` quarter output:
+
+- `EDU Jira Card Churn %` = `10.79%`
+- `EDU Average Velocity` = `37.65 points per sprint`
+- `EDU Flow-based Cycle Time Proxy` = `1.80 weeks`
+- `EDU Actual Cycle Time` = `1.01 weeks`
+
+These values are published into the same frontend JSON feed as the team-level rows, with `team = EDU`.
+
 These teams are configured in:
 
 - `backend/excel/jira-field-mapping.template.json`

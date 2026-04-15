@@ -11,6 +11,7 @@ const mappingPath = path.join(repoRoot, "backend/excel/jira-field-mapping.templa
 const configPath = path.join(repoRoot, "backend/excel/templates/config.csv");
 const generatedDir = path.join(repoRoot, "backend/excel/generated");
 const doneOnlyResolution = "done";
+const portfolioTeamName = "EDU";
 
 const outputFiles = {
   metricOutputsByQuarter: path.join(generatedDir, "metric_outputs_by_quarter.csv"),
@@ -439,6 +440,14 @@ function round(value, decimals = 2) {
   }
 
   return Number(value.toFixed(decimals));
+}
+
+function safeDivide(numerator, denominator) {
+  if (!denominator) {
+    return null;
+  }
+
+  return numerator / denominator;
 }
 
 function splitPipeList(value) {
@@ -1698,6 +1707,138 @@ async function processQuarterWindow({
       full_recalculation_required_flag: quarterStatus === "in_progress" ? "yes" : "no",
       notes: quarterStatus === "in_progress" ? "Current quarter is recalculated on every run." : "",
     });
+  }
+
+  if (metricOutputsByQuarterRows.length > 0) {
+    const sprintCountTotal = metricOutputsByQuarterRows.reduce(
+      (sum, row) => sum + Number(row.sprints_in_quarter || 0),
+      0,
+    );
+    const committedTotal = metricOutputsByQuarterRows.reduce(
+      (sum, row) => sum + Number(row.cards_committed_at_start_total || 0),
+      0,
+    );
+    const removedTotal = metricOutputsByQuarterRows.reduce(
+      (sum, row) => sum + Number(row.cards_removed_after_start_total || 0),
+      0,
+    );
+    const reestimatedTotal = metricOutputsByQuarterRows.reduce(
+      (sum, row) => sum + Number(row.cards_reestimated_after_start_total || 0),
+      0,
+    );
+    const backwardTotal = metricOutputsByQuarterRows.reduce(
+      (sum, row) => sum + Number(row.cards_sent_backward_after_start_total || 0),
+      0,
+    );
+    const totalWipAcrossSprints = metricOutputsByQuarterRows.reduce(
+      (sum, row) => sum + Number(row.average_wip_cards || 0) * Number(row.sprints_in_quarter || 0),
+      0,
+    );
+    const totalThroughputAcrossSprints = metricOutputsByQuarterRows.reduce(
+      (sum, row) =>
+        sum + Number(row.average_throughput_cards_per_sprint || 0) * Number(row.sprints_in_quarter || 0),
+      0,
+    );
+    const totalVelocityPointsAcrossSprints = metricOutputsByQuarterRows.reduce(
+      (sum, row) => sum + Number(row.average_velocity_points_per_sprint || 0) * Number(row.sprints_in_quarter || 0),
+      0,
+    );
+    const actualCycleTimeIssueCount = metricOutputsByQuarterRows.reduce(
+      (sum, row) => sum + Number(row.actual_cycle_time_issue_count || 0),
+      0,
+    );
+    const weightedActualCycleTimeTotal = metricOutputsByQuarterRows.reduce(
+      (sum, row) => sum + Number(row.actual_cycle_time_weeks || 0) * Number(row.actual_cycle_time_issue_count || 0),
+      0,
+    );
+    const averageWipCards = safeDivide(totalWipAcrossSprints, sprintCountTotal);
+    const averageThroughputCards = safeDivide(totalThroughputAcrossSprints, sprintCountTotal);
+    const averageVelocityPoints = safeDivide(totalVelocityPointsAcrossSprints, sprintCountTotal);
+    const churnPct = safeDivide(removedTotal + reestimatedTotal + backwardTotal, committedTotal);
+    const flowBasedCycleTimeProxy = safeDivide(totalWipAcrossSprints, totalThroughputAcrossSprints);
+    const actualCycleTimeWeeks = safeDivide(weightedActualCycleTimeTotal, actualCycleTimeIssueCount);
+    const portfolioDataQualityNotes = [];
+
+    if (now <= quarterWindow.end) {
+      portfolioDataQualityNotes.push("Quarter is still in progress; values are quarter-to-date.");
+    }
+
+    portfolioDataQualityNotes.push(
+      `Portfolio rollup across ${teams.length} in-scope teams: ${teams.map((team) => team.teamName).join(", ")}.`,
+    );
+    portfolioDataQualityNotes.push(
+      "Velocity is weighted by team sprint count; churn, flow, and actual cycle time are rebuilt from aggregate denominators.",
+    );
+
+    metricOutputsByQuarterRows.unshift({
+      team_name: portfolioTeamName,
+      quarter_label: quarterWindow.label,
+      quarter_start_date: toIsoDate(quarterWindow.start),
+      quarter_end_date: toIsoDate(quarterWindow.end),
+      sprints_in_quarter: String(sprintCountTotal),
+      cards_committed_at_start_total: String(committedTotal),
+      cards_removed_after_start_total: String(removedTotal),
+      cards_reestimated_after_start_total: String(reestimatedTotal),
+      cards_sent_backward_after_start_total: String(backwardTotal),
+      jira_card_churn_pct: round(churnPct === null ? null : churnPct * 100),
+      average_wip_cards: round(averageWipCards, 4),
+      average_throughput_cards_per_sprint: round(averageThroughputCards, 4),
+      average_velocity_points_per_sprint: round(averageVelocityPoints, 4),
+      flow_based_cycle_time_proxy_weeks: round(
+        flowBasedCycleTimeProxy === null ? null : flowBasedCycleTimeProxy * 2,
+      ),
+      actual_cycle_time_weeks: round(actualCycleTimeWeeks),
+      actual_cycle_time_issue_count: String(actualCycleTimeIssueCount),
+      data_quality_note: portfolioDataQualityNotes.join(" | "),
+      last_refresh_utc: refreshTimestamp,
+    });
+
+    jsonExportViewRows.unshift(
+      {
+        team_name: portfolioTeamName,
+        quarter_label: quarterWindow.label,
+        metric_name: "Actual Cycle Time (weeks)",
+        metric_value: round(actualCycleTimeWeeks),
+        metric_unit: "weeks",
+        source_system: "Jira",
+        coverage_status: "Yes (partial)",
+        note: "Portfolio rollup weighted by completed items across all in-scope teams.",
+        last_refresh_utc: refreshTimestamp,
+      },
+      {
+        team_name: portfolioTeamName,
+        quarter_label: quarterWindow.label,
+        metric_name: "Flow-based Cycle Time Proxy (weeks)",
+        metric_value: round(flowBasedCycleTimeProxy === null ? null : flowBasedCycleTimeProxy * 2),
+        metric_unit: "weeks",
+        source_system: "Jira",
+        coverage_status: "Yes (partial)",
+        note: "Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
+        last_refresh_utc: refreshTimestamp,
+      },
+      {
+        team_name: portfolioTeamName,
+        quarter_label: quarterWindow.label,
+        metric_name: "Average Velocity (points per sprint)",
+        metric_value: round(averageVelocityPoints),
+        metric_unit: "points",
+        source_system: "Jira",
+        coverage_status: "Yes (partial)",
+        note: "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
+        last_refresh_utc: refreshTimestamp,
+      },
+      {
+        team_name: portfolioTeamName,
+        quarter_label: quarterWindow.label,
+        metric_name: "Jira Card Churn %",
+        metric_value: round(churnPct === null ? null : churnPct * 100),
+        metric_unit: "percent",
+        source_system: "Jira",
+        coverage_status: "Yes (partial)",
+        note: "Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
+        last_refresh_utc: refreshTimestamp,
+      },
+    );
   }
 
   await fs.mkdir(generatedDir, { recursive: true });

@@ -22,6 +22,7 @@ export type TeamSummary = {
   quarter: string;
   lastRefreshUtc: string;
   metrics: MetricRecord[];
+  isPortfolio: boolean;
 };
 
 export const metricDescriptions: Record<string, string> = {
@@ -43,13 +44,14 @@ export const metricDisplayOrder = [
 ];
 
 const teamDisplayMap: Record<string, string> = {
+  EDU: "EDU",
   "Team Connexpoint": "CXP",
   "Team Webstore": "Revtrak",
 };
 
-const teamDisplayOrder = ["Team Connexpoint", "Team Webstore"];
+const preferredTeamOrder = ["EDU", "Team Connexpoint", "Team Webstore"];
 
-function formatMetricValue(metric: MetricRecord) {
+export function formatMetricValue(metric: MetricRecord) {
   if (metric.unit === "percent") {
     return `${metric.value.toFixed(2)}%`;
   }
@@ -70,7 +72,15 @@ export function buildTeamSummaries(payload: MetricsPayload | null) {
     return [];
   }
 
-  return teamDisplayOrder.map((teamKey) => {
+  const availableTeamKeys = [...new Set([...payload.teams, ...payload.metrics.map((metric) => metric.team)])];
+  const remainingTeamKeys = availableTeamKeys
+    .filter((teamKey) => !preferredTeamOrder.includes(teamKey))
+    .sort((left, right) => left.localeCompare(right));
+  const orderedTeamKeys = [...preferredTeamOrder, ...remainingTeamKeys].filter((teamKey) =>
+    availableTeamKeys.includes(teamKey),
+  );
+
+  return orderedTeamKeys.map((teamKey) => {
     const teamMetrics = payload.metrics
       .filter((metric) => metric.team === teamKey)
       .sort(
@@ -84,8 +94,89 @@ export function buildTeamSummaries(payload: MetricsPayload | null) {
       quarter: teamMetrics[0]?.quarter ?? payload.quarters[0] ?? "Quarter unavailable",
       lastRefreshUtc: teamMetrics[0]?.lastRefreshUtc ?? "",
       metrics: teamMetrics,
+      isPortfolio: teamKey === "EDU",
     };
   });
+}
+
+function portfolioMetricHint(metricName: string) {
+  if (metricName === "Jira Card Churn %") {
+    return "Weighted by committed work";
+  }
+
+  if (metricName === "Average Velocity (points per sprint)") {
+    return "Weighted by team sprint count";
+  }
+
+  if (metricName === "Flow-based Cycle Time Proxy (weeks)") {
+    return "Rebuilt from total WIP and throughput";
+  }
+
+  if (metricName === "Actual Cycle Time (weeks)") {
+    return "Weighted by completed items";
+  }
+
+  return "Portfolio rollup";
+}
+
+export function PortfolioRollup({
+  portfolioTeam,
+  deliveryTeams,
+}: {
+  portfolioTeam: TeamSummary;
+  deliveryTeams: TeamSummary[];
+}) {
+  return (
+    <section className="portfolio-rollup">
+      <div className="portfolio-header">
+        <div>
+          <p className="team-card-tag">Portfolio rollup</p>
+          <h3>{portfolioTeam.teamLabel} aggregate</h3>
+          <p className="portfolio-description">CXP + Revtrak</p>
+        </div>
+
+        <div className="portfolio-meta">
+          <span>{deliveryTeams.length} teams in scope</span>
+          <span>{portfolioTeam.quarter}</span>
+        </div>
+      </div>
+
+      <div className="portfolio-metrics">
+        {portfolioTeam.metrics.map((metric) => (
+          <article key={metric.metricName} className="portfolio-metric-card">
+            <div className="portfolio-metric-copy">
+              <p className="team-metric-name">{metric.metricName}</p>
+              <p className="portfolio-metric-hint">{portfolioMetricHint(metric.metricName)}</p>
+            </div>
+
+            <div className="team-metric-value portfolio-metric-value">
+              <strong>{formatMetricValue(metric)}</strong>
+              <span>{portfolioTeam.quarter}</span>
+            </div>
+
+            <div className="portfolio-contributions">
+              {deliveryTeams.map((team) => {
+                const contributionMetric = team.metrics.find(
+                  (teamMetric) => teamMetric.metricName === metric.metricName,
+                );
+
+                if (!contributionMetric) {
+                  return null;
+                }
+
+                return (
+                  <span key={`${metric.metricName}-${team.teamKey}`} className="contribution-chip">
+                    <strong>{team.teamLabel}</strong>
+                    {formatMetricValue(contributionMetric)}
+                  </span>
+                );
+              })}
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
 }
 
 function MetricsView({
@@ -99,6 +190,7 @@ function MetricsView({
 }) {
   const hasAnyMetrics = teams.some((team) => team.metrics.length > 0);
   const visibleTeams = teams.filter((team) => team.metrics.length > 0);
+  const deliveryTeams = visibleTeams.filter((team) => !team.isPortfolio);
   const activeQuarter = visibleTeams[0]?.quarter ?? "Quarter unavailable";
 
   return (
@@ -120,7 +212,7 @@ function MetricsView({
         {!loading && !error && hasAnyMetrics ? (
           <div className="quarter-report">
             <div className="team-section-list">
-              {teams.map((team) => (
+              {deliveryTeams.map((team) => (
                 <section key={team.teamKey} className="team-section">
                   <div className="team-section-header">
                     <div>
@@ -143,9 +235,6 @@ function MetricsView({
 
                           <div className="team-metric-copy">
                             <p className="team-metric-name">{metric.metricName}</p>
-                            <p className="team-metric-description">
-                              {metricDescriptions[metric.metricName] ?? metric.note}
-                            </p>
                           </div>
 
                           <div className="team-metric-value">

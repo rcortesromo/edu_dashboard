@@ -1,19 +1,26 @@
 import { useEffect, useMemo, useState } from "react";
 import TopBar from "./components/TopBar";
 import MetricsView, {
+  PortfolioRollup,
   buildTeamSummaries,
   metricDescriptions,
   metricDisplayOrder,
   type MetricsPayload,
+  type TeamSummary,
 } from "./metrics.tsx";
 
 type ViewKey = "home" | "metrics";
 
 function HomeView({
   onOpenMetrics,
+  teams,
 }: {
   onOpenMetrics: () => void;
+  teams: TeamSummary[];
 }) {
+  const portfolioTeam = teams.find((team) => team.isPortfolio && team.metrics.length > 0);
+  const deliveryTeams = teams.filter((team) => !team.isPortfolio && team.metrics.length > 0);
+
   return (
     <main className="hero">
       <section className="hero-card">
@@ -40,17 +47,29 @@ function HomeView({
             </p>
           </div>
 
-          <div className="metric-summary-grid">
-            {metricDisplayOrder.map((metricName: string, index: number) => (
-              <article key={metricName} className={`metric-summary-card metric-summary-tone-${(index % 3) + 1}`}>
-                <div className="metric-summary-heading">
-                  <p className="metric-explainer-label">Metric</p>
-                  <h3>{metricName}</h3>
+          {portfolioTeam ? (
+            <div className="home-portfolio-wrap">
+              <PortfolioRollup portfolioTeam={portfolioTeam} deliveryTeams={deliveryTeams} />
+            </div>
+          ) : null}
+
+          <article className="metric-reference-card">
+            <div className="metric-reference-header">
+              <div>
+                <p className="metric-explainer-label">Metric Reference</p>
+                <h3>How to read each metric</h3>
+              </div>
+            </div>
+
+            <div className="metric-reference-list">
+              {metricDisplayOrder.map((metricName: string) => (
+                <div key={metricName} className="metric-reference-item">
+                  <h4>{metricName}</h4>
+                  <p>{metricDescriptions[metricName]}</p>
                 </div>
-                <p className="metric-summary-description">{metricDescriptions[metricName]}</p>
-              </article>
-            ))}
-          </div>
+              ))}
+            </div>
+          </article>
         </div>
       </section>
     </main>
@@ -111,7 +130,7 @@ function App() {
       return <MetricsView teams={teamSummaries} loading={loading} error={error} />;
     }
 
-    return <HomeView onOpenMetrics={() => setActiveView("metrics")} />;
+    return <HomeView onOpenMetrics={() => setActiveView("metrics")} teams={teamSummaries} />;
   }, [activeView, error, loading, teamSummaries]);
 
   return (

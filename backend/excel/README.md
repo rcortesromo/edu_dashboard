@@ -19,6 +19,32 @@ The design uses sprint-level Jira data as the raw layer, then rolls the metrics 
 - Data handoff to frontend: `JSON`
 - Work-item unit can be team-specific when one board flows on subtasks
 
+## EDU portfolio layer
+
+The reporting layer now also supports a derived portfolio row named `EDU`.
+
+`EDU` is not a Jira-native team.
+
+It is a synthetic quarter-level rollup built from the tracked in-scope teams.
+
+Current frontend labels:
+
+- `Team Connexpoint` -> `CXP`
+- `Team Webstore` -> `Revtrak`
+
+Current portfolio composition:
+
+- `CXP`
+- `Revtrak`
+
+The `EDU` row is emitted alongside the team rows in:
+
+- `metric_outputs_by_quarter.csv`
+- `json_export_view.csv`
+- the exported frontend JSON payload
+
+This allows the frontend to render one portfolio summary card group above the team-level breakdown.
+
 ## Workbook tabs
 
 The workbook should contain these tabs in this order:
@@ -75,6 +101,12 @@ Quarter-level rollup:
 
 This avoids distorting quarter results by averaging sprint percentages directly.
 
+`EDU` rollup rule:
+
+`((sum removed + sum re-estimated + sum sent backward) / sum committed at sprint start) * 100`
+
+Do not average team churn percentages directly.
+
 ### Flow-based Cycle Time Proxy (weeks)
 
 Sprint-level proxy:
@@ -86,6 +118,15 @@ Quarter-level rollup:
 `(Average sprint WIP across the quarter / Average sprint throughput across the quarter) * 2`
 
 This is a system-flow proxy, not true elapsed issue duration.
+
+`EDU` rollup rule:
+
+`(sum(team average WIP * team sprint count) / sum(team average throughput * team sprint count)) * 2`
+
+Equivalent interpretation:
+
+- rebuild from total portfolio WIP and total portfolio throughput
+- do not average team proxy values directly
 
 ### Average Velocity (points per sprint)
 
@@ -104,6 +145,17 @@ Current source rule:
 - `Team Webstore`: calculated completed points from in-scope issues
 - `Team Connexpoint`: Jira board velocity report
 
+`EDU` rollup rule:
+
+`sum(team average velocity * team sprint count) / sum(team sprint count)`
+
+Equivalent interpretation:
+
+- total completed points across in-scope teams
+- divided by total counted sprints across in-scope teams
+
+Do not average team velocity values directly.
+
 ### Actual Cycle Time (weeks)
 
 True cycle time is calculated per completed issue from a team-specific start rule until the Jira Done category, but only when the issue resolution at that closing timestamp is `Done`.
@@ -121,6 +173,21 @@ Quarter rollup:
 Flow-based completion rule:
 
 - completed cards used for throughput only count when the issue also has resolution `Done`
+
+`EDU` rollup rule:
+
+`sum(team actual cycle time * team completed-item count) / sum(team completed-item count)`
+
+Do not average team actual cycle time values directly.
+
+## Current EDU example
+
+For the current `CXP + Revtrak` quarter in the generated sample output:
+
+- `EDU Jira Card Churn %` = `10.79%`
+- `EDU Average Velocity (points per sprint)` = `37.65`
+- `EDU Flow-based Cycle Time Proxy (weeks)` = `1.80`
+- `EDU Actual Cycle Time (weeks)` = `1.01`
 
 ## File roles
 
