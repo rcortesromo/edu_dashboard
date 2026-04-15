@@ -17,6 +17,17 @@
     {
       "team": "Payments",
       "quarter": "2026-Q1",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 34.5,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-03-31T18:00:00Z"
+    },
+    {
+      "team": "Payments",
+      "quarter": "2026-Q1",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 2.7,
       "unit": "weeks",

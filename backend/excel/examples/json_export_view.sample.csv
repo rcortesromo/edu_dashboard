@@ -1,4 +1,5 @@
 team_name,quarter_label,metric_name,metric_value,metric_unit,source_system,coverage_status,note,last_refresh_utc
 Payments,2026-Q1,Jira Card Churn %,18.4,percent,Jira,Yes (partial),Calculated from sprint changelog events rolled into the quarter.,2026-03-31T18:00:00Z
+Payments,2026-Q1,Average Velocity (points per sprint),34.5,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-03-31T18:00:00Z
 Payments,2026-Q1,Flow-based Cycle Time Proxy (weeks),2.7,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-03-31T18:00:00Z
 Payments,2026-Q1,Actual Cycle Time (weeks),1.9,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-03-31T18:00:00Z

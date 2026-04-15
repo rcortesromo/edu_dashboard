@@ -14,11 +14,12 @@ The current implementation focus is the backend data pipeline for Jira-based met
 
 ## Current Scope
 
-The first version currently targets these three metrics:
+The first version currently targets these four metrics:
 
 1. `Jira Card Churn %`
-2. `Flow-based Cycle Time Proxy (weeks)`
-3. `Actual Cycle Time (weeks)`
+2. `Average Velocity (points per sprint)`
+3. `Flow-based Cycle Time Proxy (weeks)`
+4. `Actual Cycle Time (weeks)`
 
 These metrics are reported by:
 
@@ -123,6 +124,30 @@ Executive reading:
 
 - `lower = better flow`
 - `higher = more work accumulating in the system`
+
+### Average Velocity (points per sprint)
+
+This is the team's average completed story points per sprint across the quarter.
+
+Definition:
+
+```text
+Average Velocity (points per sprint) = sum of completed story points across quarter sprints / number of sprints in quarter
+```
+
+What it means:
+
+- this is a sprint-capacity output signal, not a flow-time metric
+- higher usually means the team completed more story points per sprint
+- lower usually means fewer story points were completed per sprint
+
+Important design choices:
+
+- the base sprint value comes from `completed_points`
+- only completed work that passes the existing completion gate is counted
+- the quarter value is the average across the sprints included in that quarter
+- `Team Webstore` currently uses calculated completed points from in-scope issues
+- `Team Connexpoint` currently uses the Jira board velocity report because its subtasks do not reliably carry sprint points for this metric
 
 ### Actual Cycle Time (weeks)
 
@@ -291,14 +316,16 @@ The Jira pipeline writes generated files to:
 
 Current generated output targets:
 
-- `jira_issues_raw.csv`
-- `jira_changelog_raw.csv`
-- `sprint_calendar.csv`
-- `metric_inputs_by_sprint.csv`
-- `cycle_time_issue_level.csv`
-- `metric_outputs_by_quarter.csv`
-- `json_export_view.csv`
-- `refresh_control.csv`
+- partitioned raw outputs under year folders, for example:
+  - `2026/jira_issues_raw_2026-Q1.csv`
+  - `2026/jira_changelog_raw_2026-Q1.csv`
+  - `2026/sprint_calendar_2026-Q1.csv`
+  - `2026/metric_inputs_by_sprint_2026-Q1.csv`
+  - `2026/cycle_time_issue_level_2026-Q1.csv`
+- consolidated reporting outputs at the root:
+  - `metric_outputs_by_quarter.csv`
+  - `json_export_view.csv`
+  - `refresh_control.csv`
 
 This folder is ignored by git.
 
@@ -315,12 +342,12 @@ What it does:
 1. reads `.env.local`
 2. reads Jira team scope and field mapping from `backend/excel/jira-field-mapping.template.json`
 3. reads rules from `backend/excel/templates/config.csv`
-4. determines the current quarter
+4. determines the target reporting period
 5. fetches Jira statuses to resolve status categories such as `In Progress` and `Done`
 6. fetches sprints for the configured boards
-7. fetches Jira issues for the current quarter
+7. fetches Jira issues for each target quarter in the reporting period
 8. fetches changelog for relevant issues
-9. writes raw issue and changelog CSV outputs
+9. writes quarter-specific raw CSV outputs inside the target year folder
 10. calculates sprint-level metric inputs
 11. calculates issue-level actual cycle time for completed work
 12. calculates quarter-level outputs
@@ -495,13 +522,66 @@ npm run pull:jira-quarterly-metrics -- --quarter 2026-Q1
    - `YYYY-Q#`
    - example: `2026-Q1`
 
+1. Or backfill multiple quarters from a starting year through the current quarter:
+
+```bash
+npm run pull:jira-quarterly-metrics -- --from-year 2024
+```
+
+1. Accepted year format:
+   - `YYYY`
+   - example: `2024`
+
+1. Period selection behavior:
+   - `--quarter 2026-Q1` processes only that quarter
+   - `--from-year 2024` processes `2024-Q1` through the current quarter
+   - no period argument defaults to the current quarter
+   - `--quarter` and `--from-year` cannot be used together in the same run
+
 1. Review:
    - `backend/excel/generated/*.csv`
+   - `backend/excel/generated/<year>/*.csv`
 1. Run:
 
 ```bash
 npm run export:metrics-json -- "backend/excel/generated/json_export_view.csv" "backend/excel/json/metrics.generated.json"
 ```
+
+## Yearly Charting Approach
+
+For yearly visuals, the recommended source of truth remains quarter-level outputs.
+
+- the script still calculates and stores metrics at `team x quarter`
+- a chart for `2024 to today` should plot quarter points grouped by year
+- for example, `2024-Q1`, `2024-Q2`, `2024-Q3`, `2024-Q4`, `2025-Q1`, and so on
+- this avoids distorting `Jira Card Churn %` by averaging already-aggregated percentages at the wrong level
+- it also preserves the existing interpretation of `Flow-based Cycle Time Proxy (weeks)` and `Actual Cycle Time (weeks)`
+
+If leadership later wants a single annual KPI like `2024`, `2025`, or `2026 YTD`, that should be added as a separate derived annual layer built from quarter outputs rather than replacing the quarter model.
+
+## Partitioned Raw Storage
+
+Raw and issue-level generated files are now partitioned by year folder and quarter-specific filename.
+
+Example structure:
+
+```text
+backend/excel/generated/
+  2026/
+    jira_issues_raw_2026-Q1.csv
+    jira_changelog_raw_2026-Q1.csv
+    sprint_calendar_2026-Q1.csv
+    metric_inputs_by_sprint_2026-Q1.csv
+    cycle_time_issue_level_2026-Q1.csv
+  2027/
+    jira_issues_raw_2027-Q1.csv
+    ...
+  metric_outputs_by_quarter.csv
+  json_export_view.csv
+  refresh_control.csv
+```
+
+This keeps large raw datasets partitioned over time, while the smaller consolidated reporting files remain in one place for JSON export and frontend refresh.
 
 ## Next Logical Enhancements
 

@@ -7,6 +7,7 @@ The design uses sprint-level Jira data as the raw layer, then rolls the metrics 
 ## V1 scope
 
 - `Jira Card Churn %`
+- `Average Velocity (points per sprint)`
 - `Flow-based Cycle Time Proxy (weeks)`
 - `Actual Cycle Time (weeks)`
 
@@ -85,6 +86,23 @@ Quarter-level rollup:
 `(Average sprint WIP across the quarter / Average sprint throughput across the quarter) * 2`
 
 This is a system-flow proxy, not true elapsed issue duration.
+
+### Average Velocity (points per sprint)
+
+Sprint-level value:
+
+`completed story points in the sprint`
+
+Quarter-level rollup:
+
+`sum of completed story points across quarter sprints / number of sprints in quarter`
+
+This is a sprint-output metric for the team, not a flow-time metric.
+
+Current source rule:
+
+- `Team Webstore`: calculated completed points from in-scope issues
+- `Team Connexpoint`: Jira board velocity report
 
 ### Actual Cycle Time (weeks)
 
@@ -178,13 +196,49 @@ Use the Node.js pipeline to pull the current quarter for the configured teams an
 npm run pull:jira-quarterly-metrics
 ```
 
+Run a specific quarter:
+
+```bash
+npm run pull:jira-quarterly-metrics -- --quarter 2026-Q1
+```
+
+Backfill all quarters from a starting year through the current quarter:
+
+```bash
+npm run pull:jira-quarterly-metrics -- --from-year 2024
+```
+
+Period argument behavior:
+
+- no argument: current quarter only
+- `--quarter YYYY-Q#`: only that quarter
+- `--from-year YYYY`: all quarters from `YYYY-Q1` through the current quarter
+- `--quarter` and `--from-year` are mutually exclusive
+
+## Yearly charting guidance
+
+For annual reporting views, keep quarter outputs as the primary source of truth.
+
+- generate quarter metrics first
+- chart them grouped by year in Excel or the frontend
+- do not replace the quarter model with direct yearly calculations yet
+
+This is especially important for `Jira Card Churn %`, because the yearly view should be derived from correctly aggregated quarter data rather than from averaging already-rolled percentages.
+
 Generated files:
 
-- `backend/excel/generated/jira_issues_raw.csv`
-- `backend/excel/generated/jira_changelog_raw.csv`
-- `backend/excel/generated/sprint_calendar.csv`
-- `backend/excel/generated/metric_inputs_by_sprint.csv`
-- `backend/excel/generated/cycle_time_issue_level.csv`
+- `backend/excel/generated/<year>/jira_issues_raw_<quarter>.csv`
+- `backend/excel/generated/<year>/jira_changelog_raw_<quarter>.csv`
+- `backend/excel/generated/<year>/sprint_calendar_<quarter>.csv`
+- `backend/excel/generated/<year>/metric_inputs_by_sprint_<quarter>.csv`
+- `backend/excel/generated/<year>/cycle_time_issue_level_<quarter>.csv`
 - `backend/excel/generated/metric_outputs_by_quarter.csv`
 - `backend/excel/generated/json_export_view.csv`
 - `backend/excel/generated/refresh_control.csv`
+
+Example:
+
+- `backend/excel/generated/2026/jira_issues_raw_2026-Q2.csv`
+- `backend/excel/generated/2026/cycle_time_issue_level_2026-Q2.csv`
+
+The partitioned quarter files are the heavy raw/audit layer. The consolidated root-level files remain the reporting layer used by JSON export and frontend refresh.

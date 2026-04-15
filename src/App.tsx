@@ -20,7 +20,7 @@ function HomeView({
         <span className="hero-tag">Executive Delivery Snapshot</span>
         <h2>Quarter-to-date Jira metrics for CXP and Revtrak</h2>
         <p>
-          This dashboard summarizes backlog stability, system flow, and actual delivery.
+          This dashboard summarizes backlog stability, completed sprint velocity, system flow, and actual delivery.
         </p>
 
         <div className="hero-actions">
@@ -36,7 +36,7 @@ function HomeView({
             <span className="hero-tag">Current Scope</span>
             <h2>What the current metrics tell us</h2>
             <p>
-              These are the three quarter-level measures currently automated from Jira.
+              These are the current quarter-level measures automated from Jira.
             </p>
           </div>
 

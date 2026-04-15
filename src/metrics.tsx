@@ -27,6 +27,8 @@ export type TeamSummary = {
 export const metricDescriptions: Record<string, string> = {
   "Jira Card Churn %":
     "Share of sprint-committed work that left the plan, was re-pointed, or moved backward after sprint start.",
+  "Average Velocity (points per sprint)":
+    "Average completed story points per sprint across the quarter for the team.",
   "Flow-based Cycle Time Proxy (weeks)":
     "Flow-health signal from average WIP vs completed cards per sprint; lower usually means healthier flow.",
   "Actual Cycle Time (weeks)":
@@ -35,6 +37,7 @@ export const metricDescriptions: Record<string, string> = {
 
 export const metricDisplayOrder = [
   "Jira Card Churn %",
+  "Average Velocity (points per sprint)",
   "Flow-based Cycle Time Proxy (weeks)",
   "Actual Cycle Time (weeks)",
 ];
@@ -53,6 +56,10 @@ function formatMetricValue(metric: MetricRecord) {
 
   if (metric.unit === "weeks") {
     return `${metric.value.toFixed(2)} wks`;
+  }
+
+  if (metric.unit === "points") {
+    return `${metric.value.toFixed(2)} pts`;
   }
 
   return String(metric.value);
@@ -130,8 +137,8 @@ function MetricsView({
                       team.metrics.map((metric, index) => (
                         <article key={metric.metricName} className={`team-metric-card metric-tone-${(index % 3) + 1}`}>
                           <div className="team-metric-card-header">
-                            <p className="team-metric-kicker">Jira metric</p>
-                            <span className="team-metric-source">{metric.source}</span>
+                            <p className="team-metric-kicker"></p>
+                            <span className="team-metric-source">Source:{metric.source}</span>
                           </div>
 
                           <div className="team-metric-copy">

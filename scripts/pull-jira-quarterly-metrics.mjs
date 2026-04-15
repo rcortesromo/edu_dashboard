@@ -13,11 +13,6 @@ const generatedDir = path.join(repoRoot, "backend/excel/generated");
 const doneOnlyResolution = "done";
 
 const outputFiles = {
-  jiraIssuesRaw: path.join(generatedDir, "jira_issues_raw.csv"),
-  jiraChangelogRaw: path.join(generatedDir, "jira_changelog_raw.csv"),
-  sprintCalendar: path.join(generatedDir, "sprint_calendar.csv"),
-  metricInputsBySprint: path.join(generatedDir, "metric_inputs_by_sprint.csv"),
-  cycleTimeIssueLevel: path.join(generatedDir, "cycle_time_issue_level.csv"),
   metricOutputsByQuarter: path.join(generatedDir, "metric_outputs_by_quarter.csv"),
   jsonExportView: path.join(generatedDir, "json_export_view.csv"),
   refreshControl: path.join(generatedDir, "refresh_control.csv"),
@@ -124,6 +119,7 @@ const headers = {
     "jira_card_churn_pct",
     "average_wip_cards",
     "average_throughput_cards_per_sprint",
+    "average_velocity_points_per_sprint",
     "flow_based_cycle_time_proxy_weeks",
     "actual_cycle_time_weeks",
     "actual_cycle_time_issue_count",
@@ -345,12 +341,87 @@ function getTargetQuarterArg(argv) {
   return "";
 }
 
+function getFromYearArg(argv) {
+  for (let index = 0; index < argv.length; index += 1) {
+    const entry = argv[index];
+
+    if (entry === "--from-year") {
+      return argv[index + 1] ?? "";
+    }
+
+    if (entry.startsWith("--from-year=")) {
+      return entry.slice("--from-year=".length);
+    }
+  }
+
+  return "";
+}
+
+function quarterWindowsForYearRange(fromYear, now) {
+  const currentQuarter = quarterWindowForDate(now);
+  const windows = [];
+
+  for (let year = fromYear; year <= currentQuarter.year; year += 1) {
+    const lastQuarter = year === currentQuarter.year ? currentQuarter.quarter : 4;
+
+    for (let quarter = 1; quarter <= lastQuarter; quarter += 1) {
+      windows.push(quarterWindowFromLabel(`${year}-Q${quarter}`));
+    }
+  }
+
+  return windows;
+}
+
+function resolveTargetQuarterWindows(argv, now) {
+  const targetQuarter = getTargetQuarterArg(argv);
+  const fromYearArg = getFromYearArg(argv);
+
+  if (targetQuarter && fromYearArg) {
+    throw new Error('Use either "--quarter YYYY-Q#" or "--from-year YYYY", not both in the same run.');
+  }
+
+  if (targetQuarter) {
+    return [quarterWindowFromLabel(targetQuarter)];
+  }
+
+  if (fromYearArg) {
+    const fromYear = Number(fromYearArg);
+    const currentYear = now.getUTCFullYear();
+
+    if (!/^\d{4}$/.test(fromYearArg) || Number.isNaN(fromYear)) {
+      throw new Error(`Invalid year format "${fromYearArg}". Expected YYYY.`);
+    }
+
+    if (fromYear > currentYear) {
+      throw new Error(`Invalid --from-year "${fromYearArg}". It cannot be later than the current year ${currentYear}.`);
+    }
+
+    return quarterWindowsForYearRange(fromYear, now);
+  }
+
+  return [quarterWindowForDate(now)];
+}
+
 function toIsoDate(date) {
   return date.toISOString().slice(0, 10);
 }
 
 function toIsoDateTime(date) {
   return date.toISOString();
+}
+
+function quarterScopedGeneratedFiles(quarterLabel) {
+  const year = String(quarterLabel).split("-Q")[0];
+  const yearDir = path.join(generatedDir, year);
+
+  return {
+    yearDir,
+    jiraIssuesRaw: path.join(yearDir, `jira_issues_raw_${quarterLabel}.csv`),
+    jiraChangelogRaw: path.join(yearDir, `jira_changelog_raw_${quarterLabel}.csv`),
+    sprintCalendar: path.join(yearDir, `sprint_calendar_${quarterLabel}.csv`),
+    metricInputsBySprint: path.join(yearDir, `metric_inputs_by_sprint_${quarterLabel}.csv`),
+    cycleTimeIssueLevel: path.join(yearDir, `cycle_time_issue_level_${quarterLabel}.csv`),
+  };
 }
 
 function toNumber(value) {
@@ -529,6 +600,12 @@ class JiraClient {
   async getStatuses() {
     return this.requestJson("/rest/api/3/status");
   }
+
+  async getBoardVelocityChart(boardId) {
+    return this.requestJson("/rest/greenhopper/1.0/rapid/charts/velocity", {
+      rapidViewId: boardId,
+    });
+  }
 }
 
 function issueTypeScopeForTeam(teamConfig, config) {
@@ -559,6 +636,64 @@ function issueIsInScope(issue, teamConfig, mapping, config) {
   return true;
 }
 
+function velocitySourceForTeam(teamConfig) {
+  return teamConfig?.velocity?.sourceType || "calculated_completed_points";
+}
+
+function sprintMatchesVelocityPattern(teamConfig, sprintName) {
+  const pattern = teamConfig?.velocity?.sprintNameRegex;
+
+  if (!pattern) {
+    return true;
+  }
+
+  try {
+    return new RegExp(pattern).test(String(sprintName ?? ""));
+  } catch {
+    return true;
+  }
+}
+
+function velocityNumber(value) {
+  if (value === null || value === undefined || value === "") {
+    return null;
+  }
+
+  if (typeof value === "number") {
+    return Number.isNaN(value) ? null : value;
+  }
+
+  if (typeof value === "string") {
+    const parsed = Number(value);
+    return Number.isNaN(parsed) ? null : parsed;
+  }
+
+  if (typeof value === "object") {
+    if ("value" in value) {
+      return velocityNumber(value.value);
+    }
+
+    if ("text" in value) {
+      return velocityNumber(value.text);
+    }
+  }
+
+  return null;
+}
+
+function buildBoardVelocityMap(payload) {
+  const entries = payload?.velocityStatEntries ?? {};
+  const velocityBySprintId = new Map();
+
+  for (const [sprintId, entry] of Object.entries(entries)) {
+    const completedValue = velocityNumber(entry?.completed) ?? velocityNumber(entry?.completed?.value);
+
+    velocityBySprintId.set(String(sprintId), completedValue ?? 0);
+  }
+
+  return velocityBySprintId;
+}
+
 function sprintOverlapsQuarter(sprint, quarterStart, quarterEnd, now) {
   if (!sprint.startDate || !sprint.endDate) {
     return false;
@@ -572,6 +707,20 @@ function sprintOverlapsQuarter(sprint, quarterStart, quarterEnd, now) {
   }
 
   return sprintStart <= quarterEnd && sprintEnd >= quarterStart;
+}
+
+function sprintStartsInQuarter(sprint, quarterStart, quarterEnd, now) {
+  if (!sprint.startDate) {
+    return false;
+  }
+
+  const sprintStart = new Date(sprint.startDate);
+
+  if (sprintStart > now) {
+    return false;
+  }
+
+  return sprintStart >= quarterStart && sprintStart <= quarterEnd;
 }
 
 function parseSprintFieldValue(value) {
@@ -1102,41 +1251,31 @@ async function mapLimit(items, limit, mapper) {
   return results;
 }
 
-async function main() {
-  const env = parseEnv(await fs.readFile(envPath, "utf8"));
-  ensureRequiredEnv(env);
-
-  const mapping = JSON.parse(await fs.readFile(mappingPath, "utf8"));
-  const configRows = parseCsv(await fs.readFile(configPath, "utf8"));
-  const config = buildConfig(configRows);
-
-  const now = new Date();
-  const targetQuarter = getTargetQuarterArg(process.argv.slice(2));
-  const quarterWindow = targetQuarter ? quarterWindowFromLabel(targetQuarter) : quarterWindowForDate(now);
-  const refreshTimestamp = toIsoDateTime(now);
-
-  const client = new JiraClient({
-    baseUrl: env.JIRA_BASE_URL,
-    email: env.JIRA_EMAIL,
-    token: env.JIRA_API_TOKEN,
-  });
-  const statuses = await client.getStatuses();
-  const statusCategoryMap = buildStatusCategoryMap(statuses);
-
-  const teams = mapping.boardsOrProjects.filter((entry) => entry.teamName && entry.boardId);
-
-  if (teams.length === 0) {
-    throw new Error("No tracked teams are configured in backend/excel/jira-field-mapping.template.json.");
-  }
-
+async function processQuarterWindow({
+  client,
+  config,
+  mapping,
+  now,
+  quarterWindow,
+  refreshTimestamp,
+  statusCategoryMap,
+  teams,
+}) {
+  const quarterFiles = quarterScopedGeneratedFiles(quarterWindow.label);
   const trackedSprints = [];
   const issueCandidates = new Map();
+  const boardVelocityByTeam = new Map();
 
   for (const team of teams) {
     const boardSprints = await client.getBoardSprints(team.boardId);
     const relevantSprints = boardSprints
       .filter((sprint) => sprintOverlapsQuarter(sprint, quarterWindow.start, quarterWindow.end, now))
       .sort((left, right) => new Date(left.startDate) - new Date(right.startDate));
+
+    if (velocitySourceForTeam(team) === "board_velocity_report") {
+      const velocityPayload = await client.getBoardVelocityChart(team.boardId);
+      boardVelocityByTeam.set(team.teamName, buildBoardVelocityMap(velocityPayload));
+    }
 
     relevantSprints.forEach((sprint, index) => {
       trackedSprints.push({
@@ -1393,10 +1532,17 @@ async function main() {
   for (const team of teams) {
     const teamSprintRows = aggregatedSprintInputs.filter((row) => row.team_name === team.teamName);
     const teamSprintsInQuarter = trackedSprints.filter((sprint) => sprint.teamName === team.teamName);
+    const velocitySprintsInQuarter = teamSprintsInQuarter.filter((sprint) =>
+      sprintStartsInQuarter(sprint, quarterWindow.start, quarterWindow.end, now) &&
+      sprintMatchesVelocityPattern(team, sprint.name),
+    );
     const teamIssues = [...issueCandidates.values()].filter(
       (issue) => normalizeName(issue.fields?.[mapping.fields.teamFieldId]?.value) === normalizeName(team.teamName),
     );
+    const velocitySource = velocitySourceForTeam(team);
+    const boardVelocityMap = boardVelocityByTeam.get(team.teamName) ?? new Map();
     const sprintCount = teamSprintsInQuarter.length;
+    const velocitySprintCount = velocitySprintsInQuarter.length;
     const committedTotal = teamSprintRows.reduce((sum, row) => sum + Number(row.cards_committed_at_start), 0);
     const removedTotal = teamSprintRows.reduce((sum, row) => sum + Number(row.cards_removed_after_start), 0);
     const reestimatedTotal = teamSprintRows.reduce(
@@ -1414,6 +1560,19 @@ async function main() {
     const averageThroughput =
       sprintCount > 0
         ? teamSprintRows.reduce((sum, row) => sum + Number(row.completed_cards), 0) / sprintCount
+        : 0;
+    const velocitySprintRows = teamSprintRows.filter((row) =>
+      velocitySprintsInQuarter.some((sprint) => String(sprint.id) === String(row.sprint_id)),
+    );
+    const totalVelocityPoints =
+      velocitySource === "board_velocity_report"
+        ? velocitySprintsInQuarter.reduce((sum, sprint) => sum + (boardVelocityMap.get(String(sprint.id)) ?? 0), 0)
+        : velocitySprintRows.reduce((sum, row) => sum + Number(row.completed_points), 0);
+    const averageVelocityPointsPerSprint =
+      velocitySprintCount > 0 ? totalVelocityPoints / velocitySprintCount : 0;
+    const boardVelocityMissingCount =
+      velocitySource === "board_velocity_report"
+        ? velocitySprintsInQuarter.filter((sprint) => !boardVelocityMap.has(String(sprint.id))).length
         : 0;
     const churnPct =
       committedTotal > 0 ? ((removedTotal + reestimatedTotal + backwardTotal) / committedTotal) * 100 : null;
@@ -1435,6 +1594,23 @@ async function main() {
       .filter(Boolean)
       .sort((left, right) => right.localeCompare(left))[0];
     const quarterStatus = now <= quarterWindow.end ? "in_progress" : "complete";
+    const dataQualityNotes = [];
+
+    if (quarterStatus === "in_progress") {
+      dataQualityNotes.push("Quarter is still in progress; values are quarter-to-date.");
+    }
+
+    if (velocitySource === "board_velocity_report") {
+      dataQualityNotes.push("Velocity uses the Jira board velocity report.");
+    }
+
+    if (velocitySprintCount !== sprintCount) {
+      dataQualityNotes.push("Velocity excludes carry-over or non-primary sprint-series entries.");
+    }
+
+    if (boardVelocityMissingCount > 0) {
+      dataQualityNotes.push(`Velocity report missing ${boardVelocityMissingCount} sprint entries.`);
+    }
 
     metricOutputsByQuarterRows.push({
       team_name: team.teamName,
@@ -1449,13 +1625,11 @@ async function main() {
       jira_card_churn_pct: round(churnPct),
       average_wip_cards: round(averageWipCards, 4),
       average_throughput_cards_per_sprint: round(averageThroughput, 4),
+      average_velocity_points_per_sprint: round(averageVelocityPointsPerSprint, 4),
       flow_based_cycle_time_proxy_weeks: round(flowBasedCycleTimeProxy),
       actual_cycle_time_weeks: round(actualCycleTimeWeeks),
       actual_cycle_time_issue_count: String(actualCycleTimeIssueCount),
-      data_quality_note:
-        quarterStatus === "in_progress"
-          ? "Quarter is still in progress; values are quarter-to-date."
-          : "",
+      data_quality_note: dataQualityNotes.join(" | "),
       last_refresh_utc: refreshTimestamp,
     });
 
@@ -1468,6 +1642,21 @@ async function main() {
       source_system: "Jira",
       coverage_status: "Yes (partial)",
       note: "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      last_refresh_utc: refreshTimestamp,
+    });
+
+    jsonExportViewRows.push({
+      team_name: team.teamName,
+      quarter_label: quarterWindow.label,
+      metric_name: "Average Velocity (points per sprint)",
+      metric_value: round(averageVelocityPointsPerSprint),
+      metric_unit: "points",
+      source_system: "Jira",
+      coverage_status: "Yes (partial)",
+      note:
+        velocitySource === "board_velocity_report"
+          ? "Average completed story points per sprint across the quarter from the Jira board velocity report."
+          : "Average completed story points per sprint across the quarter.",
       last_refresh_utc: refreshTimestamp,
     });
 
@@ -1512,54 +1701,11 @@ async function main() {
   }
 
   await fs.mkdir(generatedDir, { recursive: true });
+  await fs.mkdir(quarterFiles.yearDir, { recursive: true });
 
-  const existingJiraIssuesRaw = await readCsvFile(outputFiles.jiraIssuesRaw);
-  const existingJiraChangelogRaw = await readCsvFile(outputFiles.jiraChangelogRaw);
-  const existingSprintCalendar = await readCsvFile(outputFiles.sprintCalendar);
-  const existingMetricInputsBySprint = await readCsvFile(outputFiles.metricInputsBySprint);
-  const existingCycleTimeIssueLevel = await readCsvFile(outputFiles.cycleTimeIssueLevel);
   const existingMetricOutputsByQuarter = await readCsvFile(outputFiles.metricOutputsByQuarter);
   const existingJsonExportView = await readCsvFile(outputFiles.jsonExportView);
   const existingRefreshControl = await readCsvFile(outputFiles.refreshControl);
-
-  const mergedJiraIssuesRaw = sortByKeys(
-    mergeRowsKeepingOtherQuarters(existingJiraIssuesRaw, jiraIssuesRawRows, quarterWindow.label, teams, "quarter_label"),
-    ["team_name", "quarter_label", "sprint_id", "issue_key"],
-  );
-  const mergedJiraChangelogRaw = sortByKeys(
-    mergeRowsKeepingOtherQuarters(
-      existingJiraChangelogRaw,
-      jiraChangelogRawRows,
-      quarterWindow.label,
-      teams,
-      "quarter_label",
-    ),
-    ["team_name", "quarter_label", "sprint_id", "issue_key", "event_timestamp"],
-  );
-  const mergedSprintCalendar = sortByKeys(
-    mergeRowsKeepingOtherQuarters(existingSprintCalendar, sprintCalendarRows, quarterWindow.label, teams, "quarter_label"),
-    ["team_name", "quarter_label", "sprint_id"],
-  );
-  const mergedMetricInputs = sortByKeys(
-    mergeRowsKeepingOtherQuarters(
-      existingMetricInputsBySprint,
-      aggregatedSprintInputs,
-      quarterWindow.label,
-      teams,
-      "quarter_label",
-    ),
-    ["team_name", "quarter_label", "sprint_id"],
-  );
-  const mergedCycleTimeIssueLevel = sortByKeys(
-    mergeRowsKeepingOtherQuarters(
-      existingCycleTimeIssueLevel,
-      cycleTimeIssueLevelRows,
-      quarterWindow.label,
-      teams,
-      "quarter_label",
-    ),
-    ["team_name", "quarter_label", "cycle_time_end_utc", "issue_key"],
-  );
   const mergedMetricOutputs = sortByKeys(
     mergeRowsKeepingOtherQuarters(
       existingMetricOutputsByQuarter,
@@ -1587,17 +1733,35 @@ async function main() {
   ]);
 
   await Promise.all([
-    fs.writeFile(outputFiles.jiraIssuesRaw, toCsv(headers.jiraIssuesRaw, mergedJiraIssuesRaw), "utf8"),
-    fs.writeFile(outputFiles.jiraChangelogRaw, toCsv(headers.jiraChangelogRaw, mergedJiraChangelogRaw), "utf8"),
-    fs.writeFile(outputFiles.sprintCalendar, toCsv(headers.sprintCalendar, mergedSprintCalendar), "utf8"),
     fs.writeFile(
-      outputFiles.metricInputsBySprint,
-      toCsv(headers.metricInputsBySprint, mergedMetricInputs),
+      quarterFiles.jiraIssuesRaw,
+      toCsv(headers.jiraIssuesRaw, sortByKeys(jiraIssuesRawRows, ["team_name", "quarter_label", "sprint_id", "issue_key"])),
       "utf8",
     ),
     fs.writeFile(
-      outputFiles.cycleTimeIssueLevel,
-      toCsv(headers.cycleTimeIssueLevel, mergedCycleTimeIssueLevel),
+      quarterFiles.jiraChangelogRaw,
+      toCsv(
+        headers.jiraChangelogRaw,
+        sortByKeys(jiraChangelogRawRows, ["team_name", "quarter_label", "sprint_id", "issue_key", "event_timestamp"]),
+      ),
+      "utf8",
+    ),
+    fs.writeFile(
+      quarterFiles.sprintCalendar,
+      toCsv(headers.sprintCalendar, sortByKeys(sprintCalendarRows, ["team_name", "quarter_label", "sprint_id"])),
+      "utf8",
+    ),
+    fs.writeFile(
+      quarterFiles.metricInputsBySprint,
+      toCsv(headers.metricInputsBySprint, sortByKeys(aggregatedSprintInputs, ["team_name", "quarter_label", "sprint_id"])),
+      "utf8",
+    ),
+    fs.writeFile(
+      quarterFiles.cycleTimeIssueLevel,
+      toCsv(
+        headers.cycleTimeIssueLevel,
+        sortByKeys(cycleTimeIssueLevelRows, ["team_name", "quarter_label", "cycle_time_end_utc", "issue_key"]),
+      ),
       "utf8",
     ),
     fs.writeFile(
@@ -1609,15 +1773,76 @@ async function main() {
     fs.writeFile(outputFiles.refreshControl, toCsv(headers.refreshControl, mergedRefreshControl), "utf8"),
   ]);
 
-  const summary = {
+  return {
     quarter: quarterWindow.label,
     teams: teams.map((team) => team.teamName),
     sprintsProcessed: trackedSprints.length,
     issuesProcessed: issueCandidates.size,
+    rawFilesWritten: [
+      quarterFiles.jiraIssuesRaw,
+      quarterFiles.jiraChangelogRaw,
+      quarterFiles.sprintCalendar,
+      quarterFiles.metricInputsBySprint,
+      quarterFiles.cycleTimeIssueLevel,
+    ],
     refreshedAt: refreshTimestamp,
   };
+}
 
-  console.log(JSON.stringify(summary, null, 2));
+async function main() {
+  const env = parseEnv(await fs.readFile(envPath, "utf8"));
+  ensureRequiredEnv(env);
+
+  const mapping = JSON.parse(await fs.readFile(mappingPath, "utf8"));
+  const configRows = parseCsv(await fs.readFile(configPath, "utf8"));
+  const config = buildConfig(configRows);
+
+  const now = new Date();
+  const refreshTimestamp = toIsoDateTime(now);
+  const quarterWindows = resolveTargetQuarterWindows(process.argv.slice(2), now);
+
+  const client = new JiraClient({
+    baseUrl: env.JIRA_BASE_URL,
+    email: env.JIRA_EMAIL,
+    token: env.JIRA_API_TOKEN,
+  });
+  const statuses = await client.getStatuses();
+  const statusCategoryMap = buildStatusCategoryMap(statuses);
+
+  const teams = mapping.boardsOrProjects.filter((entry) => entry.teamName && entry.boardId);
+
+  if (teams.length === 0) {
+    throw new Error("No tracked teams are configured in backend/excel/jira-field-mapping.template.json.");
+  }
+
+  const summaries = [];
+
+  for (const quarterWindow of quarterWindows) {
+    const summary = await processQuarterWindow({
+      client,
+      config,
+      mapping,
+      now,
+      quarterWindow,
+      refreshTimestamp,
+      statusCategoryMap,
+      teams,
+    });
+    summaries.push(summary);
+  }
+
+  console.log(
+    JSON.stringify(
+      {
+        mode: quarterWindows.length > 1 ? "range" : "single_quarter",
+        quartersProcessed: quarterWindows.map((window) => window.label),
+        refreshedAt: refreshTimestamp,
+        results: summaries,
+      },
+      null,
+      2,
+    ),
+  );
 }
 
 main().catch((error) => {

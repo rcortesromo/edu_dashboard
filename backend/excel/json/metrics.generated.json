@@ -1,5 +1,5 @@
 {
-  "reportDate": "2026-04-06",
+  "reportDate": "2026-04-15",
   "teams": [
     "Team Connexpoint",
     "Team Webstore"
@@ -17,7 +17,18 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
-      "lastRefreshUtc": "2026-04-06T17:38:39.270Z"
+      "lastRefreshUtc": "2026-04-15T18:33:55.980Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q1",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 51.33,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter from the Jira board velocity report.",
+      "lastRefreshUtc": "2026-04-15T18:33:55.980Z"
     },
     {
       "team": "Team Connexpoint",
@@ -28,7 +39,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
-      "lastRefreshUtc": "2026-04-06T17:38:39.270Z"
+      "lastRefreshUtc": "2026-04-15T18:33:55.980Z"
     },
     {
       "team": "Team Connexpoint",
@@ -39,7 +50,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
-      "lastRefreshUtc": "2026-04-06T17:38:39.270Z"
+      "lastRefreshUtc": "2026-04-15T18:33:55.980Z"
     },
     {
       "team": "Team Webstore",
@@ -50,7 +61,18 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
-      "lastRefreshUtc": "2026-04-06T17:38:39.270Z"
+      "lastRefreshUtc": "2026-04-15T18:33:55.980Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 27,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter from the Jira board velocity report.",
+      "lastRefreshUtc": "2026-04-15T18:33:55.980Z"
     },
     {
       "team": "Team Webstore",
@@ -61,7 +83,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
-      "lastRefreshUtc": "2026-04-06T17:38:39.270Z"
+      "lastRefreshUtc": "2026-04-15T18:33:55.980Z"
     },
     {
       "team": "Team Webstore",
@@ -72,7 +94,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
-      "lastRefreshUtc": "2026-04-06T17:38:39.270Z"
+      "lastRefreshUtc": "2026-04-15T18:33:55.980Z"
     }
   ]
 }

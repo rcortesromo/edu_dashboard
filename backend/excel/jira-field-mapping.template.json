@@ -25,6 +25,10 @@
         "includeIssueTypes": ["Story", "Bug", "Task"],
         "excludeIssueTypes": ["Epic", "Sub-task"]
       },
+      "velocity": {
+        "sourceType": "board_velocity_report",
+        "sprintNameRegex": "^WS\\d{2}Q\\dS\\d+\\b"
+      },
       "cycleTime": {
         "startType": "status_name",
         "startValue": "In Development",
@@ -39,6 +43,10 @@
       "workItemScope": {
         "includeIssueTypes": ["Sub-task"],
         "excludeIssueTypes": ["Epic"]
+      },
+      "velocity": {
+        "sourceType": "board_velocity_report",
+        "sprintNameRegex": "^CXP\\d{2}Q\\d\\s-\\sSprint\\s\\d+$"
       },
       "cycleTime": {
         "startType": "status_name",

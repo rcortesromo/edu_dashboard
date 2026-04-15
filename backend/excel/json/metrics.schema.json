@@ -50,6 +50,7 @@
             "type": "string",
             "enum": [
               "Jira Card Churn %",
+              "Average Velocity (points per sprint)",
               "Flow-based Cycle Time Proxy (weeks)",
               "Actual Cycle Time (weeks)"
             ]
@@ -59,7 +60,7 @@
           },
           "unit": {
             "type": "string",
-            "enum": ["percent", "weeks"]
+            "enum": ["percent", "weeks", "points"]
           },
           "source": {
             "type": "string",
