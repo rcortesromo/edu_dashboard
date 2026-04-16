@@ -650,6 +650,15 @@ npm run pull:jira-quarterly-metrics -- --from-year 2024
 1. Review:
    - `backend/excel/generated/*.csv`
    - `backend/excel/generated/<year>/*.csv`
+1. To also update the frontend JSON used by the app, run:
+
+```bash
+npm run refresh:static-metrics -- --quarter 2026-Q1
+```
+
+1. Command behavior:
+   - `npm run pull:jira-quarterly-metrics -- --quarter 2026-Q1` refreshes backend generated files only
+   - `npm run refresh:static-metrics -- --quarter 2026-Q1` refreshes backend files and `public/data/metrics.generated.json`
 1. Run:
 
 ```bash

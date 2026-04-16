@@ -649,7 +649,32 @@ function velocitySourceForTeam(teamConfig) {
   return teamConfig?.velocity?.sourceType || "calculated_completed_points";
 }
 
-function sprintMatchesVelocityPattern(teamConfig, sprintName) {
+function sprintQuarterToken(quarterLabel) {
+  const match = /^(\d{4})-Q([1-4])$/.exec(String(quarterLabel ?? "").trim());
+
+  if (!match) {
+    return "";
+  }
+
+  return `${match[1].slice(-2)}Q${match[2]}`;
+}
+
+function sprintMatchesQuarterPattern(teamConfig, sprintName, quarterLabel) {
+  const name = String(sprintName ?? "").trim();
+  const quarterToken = sprintQuarterToken(quarterLabel);
+
+  if (!quarterToken) {
+    return false;
+  }
+
+  if (teamConfig?.teamName === "Team Webstore") {
+    return new RegExp(`^WS${quarterToken}S([1-6])(?:\\b.*)?$`).test(name);
+  }
+
+  if (teamConfig?.teamName === "Team Connexpoint") {
+    return new RegExp(`^CXP${quarterToken}\\s-\\sSprint\\s([1-6])$`).test(name);
+  }
+
   const pattern = teamConfig?.velocity?.sprintNameRegex;
 
   if (!pattern) {
@@ -1213,7 +1238,7 @@ function uniqueBy(rows, keyBuilder) {
 }
 
 function mergeRowsKeepingOtherQuarters(existingRows, newRows, quarterLabel, teams, rowQuarterKey) {
-  const teamNames = new Set(teams.map((team) => team.teamName));
+  const teamNames = new Set([portfolioTeamName, ...teams.map((team) => team.teamName)]);
   const retained = existingRows.filter(
     (row) => !(row[rowQuarterKey] === quarterLabel && teamNames.has(row.team_name)),
   );
@@ -1279,6 +1304,7 @@ async function processQuarterWindow({
     const boardSprints = await client.getBoardSprints(team.boardId);
     const relevantSprints = boardSprints
       .filter((sprint) => sprintOverlapsQuarter(sprint, quarterWindow.start, quarterWindow.end, now))
+      .filter((sprint) => sprintMatchesQuarterPattern(team, sprint.name, quarterWindow.label))
       .sort((left, right) => new Date(left.startDate) - new Date(right.startDate));
 
     if (velocitySourceForTeam(team) === "board_velocity_report") {
@@ -1543,7 +1569,7 @@ async function processQuarterWindow({
     const teamSprintsInQuarter = trackedSprints.filter((sprint) => sprint.teamName === team.teamName);
     const velocitySprintsInQuarter = teamSprintsInQuarter.filter((sprint) =>
       sprintStartsInQuarter(sprint, quarterWindow.start, quarterWindow.end, now) &&
-      sprintMatchesVelocityPattern(team, sprint.name),
+      sprintMatchesQuarterPattern(team, sprint.name, quarterWindow.label),
     );
     const teamIssues = [...issueCandidates.values()].filter(
       (issue) => normalizeName(issue.fields?.[mapping.fields.teamFieldId]?.value) === normalizeName(team.teamName),

@@ -182,12 +182,110 @@ Do not average team actual cycle time values directly.
 
 ## Current EDU example
 
-For the current `CXP + Revtrak` quarter in the generated sample output:
+Current `2026-Q1` quarter output after sprint-name filtering:
 
-- `EDU Jira Card Churn %` = `10.79%`
-- `EDU Average Velocity (points per sprint)` = `37.65`
-- `EDU Flow-based Cycle Time Proxy (weeks)` = `1.80`
-- `EDU Actual Cycle Time (weeks)` = `1.01`
+- `CXP`
+  - `sprints_in_quarter` = `6`
+  - `cards_committed_at_start_total` = `349`
+  - `cards_removed_after_start_total` = `0`
+  - `cards_reestimated_after_start_total` = `0`
+  - `cards_sent_backward_after_start_total` = `12`
+  - `average_velocity_points_per_sprint` = `51.3333`
+  - `average_wip_cards` = `10.4956`
+  - `average_throughput_cards_per_sprint` = `22.6667`
+  - `actual_cycle_time_weeks` = `0.5925`
+  - `actual_cycle_time_issue_count` = `146`
+- `Revtrak`
+  - `sprints_in_quarter` = `6`
+  - `cards_committed_at_start_total` = `255`
+  - `cards_removed_after_start_total` = `2`
+  - `cards_reestimated_after_start_total` = `22`
+  - `cards_sent_backward_after_start_total` = `8`
+  - `average_velocity_points_per_sprint` = `27.0000`
+  - `average_wip_cards` = `18.4339`
+  - `average_throughput_cards_per_sprint` = `5.8333`
+  - `actual_cycle_time_weeks` = `2.5786`
+  - `actual_cycle_time_issue_count` = `37`
+
+Published `EDU` results:
+
+- `EDU Jira Card Churn %` = `7.28%`
+- `EDU Average Velocity (points per sprint)` = `39.17`
+- `EDU Flow-based Cycle Time Proxy (weeks)` = `2.03`
+- `EDU Actual Cycle Time (weeks)` = `0.99`
+
+### Jira Card Churn % example
+
+`EDU` churn is rebuilt from total churn counts and total committed baseline:
+
+`((2 + 22 + 20) / 604) * 100 = (44 / 604) * 100 = 7.2847%`
+
+Rounded published value:
+
+- `7.28%`
+
+This is not:
+
+`(3.44% + 12.55%) / 2`
+
+### Average Velocity (points per sprint) example
+
+`EDU` velocity is weighted by counted sprint count:
+
+`((51.3333 * 6) + (27.0000 * 6)) / 12 = (307.9998 + 162.0000) / 12 = 39.1666`
+
+Rounded published value:
+
+- `39.17`
+
+Because both teams currently have `6` counted sprints, this quarter happens to align with the simple average of the two team values.
+
+### Flow-based Cycle Time Proxy (weeks) example
+
+`EDU` flow proxy is rebuilt from total WIP and total throughput, not from averaging team proxy values.
+
+Using the current quarter sprint totals:
+
+- `CXP total WIP across counted sprints` = `62.9735`
+- `Revtrak total WIP across counted sprints` = `110.6035`
+- `Portfolio WIP total` = `173.5770`
+- `CXP total throughput across counted sprints` = `136`
+- `Revtrak total throughput across counted sprints` = `35`
+- `Portfolio throughput total` = `171`
+
+Calculation:
+
+`(173.5770 / 171) * 2 = 2.0301`
+
+Rounded published value:
+
+- `2.03`
+
+This is not:
+
+`(0.93 + 6.32) / 2`
+
+### Actual Cycle Time (weeks) example
+
+`EDU` actual cycle time is weighted by completed item count using exact issue-level cycle-time rows.
+
+Using the current quarter issue-level totals:
+
+- `CXP cycle time sum` = `86.50` weeks across `146` completed items
+- `Revtrak cycle time sum` = `95.41` weeks across `37` completed items
+- `Portfolio cycle time sum` = `181.91` weeks across `183` completed items
+
+Calculation:
+
+`181.91 / 183 = 0.9940`
+
+Rounded published value:
+
+- `0.99`
+
+This is not:
+
+`(0.59 + 2.58) / 2`
 
 ## File roles
 
@@ -255,6 +353,8 @@ This updates:
 - `backend/excel/json/metrics.generated.json`
 - `public/data/metrics.generated.json`
 
+Use this command when you want the dashboard UI to reflect the latest pulled quarter data.
+
 ## Jira extraction helper
 
 Use the Node.js pipeline to pull the current quarter for the configured teams and calculate the current v1 metrics:
@@ -268,6 +368,8 @@ Run a specific quarter:
 ```bash
 npm run pull:jira-quarterly-metrics -- --quarter 2026-Q1
 ```
+
+This command refreshes backend generated CSV outputs, but it does not update `public/data/metrics.generated.json`.
 
 Backfill all quarters from a starting year through the current quarter:
 
