@@ -1,0 +1,59 @@
+{
+  "sourceSystem": "Jira",
+  "quarterConvention": "calendar",
+  "fields": {
+    "sprintFieldId": "customfield_10020",
+    "teamFieldId": "customfield_10032",
+    "storyPointsFieldId": "customfield_10043",
+    "statusFieldName": "status",
+    "issueTypeFieldName": "issuetype"
+  },
+  "issueScope": {
+    "includeIssueTypes": ["Story", "Bug", "Task"],
+    "excludeIssueTypes": ["Epic", "Sub-task"]
+  },
+  "teamMapping": {
+    "strategy": "jira_field",
+    "notes": "The same Jira Team field is used for all tracked teams. Team scope is centralized below."
+  },
+  "boardsOrProjects": [
+    {
+      "teamName": "Team Webstore",
+      "boardId": "175",
+      "projectKeys": ["OV"],
+      "workItemScope": {
+        "includeIssueTypes": ["Story", "Bug", "Task"],
+        "excludeIssueTypes": ["Epic", "Sub-task"]
+      },
+      "velocity": {
+        "sourceType": "board_velocity_report",
+        "sprintNameRegex": "^WS\\d{2}Q\\dS\\d+\\b"
+      },
+      "cycleTime": {
+        "startType": "status_name",
+        "startValue": "In Development",
+        "endType": "status_category",
+        "endValue": "Done"
+      }
+    },
+    {
+      "teamName": "Team Connexpoint",
+      "boardId": "170",
+      "projectKeys": ["OV"],
+      "workItemScope": {
+        "includeIssueTypes": ["Sub-task"],
+        "excludeIssueTypes": ["Epic"]
+      },
+      "velocity": {
+        "sourceType": "board_velocity_report",
+        "sprintNameRegex": "^CXP\\d{2}Q\\d\\s-\\sSprint\\s\\d+$"
+      },
+      "cycleTime": {
+        "startType": "status_name",
+        "startValue": "In Development",
+        "endType": "status_category",
+        "endValue": "Done"
+      }
+    }
+  ]
+}

@@ -30,12 +30,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Write Jira credentials
+      - name: Write metrics credentials
         run: |
           cat > .env.local <<'EOF'
           JIRA_BASE_URL=${{ secrets.JIRA_BASE_URL }}
           JIRA_EMAIL=${{ secrets.JIRA_EMAIL }}
           JIRA_API_TOKEN=${{ secrets.JIRA_API_TOKEN }}
+          GITHUB_TOKEN=${{ secrets.AI_METRICS_GITHUB_TOKEN }}
           EOF
 
       - name: Refresh metrics assets
@@ -51,5 +52,5 @@ jobs:
         with:
           commit_message: "refresh metrics json"
           file_pattern: |
-            backend/excel/json/metrics.generated.json
+            backend/published/json/metrics.generated.json
             public/data/metrics.generated.json

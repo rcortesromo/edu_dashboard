@@ -7,9 +7,9 @@ const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, "..");
 
 const envPath = path.join(repoRoot, ".env.local");
-const mappingPath = path.join(repoRoot, "backend/excel/jira-field-mapping.template.json");
-const configPath = path.join(repoRoot, "backend/excel/templates/config.csv");
-const generatedDir = path.join(repoRoot, "backend/excel/generated");
+const mappingPath = path.join(repoRoot, "backend/jira/config/jira-field-mapping.template.json");
+const configPath = path.join(repoRoot, "backend/jira/templates/config.csv");
+const generatedDir = path.join(repoRoot, "backend/jira/generated");
 const doneOnlyResolution = "done";
 const portfolioTeamName = "EDU";
 
@@ -1262,6 +1262,283 @@ function sortByKeys(rows, keys) {
   });
 }
 
+function parseQuarterLabel(label) {
+  const match = /^(\d{4})-Q([1-4])$/.exec(String(label ?? "").trim());
+
+  if (!match) {
+    return null;
+  }
+
+  return {
+    year: Number(match[1]),
+    quarter: Number(match[2]),
+  };
+}
+
+function isQuarterLabel(label) {
+  return parseQuarterLabel(label) !== null;
+}
+
+function isYearToDateLabel(label) {
+  return /^\d{4}-YTD$/.test(String(label ?? "").trim());
+}
+
+function yearToDateLabel(year) {
+  return `${year}-YTD`;
+}
+
+function replaceSyntheticPeriodRows(existingRows, periodLabels, teams, rowPeriodKey) {
+  const teamNames = new Set([portfolioTeamName, ...teams.map((team) => team.teamName)]);
+  const labels = new Set(periodLabels);
+  return existingRows.filter(
+    (row) => !(labels.has(row[rowPeriodKey]) && teamNames.has(row.team_name)),
+  );
+}
+
+function maxLexicalValue(values) {
+  return values.filter(Boolean).sort((left, right) => right.localeCompare(left))[0] ?? "";
+}
+
+function buildYearToDateArtifacts(metricRows, refreshRows, teams, now) {
+  const deliveryTeamNames = teams.map((team) => team.teamName);
+  const deliveryTeamNameSet = new Set(deliveryTeamNames);
+  const quarterMetricRows = metricRows.filter((row) => isQuarterLabel(row.quarter_label));
+  const years = [...new Set(quarterMetricRows.map((row) => parseQuarterLabel(row.quarter_label)?.year).filter(Boolean))]
+    .sort((left, right) => left - right);
+
+  const metricOutputs = [];
+  const jsonExportView = [];
+  const refreshControl = [];
+
+  function buildPeriodRows({
+    teamName,
+    periodLabel,
+    sourceRows,
+    sourceRefreshRows,
+    portfolioScope = false,
+  }) {
+    if (sourceRows.length === 0) {
+      return;
+    }
+
+    const periodYear = parseQuarterLabel(sourceRows[0]?.quarter_label)?.year ?? Number(periodLabel.slice(0, 4));
+    const sprintCountTotal = sourceRows.reduce(
+      (sum, row) => sum + Number(row.sprints_in_quarter || 0),
+      0,
+    );
+    const committedTotal = sourceRows.reduce(
+      (sum, row) => sum + Number(row.cards_committed_at_start_total || 0),
+      0,
+    );
+    const removedTotal = sourceRows.reduce(
+      (sum, row) => sum + Number(row.cards_removed_after_start_total || 0),
+      0,
+    );
+    const reestimatedTotal = sourceRows.reduce(
+      (sum, row) => sum + Number(row.cards_reestimated_after_start_total || 0),
+      0,
+    );
+    const backwardTotal = sourceRows.reduce(
+      (sum, row) => sum + Number(row.cards_sent_backward_after_start_total || 0),
+      0,
+    );
+    const totalWipAcrossSprints = sourceRows.reduce(
+      (sum, row) => sum + Number(row.average_wip_cards || 0) * Number(row.sprints_in_quarter || 0),
+      0,
+    );
+    const totalThroughputAcrossSprints = sourceRows.reduce(
+      (sum, row) =>
+        sum + Number(row.average_throughput_cards_per_sprint || 0) * Number(row.sprints_in_quarter || 0),
+      0,
+    );
+    const totalVelocityPointsAcrossSprints = sourceRows.reduce(
+      (sum, row) =>
+        sum + Number(row.average_velocity_points_per_sprint || 0) * Number(row.sprints_in_quarter || 0),
+      0,
+    );
+    const actualCycleTimeIssueCount = sourceRows.reduce(
+      (sum, row) => sum + Number(row.actual_cycle_time_issue_count || 0),
+      0,
+    );
+    const weightedActualCycleTimeTotal = sourceRows.reduce(
+      (sum, row) => sum + Number(row.actual_cycle_time_weeks || 0) * Number(row.actual_cycle_time_issue_count || 0),
+      0,
+    );
+    const averageWipCards = safeDivide(totalWipAcrossSprints, sprintCountTotal);
+    const averageThroughputCards = safeDivide(totalThroughputAcrossSprints, sprintCountTotal);
+    const averageVelocityPoints = safeDivide(totalVelocityPointsAcrossSprints, sprintCountTotal);
+    const churnPct = safeDivide(removedTotal + reestimatedTotal + backwardTotal, committedTotal);
+    const flowBasedCycleTimeProxy = safeDivide(totalWipAcrossSprints, totalThroughputAcrossSprints);
+    const actualCycleTimeWeeks = safeDivide(weightedActualCycleTimeTotal, actualCycleTimeIssueCount);
+    const quarterLabels = [...new Set(sourceRows.map((row) => row.quarter_label))].sort(
+      (left, right) => left.localeCompare(right),
+    );
+    const quarterStatus = sourceRefreshRows.some((row) => row.quarter_status === "in_progress")
+      ? "in_progress"
+      : "complete";
+    const periodEndDate =
+      quarterStatus === "in_progress"
+        ? toIsoDate(now)
+        : maxLexicalValue(sourceRows.map((row) => row.quarter_end_date)) || `${periodYear}-12-31`;
+    const lastRefreshUtc = maxLexicalValue(
+      sourceRows.map((row) => row.last_refresh_utc).concat(sourceRefreshRows.map((row) => row.last_successful_refresh_utc)),
+    );
+    const lastIssueUpdateProcessedUtc = maxLexicalValue(
+      sourceRefreshRows.map((row) => row.last_issue_update_processed_utc),
+    );
+    const lastSprintEndProcessed = maxLexicalValue(sourceRefreshRows.map((row) => row.last_sprint_end_processed));
+    const dataQualityNotes = [];
+
+    if (quarterStatus === "in_progress") {
+      dataQualityNotes.push("Year-to-date period is still in progress; values are quarter-to-date.");
+    }
+
+    if (portfolioScope) {
+      dataQualityNotes.push(
+        `Year-to-date portfolio rollup across ${deliveryTeamNames.length} in-scope teams and ${quarterLabels.length} quarter snapshots: ${quarterLabels.join(", ")}.`,
+      );
+      dataQualityNotes.push(
+        "Velocity is weighted by sprint counts; churn, flow, and actual cycle time are rebuilt from aggregate denominators.",
+      );
+    } else {
+      dataQualityNotes.push(
+        `Year-to-date rollup across ${quarterLabels.length} quarter snapshots: ${quarterLabels.join(", ")}.`,
+      );
+    }
+
+    metricOutputs.push({
+      team_name: teamName,
+      quarter_label: periodLabel,
+      quarter_start_date: `${periodYear}-01-01`,
+      quarter_end_date: periodEndDate,
+      sprints_in_quarter: String(sprintCountTotal),
+      cards_committed_at_start_total: String(committedTotal),
+      cards_removed_after_start_total: String(removedTotal),
+      cards_reestimated_after_start_total: String(reestimatedTotal),
+      cards_sent_backward_after_start_total: String(backwardTotal),
+      jira_card_churn_pct: round(churnPct === null ? null : churnPct * 100),
+      average_wip_cards: round(averageWipCards, 4),
+      average_throughput_cards_per_sprint: round(averageThroughputCards, 4),
+      average_velocity_points_per_sprint: round(averageVelocityPoints, 4),
+      flow_based_cycle_time_proxy_weeks: round(
+        flowBasedCycleTimeProxy === null ? null : flowBasedCycleTimeProxy * 2,
+      ),
+      actual_cycle_time_weeks: round(actualCycleTimeWeeks),
+      actual_cycle_time_issue_count: String(actualCycleTimeIssueCount),
+      data_quality_note: dataQualityNotes.join(" | "),
+      last_refresh_utc: lastRefreshUtc,
+    });
+
+    jsonExportView.push(
+      {
+        team_name: teamName,
+        quarter_label: periodLabel,
+        metric_name: "Actual Cycle Time (weeks)",
+        metric_value: round(actualCycleTimeWeeks),
+        metric_unit: "weeks",
+        source_system: "Jira",
+        coverage_status: "Yes (partial)",
+        note: portfolioScope
+          ? "Year-to-date portfolio rollup weighted by completed items across all in-scope teams."
+          : "Year-to-date rollup weighted by completed items across available quarters.",
+        last_refresh_utc: lastRefreshUtc,
+      },
+      {
+        team_name: teamName,
+        quarter_label: periodLabel,
+        metric_name: "Flow-based Cycle Time Proxy (weeks)",
+        metric_value: round(flowBasedCycleTimeProxy === null ? null : flowBasedCycleTimeProxy * 2),
+        metric_unit: "weeks",
+        source_system: "Jira",
+        coverage_status: "Yes (partial)",
+        note: portfolioScope
+          ? "Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams."
+          : "Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.",
+        last_refresh_utc: lastRefreshUtc,
+      },
+      {
+        team_name: teamName,
+        quarter_label: periodLabel,
+        metric_name: "Average Velocity (points per sprint)",
+        metric_value: round(averageVelocityPoints),
+        metric_unit: "points",
+        source_system: "Jira",
+        coverage_status: "Yes (partial)",
+        note: portfolioScope
+          ? "Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams."
+          : "Year-to-date rollup weighted by sprint counts across available quarters.",
+        last_refresh_utc: lastRefreshUtc,
+      },
+      {
+        team_name: teamName,
+        quarter_label: periodLabel,
+        metric_name: "Jira Card Churn %",
+        metric_value: round(churnPct === null ? null : churnPct * 100),
+        metric_unit: "percent",
+        source_system: "Jira",
+        coverage_status: "Yes (partial)",
+        note: portfolioScope
+          ? "Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts."
+          : "Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",
+        last_refresh_utc: lastRefreshUtc,
+      },
+    );
+
+    refreshControl.push({
+      team_name: teamName,
+      quarter_label: periodLabel,
+      quarter_start_date: `${periodYear}-01-01`,
+      quarter_end_date: periodEndDate,
+      quarter_status: quarterStatus,
+      last_successful_refresh_utc: lastRefreshUtc,
+      last_issue_update_processed_utc: lastIssueUpdateProcessedUtc || lastRefreshUtc,
+      last_sprint_end_processed: lastSprintEndProcessed,
+      full_recalculation_required_flag: quarterStatus === "in_progress" ? "yes" : "no",
+      notes:
+        quarterStatus === "in_progress"
+          ? "Current year-to-date period is recalculated on every run."
+          : "Year-to-date period is based on completed quarter snapshots.",
+    });
+  }
+
+  for (const year of years) {
+    const periodLabel = yearToDateLabel(year);
+
+    for (const teamName of deliveryTeamNames) {
+      buildPeriodRows({
+        teamName,
+        periodLabel,
+        sourceRows: quarterMetricRows.filter(
+          (row) => row.team_name === teamName && parseQuarterLabel(row.quarter_label)?.year === year,
+        ),
+        sourceRefreshRows: refreshRows.filter(
+          (row) => row.team_name === teamName && parseQuarterLabel(row.quarter_label)?.year === year,
+        ),
+      });
+    }
+
+    buildPeriodRows({
+      teamName: portfolioTeamName,
+      periodLabel,
+      portfolioScope: true,
+      sourceRows: quarterMetricRows.filter(
+        (row) =>
+          deliveryTeamNameSet.has(row.team_name) && parseQuarterLabel(row.quarter_label)?.year === year,
+      ),
+      sourceRefreshRows: refreshRows.filter(
+        (row) =>
+          deliveryTeamNameSet.has(row.team_name) && parseQuarterLabel(row.quarter_label)?.year === year,
+      ),
+    });
+  }
+
+  return {
+    metricOutputs,
+    jsonExportView,
+    refreshControl,
+  };
+}
+
 async function mapLimit(items, limit, mapper) {
   const results = new Array(items.length);
   let nextIndex = 0;
@@ -1891,13 +2168,45 @@ async function processQuarterWindow({
     (row) =>
       !(
         row.quarter_label === quarterWindow.label &&
-        teams.some((team) => team.teamName === row.team_name)
+        [portfolioTeamName, ...teams.map((team) => team.teamName)].includes(row.team_name)
       ),
   );
   const mergedRefreshControl = sortByKeys([...retainedRefreshControl, ...refreshControlRows], [
     "team_name",
     "quarter_label",
   ]);
+  const ytdPeriodLabel = yearToDateLabel(quarterWindow.year);
+  const metricOutputsWithoutYtd = replaceSyntheticPeriodRows(
+    mergedMetricOutputs,
+    [ytdPeriodLabel],
+    teams,
+    "quarter_label",
+  );
+  const jsonExportViewWithoutYtd = replaceSyntheticPeriodRows(
+    mergedJsonExportView,
+    [ytdPeriodLabel],
+    teams,
+    "quarter_label",
+  );
+  const refreshControlWithoutYtd = replaceSyntheticPeriodRows(
+    mergedRefreshControl,
+    [ytdPeriodLabel],
+    teams,
+    "quarter_label",
+  );
+  const ytdArtifacts = buildYearToDateArtifacts(metricOutputsWithoutYtd, refreshControlWithoutYtd, teams, now);
+  const finalMetricOutputs = sortByKeys(
+    [...metricOutputsWithoutYtd, ...ytdArtifacts.metricOutputs],
+    ["team_name", "quarter_label"],
+  );
+  const finalJsonExportView = sortByKeys(
+    [...jsonExportViewWithoutYtd, ...ytdArtifacts.jsonExportView],
+    ["team_name", "quarter_label", "metric_name"],
+  );
+  const finalRefreshControl = sortByKeys(
+    [...refreshControlWithoutYtd, ...ytdArtifacts.refreshControl],
+    ["team_name", "quarter_label"],
+  );
 
   await Promise.all([
     fs.writeFile(
@@ -1933,11 +2242,11 @@ async function processQuarterWindow({
     ),
     fs.writeFile(
       outputFiles.metricOutputsByQuarter,
-      toCsv(headers.metricOutputsByQuarter, mergedMetricOutputs),
+      toCsv(headers.metricOutputsByQuarter, finalMetricOutputs),
       "utf8",
     ),
-    fs.writeFile(outputFiles.jsonExportView, toCsv(headers.jsonExportView, mergedJsonExportView), "utf8"),
-    fs.writeFile(outputFiles.refreshControl, toCsv(headers.refreshControl, mergedRefreshControl), "utf8"),
+    fs.writeFile(outputFiles.jsonExportView, toCsv(headers.jsonExportView, finalJsonExportView), "utf8"),
+    fs.writeFile(outputFiles.refreshControl, toCsv(headers.refreshControl, finalRefreshControl), "utf8"),
   ]);
 
   return {
@@ -1979,7 +2288,7 @@ async function main() {
   const teams = mapping.boardsOrProjects.filter((entry) => entry.teamName && entry.boardId);
 
   if (teams.length === 0) {
-    throw new Error("No tracked teams are configured in backend/excel/jira-field-mapping.template.json.");
+    throw new Error("No tracked teams are configured in backend/jira/config/jira-field-mapping.template.json.");
   }
 
   const summaries = [];

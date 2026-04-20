@@ -7,8 +7,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, "..");
 
-const generatedJsonPath = path.join(repoRoot, "backend/excel/json/metrics.generated.json");
-const generatedCsvPath = path.join(repoRoot, "backend/excel/generated/json_export_view.csv");
+const generatedJsonPath = path.join(repoRoot, "backend/published/json/metrics.generated.json");
+const generatedCsvPath = path.join(repoRoot, "backend/published/generated/json_export_view.csv");
 const publicJsonPath = path.join(repoRoot, "public/data/metrics.generated.json");
 
 function runNodeScript(scriptPath, args = []) {
@@ -33,8 +33,10 @@ function runNodeScript(scriptPath, args = []) {
 async function main() {
   const pullArgs = process.argv.slice(2);
 
-  await runNodeScript(path.join(__dirname, "pull-jira-quarterly-metrics.mjs"), pullArgs);
-  await runNodeScript(path.join(__dirname, "export-jira-metrics-json.mjs"), [
+  await runNodeScript(path.join(__dirname, "jira/pull-quarterly-metrics.mjs"), pullArgs);
+  await runNodeScript(path.join(__dirname, "ai/pull-adoption-metrics.mjs"), pullArgs);
+  await runNodeScript(path.join(__dirname, "published/merge-metric-sources.mjs"));
+  await runNodeScript(path.join(__dirname, "published/export-metrics-json.mjs"), [
     generatedCsvPath,
     generatedJsonPath,
   ]);

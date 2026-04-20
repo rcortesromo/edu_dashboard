@@ -104,6 +104,9 @@ button {
 }
 
 .nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px 14px;
   border: 0;
   border-radius: 999px;
@@ -242,6 +245,65 @@ button {
   margin-top: 28px;
 }
 
+.period-toolbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 28px;
+  padding: 22px 24px;
+  border: 1px solid rgba(109, 40, 217, 0.12);
+  border-radius: 22px;
+  background: rgba(248, 245, 255, 0.86);
+}
+
+.period-toolbar-copy h3 {
+  margin: 0;
+  font-size: clamp(1.35rem, 2.6vw, 1.9rem);
+}
+
+.period-toolbar-copy p:last-child {
+  max-width: 500px;
+  margin: 10px 0 0;
+}
+
+.period-selector {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.period-dropdown {
+  appearance: none;
+  padding: 10px 36px 10px 16px;
+  border: 1px solid rgba(109, 40, 217, 0.18);
+  border-radius: 14px;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%236d28d9' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+      no-repeat right 14px center,
+    rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(8px);
+  color: var(--primary-dark);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  min-width: 170px;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.period-dropdown:hover {
+  border-color: rgba(109, 40, 217, 0.32);
+}
+
+.period-dropdown:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(109, 40, 217, 0.12);
+}
+
 .metric-explainer-label {
   margin: 0 0 10px;
   color: var(--text-muted);
@@ -336,6 +398,10 @@ button {
 
 .state-card-inline {
   margin-top: 0;
+}
+
+.period-state-card {
+  margin-top: 16px;
 }
 
 .quarter-report {
@@ -765,6 +831,7 @@ th {
 
   .portfolio-header,
   .metric-reference-header,
+  .period-toolbar,
   .quarter-banner,
   .team-section-header,
   .team-metric-card-header {
@@ -777,6 +844,14 @@ th {
     align-items: flex-start;
     justify-content: flex-start;
     text-align: left;
+  }
+
+  .period-selector {
+    justify-content: flex-start;
+  }
+
+  .period-dropdown {
+    width: 100%;
   }
 
   .portfolio-metrics,

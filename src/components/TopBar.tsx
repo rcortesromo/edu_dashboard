@@ -1,16 +1,11 @@
-type ViewKey = "home" | "metrics";
+import { NavLink } from "react-router-dom";
 
-type TopBarProps = {
-  activeView: ViewKey;
-  onNavigate: (view: ViewKey) => void;
-};
-
-const navItems: Array<{ label: string; view: ViewKey }> = [
-  { label: "Home", view: "home" },
-  { label: "Metrics", view: "metrics" },
+const navItems = [
+  { label: "Home", to: "/" },
+  { label: "Metrics", to: "/metrics" },
 ];
 
-function TopBar({ activeView, onNavigate }: TopBarProps) {
+function TopBar() {
   return (
     <header className="topbar">
       <div className="brand-block">
@@ -23,14 +18,14 @@ function TopBar({ activeView, onNavigate }: TopBarProps) {
 
       <nav className="topbar-nav" aria-label="Main navigation">
         {navItems.map((item) => (
-          <button
-            key={item.view}
-            type="button"
-            className={`nav-link${activeView === item.view ? " active" : ""}`}
-            onClick={() => onNavigate(item.view)}
+          <NavLink
+            key={item.to}
+            to={item.to}
+            end={item.to === "/"}
+            className={({ isActive }) => `nav-link${isActive ? " active" : ""}`}
           >
             {item.label}
-          </button>
+          </NavLink>
         ))}
       </nav>
     </header>

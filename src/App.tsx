@@ -1,86 +1,21 @@
 import { useEffect, useMemo, useState } from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
 import TopBar from "./components/TopBar";
-import MetricsView, {
-  PortfolioRollup,
+import {
   buildTeamSummaries,
-  metricDescriptions,
-  metricDisplayOrder,
+  buildPeriodOptions,
+  defaultPeriodKey,
+  getPeriodOption,
   type MetricsPayload,
-  type TeamSummary,
-} from "./metrics.tsx";
-
-type ViewKey = "home" | "metrics";
-
-function HomeView({
-  onOpenMetrics,
-  teams,
-}: {
-  onOpenMetrics: () => void;
-  teams: TeamSummary[];
-}) {
-  const portfolioTeam = teams.find((team) => team.isPortfolio && team.metrics.length > 0);
-  const deliveryTeams = teams.filter((team) => !team.isPortfolio && team.metrics.length > 0);
-
-  return (
-    <main className="hero">
-      <section className="hero-card">
-        <span className="hero-tag">Executive Delivery Snapshot</span>
-        <h2>Quarter-to-date Jira metrics for CXP and Revtrak</h2>
-        <p>
-          This dashboard summarizes backlog stability, completed sprint velocity, system flow, and actual delivery.
-        </p>
-
-        <div className="hero-actions">
-          <button type="button" className="primary-action" onClick={onOpenMetrics}>
-            Open Metrics
-          </button>
-        </div>
-      </section>
-
-      <section className="content-shell home-details">
-        <div className="panel">
-          <div className="section-heading">
-            <span className="hero-tag">Current Scope</span>
-            <h2>What the current metrics tell us</h2>
-            <p>
-              These are the current quarter-level measures automated from Jira.
-            </p>
-          </div>
-
-          {portfolioTeam ? (
-            <div className="home-portfolio-wrap">
-              <PortfolioRollup portfolioTeam={portfolioTeam} deliveryTeams={deliveryTeams} />
-            </div>
-          ) : null}
-
-          <article className="metric-reference-card">
-            <div className="metric-reference-header">
-              <div>
-                <p className="metric-explainer-label">Metric Reference</p>
-                <h3>How to read each metric</h3>
-              </div>
-            </div>
-
-            <div className="metric-reference-list">
-              {metricDisplayOrder.map((metricName: string) => (
-                <div key={metricName} className="metric-reference-item">
-                  <h4>{metricName}</h4>
-                  <p>{metricDescriptions[metricName]}</p>
-                </div>
-              ))}
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-  );
-}
+} from "./lib/metrics";
+import HomePage from "./pages/HomePage";
+import MetricsPage from "./pages/MetricsPage";
 
 function App() {
-  const [activeView, setActiveView] = useState<ViewKey>("home");
   const [payload, setPayload] = useState<MetricsPayload | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [selectedPeriod, setSelectedPeriod] = useState("");
 
   useEffect(() => {
     let cancelled = false;
@@ -90,7 +25,7 @@ function App() {
         setLoading(true);
         setError("");
 
-        const response = await fetch("./data/metrics.generated.json");
+        const response = await fetch("/data/metrics.generated.json");
 
         if (!response.ok) {
           throw new Error("Published metrics feed is unavailable.");
@@ -123,20 +58,61 @@ function App() {
     };
   }, []);
 
-  const teamSummaries = useMemo(() => buildTeamSummaries(payload), [payload]);
+  const periodOptions = useMemo(() => buildPeriodOptions(payload), [payload]);
+  const activePeriod = useMemo(
+    () => getPeriodOption(periodOptions, selectedPeriod),
+    [periodOptions, selectedPeriod],
+  );
+  const teamSummaries = useMemo(
+    () => buildTeamSummaries(payload, activePeriod?.key ?? selectedPeriod),
+    [activePeriod?.key, payload, selectedPeriod],
+  );
 
-  const currentView = useMemo(() => {
-    if (activeView === "metrics") {
-      return <MetricsView teams={teamSummaries} loading={loading} error={error} />;
+  useEffect(() => {
+    if (periodOptions.length === 0) {
+      if (selectedPeriod) {
+        setSelectedPeriod("");
+      }
+      return;
     }
 
-    return <HomeView onOpenMetrics={() => setActiveView("metrics")} teams={teamSummaries} />;
-  }, [activeView, error, loading, teamSummaries]);
+    if (!selectedPeriod || !periodOptions.some((period) => period.key === selectedPeriod)) {
+      setSelectedPeriod(defaultPeriodKey(periodOptions));
+    }
+  }, [periodOptions, selectedPeriod]);
 
   return (
     <div className="app-shell">
-      <TopBar activeView={activeView} onNavigate={setActiveView} />
-      {currentView}
+      <TopBar />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <HomePage
+              teams={teamSummaries}
+              loading={loading}
+              error={error}
+              periodOptions={periodOptions}
+              selectedPeriod={selectedPeriod}
+              onSelectPeriod={setSelectedPeriod}
+            />
+          }
+        />
+        <Route
+          path="/metrics"
+          element={
+            <MetricsPage
+              teams={teamSummaries}
+              loading={loading}
+              error={error}
+              periodOptions={periodOptions}
+              selectedPeriod={selectedPeriod}
+              onSelectPeriod={setSelectedPeriod}
+            />
+          }
+        />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
     </div>
   );
 }

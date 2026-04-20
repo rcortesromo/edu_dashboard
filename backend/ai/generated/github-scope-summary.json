@@ -1,0 +1,26 @@
+{
+  "refreshedAt": "2026-04-17T14:58:22.097Z",
+  "source": "GitHub",
+  "usersTracked": 30,
+  "teamsTracked": [
+    {
+      "team": "ASAP",
+      "count": 3
+    },
+    {
+      "team": "Smartcare",
+      "count": 9
+    },
+    {
+      "team": "Team Connexpoint",
+      "count": 9
+    },
+    {
+      "team": "Team Webstore",
+      "count": 9
+    }
+  ],
+  "reposConfigured": 0,
+  "status": "skipped",
+  "note": "No GitHub repository scope is configured yet. Wrote an empty AI metrics view and kept the team roster ready for later enrichment."
+}

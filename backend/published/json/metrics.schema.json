@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EduDashboardMetrics",
+  "type": "object",
+  "required": ["reportDate", "teams", "quarters", "metrics"],
+  "properties": {
+    "reportDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "teams": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "quarters": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9]{4}-(Q[1-4]|YTD)$"
+      },
+      "uniqueItems": true
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "team",
+          "quarter",
+          "metricName",
+          "value",
+          "unit",
+          "source",
+          "automationStatus",
+          "note",
+          "lastRefreshUtc"
+        ],
+        "properties": {
+          "team": {
+            "type": "string"
+          },
+          "quarter": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-(Q[1-4]|YTD)$"
+          },
+          "metricName": {
+            "type": "string",
+            "enum": [
+              "Jira Card Churn %",
+              "Average Velocity (points per sprint)",
+              "Flow-based Cycle Time Proxy (weeks)",
+              "Actual Cycle Time (weeks)",
+              "Cursor Adoption Rate",
+              "AI-assisted Pull Request Coverage",
+              "AI Active Developers"
+            ]
+          },
+          "value": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string",
+            "enum": ["percent", "weeks", "points", "count"]
+          },
+          "source": {
+            "type": "string",
+            "enum": ["Jira", "GitHub", "Cursor"]
+          },
+          "automationStatus": {
+            "type": "string",
+            "enum": ["Yes", "Yes (partial)", "No"]
+          },
+          "note": {
+            "type": "string"
+          },
+          "lastRefreshUtc": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

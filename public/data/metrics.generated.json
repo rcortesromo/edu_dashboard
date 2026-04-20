@@ -6,7 +6,9 @@
     "Team Webstore"
   ],
   "quarters": [
-    "2026-Q1"
+    "2026-Q1",
+    "2026-Q2",
+    "2026-YTD"
   ],
   "metrics": [
     {
@@ -54,6 +56,94 @@
       "lastRefreshUtc": "2026-04-16T16:41:49.275Z"
     },
     {
+      "team": "EDU",
+      "quarter": "2026-Q2",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 2.15,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup weighted by completed items across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q2",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 0,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q2",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.29,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q2",
+      "metricName": "Jira Card Churn %",
+      "value": 13.39,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-YTD",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.22,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date portfolio rollup weighted by completed items across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-YTD",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 33.57,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-YTD",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.88,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-YTD",
+      "metricName": "Jira Card Churn %",
+      "value": 8.24,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
       "team": "Team Connexpoint",
       "quarter": "2026-Q1",
       "metricName": "Actual Cycle Time (weeks)",
@@ -98,6 +188,94 @@
       "lastRefreshUtc": "2026-04-16T16:41:49.275Z"
     },
     {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q2",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 0.63,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q2",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 0,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter from the Jira board velocity report.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q2",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.11,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q2",
+      "metricName": "Jira Card Churn %",
+      "value": 4.4,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-YTD",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 0.6,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date rollup weighted by completed items across available quarters.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-YTD",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 44,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date rollup weighted by sprint counts across available quarters.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-YTD",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 0.96,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-YTD",
+      "metricName": "Jira Card Churn %",
+      "value": 3.64,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
       "team": "Team Webstore",
       "quarter": "2026-Q1",
       "metricName": "Actual Cycle Time (weeks)",
@@ -140,6 +318,94 @@
       "automationStatus": "Yes (partial)",
       "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
       "lastRefreshUtc": "2026-04-16T16:41:49.275Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 4.9,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 0,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter from the Jira board velocity report.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.59,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2",
+      "metricName": "Jira Card Churn %",
+      "value": 52.38,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-YTD",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 3.28,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date rollup weighted by completed items across available quarters.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-YTD",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 23.14,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date rollup weighted by sprint counts across available quarters.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-YTD",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 4.84,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-YTD",
+      "metricName": "Jira Card Churn %",
+      "value": 15.58,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",
+      "lastRefreshUtc": "2026-04-16T18:56:19.242Z"
     }
   ]
 }

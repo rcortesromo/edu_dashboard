@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "teamAliases": {
+    "CXP": "Team Connexpoint",
+    "WS": "Team Webstore",
+    "Revtrak": "Team Webstore",
+    "SmartCare": "Smartcare"
+  },
+  "users": [
+    {
+      "team": "Team Connexpoint",
+      "name": "Michael Trebnick",
+      "githubLogin": "mtrebnick",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Connexpoint",
+      "name": "Abinash Sahoo",
+      "githubLogin": "abinash-vanco",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Connexpoint",
+      "name": "Ulises Nunez",
+      "githubLogin": "ulisesnunezvanco",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Connexpoint",
+      "name": "Claudio Martinez",
+      "githubLogin": "ClaudioMartinezVanco",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Connexpoint",
+      "name": "David Mendoza",
+      "githubLogin": "davidmendozavanco",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Connexpoint",
+      "name": "Rodolfo Ruiz",
+      "githubLogin": "rodolforuizm",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Connexpoint",
+      "name": "Ricardo Dominguez",
+      "githubLogin": "ricardo-dominguez",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Connexpoint",
+      "name": "Darcy Olson",
+      "githubLogin": "djolson13",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Connexpoint",
+      "name": "Siva Kannan",
+      "githubLogin": "skannan123",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Webstore",
+      "name": "Alejandro Suarez",
+      "githubLogin": "vic3flow",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Webstore",
+      "name": "Junaid Khan",
+      "githubLogin": "JunaidVanco",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Webstore",
+      "name": "Matt Maslowski",
+      "githubLogin": "mattmaslowski-vanco",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Webstore",
+      "name": "Zach Walters",
+      "githubLogin": "ztwalters",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Webstore",
+      "name": "Christian Poynter",
+      "githubLogin": "thepoynt",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Webstore",
+      "name": "Guillermo McNamara",
+      "githubLogin": "g-mcnamara",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Webstore",
+      "name": "Michel Almagro",
+      "githubLogin": "almagroVanco",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Webstore",
+      "name": "Christie Garcia",
+      "githubLogin": "ChristieGarcia",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Team Webstore",
+      "name": "Jehu Castelan",
+      "githubLogin": "jehucastevanco",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "ASAP",
+      "name": "Cesar Gonzalez",
+      "githubLogin": "cesarmanuelgc",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "ASAP",
+      "name": "Maricarmen Murillo",
+      "githubLogin": "MaricarmenMurillo",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": "2026-04-17"
+    },
+    {
+      "team": "ASAP",
+      "name": "Tristan Cruz",
+      "githubLogin": "TristanCruz",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": "2026-04-17"
+    },
+    {
+      "team": "Smartcare",
+      "name": "Neil Heverly",
+      "githubLogin": "nheverly0581",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Smartcare",
+      "name": "Juan Calderon",
+      "githubLogin": "JuanCVanco",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Smartcare",
+      "name": "Javier Chavez",
+      "githubLogin": "JavtyCo",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Smartcare",
+      "name": "Emanuel Varga",
+      "githubLogin": "emanuelvarga",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Smartcare",
+      "name": "Dan Cornilov",
+      "githubLogin": "dancornilov",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Smartcare",
+      "name": "David Truta",
+      "githubLogin": "david-truta-tq",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Smartcare",
+      "name": "Denis Profir",
+      "githubLogin": "denisprofir",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Smartcare",
+      "name": "Laurentiu Ile",
+      "githubLogin": "Laurentiulle",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    },
+    {
+      "team": "Smartcare",
+      "name": "Victor Gavrilita",
+      "githubLogin": "VictorGavrilita",
+      "githubEmail": "",
+      "cursorEmail": "",
+      "cursorUserId": "",
+      "activeFrom": null,
+      "activeTo": null
+    }
+  ]
+}

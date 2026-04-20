@@ -1,0 +1,40 @@
+{
+  "reportDate": "2026-04-16",
+  "teams": ["EDU", "Team Connexpoint", "Team Webstore", "ASAP", "Smartcare"],
+  "quarters": ["2026-Q1", "2026-YTD"],
+  "metrics": [
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q1",
+      "metricName": "Jira Card Churn %",
+      "value": 18.4,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from sprint changelog events rolled into the quarter.",
+      "lastRefreshUtc": "2026-04-16T18:00:00Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q1",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 42.0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "Yes (partial)",
+      "note": "Example AI adoption metric sourced from GitHub signals for included corporate repositories.",
+      "lastRefreshUtc": "2026-04-16T18:00:00Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2026-Q1",
+      "metricName": "AI Active Developers",
+      "value": 7,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "Yes (partial)",
+      "note": "Example count of mapped developers with qualifying AI-assisted GitHub activity in the selected period.",
+      "lastRefreshUtc": "2026-04-16T18:00:00Z"
+    }
+  ]
+}
