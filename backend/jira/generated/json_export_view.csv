@@ -1,17 +1,9 @@
 team_name,quarter_label,metric_name,metric_value,metric_unit,source_system,coverage_status,note,last_refresh_utc
-ASAP,2026-Q1,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-04-27T15:42:41.136Z
-ASAP,2026-Q1,AI-assisted Pull Request Coverage,15.7895,percent,GitHub,automated,3 of 19 merged PRs had AI signals,2026-04-27T15:42:41.136Z
-ASAP,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-04-27T15:42:41.136Z
-ASAP,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-04-27T15:42:41.136Z
 EDU,2026-Q1,Actual Cycle Time (weeks),0.99,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-04-27T15:59:56.487Z
-EDU,2026-Q1,AI Active Developers,11,count,GitHub,automated,11 of 30 members (portfolio rollup),2026-04-27T15:42:41.136Z
-EDU,2026-Q1,AI-assisted Pull Request Coverage,5.6881,percent,GitHub,automated,31 of 545 merged PRs had AI signals (portfolio rollup),2026-04-27T15:42:41.136Z
 EDU,2026-Q1,Average Velocity (points per sprint),39.17,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-27T15:59:56.487Z
 EDU,2026-Q1,Flow-based Cycle Time Proxy (weeks),2.03,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-27T15:59:56.487Z
 EDU,2026-Q1,Jira Card Churn %,7.28,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-27T15:59:56.487Z
 EDU,2026-Q2,Actual Cycle Time (weeks),1.84,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-04-27T15:59:56.487Z
-EDU,2026-Q2,AI Active Developers,7,count,GitHub,automated,7 of 30 members (portfolio rollup),2026-04-27T15:42:41.136Z
-EDU,2026-Q2,AI-assisted Pull Request Coverage,7.3529,percent,GitHub,automated,10 of 136 merged PRs had AI signals (portfolio rollup),2026-04-27T15:42:41.136Z
 EDU,2026-Q2,Average Velocity (points per sprint),37,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-27T15:59:56.487Z
 EDU,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.97,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-27T15:59:56.487Z
 EDU,2026-Q2,Jira Card Churn %,10.92,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-27T15:59:56.487Z
@@ -19,19 +11,11 @@ EDU,2026-YTD,Actual Cycle Time (weeks),1.23,weeks,Jira,Yes (partial),Year-to-dat
 EDU,2026-YTD,Average Velocity (points per sprint),38.62,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-27T15:59:56.487Z
 EDU,2026-YTD,Flow-based Cycle Time Proxy (weeks),2.01,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-27T15:59:56.487Z
 EDU,2026-YTD,Jira Card Churn %,8.28,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-27T15:59:56.487Z
-Smartcare,2026-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-04-27T15:42:41.136Z
-Smartcare,2026-Q1,AI-assisted Pull Request Coverage,1.3453,percent,GitHub,automated,3 of 223 merged PRs had AI signals,2026-04-27T15:42:41.136Z
-Smartcare,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-04-27T15:42:41.136Z
-Smartcare,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 34 merged PRs had AI signals,2026-04-27T15:42:41.136Z
 Team Connexpoint,2026-Q1,Actual Cycle Time (weeks),0.59,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-27T15:59:56.487Z
-Team Connexpoint,2026-Q1,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-04-27T15:42:41.136Z
-Team Connexpoint,2026-Q1,AI-assisted Pull Request Coverage,7.0175,percent,GitHub,automated,12 of 171 merged PRs had AI signals,2026-04-27T15:42:41.136Z
 Team Connexpoint,2026-Q1,Average Velocity (points per sprint),51.33,points,Jira,Yes (partial),Average completed story points per sprint across the quarter from the Jira board velocity report.,2026-04-27T15:59:56.487Z
 Team Connexpoint,2026-Q1,Flow-based Cycle Time Proxy (weeks),0.93,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-27T15:59:56.487Z
 Team Connexpoint,2026-Q1,Jira Card Churn %,3.44,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-27T15:59:56.487Z
 Team Connexpoint,2026-Q2,Actual Cycle Time (weeks),0.62,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-27T15:59:56.487Z
-Team Connexpoint,2026-Q2,AI Active Developers,4,count,GitHub,automated,4 of 9 team members,2026-04-27T15:42:41.136Z
-Team Connexpoint,2026-Q2,AI-assisted Pull Request Coverage,11.2903,percent,GitHub,automated,7 of 62 merged PRs had AI signals,2026-04-27T15:42:41.136Z
 Team Connexpoint,2026-Q2,Average Velocity (points per sprint),31,points,Jira,Yes (partial),Average completed story points per sprint across the quarter from the Jira board velocity report.,2026-04-27T15:59:56.487Z
 Team Connexpoint,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.18,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-27T15:59:56.487Z
 Team Connexpoint,2026-Q2,Jira Card Churn %,2.33,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-27T15:59:56.487Z
@@ -40,14 +24,10 @@ Team Connexpoint,2026-YTD,Average Velocity (points per sprint),46.25,points,Jira
 Team Connexpoint,2026-YTD,Flow-based Cycle Time Proxy (weeks),0.99,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-27T15:59:56.487Z
 Team Connexpoint,2026-YTD,Jira Card Churn %,3.07,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-27T15:59:56.487Z
 Team Webstore,2026-Q1,Actual Cycle Time (weeks),2.58,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-27T15:59:56.487Z
-Team Webstore,2026-Q1,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-04-27T15:42:41.136Z
-Team Webstore,2026-Q1,AI-assisted Pull Request Coverage,9.8485,percent,GitHub,automated,13 of 132 merged PRs had AI signals,2026-04-27T15:42:41.136Z
 Team Webstore,2026-Q1,Average Velocity (points per sprint),27,points,Jira,Yes (partial),Average completed story points per sprint across the quarter from the Jira board velocity report.,2026-04-27T15:59:56.487Z
 Team Webstore,2026-Q1,Flow-based Cycle Time Proxy (weeks),6.32,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-27T15:59:56.487Z
 Team Webstore,2026-Q1,Jira Card Churn %,12.55,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-27T15:59:56.487Z
 Team Webstore,2026-Q2,Actual Cycle Time (weeks),4.76,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-27T15:59:56.487Z
-Team Webstore,2026-Q2,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-04-27T15:42:41.136Z
-Team Webstore,2026-Q2,AI-assisted Pull Request Coverage,8.8235,percent,GitHub,automated,3 of 34 merged PRs had AI signals,2026-04-27T15:42:41.136Z
 Team Webstore,2026-Q2,Average Velocity (points per sprint),43,points,Jira,Yes (partial),Average completed story points per sprint across the quarter from the Jira board velocity report.,2026-04-27T15:59:56.487Z
 Team Webstore,2026-Q2,Flow-based Cycle Time Proxy (weeks),3.79,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-27T15:59:56.487Z
 Team Webstore,2026-Q2,Jira Card Churn %,36.84,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-27T15:59:56.487Z

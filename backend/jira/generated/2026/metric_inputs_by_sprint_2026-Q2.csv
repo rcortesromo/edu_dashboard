@@ -1,0 +1,5 @@
+team_name,sprint_id,sprint_name,quarter_label,cards_committed_at_start,cards_removed_after_start,cards_reestimated_after_start,cards_sent_backward_after_start,completed_cards,completed_points,average_wip_cards,average_throughput_cards_per_sprint,data_quality_note,last_refresh_utc
+Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,85,0,0,4,43,0,12.608,43,Issue was not committed at sprint start.,2026-04-27T15:59:56.487Z
+Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,87,0,0,0,5,0,15.7275,5,Issue was not committed at sprint start.,2026-04-27T15:59:56.487Z
+Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,26,0,12,6,20,86,17.384,20,Issue was not committed at sprint start.,2026-04-27T15:59:56.487Z
+Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,31,0,3,0,1,3,22.41,1,Issue was not committed at sprint start.,2026-04-27T15:59:56.487Z

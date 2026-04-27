@@ -1,26 +1,82 @@
 {
-  "refreshedAt": "2026-04-17T14:58:22.097Z",
+  "refreshedAt": "2026-04-27T15:42:41.136Z",
   "source": "GitHub",
   "usersTracked": 30,
-  "teamsTracked": [
-    {
-      "team": "ASAP",
-      "count": 3
-    },
-    {
-      "team": "Smartcare",
-      "count": 9
-    },
+  "reposConfigured": 64,
+  "status": "completed",
+  "note": "Processed 64 repos, 2 quarters, 20 metric rows generated.",
+  "metrics": [
     {
       "team": "Team Connexpoint",
-      "count": 9
+      "quarter": "2026-Q1",
+      "totalPrs": 171,
+      "aiPrs": 12,
+      "aiPrCoverage": 7.0175,
+      "activeDevs": 8,
+      "aiActiveDevs": 3
     },
     {
       "team": "Team Webstore",
-      "count": 9
+      "quarter": "2026-Q1",
+      "totalPrs": 132,
+      "aiPrs": 13,
+      "aiPrCoverage": 9.8485,
+      "activeDevs": 8,
+      "aiActiveDevs": 5
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q1",
+      "totalPrs": 19,
+      "aiPrs": 3,
+      "aiPrCoverage": 15.7895,
+      "activeDevs": 2,
+      "aiActiveDevs": 1
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2026-Q1",
+      "totalPrs": 223,
+      "aiPrs": 3,
+      "aiPrCoverage": 1.3453,
+      "activeDevs": 6,
+      "aiActiveDevs": 2
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q2",
+      "totalPrs": 62,
+      "aiPrs": 7,
+      "aiPrCoverage": 11.2903,
+      "activeDevs": 8,
+      "aiActiveDevs": 4
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2",
+      "totalPrs": 34,
+      "aiPrs": 3,
+      "aiPrCoverage": 8.8235,
+      "activeDevs": 5,
+      "aiActiveDevs": 3
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q2",
+      "totalPrs": 6,
+      "aiPrs": 0,
+      "aiPrCoverage": 0,
+      "activeDevs": 2,
+      "aiActiveDevs": 0
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2026-Q2",
+      "totalPrs": 34,
+      "aiPrs": 0,
+      "aiPrCoverage": 0,
+      "activeDevs": 3,
+      "aiActiveDevs": 0
     }
-  ],
-  "reposConfigured": 0,
-  "status": "skipped",
-  "note": "No GitHub repository scope is configured yet. Wrote an empty AI metrics view and kept the team roster ready for later enrichment."
+  ]
 }

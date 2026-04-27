@@ -1,0 +1,927 @@
+{
+  "discoveredAt": "2026-04-27T15:34:25.535Z",
+  "orgs": [
+    "vancopayments",
+    "SmartTuition"
+  ],
+  "totalReposWithMatches": 64,
+  "repos": [
+    {
+      "fullName": "SmartTuition/AuthWeb",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JuanCVanco",
+        "dancornilov",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-16T11:05:03Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "SmartTuition/CenterWeb",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JuanCVanco",
+        "dancornilov"
+      ],
+      "lastPushed": "2026-04-27T11:56:59Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "SmartTuition/DayCare_IOS_Kiosk",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-03-19T14:55:37Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "SmartTuition/DayCare_IOS_Parent",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "david-truta-tq",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-23T11:54:46Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "SmartTuition/DayCare_Services",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JuanCVanco",
+        "denisprofir",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-27T14:23:56Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "SmartTuition/DayCare_Services_API_Automation",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "VictorGavrilita"
+      ],
+      "lastPushed": "2026-04-16T07:21:22Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "SmartTuition/DayCare_Services_UI_Automation",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JavtyCo",
+        "VictorGavrilita"
+      ],
+      "lastPushed": "2026-04-16T12:13:56Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "SmartTuition/DayCare_Web_Center",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JuanCVanco",
+        "dancornilov",
+        "denisprofir",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-16T11:04:46Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "SmartTuition/EnrollmentsWeb",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JuanCVanco",
+        "dancornilov",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-16T11:04:52Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "SmartTuition/EnterpriseWeb",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JuanCVanco",
+        "dancornilov",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-16T11:04:40Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "SmartTuition/Flutter_Employee",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "david-truta-tq",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-03-31T11:50:57Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "SmartTuition/Manish",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "denisprofir",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-03-27T13:47:01Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "SmartTuition/P2M-daycare2me",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JuanCVanco"
+      ],
+      "lastPushed": "2026-04-24T21:04:21Z",
+      "defaultBranch": "production"
+    },
+    {
+      "fullName": "SmartTuition/P2M-teacher-android-pro",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "david-truta-tq",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-03-31T11:50:57Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "SmartTuition/ParentWeb",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JuanCVanco",
+        "dancornilov",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-27T10:22:20Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "SmartTuition/Portal",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JuanCVanco",
+        "dancornilov",
+        "denisprofir",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-16T11:04:57Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "SmartTuition/PS2M-ParentProNativeAndroid",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "david-truta-tq",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-03-31T11:50:53Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "SmartTuition/SmartCare-Android-Kiosk",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "david-truta-tq",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-16T11:36:35Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "SmartTuition/SmartCare-Android-Parent",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "david-truta-tq",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-16T11:37:04Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "SmartTuition/SmartCare-Flutter-Parent",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "david-truta-tq",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-27T12:02:14Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "SmartTuition/TeacherWeb_v2",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "JuanCVanco",
+        "dancornilov",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-27T10:37:57Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "SmartTuition/WebPackages",
+      "teams": [
+        "Smartcare"
+      ],
+      "matchedContributors": [
+        "dancornilov",
+        "emanuelvarga"
+      ],
+      "lastPushed": "2026-04-15T14:00:24Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "vancopayments/apidocs",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "abinash-vanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-23T21:09:14Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/ASAP",
+      "teams": [
+        "ASAP",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "MaricarmenMurillo",
+        "cesarmanuelgc",
+        "thepoynt",
+        "vic3flow",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-20T19:55:50Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/automation-cxp-api",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "djolson13",
+        "ricardo-dominguez",
+        "skannan123",
+        "ulisesnunezvanco",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-16T21:07:39Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/automation-cxp-loadtesting",
+      "teams": [
+        "Team Connexpoint"
+      ],
+      "matchedContributors": [
+        "djolson13"
+      ],
+      "lastPushed": "2026-04-27T13:51:42Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/automation-cxp-ui",
+      "teams": [
+        "Team Connexpoint"
+      ],
+      "matchedContributors": [
+        "djolson13",
+        "skannan123"
+      ],
+      "lastPushed": "2026-04-23T20:37:07Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/automation-playwright-webstore",
+      "teams": [
+        "ASAP",
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ChristieGarcia",
+        "JunaidVanco",
+        "TristanCruz",
+        "jehucastevanco",
+        "ricardo-dominguez",
+        "thepoynt",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-16T19:27:16Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "vancopayments/automation-webstore-ui",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ChristieGarcia",
+        "JunaidVanco",
+        "jehucastevanco",
+        "ricardo-dominguez",
+        "thepoynt",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-01T20:20:03Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-azurefunctions",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "davidmendozavanco",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-21T21:24:37Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "vancopayments/cxp-boarding-onboarding",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-22T18:23:08Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-boarding-revtrakBoarding",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-23T16:36:32Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-checkout",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-20T17:03:18Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-datahub-dataAPI",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "abinash-vanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "ricardo-dominguez",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-24T17:41:11Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-echecks-instructions",
+      "teams": [
+        "Team Connexpoint"
+      ],
+      "matchedContributors": [
+        "davidmendozavanco",
+        "rodolforuizm",
+        "ulisesnunezvanco"
+      ],
+      "lastPushed": "2026-04-21T21:26:33Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "vancopayments/cxp-frontend-account",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-23T15:20:02Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-frontend-dashboard",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-24T17:51:18Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-frontend-demo",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "abinash-vanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-23T18:13:46Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-frontend-helm",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-21T21:27:43Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-frontend-jsComponents",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "abinash-vanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-21T21:28:08Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-frontend-paybutton",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-23T22:06:13Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-frontend-paymentterminal",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "davidmendozavanco",
+        "ricardo-dominguez",
+        "ulisesnunezvanco",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-21T21:28:32Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "vancopayments/cxp-frontend-uiComponents",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "davidmendozavanco",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-21T21:28:50Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-funding-fundingAPI",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-21T21:24:11Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-hexea-azurefunctions",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-21T21:29:39Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-hexea-dotnet",
+      "teams": [
+        "Team Connexpoint"
+      ],
+      "matchedContributors": [
+        "davidmendozavanco",
+        "ulisesnunezvanco"
+      ],
+      "lastPushed": "2026-02-24T17:39:34Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-integration-api",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ricardo-dominguez",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-24T19:53:33Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "vancopayments/cxp-libraries-core",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-22T22:08:12Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-libraries-emailProvider",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "davidmendozavanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-21T21:30:13Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-login-loginService",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-21T21:30:26Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "vancopayments/cxp-payhub-payAPI",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "abinash-vanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "ricardo-dominguez",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-24T18:20:02Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-payhub-scheduleAPI",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-24T18:10:29Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-processor-onlineprocessing",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "abinash-vanco",
+        "davidmendozavanco",
+        "mtrebnick",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-24T21:16:53Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-receipts",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "davidmendozavanco",
+        "vic3flow"
+      ],
+      "lastPushed": "2026-04-21T21:30:46Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/cxp-responsifier",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ClaudioMartinezVanco",
+        "abinash-vanco",
+        "davidmendozavanco",
+        "ricardo-dominguez",
+        "rodolforuizm",
+        "ulisesnunezvanco",
+        "ztwalters"
+      ],
+      "lastPushed": "2025-11-15T14:54:00Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/donations-payer",
+      "teams": [
+        "Team Connexpoint"
+      ],
+      "matchedContributors": [
+        "ricardo-dominguez"
+      ],
+      "lastPushed": "2026-04-24T19:15:11Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/integration-services",
+      "teams": [
+        "ASAP",
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "cesarmanuelgc",
+        "g-mcnamara",
+        "ricardo-dominguez",
+        "ztwalters"
+      ],
+      "lastPushed": "2025-10-30T06:13:40Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "vancopayments/merchant-portal",
+      "teams": [
+        "ASAP"
+      ],
+      "matchedContributors": [
+        "MaricarmenMurillo"
+      ],
+      "lastPushed": "2026-04-22T17:22:17Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/rt",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "almagroVanco",
+        "g-mcnamara",
+        "mattmaslowski-vanco",
+        "mtrebnick",
+        "ricardo-dominguez",
+        "thepoynt",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-27T15:22:12Z",
+      "defaultBranch": "develop"
+    },
+    {
+      "fullName": "vancopayments/shared-services",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "g-mcnamara",
+        "ricardo-dominguez",
+        "thepoynt",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-21T18:37:18Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "vancopayments/te-api",
+      "teams": [
+        "Team Connexpoint"
+      ],
+      "matchedContributors": [
+        "skannan123"
+      ],
+      "lastPushed": "2026-01-23T20:32:11Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/vanco-campaigns",
+      "teams": [
+        "ASAP"
+      ],
+      "matchedContributors": [
+        "MaricarmenMurillo"
+      ],
+      "lastPushed": "2026-04-23T17:55:29Z",
+      "defaultBranch": "master"
+    },
+    {
+      "fullName": "vancopayments/vanco-integration-service",
+      "teams": [
+        "Team Connexpoint",
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ricardo-dominguez",
+        "ztwalters"
+      ],
+      "lastPushed": "2026-04-15T02:43:05Z",
+      "defaultBranch": "main"
+    },
+    {
+      "fullName": "vancopayments/vanco-notifications",
+      "teams": [
+        "Team Webstore"
+      ],
+      "matchedContributors": [
+        "ztwalters"
+      ],
+      "lastPushed": "2025-11-19T17:10:56Z",
+      "defaultBranch": "master"
+    }
+  ]
+}

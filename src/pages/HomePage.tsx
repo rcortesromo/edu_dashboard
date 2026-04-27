@@ -49,7 +49,7 @@ function HomePage({
 
         <div className="hero-actions">
           <Link to="/metrics" className="primary-action">
-            Open Metrics
+            Open Team Metrics
           </Link>
         </div>
       </section>

@@ -1,0 +1,8 @@
+team_name,quarter_label,quarter_start_date,quarter_end_date,quarter_status,last_successful_refresh_utc,last_issue_update_processed_utc,last_sprint_end_processed,full_recalculation_required_flag,notes
+EDU,2026-YTD,2026-01-01,2026-04-27,in_progress,2026-04-27T15:59:56.487Z,2026-04-27T09:01:36.320-0700,2026-05-06T17:00:00.000Z,yes,Current year-to-date period is recalculated on every run.
+Team Connexpoint,2026-Q1,2026-01-01,2026-03-31,complete,2026-04-27T15:59:56.487Z,2026-04-14T07:02:49.523-0700,2026-04-01T08:00:00.000Z,no,
+Team Connexpoint,2026-Q2,2026-04-01,2026-06-30,in_progress,2026-04-27T15:59:56.487Z,2026-04-27T09:01:36.320-0700,2026-05-06T07:00:00.000Z,yes,Current quarter is recalculated on every run.
+Team Connexpoint,2026-YTD,2026-01-01,2026-04-27,in_progress,2026-04-27T15:59:56.487Z,2026-04-27T09:01:36.320-0700,2026-05-06T07:00:00.000Z,yes,Current year-to-date period is recalculated on every run.
+Team Webstore,2026-Q1,2026-01-01,2026-03-31,complete,2026-04-27T15:59:56.487Z,2026-04-27T08:51:09.993-0700,2026-04-01T16:00:00.000Z,no,
+Team Webstore,2026-Q2,2026-04-01,2026-06-30,in_progress,2026-04-27T15:59:56.487Z,2026-04-27T08:59:51.236-0700,2026-05-06T17:00:00.000Z,yes,Current quarter is recalculated on every run.
+Team Webstore,2026-YTD,2026-01-01,2026-04-27,in_progress,2026-04-27T15:59:56.487Z,2026-04-27T08:59:51.236-0700,2026-05-06T17:00:00.000Z,yes,Current year-to-date period is recalculated on every run.
