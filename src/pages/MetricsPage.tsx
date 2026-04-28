@@ -27,26 +27,18 @@ function MetricsPage({
   return (
     <main className="content-shell metrics-shell">
       <section className="panel">
-        <div className="section-heading">
-          <span className="hero-tag">Delivery Detail</span>
-          <h2>{activePeriod ? `${activePeriod.label} ${headingLabel}` : "Delivery briefing"}</h2>
-          <p>Every team snapshot below follows the same selected period as the EDU rollup.</p>
-        </div>
-
-        <section className="period-toolbar" aria-label="Selected reporting period">
-          <div className="period-toolbar-copy">
-            <p className="metric-explainer-label">Reporting Period</p>
-            <h3>{activePeriod?.label ?? "Choose a period"}</h3>
-            <p className="metric-reference-intro">
-              Use the period selector to review historic quarters or the synthesized YTD rollup.
-            </p>
+        <div className="section-heading section-heading-with-selector">
+          <div>
+            <span className="hero-tag">Delivery Detail</span>
+            <h2>{activePeriod ? `${activePeriod.label} ${headingLabel}` : "Delivery briefing"}</h2>
+            <p>Every team snapshot below follows the same selected period as the EDU rollup.</p>
           </div>
           <PeriodSelector
             options={periodOptions}
             selectedPeriod={selectedPeriod}
             onSelectPeriod={onSelectPeriod}
           />
-        </section>
+        </div>
 
         {activePeriod?.isInProgress ? (
           <div className="state-card period-state-card">

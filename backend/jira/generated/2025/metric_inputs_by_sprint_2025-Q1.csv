@@ -1,0 +1,13 @@
+team_name,sprint_id,sprint_name,quarter_label,cards_committed_at_start,cards_removed_after_start,cards_reestimated_after_start,cards_sent_backward_after_start,completed_cards,completed_points,committed_completed_points,average_wip_cards,average_throughput_cards_per_sprint,data_quality_note,last_refresh_utc
+Team Connexpoint,4284,CXP25Q1 - Sp 1,2025-Q1,50,0,0,8,24,0,0,22.561,24,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,4285,CXP25Q1 - Sp 2,2025-Q1,59,0,0,6,16,0,0,13.8817,16,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,4286,CXP25Q1 - Sp 3,2025-Q1,63,0,0,4,19,0,0,12.6286,19,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,4287,CXP25Q1 - Sp 4,2025-Q1,69,0,0,11,17,0,0,12.0231,17,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,4288,CXP25Q1 - Sp 5,2025-Q1,59,0,0,2,20,0,0,14.6789,20,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,4289,CXP25Q1 - Sp 6,2025-Q1,58,0,0,2,11,0,0,11.0316,11,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,4515,WS25Q1S1 - Angelic Avicii,2025-Q1,15,0,3,3,7,68,66,8.5803,7,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,4580,WS25Q1S2-Basic Backstreet Boys,2025-Q1,15,2,10,0,8,37,37,12.8432,8,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,4910,WS25Q1S3-Cringe Chumbawumba,2025-Q1,19,0,6,3,9,20,12,15.5256,9,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,5042,WS25Q1S4-Daft Daft Punk,2025-Q1,19,0,3,2,6,24,23,13.6207,6,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,5273,WS25Q1S5-Elvish Elvis,2025-Q1,23,1,10,6,14,54,54,16.6778,14,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,5405,WS25Q1S6-Flying Foo Fighters,2025-Q1,28,1,4,6,24,67,63,21.4873,24,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z

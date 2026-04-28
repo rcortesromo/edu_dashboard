@@ -1,5 +1,5 @@
 {
-  "reportDate": "2026-04-27",
+  "reportDate": "2026-04-28",
   "teams": [
     "ASAP",
     "EDU",
@@ -8,11 +8,104 @@
     "Team Webstore"
   ],
   "quarters": [
+    "2025-Q1",
+    "2025-Q2",
+    "2025-Q3",
+    "2025-Q4",
+    "2025-YTD",
     "2026-Q1",
     "2026-Q2",
     "2026-YTD"
   ],
   "metrics": [
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q1",
+      "metricName": "AI Active Developers",
+      "value": 0,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 3 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q1",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 0 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q2",
+      "metricName": "AI Active Developers",
+      "value": 1,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "1 of 3 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q2",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 9.0909,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "1 of 11 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q3",
+      "metricName": "AI Active Developers",
+      "value": 1,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "1 of 3 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q3",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 7.4074,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "2 of 27 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q4",
+      "metricName": "AI Active Developers",
+      "value": 0,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 3 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q4",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 22 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
     {
       "team": "ASAP",
       "quarter": "2026-Q1",
@@ -22,7 +115,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "1 of 3 team members",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "ASAP",
@@ -33,7 +126,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "3 of 19 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "ASAP",
@@ -44,7 +137,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 3 team members",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "ASAP",
@@ -55,7 +148,315 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 6 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q1",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.63,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup weighted by completed items across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q1",
+      "metricName": "AI Active Developers",
+      "value": 4,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "4 of 30 members (portfolio rollup)",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q1",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 1.227,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "4 of 326 merged PRs had AI signals (portfolio rollup)",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q1",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 35.42,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q1",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 2.01,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q1",
+      "metricName": "Jira Card Churn %",
+      "value": 19.5,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q2",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.29,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup weighted by completed items across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q2",
+      "metricName": "AI Active Developers",
+      "value": 4,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "4 of 30 members (portfolio rollup)",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q2",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 1.8421,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "7 of 380 merged PRs had AI signals (portfolio rollup)",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q2",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 22.74,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q2",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.85,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q2",
+      "metricName": "Jira Card Churn %",
+      "value": 12.68,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q3",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.61,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup weighted by completed items across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q3",
+      "metricName": "AI Active Developers",
+      "value": 6,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "6 of 30 members (portfolio rollup)",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q3",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 2.994,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "15 of 501 merged PRs had AI signals (portfolio rollup)",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q3",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 28.04,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q3",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.85,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q3",
+      "metricName": "Jira Card Churn %",
+      "value": 20.7,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q4",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.39,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup weighted by completed items across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q4",
+      "metricName": "AI Active Developers",
+      "value": 5,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "5 of 30 members (portfolio rollup)",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q4",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 1.5686,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "8 of 510 merged PRs had AI signals (portfolio rollup)",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q4",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 25.5,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q4",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.76,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q4",
+      "metricName": "Jira Card Churn %",
+      "value": 20.95,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-YTD",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.48,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date portfolio rollup weighted by completed items across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-YTD",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 27.83,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-YTD",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.86,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-YTD",
+      "metricName": "Jira Card Churn %",
+      "value": 18.62,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
@@ -66,7 +467,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Portfolio rollup weighted by completed items across all in-scope teams.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
@@ -77,7 +478,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "11 of 30 members (portfolio rollup)",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "EDU",
@@ -88,18 +489,18 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "31 of 545 merged PRs had AI signals (portfolio rollup)",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-Q1",
       "metricName": "Average Velocity (points per sprint)",
-      "value": 39.17,
+      "value": 23.33,
       "unit": "points",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
@@ -110,7 +511,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
@@ -121,18 +522,18 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-Q2",
       "metricName": "Actual Cycle Time (weeks)",
-      "value": 1.84,
+      "value": 1.8,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Portfolio rollup weighted by completed items across all in-scope teams.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
@@ -143,95 +544,183 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "7 of 30 members (portfolio rollup)",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-Q2",
       "metricName": "AI-assisted Pull Request Coverage",
-      "value": 7.3529,
+      "value": 7.2993,
       "unit": "percent",
       "source": "GitHub",
       "automationStatus": "automated",
-      "note": "10 of 136 merged PRs had AI signals (portfolio rollup)",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "note": "10 of 137 merged PRs had AI signals (portfolio rollup)",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-Q2",
       "metricName": "Average Velocity (points per sprint)",
-      "value": 37,
+      "value": 27.4,
       "unit": "points",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-Q2",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
-      "value": 1.97,
+      "value": 2.22,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-Q2",
       "metricName": "Jira Card Churn %",
-      "value": 10.92,
+      "value": 9.56,
       "unit": "percent",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-YTD",
       "metricName": "Actual Cycle Time (weeks)",
-      "value": 1.23,
+      "value": 1.22,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date portfolio rollup weighted by completed items across all in-scope teams.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-YTD",
       "metricName": "Average Velocity (points per sprint)",
-      "value": 38.62,
+      "value": 24.53,
       "unit": "points",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-YTD",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
-      "value": 2.01,
+      "value": 2.09,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-YTD",
       "metricName": "Jira Card Churn %",
-      "value": 8.28,
+      "value": 8.03,
       "unit": "percent",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q1",
+      "metricName": "AI Active Developers",
+      "value": 0,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q1",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 130 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q2",
+      "metricName": "AI Active Developers",
+      "value": 0,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q2",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 141 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q3",
+      "metricName": "AI Active Developers",
+      "value": 1,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "1 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q3",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0.4878,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "1 of 205 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q4",
+      "metricName": "AI Active Developers",
+      "value": 1,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "1 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q4",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0.3817,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "1 of 262 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Smartcare",
@@ -242,7 +731,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "2 of 9 team members",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Smartcare",
@@ -253,7 +742,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "3 of 223 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Smartcare",
@@ -264,7 +753,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 9 team members",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Smartcare",
@@ -275,7 +764,315 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 34 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q1",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.34,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q1",
+      "metricName": "AI Active Developers",
+      "value": 2,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "2 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q1",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 2.439,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "2 of 82 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q1",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 28.33,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q1",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.62,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q1",
+      "metricName": "Jira Card Churn %",
+      "value": 9.22,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q2",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 0.96,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q2",
+      "metricName": "AI Active Developers",
+      "value": 2,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "2 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q2",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 2.9851,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "4 of 134 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q2",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 12.83,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q2",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.33,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q2",
+      "metricName": "Jira Card Churn %",
+      "value": 5.73,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q3",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.24,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q3",
+      "metricName": "AI Active Developers",
+      "value": 3,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "3 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q3",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 6.4327,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "11 of 171 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q3",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 20.5,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q3",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.23,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q3",
+      "metricName": "Jira Card Churn %",
+      "value": 4.24,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q4",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.35,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q4",
+      "metricName": "AI Active Developers",
+      "value": 4,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "4 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q4",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 7.8652,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "7 of 89 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q4",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 21,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q4",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.4,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q4",
+      "metricName": "Jira Card Churn %",
+      "value": 5.14,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-YTD",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.18,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date rollup weighted by completed items across available quarters.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-YTD",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 20.38,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date rollup weighted by sprint counts across available quarters.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-YTD",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 1.38,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-YTD",
+      "metricName": "Jira Card Churn %",
+      "value": 6.01,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
@@ -286,7 +1083,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
@@ -297,7 +1094,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "3 of 9 team members",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Team Connexpoint",
@@ -308,18 +1105,18 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "12 of 171 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Team Connexpoint",
       "quarter": "2026-Q1",
       "metricName": "Average Velocity (points per sprint)",
-      "value": 51.33,
+      "value": 29.83,
       "unit": "points",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
-      "note": "Average completed story points per sprint across the quarter from the Jira board velocity report.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
@@ -330,7 +1127,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
@@ -341,18 +1138,18 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
       "quarter": "2026-Q2",
       "metricName": "Actual Cycle Time (weeks)",
-      "value": 0.62,
+      "value": 0.6,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
@@ -363,7 +1160,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "4 of 9 team members",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Team Connexpoint",
@@ -374,84 +1171,392 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "7 of 62 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Team Connexpoint",
       "quarter": "2026-Q2",
       "metricName": "Average Velocity (points per sprint)",
-      "value": 31,
+      "value": 17,
       "unit": "points",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
-      "note": "Average completed story points per sprint across the quarter from the Jira board velocity report.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
       "quarter": "2026-Q2",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
-      "value": 1.18,
+      "value": 1.56,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
       "quarter": "2026-Q2",
       "metricName": "Jira Card Churn %",
-      "value": 2.33,
+      "value": 2.12,
       "unit": "percent",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
       "quarter": "2026-YTD",
       "metricName": "Actual Cycle Time (weeks)",
-      "value": 0.6,
+      "value": 0.59,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date rollup weighted by completed items across available quarters.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
       "quarter": "2026-YTD",
       "metricName": "Average Velocity (points per sprint)",
-      "value": 46.25,
+      "value": 25.56,
       "unit": "points",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date rollup weighted by sprint counts across available quarters.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
       "quarter": "2026-YTD",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
-      "value": 0.99,
+      "value": 1.1,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Connexpoint",
       "quarter": "2026-YTD",
       "metricName": "Jira Card Churn %",
-      "value": 3.07,
+      "value": 2.91,
       "unit": "percent",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 2.15,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
+      "metricName": "AI Active Developers",
+      "value": 2,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "2 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 1.7544,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "2 of 114 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 42.5,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 2.61,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
+      "metricName": "Jira Card Churn %",
+      "value": 50.42,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 2.58,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
+      "metricName": "AI Active Developers",
+      "value": 1,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "1 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 2.1277,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "2 of 94 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 36.6,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 3.58,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
+      "metricName": "Jira Card Churn %",
+      "value": 34.59,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 2.24,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
+      "metricName": "AI Active Developers",
+      "value": 1,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "1 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 1.0204,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "1 of 98 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 36.83,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 2.99,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
+      "metricName": "Jira Card Churn %",
+      "value": 54.04,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 1.42,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "metricName": "AI Active Developers",
+      "value": 0,
+      "unit": "count",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 9 team members",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 137 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 30,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 2.07,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "metricName": "Jira Card Churn %",
+      "value": 38.84,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-YTD",
+      "metricName": "Actual Cycle Time (weeks)",
+      "value": 2.02,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date rollup weighted by completed items across available quarters.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-YTD",
+      "metricName": "Average Velocity (points per sprint)",
+      "value": 36.21,
+      "unit": "points",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date rollup weighted by sprint counts across available quarters.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-YTD",
+      "metricName": "Flow-based Cycle Time Proxy (weeks)",
+      "value": 2.66,
+      "unit": "weeks",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-YTD",
+      "metricName": "Jira Card Churn %",
+      "value": 43.76,
+      "unit": "percent",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
@@ -462,7 +1567,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
@@ -473,7 +1578,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "5 of 9 team members",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Team Webstore",
@@ -484,18 +1589,18 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "13 of 132 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Team Webstore",
       "quarter": "2026-Q1",
       "metricName": "Average Velocity (points per sprint)",
-      "value": 27,
+      "value": 16.83,
       "unit": "points",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
-      "note": "Average completed story points per sprint across the quarter from the Jira board velocity report.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
@@ -506,7 +1611,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
@@ -517,7 +1622,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
@@ -528,7 +1633,7 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Average completed-item cycle time from the configured team start point to the Jira Done category.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
@@ -539,18 +1644,18 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "3 of 9 team members",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Team Webstore",
       "quarter": "2026-Q2",
       "metricName": "AI-assisted Pull Request Coverage",
-      "value": 8.8235,
+      "value": 8.5714,
       "unit": "percent",
       "source": "GitHub",
       "automationStatus": "automated",
-      "note": "3 of 34 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-04-27T15:42:41.136Z"
+      "note": "3 of 35 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
     },
     {
       "team": "Team Webstore",
@@ -560,30 +1665,30 @@
       "unit": "points",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
-      "note": "Average completed story points per sprint across the quarter from the Jira board velocity report.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "note": "Average completed story points per sprint across the quarter.",
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
       "quarter": "2026-Q2",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
-      "value": 3.79,
+      "value": 3.81,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Proxy metric based on average WIP cards and completed cards per sprint.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
       "quarter": "2026-Q2",
       "metricName": "Jira Card Churn %",
-      "value": 36.84,
+      "value": 40.35,
       "unit": "percent",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
@@ -594,40 +1699,40 @@
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date rollup weighted by completed items across available quarters.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
       "quarter": "2026-YTD",
       "metricName": "Average Velocity (points per sprint)",
-      "value": 31,
+      "value": 23.37,
       "unit": "points",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date rollup weighted by sprint counts across available quarters.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
       "quarter": "2026-YTD",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
-      "value": 5.37,
+      "value": 5.38,
       "unit": "weeks",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     },
     {
       "team": "Team Webstore",
       "quarter": "2026-YTD",
       "metricName": "Jira Card Churn %",
-      "value": 16.99,
+      "value": 17.63,
       "unit": "percent",
       "source": "Jira",
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",
-      "lastRefreshUtc": "2026-04-27T15:59:56.487Z"
+      "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
     }
   ]
 }

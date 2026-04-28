@@ -242,6 +242,18 @@ button {
   line-height: 1.7;
 }
 
+.section-heading-with-selector {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.section-heading-with-selector .period-selector {
+  flex-shrink: 0;
+  margin-top: 38px;
+}
+
 .home-portfolio-wrap {
   margin-top: 28px;
 }
@@ -875,4 +887,119 @@ th {
   .kpi-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* ─── Trends Page ─── */
+
+.trends-shell .panel {
+  padding-bottom: 40px;
+}
+
+.trends-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  padding: 16px 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.trends-toolbar-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trends-toolbar-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.trends-toolbar .period-dropdown {
+  min-width: 140px;
+}
+
+.trends-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+  margin-top: 28px;
+}
+
+@media (min-width: 1100px) {
+  .trends-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.trend-chart-card {
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 24px;
+  transition: box-shadow 0.2s ease;
+}
+
+.trend-chart-card:hover {
+  box-shadow: 0 8px 30px rgba(76, 29, 149, 0.08);
+}
+
+.trend-chart-header {
+  margin-bottom: 20px;
+}
+
+.trend-chart-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.trend-chart-header h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.trend-source-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 6px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  white-space: nowrap;
+}
+
+.trend-chart-description {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.trend-chart-body {
+  width: 100%;
+  height: 280px;
+}
+
+.recharts-legend-item-text {
+  font-family: "DM Sans", system-ui, -apple-system, sans-serif !important;
+  color: var(--text-muted) !important;
+}
+
+.recharts-tooltip-label {
+  font-weight: 600 !important;
+  color: var(--text-main) !important;
 }

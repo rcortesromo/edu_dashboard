@@ -110,18 +110,22 @@ async function fetchAllPages(url, token) {
 
 function buildQuarterWindows() {
   const now = new Date();
-  const year = now.getUTCFullYear();
+  const currentYear = now.getUTCFullYear();
   const currentQuarter = Math.floor(now.getUTCMonth() / 3) + 1;
+  const startYear = Number(process.env.AI_FROM_YEAR) || currentYear - 1;
   const windows = [];
 
-  for (let q = 1; q <= currentQuarter; q++) {
-    const key = `Q${q}`;
-    const bounds = QUARTER_BOUNDARIES[key];
-    windows.push({
-      label: `${year}-${key}`,
-      start: new Date(`${year}-${bounds.start}T00:00:00Z`),
-      end: new Date(`${year}-${bounds.end}T23:59:59Z`),
-    });
+  for (let year = startYear; year <= currentYear; year++) {
+    const maxQ = year === currentYear ? currentQuarter : 4;
+    for (let q = 1; q <= maxQ; q++) {
+      const key = `Q${q}`;
+      const bounds = QUARTER_BOUNDARIES[key];
+      windows.push({
+        label: `${year}-${key}`,
+        start: new Date(`${year}-${bounds.start}T00:00:00Z`),
+        end: new Date(`${year}-${bounds.end}T23:59:59Z`),
+      });
+    }
   }
 
   return windows;

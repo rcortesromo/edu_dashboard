@@ -1,4 +1,25 @@
 issue_key,issue_id,team_name,sprint_id,sprint_name,quarter_label,sprint_start_date,event_timestamp,event_author,field_changed,from_value,to_value,change_type,after_sprint_start_flag,backward_move_flag,reestimate_flag,scope_change_flag
+OV-79671,317882,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-06T10:56:21.466-0700,Michael Trebnick,status,New,In Review,status_change,yes,no,no,no
+OV-79956,320439,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-06T10:56:05.117-0700,Michael Trebnick,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-79956,320439,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-07T09:32:16.227-0700,Michael Trebnick,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-79956,320439,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-07T09:32:21.632-0700,Michael Trebnick,status,In Test,Ready To Test,status_change,yes,yes,no,no
+OV-79957,320441,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-02T11:34:54.136-0700,Siva Kannan,status,New,In Development,status_change,yes,no,no,no
+OV-80475,326975,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-02T09:42:42.617-0700,Rodolfo Ruiz,status,In Review,In Development,status_change,yes,no,no,no
+OV-80475,326975,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-02T09:42:52.343-0700,Rodolfo Ruiz,status,In Development,Closed,status_change,yes,no,no,no
+OV-80513,327180,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-06T08:42:31.624-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-80519,327186,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-06T10:56:15.736-0700,Michael Trebnick,status,New,In Review,status_change,yes,no,no,no
+OV-80519,327186,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-07T09:18:21.530-0700,Michael Trebnick,status,In Review,Ready To Test,status_change,yes,no,no,no
+OV-80680,328534,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-06T10:56:31.366-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-80771,329254,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-02T10:29:11.284-0700,Darcy Olson,status,In Secure Code Review,In Test,status_change,yes,no,no,no
+OV-80771,329254,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-02T13:15:44.171-0700,Darcy Olson,status,In Test,Closed,status_change,yes,no,no,no
+OV-80772,329255,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-02T10:29:05.890-0700,Darcy Olson,status,In Development,Closed,status_change,yes,no,no,no
+OV-80773,329256,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-02T10:29:08.961-0700,Darcy Olson,status,New,In Test,status_change,yes,no,no,no
+OV-80773,329256,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-02T13:15:35.842-0700,Darcy Olson,status,In Test,Closed,status_change,yes,no,no,no
+OV-80774,329257,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-02T13:26:17.011-0700,Darcy Olson,status,New,Closed,status_change,yes,no,no,no
+OV-80775,329258,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-06T06:42:58.218-0700,Darcy Olson,status,New,In Development,status_change,yes,no,no,no
+OV-81138,331308,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-06T11:45:23.789-0700,Michael Trebnick,status,New,Closed,status_change,yes,no,no,no
+OV-81146,331341,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-06T11:50:20.047-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-81190,331634,Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,2026-04-02T15:35:35.536Z,2026-04-07T09:44:36.810-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
 OV-79671,317882,Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,2026-04-08T17:08:31.533Z,2026-04-08T11:06:15.294-0700,Michael Trebnick,status,Ready To Test,In Secure Code Review,status_change,yes,yes,no,no
 OV-79671,317882,Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,2026-04-08T17:08:31.533Z,2026-04-14T06:40:13.320-0700,Michael Trebnick,status,In Secure Code Review,Awaiting Build,status_change,yes,yes,no,no
 OV-79671,317882,Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,2026-04-08T17:08:31.533Z,2026-04-15T08:14:50.760-0700,Darcy Olson,status,Awaiting Build,In Test,status_change,yes,no,no,no
@@ -175,10 +196,18 @@ OV-82556,334471,Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,2026-04-08T17:0
 OV-82556,334471,Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,2026-04-08T17:08:31.533Z,2026-04-15T13:12:59.495-0700,Darcy Olson,status,In Development,Closed,status_change,yes,no,no,no
 OV-82557,334473,Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,2026-04-08T17:08:31.533Z,2026-04-15T08:36:55.816-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
 OV-82557,334473,Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,2026-04-08T17:08:31.533Z,2026-04-16T17:27:10.331-0700,Michael Trebnick,status,In Development,Closed,status_change,yes,no,no,no
+OV-79671,317882,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T15:11:59.694-0700,Darcy Olson,status,In Test,Reopened,status_change,yes,no,no,no
+OV-79671,317882,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T15:12:04.489-0700,Darcy Olson,status,Reopened,In Test,status_change,yes,no,no,no
 OV-80513,327180,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T06:59:16.258-0700,Siva Kannan,status,Ready To Test,In Test,status_change,yes,no,no,no
 OV-80515,327182,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T06:59:23.972-0700,Siva Kannan,status,New,In Test,status_change,yes,no,no,no
 OV-80925,330489,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-24T08:30:08.214-0700,Michael Trebnick,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-80925,330489,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T15:12:28.230-0700,Darcy Olson,status,Ready To Test,Reopened,status_change,yes,no,no,no
+OV-80925,330489,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T15:12:38.044-0700,Darcy Olson,status,Reopened,In Review,status_change,yes,no,no,no
+OV-80925,330489,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T15:12:40.466-0700,Darcy Olson,status,In Review,Ready To Test,status_change,yes,no,no,no
+OV-80925,330489,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T15:12:43.369-0700,Darcy Olson,status,Ready To Test,In Test,status_change,yes,no,no,no
 OV-80926,330491,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T07:28:54.932-0700,Darcy Olson,status,New,In UX Design,status_change,yes,no,no,no
+OV-80926,330491,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T11:52:10.516-0700,Darcy Olson,status,In UX Design,Closed,status_change,yes,no,no,no
+OV-80927,330493,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T15:12:49.489-0700,Darcy Olson,status,New,In Test,status_change,yes,no,no,no
 OV-80962,330823,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-23T12:15:49.491-0700,Siva Kannan,status,Awaiting Build,In Test,status_change,yes,no,no,no
 OV-80962,330823,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T08:33:49.605-0700,Michael Trebnick,status,In Test,In Verification,status_change,yes,no,no,no
 OV-80962,330823,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T08:34:50.031-0700,Michael Trebnick,status,In Verification,Closed,status_change,yes,no,no,no
@@ -211,6 +240,10 @@ OV-82430,333649,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:4
 OV-82430,333649,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T08:01:14.822-0700,Ricardo Dominguez,status,In Development,Closed,status_change,yes,no,no,no
 OV-82432,333653,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-24T08:31:07.893-0700,Ricardo Dominguez,status,In Development,Closed,status_change,yes,no,no,no
 OV-82932,336245,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-24T08:33:50.545-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-82990,336476,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T09:01:28.825-0700,Michael Trebnick,status,New,Ready To Test,status_change,yes,no,no,no
+OV-82990,336476,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T12:42:48.921-0700,Siva Kannan,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-82991,336478,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T11:35:33.191-0700,Siva Kannan,status,New,In Development,status_change,yes,no,no,no
+OV-82992,336480,Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,2026-04-23T15:47:02.508Z,2026-04-27T12:42:55.833-0700,Siva Kannan,status,New,In Test,status_change,yes,no,no,no
 OV-71449,268882,Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,2026-04-08T17:00:00.000Z,2026-04-08T10:43:41.866-0700,Zachary Walters,status,Ready To Test,In Test,status_change,yes,no,no,no
 OV-71449,268882,Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,2026-04-08T17:00:00.000Z,2026-04-08T11:08:00.342-0700,Zachary Walters,status,In Test,Ready To Test,status_change,yes,yes,no,no
 OV-71449,268882,Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,2026-04-08T17:00:00.000Z,2026-04-10T13:38:16.894-0700,Christian Poynter,status,Ready To Test,In Test,status_change,yes,no,no,no
@@ -376,13 +409,17 @@ OV-82843,335694,Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,2026-04-08T17:
 OV-82843,335694,Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,2026-04-08T17:00:00.000Z,2026-04-22T08:37:47.954-0700,Junaid Khan,customfield_10020,"WS25Q2I0 - Great Garbage, WS26Q2S1 - Golden Eye","WS25Q2I0 - Great Garbage, WS26Q2S1 - Golden Eye, WS26Q2S2 - HH",other,yes,no,no,no
 OV-82860,335802,Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,2026-04-08T17:00:00.000Z,2026-04-21T08:52:20.963-0700,Junaid Khan,status,New,In Development,status_change,yes,no,no,no
 OV-82860,335802,Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,2026-04-08T17:00:00.000Z,2026-04-22T08:37:48.159-0700,Junaid Khan,customfield_10020,WS26Q2S1 - Golden Eye,"WS26Q2S1 - Golden Eye, WS26Q2S2 - HH",other,yes,no,no,no
+OV-79754,318461,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T13:22:58.467-0700,Junaid Khan,status,Ready for Sprint,Closed,status_change,yes,no,no,no
 OV-80177,322910,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-23T08:04:12.478-0700,Matt Maslowski,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-80177,322910,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T13:32:10.869-0700,Matt Maslowski,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-80180,322913,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T14:04:54.052-0700,Matt Maslowski,status,Ready for Sprint,In Development,status_change,yes,no,no,no
 OV-80573,327591,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T08:50:47.307-0700,Junaid Khan,status,Ready for Sprint,In Development,status_change,yes,no,no,no
 OV-82825,335546,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-22T10:41:34.807-0700,Mario Morales,customfield_10043,,3,reestimate,yes,no,yes,no
 OV-82825,335546,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-22T10:41:44.806-0700,Mario Morales,status,New,Ready for Sprint,status_change,yes,no,no,no
 OV-82825,335546,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-22T10:51:42.006-0700,Mario Morales,customfield_10043,3,,reestimate,yes,no,yes,no
 OV-82825,335546,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-22T10:51:58.034-0700,Mario Morales,customfield_10020,WS26Q2,WS26Q2S2 - Half-Life,added_to_sprint,yes,no,no,yes
 OV-82825,335546,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-23T08:45:07.293-0700,Junaid Khan,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-82825,335546,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T11:25:48.828-0700,Mario Morales,status,In Development,In Secure Code Review,status_change,yes,no,no,no
 OV-82860,335802,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-24T09:03:44.678-0700,Michel Almagro,status,In Development,In Test,status_change,yes,no,no,no
 OV-82860,335802,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T06:21:10.440-0700,Junaid Khan,status,In Test,In Verification,status_change,yes,no,no,no
 OV-82860,335802,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T08:33:16.400-0700,Junaid Khan,status,In Verification,Closed,status_change,yes,no,no,no
@@ -393,4 +430,10 @@ OV-82921,336132,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:0
 OV-82921,336132,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-23T11:17:56.183-0700,Zachary Walters,status,Ready for Sprint,In Development,status_change,yes,no,no,no
 OV-82921,336132,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-24T08:37:45.763-0700,Junaid Khan,customfield_10020,WS26Q2S3 - II,WS26Q2S2 - Half-Life,added_to_sprint,yes,no,no,yes
 OV-82980,336454,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T08:35:56.173-0700,Christie Garcia,customfield_10020,,WS26Q2S2 - Half-Life,added_to_sprint,yes,no,no,yes
+OV-82980,336454,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T10:20:09.490-0700,Junaid Khan,customfield_10043,,2,reestimate,yes,no,yes,no
+OV-82980,336454,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T11:50:19.296-0700,Junaid Khan,status,New,Ready To Test,status_change,yes,no,no,no
+OV-82980,336454,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T13:39:37.330-0700,Christie Garcia,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-82980,336454,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T13:39:54.039-0700,Christie Garcia,status,In Test,In Verification,status_change,yes,no,no,no
 OV-82986,336465,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T08:39:16.559-0700,Jehu Castelan,customfield_10020,,WS26Q2S2 - Half-Life,added_to_sprint,yes,no,no,yes
+OV-82986,336465,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T09:18:17.067-0700,Matt Maslowski,status,New,In Test,status_change,yes,no,no,no
+OV-82986,336465,Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,2026-04-22T17:04:53.080Z,2026-04-27T10:20:02.788-0700,Junaid Khan,customfield_10043,,2,reestimate,yes,no,yes,no

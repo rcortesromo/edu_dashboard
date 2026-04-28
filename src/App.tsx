@@ -10,6 +10,7 @@ import {
 } from "./lib/metrics";
 import HomePage from "./pages/HomePage";
 import MetricsPage from "./pages/MetricsPage";
+import TrendsPage from "./pages/TrendsPage";
 
 function App() {
   const [payload, setPayload] = useState<MetricsPayload | null>(null);
@@ -108,6 +109,16 @@ function App() {
               periodOptions={periodOptions}
               selectedPeriod={selectedPeriod}
               onSelectPeriod={setSelectedPeriod}
+            />
+          }
+        />
+        <Route
+          path="/trends"
+          element={
+            <TrendsPage
+              payload={payload}
+              loading={loading}
+              error={error}
             />
           }
         />

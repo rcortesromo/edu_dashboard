@@ -1,0 +1,13 @@
+team_name,sprint_id,sprint_name,quarter_label,cards_committed_at_start,cards_removed_after_start,cards_reestimated_after_start,cards_sent_backward_after_start,completed_cards,completed_points,committed_completed_points,average_wip_cards,average_throughput_cards_per_sprint,data_quality_note,last_refresh_utc
+Team Connexpoint,5141,CXP25Q2 - Sprint 1,2025-Q2,46,0,0,2,23,0,0,11.8255,23,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,5142,CXP25Q2 - Sprint 2,2025-Q2,56,0,0,3,18,0,0,19.9402,18,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,5143,CXP25Q2 - Sprint 3,2025-Q2,60,0,0,4,43,0,0,15.2231,43,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,5144,CXP25Q2 - Sprint 4,2025-Q2,57,0,0,3,17,0,0,13.672,17,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,5145,CXP25Q2 - Sprint 5,2025-Q2,95,0,0,3,28,0,0,20.2328,28,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,5146,CXP25Q2 - Sprint 6,2025-Q2,60,0,0,8,23,0,0,16.5407,23,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,5702,CXP25Q2 - Sprint 0,2025-Q2,45,0,0,1,9,0,0,9.826,9,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,5966,WS25Q2S2 - Inexhaustible INXS,2025-Q2,22,0,7,3,6,43,38,10.5466,6,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,6065,WS25Q2S3 - Jaded Johnny Cash,2025-Q2,24,0,3,4,8,20,20,16.9485,8,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,6297,WS25Q2S4 - Krazy KISS,2025-Q2,31,0,8,0,14,43,39,20.5134,14,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,6362,WS25Q2S4 - Lujoso Luis Miguel,2025-Q2,29,1,11,2,13,57,55,19.3123,13,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Webstore,6593,WS25Q2S4-Mad Mozart,2025-Q2,27,0,3,4,7,31,31,18.6595,7,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z

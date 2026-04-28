@@ -1,4 +1,91 @@
 issue_key,issue_id,summary,issue_type,project_key,team_name,sprint_name,sprint_id,sprint_start_date,sprint_end_date,quarter_label,status_at_sprint_start,status_at_sprint_end,points_at_sprint_start,points_at_sprint_end,completed_in_sprint_flag,in_sprint_wip_flag,added_after_sprint_start_flag,removed_after_sprint_start_flag
+OV-79671,317882,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,In Review,,,no,no,no,no
+OV-79672,317884,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-79673,317886,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-79674,317888,Add to release card 05/07?,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-79675,317890,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-79956,320439,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Secure Code Review,Ready To Test,,,no,yes,no,no
+OV-79957,320441,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,no,no
+OV-79958,320443,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-79959,320445,Add to release card 04/23,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-79960,320447,Merge to release branch & create PR 04/23,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80466,326966,Darcy ,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Verification,In Verification,,,no,yes,no,no
+OV-80467,326967,Abinash,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80468,326968,Michael,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Development,In Development,,,no,yes,no,no
+OV-80469,326969,Siva,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Verification,In Verification,,,no,yes,no,no
+OV-80471,326971,Claudio,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Verification,In Verification,,,no,yes,no,no
+OV-80472,326972,Ulises,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Verification,In Verification,,,no,yes,no,no
+OV-80473,326973,David,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Verification,In Verification,,,no,yes,no,no
+OV-80474,326974,Steven,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80475,326975,Rodolfo,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Review,Closed,,,yes,yes,no,no
+OV-80501,327168,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80502,327169,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80503,327170,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80504,327171,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80505,327172,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80513,327180,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,no,no
+OV-80514,327181,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80515,327182,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80516,327183,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80517,327184,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80519,327186,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,Ready To Test,,,no,yes,no,no
+OV-80520,327187,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80521,327188,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80522,327189,Add to release branch 04/23,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80523,327190,Merge to release branch and create PR  04/23,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80680,328534,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,no,no
+OV-80681,328536,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80682,328538,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80683,328540,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80684,328542,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80771,329254,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Secure Code Review,Closed,,,no,yes,no,no
+OV-80772,329255,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Development,Closed,,,yes,yes,no,no
+OV-80773,329256,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,Closed,,,no,yes,no,no
+OV-80774,329257,Add to release ticket 04/16,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,Closed,,,no,no,no,no
+OV-80775,329258,Merge to release branch 04/16,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,no,no
+OV-80777,329260,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,In Development,In Development,,,no,yes,no,no
+OV-80778,329261,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80779,329262,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80780,329263,Add jira to release ticket 4/23,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80781,329264,Merge to release branch 04/23,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80783,329268,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80784,329269,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80785,329270,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80786,329271,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80787,329272,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80789,329274,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80790,329275,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80791,329276,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80792,329277,Add to jira to release ticket 4/30,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80793,329278,Merge to release branch 04/30,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80893,330279,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80894,330281,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80895,330283,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80896,330285,Add to release card 04/30,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80897,330287,Merge to release branch 04/30,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-81138,331308,acli team field test - delete me,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,Closed,,,no,no,yes,no
+OV-81139,331317,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81140,331319,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81141,331321,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81142,331323,Add to release card 4/30,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81143,331325,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81144,331335,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81145,331337,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81146,331341,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,yes,no
+OV-81147,331343,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81148,331345,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81149,331347,Add to release card 04/30,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81150,331349,Merge to release branch 04/30,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81164,331397,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81165,331399,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81166,331401,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81167,331403,Add to release card  04/16,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81168,331405,Merge to release branch and create PR to Master  04/16,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81190,331634,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,yes,no
+OV-81191,331635,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81192,331636,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81193,331637,Add to release card 05/07,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-81194,331638,Merge to release branch and create PR to Master 05/07,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 0,9916,2026-04-02T15:35:35.536Z,2026-04-08T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
 OV-79671,317882,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 1,9917,2026-04-08T17:08:31.533Z,2026-04-22T17:08:21.000Z,2026-Q2,Ready To Test,In Test,,,no,yes,no,no
 OV-79672,317884,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 1,9917,2026-04-08T17:08:31.533Z,2026-04-22T17:08:21.000Z,2026-Q2,New,Closed,,,no,no,no,no
 OV-79673,317886,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 1,9917,2026-04-08T17:08:31.533Z,2026-04-22T17:08:21.000Z,2026-Q2,New,In Test,,,no,yes,no,no
@@ -148,9 +235,9 @@ OV-80784,329269,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP2
 OV-80785,329270,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-80786,329271,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-80787,329272,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
-OV-80925,330489,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,In Secure Code Review,Ready To Test,,,no,yes,no,no
-OV-80926,330491,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,In UX Design,,,no,no,no,no
-OV-80927,330493,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-80925,330489,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,In Secure Code Review,In Test,,,no,yes,no,no
+OV-80926,330491,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,Closed,,,no,no,no,no
+OV-80927,330493,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,In Test,,,no,yes,no,no
 OV-80928,330495,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-80929,330497,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-80962,330823,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,Awaiting Build,Closed,,,no,yes,no,no
@@ -220,11 +307,16 @@ OV-82933,336247,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP2
 OV-82934,336249,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
 OV-82935,336251,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
 OV-82936,336253,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
-OV-82990,336476,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
-OV-82991,336478,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
-OV-82992,336480,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-82990,336476,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,In Test,,,no,yes,yes,no
+OV-82991,336478,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,yes,no
+OV-82992,336480,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,In Test,,,no,yes,yes,no
 OV-82993,336482,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
 OV-82994,336484,Merge to release branch and create PR to Master,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-82995,336486,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-82996,336488,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-82997,336490,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-82998,336492,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-82999,336494,Merge to release branch and create PR to Master,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 2,9918,2026-04-23T15:47:02.508Z,2026-05-06T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
 OV-71449,268882,WS - Create React Impersonation component,Story,OV,Team Webstore,WS26Q2S1 - Golden Eye,10332,2026-04-08T17:00:00.000Z,2026-04-22T17:00:00.000Z,2026-Q2,Ready To Test,Closed,5,5,yes,yes,no,no
 OV-73115,273773,[TAG] NRTHS-AMP69 – Avoid the use of implicit headings,Task,OV,Team Webstore,WS26Q2S1 - Golden Eye,10332,2026-04-08T17:00:00.000Z,2026-04-22T17:00:00.000Z,2026-Q2,In Secure Code Review,Closed,2,2,yes,yes,no,no
 OV-73873,275795,HW - Mobile view sticky header/footer,Story,OV,Team Webstore,WS26Q2S1 - Golden Eye,10332,2026-04-08T17:00:00.000Z,2026-04-22T17:00:00.000Z,2026-Q2,Ready To Test,Closed,3,3,yes,yes,no,no
@@ -274,11 +366,11 @@ OV-79050,311292,Ability to Edit a form assignment,Story,OV,Team Webstore,WS26Q2S
 OV-79366,314411,New UI - Remove Hardcoded Quantity Limit Message for Native Items and Use Configurable Message Instead,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
 OV-79372,314472,Expand allowed text input elements for Modal Mapping,Task,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,2,2,no,yes,no,no
 OV-79720,318300,New UI - Default payment method not reflected immediately at checkout after selection,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
-OV-79754,318461,Regwerks Admin - Can't add payments / Add or remove payment methods,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-79754,318461,Regwerks Admin - Can't add payments / Add or remove payment methods,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready for Sprint,Closed,3,3,no,no,no,no
 OV-80175,322908,NEW SERVICE FEES - Webstore PP - Manage Auto-Pay Modal not displaying service fee,Task,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Closed,Closed,8,8,no,no,no,no
-OV-80177,322910,NEW SERVICE FEES - Apply Service Fee during Legacy ASP checkout processes,Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready for Sprint,In Development,8,8,no,yes,no,no
+OV-80177,322910,NEW SERVICE FEES - Apply Service Fee during Legacy ASP checkout processes,Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready for Sprint,In Secure Code Review,8,8,no,yes,no,no
 OV-80178,322911,NEW SERVICE FEES - Update Inventory Items excel export for new service fee,Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,1,1,no,yes,no,no
-OV-80180,322913,NEW SERVICE FEES - Migration Script for Service Fees ,Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-80180,322913,NEW SERVICE FEES - Migration Script for Service Fees ,Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready for Sprint,In Development,3,3,no,yes,no,no
 OV-80181,322914,NEW SERVICE FEES - Apply Service Fee during [OE] Checkout process,Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,7,7,no,yes,no,no
 OV-80182,322915,NEW SERVICE FEES - Service Fee applying on AR and Payment plans,Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,8,8,no,yes,no,no
 OV-80573,327591,Regwerks - Fix Cart redirect issue with regwerks,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready for Sprint,In Development,3,3,no,yes,no,no
@@ -293,11 +385,11 @@ OV-82768,335315,Update nonpayment forms to say 'Complete - Checkout to Submit' i
 OV-82769,335317,Update 'My Settings' to 'My Account',Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready To Test,Ready To Test,1,1,no,yes,no,no
 OV-82770,335319,Add language to the shopping cart about timeouts,Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready To Test,Ready To Test,1,1,no,yes,no,no
 OV-82771,335356,Regression Webstore 2026.05,Task,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Ready To Test,Ready To Test,5,5,no,yes,no,no
-OV-82825,335546,Add Redirect URLs to IDS when enabling SSO for Skyward SMS or Qmlativ,Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,New,In Development,3,,no,yes,yes,no
+OV-82825,335546,Add Redirect URLs to IDS when enabling SSO for Skyward SMS or Qmlativ,Story,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,New,In Secure Code Review,3,,no,yes,yes,no
 OV-82843,335694,Sapphire balance export not including paid off balances,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,In Development,In Development,2,2,no,yes,no,no
 OV-82860,335802,Fix RegWerks Payment Flows in Stage Env,Task,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,In Development,Closed,3,3,yes,yes,no,no
 OV-82877,335860,As a parent that SSOs into RevTrak I am not able to checkout,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,In Development,In Secure Code Review,3,5,no,yes,no,no
 OV-82897,335983,Mend: Webstore critical issues,Task,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,Closed,Closed,,,no,no,no,no
 OV-82921,336132,Setup SMS and Qmlativ SSO in lower environments,Task,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,New,In Development,3,3,no,yes,yes,no
-OV-82980,336454,Sapphire SSO not triggering automatically when user click on Pay button,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
-OV-82986,336465,Edit Echecks in WS shows an Zip code error,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-82980,336454,Release Regression: Sapphire SSO not triggering automatically when user click on Pay button,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,New,In Verification,2,2,no,yes,yes,no
+OV-82986,336465,Release Regression: Edit Echecks in WS shows an Zip code error,Bug,OV,Team Webstore,WS26Q2S2 - Half-Life,10398,2026-04-22T17:04:53.080Z,2026-05-06T17:00:00.000Z,2026-Q2,New,In Test,2,2,no,yes,yes,no

@@ -1,0 +1,894 @@
+issue_key,issue_id,summary,issue_type,project_key,team_name,sprint_name,sprint_id,sprint_start_date,sprint_end_date,quarter_label,status_at_sprint_start,status_at_sprint_end,points_at_sprint_start,points_at_sprint_end,completed_in_sprint_flag,in_sprint_wip_flag,added_after_sprint_start_flag,removed_after_sprint_start_flag
+OV-66080,252176,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Test,In Test,,,no,yes,no,no
+OV-66081,252177,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Test,In Test,,,no,yes,no,no
+OV-66082,252178,Create x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-66083,252179,Create post man tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-66084,252180,Add to release card 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-66085,252181,Merge to release branch 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-66086,252182,Update External and Internal API Docs,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Test,In Test,,,no,yes,no,no
+OV-68046,257041,Add xray test cases to xray execution plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-68047,257044,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-68048,257047,Add test plan to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69316,260955,"Get requirements (volume, types, env, data, when, where, with what)",Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In UX Design,In UX Design,,,no,no,no,no
+OV-69317,260958,create xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69318,260961,create test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-69319,260963,TE must provide CXP Test CC to use,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69344,261046,get data setup in internal stage,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69396,261251,create and or update xRay tests cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-69397,261252,submit tests for review,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Review,Closed,,,yes,no,no,no
+OV-69404,261267,do the thing (create methods),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-69405,261270,create xray regression test to match UI test,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69406,261271,test locally,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69407,261272,submit PR for review,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69408,261273,after PR approval test in pipeline,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69409,261274,when passes in pipeline merge to master,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70058,263484,Run regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70059,263485,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70075,263549,DBA Approval,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Verification,In Verification,,,no,yes,no,no
+OV-70076,263552,Snowflake,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Verification,In Verification,,,no,yes,no,no
+OV-70108,263709,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Awaiting Build,Awaiting Build,,,no,yes,no,no
+OV-70109,263712,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-70110,263715,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70111,263718,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70112,263721,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70113,263724,Add to release card 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70114,263727,Add execution to release test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70115,263730,Merge to release branch 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70116,263733,Update API Documentation (Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Awaiting Build,Awaiting Build,,,no,yes,no,no
+OV-70124,263764,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Reopened,Closed,,,yes,no,no,no
+OV-70125,263767,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-70126,263770,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-70127,263773,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Ready To Test,Closed,,,no,yes,no,no
+OV-70128,263776,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-70129,263779,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-70130,263782,Add to release card 07/01,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-70131,263786,Merge to release branch 07/01,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-70140,263813,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Test,Closed,,,yes,yes,no,no
+OV-70141,263816,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-70142,263819,Add xray execution to release xray test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70143,263822,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-70144,263825,Link test execution to MAIN Jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-70145,263828,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-70146,263831,Add to release card 07/8,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70147,263834,Merge to release branch 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-70148,263837,Update API Documentation (External and Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Test,Closed,,,yes,yes,no,no
+OV-70149,263840,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Development,In Review,,,no,yes,no,no
+OV-70150,263843,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70151,263846,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70152,263849,Execute test cases 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70153,263852,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70154,263855,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70155,263858,Add to release card 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70156,263861,Merge to release branch 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70157,263864,Update API Documentation (External and Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-70158,263867,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,Ready To Test,Closed,,,yes,yes,no,no
+OV-70159,263870,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70160,263873,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70161,263876,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-70162,263879,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70163,263882,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70164,263885,Add to release card 07/01,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70165,263888,Merge to release branch 07/01,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70166,263891,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Secure Code Review,Closed,,,yes,yes,no,no
+OV-70167,263894,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In UX Design,Closed,,,no,no,no,no
+OV-70168,263897,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70169,263900,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-70170,263903,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70171,263906,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In UX Design,Closed,,,no,no,no,no
+OV-70172,263909,Add to release card 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70173,263912,Merge to release branch 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70600,265300,update test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70601,265303,review test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70605,265312,find test cases that are not complete,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Review,Closed,,,no,no,no,no
+OV-70618,265358,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,In Verification,,,no,yes,no,no
+OV-70619,265361,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70622,265368,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70624,265374,Update postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70625,265377,Add to release card 07/01,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-70626,265380,Merge to release branch 07/01,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-70627,265383,Update API Documentation (External and Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,In Verification,,,no,yes,no,no
+OV-70746,265774,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,In Development,In Verification,,,no,yes,no,no
+OV-70747,265777,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70748,265780,Create/update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70749,265784,Add to release card 07/01,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70750,265787,Merge to release branch 07/01,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70752,265791,Update postman test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70754,265795,Update API docs,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Ready To Test,,,no,yes,no,no
+OV-70767,265841,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-70768,265844,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-70769,265847,Create/update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-70770,265850,Add to release card 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-70771,265853,Merge to release branch 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-70772,265856,Update API Docs,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-70795,265938,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,In Development,,,no,yes,yes,no
+OV-70796,265941,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-70797,265944,Add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-70798,265947,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-70799,265950,Create/update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-70800,265953,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,In Secure Code Review,,,no,yes,yes,no
+OV-70801,265956,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-70802,265959,Create/update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-70803,265962,Add to release card 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-70804,265965,Merge to release branch 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-70805,265968,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-70806,265971,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-70807,265974,Create/update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-70808,265977,Add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-70809,265980,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71432,268825,Update postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 0,6626,2025-06-26T15:49:42.000Z,2025-07-02T15:48:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-66080,252176,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Test,Closed,,,yes,yes,no,no
+OV-66081,252177,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Test,Closed,,,no,yes,no,no
+OV-66082,252178,Create x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-66083,252179,Create post man tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-66084,252180,Add to release card 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-66085,252181,Merge to release branch 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-66086,252182,Update External and Internal API Docs,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Test,Closed,,,yes,yes,no,no
+OV-68046,257041,Add xray test cases to xray execution plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-68047,257044,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-68048,257047,Add test plan to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-68775,258944,create xray tests in cucumber,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-68777,258946,"make sure xray tests cases have all the correct values (example automation status, type)",Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-68779,258948,create xray tests in cucumber,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-68781,258950,"make sure xray tests cases have all the correct values (example automation status, type)",Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-69316,260955,"Get requirements (volume, types, env, data, when, where, with what)",Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In UX Design,Closed,,,no,no,no,no
+OV-69317,260958,create xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-69318,260961,create test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-69319,260963,TE must provide CXP Test CC to use,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69344,261046,get data setup in internal stage,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69404,261267,do the thing (create methods),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-69405,261270,create xray regression test to match UI test,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69406,261271,test locally,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69407,261272,submit PR for review,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69408,261273,after PR approval test in pipeline,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69409,261274,when passes in pipeline merge to master,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-70061,263487,Run regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-70062,263488,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70064,263490,Run regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-70065,263491,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70075,263549,DBA Approval,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Verification,Closed,,,yes,yes,no,no
+OV-70076,263552,Snowflake,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Verification,Closed,,,yes,yes,no,no
+OV-70108,263709,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,Awaiting Build,Closed,,,yes,yes,no,no
+OV-70109,263712,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-70110,263715,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70111,263718,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-70112,263721,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70113,263724,Add to release card 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70114,263727,Add execution to release test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70115,263730,Merge to release branch 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70116,263733,Update API Documentation (Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,Awaiting Build,Closed,,,yes,yes,no,no
+OV-70149,263840,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Review,Closed,,,yes,yes,no,no
+OV-70150,263843,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70151,263846,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70152,263849,Execute test cases 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-70153,263852,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70154,263855,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70155,263858,Add to release card 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70156,263861,Merge to release branch 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70157,263864,Update API Documentation (External and Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-70618,265358,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Verification,Closed,,,no,yes,no,no
+OV-70619,265361,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-70622,265368,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-70624,265374,Update postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-70625,265377,Add to release card 07/01,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-70626,265380,Merge to release branch 07/01,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-70627,265383,Update API Documentation (External and Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Verification,Closed,,,no,yes,no,no
+OV-70800,265953,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,In Secure Code Review,Closed,,,yes,yes,no,no
+OV-70801,265956,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-70802,265959,Create/update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70803,265962,Add to release card 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-70804,265965,Merge to release branch 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-70867,266218,add manual test cases to Dashboard test set,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-71004,267561,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71005,267564,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71006,267567,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71007,267570,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71008,267573,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71009,267576,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71010,267579,Add to release card 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71011,267582,Merge to release branch 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71016,267599,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,In Review,,,no,yes,yes,no
+OV-71017,267602,Add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71018,267605,Merge to release branch 08/07,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71019,267608,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71114,267935,do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71115,267937,create/update test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71116,267938,create test execution link to main Jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71117,267939,add to release card 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71118,267940,add test execution to release test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71119,267941,merge to release branch 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71168,268012,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71169,268015,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71170,268018,Update API Documentation (Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71171,268021,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71172,268024,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71173,268027,Add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71174,268030,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71175,268033,Add to release card 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71176,268036,Merge to release branch 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71177,268039,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,In Test,,,no,yes,yes,no
+OV-71178,268042,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71179,268045,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71180,268048,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71181,268051,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71182,268054,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71183,268057,Add to release card 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71184,268060,Merge to release  07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71185,268063,Update API Documentation (External and Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71244,268263,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71245,268266,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71246,268269,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71247,268272,Merge to release branch master,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71248,268275,Add to release card 07/08,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71250,268291,Review xray tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71267,268363,Create/Update postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71311,268504,create regression test set,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71312,268507,submit for review,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71432,268825,Update postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71460,268907,execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71470,268939,update Postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71514,269050,unskip postman test,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71574,269146,create test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 1,6627,2025-07-02T17:25:49.841Z,2025-07-16T17:25:39.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-66923,254238,Run regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-66924,254239,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-68771,258937,create xray tests in cucumber,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-68773,258942,"make sure xray tests cases have all the correct values (example automation status, type)",Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-69316,260955,"Get requirements (volume, types, env, data, when, where, with what)",Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-69317,260958,create xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-69318,260961,create test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,In Development,In Development,,,yes,yes,no,no
+OV-69319,260963,TE must provide CXP Test CC to use,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-69344,261046,get data setup in internal stage,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-69404,261267,do the thing (create methods),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-69405,261270,create xray regression test to match UI test,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69406,261271,test locally,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69407,261272,submit PR for review,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69408,261273,after PR approval test in pipeline,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69409,261274,when passes in pipeline merge to master,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-71016,267599,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,In Review,In Development,,,no,yes,no,no
+OV-71017,267602,Add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-71018,267605,Merge to release branch 08/07,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-71019,267608,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-71177,268039,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,In Test,Closed,,,yes,yes,no,no
+OV-71178,268042,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-71179,268045,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-71180,268048,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-71181,268051,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-71182,268054,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-71183,268057,Add to release card 07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-71184,268060,Merge to release  07/22,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-71185,268063,Update API Documentation (External and Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-71302,268471,Run regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-71303,268472,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-71369,268593,Execute Testing: Apple Pay,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-71371,268597,Execute Testing: Google Pay,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-71469,268937,review test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-71574,269146,create test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-71581,269173,execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-71614,269256,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,In Secure Code Review,Closed,,,no,yes,no,no
+OV-71634,269322,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71635,269325,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71636,269328,Create/Updated x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71637,269331,Add to release card 07/29,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71638,269334,Merge to release branch 07/29,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71639,269339,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71640,269342,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71641,269346,Add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71642,269349,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71643,269354,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71644,269358,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71645,269361,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71646,269364,Add to release card 7/29,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71647,269367,Merge to release branch 07/29,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71648,269370,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71649,269375,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71650,269378,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-71651,269381,Merge to release branch 07/29,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71652,269384,Add to release card 07/29,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71653,269387,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71654,269392,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71655,269395,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71656,269398,Add to release card 7/29,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71657,269401,Merge to release branch 07/29,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71658,269406,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,In Development,,,no,yes,yes,no
+OV-71673,269433,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71674,269436,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71675,269439,DBA approval,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71676,269442,Snowflake team notification,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71678,269446,Update API Documentation (Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71763,269689,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71764,269693,Update API Documentation (External and Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-71893,270150,Review test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-71975,270319,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,In Test,,,no,yes,yes,no
+OV-71976,270322,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,In Development,,,no,yes,yes,no
+OV-71977,270325,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71978,270328,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71979,270331,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71980,270334,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71981,270337,Add to release card 08/07,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71982,270340,Merge to release branch 08/07,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-71983,270343,Update API Documentation (External and Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,In Test,,,no,yes,yes,no
+OV-72032,270506,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,In Review,,,no,no,yes,no
+OV-72100,270750,do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-72101,270753,create xray test case,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72102,270756,create postman request,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-72103,270759,create test execution,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72104,270762,execute tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-72105,270765,add to release card 07/29,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72106,270768,merge to release branch 07/29,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72118,270827,do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Ready To Test,,,no,yes,yes,no
+OV-72119,270829,create test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,In Development,,,no,yes,yes,no
+OV-72120,270830,create execution jira LINK to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72121,270831,execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72122,270832,add to release card 08/19,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72123,270833,merge to release branch 08/19,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72169,270968,add to release card 08/05,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72170,270971,merge to release branch 08/05,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 2,6628,2025-07-16T17:53:31.516Z,2025-07-30T17:53:25.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-69316,260955,"Get requirements (volume, types, env, data, when, where, with what)",Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,Closed,Closed,,,no,yes,no,no
+OV-69317,260958,create xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-69318,260961,create test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Development,In Review,,,no,yes,no,no
+OV-69319,260963,TE must provide CXP Test CC to use,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-69344,261046,get data setup in internal stage,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-69404,261267,do the thing (create methods),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-69405,261270,create xray regression test to match UI test,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69406,261271,test locally,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69407,261272,submit PR for review,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69408,261273,after PR approval test in pipeline,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69409,261274,when passes in pipeline merge to master,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-71016,267599,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-71017,267602,Add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-71018,267605,Merge to release branch 08/07,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-71019,267608,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,Closed,Closed,,,yes,yes,no,no
+OV-71574,269146,create test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-71658,269406,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-71975,270319,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Test,Closed,,,yes,yes,no,no
+OV-71976,270322,Create/Update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-71977,270325,Add xray test cases to xray execution plan and link to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-71978,270328,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-71979,270331,Add test execution to release / test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-71980,270334,Create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-71981,270337,Add to release card 08/07,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-71982,270340,Merge to release branch 08/07,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-71983,270343,Update API Documentation (External and Internal),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Test,Closed,,,no,yes,no,no
+OV-72032,270506,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Review,Closed,,,no,no,no,no
+OV-72034,270515,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72035,270518,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72036,270521,Add to release card 08/07,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72037,270524,Merge to release branch 08/07,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72038,270527,Create/Updated x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72039,270530,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72040,270533,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72041,270536,Add to release card 08/19,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72042,270539,Merge to release branch 08/19,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72043,270542,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72044,270545,Update Internal API Doc,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72045,270548,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72046,270551,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72047,270554,Add to release card 08/19,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72048,270557,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72049,270560,Merge to release branch 08/19,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72050,270563,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72051,270566,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72052,270569,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72053,270572,Add to release card 08/19,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72054,270575,Merge to release branch 08/19,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72061,270641,Run regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72062,270642,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72064,270645,Run regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-72065,270646,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-72073,270657,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,In Review,,,no,yes,no,no
+OV-72074,270660,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Ready for Sprint,,,no,no,no,no
+OV-72075,270663,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Ready for Sprint,,,no,yes,no,no
+OV-72076,270666,Add to release card 08/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-72077,270669,Merge to release branch 08/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-72118,270827,do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,Ready To Test,Closed,,,no,yes,no,no
+OV-72119,270829,create test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-72120,270830,create execution jira LINK to main jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72121,270831,execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72122,270832,add to release card 08/19,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72123,270833,merge to release branch 08/19,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72254,271244,add new merchant to all lower envs for AVS set to true,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72255,271246,add new postman requests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-72396,271634,add postman request tokenize and get merchantinfo,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72546,272058,add app settings. ,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72685,272530,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72686,272532,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72687,272534,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72688,272536,Add to release card 08/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72689,272538,Merge js to release branch 08/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72805,272905,create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 3,6629,2025-07-31T13:25:27.000Z,2025-08-13T13:25:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-69404,261267,do the thing (create methods),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-69405,261270,create xray regression test to match UI test,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69406,261271,test locally,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69407,261272,submit PR for review,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69408,261273,after PR approval test in pipeline,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69409,261274,when passes in pipeline merge to master,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-72073,270657,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,In Review,Closed,,,yes,yes,no,no
+OV-72074,270660,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,Ready for Sprint,Closed,,,no,yes,no,no
+OV-72075,270663,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,Ready for Sprint,Closed,,,yes,no,no,no
+OV-72076,270666,Add to release card 08/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72077,270669,Merge to release branch 08/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72464,271822,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-72465,271824,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72466,271826,Add to release card 8/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72467,271828,Merge to release branch 8/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72468,271830,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72543,272052,Update API Docs (Int & Ext),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72605,272205,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72606,272207,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72607,272209,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72608,272211,Add to release card 8/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72609,272213,Merge to release branch 8/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72675,272510,execute regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-72676,272511,deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72685,272530,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,In Review,,,no,yes,yes,no
+OV-72686,272532,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Ready for Sprint,,,no,yes,yes,no
+OV-72687,272534,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72688,272536,Add to release card 08/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72689,272538,Merge js to release branch 08/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-72805,272905,create postman tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-72812,272928,Update API Docs (Ext & Int),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-72873,273078,do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-72874,273080,add app settings to all env,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-72875,273082,create xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72876,273083,execute test case,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-72877,273084,create test execution link to main Jira,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72878,273085,add test execution to release test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72879,273086,add to release card 08/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-72880,273087,merge to release branch 08/28,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-72939,273281,Create Postman Requests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-72942,273307,add postman request/tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-72973,273401,test api docs,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-73461,274812,do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73462,274813,create/update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73463,274814,create test execution,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73464,274815,execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73465,274816,add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73466,274817,merge to master,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73487,274857,deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 4,6630,2025-08-14T17:00:30.148Z,2025-08-27T17:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-69316,260955,"Get requirements (volume, types, env, data, when, where, with what)",Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-69317,260958,create xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-69318,260961,create test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,In Review,In Review,,,no,no,no,no
+OV-69319,260963,TE must provide CXP Test CC to use,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-69344,261046,get data setup in internal stage,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-69404,261267,do the thing (create methods),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,In Development,Reopened,,,no,yes,no,no
+OV-69405,261270,create xray regression test to match UI test,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69406,261271,test locally,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69407,261272,submit PR for review,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,In Secure Code Review,,,no,yes,no,no
+OV-69408,261273,after PR approval test in pipeline,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-69409,261274,when passes in pipeline merge to master,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-71369,268593,Execute Testing: Apple Pay,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-71371,268597,Execute Testing: Google Pay,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-72070,270651,Execute regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-72071,270652,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-72179,270999,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Reopened,,,no,yes,no,no
+OV-72180,271002,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,In Test,,,no,yes,no,no
+OV-72181,271005,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72182,271008,Add to release card 0925,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-72183,271011,Merge to release branch 0925,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-72610,272215,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Ready To Test,,,no,yes,no,no
+OV-72611,272217,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72612,272219,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72613,272221,Add to release card 09/25,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72614,272223,Merge to release branch 09/25,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-72615,272225,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72616,272227,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72617,272229,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72618,272231,Add to release card 9/11,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-72619,272233,Merge to release branch 09/11,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72705,272561,Run regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,In Test,,,no,yes,no,no
+OV-72706,272562,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-72870,273060,Do,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-73046,273658,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,In Test,,,no,yes,no,no
+OV-73047,273660,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,In Test,,,no,yes,no,no
+OV-73048,273662,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73049,273664,Add to release card 09/25,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73050,273666,Merge to release branch 09/25,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73051,273668,Update API Docs (Int & Ext),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73052,273670,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73053,273672,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73054,273674,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73055,273676,Add to release card 09/18,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73056,273678,Merge to release branch 09/18,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73057,273680,Update API docs ? ,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73058,273682,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-73059,273684,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73060,273686,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73061,273688,Add to release card 10/02,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73062,273690,Merge to release branch 10/02,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73063,273692,Update API Docs (Int & Ext),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73065,273696,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73066,273698,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73067,273700,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73068,273702,Merge to master branch 09/18 ,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-73069,273704,deploy to production 09/18,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-73070,273706,Update API Docs (Int & Ext),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73149,273855,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73150,273856,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73151,273857,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73152,273858,Add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-73153,273859,Merge to master branch,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73190,273961,DBA Approval,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73191,273963,Snowflake Approval,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73292,274294,Update api docs,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-73461,274812,do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-73462,274813,create/update xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-73463,274814,create test execution,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-73464,274815,execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-73465,274816,add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-73466,274817,merge to master,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-73487,274857,deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-73488,274859,deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-73490,274862,create test execution add link to main jira & release test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-73495,274870,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73496,274872,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73497,274874,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73499,274877,Add to release card 09/25,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73500,274879,Merge to release branch 09/25,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73501,274881,Update API docs,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-73971,276019,create postman request - tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-74011,276355,(devOps) New redis for CVV,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 5,6631,2025-08-29T16:12:58.861Z,2025-09-10T07:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-69316,260955,"Get requirements (volume, types, env, data, when, where, with what)",Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-69317,260958,create xray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-69318,260961,create test plan,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,In Review,In Secure Code Review,,,no,yes,no,no
+OV-69319,260963,TE must provide CXP Test CC to use,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-69344,261046,get data setup in internal stage,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-69404,261267,do the thing (create methods),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,Reopened,Closed,,,yes,no,no,no
+OV-69405,261270,create xray regression test to match UI test,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-69406,261271,test locally,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-69407,261272,submit PR for review,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,In Secure Code Review,Closed,,,no,yes,no,no
+OV-69408,261273,after PR approval test in pipeline,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-69409,261274,when passes in pipeline merge to master,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-71658,269406,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,In Development,In Development,,,no,yes,no,no
+OV-72179,270999,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,Reopened,Closed,,,yes,yes,no,no
+OV-72180,271002,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,In Test,Closed,,,no,yes,no,no
+OV-72181,271005,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-72182,271008,Add to release card 0925,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72183,271011,Merge to release branch 0925,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72705,272561,Run regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,In Test,Closed,,,no,yes,no,no
+OV-72706,272562,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-72708,272564,Run regression,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-72709,272565,Deploy to production,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73058,273682,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-73059,273684,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73060,273686,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73061,273688,Add to release card 10/02,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-73062,273690,Merge to release branch 10/02,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73063,273692,Update API Docs (Int & Ext),Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-73185,273954,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-73186,273955,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73187,273956,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73188,273957,Add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73189,273958,Merge to release branch 08/28 ???,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73495,274870,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,Ready To Test,Closed,,,no,yes,no,no
+OV-73496,274872,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73497,274874,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73499,274877,Add to release card 09/25,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73500,274879,Merge to release branch 09/25,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73501,274881,Update API docs,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,In Development,Closed,,,yes,yes,no,no
+OV-73663,275349,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73664,275351,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73665,275353,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73666,275355,Add to release card,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,no,no
+OV-73667,275357,Merge to master branch,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,no,no
+OV-73668,275359,Update API docs,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,no,no
+OV-73702,275428,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Ready To Test,,,no,yes,no,no
+OV-73703,275430,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73704,275432,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73705,275434,Add to release card 10/09,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73706,275436,Merge to release branch 10/09,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73707,275438,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-73708,275440,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73709,275442,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73710,275444,Add to release card 01/13,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73711,275446,Merge to release branch 01/13,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73713,275453,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Ready To Test,,,no,yes,no,no
+OV-73714,275455,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,In Test,,,no,yes,no,no
+OV-73715,275457,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,In Development,,,no,yes,no,no
+OV-73716,275459,Add to release card 10/09,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73717,275461,Merge to release branch 10/09,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,no,no
+OV-73886,275812,Do the thing,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-73887,275814,Execute test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-73888,275816,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,no,no,yes,no
+OV-73889,275818,Add to release card 09/25,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-73890,275820,Merge to release branch 09/25,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-73971,276019,create postman request - tests,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,In Secure Code Review,,,no,yes,yes,no
+OV-74011,276355,(devOps) New redis for CVV,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,In Verification,,,no,yes,yes,no
+OV-75931,288982,Dev ops,Sub-task,OV,Team Connexpoint,CXP25Q3 - Sprint 6,6632,2025-09-10T18:31:58.741Z,2025-09-24T07:00:00.000Z,2025-Q3,New,New,,,no,no,yes,no
+OV-58310,226051,TEST only - Validate pre-populated device flow,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-68579,258244,Forms - Submission limit notifications,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Development,In Test,13,13,no,yes,no,no
+OV-68694,258619,Remove Infinite Campus Wedge Code,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Reopened,Closed,2,2,yes,yes,no,no
+OV-68865,259275, Launch Account Code Mapping Modal,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Verification,Closed,11,11,yes,yes,no,no
+OV-68916,259435,Display Skyward Fees in Fee Mapping Section,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Secure Code Review,Reopened,11,11,no,yes,no,no
+OV-68919,259440,Add Account Code from Fee Mapping Modal,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,6,6,no,no,no,no
+OV-69009,259803,"When using a modifier there is a bug causing you to save, close and reopen the modal to see the modifiers",Bug,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Ready for Sprint,In Test,2,2,no,yes,no,no
+OV-69066,259963,Forms: BackOffice E2E Testing ,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Verification,Closed,2,2,no,yes,no,no
+OV-69275,260712,Forms - BO add webhook datapoint,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Closed,Closed,2,2,no,no,no,no
+OV-69291,260847,RegWerks Item Integration Endpoint,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Secure Code Review,Closed,10,10,yes,yes,no,no
+OV-69418,261326,Skyward accounting logic,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Secure Code Review,Ready To Test,11,11,no,yes,no,no
+OV-69608,261940,MEND - CDS: CWE-22: Path/Directory Traversal,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Secure Code Review,Ready To Test,3,3,no,yes,no,no
+OV-69623,261986,"Forms - Switch form ""Add to cart"" logic to use submission data",Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Verification,Closed,5,5,yes,yes,no,no
+OV-69698,262235,WS/ES BackOffice Testing,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Reopened,Closed,2,2,no,yes,no,no
+OV-69758,262527,Receipt endpoint,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Secure Code Review,Closed,8,8,yes,yes,no,no
+OV-69783,262649,Fee Management student import errors,Bug,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Verification,Closed,2,2,yes,yes,no,no
+OV-69819,262769,Update deployment pipeline to stop/start site and improve speed,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Development,Closed,3,3,yes,yes,no,no
+OV-69821,262774,FORMS - Regular items are not being added to the cart along with a form that contains the same item,Bug,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Verification,Closed,2,2,yes,yes,no,no
+OV-69889,262970,Allow /api/account/saveecheck on non-IDS stores,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Secure Code Review,Closed,2,2,yes,yes,no,no
+OV-70430,264643,Deleted fees show in student fee count,Bug,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,Closed,2,2,yes,yes,yes,no
+OV-70432,264649,Students missing from Sapphire balance export,Bug,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,In Development,2,2,no,yes,yes,no
+OV-70648,265487,saveCard/saveEcheck session check,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Secure Code Review,Closed,4,4,no,yes,no,no
+OV-70649,265488,ContactUs page,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Secure Code Review,Closed,4,4,yes,yes,no,no
+OV-70782,265892,Forms- RevTrak manage feathery userid/submissionid,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,Ready for Sprint,2,2,no,yes,yes,no
+OV-70816,266042,Add Submission URL to inventory item notification,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Ready for Sprint,In Secure Code Review,5,5,no,yes,no,no
+OV-70869,266221,Spike - Impersonation functionality,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Ready for Sprint,Closed,2,2,yes,yes,no,no
+OV-70872,266224,"Migrate IDS Edit Account Flow from AngularJS to React
+
+",Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Ready for Sprint,In Development,6,6,no,yes,no,no
+OV-70874,266227,"Migrate IDS Login Component from AngularJS to React
+
+",Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,In Development,Ready To Test,8,8,no,yes,no,no
+OV-70916,266760,Migrate Test Cases in XRay BO,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,2,2,no,no,no,no
+OV-70943,267320,Spike - Review documentation from frontline,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Ready for Sprint,Closed,2,2,yes,yes,no,no
+OV-70950,267381,Tier 3: Regression Release 2025.07,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,Ready for Sprint,Closed,3,3,no,yes,no,no
+OV-70963,267434,MEND - Portal: CWE-22: Path/Directory Traversal,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,Ready for Sprint,3,3,no,no,no,no
+OV-71013,267587,Create logout API,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,Closed,2,2,yes,yes,yes,no
+OV-71081,267845,"Parent Portal - Update payment method modal, UI is misaligned ",Bug,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,Closed,2,2,yes,yes,yes,no
+OV-71140,267980,Create flag to pick the schools that will be migrated to the new UX/UI.,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,Ready for Sprint,1,1,no,no,yes,no
+OV-71461,268908,Account codes can't be created,Bug,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,In Development,3,3,no,yes,yes,no
+OV-71462,268913,End Date does not archive form,Bug,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,In Development,2,2,no,yes,yes,no
+OV-71464,268926,Fulfillment not running Integration job,Bug,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,In Development,2,2,no,yes,yes,no
+OV-71505,269016,Forms - Ws forms are not sending admin notifications in all scenarios,Story,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,In Development,10,10,no,yes,yes,no
+OV-71508,269020,SPIKE: Sapphire Students mismatch in Revtrak,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,Closed,2,2,yes,yes,yes,yes
+OV-71900,270175,Regression Release 2025.08: FORMS,Task,OV,Team Webstore,WS25Q3S1-Nimble NIN,6870,2025-07-02T16:00:38.456Z,2025-07-16T16:00:00.000Z,2025-Q3,New,New,3,3,no,no,yes,no
+OV-3074,67157,Ability to shut off and turn on storefronts,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,In Development,3,5,no,yes,no,no
+OV-61151,238757,Add LDAP password support for PowerSchool Integration,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready For Refinement,Ready For Refinement,2,2,no,no,no,no
+OV-68579,258244,Forms - Submission limit notifications,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,In Test,Ready To Test,13,13,no,yes,no,no
+OV-68916,259435,Display Skyward Fees in Fee Mapping Section,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Reopened,Ready To Test,11,11,no,yes,no,no
+OV-68919,259440,Add Account Code from Fee Mapping Modal,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,In Development,6,6,no,yes,no,no
+OV-69009,259803,"When using a modifier there is a bug causing you to save, close and reopen the modal to see the modifiers",Bug,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,In Test,Closed,2,2,yes,yes,no,no
+OV-69289,260833,View Basic Import Log for Account Code Mappings,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,8,8,no,no,no,no
+OV-69418,261326,Skyward accounting logic,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready To Test,Ready To Test,11,11,no,yes,no,no
+OV-69608,261940,MEND - CDS: CWE-22: Path/Directory Traversal,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready To Test,Closed,3,3,yes,yes,no,no
+OV-70432,264649,Students missing from Sapphire balance export,Bug,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,In Development,In Secure Code Review,2,2,no,yes,no,no
+OV-70782,265892,Forms- RevTrak manage feathery userid/submissionid,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready For Refinement,2,2,no,yes,no,no
+OV-70816,266042,Add Submission URL to inventory item notification,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,In Secure Code Review,Reopened,5,5,no,yes,no,no
+OV-70870,266222,Verify IDS Reset Password from AngularJS to React,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,Closed,3,3,yes,yes,no,no
+OV-70871,266223,IDS Create Account Flow from AngularJS to React,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready To Test,3,3,no,yes,no,no
+OV-70872,266224,"Migrate IDS Edit Account Flow from AngularJS to React
+
+",Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,In Development,Ready To Test,6,6,no,yes,no,no
+OV-70874,266227,"Migrate IDS Login Component from AngularJS to React
+
+",Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready To Test,Ready To Test,8,8,no,yes,no,no
+OV-70880,266242,[Back End]Create new ProgressBook MLID,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-70884,266250,Testing Non-IDS Create Account Flow from AngularJS to React,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,In Test,3,3,no,yes,no,no
+OV-70885,266251,Testing Non-IDS Edit Account Flow from AngularJS to React,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,In Secure Code Review,3,3,no,yes,no,no
+OV-70916,266760,Migrate Test Cases in XRay BO,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,2,2,no,no,no,no
+OV-70963,267434,MEND - Portal: CWE-22: Path/Directory Traversal,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready To Test,3,3,no,yes,no,no
+OV-71140,267980,Create flag to pick the schools that will be migrated to the new UX/UI.,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,Closed,1,1,no,yes,no,no
+OV-71394,268668,[BackOffice] Frontline Integration Setup,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,8,8,no,no,no,no
+OV-71461,268908,Account codes can't be created,Bug,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,In Development,Closed,3,5,yes,yes,no,no
+OV-71462,268913,End Date does not archive form,Bug,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,In Development,Closed,2,2,yes,yes,no,no
+OV-71464,268926,Fulfillment not running Integration job,Bug,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,In Development,Closed,2,2,yes,yes,no,no
+OV-71467,268934,Fee Management Student Auto-linking import error,Bug,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,New,In Secure Code Review,,,no,yes,yes,no
+OV-71505,269016,Forms - Ws forms are not sending admin notifications in all scenarios,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,In Development,In Development,10,10,no,yes,no,no
+OV-71508,269020,SPIKE: Sapphire Students mismatch in Revtrak,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Closed,Closed,2,2,no,no,no,no
+OV-71560,269128,Update prod deployment pipelines for rollout,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,Ready for Sprint,Closed,3,3,yes,yes,no,no
+OV-71754,269655,Add PCCT to header endpoint,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,New,Closed,2,2,yes,yes,yes,no
+OV-71790,269850,Powerschool SSO,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,New,In Development,3,5,no,yes,yes,no
+OV-71860,270014,Redirect to the original page on Login,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,New,In Development,4,4,no,yes,yes,no
+OV-71900,270175,Regression Release 2025.08: FORMS,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,New,Closed,3,3,no,yes,yes,no
+OV-72072,270654,Load CXP configuration in dynamically,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,New,In Secure Code Review,3,3,no,yes,yes,no
+OV-72127,270848,Stop blocking saving of items when end date is in past,Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,New,Ready for Sprint,3,3,no,no,yes,yes
+OV-72165,270959,"Part4: Ensure custom controls provide proper textual name, role, and state information",Task,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,New,In Development,2,2,no,yes,yes,no
+OV-78394,306954,Ability to shut off storefronts for the new UI,Story,OV,Team Webstore,WS25Q3S2-Outstanding Otis,7088,2025-07-16T15:51:16.994Z,2025-07-30T16:00:00.000Z,2025-Q3,New,New,5,5,no,no,yes,no
+OV-3074,67157,Ability to shut off and turn on storefronts,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Development,In Secure Code Review,5,5,no,yes,no,no
+OV-61151,238757,Add LDAP password support for PowerSchool Integration,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready For Refinement,Ready For Refinement,2,2,no,no,no,no
+OV-68579,258244,Forms - Submission limit notifications,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready To Test,In Test,13,13,no,yes,no,no
+OV-68916,259435,Display Skyward Fees in Fee Mapping Section,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready To Test,Closed,11,11,yes,yes,no,no
+OV-68919,259440,Add Account Code from Fee Mapping Modal,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Development,In Secure Code Review,6,6,no,yes,no,no
+OV-69289,260833,View Basic Import Log for Account Code Mappings,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,In Development,8,8,no,yes,no,no
+OV-69418,261326,Skyward accounting logic,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready To Test,Closed,11,11,yes,yes,no,no
+OV-70432,264649,Students missing from Sapphire balance export,Bug,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Secure Code Review,Closed,2,2,yes,yes,no,no
+OV-70782,265892,Forms- RevTrak manage feathery userid/submissionid,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready For Refinement,Closed,2,8,yes,yes,no,no
+OV-70816,266042,Add Submission URL to inventory item notification,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Reopened,Closed,5,5,yes,yes,no,no
+OV-70871,266223,IDS Create Account Flow from AngularJS to React,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready To Test,Closed,3,3,yes,yes,no,no
+OV-70872,266224,"Migrate IDS Edit Account Flow from AngularJS to React
+
+",Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready To Test,Closed,6,6,yes,yes,no,no
+OV-70874,266227,"Migrate IDS Login Component from AngularJS to React
+
+",Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready To Test,In Test,8,8,no,yes,no,no
+OV-70880,266242,[Back End]Create new ProgressBook MLID,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,In Secure Code Review,3,3,no,yes,no,no
+OV-70884,266250,Testing Non-IDS Create Account Flow from AngularJS to React,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Test,In Development,3,3,no,yes,no,no
+OV-70885,266251,Testing Non-IDS Edit Account Flow from AngularJS to React,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Secure Code Review,In Secure Code Review,3,3,no,yes,no,no
+OV-70916,266760,Migrate Test Cases in XRay BO,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,2,2,no,no,no,no
+OV-70963,267434,MEND - Portal: CWE-22: Path/Directory Traversal,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready To Test,Closed,3,3,yes,yes,no,no
+OV-71394,268668,[BackOffice] Frontline Integration Setup,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,In Development,8,8,no,yes,no,no
+OV-71467,268934,Fee Management Student Auto-linking import error,Bug,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Secure Code Review,Closed,,,yes,yes,no,no
+OV-71505,269016,Forms - Ws forms are not sending admin notifications in all scenarios,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Development,In Development,10,10,no,yes,no,no
+OV-71661,269419,Test TotalK12 integration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-71669,269428,Test eSchoolPlus integration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,5,5,no,no,no,no
+OV-71671,269430,Test RegWerks integration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,In Development,5,5,no,yes,no,no
+OV-71672,269431,Test Fee management - Powerschool integration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-71681,269450,Test MealMagic integration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,5,5,no,no,no,no
+OV-71686,269455,Test PowerSchool integration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,8,8,no,no,no,no
+OV-71687,269456,Test Qmlativ integration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,8,8,no,no,no,no
+OV-71689,269458,Test Sapphire integration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,5,5,no,no,no,no
+OV-71691,269460,Test Skyward QC integration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,5,5,no,no,no,no
+OV-71694,269463,Test Tyler Integration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,New,New,3,3,no,no,no,no
+OV-71737,269587,Test native inventory items possible combinations,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Closed,Closed,13,13,no,no,no,no
+OV-71790,269850,Powerschool SSO,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Development,In Development,5,5,no,yes,no,no
+OV-71860,270014,Redirect to the original page on Login,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Development,In Secure Code Review,4,4,no,yes,no,no
+OV-71934,270258,"HW RevTrak - [FIX] Product description - When adding HTML with image, the whole website style changes",Bug,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,New,In Secure Code Review,3,3,no,yes,yes,no
+OV-72072,270654,Load CXP configuration in dynamically,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Secure Code Review,In Secure Code Review,3,3,no,yes,no,no
+OV-72097,270742,Parent Portal App: Mobile Wallets - Create the section for the Wallets button,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-72098,270744,Mobile wallets - Spike - Automatically enable Google / Apple Pay for every newly onboarded school or district,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,2,2,no,no,no,no
+OV-72127,270848,Stop blocking saving of items when end date is in past,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-72165,270959,"Part4: Ensure custom controls provide proper textual name, role, and state information",Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,In Development,Closed,2,2,yes,yes,no,no
+OV-72167,270961,Legacy App: Mobile Wallets - Create the section for the Wallets button,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-72189,271035,Fix webhookuri configuration for 23 production webstores,Bug,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,New,In Development,3,3,no,yes,yes,no
+OV-72199,271065,Test Ad-Hoc reports,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,New,In Test,5,5,no,yes,yes,no
+OV-72223,271137,SPIKE: Test BO for webhookuri configuration,Task,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,New,Closed,2,2,yes,yes,yes,no
+OV-72369,271568,Forms - $0 items in cart,Bug,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,New,Closed,2,2,yes,yes,yes,no
+OV-78394,306954,Ability to shut off storefronts for the new UI,Story,OV,Team Webstore,WS25Q3S3 - Peaceful Pink Floyd,7121,2025-07-30T16:11:03.615Z,2025-08-13T16:11:38.000Z,2025-Q3,New,New,5,5,no,no,yes,no
+OV-3074,67157,Ability to shut off and turn on storefronts,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Secure Code Review,In Secure Code Review,5,5,no,yes,no,no
+OV-61151,238757,Add LDAP password support for PowerSchool Integration,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready For Refinement,Ready For Refinement,2,2,no,no,no,no
+OV-68579,258244,Forms - Submission limit notifications,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Test,Closed,13,13,yes,yes,no,no
+OV-68919,259440,Add Account Code from Fee Mapping Modal,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Secure Code Review,Closed,6,6,yes,yes,no,no
+OV-69289,260833,View Basic Import Log for Account Code Mappings,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Development,In Secure Code Review,8,8,no,yes,no,no
+OV-69726,262429,HW RevTrak - [NON-NATIVE] My Account PARENT PORTAL option RegWerks,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready for Sprint,New,8,8,no,no,no,no
+OV-70633,265402,(RT) Enhance the receipt process,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready For Refinement,Ready To Test,3,3,no,yes,yes,no
+OV-70874,266227,"Migrate IDS Login Component from AngularJS to React
+
+",Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Test,Closed,8,8,yes,yes,no,no
+OV-70880,266242,[Back End]Create new ProgressBook MLID,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Secure Code Review,In Secure Code Review,3,3,no,yes,no,no
+OV-70884,266250,Testing Non-IDS Create Account Flow from AngularJS to React,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Development,Closed,3,3,yes,yes,no,no
+OV-70885,266251,Testing Non-IDS Edit Account Flow from AngularJS to React,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Secure Code Review,Ready To Test,3,3,no,yes,no,no
+OV-70916,266760,Migrate Test Cases in XRay BO,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,2,2,no,no,no,no
+OV-71394,268668,[BackOffice] Frontline Integration Setup,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Development,In Secure Code Review,8,8,no,yes,no,no
+OV-71505,269016,Forms - Ws forms are not sending admin notifications in all scenarios,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Development,Closed,10,10,yes,yes,no,no
+OV-71671,269430,Test RegWerks integration,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Development,In Development,5,5,no,yes,no,no
+OV-71691,269460,Test Skyward QC integration,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready for Sprint,In Development,5,5,no,yes,no,no
+OV-71790,269850,Powerschool SSO,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Development,Closed,5,5,yes,yes,no,no
+OV-71860,270014,Redirect to the original page on Login,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Secure Code Review,Ready To Test,4,4,no,yes,no,no
+OV-71934,270258,"HW RevTrak - [FIX] Product description - When adding HTML with image, the whole website style changes",Bug,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Secure Code Review,In Secure Code Review,3,3,no,yes,no,no
+OV-71936,270263,HW RevTrak - [FIX] Software admin fee should be specified in checkout page,Bug,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready for Sprint,Closed,3,3,yes,yes,yes,no
+OV-71939,270266,HW RevTrak - [FIX] Software admin fee shouldn't be added when it's exempt,Bug,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready for Sprint,Closed,2,2,yes,yes,yes,no
+OV-72072,270654,Load CXP configuration in dynamically,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Secure Code Review,Closed,3,3,yes,yes,no,no
+OV-72097,270742,Parent Portal App: Mobile Wallets - Create the section for the Wallets button,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-72098,270744,Mobile wallets - Spike - Automatically enable Google / Apple Pay for every newly onboarded school or district,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,2,2,no,no,no,no
+OV-72127,270848,Stop blocking saving of items when end date is in past,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-72167,270961,Legacy App: Mobile Wallets - Create the section for the Wallets button,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-72189,271035,Fix webhookuri configuration for 23 production webstores,Bug,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Development,Closed,3,3,yes,yes,no,no
+OV-72199,271065,Test Ad-Hoc reports,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,In Test,Closed,5,5,no,yes,no,no
+OV-72373,271584,HW RevTrak - [FIX] RegWerks (Integration) validation in cart at checkout process as legacy app,Bug,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,5,5,no,no,no,no
+OV-72494,271926,HW Qmlativ SSO,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,New,Closed,,,yes,yes,yes,no
+OV-72600,272191,Regression IDS - HW,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-72624,272295,Test long tail of integrations (non-prod),Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,New,Ready To Test,,,no,yes,yes,no
+OV-72684,272528,WS - Update Admin Emails for RevTrak Forms,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,New,In Development,2,5,no,yes,yes,no
+OV-72721,272583,HW RevTrak - add shipping to checkout,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,New,Ready To Test,3,3,no,yes,yes,no
+OV-72751,272767,HW - edit billing and shipping address in checkout,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,New,Ready To Test,3,5,no,yes,yes,no
+OV-72775,272829,Tier 3: Regression Release 2025.09,Task,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,New,Closed,3,3,no,yes,yes,no
+OV-72899,273182,Add Migration to WS admin linking default Job Titles to new Forms Report,Bug,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,New,In Secure Code Review,3,3,no,yes,yes,no
+OV-72904,273200,Fulfillment Service - Update Forms Report Cron Schedule,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,New,In Secure Code Review,2,2,no,yes,yes,no
+OV-78394,306954,Ability to shut off storefronts for the new UI,Story,OV,Team Webstore,WS25Q3S4-Quintessential Queen,7484,2025-08-13T16:00:00.000Z,2025-08-27T16:00:00.000Z,2025-Q3,New,New,5,5,no,no,yes,no
+OV-3074,67157,Ability to shut off and turn on storefronts,Story,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Secure Code Review,In Secure Code Review,5,5,no,yes,no,no
+OV-67025,254434,Parent Portal - Session management API,Story,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-69289,260833,View Basic Import Log for Account Code Mappings,Story,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Secure Code Review,Closed,8,8,yes,yes,no,no
+OV-69726,262429,HW RevTrak - [NON-NATIVE] My Account PARENT PORTAL option RegWerks,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Ready To Test,8,8,no,yes,no,no
+OV-70450,264760,HW RevTrak - [FEATURE] FORM INVENTORY (item) Edit in cart,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Development,In Secure Code Review,3,5,no,yes,yes,no
+OV-70633,265402,(RT) Enhance the receipt process,Story,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready To Test,Closed,3,3,yes,yes,no,no
+OV-70880,266242,[Back End]Create new ProgressBook MLID,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Secure Code Review,In Secure Code Review,3,3,no,yes,no,no
+OV-70885,266251,Testing Non-IDS Edit Account Flow from AngularJS to React,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready To Test,Closed,3,3,yes,yes,no,no
+OV-71394,268668,[BackOffice] Frontline Integration Setup,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Secure Code Review,In Secure Code Review,8,8,no,yes,no,no
+OV-71661,269419,Test TotalK12 integration,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-71669,269428,Test eSchoolPlus integration,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,5,5,no,no,no,no
+OV-71671,269430,Test RegWerks integration,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Development,In Secure Code Review,5,5,no,yes,no,no
+OV-71672,269431,Test Fee management - Powerschool integration,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-71681,269450,Test MealMagic integration,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,5,5,no,yes,no,no
+OV-71686,269455,Test PowerSchool integration,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,8,8,no,no,no,no
+OV-71687,269456,Test Qmlativ integration,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,In Development,8,8,no,yes,no,no
+OV-71689,269458,Test Sapphire integration,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,In Development,5,5,no,yes,no,no
+OV-71691,269460,Test Skyward QC integration,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Development,Closed,5,5,yes,yes,no,no
+OV-71694,269463,Test Tyler Integration,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-71860,270014,Redirect to the original page on Login,Story,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready To Test,Closed,4,4,yes,yes,no,no
+OV-71934,270258,"HW RevTrak - [FIX] Product description - When adding HTML with image, the whole website style changes",Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Secure Code Review,Ready To Test,3,3,no,yes,no,no
+OV-72097,270742,Parent Portal App: Mobile Wallets - Create the section for the Wallets button,Story,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-72098,270744,Mobile wallets - Spike - Automatically enable Google / Apple Pay for every newly onboarded school or district,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,2,2,no,no,no,no
+OV-72167,270961,Legacy App: Mobile Wallets - Create the section for the Wallets button,Story,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-72299,271396,RevTrak manage feathery userid/submissionid,Story,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready To Test,8,8,no,yes,no,no
+OV-72373,271584,HW RevTrak - [FIX] RegWerks (Integration) validation in cart at checkout process as legacy app,Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready To Test,5,5,no,yes,no,no
+OV-72624,272295,Test long tail of integrations (non-prod),Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready To Test,Ready To Test,,,no,yes,no,no
+OV-72684,272528,WS - Update Admin Emails for RevTrak Forms,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Development,New,5,5,no,yes,no,no
+OV-72721,272583,HW RevTrak - add shipping to checkout,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready To Test,Closed,3,3,yes,yes,no,no
+OV-72751,272767,HW - edit billing and shipping address in checkout,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,Ready To Test,Closed,5,5,yes,yes,no,no
+OV-72899,273182,Add Migration to WS admin linking default Job Titles to new Forms Report,Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Secure Code Review,Closed,3,3,yes,yes,no,no
+OV-72904,273200,Fulfillment Service - Update Forms Report Cron Schedule,Story,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,In Secure Code Review,Closed,2,2,yes,yes,no,no
+OV-73073,273730,HW - Logging out in IDS store goes to blank screen,Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,3,2,yes,yes,no,no
+OV-73076,273733,[TAG] NRTHS-AMP2 – Avoid unnecessary use of heading elements,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,3,1,no,yes,yes,no
+OV-73080,273738,[LABEL] NRTHS-AMP9 – Ensure color is not the sole means of communicating information,Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,New,2,2,no,no,yes,no
+OV-73081,273739,[TAG] NRTHS-AMP10 – Ensure heading level matches the heading's visual importance/level,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,1,1,yes,yes,yes,no
+OV-73084,273742,[TAG] NRTHS-AMP18 – Provide alternative text for images,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-73085,273743,[TAG] NRTHS-AMP19 – Ensure heading level matches the heading's visual importance/level,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Ready To Test,0,0,no,yes,yes,no
+OV-73086,273744,[LABEL] NRTHS-AMP21 – Avoid the use of implicit headings,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Ready To Test,2,0,no,yes,yes,no
+OV-73090,273748,[TAG] NRTHS-AMP27 – Provide alternative text for images,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,1,1,yes,yes,yes,no
+OV-73095,273753,[TAG] NRTHS-AMP37 – Provide alternative text for images,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,1,1,no,yes,yes,no
+OV-73104,273762,[TAG] NRTHS-AMP50 – Provide fieldsets for groups of form controls,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,2,2,yes,yes,yes,no
+OV-73112,273770,"[LABEL] NRTHS-AMP63 – Ensure ARIA regions, landmarks and HTML sections are identifiable",Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-73115,273773,[TAG] NRTHS-AMP69 – Avoid the use of implicit headings,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Ready To Test,2,2,no,yes,yes,no
+OV-73121,273779,[LABEL] NRTHS-AMP78 – Provide a descriptive dialog title,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,2,1,yes,yes,yes,no
+OV-73122,273780,"[LABEL] NRTHS-AMP79 – Ensure ARIA regions, landmarks and HTML sections are identifiable",Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-73126,273784,[LABEL] NRTHS-AMP88 – Ensure link text is meaningful within context,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-73128,273786,"[LABEL] NRTHS-AMP90 – Ensure ARIA regions, landmarks and HTML sections are identifiable",Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-73129,273787,[TAG] NRTHS-AMP94 – Ensure heading level matches the heading's visual importance/level,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Ready To Test,0,0,no,yes,yes,no
+OV-73132,273790,[LABEL] NRTHS-AMP103 – Ensure link text is meaningful within context,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,1,1,yes,yes,yes,no
+OV-73133,273791,[LABEL] NRTHS-AMP104 – Provide a descriptive dialog title,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,2,1,yes,yes,yes,no
+OV-73158,273869,HW - Auto-replenish being presented for all integrations,Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,3,3,yes,yes,yes,no
+OV-73160,273882,HW - Can't set up LBEs,Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,1,1,yes,yes,yes,no
+OV-73172,273913,Skyward Optional Fees are duplicating after partial payments.,Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,3,3,yes,yes,yes,no
+OV-73174,273917,HW - Error adding item to cart,Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,3,3,yes,yes,yes,no
+OV-73176,273919,"HW - Error adding item to cart, pt 2",Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,,,no,yes,yes,no
+OV-73359,274532,RTsoutheastern Sapphire import doesn't work,Bug,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Closed,2,2,yes,yes,yes,no
+OV-73736,275503,HW - Order history sorting doesn't work,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Awaiting Build,2,2,no,yes,yes,no
+OV-73749,275518,Test Fee management - Payment Plans,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,New,3,3,no,no,yes,yes
+OV-73750,275519,Test Forms,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,New,3,3,no,no,yes,yes
+OV-73751,275520,Tier 2: Regression Release 2025.10,Task,OV,Team Webstore,WS25Q3S5-Recalcitrant RATM,7616,2025-08-27T16:30:00.000Z,2025-09-10T16:30:00.000Z,2025-Q3,New,Ready To Test,3,3,no,yes,yes,no
+OV-69726,262429,HW RevTrak - [NON-NATIVE] My Account PARENT PORTAL option RegWerks,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready To Test,Ready To Test,8,8,no,yes,no,no
+OV-70450,264760,HW RevTrak - [FEATURE] FORM INVENTORY (item) Edit in cart,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,In Secure Code Review,Ready To Test,5,5,no,yes,no,yes
+OV-70880,266242,[Back End]Create new ProgressBook MLID,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,In Secure Code Review,In Secure Code Review,3,3,no,yes,no,no
+OV-71394,268668,[BackOffice] Frontline Integration Setup,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,In Secure Code Review,In Secure Code Review,8,8,no,yes,no,no
+OV-71661,269419,Test TotalK12 integration,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,yes
+OV-71669,269428,Test eSchoolPlus integration,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready for Sprint,In Development,5,5,no,yes,no,no
+OV-71671,269430,Test RegWerks integration,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,In Secure Code Review,Ready To Test,5,5,no,yes,no,no
+OV-71672,269431,Test Fee management - Powerschool integration,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,yes
+OV-71681,269450,Test MealMagic integration,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready for Sprint,In Development,5,5,no,yes,yes,yes
+OV-71686,269455,Test PowerSchool integration,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready for Sprint,In Test,8,8,no,yes,no,yes
+OV-71687,269456,Test Qmlativ integration,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,In Development,In Test,8,8,no,yes,no,yes
+OV-71689,269458,Test Sapphire integration,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,In Development,Closed,5,5,yes,yes,no,no
+OV-71694,269463,Test Tyler Integration,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready for Sprint,In Development,3,3,no,yes,no,no
+OV-71934,270258,"HW RevTrak - [FIX] Product description - When adding HTML with image, the whole website style changes",Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready To Test,Ready To Test,3,3,no,yes,no,yes
+OV-72097,270742,Parent Portal App: Mobile Wallets - Create the section for the Wallets button,Story,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-72098,270744,Mobile wallets - Spike - Automatically enable Google / Apple Pay for every newly onboarded school or district,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,2,2,no,no,no,no
+OV-72167,270961,Legacy App: Mobile Wallets - Create the section for the Wallets button,Story,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
+OV-72299,271396,RevTrak manage feathery userid/submissionid,Story,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready To Test,In Test,8,8,no,yes,no,no
+OV-72373,271584,HW RevTrak - [FIX] RegWerks (Integration) validation in cart at checkout process as legacy app,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready To Test,Ready To Test,5,5,no,yes,no,yes
+OV-72624,272295,Test long tail of integrations (non-prod),Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready To Test,Ready To Test,,,no,yes,no,yes
+OV-72684,272528,WS - Update Admin Emails for RevTrak Forms,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,In Development,5,5,no,yes,yes,no
+OV-73076,273733,[TAG] NRTHS-AMP2 – Avoid unnecessary use of heading elements,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,1,1,no,no,no,no
+OV-73080,273738,[LABEL] NRTHS-AMP9 – Ensure color is not the sole means of communicating information,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,New,2,2,no,no,no,yes
+OV-73081,273739,[TAG] NRTHS-AMP10 – Ensure heading level matches the heading's visual importance/level,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,1,1,no,no,no,no
+OV-73084,273742,[TAG] NRTHS-AMP18 – Provide alternative text for images,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-73085,273743,[TAG] NRTHS-AMP19 – Ensure heading level matches the heading's visual importance/level,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready To Test,Ready To Test,0,0,no,yes,no,yes
+OV-73086,273744,[LABEL] NRTHS-AMP21 – Avoid the use of implicit headings,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready To Test,Ready To Test,0,0,no,yes,no,yes
+OV-73090,273748,[TAG] NRTHS-AMP27 – Provide alternative text for images,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,1,1,no,no,no,no
+OV-73095,273753,[TAG] NRTHS-AMP37 – Provide alternative text for images,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,1,1,no,no,no,no
+OV-73097,273755,[TAG] NRTHS-AMP40 – Ensure images provide informative alternative text,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-73104,273762,[TAG] NRTHS-AMP50 – Provide fieldsets for groups of form controls,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,2,2,no,no,no,no
+OV-73112,273770,"[LABEL] NRTHS-AMP63 – Ensure ARIA regions, landmarks and HTML sections are identifiable",Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-73115,273773,[TAG] NRTHS-AMP69 – Avoid the use of implicit headings,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready To Test,Ready To Test,2,2,no,yes,no,yes
+OV-73121,273779,[LABEL] NRTHS-AMP78 – Provide a descriptive dialog title,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,1,1,no,no,no,no
+OV-73122,273780,"[LABEL] NRTHS-AMP79 – Ensure ARIA regions, landmarks and HTML sections are identifiable",Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-73126,273784,[LABEL] NRTHS-AMP88 – Ensure link text is meaningful within context,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-73128,273786,"[LABEL] NRTHS-AMP90 – Ensure ARIA regions, landmarks and HTML sections are identifiable",Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,,,no,no,no,no
+OV-73129,273787,[TAG] NRTHS-AMP94 – Ensure heading level matches the heading's visual importance/level,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready To Test,Ready To Test,0,0,no,yes,no,yes
+OV-73132,273790,[LABEL] NRTHS-AMP103 – Ensure link text is meaningful within context,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,1,1,no,no,no,no
+OV-73133,273791,[LABEL] NRTHS-AMP104 – Provide a descriptive dialog title,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Closed,Closed,1,1,no,no,no,no
+OV-73736,275503,HW - Order history sorting doesn't work,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Awaiting Build,Ready To Test,2,2,no,yes,no,yes
+OV-73749,275518,Test Fee management - Payment Plans,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Closed,3,3,yes,yes,no,no
+OV-73750,275519,Test Forms,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,In Development,3,3,no,yes,no,no
+OV-73751,275520,Tier 2: Regression Release 2025.10,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,Ready To Test,Closed,3,3,no,yes,no,no
+OV-73798,275590,Test Fee Management Recurring Billing,Task,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Closed,3,3,yes,yes,yes,no
+OV-73804,275603,HW - Payment Plans can't change payment method,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Closed,3,3,yes,yes,yes,no
+OV-73806,275610,"HW - Missing ""Download Form"" in order history",Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Ready To Test,3,3,no,yes,yes,no
+OV-73811,275627,HW - Strange log in prompt,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,In Development,3,3,no,yes,yes,no
+OV-73819,275645,HW - Item in cart displays not updating,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Ready To Test,5,5,no,yes,yes,no
+OV-73824,275652,HW - Receipt say Convenience Fee instead of Software Admin Fee,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Ready To Test,2,2,no,yes,yes,no
+OV-73826,275657,HW - Payment Plan history not handling combined payments,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Closed,3,3,yes,yes,yes,no
+OV-73830,275664,HW - Resources button/page???,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Closed,3,5,yes,yes,yes,no
+OV-73831,275666,"HW - ""Services"" menu in megamenu",Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Closed,3,3,yes,yes,yes,no
+OV-73836,275677,HW - High contrast toggle in mobile nav menu,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Ready To Test,3,3,no,yes,yes,no
+OV-73872,275793,HW - Mobile view Forms embedded inventory items cut off,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Ready To Test,3,3,no,yes,yes,no
+OV-73970,276018,HW - Payment plan history not displaying cancelled plans,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Closed,2,2,yes,yes,yes,no
+OV-73996,276087,HW - Masonry layout doesn't support background images,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,In Development,2,2,no,yes,yes,no
+OV-74000,276141,HW - Cart doesn't display recurring optional fees,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Closed,5,5,no,no,yes,no
+OV-74116,276832,OrderId bigint issues for regwerks orders and refunds,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Closed,3,3,no,yes,yes,no
+OV-74243,277322,HW - Payment Plan bonus payments not working,Bug,OV,Team Webstore,WS25Q3S6-Smoky Snoop Dogg,7688,2025-09-10T16:30:58.447Z,2025-09-24T16:30:00.000Z,2025-Q3,New,Ready To Test,3,3,no,yes,yes,no

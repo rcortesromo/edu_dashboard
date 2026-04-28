@@ -77,8 +77,8 @@ function uniqueSorted(values) {
 }
 
 function metricValue(metricName, rawValue) {
-  if (rawValue === "") {
-    throw new Error(`Missing metric value for "${metricName}".`);
+  if (rawValue === "" || rawValue === undefined || rawValue === null) {
+    return 0;
   }
 
   const parsed = Number(rawValue);

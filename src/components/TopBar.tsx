@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 const navItems = [
   { label: "Home", to: "/" },
   { label: "Metrics", to: "/metrics" },
+  { label: "Trends", to: "/trends" },
 ];
 
 function TopBar() {

@@ -54,24 +54,6 @@ function PortfolioRollup({ portfolioTeam, deliveryTeams }: PortfolioRollupProps)
               <span>{portfolioTeam.periodLabel}</span>
             </div>
 
-            <div className="portfolio-contributions">
-              {deliveryTeams.map((team) => {
-                const contributionMetric = team.metrics.find(
-                  (teamMetric) => teamMetric.metricName === metric.metricName,
-                );
-
-                if (!contributionMetric) {
-                  return null;
-                }
-
-                return (
-                  <span key={`${metric.metricName}-${team.teamKey}`} className="contribution-chip">
-                    <strong>{team.teamLabel}</strong>
-                    {formatMetricValue(contributionMetric)}
-                  </span>
-                );
-              })}
-            </div>
           </article>
         ))}
       </div>

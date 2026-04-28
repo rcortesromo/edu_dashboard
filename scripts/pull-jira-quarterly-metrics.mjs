@@ -83,6 +83,7 @@ const headers = {
     "cards_sent_backward_after_start",
     "completed_cards",
     "completed_points",
+    "committed_completed_points",
     "average_wip_cards",
     "average_throughput_cards_per_sprint",
     "data_quality_note",
@@ -668,11 +669,11 @@ function sprintMatchesQuarterPattern(teamConfig, sprintName, quarterLabel) {
   }
 
   if (teamConfig?.teamName === "Team Webstore") {
-    return new RegExp(`^WS${quarterToken}S([1-6])(?:\\b.*)?$`).test(name);
+    return new RegExp(`^WS${quarterToken}S\\d+`).test(name);
   }
 
   if (teamConfig?.teamName === "Team Connexpoint") {
-    return new RegExp(`^CXP${quarterToken}\\s-\\sSprint\\s([1-6])$`).test(name);
+    return new RegExp(`^CXP${quarterToken}\\s-\\s(Sprint|Sp)\\s\\d+`).test(name);
   }
 
   const pattern = teamConfig?.velocity?.sprintNameRegex;
@@ -1575,6 +1576,7 @@ async function processQuarterWindow({
   const quarterFiles = quarterScopedGeneratedFiles(quarterWindow.label);
   const trackedSprints = [];
   const issueCandidates = new Map();
+  const velocityCandidates = new Map();
   const boardVelocityByTeam = new Map();
 
   for (const team of teams) {
@@ -1612,12 +1614,19 @@ async function processQuarterWindow({
         mapping.fields.storyPointsFieldId,
       ]);
 
+      const velIssueTypes = team?.velocity?.velocityIssueTypes;
+      const velIssueTypeSet = velIssueTypes ? new Set(velIssueTypes) : null;
+
       for (const issue of issues) {
-        if (!issueIsInScope(issue, team, mapping, config)) {
-          continue;
+        const issueTypeName = issue.fields?.issuetype?.name ?? "";
+
+        if (issueIsInScope(issue, team, mapping, config)) {
+          issueCandidates.set(issue.key, issue);
         }
 
-        issueCandidates.set(issue.key, issue);
+        if (velIssueTypeSet && velIssueTypeSet.has(issueTypeName)) {
+          velocityCandidates.set(issue.key, { issue, teamName: team.teamName });
+        }
       }
     }
   }
@@ -1792,6 +1801,7 @@ async function processQuarterWindow({
         cards_sent_backward_after_start: backwardMoveFlag ? "1" : "0",
         completed_cards: completedInSprint ? "1" : "0",
         completed_points: completedInSprint ? String(toNumber(pointsAtEnd) ?? 0) : "0",
+        committed_completed_points: completedInSprint && committedAtStart ? String(toNumber(pointsAtEnd) ?? 0) : "0",
         average_wip_cards: String(round(sprintDurationRatio, 4) || 0),
         average_throughput_cards_per_sprint: completedInSprint ? "1" : "0",
         data_quality_note: committedAtStart ? "" : "Issue was not committed at sprint start.",
@@ -1826,6 +1836,7 @@ async function processQuarterWindow({
         ),
         completed_cards: String(matchingRows.reduce((sum, entry) => sum + Number(entry.completed_cards), 0)),
         completed_points: String(matchingRows.reduce((sum, entry) => sum + Number(entry.completed_points), 0)),
+        committed_completed_points: String(matchingRows.reduce((sum, entry) => sum + Number(entry.committed_completed_points), 0)),
         average_wip_cards: String(
           round(matchingRows.reduce((sum, entry) => sum + Number(entry.average_wip_cards), 0), 4) || 0,
         ),
@@ -1836,6 +1847,61 @@ async function processQuarterWindow({
         last_refresh_utc: refreshTimestamp,
       };
     });
+
+  // Process velocity candidates for teams with separate velocityIssueTypes
+  const velocityPointsByTeamSprint = new Map();
+
+  if (velocityCandidates.size > 0) {
+    const velEntries = await mapLimit([...velocityCandidates.values()], 2, async ({ issue, teamName }) => {
+      const existing = issueEntries.find((e) => e.issue.key === issue.key);
+      const changelog = existing ? existing.changelog : await client.getIssueChangelog(issue.key);
+      return { issue, teamName, changelog };
+    });
+
+    for (const { issue, teamName, changelog } of velEntries) {
+      const teamConfig = teams.find((t) => normalizeName(t.teamName) === normalizeName(teamName));
+      const teamSprints = trackedSprints.filter((sprint) => sprint.teamName === teamName);
+      const statusHistory = getStatusHistory(changelog);
+      const pointsHistory = getStoryPointsHistory(changelog, mapping.fields.storyPointsFieldId);
+      const sprintHistory = getSprintHistory(changelog, mapping.fields.sprintFieldId);
+      const resolutionHistory = getResolutionHistory(changelog);
+      const issueCreatedAt = new Date(issue.fields.created);
+      const currentStatusName = issue.fields.status?.name ?? "";
+      const currentResolutionName = issue.fields.resolution?.name ?? "";
+      const currentPoints = issue.fields?.[mapping.fields.storyPointsFieldId] ?? "";
+      const validCompletionCandidates = buildValidCompletionCandidates({
+        issue,
+        teamRule: teamConfig?.cycleTime,
+        statusHistory,
+        resolutionHistory,
+        currentResolutionName,
+        statusCategoryMap,
+      });
+
+      for (const sprint of teamSprints) {
+        const sprintStart = new Date(sprint.startDate);
+        const sprintEnd = new Date(sprint.endDate);
+        const completedInSprint = buildCompletedInSprintFlag(validCompletionCandidates, sprintStart, sprintEnd);
+
+        if (!completedInSprint) continue;
+
+        const { addedAfterStart } = sprintAddOrRemoveFlags(sprintHistory, sprint, sprintStart, sprintEnd, issueCreatedAt);
+        const committedAtStart = issueCreatedAt <= sprintStart && !addedAfterStart;
+        const velocityScope = teamConfig?.velocity?.velocityScope || "all_completed";
+        const countsForVelocity = velocityScope === "committed_only" ? committedAtStart : true;
+
+        if (!countsForVelocity) continue;
+
+        const pointsAtEnd = pointsAtTime(currentPoints, pointsHistory, sprintEnd);
+        const pts = toNumber(pointsAtEnd) ?? 0;
+
+        if (pts > 0) {
+          const key = `${teamName}::${sprint.id}`;
+          velocityPointsByTeamSprint.set(key, (velocityPointsByTeamSprint.get(key) ?? 0) + pts);
+        }
+      }
+    }
+  }
 
   const metricOutputsByQuarterRows = [];
   const jsonExportViewRows = [];
@@ -1852,6 +1918,7 @@ async function processQuarterWindow({
       (issue) => normalizeName(issue.fields?.[mapping.fields.teamFieldId]?.value) === normalizeName(team.teamName),
     );
     const velocitySource = velocitySourceForTeam(team);
+    const velocityScope = team?.velocity?.velocityScope || "all_completed";
     const boardVelocityMap = boardVelocityByTeam.get(team.teamName) ?? new Map();
     const sprintCount = teamSprintsInQuarter.length;
     const velocitySprintCount = velocitySprintsInQuarter.length;
@@ -1876,10 +1943,14 @@ async function processQuarterWindow({
     const velocitySprintRows = teamSprintRows.filter((row) =>
       velocitySprintsInQuarter.some((sprint) => String(sprint.id) === String(row.sprint_id)),
     );
+    const hasVelocityIssueTypes = Array.isArray(team?.velocity?.velocityIssueTypes) && team.velocity.velocityIssueTypes.length > 0;
+    const velocityPointsField = velocityScope === "committed_only" ? "committed_completed_points" : "completed_points";
     const totalVelocityPoints =
       velocitySource === "board_velocity_report"
         ? velocitySprintsInQuarter.reduce((sum, sprint) => sum + (boardVelocityMap.get(String(sprint.id)) ?? 0), 0)
-        : velocitySprintRows.reduce((sum, row) => sum + Number(row.completed_points), 0);
+        : hasVelocityIssueTypes
+          ? velocitySprintsInQuarter.reduce((sum, sprint) => sum + (velocityPointsByTeamSprint.get(`${team.teamName}::${sprint.id}`) ?? 0), 0)
+          : velocitySprintRows.reduce((sum, row) => sum + Number(row[velocityPointsField] ?? row.completed_points), 0);
     const averageVelocityPointsPerSprint =
       velocitySprintCount > 0 ? totalVelocityPoints / velocitySprintCount : 0;
     const boardVelocityMissingCount =
