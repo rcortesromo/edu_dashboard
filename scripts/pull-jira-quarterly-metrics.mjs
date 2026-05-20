@@ -377,6 +377,7 @@ function quarterWindowsForYearRange(fromYear, now) {
 function resolveTargetQuarterWindows(argv, now) {
   const targetQuarter = getTargetQuarterArg(argv);
   const fromYearArg = getFromYearArg(argv);
+  const isFull = argv.includes("--full");
 
   if (targetQuarter && fromYearArg) {
     throw new Error('Use either "--quarter YYYY-Q#" or "--from-year YYYY", not both in the same run.');
@@ -386,11 +387,11 @@ function resolveTargetQuarterWindows(argv, now) {
     return [quarterWindowFromLabel(targetQuarter)];
   }
 
-  if (fromYearArg) {
-    const fromYear = Number(fromYearArg);
+  if (isFull || fromYearArg) {
     const currentYear = now.getUTCFullYear();
+    const fromYear = fromYearArg ? Number(fromYearArg) : currentYear - 1;
 
-    if (!/^\d{4}$/.test(fromYearArg) || Number.isNaN(fromYear)) {
+    if (fromYearArg && (!/^\d{4}$/.test(fromYearArg) || Number.isNaN(fromYear))) {
       throw new Error(`Invalid year format "${fromYearArg}". Expected YYYY.`);
     }
 

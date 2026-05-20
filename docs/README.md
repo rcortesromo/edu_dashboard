@@ -8,6 +8,7 @@ Executive delivery dashboard for SDLC metrics, sprint health, and AI adoption tr
 |--------|---------|------|
 | **Jira** | Card Churn %, Velocity, Cycle Time Proxy, Actual Cycle Time | [jira/README.md](jira/README.md) |
 | **GitHub** | AI-assisted PR Coverage, AI Active Developers | [ai/README.md](ai/README.md) |
+| **Cursor** | Cursor Adoption Rate | [cursor/README.md](cursor/README.md) |
 
 ## Teams
 
@@ -23,38 +24,55 @@ EDU is a portfolio-level aggregate derived from delivery team data. It is not a 
 
 ## Pipeline
 
-### Quick refresh (current quarter only)
+### Incremental refresh (default)
 
 ```bash
 npm run refresh:static-metrics
 ```
 
-This runs Jira (current quarter only) + AI + merge + export in sequence. Good for routine updates within the same quarter.
+By default, each script picks up where it left off:
 
-### Full refresh (all quarters)
+- **Jira**: re-fetches the current quarter only; older quarters are preserved in the CSV.
+- **GitHub AI**: reads the existing CSV, finds the latest quarter, re-fetches from that quarter onward.
+- **Cursor**: same as GitHub AI -- re-fetches from the latest existing quarter onward.
 
-For a complete refresh that includes historical quarters:
+This is fast and safe for daily/weekly updates since historical data is never lost.
+
+### Full refresh (all quarters from scratch)
+
+Pass `--full` to re-fetch everything from `currentYear - 1`:
 
 ```bash
-npm run pull:jira-quarterly-metrics -- --from-year 2026   # Jira Q1+Q2+YTD
-npm run pull:ai-adoption-metrics                            # GitHub Q1+Q2 (auto-detects)
-npm run merge:metrics-sources                               # Merge Jira + AI CSVs
-npm run export:metrics-json                                 # CSV -> JSON final
+npm run refresh:static-metrics -- --full
+```
+
+Or run each script individually:
+
+```bash
+npm run pull:jira-quarterly-metrics -- --full
+npm run pull:ai-adoption-metrics -- --full
+npm run pull:cursor-metrics -- --full
+npm run merge:metrics-sources
+npm run export:metrics-json
 ```
 
 Then copy to public: `cp backend/published/json/metrics.generated.json public/data/metrics.generated.json`
 
-### Jira quarter flags
+### Jira-specific flags
 
 | Flag | Example | Effect |
 |------|---------|--------|
-| (none) | `npm run pull:jira-quarterly-metrics` | Current quarter only |
-| `--from-year` | `-- --from-year 2026` | All quarters from that year to now |
+| (none) | `npm run pull:jira-quarterly-metrics` | Current quarter only (incremental) |
+| `--full` | `-- --full` | All quarters from `currentYear - 1` to now |
+| `--from-year` | `-- --from-year 2025` | All quarters from the specified year |
 | `--quarter` | `-- --quarter 2026-Q1` | One specific quarter |
 
-### AI metrics
+### AI & Cursor flags
 
-The AI script auto-detects all quarters from Q1 to the current quarter. No flags needed.
+| Flag | Example | Effect |
+|------|---------|--------|
+| (none) | `npm run pull:ai-adoption-metrics` | From latest existing quarter onward (incremental) |
+| `--full` | `-- --full` | All quarters from `currentYear - 1` to now |
 
 ## Environment
 
@@ -66,6 +84,7 @@ Copy `.env.example` to `.env.local` and fill in:
 | `JIRA_EMAIL` | Jira account email for Basic auth |
 | `JIRA_API_TOKEN` | Jira API token |
 | `GITHUB_TOKEN` | GitHub PAT with `repo` and `read:org` scopes for vancopayments and SmartTuition |
+| `CURSOR_TOKEN` | Cursor Admin API key with `admin:*` scope (from team settings) |
 
 ## Output
 

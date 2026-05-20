@@ -35,6 +35,7 @@ async function main() {
 
   await runNodeScript(path.join(__dirname, "jira/pull-quarterly-metrics.mjs"), pullArgs);
   await runNodeScript(path.join(__dirname, "ai/pull-adoption-metrics.mjs"), pullArgs);
+  await runNodeScript(path.join(__dirname, "cursor/pull-cursor-metrics.mjs"), pullArgs);
   await runNodeScript(path.join(__dirname, "published/merge-metric-sources.mjs"));
   await runNodeScript(path.join(__dirname, "published/export-metrics-json.mjs"), [
     generatedCsvPath,

@@ -77,6 +77,60 @@ function toCsv(headersList, rows) {
   return `${lines.join("\n")}\n`;
 }
 
+function parseCsv(text) {
+  const rows = [];
+  let current = "";
+  let row = [];
+  let inQuotes = false;
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    const next = text[i + 1];
+
+    if (ch === '"') {
+      if (inQuotes && next === '"') { current += '"'; i++; } else { inQuotes = !inQuotes; }
+      continue;
+    }
+    if (ch === "," && !inQuotes) { row.push(current); current = ""; continue; }
+    if ((ch === "\n" || ch === "\r") && !inQuotes) {
+      if (ch === "\r" && next === "\n") i++;
+      row.push(current); current = "";
+      if (row.some((c) => c !== "")) rows.push(row);
+      row = []; continue;
+    }
+    current += ch;
+  }
+
+  if (current !== "" || row.length > 0) { row.push(current); if (row.some((c) => c !== "")) rows.push(row); }
+  if (rows.length === 0) return [];
+
+  const [headerRow, ...dataRows] = rows;
+  return dataRows.map((dr) => {
+    const entry = {};
+    headerRow.forEach((h, idx) => { entry[h] = dr[idx] ?? ""; });
+    return entry;
+  });
+}
+
+async function readExistingCsv(filePath) {
+  try {
+    return parseCsv(await fs.readFile(filePath, "utf8"));
+  } catch (err) {
+    if (err.code === "ENOENT") return [];
+    throw err;
+  }
+}
+
+function latestQuarterInRows(rows) {
+  const labels = [...new Set(rows.map((r) => r.quarter_label).filter(Boolean))];
+  return labels.sort().pop() ?? null;
+}
+
+function parseQuarterLabel(label) {
+  const m = /^(\d{4})-Q([1-4])$/.exec(label);
+  return m ? { year: Number(m[1]), quarter: Number(m[2]) } : null;
+}
+
 function githubHeaders(token) {
   return {
     Accept: "application/vnd.github+json",
@@ -108,11 +162,10 @@ async function fetchAllPages(url, token) {
   return results;
 }
 
-function buildQuarterWindows() {
+function buildAllQuarterWindows(startYear) {
   const now = new Date();
   const currentYear = now.getUTCFullYear();
   const currentQuarter = Math.floor(now.getUTCMonth() / 3) + 1;
-  const startYear = Number(process.env.AI_FROM_YEAR) || currentYear - 1;
   const windows = [];
 
   for (let year = startYear; year <= currentYear; year++) {
@@ -129,6 +182,25 @@ function buildQuarterWindows() {
   }
 
   return windows;
+}
+
+function buildQuarterWindows(isFull, existingRows) {
+  const now = new Date();
+  const currentYear = now.getUTCFullYear();
+  const fullStartYear = Number(process.env.AI_FROM_YEAR) || currentYear - 1;
+
+  if (isFull || existingRows.length === 0) {
+    return buildAllQuarterWindows(fullStartYear);
+  }
+
+  const latest = latestQuarterInRows(existingRows);
+  const parsed = latest ? parseQuarterLabel(latest) : null;
+
+  if (!parsed) {
+    return buildAllQuarterWindows(fullStartYear);
+  }
+
+  return buildAllQuarterWindows(parsed.year).filter((w) => w.label >= latest);
 }
 
 function hasAiSignals(texts) {
@@ -206,6 +278,8 @@ async function fetchPrCommitMessages(repoFullName, prNumber, token) {
 
 async function main() {
   const now = new Date().toISOString();
+  const args = process.argv.slice(2);
+  const isFull = args.includes("--full");
 
   const envText = await fs.readFile(envPath, "utf8").catch(() => "");
   const env = parseEnv(envText);
@@ -248,10 +322,17 @@ async function main() {
     teamUsers.get(team).push(user);
   }
 
-  const quarters = buildQuarterWindows();
+  const existingRows = await readExistingCsv(outputCsvPath);
+  const quarters = buildQuarterWindows(isFull, existingRows);
+  const fetchedLabels = new Set(quarters.map((q) => q.label));
+  const retainedRows = existingRows.filter((r) => !fetchedLabels.has(r.quarter_label));
   const csvRows = [];
 
-  console.log(`Processing ${repos.length} repos across ${quarters.length} quarters for ${teamUsers.size} teams`);
+  if (isFull) {
+    console.log(`Full refresh: processing ${repos.length} repos across ${quarters.length} quarters for ${teamUsers.size} teams`);
+  } else {
+    console.log(`Incremental refresh: processing ${repos.length} repos across ${quarters.length} quarter(s) for ${teamUsers.size} teams (${retainedRows.length} existing row(s) retained)`);
+  }
 
   for (const quarter of quarters) {
     console.log(`\nQuarter: ${quarter.label}`);
@@ -346,13 +427,17 @@ async function main() {
     }
   }
 
-  const eduRows = buildEduRollup(csvRows, quarters, now);
-  csvRows.push(...eduRows);
+  const allTeamRows = [...retainedRows.filter((r) => r.team_name !== "EDU"), ...csvRows];
+  const allQuarterWindows = buildAllQuarterWindows(
+    Number(process.env.AI_FROM_YEAR) || new Date().getUTCFullYear() - 1,
+  );
+  const eduRows = buildEduRollup(allTeamRows, allQuarterWindows, now);
+  const finalRows = [...allTeamRows, ...eduRows];
 
   summary.status = "completed";
-  summary.note = `Processed ${repos.length} repos, ${quarters.length} quarters, ${csvRows.length} metric rows generated.`;
+  summary.note = `Processed ${repos.length} repos, ${quarters.length} quarter(s), ${finalRows.length} total row(s) (${retainedRows.length} retained).`;
 
-  await writeOutputs(csvRows, summary);
+  await writeOutputs(finalRows, summary);
 }
 
 function buildEduRollup(teamRows, quarters, now) {

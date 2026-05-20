@@ -1,5 +1,5 @@
 {
-  "reportDate": "2026-04-28",
+  "reportDate": "2026-05-20",
   "teams": [
     "ASAP",
     "EDU",
@@ -42,6 +42,17 @@
     },
     {
       "team": "ASAP",
+      "quarter": "2025-Q1",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 3 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "ASAP",
       "quarter": "2025-Q2",
       "metricName": "AI Active Developers",
       "value": 1,
@@ -61,6 +72,17 @@
       "automationStatus": "automated",
       "note": "1 of 11 merged PRs had AI signals",
       "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q2",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 3 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "ASAP",
@@ -86,6 +108,17 @@
     },
     {
       "team": "ASAP",
+      "quarter": "2025-Q3",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 3 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "ASAP",
       "quarter": "2025-Q4",
       "metricName": "AI Active Developers",
       "value": 0,
@@ -105,6 +138,17 @@
       "automationStatus": "automated",
       "note": "0 of 22 merged PRs had AI signals",
       "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q4",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 3 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "ASAP",
@@ -130,6 +174,17 @@
     },
     {
       "team": "ASAP",
+      "quarter": "2026-Q1",
+      "metricName": "Cursor Adoption Rate",
+      "value": 100,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "3 of 3 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "ASAP",
       "quarter": "2026-Q2",
       "metricName": "AI Active Developers",
       "value": 0,
@@ -149,6 +204,17 @@
       "automationStatus": "automated",
       "note": "0 of 6 merged PRs had AI signals",
       "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q2",
+      "metricName": "Cursor Adoption Rate",
+      "value": 100,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "3 of 3 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "EDU",
@@ -193,6 +259,17 @@
       "automationStatus": "Yes (partial)",
       "note": "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
       "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q1",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "EDU",
@@ -263,6 +340,17 @@
     {
       "team": "EDU",
       "quarter": "2025-Q2",
+      "metricName": "Cursor Adoption Rate",
+      "value": 6.6667,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "2 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q2",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 1.85,
       "unit": "weeks",
@@ -329,6 +417,17 @@
     {
       "team": "EDU",
       "quarter": "2025-Q3",
+      "metricName": "Cursor Adoption Rate",
+      "value": 6.6667,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "2 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q3",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 1.85,
       "unit": "weeks",
@@ -391,6 +490,17 @@
       "automationStatus": "Yes (partial)",
       "note": "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
       "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q4",
+      "metricName": "Cursor Adoption Rate",
+      "value": 6.6667,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "2 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "EDU",
@@ -505,6 +615,17 @@
     {
       "team": "EDU",
       "quarter": "2026-Q1",
+      "metricName": "Cursor Adoption Rate",
+      "value": 96.6667,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "29 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q1",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 2.03,
       "unit": "weeks",
@@ -567,6 +688,17 @@
       "automationStatus": "Yes (partial)",
       "note": "Portfolio rollup weighted by team sprint counts across all in-scope teams.",
       "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q2",
+      "metricName": "Cursor Adoption Rate",
+      "value": 96.6667,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "29 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "EDU",
@@ -658,6 +790,17 @@
     },
     {
       "team": "Smartcare",
+      "quarter": "2025-Q1",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "Smartcare",
       "quarter": "2025-Q2",
       "metricName": "AI Active Developers",
       "value": 0,
@@ -677,6 +820,17 @@
       "automationStatus": "automated",
       "note": "0 of 141 merged PRs had AI signals",
       "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q2",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "Smartcare",
@@ -702,6 +856,17 @@
     },
     {
       "team": "Smartcare",
+      "quarter": "2025-Q3",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "Smartcare",
       "quarter": "2025-Q4",
       "metricName": "AI Active Developers",
       "value": 1,
@@ -721,6 +886,17 @@
       "automationStatus": "automated",
       "note": "1 of 262 merged PRs had AI signals",
       "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q4",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "Smartcare",
@@ -746,6 +922,17 @@
     },
     {
       "team": "Smartcare",
+      "quarter": "2026-Q1",
+      "metricName": "Cursor Adoption Rate",
+      "value": 88.8889,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "Smartcare",
       "quarter": "2026-Q2",
       "metricName": "AI Active Developers",
       "value": 0,
@@ -765,6 +952,17 @@
       "automationStatus": "automated",
       "note": "0 of 34 merged PRs had AI signals",
       "lastRefreshUtc": "2026-04-27T18:10:07.329Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2026-Q2",
+      "metricName": "Cursor Adoption Rate",
+      "value": 88.8889,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "Team Connexpoint",
@@ -809,6 +1007,17 @@
       "automationStatus": "Yes (partial)",
       "note": "Average completed story points per sprint across the quarter.",
       "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q1",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "Team Connexpoint",
@@ -879,6 +1088,17 @@
     {
       "team": "Team Connexpoint",
       "quarter": "2025-Q2",
+      "metricName": "Cursor Adoption Rate",
+      "value": 22.2222,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q2",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 1.33,
       "unit": "weeks",
@@ -945,6 +1165,17 @@
     {
       "team": "Team Connexpoint",
       "quarter": "2025-Q3",
+      "metricName": "Cursor Adoption Rate",
+      "value": 22.2222,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q3",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 1.23,
       "unit": "weeks",
@@ -1007,6 +1238,17 @@
       "automationStatus": "Yes (partial)",
       "note": "Average completed story points per sprint across the quarter.",
       "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q4",
+      "metricName": "Cursor Adoption Rate",
+      "value": 22.2222,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "Team Connexpoint",
@@ -1121,6 +1363,17 @@
     {
       "team": "Team Connexpoint",
       "quarter": "2026-Q1",
+      "metricName": "Cursor Adoption Rate",
+      "value": 100,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q1",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 0.93,
       "unit": "weeks",
@@ -1183,6 +1436,17 @@
       "automationStatus": "Yes (partial)",
       "note": "Average completed story points per sprint across the quarter.",
       "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q2",
+      "metricName": "Cursor Adoption Rate",
+      "value": 100,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "Team Connexpoint",
@@ -1297,6 +1561,17 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q1",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 2.61,
       "unit": "weeks",
@@ -1359,6 +1634,17 @@
       "automationStatus": "Yes (partial)",
       "note": "Average completed story points per sprint across the quarter.",
       "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "Team Webstore",
@@ -1429,6 +1715,17 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q3",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 2.99,
       "unit": "weeks",
@@ -1491,6 +1788,17 @@
       "automationStatus": "Yes (partial)",
       "note": "Average completed story points per sprint across the quarter.",
       "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "metricName": "Cursor Adoption Rate",
+      "value": 0,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "Team Webstore",
@@ -1605,6 +1913,17 @@
     {
       "team": "Team Webstore",
       "quarter": "2026-Q1",
+      "metricName": "Cursor Adoption Rate",
+      "value": 100,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1",
       "metricName": "Flow-based Cycle Time Proxy (weeks)",
       "value": 6.32,
       "unit": "weeks",
@@ -1667,6 +1986,17 @@
       "automationStatus": "Yes (partial)",
       "note": "Average completed story points per sprint across the quarter.",
       "lastRefreshUtc": "2026-04-28T00:04:11.491Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2",
+      "metricName": "Cursor Adoption Rate",
+      "value": 100,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-05-20T17:29:31.911Z"
     },
     {
       "team": "Team Webstore",

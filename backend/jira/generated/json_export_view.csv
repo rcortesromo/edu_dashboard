@@ -18,12 +18,16 @@ EDU,2025-Q4,Jira Card Churn %,20.95,percent,Jira,Yes (partial),"Portfolio churn 
 EDU,2025-YTD,Actual Cycle Time (weeks),1.48,weeks,Jira,Yes (partial),Year-to-date portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Actual Cycle Time (weeks),1.48,weeks,Jira,Yes (partial),Year-to-date portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Actual Cycle Time (weeks),1.48,weeks,Jira,Yes (partial),Year-to-date portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
+EDU,2025-YTD,Actual Cycle Time (weeks),1.48,weeks,Jira,Yes (partial),Year-to-date portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
+EDU,2025-YTD,Average Velocity (points per sprint),27.83,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Average Velocity (points per sprint),27.83,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Average Velocity (points per sprint),27.83,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Average Velocity (points per sprint),27.83,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.86,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.86,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.86,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
+EDU,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.86,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
+EDU,2025-YTD,Jira Card Churn %,18.62,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Jira Card Churn %,18.62,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Jira Card Churn %,18.62,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
 EDU,2025-YTD,Jira Card Churn %,18.62,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
@@ -31,14 +35,14 @@ EDU,2026-Q1,Actual Cycle Time (weeks),0.99,weeks,Jira,Yes (partial),Portfolio ro
 EDU,2026-Q1,Average Velocity (points per sprint),23.33,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
 EDU,2026-Q1,Flow-based Cycle Time Proxy (weeks),2.03,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
 EDU,2026-Q1,Jira Card Churn %,7.28,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
-EDU,2026-Q2,Actual Cycle Time (weeks),1.8,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2026-Q2,Average Velocity (points per sprint),27.4,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2026-Q2,Flow-based Cycle Time Proxy (weeks),2.22,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2026-Q2,Jira Card Churn %,9.56,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
-EDU,2026-YTD,Actual Cycle Time (weeks),1.22,weeks,Jira,Yes (partial),Year-to-date portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2026-YTD,Average Velocity (points per sprint),24.53,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2026-YTD,Flow-based Cycle Time Proxy (weeks),2.09,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2026-YTD,Jira Card Churn %,8.03,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
+EDU,2026-Q2,Actual Cycle Time (weeks),1.55,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-20T18:29:58.355Z
+EDU,2026-Q2,Average Velocity (points per sprint),24.67,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-20T18:29:58.355Z
+EDU,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.95,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-20T18:29:58.355Z
+EDU,2026-Q2,Jira Card Churn %,10.42,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-20T18:29:58.355Z
+EDU,2026-YTD,Actual Cycle Time (weeks),1.25,weeks,Jira,Yes (partial),Year-to-date portfolio rollup weighted by completed items across all in-scope teams.,2026-05-20T18:29:58.355Z
+EDU,2026-YTD,Average Velocity (points per sprint),23.9,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-20T18:29:58.355Z
+EDU,2026-YTD,Flow-based Cycle Time Proxy (weeks),2,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-20T18:29:58.355Z
+EDU,2026-YTD,Jira Card Churn %,8.63,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-20T18:29:58.355Z
 Team Connexpoint,2025-Q1,Actual Cycle Time (weeks),1.34,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-Q1,Average Velocity (points per sprint),28.33,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-Q1,Flow-based Cycle Time Proxy (weeks),1.62,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
@@ -58,12 +62,16 @@ Team Connexpoint,2025-Q4,Jira Card Churn %,5.14,percent,Jira,Yes (partial),"Calc
 Team Connexpoint,2025-YTD,Actual Cycle Time (weeks),1.18,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Actual Cycle Time (weeks),1.18,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Actual Cycle Time (weeks),1.18,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
+Team Connexpoint,2025-YTD,Actual Cycle Time (weeks),1.18,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
+Team Connexpoint,2025-YTD,Average Velocity (points per sprint),20.38,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Average Velocity (points per sprint),20.38,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Average Velocity (points per sprint),20.38,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Average Velocity (points per sprint),20.38,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.38,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.38,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.38,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
+Team Connexpoint,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.38,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
+Team Connexpoint,2025-YTD,Jira Card Churn %,6.01,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Jira Card Churn %,6.01,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Jira Card Churn %,6.01,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
 Team Connexpoint,2025-YTD,Jira Card Churn %,6.01,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
@@ -71,14 +79,14 @@ Team Connexpoint,2026-Q1,Actual Cycle Time (weeks),0.59,weeks,Jira,Yes (partial)
 Team Connexpoint,2026-Q1,Average Velocity (points per sprint),29.83,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2026-Q1,Flow-based Cycle Time Proxy (weeks),0.93,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
 Team Connexpoint,2026-Q1,Jira Card Churn %,3.44,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-Q2,Actual Cycle Time (weeks),0.6,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-Q2,Average Velocity (points per sprint),17,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.56,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-Q2,Jira Card Churn %,2.12,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-YTD,Actual Cycle Time (weeks),0.59,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-YTD,Average Velocity (points per sprint),25.56,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-YTD,Flow-based Cycle Time Proxy (weeks),1.1,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-YTD,Jira Card Churn %,2.91,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
+Team Connexpoint,2026-Q2,Actual Cycle Time (weeks),0.61,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-20T18:29:58.355Z
+Team Connexpoint,2026-Q2,Average Velocity (points per sprint),17.2,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-20T18:29:58.355Z
+Team Connexpoint,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.17,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-20T18:29:58.355Z
+Team Connexpoint,2026-Q2,Jira Card Churn %,1.75,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-20T18:29:58.355Z
+Team Connexpoint,2026-YTD,Actual Cycle Time (weeks),0.6,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-05-20T18:29:58.355Z
+Team Connexpoint,2026-YTD,Average Velocity (points per sprint),24.09,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-05-20T18:29:58.355Z
+Team Connexpoint,2026-YTD,Flow-based Cycle Time Proxy (weeks),1.02,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-05-20T18:29:58.355Z
+Team Connexpoint,2026-YTD,Jira Card Churn %,2.6,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-05-20T18:29:58.355Z
 Team Webstore,2025-Q1,Actual Cycle Time (weeks),2.15,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
 Team Webstore,2025-Q1,Average Velocity (points per sprint),42.5,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
 Team Webstore,2025-Q1,Flow-based Cycle Time Proxy (weeks),2.61,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
@@ -98,12 +106,16 @@ Team Webstore,2025-Q4,Jira Card Churn %,38.84,percent,Jira,Yes (partial),"Calcul
 Team Webstore,2025-YTD,Actual Cycle Time (weeks),2.02,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Actual Cycle Time (weeks),2.02,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Actual Cycle Time (weeks),2.02,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
+Team Webstore,2025-YTD,Actual Cycle Time (weeks),2.02,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
+Team Webstore,2025-YTD,Average Velocity (points per sprint),36.21,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Average Velocity (points per sprint),36.21,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Average Velocity (points per sprint),36.21,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Average Velocity (points per sprint),36.21,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Flow-based Cycle Time Proxy (weeks),2.66,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Flow-based Cycle Time Proxy (weeks),2.66,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Flow-based Cycle Time Proxy (weeks),2.66,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
+Team Webstore,2025-YTD,Flow-based Cycle Time Proxy (weeks),2.66,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
+Team Webstore,2025-YTD,Jira Card Churn %,43.76,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Jira Card Churn %,43.76,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Jira Card Churn %,43.76,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
 Team Webstore,2025-YTD,Jira Card Churn %,43.76,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
@@ -111,11 +123,11 @@ Team Webstore,2026-Q1,Actual Cycle Time (weeks),2.58,weeks,Jira,Yes (partial),Av
 Team Webstore,2026-Q1,Average Velocity (points per sprint),16.83,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
 Team Webstore,2026-Q1,Flow-based Cycle Time Proxy (weeks),6.32,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
 Team Webstore,2026-Q1,Jira Card Churn %,12.55,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Webstore,2026-Q2,Actual Cycle Time (weeks),4.76,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Webstore,2026-Q2,Average Velocity (points per sprint),43,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Webstore,2026-Q2,Flow-based Cycle Time Proxy (weeks),3.81,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Webstore,2026-Q2,Jira Card Churn %,40.35,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Webstore,2026-YTD,Actual Cycle Time (weeks),3.37,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
-Team Webstore,2026-YTD,Average Velocity (points per sprint),23.37,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
-Team Webstore,2026-YTD,Flow-based Cycle Time Proxy (weeks),5.38,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
-Team Webstore,2026-YTD,Jira Card Churn %,17.63,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
+Team Webstore,2026-Q2,Actual Cycle Time (weeks),4.31,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-20T18:29:58.355Z
+Team Webstore,2026-Q2,Average Velocity (points per sprint),34,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-20T18:29:58.355Z
+Team Webstore,2026-Q2,Flow-based Cycle Time Proxy (weeks),3.83,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-20T18:29:58.355Z
+Team Webstore,2026-Q2,Jira Card Churn %,37.61,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-20T18:29:58.355Z
+Team Webstore,2026-YTD,Actual Cycle Time (weeks),3.47,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-05-20T18:29:58.355Z
+Team Webstore,2026-YTD,Average Velocity (points per sprint),23.7,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-05-20T18:29:58.355Z
+Team Webstore,2026-YTD,Flow-based Cycle Time Proxy (weeks),5.01,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-05-20T18:29:58.355Z
+Team Webstore,2026-YTD,Jira Card Churn %,20.05,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-05-20T18:29:58.355Z

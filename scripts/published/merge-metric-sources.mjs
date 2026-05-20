@@ -8,6 +8,7 @@ const repoRoot = path.resolve(__dirname, "../..");
 
 const jiraInputPath = path.join(repoRoot, "backend/jira/generated/json_export_view.csv");
 const aiInputPath = path.join(repoRoot, "backend/ai/generated/json_export_view.csv");
+const cursorInputPath = path.join(repoRoot, "backend/cursor/generated/json_export_view.csv");
 const outputPath = path.join(repoRoot, "backend/published/generated/json_export_view.csv");
 
 const headers = [
@@ -145,10 +146,14 @@ function sortRows(rows) {
 }
 
 async function main() {
-  const [jiraRows, aiRows] = await Promise.all([readCsvFile(jiraInputPath), readCsvFile(aiInputPath)]);
+  const [jiraRows, aiRows, cursorRows] = await Promise.all([
+    readCsvFile(jiraInputPath),
+    readCsvFile(aiInputPath),
+    readCsvFile(cursorInputPath),
+  ]);
   const mergedByKey = new Map();
 
-  for (const row of [...jiraRows, ...aiRows]) {
+  for (const row of [...jiraRows, ...aiRows, ...cursorRows]) {
     const key = [
       row.team_name,
       row.quarter_label,
@@ -169,6 +174,7 @@ async function main() {
       {
         jiraRows: jiraRows.length,
         aiRows: aiRows.length,
+        cursorRows: cursorRows.length,
         mergedRows: mergedRows.length,
         outputPath,
       },
