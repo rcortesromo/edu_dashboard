@@ -168,6 +168,9 @@ function MetricChart({
 
   const unitLabel = getUnitLabel(metricName);
   const useBar = isBarMetric(metricName, viewMode);
+  const isSprintView = viewMode === "sprint";
+  const xTickFormatter = isSprintView ? (value: string) => String(value).split(" (")[0] : undefined;
+  const xInterval = isSprintView ? 0 : undefined;
 
   return (
     <article className="trend-chart-card">
@@ -189,6 +192,8 @@ function MetricChart({
                 dataKey="quarter"
                 tick={{ fontSize: 12, fill: "#6b5a8d" }}
                 axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+                tickFormatter={xTickFormatter}
+                interval={xInterval}
               />
               <YAxis
                 tick={{ fontSize: 12, fill: "#6b5a8d" }}
@@ -224,6 +229,8 @@ function MetricChart({
                 dataKey="quarter"
                 tick={{ fontSize: 12, fill: "#6b5a8d" }}
                 axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+                tickFormatter={xTickFormatter}
+                interval={xInterval}
               />
               <YAxis
                 tick={{ fontSize: 12, fill: "#6b5a8d" }}
