@@ -1,0 +1,14 @@
+team_name,sprint_id,sprint_name,quarter_label,velocity_points,velocity_source,last_refresh_utc
+Team Connexpoint,6626,CXP25Q3 - Sprint 0,2025-Q3,15,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,6627,CXP25Q3 - Sprint 1,2025-Q3,41,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,6628,CXP25Q3 - Sprint 2,2025-Q3,23,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,6629,CXP25Q3 - Sprint 3,2025-Q3,9,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,6630,CXP25Q3 - Sprint 4,2025-Q3,26,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,6631,CXP25Q3 - Sprint 5,2025-Q3,9,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,6632,CXP25Q3 - Sprint 6,2025-Q3,15,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Webstore,6870,WS25Q3S1-Nimble NIN,2025-Q3,53,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,7088,WS25Q3S2-Outstanding Otis,2025-Q3,20,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,7121,WS25Q3S3 - Peaceful Pink Floyd,2025-Q3,51,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,7484,WS25Q3S4-Quintessential Queen,2025-Q3,51,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,7616,WS25Q3S5-Recalcitrant RATM,2025-Q3,38,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,7688,WS25Q3S6-Smoky Snoop Dogg,2025-Q3,8,calculated_completed_points,2026-05-28T17:32:08.329Z

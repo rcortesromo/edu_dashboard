@@ -30,12 +30,22 @@ function runNodeScript(scriptPath, args = []) {
   });
 }
 
+function hasArg(argv, name) {
+  return argv.some((entry) => entry === name || entry.startsWith(`${name}=`));
+}
+
 async function main() {
   const pullArgs = process.argv.slice(2);
+  const isTeamScoped = hasArg(pullArgs, "--team");
 
   await runNodeScript(path.join(__dirname, "jira/pull-quarterly-metrics.mjs"), pullArgs);
-  await runNodeScript(path.join(__dirname, "ai/pull-adoption-metrics.mjs"), pullArgs);
-  await runNodeScript(path.join(__dirname, "cursor/pull-cursor-metrics.mjs"), pullArgs);
+  await runNodeScript(path.join(__dirname, "jira/compute-sprint-level-metrics.mjs"));
+
+  if (!isTeamScoped) {
+    await runNodeScript(path.join(__dirname, "ai/pull-adoption-metrics.mjs"), pullArgs);
+    await runNodeScript(path.join(__dirname, "cursor/pull-cursor-metrics.mjs"), pullArgs);
+  }
+
   await runNodeScript(path.join(__dirname, "published/merge-metric-sources.mjs"));
   await runNodeScript(path.join(__dirname, "published/export-metrics-json.mjs"), [
     generatedCsvPath,

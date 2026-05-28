@@ -45,6 +45,8 @@ const QUARTER_BOUNDARIES = {
   Q4: { start: "10-01", end: "12-31" },
 };
 
+const sprintCalendarPath = path.join(repoRoot, "backend/jira/generated/sprint_calendar_combined.csv");
+
 const API_BASE = "https://api.github.com";
 
 function parseEnv(text) {
@@ -276,6 +278,52 @@ async function fetchPrCommitMessages(repoFullName, prNumber, token) {
   }
 }
 
+async function loadSprintCalendar() {
+  try {
+    const rows = parseCsv(await fs.readFile(sprintCalendarPath, "utf8"));
+    const byQuarter = new Map();
+    for (const row of rows) {
+      const q = row.quarter_label;
+      if (!q) continue;
+      if (!byQuarter.has(q)) byQuarter.set(q, []);
+      byQuarter.get(q).push({
+        key: row.sprint_key,
+        sequence: Number(row.sprint_sequence),
+        start: new Date(row.sprint_start_date),
+        end: new Date(row.sprint_end_date),
+      });
+    }
+    for (const sprints of byQuarter.values()) {
+      sprints.sort((a, b) => a.sequence - b.sequence);
+    }
+    return byQuarter;
+  } catch {
+    return new Map();
+  }
+}
+
+function bucketPrsBySprint(prEvents, sprints) {
+  const buckets = new Map();
+  for (const sprint of sprints) {
+    buckets.set(sprint.key, { totalPrs: 0, aiPrs: 0, activeDevs: new Set(), aiDevs: new Set() });
+  }
+  for (const ev of prEvents) {
+    for (const sprint of sprints) {
+      if (ev.mergedAt >= sprint.start && ev.mergedAt < sprint.end) {
+        const bucket = buckets.get(sprint.key);
+        bucket.totalPrs++;
+        bucket.activeDevs.add(ev.authorLogin);
+        if (ev.isAi) {
+          bucket.aiPrs++;
+          bucket.aiDevs.add(ev.authorLogin);
+        }
+        break;
+      }
+    }
+  }
+  return buckets;
+}
+
 async function main() {
   const now = new Date().toISOString();
   const args = process.argv.slice(2);
@@ -322,10 +370,20 @@ async function main() {
     teamUsers.get(team).push(user);
   }
 
+  const sprintCalendar = await loadSprintCalendar();
+
   const existingRows = await readExistingCsv(outputCsvPath);
   const quarters = buildQuarterWindows(isFull, existingRows);
   const fetchedLabels = new Set(quarters.map((q) => q.label));
-  const retainedRows = existingRows.filter((r) => !fetchedLabels.has(r.quarter_label));
+  const sprintPattern = /^\d{4}-Q[1-4]-S\d+$/;
+  const retainedRows = existingRows.filter((r) => {
+    if (fetchedLabels.has(r.quarter_label)) return false;
+    if (sprintPattern.test(r.quarter_label)) {
+      const parentQ = r.quarter_label.replace(/-S\d+$/, "");
+      if (fetchedLabels.has(parentQ)) return false;
+    }
+    return true;
+  });
   const csvRows = [];
 
   if (isFull) {
@@ -338,8 +396,10 @@ async function main() {
     console.log(`\nQuarter: ${quarter.label}`);
 
     const teamPrData = new Map();
+    const teamPrEvents = new Map();
     for (const team of teamUsers.keys()) {
       teamPrData.set(team, { totalPrs: 0, aiPrs: 0, activeDevs: new Set(), aiDevs: new Set() });
+      teamPrEvents.set(team, []);
     }
 
     for (const repoFullName of repos) {
@@ -374,10 +434,18 @@ async function main() {
         const commitMessages = await fetchPrCommitMessages(repoFullName, pr.number, env.GITHUB_TOKEN);
         textsToScan.push(...commitMessages);
 
-        if (hasAiSignals(textsToScan)) {
+        const isAi = hasAiSignals(textsToScan);
+
+        if (isAi) {
           data.aiPrs++;
           data.aiDevs.add(authorLogin);
         }
+
+        teamPrEvents.get(team).push({
+          mergedAt: new Date(pr.merged_at),
+          authorLogin,
+          isAi,
+        });
       }
     }
 
@@ -424,6 +492,41 @@ async function main() {
         activeDevs: data.activeDevs.size,
         aiActiveDevs: aiActiveDevelopers,
       });
+    }
+
+    const sprints = sprintCalendar.get(quarter.label) ?? [];
+    if (sprints.length > 0) {
+      for (const [team, events] of teamPrEvents) {
+        const buckets = bucketPrsBySprint(events, sprints);
+        for (const sprint of sprints) {
+          const bucket = buckets.get(sprint.key);
+          const coverage = bucket.totalPrs > 0 ? (bucket.aiPrs / bucket.totalPrs) * 100 : 0;
+
+          csvRows.push({
+            team_name: team,
+            quarter_label: sprint.key,
+            metric_name: "AI-assisted Pull Request Coverage",
+            metric_value: coverage.toFixed(4),
+            metric_unit: "percent",
+            source_system: "GitHub",
+            coverage_status: "automated",
+            note: `${bucket.aiPrs} of ${bucket.totalPrs} merged PRs had AI signals`,
+            last_refresh_utc: now,
+          });
+
+          csvRows.push({
+            team_name: team,
+            quarter_label: sprint.key,
+            metric_name: "AI Active Developers",
+            metric_value: String(bucket.aiDevs.size),
+            metric_unit: "count",
+            source_system: "GitHub",
+            coverage_status: "automated",
+            note: `${bucket.aiDevs.size} of ${bucket.activeDevs.size} active devs in sprint`,
+            last_refresh_utc: now,
+          });
+        }
+      }
     }
   }
 

@@ -65,6 +65,14 @@ Rollup rules vary by metric:
 npm run pull:jira-quarterly-metrics
 ```
 
+Scope to a single team for faster iteration:
+
+```bash
+npm run pull:jira-quarterly-metrics -- --team "Team Connexpoint"
+```
+
+When `--team` is used, per-quarter CSV files (sprint calendar, metric inputs, cycle time, velocity, etc.) are merged so that data from other teams is preserved. Cross-quarter files (metric outputs, json export view, refresh control) already merge by design.
+
 Output lands in `backend/jira/generated/json_export_view.csv`.
 
 ## Adding a New Team

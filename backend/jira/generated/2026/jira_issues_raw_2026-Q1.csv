@@ -743,7 +743,7 @@ OV-80179,322912,NEW SERVICE FEES - [Payment Plan] transactions to reflect Servic
 OV-80345,324545,Regwerks - previews do not work in New UI,Bug,OV,Team Webstore,WS26Q1S6 - Final Fantasy,8943,2026-03-18T16:00:00.000Z,2026-04-01T16:00:00.000Z,2026-Q1,In Secure Code Review,Ready To Test,5,5,no,yes,no,no
 OV-80528,327238,Regression Webstore 2026.04,Task,OV,Team Webstore,WS26Q1S6 - Final Fantasy,8943,2026-03-18T16:00:00.000Z,2026-04-01T16:00:00.000Z,2026-Q1,Ready for Sprint,Ready To Test,5,5,no,yes,no,no
 OV-80568,327513,Cross Team Impacts: CXP,Task,OV,Team Webstore,WS26Q1S6 - Final Fantasy,8943,2026-03-18T16:00:00.000Z,2026-04-01T16:00:00.000Z,2026-Q1,New,Closed,2,2,no,yes,yes,no
-OV-80573,327591,Regwerks - Fix Cart redirect issue with regwerks,Bug,OV,Team Webstore,WS26Q1S6 - Final Fantasy,8943,2026-03-18T16:00:00.000Z,2026-04-01T16:00:00.000Z,2026-Q1,New,New,3,3,no,no,yes,no
+OV-80573,327591,Regwerks - Fix Cart redirect issue with regwerks,Story,OV,Team Webstore,WS26Q1S6 - Final Fantasy,8943,2026-03-18T16:00:00.000Z,2026-04-01T16:00:00.000Z,2026-Q1,New,New,3,3,no,no,yes,no
 OV-80576,327599,Regwerks - iframe sizing not displaying correctly,Bug,OV,Team Webstore,WS26Q1S6 - Final Fantasy,8943,2026-03-18T16:00:00.000Z,2026-04-01T16:00:00.000Z,2026-Q1,New,Ready for Sprint,3,3,no,no,yes,no
 OV-80577,327600,Regwerks - Parent portal getaccount url and link embed,Bug,OV,Team Webstore,WS26Q1S6 - Final Fantasy,8943,2026-03-18T16:00:00.000Z,2026-04-01T16:00:00.000Z,2026-Q1,New,In Development,3,3,no,yes,yes,no
 OV-80722,328880,Feature Flags service use incorrect cache key,Bug,OV,Team Webstore,WS26Q1S6 - Final Fantasy,8943,2026-03-18T16:00:00.000Z,2026-04-01T16:00:00.000Z,2026-Q1,New,Closed,2,2,yes,yes,yes,no

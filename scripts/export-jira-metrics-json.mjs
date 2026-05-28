@@ -1,5 +1,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 function parseCsv(text) {
   const rows = [];
@@ -90,6 +93,50 @@ function metricValue(metricName, rawValue) {
   return parsed;
 }
 
+const sprintPeriodPattern = /^\d{4}-Q[1-4]-S\d+$/;
+
+async function readSprintCalendar() {
+  const repoRoot = path.resolve(__dirname, "..");
+  const calendarPath = path.join(repoRoot, "backend/jira/generated/sprint_calendar_combined.csv");
+
+  try {
+    const text = await fs.readFile(calendarPath, "utf8");
+    return parseCsv(text);
+  } catch {
+    return [];
+  }
+}
+
+function buildSprintCalendarMap(calendarRows) {
+  const map = {};
+
+  for (const row of calendarRows) {
+    const team = row.team_name;
+    const quarter = row.quarter_label;
+
+    if (!team || !quarter) continue;
+
+    if (!map[team]) map[team] = {};
+    if (!map[team][quarter]) map[team][quarter] = [];
+
+    map[team][quarter].push({
+      key: row.sprint_key,
+      sequence: Number(row.sprint_sequence),
+      name: row.sprint_name,
+      start: row.sprint_start_date,
+      end: row.sprint_end_date,
+    });
+  }
+
+  for (const team of Object.values(map)) {
+    for (const sprints of Object.values(team)) {
+      sprints.sort((a, b) => a.sequence - b.sequence);
+    }
+  }
+
+  return map;
+}
+
 async function main() {
   const inputPath = process.argv[2];
   const outputPath = process.argv[3];
@@ -122,10 +169,18 @@ async function main() {
 
   const reportDate = latestRefresh ? latestRefresh.slice(0, 10) : new Date().toISOString().slice(0, 10);
 
+  const quarterOnlyLabels = uniqueSorted(
+    rows.map((row) => row.quarter_label).filter((label) => !sprintPeriodPattern.test(label)),
+  );
+
+  const calendarRows = await readSprintCalendar();
+  const sprintCalendar = buildSprintCalendarMap(calendarRows);
+
   const payload = {
     reportDate,
     teams: uniqueSorted(rows.map((row) => row.team_name)),
-    quarters: uniqueSorted(rows.map((row) => row.quarter_label)),
+    quarters: quarterOnlyLabels,
+    sprintCalendar,
     metrics,
   };
 

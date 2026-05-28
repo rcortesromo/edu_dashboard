@@ -1,187 +1,922 @@
 team_name,quarter_label,metric_name,metric_value,metric_unit,source_system,coverage_status,note,last_refresh_utc
-ASAP,2025-Q1,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-20T18:31:13.935Z
-ASAP,2025-Q1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-ASAP,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-ASAP,2025-Q2,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-20T18:31:13.935Z
-ASAP,2025-Q2,AI-assisted Pull Request Coverage,11.1111,percent,GitHub,automated,1 of 9 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-ASAP,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-ASAP,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-20T18:31:13.935Z
-ASAP,2025-Q3,AI-assisted Pull Request Coverage,7.4074,percent,GitHub,automated,2 of 27 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-ASAP,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-ASAP,2025-Q4,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-20T18:31:13.935Z
-ASAP,2025-Q4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-ASAP,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-ASAP,2026-Q1,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-20T18:31:13.935Z
-ASAP,2026-Q1,AI-assisted Pull Request Coverage,15.7895,percent,GitHub,automated,3 of 19 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-ASAP,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-ASAP,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-28T14:33:43.755Z
-ASAP,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T14:33:43.755Z
-ASAP,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T14:36:46.072Z
-EDU,2025-Q1,Actual Cycle Time (weeks),1.63,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q1,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q1,AI-assisted Pull Request Coverage,1.2270,percent,GitHub,automated,4 of 326 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q1,Average Velocity (points per sprint),35.42,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2025-Q1,Flow-based Cycle Time Proxy (weeks),2.01,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q1,Jira Card Churn %,19.5,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
-EDU,2025-Q2,Actual Cycle Time (weeks),1.29,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q2,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q2,AI-assisted Pull Request Coverage,1.8717,percent,GitHub,automated,7 of 374 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q2,Average Velocity (points per sprint),22.74,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q2,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2025-Q2,Flow-based Cycle Time Proxy (weeks),1.85,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q2,Jira Card Churn %,12.68,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
-EDU,2025-Q3,Actual Cycle Time (weeks),1.61,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q3,AI Active Developers,6,count,GitHub,automated,6 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q3,AI-assisted Pull Request Coverage,2.9940,percent,GitHub,automated,15 of 501 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q3,Average Velocity (points per sprint),28.04,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q3,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2025-Q3,Flow-based Cycle Time Proxy (weeks),1.85,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q3,Jira Card Churn %,20.7,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
-EDU,2025-Q4,Actual Cycle Time (weeks),1.39,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q4,AI Active Developers,5,count,GitHub,automated,5 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q4,AI-assisted Pull Request Coverage,1.5686,percent,GitHub,automated,8 of 510 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q4,Average Velocity (points per sprint),25.5,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q4,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2025-Q4,Flow-based Cycle Time Proxy (weeks),1.76,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-Q4,Jira Card Churn %,20.95,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
-EDU,2025-YTD,Actual Cycle Time (weeks),1.48,weeks,Jira,Yes (partial),Year-to-date portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-YTD,Average Velocity (points per sprint),27.83,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.86,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2025-YTD,Jira Card Churn %,18.62,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
-EDU,2026-Q1,Actual Cycle Time (weeks),0.99,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2026-Q1,AI Active Developers,11,count,GitHub,automated,11 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2026-Q1,AI-assisted Pull Request Coverage,5.6881,percent,GitHub,automated,31 of 545 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2026-Q1,Average Velocity (points per sprint),23.33,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2026-Q1,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2026-Q1,Flow-based Cycle Time Proxy (weeks),2.03,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-04-28T00:04:11.491Z
-EDU,2026-Q1,Jira Card Churn %,7.28,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-04-28T00:04:11.491Z
-EDU,2026-Q2,Actual Cycle Time (weeks),1.46,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T14:32:27.206Z
-EDU,2026-Q2,AI Active Developers,8,count,GitHub,automated,8 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2026-Q2,AI-assisted Pull Request Coverage,8.3612,percent,GitHub,automated,25 of 299 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2026-Q2,Average Velocity (points per sprint),25.56,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T14:32:27.206Z
-EDU,2026-Q2,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.9,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T14:32:27.206Z
-EDU,2026-Q2,Jira Card Churn %,10.64,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T14:32:27.206Z
-EDU,2026-YTD,Actual Cycle Time (weeks),1.21,weeks,Jira,Yes (partial),Year-to-date portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T14:32:27.206Z
-EDU,2026-YTD,Average Velocity (points per sprint),24.29,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T14:32:27.206Z
-EDU,2026-YTD,Flow-based Cycle Time Proxy (weeks),1.97,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T14:32:27.206Z
-EDU,2026-YTD,Jira Card Churn %,8.72,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T14:32:27.206Z
-Smartcare,2025-Q1,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 130 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Smartcare,2025-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 137 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Smartcare,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q3,AI-assisted Pull Request Coverage,0.4878,percent,GitHub,automated,1 of 205 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Smartcare,2025-Q4,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q4,AI-assisted Pull Request Coverage,0.3817,percent,GitHub,automated,1 of 262 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Smartcare,2026-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-20T18:31:13.935Z
-Smartcare,2026-Q1,AI-assisted Pull Request Coverage,1.3453,percent,GitHub,automated,3 of 223 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Smartcare,2026-Q1,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Smartcare,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-28T14:33:43.755Z
-Smartcare,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 81 merged PRs had AI signals,2026-05-28T14:33:43.755Z
-Smartcare,2026-Q2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T14:36:46.072Z
-Team Connexpoint,2025-Q1,Actual Cycle Time (weeks),1.34,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q1,AI-assisted Pull Request Coverage,2.4390,percent,GitHub,automated,2 of 82 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q1,Average Velocity (points per sprint),28.33,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Connexpoint,2025-Q1,Flow-based Cycle Time Proxy (weeks),1.62,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q1,Jira Card Churn %,9.22,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q2,Actual Cycle Time (weeks),0.96,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q2,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q2,AI-assisted Pull Request Coverage,2.9851,percent,GitHub,automated,4 of 134 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q2,Average Velocity (points per sprint),12.83,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q2,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Connexpoint,2025-Q2,Flow-based Cycle Time Proxy (weeks),1.33,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q2,Jira Card Churn %,5.73,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q3,Actual Cycle Time (weeks),1.24,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q3,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q3,AI-assisted Pull Request Coverage,6.4327,percent,GitHub,automated,11 of 171 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q3,Average Velocity (points per sprint),20.5,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q3,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Connexpoint,2025-Q3,Flow-based Cycle Time Proxy (weeks),1.23,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q3,Jira Card Churn %,4.24,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q4,Actual Cycle Time (weeks),1.35,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q4,AI Active Developers,4,count,GitHub,automated,4 of 9 team members,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q4,AI-assisted Pull Request Coverage,7.8652,percent,GitHub,automated,7 of 89 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q4,Average Velocity (points per sprint),21,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q4,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Connexpoint,2025-Q4,Flow-based Cycle Time Proxy (weeks),1.4,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-Q4,Jira Card Churn %,5.14,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-YTD,Actual Cycle Time (weeks),1.18,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-YTD,Average Velocity (points per sprint),20.38,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.38,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2025-YTD,Jira Card Churn %,6.01,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-Q1,Actual Cycle Time (weeks),0.59,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-Q1,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-20T18:31:13.935Z
-Team Connexpoint,2026-Q1,AI-assisted Pull Request Coverage,7.0175,percent,GitHub,automated,12 of 171 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Connexpoint,2026-Q1,Average Velocity (points per sprint),29.83,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Connexpoint,2026-Q1,Flow-based Cycle Time Proxy (weeks),0.93,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-Q1,Jira Card Churn %,3.44,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Connexpoint,2026-Q2,Actual Cycle Time (weeks),0.58,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T14:32:27.206Z
-Team Connexpoint,2026-Q2,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-05-28T14:33:43.755Z
-Team Connexpoint,2026-Q2,AI-assisted Pull Request Coverage,14.0741,percent,GitHub,automated,19 of 135 merged PRs had AI signals,2026-05-28T14:33:43.755Z
-Team Connexpoint,2026-Q2,Average Velocity (points per sprint),18.8,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T14:32:27.206Z
-Team Connexpoint,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T14:36:46.072Z
-Team Connexpoint,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.14,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T14:32:27.206Z
-Team Connexpoint,2026-Q2,Jira Card Churn %,2.05,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T14:32:27.206Z
-Team Connexpoint,2026-YTD,Actual Cycle Time (weeks),0.59,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-05-28T14:32:27.206Z
-Team Connexpoint,2026-YTD,Average Velocity (points per sprint),24.82,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-05-28T14:32:27.206Z
-Team Connexpoint,2026-YTD,Flow-based Cycle Time Proxy (weeks),1.02,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-05-28T14:32:27.206Z
-Team Connexpoint,2026-YTD,Jira Card Churn %,2.75,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-05-28T14:32:27.206Z
-Team Webstore,2025-Q1,Actual Cycle Time (weeks),2.15,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q1,AI-assisted Pull Request Coverage,1.7544,percent,GitHub,automated,2 of 114 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q1,Average Velocity (points per sprint),42.5,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Webstore,2025-Q1,Flow-based Cycle Time Proxy (weeks),2.61,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q1,Jira Card Churn %,50.42,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q2,Actual Cycle Time (weeks),2.58,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q2,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q2,AI-assisted Pull Request Coverage,2.1277,percent,GitHub,automated,2 of 94 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q2,Average Velocity (points per sprint),36.6,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Webstore,2025-Q2,Flow-based Cycle Time Proxy (weeks),3.58,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q2,Jira Card Churn %,34.59,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q3,Actual Cycle Time (weeks),2.24,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q3,AI-assisted Pull Request Coverage,1.0204,percent,GitHub,automated,1 of 98 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q3,Average Velocity (points per sprint),36.83,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Webstore,2025-Q3,Flow-based Cycle Time Proxy (weeks),2.99,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q3,Jira Card Churn %,54.04,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q4,Actual Cycle Time (weeks),1.42,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q4,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 137 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q4,Average Velocity (points per sprint),30,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Webstore,2025-Q4,Flow-based Cycle Time Proxy (weeks),2.07,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-Q4,Jira Card Churn %,38.84,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Webstore,2025-YTD,Actual Cycle Time (weeks),2.02,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-YTD,Average Velocity (points per sprint),36.21,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-YTD,Flow-based Cycle Time Proxy (weeks),2.66,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-04-28T00:04:11.491Z
-Team Webstore,2025-YTD,Jira Card Churn %,43.76,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-04-28T00:04:11.491Z
-Team Webstore,2026-Q1,Actual Cycle Time (weeks),2.58,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-04-28T00:04:11.491Z
-Team Webstore,2026-Q1,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-05-20T18:31:13.935Z
-Team Webstore,2026-Q1,AI-assisted Pull Request Coverage,9.8485,percent,GitHub,automated,13 of 132 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Webstore,2026-Q1,Average Velocity (points per sprint),16.83,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-04-28T00:04:11.491Z
-Team Webstore,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Webstore,2026-Q1,Flow-based Cycle Time Proxy (weeks),6.32,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-04-28T00:04:11.491Z
-Team Webstore,2026-Q1,Jira Card Churn %,12.55,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-04-28T00:04:11.491Z
-Team Webstore,2026-Q2,Actual Cycle Time (weeks),4.31,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T14:32:27.206Z
-Team Webstore,2026-Q2,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-28T14:33:43.755Z
-Team Webstore,2026-Q2,AI-assisted Pull Request Coverage,8.4507,percent,GitHub,automated,6 of 71 merged PRs had AI signals,2026-05-28T14:33:43.755Z
-Team Webstore,2026-Q2,Average Velocity (points per sprint),34,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T14:32:27.206Z
-Team Webstore,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T14:36:46.072Z
-Team Webstore,2026-Q2,Flow-based Cycle Time Proxy (weeks),3.95,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T14:32:27.206Z
-Team Webstore,2026-Q2,Jira Card Churn %,37.61,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T14:32:27.206Z
-Team Webstore,2026-YTD,Actual Cycle Time (weeks),3.47,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-05-28T14:32:27.206Z
-Team Webstore,2026-YTD,Average Velocity (points per sprint),23.7,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-05-28T14:32:27.206Z
-Team Webstore,2026-YTD,Flow-based Cycle Time Proxy (weeks),5.07,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-05-28T14:32:27.206Z
-Team Webstore,2026-YTD,Jira Card Churn %,20.05,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-05-28T14:32:27.206Z
+ASAP,2025-Q1,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S3,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2,AI-assisted Pull Request Coverage,11.1111,percent,GitHub,automated,1 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S4,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S4,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3,AI-assisted Pull Request Coverage,7.4074,percent,GitHub,automated,2 of 27 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S1,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,1 of 7 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S3,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 3 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S4,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S4,AI-assisted Pull Request Coverage,20.0000,percent,GitHub,automated,1 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S1,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 7 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S4,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S6,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1,AI-assisted Pull Request Coverage,15.7895,percent,GitHub,automated,3 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S1,AI Active Developers,1,count,GitHub,automated,1 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S1,AI-assisted Pull Request Coverage,100.0000,percent,GitHub,automated,1 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S2,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S2,AI-assisted Pull Request Coverage,20.0000,percent,GitHub,automated,1 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S3,AI Active Developers,1,count,GitHub,automated,1 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S3,AI-assisted Pull Request Coverage,20.0000,percent,GitHub,automated,1 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S5,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S6,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S0,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+EDU,2025-Q1,Actual Cycle Time (weeks),1.63,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q1,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q1,AI-assisted Pull Request Coverage,1.2270,percent,GitHub,automated,4 of 326 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q1,Average Velocity (points per sprint),35.42,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2025-Q1,Flow-based Cycle Time Proxy (weeks),2.01,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q1,Jira Card Churn %,19.5,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2025-Q2,Actual Cycle Time (weeks),1.29,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q2,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q2,AI-assisted Pull Request Coverage,1.8868,percent,GitHub,automated,7 of 371 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q2,Average Velocity (points per sprint),22.74,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q2,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2025-Q2,Flow-based Cycle Time Proxy (weeks),1.85,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q2,Jira Card Churn %,12.68,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2025-Q3,Actual Cycle Time (weeks),1.61,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q3,AI Active Developers,6,count,GitHub,automated,6 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q3,AI-assisted Pull Request Coverage,2.9940,percent,GitHub,automated,15 of 501 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q3,Average Velocity (points per sprint),28.04,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q3,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2025-Q3,Flow-based Cycle Time Proxy (weeks),1.85,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q3,Jira Card Churn %,20.7,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2025-Q4,Actual Cycle Time (weeks),1.39,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q4,AI Active Developers,5,count,GitHub,automated,5 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q4,AI-assisted Pull Request Coverage,1.5686,percent,GitHub,automated,8 of 510 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q4,Average Velocity (points per sprint),25.5,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q4,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2025-Q4,Flow-based Cycle Time Proxy (weeks),1.76,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-Q4,Jira Card Churn %,20.95,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2025-YTD,Actual Cycle Time (weeks),1.48,weeks,Jira,Yes (partial),Year-to-date portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-YTD,Average Velocity (points per sprint),27.83,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.86,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2025-YTD,Jira Card Churn %,18.62,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2026-Q1,Actual Cycle Time (weeks),0.99,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2026-Q1,AI Active Developers,11,count,GitHub,automated,11 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2026-Q1,AI-assisted Pull Request Coverage,5.6881,percent,GitHub,automated,31 of 545 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2026-Q1,Average Velocity (points per sprint),23.33,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2026-Q1,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2026-Q1,Flow-based Cycle Time Proxy (weeks),2.03,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2026-Q1,Jira Card Churn %,7.28,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2026-Q2,Actual Cycle Time (weeks),1.44,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2026-Q2,AI Active Developers,8,count,GitHub,automated,8 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2026-Q2,AI-assisted Pull Request Coverage,8.2508,percent,GitHub,automated,25 of 303 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2026-Q2,Average Velocity (points per sprint),26.11,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2026-Q2,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.88,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2026-Q2,Jira Card Churn %,10.86,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2026-YTD,Actual Cycle Time (weeks),1.21,weeks,Jira,Yes (partial),Year-to-date portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2026-YTD,Average Velocity (points per sprint),24.52,points,Jira,Yes (partial),Year-to-date portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2026-YTD,Flow-based Cycle Time Proxy (weeks),1.96,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
+EDU,2026-YTD,Jira Card Churn %,8.82,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+Smartcare,2025-Q1,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 130 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 25 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S3,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 31 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 134 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 28 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 53 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3,AI-assisted Pull Request Coverage,0.4878,percent,GitHub,automated,1 of 205 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S0,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S1,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 33 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S2,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 28 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S3,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 47 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S5,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 42 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4,AI-assisted Pull Request Coverage,0.3817,percent,GitHub,automated,1 of 262 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 37 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 47 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S4,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 28 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S5,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S5,AI-assisted Pull Request Coverage,1.5385,percent,GitHub,automated,1 of 65 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S6,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 62 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1,AI-assisted Pull Request Coverage,1.3453,percent,GitHub,automated,3 of 223 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S1,Cursor Adoption Rate,44.4444,percent,Cursor,automated,4 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S3,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S3,AI-assisted Pull Request Coverage,2.0833,percent,GitHub,automated,1 of 48 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S4,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S4,AI-assisted Pull Request Coverage,3.1250,percent,GitHub,automated,1 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S4,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 50 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S6,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S6,AI-assisted Pull Request Coverage,3.0303,percent,GitHub,automated,1 of 33 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S6,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 83 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 3 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S0,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S1,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S4,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1,Actual Cycle Time (weeks),1.34,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1,AI-assisted Pull Request Coverage,2.4390,percent,GitHub,automated,2 of 82 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1,Average Velocity (points per sprint),28.33,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1,Flow-based Cycle Time Proxy (weeks),1.62,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1,Jira Card Churn %,9.22,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S1,Actual Cycle Time (weeks),2.19,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q1 (24 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S1,AI Active Developers,2,count,GitHub,automated,2 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,2 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S1,Average Velocity (points per sprint),13,points,Jira,Yes (partial),Sprint 1 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S1,Flow-based Cycle Time Proxy (weeks),1.88,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S1,Jira Card Churn %,16,percent,Jira,Yes (partial),Sprint 1 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S2,Actual Cycle Time (weeks),1.02,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q1 (16 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S2,Average Velocity (points per sprint),22,points,Jira,Yes (partial),Sprint 2 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S2,Flow-based Cycle Time Proxy (weeks),1.74,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S2,Jira Card Churn %,10.17,percent,Jira,Yes (partial),Sprint 2 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S3,Actual Cycle Time (weeks),1.17,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q1 (19 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 13 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S3,Average Velocity (points per sprint),44,points,Jira,Yes (partial),Sprint 3 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S3,Flow-based Cycle Time Proxy (weeks),1.33,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S3,Jira Card Churn %,6.35,percent,Jira,Yes (partial),Sprint 3 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S4,Actual Cycle Time (weeks),0.97,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q1 (17 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 10 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S4,Average Velocity (points per sprint),47,points,Jira,Yes (partial),Sprint 4 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S4,Flow-based Cycle Time Proxy (weeks),1.41,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S4,Jira Card Churn %,15.94,percent,Jira,Yes (partial),Sprint 4 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S5,Actual Cycle Time (weeks),1.07,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q1 (22 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 13 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S5,Average Velocity (points per sprint),29,points,Jira,Yes (partial),Sprint 5 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S5,Flow-based Cycle Time Proxy (weeks),1.47,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S5,Jira Card Churn %,3.39,percent,Jira,Yes (partial),Sprint 5 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S6,Actual Cycle Time (weeks),1.2,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q1 (13 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S6,Average Velocity (points per sprint),15,points,Jira,Yes (partial),Sprint 6 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S6,Flow-based Cycle Time Proxy (weeks),2.01,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q1-S6,Jira Card Churn %,3.45,percent,Jira,Yes (partial),Sprint 6 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2,Actual Cycle Time (weeks),0.96,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2,AI-assisted Pull Request Coverage,2.9851,percent,GitHub,automated,4 of 134 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2,Average Velocity (points per sprint),12.83,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2,Flow-based Cycle Time Proxy (weeks),1.33,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2,Jira Card Churn %,5.73,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S0,Actual Cycle Time (weeks),0.19,weeks,Jira,Yes (partial),Sprint 0 of 2025-Q2 (3 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S0,Average Velocity (points per sprint),18,points,Jira,Yes (partial),Sprint 0 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S0,Flow-based Cycle Time Proxy (weeks),2.18,weeks,Jira,Yes (partial),Sprint 0 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S0,Jira Card Churn %,2.22,percent,Jira,Yes (partial),Sprint 0 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S1,Actual Cycle Time (weeks),0.55,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q2 (23 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S1,Average Velocity (points per sprint),11,points,Jira,Yes (partial),Sprint 1 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S1,Flow-based Cycle Time Proxy (weeks),1.03,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S1,Jira Card Churn %,4.35,percent,Jira,Yes (partial),Sprint 1 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S2,Actual Cycle Time (weeks),1.33,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q2 (18 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S2,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S2,AI-assisted Pull Request Coverage,11.1111,percent,GitHub,automated,1 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S2,Average Velocity (points per sprint),16,points,Jira,Yes (partial),Sprint 2 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S2,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S2,Flow-based Cycle Time Proxy (weeks),2.22,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S2,Jira Card Churn %,5.36,percent,Jira,Yes (partial),Sprint 2 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S3,Actual Cycle Time (weeks),1.05,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q2 (43 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S3,Average Velocity (points per sprint),26,points,Jira,Yes (partial),Sprint 3 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S3,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S3,Flow-based Cycle Time Proxy (weeks),0.71,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S3,Jira Card Churn %,6.67,percent,Jira,Yes (partial),Sprint 3 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S4,Actual Cycle Time (weeks),0.93,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q2 (17 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S4,AI Active Developers,1,count,GitHub,automated,1 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S4,AI-assisted Pull Request Coverage,3.9474,percent,GitHub,automated,3 of 76 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S4,Average Velocity (points per sprint),0,points,Jira,Yes (partial),Sprint 4 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S4,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S4,Flow-based Cycle Time Proxy (weeks),1.61,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S4,Jira Card Churn %,5.26,percent,Jira,Yes (partial),Sprint 4 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S5,Actual Cycle Time (weeks),1.29,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q2 (27 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S5,Average Velocity (points per sprint),16,points,Jira,Yes (partial),Sprint 5 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S5,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S5,Flow-based Cycle Time Proxy (weeks),1.45,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S5,Jira Card Churn %,3.16,percent,Jira,Yes (partial),Sprint 5 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S6,Actual Cycle Time (weeks),0.69,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q2 (22 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S6,Average Velocity (points per sprint),8,points,Jira,Yes (partial),Sprint 6 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S6,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S6,Flow-based Cycle Time Proxy (weeks),1.44,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q2-S6,Jira Card Churn %,13.33,percent,Jira,Yes (partial),Sprint 6 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3,Actual Cycle Time (weeks),1.24,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3,AI-assisted Pull Request Coverage,6.4327,percent,GitHub,automated,11 of 171 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3,Average Velocity (points per sprint),20.5,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3,Flow-based Cycle Time Proxy (weeks),1.23,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3,Jira Card Churn %,4.24,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S0,Actual Cycle Time (weeks),1.08,weeks,Jira,Yes (partial),Sprint 0 of 2025-Q3 (16 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S0,AI Active Developers,1,count,GitHub,automated,1 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S0,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S0,Average Velocity (points per sprint),15,points,Jira,Yes (partial),Sprint 0 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S0,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S0,Flow-based Cycle Time Proxy (weeks),2.85,weeks,Jira,Yes (partial),Sprint 0 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S0,Jira Card Churn %,1.05,percent,Jira,Yes (partial),Sprint 0 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S1,Actual Cycle Time (weeks),3.09,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q3 (27 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S1,AI Active Developers,3,count,GitHub,automated,3 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S1,AI-assisted Pull Request Coverage,11.5385,percent,GitHub,automated,3 of 26 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S1,Average Velocity (points per sprint),41,points,Jira,Yes (partial),Sprint 1 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S1,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S1,Flow-based Cycle Time Proxy (weeks),0.98,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S1,Jira Card Churn %,6.45,percent,Jira,Yes (partial),Sprint 1 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S2,Actual Cycle Time (weeks),0.35,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q3 (21 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S2,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S2,AI-assisted Pull Request Coverage,3.1250,percent,GitHub,automated,1 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S2,Average Velocity (points per sprint),23,points,Jira,Yes (partial),Sprint 2 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S2,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S2,Flow-based Cycle Time Proxy (weeks),0.88,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S2,Jira Card Churn %,8.33,percent,Jira,Yes (partial),Sprint 2 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S3,Actual Cycle Time (weeks),0.84,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q3 (17 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S3,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S3,AI-assisted Pull Request Coverage,6.8966,percent,GitHub,automated,2 of 29 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S3,Average Velocity (points per sprint),9,points,Jira,Yes (partial),Sprint 3 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S3,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S3,Flow-based Cycle Time Proxy (weeks),1.04,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S3,Jira Card Churn %,7.94,percent,Jira,Yes (partial),Sprint 3 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S4,Actual Cycle Time (weeks),0.64,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q3 (15 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S4,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S4,AI-assisted Pull Request Coverage,5.5556,percent,GitHub,automated,1 of 18 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S4,Average Velocity (points per sprint),26,points,Jira,Yes (partial),Sprint 4 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S4,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S4,Flow-based Cycle Time Proxy (weeks),0.87,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S4,Jira Card Churn %,9.09,percent,Jira,Yes (partial),Sprint 4 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S5,Actual Cycle Time (weeks),0.36,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q3 (22 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S5,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S5,AI-assisted Pull Request Coverage,10.5263,percent,GitHub,automated,2 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S5,Average Velocity (points per sprint),9,points,Jira,Yes (partial),Sprint 5 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S5,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S5,Flow-based Cycle Time Proxy (weeks),1.12,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S5,Jira Card Churn %,0,percent,Jira,Yes (partial),Sprint 5 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S6,Actual Cycle Time (weeks),1.88,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q3 (19 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 30 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S6,Average Velocity (points per sprint),15,points,Jira,Yes (partial),Sprint 6 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S6,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S6,Flow-based Cycle Time Proxy (weeks),1.23,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q3-S6,Jira Card Churn %,3.39,percent,Jira,Yes (partial),Sprint 6 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4,Actual Cycle Time (weeks),1.35,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4,AI Active Developers,4,count,GitHub,automated,4 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4,AI-assisted Pull Request Coverage,7.8652,percent,GitHub,automated,7 of 89 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4,Average Velocity (points per sprint),21,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4,Flow-based Cycle Time Proxy (weeks),1.4,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4,Jira Card Churn %,5.14,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S0,Actual Cycle Time (weeks),0.29,weeks,Jira,Yes (partial),Sprint 0 of 2025-Q4 (3 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S0,Average Velocity (points per sprint),15,points,Jira,Yes (partial),Sprint 0 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S0,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S0,Flow-based Cycle Time Proxy (weeks),1.94,weeks,Jira,Yes (partial),Sprint 0 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S0,Jira Card Churn %,2.33,percent,Jira,Yes (partial),Sprint 0 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S1,Actual Cycle Time (weeks),0.66,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q4 (9 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S1,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S1,AI-assisted Pull Request Coverage,10.0000,percent,GitHub,automated,2 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S1,Average Velocity (points per sprint),13,points,Jira,Yes (partial),Sprint 1 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S1,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S1,Flow-based Cycle Time Proxy (weeks),2.1,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S1,Jira Card Churn %,1.64,percent,Jira,Yes (partial),Sprint 1 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S2,Actual Cycle Time (weeks),1.99,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q4 (5 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S2,AI Active Developers,3,count,GitHub,automated,3 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S2,AI-assisted Pull Request Coverage,23.0769,percent,GitHub,automated,3 of 13 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S2,Average Velocity (points per sprint),2,points,Jira,Yes (partial),Sprint 2 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S2,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S2,Flow-based Cycle Time Proxy (weeks),2.94,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S2,Jira Card Churn %,2.63,percent,Jira,Yes (partial),Sprint 2 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S3,Actual Cycle Time (weeks),2.86,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q4 (7 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S3,Average Velocity (points per sprint),22,points,Jira,Yes (partial),Sprint 3 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S3,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S3,Flow-based Cycle Time Proxy (weeks),3.08,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S3,Jira Card Churn %,6.06,percent,Jira,Yes (partial),Sprint 3 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S4,Actual Cycle Time (weeks),1.82,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q4 (19 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S4,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S4,AI-assisted Pull Request Coverage,5.2632,percent,GitHub,automated,1 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S4,Average Velocity (points per sprint),24,points,Jira,Yes (partial),Sprint 4 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S4,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S4,Flow-based Cycle Time Proxy (weeks),1.27,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S4,Jira Card Churn %,5.45,percent,Jira,Yes (partial),Sprint 4 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S5,Actual Cycle Time (weeks),1.43,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q4 (14 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S5,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S5,Average Velocity (points per sprint),31,points,Jira,Yes (partial),Sprint 5 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S5,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S5,Flow-based Cycle Time Proxy (weeks),1.06,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S5,Jira Card Churn %,9.76,percent,Jira,Yes (partial),Sprint 5 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S6,Actual Cycle Time (weeks),0.87,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q4 (23 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S6,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S6,AI-assisted Pull Request Coverage,7.1429,percent,GitHub,automated,1 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S6,Average Velocity (points per sprint),34,points,Jira,Yes (partial),Sprint 6 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S6,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S6,Flow-based Cycle Time Proxy (weeks),0.38,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-Q4-S6,Jira Card Churn %,7.58,percent,Jira,Yes (partial),Sprint 6 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-YTD,Actual Cycle Time (weeks),1.18,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-YTD,Average Velocity (points per sprint),20.38,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.38,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2025-YTD,Jira Card Churn %,6.01,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1,Actual Cycle Time (weeks),0.59,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1,AI-assisted Pull Request Coverage,7.0175,percent,GitHub,automated,12 of 171 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1,Average Velocity (points per sprint),29.83,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1,Flow-based Cycle Time Proxy (weeks),0.93,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1,Jira Card Churn %,3.44,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S1,Actual Cycle Time (weeks),0.91,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q1 (11 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S1,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S1,AI-assisted Pull Request Coverage,5.0000,percent,GitHub,automated,1 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S1,Average Velocity (points per sprint),11,points,Jira,Yes (partial),Sprint 1 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S1,Cursor Adoption Rate,55.5556,percent,Cursor,automated,5 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S1,Flow-based Cycle Time Proxy (weeks),1.64,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S1,Jira Card Churn %,0,percent,Jira,Yes (partial),Sprint 1 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S2,Actual Cycle Time (weeks),0.83,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q1 (16 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S2,AI Active Developers,2,count,GitHub,automated,2 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S2,AI-assisted Pull Request Coverage,7.4074,percent,GitHub,automated,2 of 27 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S2,Average Velocity (points per sprint),27,points,Jira,Yes (partial),Sprint 2 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S2,Flow-based Cycle Time Proxy (weeks),1.28,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S2,Jira Card Churn %,12.82,percent,Jira,Yes (partial),Sprint 2 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S3,Actual Cycle Time (weeks),0.58,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q1 (23 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S3,AI Active Developers,2,count,GitHub,automated,2 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S3,AI-assisted Pull Request Coverage,8.3333,percent,GitHub,automated,2 of 24 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S3,Average Velocity (points per sprint),23,points,Jira,Yes (partial),Sprint 3 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S3,Flow-based Cycle Time Proxy (weeks),0.69,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S3,Jira Card Churn %,3.64,percent,Jira,Yes (partial),Sprint 3 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S4,Actual Cycle Time (weeks),0.54,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q1 (23 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S4,AI Active Developers,2,count,GitHub,automated,2 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S4,AI-assisted Pull Request Coverage,15.3846,percent,GitHub,automated,4 of 26 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S4,Average Velocity (points per sprint),43,points,Jira,Yes (partial),Sprint 4 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S4,Flow-based Cycle Time Proxy (weeks),1.3,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S4,Jira Card Churn %,3.9,percent,Jira,Yes (partial),Sprint 4 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S5,Actual Cycle Time (weeks),0.65,weeks,Jira,Yes (partial),Sprint 5 of 2026-Q1 (37 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 31 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S5,Average Velocity (points per sprint),50,points,Jira,Yes (partial),Sprint 5 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S5,Flow-based Cycle Time Proxy (weeks),0.6,weeks,Jira,Yes (partial),Sprint 5 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S5,Jira Card Churn %,1.41,percent,Jira,Yes (partial),Sprint 5 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S6,Actual Cycle Time (weeks),0.29,weeks,Jira,Yes (partial),Sprint 6 of 2026-Q1 (25 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S6,AI Active Developers,2,count,GitHub,automated,2 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S6,AI-assisted Pull Request Coverage,7.3171,percent,GitHub,automated,3 of 41 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S6,Average Velocity (points per sprint),25,points,Jira,Yes (partial),Sprint 6 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S6,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S6,Flow-based Cycle Time Proxy (weeks),0.72,weeks,Jira,Yes (partial),Sprint 6 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q1-S6,Jira Card Churn %,1.49,percent,Jira,Yes (partial),Sprint 6 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2,Actual Cycle Time (weeks),0.57,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2,AI-assisted Pull Request Coverage,13.9706,percent,GitHub,automated,19 of 136 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2,Average Velocity (points per sprint),19.8,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.13,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2,Jira Card Churn %,2.05,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S0,Actual Cycle Time (weeks),0.01,weeks,Jira,Yes (partial),Sprint 0 of 2026-Q2 (2 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S0,Average Velocity (points per sprint),0,points,Jira,Yes (partial),Sprint 0 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S0,Cursor Adoption Rate,77.7778,percent,Cursor,automated,7 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S0,Flow-based Cycle Time Proxy (weeks),10.4,weeks,Jira,Yes (partial),Sprint 0 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S0,Jira Card Churn %,1.56,percent,Jira,Yes (partial),Sprint 0 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S1,Actual Cycle Time (weeks),0.6,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q2 (43 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S1,AI Active Developers,4,count,GitHub,automated,4 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,7 of 49 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S1,Average Velocity (points per sprint),49,points,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S1,Flow-based Cycle Time Proxy (weeks),0.59,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S1,Jira Card Churn %,4.71,percent,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S2,Actual Cycle Time (weeks),0.59,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q2 (27 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S2,AI Active Developers,3,count,GitHub,automated,3 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S2,AI-assisted Pull Request Coverage,9.3750,percent,GitHub,automated,3 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S2,Average Velocity (points per sprint),12,points,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S2,Flow-based Cycle Time Proxy (weeks),1.19,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S2,Jira Card Churn %,1.22,percent,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S3,Actual Cycle Time (weeks),0.59,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q2 (21 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S3,AI Active Developers,3,count,GitHub,automated,3 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S3,AI-assisted Pull Request Coverage,13.8889,percent,GitHub,automated,5 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S3,Average Velocity (points per sprint),25,points,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S3,Flow-based Cycle Time Proxy (weeks),0.79,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S3,Jira Card Churn %,0,percent,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S4,Actual Cycle Time (weeks),0.27,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q2 (14 items).,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S4,AI Active Developers,3,count,GitHub,automated,3 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S4,AI-assisted Pull Request Coverage,36.3636,percent,GitHub,automated,4 of 11 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S4,Average Velocity (points per sprint),13,points,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S4,Flow-based Cycle Time Proxy (weeks),1.86,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-Q2-S4,Jira Card Churn %,1.64,percent,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-YTD,Actual Cycle Time (weeks),0.58,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-YTD,Average Velocity (points per sprint),25.27,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-YTD,Flow-based Cycle Time Proxy (weeks),1.02,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-05-28T17:32:08.329Z
+Team Connexpoint,2026-YTD,Jira Card Churn %,2.75,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1,Actual Cycle Time (weeks),2.15,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1,AI-assisted Pull Request Coverage,1.7544,percent,GitHub,automated,2 of 114 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1,Average Velocity (points per sprint),42.5,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1,Flow-based Cycle Time Proxy (weeks),2.61,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1,Jira Card Churn %,50.42,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S1,Actual Cycle Time (weeks),5.2,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q1 (7 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S1,Average Velocity (points per sprint),66,points,Jira,Yes (partial),Sprint 1 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S1,Flow-based Cycle Time Proxy (weeks),2.45,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S1,Jira Card Churn %,40,percent,Jira,Yes (partial),Sprint 1 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S2,Actual Cycle Time (weeks),2.15,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q1 (8 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S2,Average Velocity (points per sprint),37,points,Jira,Yes (partial),Sprint 2 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S2,Flow-based Cycle Time Proxy (weeks),3.21,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S2,Jira Card Churn %,80,percent,Jira,Yes (partial),Sprint 2 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S3,Actual Cycle Time (weeks),1.41,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q1 (9 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S3,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S3,AI-assisted Pull Request Coverage,5.0000,percent,GitHub,automated,1 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S3,Average Velocity (points per sprint),12,points,Jira,Yes (partial),Sprint 3 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S3,Flow-based Cycle Time Proxy (weeks),3.45,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S3,Jira Card Churn %,47.37,percent,Jira,Yes (partial),Sprint 3 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S4,Actual Cycle Time (weeks),1.93,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q1 (6 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 16 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S4,Average Velocity (points per sprint),23,points,Jira,Yes (partial),Sprint 4 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S4,Flow-based Cycle Time Proxy (weeks),4.54,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S4,Jira Card Churn %,26.32,percent,Jira,Yes (partial),Sprint 4 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S5,Actual Cycle Time (weeks),2.53,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q1 (14 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S5,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S5,AI-assisted Pull Request Coverage,10.0000,percent,GitHub,automated,1 of 10 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S5,Average Velocity (points per sprint),54,points,Jira,Yes (partial),Sprint 5 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S5,Flow-based Cycle Time Proxy (weeks),2.38,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S5,Jira Card Churn %,73.91,percent,Jira,Yes (partial),Sprint 5 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S6,Actual Cycle Time (weeks),1.43,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q1 (24 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 33 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S6,Average Velocity (points per sprint),63,points,Jira,Yes (partial),Sprint 6 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S6,Flow-based Cycle Time Proxy (weeks),1.79,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S6,Jira Card Churn %,39.29,percent,Jira,Yes (partial),Sprint 6 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2,Actual Cycle Time (weeks),2.58,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2,AI-assisted Pull Request Coverage,2.1277,percent,GitHub,automated,2 of 94 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2,Average Velocity (points per sprint),36.6,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2,Flow-based Cycle Time Proxy (weeks),3.58,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2,Jira Card Churn %,34.59,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 27 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S2,Actual Cycle Time (weeks),2.99,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q2 (6 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S2,Average Velocity (points per sprint),38,points,Jira,Yes (partial),Sprint 2 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S2,Flow-based Cycle Time Proxy (weeks),3.52,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S2,Jira Card Churn %,45.45,percent,Jira,Yes (partial),Sprint 2 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S3,Actual Cycle Time (weeks),1.48,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q2 (8 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S3,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S3,AI-assisted Pull Request Coverage,10.5263,percent,GitHub,automated,2 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S3,Average Velocity (points per sprint),20,points,Jira,Yes (partial),Sprint 3 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S3,Flow-based Cycle Time Proxy (weeks),4.24,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S3,Jira Card Churn %,29.17,percent,Jira,Yes (partial),Sprint 3 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S4,Actual Cycle Time (weeks),3.15,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q2 (7 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S4,Average Velocity (points per sprint),31,points,Jira,Yes (partial),Sprint 4 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S4,Flow-based Cycle Time Proxy (weeks),5.33,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S4,Jira Card Churn %,25.93,percent,Jira,Yes (partial),Sprint 4 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3,Actual Cycle Time (weeks),2.24,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3,AI-assisted Pull Request Coverage,1.0204,percent,GitHub,automated,1 of 98 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3,Average Velocity (points per sprint),36.83,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3,Flow-based Cycle Time Proxy (weeks),2.99,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3,Jira Card Churn %,54.04,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S1,Actual Cycle Time (weeks),3.16,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q3 (16 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S1,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S1,AI-assisted Pull Request Coverage,6.6667,percent,GitHub,automated,1 of 15 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S1,Average Velocity (points per sprint),53,points,Jira,Yes (partial),Sprint 1 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S1,Flow-based Cycle Time Proxy (weeks),1.96,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S1,Jira Card Churn %,37.93,percent,Jira,Yes (partial),Sprint 1 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S2,Actual Cycle Time (weeks),1.58,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q3 (8 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S2,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S2,Average Velocity (points per sprint),20,points,Jira,Yes (partial),Sprint 2 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S2,Flow-based Cycle Time Proxy (weeks),3.62,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S2,Jira Card Churn %,55.17,percent,Jira,Yes (partial),Sprint 2 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S3,Actual Cycle Time (weeks),3,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q3 (12 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S3,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 11 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S3,Average Velocity (points per sprint),51,points,Jira,Yes (partial),Sprint 3 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S3,Flow-based Cycle Time Proxy (weeks),3.35,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S3,Jira Card Churn %,35,percent,Jira,Yes (partial),Sprint 3 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S4,Actual Cycle Time (weeks),1.8,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q3 (11 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 11 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S4,Average Velocity (points per sprint),51,points,Jira,Yes (partial),Sprint 4 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S4,Flow-based Cycle Time Proxy (weeks),3.65,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S4,Jira Card Churn %,42.31,percent,Jira,Yes (partial),Sprint 4 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S5,Actual Cycle Time (weeks),1.53,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q3 (21 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 10 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S5,Average Velocity (points per sprint),38,points,Jira,Yes (partial),Sprint 5 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S5,Flow-based Cycle Time Proxy (weeks),2.1,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S5,Jira Card Churn %,90.63,percent,Jira,Yes (partial),Sprint 5 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S6,Actual Cycle Time (weeks),1.2,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q3 (8 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S6,Average Velocity (points per sprint),8,points,Jira,Yes (partial),Sprint 6 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S6,Flow-based Cycle Time Proxy (weeks),5.3,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S6,Jira Card Churn %,61.9,percent,Jira,Yes (partial),Sprint 6 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4,Actual Cycle Time (weeks),1.42,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 137 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4,Average Velocity (points per sprint),30,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4,Flow-based Cycle Time Proxy (weeks),2.07,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4,Jira Card Churn %,38.84,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S0,Actual Cycle Time (weeks),2.92,weeks,Jira,Yes (partial),Sprint 0 of 2025-Q4 (14 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S0,Average Velocity (points per sprint),83,points,Jira,Yes (partial),Sprint 0 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S0,Flow-based Cycle Time Proxy (weeks),2.45,weeks,Jira,Yes (partial),Sprint 0 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S0,Jira Card Churn %,19.44,percent,Jira,Yes (partial),Sprint 0 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S1,Actual Cycle Time (weeks),2.26,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q4 (16 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S1,Average Velocity (points per sprint),26,points,Jira,Yes (partial),Sprint 1 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S1,Flow-based Cycle Time Proxy (weeks),1.8,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S1,Jira Card Churn %,21.62,percent,Jira,Yes (partial),Sprint 1 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S2,Actual Cycle Time (weeks),2.89,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q4 (7 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S2,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S2,Average Velocity (points per sprint),25,points,Jira,Yes (partial),Sprint 2 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S2,Flow-based Cycle Time Proxy (weeks),2.53,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S2,Jira Card Churn %,86.67,percent,Jira,Yes (partial),Sprint 2 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S3,Actual Cycle Time (weeks),0.64,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q4 (22 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 25 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S3,Average Velocity (points per sprint),32,points,Jira,Yes (partial),Sprint 3 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S3,Flow-based Cycle Time Proxy (weeks),1.03,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S3,Jira Card Churn %,58,percent,Jira,Yes (partial),Sprint 3 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S4,Actual Cycle Time (weeks),1.04,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q4 (19 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 30 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S4,Average Velocity (points per sprint),42,points,Jira,Yes (partial),Sprint 4 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S4,Flow-based Cycle Time Proxy (weeks),1.71,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S4,Jira Card Churn %,29.51,percent,Jira,Yes (partial),Sprint 4 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S5,Actual Cycle Time (weeks),1.5,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q4 (15 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S5,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S5,Average Velocity (points per sprint),34,points,Jira,Yes (partial),Sprint 5 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S5,Flow-based Cycle Time Proxy (weeks),2.84,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S5,Jira Card Churn %,46.3,percent,Jira,Yes (partial),Sprint 5 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S6,Actual Cycle Time (weeks),2.01,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q4 (10 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S6,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S6,Average Velocity (points per sprint),21,points,Jira,Yes (partial),Sprint 6 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S6,Flow-based Cycle Time Proxy (weeks),3.08,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S6,Jira Card Churn %,23.73,percent,Jira,Yes (partial),Sprint 6 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-YTD,Actual Cycle Time (weeks),2.02,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-YTD,Average Velocity (points per sprint),36.21,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-YTD,Flow-based Cycle Time Proxy (weeks),2.66,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-YTD,Jira Card Churn %,43.76,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1,Actual Cycle Time (weeks),2.58,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1,AI-assisted Pull Request Coverage,9.8485,percent,GitHub,automated,13 of 132 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1,Average Velocity (points per sprint),16.83,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1,Flow-based Cycle Time Proxy (weeks),6.32,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1,Jira Card Churn %,12.55,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S1,Actual Cycle Time (weeks),1.27,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q1 (11 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S1,Average Velocity (points per sprint),22,points,Jira,Yes (partial),Sprint 1 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S1,Cursor Adoption Rate,33.3333,percent,Cursor,automated,3 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S1,Flow-based Cycle Time Proxy (weeks),3.17,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S1,Jira Card Churn %,24.49,percent,Jira,Yes (partial),Sprint 1 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S2,Actual Cycle Time (weeks),3.1,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q1 (10 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S2,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S2,AI-assisted Pull Request Coverage,6.2500,percent,GitHub,automated,1 of 16 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S2,Average Velocity (points per sprint),24,points,Jira,Yes (partial),Sprint 2 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S2,Flow-based Cycle Time Proxy (weeks),3.98,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S2,Jira Card Churn %,9.09,percent,Jira,Yes (partial),Sprint 2 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S3,Actual Cycle Time (weeks),4.03,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q1 (11 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S3,AI Active Developers,3,count,GitHub,automated,3 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S3,AI-assisted Pull Request Coverage,15.3846,percent,GitHub,automated,4 of 26 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S3,Average Velocity (points per sprint),42,points,Jira,Yes (partial),Sprint 3 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S3,Flow-based Cycle Time Proxy (weeks),2.33,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S3,Jira Card Churn %,12.77,percent,Jira,Yes (partial),Sprint 3 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S4,Actual Cycle Time (weeks),3.41,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q1 (1 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S4,AI Active Developers,2,count,GitHub,automated,2 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S4,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,2 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S4,Average Velocity (points per sprint),5,points,Jira,Yes (partial),Sprint 4 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S4,Flow-based Cycle Time Proxy (weeks),25.34,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S4,Jira Card Churn %,10.81,percent,Jira,Yes (partial),Sprint 4 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S5,Actual Cycle Time (weeks),4,weeks,Jira,Yes (partial),Sprint 5 of 2026-Q1 (1 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S5,AI Active Developers,3,count,GitHub,automated,3 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S5,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,3 of 18 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S5,Average Velocity (points per sprint),8,points,Jira,Yes (partial),Sprint 5 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S5,Flow-based Cycle Time Proxy (weeks),41.41,weeks,Jira,Yes (partial),Sprint 5 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S5,Jira Card Churn %,10.53,percent,Jira,Yes (partial),Sprint 5 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S6,Actual Cycle Time (weeks),0.73,weeks,Jira,Yes (partial),Sprint 6 of 2026-Q1 (1 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S6,AI Active Developers,2,count,GitHub,automated,2 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S6,AI-assisted Pull Request Coverage,9.3750,percent,GitHub,automated,3 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S6,Average Velocity (points per sprint),0,points,Jira,Yes (partial),Sprint 6 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S6,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S6,Flow-based Cycle Time Proxy (weeks),54.16,weeks,Jira,Yes (partial),Sprint 6 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S6,Jira Card Churn %,5,percent,Jira,Yes (partial),Sprint 6 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2,Actual Cycle Time (weeks),4.31,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2,AI-assisted Pull Request Coverage,8.3333,percent,GitHub,automated,6 of 72 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2,Average Velocity (points per sprint),34,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2,Flow-based Cycle Time Proxy (weeks),3.95,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2,Jira Card Churn %,38.53,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S0,AI Active Developers,1,count,GitHub,automated,1 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S0,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S0,Cursor Adoption Rate,77.7778,percent,Cursor,automated,7 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S1,Actual Cycle Time (weeks),4.96,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q2 (20 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S1,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S1,AI-assisted Pull Request Coverage,4.1667,percent,GitHub,automated,1 of 24 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S1,Average Velocity (points per sprint),83,points,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S1,Flow-based Cycle Time Proxy (weeks),1.94,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S1,Jira Card Churn %,64.29,percent,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S2,Actual Cycle Time (weeks),2.11,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q2 (7 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S2,AI Active Developers,2,count,GitHub,automated,2 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S2,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,2 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S2,Average Velocity (points per sprint),19,points,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S2,Flow-based Cycle Time Proxy (weeks),6.38,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S2,Jira Card Churn %,48.39,percent,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S3,Actual Cycle Time (weeks),4.5,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q2 (12 items).,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S3,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S3,AI-assisted Pull Request Coverage,5.5556,percent,GitHub,automated,1 of 18 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S3,Average Velocity (points per sprint),34,points,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S3,Flow-based Cycle Time Proxy (weeks),2.73,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S3,Jira Card Churn %,32,percent,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S4,Average Velocity (points per sprint),0,points,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S4,Flow-based Cycle Time Proxy (weeks),,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S4,Jira Card Churn %,4,percent,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-YTD,Actual Cycle Time (weeks),3.47,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-YTD,Average Velocity (points per sprint),23.7,points,Jira,Yes (partial),Year-to-date rollup weighted by sprint counts across available quarters.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-YTD,Flow-based Cycle Time Proxy (weeks),5.07,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-YTD,Jira Card Churn %,20.33,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-05-28T17:32:08.329Z

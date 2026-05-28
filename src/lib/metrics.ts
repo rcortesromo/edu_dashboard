@@ -10,10 +10,21 @@ export type MetricRecord = {
   lastRefreshUtc: string;
 };
 
+export type SprintInfo = {
+  key: string;
+  sequence: number;
+  name: string;
+  start: string;
+  end: string;
+};
+
+export type SprintCalendar = Record<string, Record<string, SprintInfo[]>>;
+
 export type MetricsPayload = {
   reportDate: string;
   teams: string[];
   quarters: string[];
+  sprintCalendar: SprintCalendar;
   metrics: MetricRecord[];
 };
 
@@ -29,9 +40,12 @@ export type TeamSummary = {
 export type PeriodOption = {
   key: string;
   label: string;
-  kind: "quarter" | "ytd";
+  kind: "quarter" | "ytd" | "sprint";
   year: number;
   quarter?: number;
+  sprintSequence?: number;
+  parentQuarter?: string;
+  dateRange?: string;
   isInProgress: boolean;
 };
 
@@ -80,28 +94,45 @@ function metricSortIndex(metricName: string) {
 
 type ParsedPeriod = {
   key: string;
-  kind: "quarter" | "ytd";
+  kind: "quarter" | "ytd" | "sprint";
   year: number;
   quarter?: number;
+  sprintSequence?: number;
+  parentQuarter?: string;
 };
 
 function parsePeriod(key: string): ParsedPeriod | null {
-  const quarterMatch = /^(\d{4})-Q([1-4])$/.exec(String(key ?? "").trim());
+  const trimmed = String(key ?? "").trim();
+
+  const sprintMatch = /^(\d{4})-Q([1-4])-S(\d+)$/.exec(trimmed);
+
+  if (sprintMatch) {
+    return {
+      key: trimmed,
+      kind: "sprint",
+      year: Number(sprintMatch[1]),
+      quarter: Number(sprintMatch[2]),
+      sprintSequence: Number(sprintMatch[3]),
+      parentQuarter: `${sprintMatch[1]}-Q${sprintMatch[2]}`,
+    };
+  }
+
+  const quarterMatch = /^(\d{4})-Q([1-4])$/.exec(trimmed);
 
   if (quarterMatch) {
     return {
-      key,
+      key: trimmed,
       kind: "quarter",
       year: Number(quarterMatch[1]),
       quarter: Number(quarterMatch[2]),
     };
   }
 
-  const ytdMatch = /^(\d{4})-YTD$/.exec(String(key ?? "").trim());
+  const ytdMatch = /^(\d{4})-YTD$/.exec(trimmed);
 
   if (ytdMatch) {
     return {
-      key,
+      key: trimmed,
       kind: "ytd",
       year: Number(ytdMatch[1]),
     };
@@ -155,7 +186,7 @@ export function buildPeriodOptions(payload: MetricsPayload | null): PeriodOption
   for (const key of periodKeys) {
     const parsed = parsePeriod(key);
 
-    if (!parsed) {
+    if (!parsed || parsed.kind === "sprint") {
       continue;
     }
 
@@ -184,6 +215,51 @@ export function getPeriodOption(periodOptions: PeriodOption[], periodKey: string
   return periodOptions.find((period) => period.key === periodKey) ?? null;
 }
 
+export function formatDateRange(start: string, end: string): string {
+  const s = new Date(`${start}T00:00:00Z`);
+  const e = new Date(`${end}T00:00:00Z`);
+
+  if (Number.isNaN(s.getTime()) || Number.isNaN(e.getTime())) {
+    return "";
+  }
+
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const sMonth = months[s.getUTCMonth()];
+  const eMonth = months[e.getUTCMonth()];
+  const sDay = s.getUTCDate();
+  const eDay = e.getUTCDate();
+
+  if (sMonth === eMonth) {
+    return `${sMonth} ${sDay}\u2013${eDay}`;
+  }
+
+  return `${sMonth} ${sDay} \u2013 ${eMonth} ${eDay}`;
+}
+
+export function getSprintsForQuarter(
+  payload: MetricsPayload | null,
+  quarterKey: string,
+): SprintInfo[] {
+  if (!payload?.sprintCalendar) return [];
+
+  const allSprints: SprintInfo[] = [];
+  const seenKeys = new Set<string>();
+
+  for (const teamSprints of Object.values(payload.sprintCalendar)) {
+    const quarterSprints = teamSprints[quarterKey];
+    if (!quarterSprints) continue;
+
+    for (const sprint of quarterSprints) {
+      if (!seenKeys.has(sprint.key)) {
+        seenKeys.add(sprint.key);
+        allSprints.push(sprint);
+      }
+    }
+  }
+
+  return allSprints.sort((a, b) => a.sequence - b.sequence);
+}
+
 export function formatMetricValue(metric: MetricRecord) {
   if (metric.unit === "percent") {
     return `${metric.value.toFixed(2)}%`;
@@ -204,10 +280,14 @@ export function formatMetricValue(metric: MetricRecord) {
   return String(metric.value);
 }
 
-export function buildTeamSummaries(payload: MetricsPayload | null, periodKey: string) {
+export function buildTeamSummaries(payload: MetricsPayload | null, periodKey: string, sprintKey?: string) {
   if (!payload || !periodKey) {
     return [];
   }
+
+  const effectiveKey = sprintKey || periodKey;
+  const parsed = parsePeriod(effectiveKey);
+  const parentQuarter = parsed?.kind === "sprint" ? parsed.parentQuarter : undefined;
 
   const availableTeamKeys = [...new Set([...payload.teams, ...payload.metrics.map((metric) => metric.team)])];
   const remainingTeamKeys = availableTeamKeys
@@ -218,17 +298,35 @@ export function buildTeamSummaries(payload: MetricsPayload | null, periodKey: st
   );
 
   return orderedTeamKeys.map((teamKey) => {
-    const teamMetrics = payload.metrics
-      .filter((metric) => metric.team === teamKey && metric.quarter === periodKey)
-      .sort(
-        (left, right) =>
-          metricSortIndex(left.metricName) - metricSortIndex(right.metricName),
-      );
+    const sprintMetrics = sprintKey
+      ? payload.metrics.filter((metric) => metric.team === teamKey && metric.quarter === sprintKey)
+      : [];
+
+    const quarterMetrics = payload.metrics.filter(
+      (metric) => metric.team === teamKey && metric.quarter === (parentQuarter ?? periodKey),
+    );
+
+    let teamMetrics: MetricRecord[];
+
+    if (sprintKey && parentQuarter) {
+      const sprintMetricNames = new Set(sprintMetrics.map((m) => m.metricName));
+      const fallbackMetrics = quarterMetrics
+        .filter((m) => !sprintMetricNames.has(m.metricName))
+        .map((m) => ({ ...m, _quarterFallback: true as const }));
+      teamMetrics = [...sprintMetrics, ...fallbackMetrics];
+    } else {
+      teamMetrics = quarterMetrics;
+    }
+
+    teamMetrics.sort(
+      (left, right) =>
+        metricSortIndex(left.metricName) - metricSortIndex(right.metricName),
+    );
 
     return {
       teamKey,
       teamLabel: teamDisplayMap[teamKey] ?? teamKey,
-      periodLabel: teamMetrics[0]?.quarter ?? periodKey,
+      periodLabel: sprintKey ?? (teamMetrics[0]?.quarter ?? periodKey),
       lastRefreshUtc: teamMetrics[0]?.lastRefreshUtc ?? "",
       metrics: teamMetrics,
       isPortfolio: teamKey === "EDU",

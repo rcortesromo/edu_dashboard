@@ -89,6 +89,15 @@ const headers = {
     "data_quality_note",
     "last_refresh_utc",
   ],
+  velocityBySprint: [
+    "team_name",
+    "sprint_id",
+    "sprint_name",
+    "quarter_label",
+    "velocity_points",
+    "velocity_source",
+    "last_refresh_utc",
+  ],
   cycleTimeIssueLevel: [
     "issue_key",
     "issue_id",
@@ -359,6 +368,22 @@ function getFromYearArg(argv) {
   return "";
 }
 
+function getTeamArg(argv) {
+  for (let index = 0; index < argv.length; index += 1) {
+    const entry = argv[index];
+
+    if (entry === "--team") {
+      return argv[index + 1] ?? "";
+    }
+
+    if (entry.startsWith("--team=")) {
+      return entry.slice("--team=".length);
+    }
+  }
+
+  return "";
+}
+
 function quarterWindowsForYearRange(fromYear, now) {
   const currentQuarter = quarterWindowForDate(now);
   const windows = [];
@@ -424,6 +449,7 @@ function quarterScopedGeneratedFiles(quarterLabel) {
     sprintCalendar: path.join(yearDir, `sprint_calendar_${quarterLabel}.csv`),
     metricInputsBySprint: path.join(yearDir, `metric_inputs_by_sprint_${quarterLabel}.csv`),
     cycleTimeIssueLevel: path.join(yearDir, `cycle_time_issue_level_${quarterLabel}.csv`),
+    velocityBySprint: path.join(yearDir, `velocity_by_sprint_${quarterLabel}.csv`),
   };
 }
 
@@ -688,6 +714,15 @@ function sprintMatchesQuarterPattern(teamConfig, sprintName, quarterLabel) {
   } catch {
     return true;
   }
+}
+
+function extractSprintNumber(sprintName) {
+  const name = String(sprintName ?? "");
+  const explicit = /(?:Sprint|Sp)\s*(\d+)/i.exec(name);
+  if (explicit) return Number(explicit[1]);
+  const wsPattern = /^WS\d{2}Q\dS(\d+)/i.exec(name);
+  if (wsPattern) return Number(wsPattern[1]);
+  return null;
 }
 
 function velocityNumber(value) {
@@ -1248,6 +1283,12 @@ function mergeRowsKeepingOtherQuarters(existingRows, newRows, quarterLabel, team
   return [...retained, ...newRows];
 }
 
+function mergePerQuarterRows(existingRows, newRows, teams) {
+  const teamNames = new Set(teams.map((team) => team.teamName));
+  const retained = existingRows.filter((row) => !teamNames.has(row.team_name));
+  return [...retained, ...newRows];
+}
+
 function sortByKeys(rows, keys) {
   return [...rows].sort((left, right) => {
     for (const key of keys) {
@@ -1573,6 +1614,7 @@ async function processQuarterWindow({
   refreshTimestamp,
   statusCategoryMap,
   teams,
+  isTeamScoped,
 }) {
   const quarterFiles = quarterScopedGeneratedFiles(quarterWindow.label);
   const trackedSprints = [];
@@ -1597,7 +1639,7 @@ async function processQuarterWindow({
         ...sprint,
         teamName: team.teamName,
         projectKeys: team.projectKeys ?? [],
-        sprintSequence: index + 1,
+        sprintSequence: extractSprintNumber(sprint.name) ?? index + 1,
       });
     });
 
@@ -1901,6 +1943,46 @@ async function processQuarterWindow({
           velocityPointsByTeamSprint.set(key, (velocityPointsByTeamSprint.get(key) ?? 0) + pts);
         }
       }
+    }
+  }
+
+  const velocityBySprintRows = [];
+
+  for (const team of teams) {
+    const teamSprintsInQuarter = trackedSprints.filter((sprint) => sprint.teamName === team.teamName);
+    const velocitySource = velocitySourceForTeam(team);
+    const hasVelIssueTypes = Array.isArray(team?.velocity?.velocityIssueTypes) && team.velocity.velocityIssueTypes.length > 0;
+    const boardVelocityMap = boardVelocityByTeam.get(team.teamName) ?? new Map();
+    const velocityScope = team?.velocity?.velocityScope || "all_completed";
+    const velocityPointsField = velocityScope === "committed_only" ? "committed_completed_points" : "completed_points";
+
+    for (const sprint of teamSprintsInQuarter) {
+      const sprintRow = aggregatedSprintInputs.find(
+        (row) => row.team_name === team.teamName && String(row.sprint_id) === String(sprint.id),
+      );
+
+      let pts = 0;
+      let source = "calculated_completed_points";
+
+      if (velocitySource === "board_velocity_report") {
+        pts = boardVelocityMap.get(String(sprint.id)) ?? 0;
+        source = "board_velocity_report";
+      } else if (hasVelIssueTypes) {
+        pts = velocityPointsByTeamSprint.get(`${team.teamName}::${sprint.id}`) ?? 0;
+        source = "velocity_issue_types";
+      } else if (sprintRow) {
+        pts = Number(sprintRow[velocityPointsField] ?? sprintRow.completed_points ?? 0);
+      }
+
+      velocityBySprintRows.push({
+        team_name: team.teamName,
+        sprint_id: String(sprint.id),
+        sprint_name: sprint.name,
+        quarter_label: quarterWindow.label,
+        velocity_points: String(round(pts)),
+        velocity_source: source,
+        last_refresh_utc: refreshTimestamp,
+      });
     }
   }
 
@@ -2280,36 +2362,65 @@ async function processQuarterWindow({
     ["team_name", "quarter_label"],
   );
 
+  let finalJiraIssuesRaw = jiraIssuesRawRows;
+  let finalJiraChangelogRaw = jiraChangelogRawRows;
+  let finalSprintCalendar = sprintCalendarRows;
+  let finalMetricInputsBySprint = aggregatedSprintInputs;
+  let finalCycleTimeIssueLevel = cycleTimeIssueLevelRows;
+  let finalVelocityBySprint = velocityBySprintRows;
+
+  if (isTeamScoped) {
+    const [existIssues, existChangelog, existCalendar, existInputs, existCycleTime, existVelocity] = await Promise.all([
+      readCsvFile(quarterFiles.jiraIssuesRaw),
+      readCsvFile(quarterFiles.jiraChangelogRaw),
+      readCsvFile(quarterFiles.sprintCalendar),
+      readCsvFile(quarterFiles.metricInputsBySprint),
+      readCsvFile(quarterFiles.cycleTimeIssueLevel),
+      readCsvFile(quarterFiles.velocityBySprint),
+    ]);
+    finalJiraIssuesRaw = mergePerQuarterRows(existIssues, jiraIssuesRawRows, teams);
+    finalJiraChangelogRaw = mergePerQuarterRows(existChangelog, jiraChangelogRawRows, teams);
+    finalSprintCalendar = mergePerQuarterRows(existCalendar, sprintCalendarRows, teams);
+    finalMetricInputsBySprint = mergePerQuarterRows(existInputs, aggregatedSprintInputs, teams);
+    finalCycleTimeIssueLevel = mergePerQuarterRows(existCycleTime, cycleTimeIssueLevelRows, teams);
+    finalVelocityBySprint = mergePerQuarterRows(existVelocity, velocityBySprintRows, teams);
+  }
+
   await Promise.all([
     fs.writeFile(
       quarterFiles.jiraIssuesRaw,
-      toCsv(headers.jiraIssuesRaw, sortByKeys(jiraIssuesRawRows, ["team_name", "quarter_label", "sprint_id", "issue_key"])),
+      toCsv(headers.jiraIssuesRaw, sortByKeys(finalJiraIssuesRaw, ["team_name", "quarter_label", "sprint_id", "issue_key"])),
       "utf8",
     ),
     fs.writeFile(
       quarterFiles.jiraChangelogRaw,
       toCsv(
         headers.jiraChangelogRaw,
-        sortByKeys(jiraChangelogRawRows, ["team_name", "quarter_label", "sprint_id", "issue_key", "event_timestamp"]),
+        sortByKeys(finalJiraChangelogRaw, ["team_name", "quarter_label", "sprint_id", "issue_key", "event_timestamp"]),
       ),
       "utf8",
     ),
     fs.writeFile(
       quarterFiles.sprintCalendar,
-      toCsv(headers.sprintCalendar, sortByKeys(sprintCalendarRows, ["team_name", "quarter_label", "sprint_id"])),
+      toCsv(headers.sprintCalendar, sortByKeys(finalSprintCalendar, ["team_name", "quarter_label", "sprint_id"])),
       "utf8",
     ),
     fs.writeFile(
       quarterFiles.metricInputsBySprint,
-      toCsv(headers.metricInputsBySprint, sortByKeys(aggregatedSprintInputs, ["team_name", "quarter_label", "sprint_id"])),
+      toCsv(headers.metricInputsBySprint, sortByKeys(finalMetricInputsBySprint, ["team_name", "quarter_label", "sprint_id"])),
       "utf8",
     ),
     fs.writeFile(
       quarterFiles.cycleTimeIssueLevel,
       toCsv(
         headers.cycleTimeIssueLevel,
-        sortByKeys(cycleTimeIssueLevelRows, ["team_name", "quarter_label", "cycle_time_end_utc", "issue_key"]),
+        sortByKeys(finalCycleTimeIssueLevel, ["team_name", "quarter_label", "cycle_time_end_utc", "issue_key"]),
       ),
+      "utf8",
+    ),
+    fs.writeFile(
+      quarterFiles.velocityBySprint,
+      toCsv(headers.velocityBySprint, sortByKeys(finalVelocityBySprint, ["team_name", "quarter_label", "sprint_id"])),
       "utf8",
     ),
     fs.writeFile(
@@ -2332,6 +2443,7 @@ async function processQuarterWindow({
       quarterFiles.sprintCalendar,
       quarterFiles.metricInputsBySprint,
       quarterFiles.cycleTimeIssueLevel,
+      quarterFiles.velocityBySprint,
     ],
     refreshedAt: refreshTimestamp,
   };
@@ -2357,10 +2469,23 @@ async function main() {
   const statuses = await client.getStatuses();
   const statusCategoryMap = buildStatusCategoryMap(statuses);
 
-  const teams = mapping.boardsOrProjects.filter((entry) => entry.teamName && entry.boardId);
+  const allTeams = mapping.boardsOrProjects.filter((entry) => entry.teamName && entry.boardId);
+
+  if (allTeams.length === 0) {
+    throw new Error("No tracked teams are configured in backend/jira/config/jira-field-mapping.template.json.");
+  }
+
+  const teamArg = getTeamArg(process.argv.slice(2));
+  const teams = teamArg
+    ? allTeams.filter((entry) => normalizeName(entry.teamName) === normalizeName(teamArg))
+    : allTeams;
 
   if (teams.length === 0) {
-    throw new Error("No tracked teams are configured in backend/jira/config/jira-field-mapping.template.json.");
+    throw new Error(`No team matching "${teamArg}". Available: ${allTeams.map((t) => t.teamName).join(", ")}`);
+  }
+
+  if (teamArg) {
+    console.log(`Scoped to team: ${teams.map((t) => t.teamName).join(", ")}`);
   }
 
   const summaries = [];
@@ -2375,6 +2500,7 @@ async function main() {
       refreshTimestamp,
       statusCategoryMap,
       teams,
+      isTeamScoped: Boolean(teamArg),
     });
     summaries.push(summary);
   }

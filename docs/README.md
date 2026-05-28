@@ -38,6 +38,24 @@ By default, each script picks up where it left off:
 
 This is fast and safe for daily/weekly updates since historical data is never lost.
 
+### Team-scoped refresh
+
+Pass `--team` to refresh only one Jira team. AI and Cursor pulls are skipped automatically since they don't support team filtering.
+
+```bash
+npm run refresh:static-metrics -- --team "Team Connexpoint"
+```
+
+The team name must match exactly as configured in `jira-field-mapping.template.json` (`teamName` field). Available teams: **Team Connexpoint**, **Team Webstore**.
+
+This is useful for quick mid-sprint checks or when fixing data for a single team (~1 min vs ~4 min for a full refresh). Per-quarter CSV files preserve data from other teams through an automatic merge.
+
+`--team` can be combined with quarter flags:
+
+```bash
+npm run refresh:static-metrics -- --team "Team Connexpoint" --quarter 2026-Q1
+```
+
 ### Full refresh (all quarters from scratch)
 
 Pass `--full` to re-fetch everything from `currentYear - 1`:
@@ -66,6 +84,7 @@ Then copy to public: `cp backend/published/json/metrics.generated.json public/da
 | `--full` | `-- --full` | All quarters from `currentYear - 1` to now |
 | `--from-year` | `-- --from-year 2025` | All quarters from the specified year |
 | `--quarter` | `-- --quarter 2026-Q1` | One specific quarter |
+| `--team` | `-- --team "Team Connexpoint"` | Scope to a single team (preserves other teams' data) |
 
 ### AI & Cursor flags
 
@@ -93,4 +112,5 @@ The dashboard reads `public/data/metrics.generated.json` at runtime. This file c
 - `reportDate` -- date of the latest data refresh
 - `teams` -- list of team keys with data
 - `quarters` -- list of period labels (e.g. `2026-Q1`, `2026-Q2`, `2026-YTD`)
+- `sprintCalendar` -- nested map of sprint metadata by team and quarter, used by the sprint selector
 - `metrics[]` -- flat array of metric records, each with team, quarter, metric name, value, unit, and source

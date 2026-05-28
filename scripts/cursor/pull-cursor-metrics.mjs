@@ -11,6 +11,8 @@ const identityMapPath = path.join(repoRoot, "backend/ai/identity/team-user-map.j
 const outputCsvPath = path.join(repoRoot, "backend/cursor/generated/json_export_view.csv");
 const outputSummaryPath = path.join(repoRoot, "backend/cursor/generated/cursor-scope-summary.json");
 
+const sprintCalendarPath = path.join(repoRoot, "backend/jira/generated/sprint_calendar_combined.csv");
+
 const API_BASE = "https://api.cursor.com";
 const MAX_WINDOW_DAYS = 30;
 const REQUEST_DELAY_MS = 3200;
@@ -246,6 +248,30 @@ function normEmail(email) {
   return String(email ?? "").trim().toLowerCase();
 }
 
+async function loadSprintCalendar() {
+  try {
+    const rows = parseCsv(await fs.readFile(sprintCalendarPath, "utf8"));
+    const byQuarter = new Map();
+    for (const row of rows) {
+      const q = row.quarter_label;
+      if (!q) continue;
+      if (!byQuarter.has(q)) byQuarter.set(q, []);
+      byQuarter.get(q).push({
+        key: row.sprint_key,
+        sequence: Number(row.sprint_sequence),
+        start: new Date(row.sprint_start_date),
+        end: new Date(row.sprint_end_date),
+      });
+    }
+    for (const sprints of byQuarter.values()) {
+      sprints.sort((a, b) => a.sequence - b.sequence);
+    }
+    return byQuarter;
+  } catch {
+    return new Map();
+  }
+}
+
 async function runDiscover(token, users) {
   console.log("Discover mode: listing Cursor team members and matching to roster...\n");
 
@@ -373,10 +399,20 @@ async function main() {
 
   console.log(`${mappedCount} roster member(s) have cursorEmail mapped`);
 
+  const sprintCalendar = await loadSprintCalendar();
+
   const existingRows = await readExistingCsv(outputCsvPath);
   const quarters = buildQuarterWindows(isFull, existingRows);
   const fetchedLabels = new Set(quarters.map((q) => q.label));
-  const retainedRows = existingRows.filter((r) => !fetchedLabels.has(r.quarter_label));
+  const sprintPattern = /^\d{4}-Q[1-4]-S\d+$/;
+  const retainedRows = existingRows.filter((r) => {
+    if (fetchedLabels.has(r.quarter_label)) return false;
+    if (sprintPattern.test(r.quarter_label)) {
+      const parentQ = r.quarter_label.replace(/-S\d+$/, "");
+      if (fetchedLabels.has(parentQ)) return false;
+    }
+    return true;
+  });
   const csvRows = [];
   const summary = {
     refreshedAt: now,
@@ -469,6 +505,62 @@ async function main() {
         eligibleMembers: totalEligible,
         adoptionRate: Number(adoptionRate.toFixed(4)),
       });
+    }
+
+    const sprints = sprintCalendar.get(quarter.label) ?? [];
+    if (sprints.length > 0) {
+      for (let si = 0; si < sprints.length; si++) {
+        if (si > 0) await sleep(REQUEST_DELAY_MS);
+        const sprint = sprints[si];
+        const startMs = sprint.start.getTime();
+        const endMs = sprint.end.getTime();
+
+        console.log(
+          `  Sprint ${sprint.sequence} usage ${sprint.start.toISOString().slice(0, 10)} to ${sprint.end.toISOString().slice(0, 10)}...`,
+        );
+
+        const sprintActiveEmails = new Set();
+        let sprintRecords;
+        try {
+          sprintRecords = await fetchDailyUsage(token, startMs, endMs);
+        } catch (error) {
+          console.error(`  Failed to fetch sprint usage: ${error.message}`);
+          sprintRecords = [];
+        }
+
+        for (const record of sprintRecords) {
+          if (record.isActive) {
+            sprintActiveEmails.add(normEmail(record.email));
+          }
+        }
+
+        for (const [team, members] of teamUsers) {
+          const eligibleMembers = members.filter((u) => {
+            if (!normEmail(u.cursorEmail)) return false;
+            return isUserActiveInPeriod(u, sprint.start, sprint.end);
+          });
+
+          const activeCount = eligibleMembers.filter((u) =>
+            sprintActiveEmails.has(normEmail(u.cursorEmail)),
+          ).length;
+          const totalEligible = eligibleMembers.length;
+          const adoptionRate = totalEligible > 0 ? (activeCount / totalEligible) * 100 : 0;
+
+          csvRows.push({
+            team_name: team,
+            quarter_label: sprint.key,
+            metric_name: "Cursor Adoption Rate",
+            metric_value: adoptionRate.toFixed(4),
+            metric_unit: "percent",
+            source_system: "Cursor",
+            coverage_status: "automated",
+            note: `${activeCount} of ${totalEligible} mapped members had Cursor activity`,
+            last_refresh_utc: now,
+          });
+        }
+
+        console.log(`    ${sprintRecords.length} record(s), ${sprintActiveEmails.size} active user(s)`);
+      }
     }
   }
 

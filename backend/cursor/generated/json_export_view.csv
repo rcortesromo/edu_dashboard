@@ -1,31 +1,319 @@
 team_name,quarter_label,metric_name,metric_value,metric_unit,source_system,coverage_status,note,last_refresh_utc
-Team Connexpoint,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Webstore,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-ASAP,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Smartcare,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Connexpoint,2025-Q2,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Webstore,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-ASAP,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Smartcare,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Connexpoint,2025-Q3,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Webstore,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-ASAP,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Smartcare,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Connexpoint,2025-Q4,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Webstore,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-ASAP,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Smartcare,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Connexpoint,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Webstore,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-ASAP,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Smartcare,2026-Q1,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-20T18:51:13.434Z
-Team Connexpoint,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T14:36:46.072Z
-Team Webstore,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T14:36:46.072Z
-ASAP,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T14:36:46.072Z
-Smartcare,2026-Q2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T14:36:46.072Z
-EDU,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2025-Q2,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2025-Q3,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2025-Q4,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2026-Q1,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
-EDU,2026-Q2,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T14:36:46.072Z
+Team Connexpoint,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S2,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S2,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S3,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S3,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S4,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S4,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S4,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S4,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S5,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q2-S6,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q2-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q2-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q2-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S0,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S1,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S1,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S2,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S2,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S3,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S3,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S4,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S4,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S5,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S5,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S6,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q3-S6,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q3-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q3-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q3-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S0,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S0,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S0,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S1,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S1,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S2,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S2,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S3,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S3,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S4,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S4,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S5,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S5,Cursor Adoption Rate,22.2222,percent,Cursor,automated,2 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S6,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2025-Q4-S6,Cursor Adoption Rate,11.1111,percent,Cursor,automated,1 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2025-Q4-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2025-Q4-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2025-Q4-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S1,Cursor Adoption Rate,55.5556,percent,Cursor,automated,5 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S1,Cursor Adoption Rate,33.3333,percent,Cursor,automated,3 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S1,Cursor Adoption Rate,44.4444,percent,Cursor,automated,4 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S1,Cursor Adoption Rate,55.5556,percent,Cursor,automated,5 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S1,Cursor Adoption Rate,33.3333,percent,Cursor,automated,3 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S1,Cursor Adoption Rate,44.4444,percent,Cursor,automated,4 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S4,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S4,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S5,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S5,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S6,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S6,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S6,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S6,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q1-S6,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q1-S6,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q1-S6,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q1-S6,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S0,Cursor Adoption Rate,77.7778,percent,Cursor,automated,7 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S0,Cursor Adoption Rate,77.7778,percent,Cursor,automated,7 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S0,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S0,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S1,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S1,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S4,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Connexpoint,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Team Webstore,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+ASAP,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+Smartcare,2026-Q2-S4,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
+EDU,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2025-Q2,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2025-Q3,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2025-Q4,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2026-Q1,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z
+EDU,2026-Q2,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-05-28T17:57:57.965Z

@@ -1,5 +1,6 @@
 import PeriodSelector from "../components/PeriodSelector";
-import { formatMetricValue, getPeriodOption, type PeriodOption, type TeamSummary } from "../lib/metrics";
+import SprintSelector from "../components/SprintSelector";
+import { formatMetricValue, getPeriodOption, type PeriodOption, type SprintInfo, type TeamSummary } from "../lib/metrics";
 
 type MetricsPageProps = {
   teams: TeamSummary[];
@@ -8,6 +9,9 @@ type MetricsPageProps = {
   periodOptions: PeriodOption[];
   selectedPeriod: string;
   onSelectPeriod: (periodKey: string) => void;
+  availableSprints: SprintInfo[];
+  selectedSprint: string;
+  onSelectSprint: (sprintKey: string) => void;
 };
 
 function MetricsPage({
@@ -17,6 +21,9 @@ function MetricsPage({
   periodOptions,
   selectedPeriod,
   onSelectPeriod,
+  availableSprints,
+  selectedSprint,
+  onSelectSprint,
 }: MetricsPageProps) {
   const activePeriod = getPeriodOption(periodOptions, selectedPeriod);
   const hasAnyMetrics = teams.some((team) => team.metrics.length > 0);
@@ -33,11 +40,20 @@ function MetricsPage({
             <h2>{activePeriod ? `${activePeriod.label} ${headingLabel}` : "Delivery briefing"}</h2>
             <p>Every team snapshot below follows the same selected period as the EDU rollup.</p>
           </div>
-          <PeriodSelector
-            options={periodOptions}
-            selectedPeriod={selectedPeriod}
-            onSelectPeriod={onSelectPeriod}
-          />
+          <div className="period-toolbar">
+            <PeriodSelector
+              options={periodOptions}
+              selectedPeriod={selectedPeriod}
+              onSelectPeriod={onSelectPeriod}
+            />
+            {activePeriod?.kind === "quarter" && (
+              <SprintSelector
+                sprints={availableSprints}
+                selectedSprint={selectedSprint}
+                onSelectSprint={onSelectSprint}
+              />
+            )}
+          </div>
         </div>
 
         {activePeriod?.isInProgress ? (
@@ -70,26 +86,37 @@ function MetricsPage({
                   </div>
 
                   <div className="team-metrics">
-                    {team.metrics.map((metric, index) => (
-                      <article
-                        key={metric.metricName}
-                        className={`team-metric-card metric-tone-${(index % 3) + 1}`}
-                      >
-                        <div className="team-metric-card-header">
-                          <p className="team-metric-kicker">{activePeriod?.kind === "ytd" ? "YTD" : "Snapshot"}</p>
-                          <span className="team-metric-source">Source: {metric.source}</span>
-                        </div>
+                    {team.metrics.map((metric, index) => {
+                      const isQuarterFallback = selectedSprint && "_quarterFallback" in metric;
+                      const kickerLabel = activePeriod?.kind === "ytd"
+                        ? "YTD"
+                        : selectedSprint
+                          ? isQuarterFallback ? "Quarter" : "Sprint"
+                          : "Snapshot";
+                      return (
+                        <article
+                          key={metric.metricName}
+                          className={`team-metric-card metric-tone-${(index % 3) + 1}`}
+                        >
+                          <div className="team-metric-card-header">
+                            <p className="team-metric-kicker">{kickerLabel}</p>
+                            <span className="team-metric-source">Source: {metric.source}</span>
+                          </div>
 
-                        <div className="team-metric-copy">
-                          <p className="team-metric-name">{metric.metricName}</p>
-                        </div>
+                          <div className="team-metric-copy">
+                            <p className="team-metric-name">{metric.metricName}</p>
+                            {isQuarterFallback && (
+                              <span className="quarter-fallback-badge">Quarter-level data</span>
+                            )}
+                          </div>
 
-                        <div className="team-metric-value">
-                          <strong>{formatMetricValue(metric)}</strong>
-                          <span>{team.periodLabel}</span>
-                        </div>
-                      </article>
-                    ))}
+                          <div className="team-metric-value">
+                            <strong>{formatMetricValue(metric)}</strong>
+                            <span>{isQuarterFallback ? (activePeriod?.key ?? team.periodLabel) : team.periodLabel}</span>
+                          </div>
+                        </article>
+                      );
+                    })}
                   </div>
                 </section>
               ))}

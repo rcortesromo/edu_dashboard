@@ -11,7 +11,7 @@ import {
   BarChart,
   Bar,
 } from "recharts";
-import { metricDisplayOrder, metricDescriptions, type MetricsPayload } from "../lib/metrics";
+import { metricDisplayOrder, metricDescriptions, formatDateRange, getSprintsForQuarter, type MetricsPayload, type SprintInfo } from "../lib/metrics";
 
 type TrendsPageProps = {
   payload: MetricsPayload | null;
@@ -19,7 +19,9 @@ type TrendsPageProps = {
   error: string;
 };
 
-type ViewMode = "year" | "all-quarters" | "ytd";
+type ViewMode = "year" | "all-quarters" | "ytd" | "sprint";
+
+// All metrics now have sprint-level data (Jira from sprint computation, AI/Cursor from pull scripts)
 
 const teamDisplayMap: Record<string, string> = {
   EDU: "EDU",
@@ -61,11 +63,26 @@ function buildChartData(
   metricName: string,
   viewMode: ViewMode,
   selectedYear: number,
+  selectedQuarter?: string,
+  sprintLookup?: Map<string, SprintInfo>,
 ): { data: ChartDataPoint[]; teams: string[] } {
   let periodFilter: (q: string) => boolean;
   let xLabel: (q: string) => string;
 
-  if (viewMode === "ytd") {
+  if (viewMode === "sprint" && selectedQuarter) {
+    periodFilter = (q) => {
+      const match = /^(\d{4}-Q[1-4])-S\d+$/.exec(q);
+      return match !== null && match[1] === selectedQuarter;
+    };
+    xLabel = (q) => {
+      const sprint = sprintLookup?.get(q);
+      if (sprint) {
+        const range = formatDateRange(sprint.start, sprint.end);
+        return range ? `S${sprint.sequence} (${range})` : `S${sprint.sequence}`;
+      }
+      return q.replace(/^.*-S/, "S");
+    };
+  } else if (viewMode === "ytd") {
     periodFilter = (q) => /^\d{4}-YTD$/.test(q);
     xLabel = (q) => q.replace("-YTD", "");
   } else if (viewMode === "year") {
@@ -127,15 +144,19 @@ function MetricChart({
   metricName,
   viewMode,
   selectedYear,
+  selectedQuarter,
+  sprintLookup,
 }: {
   payload: MetricsPayload;
   metricName: string;
   viewMode: ViewMode;
   selectedYear: number;
+  selectedQuarter?: string;
+  sprintLookup?: Map<string, SprintInfo>;
 }) {
   const { data, teams } = useMemo(
-    () => buildChartData(payload, metricName, viewMode, selectedYear),
-    [payload, metricName, viewMode, selectedYear],
+    () => buildChartData(payload, metricName, viewMode, selectedYear, selectedQuarter, sprintLookup),
+    [payload, metricName, viewMode, selectedYear, selectedQuarter, sprintLookup],
   );
 
   const source = useMemo(() => {
@@ -241,14 +262,36 @@ function MetricChart({
   );
 }
 
+function getAvailableQuarters(payload: MetricsPayload): string[] {
+  const quarters = new Set<string>();
+  for (const q of payload.quarters) {
+    if (/^\d{4}-Q[1-4]$/.test(q)) quarters.add(q);
+  }
+  return [...quarters].sort().reverse();
+}
+
 function TrendsPage({ payload, loading, error }: TrendsPageProps) {
   const availableYears = useMemo(() => (payload ? getAvailableYears(payload) : []), [payload]);
-  const [viewMode, setViewMode] = useState<ViewMode>("year");
+  const availableQuarters = useMemo(() => (payload ? getAvailableQuarters(payload) : []), [payload]);
+  const [viewMode, setViewMode] = useState<ViewMode>("sprint");
   const [selectedYear, setSelectedYear] = useState<number>(() => availableYears[0] ?? new Date().getFullYear());
+  const [selectedQuarter, setSelectedQuarter] = useState<string>(() => availableQuarters[0] ?? "");
 
   const resolvedYear = availableYears.includes(selectedYear)
     ? selectedYear
     : availableYears[0] ?? new Date().getFullYear();
+
+  const resolvedQuarter = availableQuarters.includes(selectedQuarter)
+    ? selectedQuarter
+    : availableQuarters[0] ?? "";
+
+  const sprintLookup = useMemo(() => {
+    if (!payload || viewMode !== "sprint" || !resolvedQuarter) return undefined;
+    const sprints = getSprintsForQuarter(payload, resolvedQuarter);
+    const map = new Map<string, SprintInfo>();
+    for (const s of sprints) map.set(s.key, s);
+    return map;
+  }, [payload, viewMode, resolvedQuarter]);
 
   const availableMetrics = useMemo(() => {
     if (!payload) return [];
@@ -277,6 +320,7 @@ function TrendsPage({ payload, loading, error }: TrendsPageProps) {
               <option value="year">By Year</option>
               <option value="all-quarters">All Quarters</option>
               <option value="ytd">Year-to-Date</option>
+              <option value="sprint">By Sprint</option>
             </select>
           </div>
 
@@ -297,6 +341,24 @@ function TrendsPage({ payload, loading, error }: TrendsPageProps) {
               </select>
             </div>
           )}
+
+          {viewMode === "sprint" && availableQuarters.length > 0 && (
+            <div className="trends-toolbar-group">
+              <label className="trends-toolbar-label" htmlFor="trend-quarter">Quarter</label>
+              <select
+                id="trend-quarter"
+                className="period-dropdown"
+                value={resolvedQuarter}
+                onChange={(e) => setSelectedQuarter(e.target.value)}
+              >
+                {availableQuarters.map((q) => (
+                  <option key={q} value={q}>
+                    {q}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
         </div>
 
         {loading ? <div className="state-card">Loading metrics data...</div> : null}
@@ -311,6 +373,8 @@ function TrendsPage({ payload, loading, error }: TrendsPageProps) {
                 metricName={metricName}
                 viewMode={viewMode}
                 selectedYear={resolvedYear}
+                selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                sprintLookup={sprintLookup}
               />
             ))}
           </div>

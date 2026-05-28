@@ -1,61 +1,637 @@
 team_name,quarter_label,metric_name,metric_value,metric_unit,source_system,coverage_status,note,last_refresh_utc
-Team Connexpoint,2025-Q1,AI-assisted Pull Request Coverage,2.4390,percent,GitHub,automated,2 of 82 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q1,AI-assisted Pull Request Coverage,1.7544,percent,GitHub,automated,2 of 114 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-20T18:31:13.935Z
-ASAP,2025-Q1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-ASAP,2025-Q1,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 130 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q1,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q2,AI-assisted Pull Request Coverage,2.9851,percent,GitHub,automated,4 of 134 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q2,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q2,AI-assisted Pull Request Coverage,2.1277,percent,GitHub,automated,2 of 94 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q2,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-20T18:31:13.935Z
-ASAP,2025-Q2,AI-assisted Pull Request Coverage,11.1111,percent,GitHub,automated,1 of 9 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-ASAP,2025-Q2,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 137 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q3,AI-assisted Pull Request Coverage,6.4327,percent,GitHub,automated,11 of 171 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q3,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q3,AI-assisted Pull Request Coverage,1.0204,percent,GitHub,automated,1 of 98 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-20T18:31:13.935Z
-ASAP,2025-Q3,AI-assisted Pull Request Coverage,7.4074,percent,GitHub,automated,2 of 27 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-ASAP,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q3,AI-assisted Pull Request Coverage,0.4878,percent,GitHub,automated,1 of 205 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q4,AI-assisted Pull Request Coverage,7.8652,percent,GitHub,automated,7 of 89 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Connexpoint,2025-Q4,AI Active Developers,4,count,GitHub,automated,4 of 9 team members,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 137 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Webstore,2025-Q4,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-20T18:31:13.935Z
-ASAP,2025-Q4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-ASAP,2025-Q4,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q4,AI-assisted Pull Request Coverage,0.3817,percent,GitHub,automated,1 of 262 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Smartcare,2025-Q4,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-20T18:31:13.935Z
-Team Connexpoint,2026-Q1,AI-assisted Pull Request Coverage,7.0175,percent,GitHub,automated,12 of 171 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Connexpoint,2026-Q1,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-20T18:31:13.935Z
-Team Webstore,2026-Q1,AI-assisted Pull Request Coverage,9.8485,percent,GitHub,automated,13 of 132 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Team Webstore,2026-Q1,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-05-20T18:31:13.935Z
-ASAP,2026-Q1,AI-assisted Pull Request Coverage,15.7895,percent,GitHub,automated,3 of 19 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-ASAP,2026-Q1,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-20T18:31:13.935Z
-Smartcare,2026-Q1,AI-assisted Pull Request Coverage,1.3453,percent,GitHub,automated,3 of 223 merged PRs had AI signals,2026-05-20T18:31:13.935Z
-Smartcare,2026-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-20T18:31:13.935Z
-Team Connexpoint,2026-Q2,AI-assisted Pull Request Coverage,14.0741,percent,GitHub,automated,19 of 135 merged PRs had AI signals,2026-05-28T14:33:43.755Z
-Team Connexpoint,2026-Q2,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-05-28T14:33:43.755Z
-Team Webstore,2026-Q2,AI-assisted Pull Request Coverage,8.4507,percent,GitHub,automated,6 of 71 merged PRs had AI signals,2026-05-28T14:33:43.755Z
-Team Webstore,2026-Q2,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-28T14:33:43.755Z
-ASAP,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T14:33:43.755Z
-ASAP,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-28T14:33:43.755Z
-Smartcare,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 81 merged PRs had AI signals,2026-05-28T14:33:43.755Z
-Smartcare,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-28T14:33:43.755Z
-EDU,2025-Q1,AI-assisted Pull Request Coverage,1.2270,percent,GitHub,automated,4 of 326 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q1,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q2,AI-assisted Pull Request Coverage,1.8717,percent,GitHub,automated,7 of 374 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q2,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q3,AI-assisted Pull Request Coverage,2.9940,percent,GitHub,automated,15 of 501 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q3,AI Active Developers,6,count,GitHub,automated,6 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q4,AI-assisted Pull Request Coverage,1.5686,percent,GitHub,automated,8 of 510 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2025-Q4,AI Active Developers,5,count,GitHub,automated,5 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2026-Q1,AI-assisted Pull Request Coverage,5.6881,percent,GitHub,automated,31 of 545 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2026-Q1,AI Active Developers,11,count,GitHub,automated,11 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2026-Q2,AI-assisted Pull Request Coverage,8.3612,percent,GitHub,automated,25 of 299 merged PRs had AI signals (portfolio rollup),2026-05-28T14:33:43.755Z
-EDU,2026-Q2,AI Active Developers,8,count,GitHub,automated,8 of 30 members (portfolio rollup),2026-05-28T14:33:43.755Z
+Team Connexpoint,2025-Q1,AI-assisted Pull Request Coverage,2.4390,percent,GitHub,automated,2 of 82 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1,AI-assisted Pull Request Coverage,1.7544,percent,GitHub,automated,2 of 114 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 130 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,2 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S1,AI Active Developers,2,count,GitHub,automated,2 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,2 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S1,AI Active Developers,2,count,GitHub,automated,2 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 13 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 13 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 10 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 10 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 13 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 13 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S3,AI-assisted Pull Request Coverage,5.0000,percent,GitHub,automated,1 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S3,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S3,AI-assisted Pull Request Coverage,5.0000,percent,GitHub,automated,1 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S3,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 16 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 16 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S5,AI-assisted Pull Request Coverage,10.0000,percent,GitHub,automated,1 of 10 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S5,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S5,AI-assisted Pull Request Coverage,10.0000,percent,GitHub,automated,1 of 10 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S5,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 33 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 33 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S3,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S3,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 25 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 25 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S3,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S3,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 31 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 31 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2,AI-assisted Pull Request Coverage,2.9851,percent,GitHub,automated,4 of 134 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2,AI-assisted Pull Request Coverage,2.1277,percent,GitHub,automated,2 of 94 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2,AI-assisted Pull Request Coverage,11.1111,percent,GitHub,automated,1 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 134 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S2,AI-assisted Pull Request Coverage,11.1111,percent,GitHub,automated,1 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S2,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S2,AI-assisted Pull Request Coverage,11.1111,percent,GitHub,automated,1 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S2,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S4,AI-assisted Pull Request Coverage,3.9474,percent,GitHub,automated,3 of 76 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S4,AI Active Developers,1,count,GitHub,automated,1 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S4,AI-assisted Pull Request Coverage,3.9474,percent,GitHub,automated,3 of 76 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S4,AI Active Developers,1,count,GitHub,automated,1 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S4,AI-assisted Pull Request Coverage,3.9474,percent,GitHub,automated,3 of 76 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S4,AI Active Developers,1,count,GitHub,automated,1 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S4,AI-assisted Pull Request Coverage,3.9474,percent,GitHub,automated,3 of 76 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S4,AI Active Developers,1,count,GitHub,automated,1 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q2-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 27 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S3,AI-assisted Pull Request Coverage,10.5263,percent,GitHub,automated,2 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S3,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S3,AI-assisted Pull Request Coverage,10.5263,percent,GitHub,automated,2 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S3,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q2-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S4,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S4,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S4,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S4,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S4,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S4,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S4,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S4,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q2-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 28 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 28 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 53 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 53 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 53 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 53 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q2-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3,AI-assisted Pull Request Coverage,6.4327,percent,GitHub,automated,11 of 171 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3,AI-assisted Pull Request Coverage,1.0204,percent,GitHub,automated,1 of 98 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3,AI-assisted Pull Request Coverage,7.4074,percent,GitHub,automated,2 of 27 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3,AI-assisted Pull Request Coverage,0.4878,percent,GitHub,automated,1 of 205 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S0,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S0,AI Active Developers,1,count,GitHub,automated,1 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S1,AI-assisted Pull Request Coverage,11.5385,percent,GitHub,automated,3 of 26 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S1,AI Active Developers,3,count,GitHub,automated,3 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S1,AI-assisted Pull Request Coverage,11.5385,percent,GitHub,automated,3 of 26 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S1,AI Active Developers,3,count,GitHub,automated,3 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S2,AI-assisted Pull Request Coverage,3.1250,percent,GitHub,automated,1 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S2,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S2,AI-assisted Pull Request Coverage,3.1250,percent,GitHub,automated,1 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S2,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S3,AI-assisted Pull Request Coverage,6.8966,percent,GitHub,automated,2 of 29 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S3,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S3,AI-assisted Pull Request Coverage,6.8966,percent,GitHub,automated,2 of 29 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S3,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S4,AI-assisted Pull Request Coverage,5.5556,percent,GitHub,automated,1 of 18 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S4,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S4,AI-assisted Pull Request Coverage,5.5556,percent,GitHub,automated,1 of 18 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S4,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S5,AI-assisted Pull Request Coverage,10.5263,percent,GitHub,automated,2 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S5,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S5,AI-assisted Pull Request Coverage,10.5263,percent,GitHub,automated,2 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S5,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 30 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 30 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S1,AI-assisted Pull Request Coverage,6.6667,percent,GitHub,automated,1 of 15 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S1,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S1,AI-assisted Pull Request Coverage,6.6667,percent,GitHub,automated,1 of 15 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S1,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S2,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S2,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 11 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S3,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 11 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S3,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 11 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 11 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 10 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 10 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,1 of 7 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S1,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,1 of 7 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S1,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 3 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S3,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 3 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S3,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S4,AI-assisted Pull Request Coverage,20.0000,percent,GitHub,automated,1 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S4,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S4,AI-assisted Pull Request Coverage,20.0000,percent,GitHub,automated,1 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S4,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S0,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 33 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S1,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 33 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S1,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 28 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S2,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 28 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S2,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S3,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S3,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 47 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 47 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S5,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S5,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 42 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 42 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q3-S6,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4,AI-assisted Pull Request Coverage,7.8652,percent,GitHub,automated,7 of 89 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4,AI Active Developers,4,count,GitHub,automated,4 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 137 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 22 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4,AI-assisted Pull Request Coverage,0.3817,percent,GitHub,automated,1 of 262 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4,AI Active Developers,1,count,GitHub,automated,1 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S1,AI-assisted Pull Request Coverage,10.0000,percent,GitHub,automated,2 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S1,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S1,AI-assisted Pull Request Coverage,10.0000,percent,GitHub,automated,2 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S1,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S2,AI-assisted Pull Request Coverage,23.0769,percent,GitHub,automated,3 of 13 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S2,AI Active Developers,3,count,GitHub,automated,3 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S2,AI-assisted Pull Request Coverage,23.0769,percent,GitHub,automated,3 of 13 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S2,AI Active Developers,3,count,GitHub,automated,3 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S4,AI-assisted Pull Request Coverage,5.2632,percent,GitHub,automated,1 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S4,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S4,AI-assisted Pull Request Coverage,5.2632,percent,GitHub,automated,1 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S4,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S5,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S5,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S6,AI-assisted Pull Request Coverage,7.1429,percent,GitHub,automated,1 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S6,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S6,AI-assisted Pull Request Coverage,7.1429,percent,GitHub,automated,1 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2025-Q4-S6,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S2,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S2,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 25 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 25 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 30 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 30 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S4,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S5,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S5,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S6,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2025-Q4-S6,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S1,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S1,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 7 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 7 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S4,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S4,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S6,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2025-Q4-S6,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 37 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 37 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 47 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 47 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 28 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S4,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 28 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S4,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S5,AI-assisted Pull Request Coverage,1.5385,percent,GitHub,automated,1 of 65 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S5,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S5,AI-assisted Pull Request Coverage,1.5385,percent,GitHub,automated,1 of 65 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S5,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 62 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S6,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 62 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2025-Q4-S6,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1,AI-assisted Pull Request Coverage,7.0175,percent,GitHub,automated,12 of 171 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1,AI-assisted Pull Request Coverage,9.8485,percent,GitHub,automated,13 of 132 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1,AI-assisted Pull Request Coverage,15.7895,percent,GitHub,automated,3 of 19 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1,AI Active Developers,1,count,GitHub,automated,1 of 3 team members,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1,AI-assisted Pull Request Coverage,1.3453,percent,GitHub,automated,3 of 223 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1,AI Active Developers,2,count,GitHub,automated,2 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S1,AI-assisted Pull Request Coverage,5.0000,percent,GitHub,automated,1 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S1,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S1,AI-assisted Pull Request Coverage,5.0000,percent,GitHub,automated,1 of 20 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S1,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S2,AI-assisted Pull Request Coverage,7.4074,percent,GitHub,automated,2 of 27 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S2,AI Active Developers,2,count,GitHub,automated,2 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S2,AI-assisted Pull Request Coverage,7.4074,percent,GitHub,automated,2 of 27 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S2,AI Active Developers,2,count,GitHub,automated,2 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S3,AI-assisted Pull Request Coverage,8.3333,percent,GitHub,automated,2 of 24 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S3,AI Active Developers,2,count,GitHub,automated,2 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S3,AI-assisted Pull Request Coverage,8.3333,percent,GitHub,automated,2 of 24 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S3,AI Active Developers,2,count,GitHub,automated,2 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S4,AI-assisted Pull Request Coverage,15.3846,percent,GitHub,automated,4 of 26 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S4,AI Active Developers,2,count,GitHub,automated,2 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S4,AI-assisted Pull Request Coverage,15.3846,percent,GitHub,automated,4 of 26 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S4,AI Active Developers,2,count,GitHub,automated,2 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 31 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 31 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S6,AI-assisted Pull Request Coverage,7.3171,percent,GitHub,automated,3 of 41 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S6,AI Active Developers,2,count,GitHub,automated,2 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S6,AI-assisted Pull Request Coverage,7.3171,percent,GitHub,automated,3 of 41 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q1-S6,AI Active Developers,2,count,GitHub,automated,2 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S2,AI-assisted Pull Request Coverage,6.2500,percent,GitHub,automated,1 of 16 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S2,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S2,AI-assisted Pull Request Coverage,6.2500,percent,GitHub,automated,1 of 16 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S2,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S3,AI-assisted Pull Request Coverage,15.3846,percent,GitHub,automated,4 of 26 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S3,AI Active Developers,3,count,GitHub,automated,3 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S3,AI-assisted Pull Request Coverage,15.3846,percent,GitHub,automated,4 of 26 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S3,AI Active Developers,3,count,GitHub,automated,3 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S4,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,2 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S4,AI Active Developers,2,count,GitHub,automated,2 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S4,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,2 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S4,AI Active Developers,2,count,GitHub,automated,2 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S5,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,3 of 18 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S5,AI Active Developers,3,count,GitHub,automated,3 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S5,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,3 of 18 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S5,AI Active Developers,3,count,GitHub,automated,3 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S6,AI-assisted Pull Request Coverage,9.3750,percent,GitHub,automated,3 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S6,AI Active Developers,2,count,GitHub,automated,2 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S6,AI-assisted Pull Request Coverage,9.3750,percent,GitHub,automated,3 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q1-S6,AI Active Developers,2,count,GitHub,automated,2 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S1,AI-assisted Pull Request Coverage,100.0000,percent,GitHub,automated,1 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S1,AI Active Developers,1,count,GitHub,automated,1 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S1,AI-assisted Pull Request Coverage,100.0000,percent,GitHub,automated,1 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S1,AI Active Developers,1,count,GitHub,automated,1 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S2,AI-assisted Pull Request Coverage,20.0000,percent,GitHub,automated,1 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S2,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S2,AI-assisted Pull Request Coverage,20.0000,percent,GitHub,automated,1 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S2,AI Active Developers,1,count,GitHub,automated,1 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S3,AI-assisted Pull Request Coverage,20.0000,percent,GitHub,automated,1 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S3,AI Active Developers,1,count,GitHub,automated,1 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S3,AI-assisted Pull Request Coverage,20.0000,percent,GitHub,automated,1 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S3,AI Active Developers,1,count,GitHub,automated,1 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 5 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S4,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 1 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q1-S6,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 21 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S1,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S2,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S3,AI-assisted Pull Request Coverage,2.0833,percent,GitHub,automated,1 of 48 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S3,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S3,AI-assisted Pull Request Coverage,2.0833,percent,GitHub,automated,1 of 48 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S3,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S4,AI-assisted Pull Request Coverage,3.1250,percent,GitHub,automated,1 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S4,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S4,AI-assisted Pull Request Coverage,3.1250,percent,GitHub,automated,1 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S4,AI Active Developers,1,count,GitHub,automated,1 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 50 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 50 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S5,AI Active Developers,0,count,GitHub,automated,0 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S6,AI-assisted Pull Request Coverage,3.0303,percent,GitHub,automated,1 of 33 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S6,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S6,AI-assisted Pull Request Coverage,3.0303,percent,GitHub,automated,1 of 33 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q1-S6,AI Active Developers,1,count,GitHub,automated,1 of 6 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2,AI-assisted Pull Request Coverage,13.9706,percent,GitHub,automated,19 of 136 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2,AI-assisted Pull Request Coverage,8.3333,percent,GitHub,automated,6 of 72 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 83 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,7 of 49 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S1,AI Active Developers,4,count,GitHub,automated,4 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,7 of 49 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S1,AI Active Developers,4,count,GitHub,automated,4 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S2,AI-assisted Pull Request Coverage,9.3750,percent,GitHub,automated,3 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S2,AI Active Developers,3,count,GitHub,automated,3 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S2,AI-assisted Pull Request Coverage,9.3750,percent,GitHub,automated,3 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S2,AI Active Developers,3,count,GitHub,automated,3 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S3,AI-assisted Pull Request Coverage,13.8889,percent,GitHub,automated,5 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S3,AI Active Developers,3,count,GitHub,automated,3 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S3,AI-assisted Pull Request Coverage,13.8889,percent,GitHub,automated,5 of 36 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S3,AI Active Developers,3,count,GitHub,automated,3 of 8 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S4,AI-assisted Pull Request Coverage,36.3636,percent,GitHub,automated,4 of 11 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S4,AI Active Developers,3,count,GitHub,automated,3 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S4,AI-assisted Pull Request Coverage,36.3636,percent,GitHub,automated,4 of 11 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Connexpoint,2026-Q2-S4,AI Active Developers,3,count,GitHub,automated,3 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S0,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S0,AI Active Developers,1,count,GitHub,automated,1 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S1,AI-assisted Pull Request Coverage,4.1667,percent,GitHub,automated,1 of 24 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S1,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S1,AI-assisted Pull Request Coverage,4.1667,percent,GitHub,automated,1 of 24 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S1,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S2,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,2 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S2,AI Active Developers,2,count,GitHub,automated,2 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S2,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,2 of 12 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S2,AI Active Developers,2,count,GitHub,automated,2 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S3,AI-assisted Pull Request Coverage,5.5556,percent,GitHub,automated,1 of 18 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S3,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S3,AI-assisted Pull Request Coverage,5.5556,percent,GitHub,automated,1 of 18 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S3,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 9 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Team Webstore,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 4 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+ASAP,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 3 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 32 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 14 merged PRs had AI signals,2026-05-28T17:40:17.519Z
+Smartcare,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-05-28T17:40:17.519Z
+EDU,2025-Q1,AI-assisted Pull Request Coverage,1.2270,percent,GitHub,automated,4 of 326 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q1,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q2,AI-assisted Pull Request Coverage,1.8868,percent,GitHub,automated,7 of 371 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q2,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q3,AI-assisted Pull Request Coverage,2.9940,percent,GitHub,automated,15 of 501 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q3,AI Active Developers,6,count,GitHub,automated,6 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q4,AI-assisted Pull Request Coverage,1.5686,percent,GitHub,automated,8 of 510 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2025-Q4,AI Active Developers,5,count,GitHub,automated,5 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2026-Q1,AI-assisted Pull Request Coverage,5.6881,percent,GitHub,automated,31 of 545 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2026-Q1,AI Active Developers,11,count,GitHub,automated,11 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2026-Q2,AI-assisted Pull Request Coverage,8.2508,percent,GitHub,automated,25 of 303 merged PRs had AI signals (portfolio rollup),2026-05-28T17:40:17.519Z
+EDU,2026-Q2,AI Active Developers,8,count,GitHub,automated,8 of 30 members (portfolio rollup),2026-05-28T17:40:17.519Z

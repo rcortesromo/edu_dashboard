@@ -1,0 +1,13 @@
+team_name,sprint_id,sprint_name,quarter_label,velocity_points,velocity_source,last_refresh_utc
+Team Connexpoint,5141,CXP25Q2 - Sprint 1,2025-Q2,11,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,5142,CXP25Q2 - Sprint 2,2025-Q2,16,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,5143,CXP25Q2 - Sprint 3,2025-Q2,26,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,5144,CXP25Q2 - Sprint 4,2025-Q2,0,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,5145,CXP25Q2 - Sprint 5,2025-Q2,16,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,5146,CXP25Q2 - Sprint 6,2025-Q2,8,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,5702,CXP25Q2 - Sprint 0,2025-Q2,18,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Webstore,5966,WS25Q2S2 - Inexhaustible INXS,2025-Q2,38,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,6065,WS25Q2S3 - Jaded Johnny Cash,2025-Q2,20,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,6297,WS25Q2S4 - Krazy KISS,2025-Q2,39,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,6362,WS25Q2S4 - Lujoso Luis Miguel,2025-Q2,55,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,6593,WS25Q2S4-Mad Mozart,2025-Q2,31,calculated_completed_points,2026-05-28T17:32:08.329Z

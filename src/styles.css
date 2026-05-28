@@ -249,9 +249,20 @@ button {
   gap: 16px;
 }
 
-.section-heading-with-selector .period-selector {
+.section-heading-with-selector .period-toolbar {
   flex-shrink: 0;
   margin-top: 38px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.section-heading-with-selector .period-selector {
+  flex-shrink: 0;
 }
 
 .home-portfolio-wrap {
@@ -1002,4 +1013,33 @@ th {
 .recharts-tooltip-label {
   font-weight: 600 !important;
   color: var(--text-main) !important;
+}
+
+.sprint-selector {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.quarter-fallback-badge {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 8px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: rgba(109, 40, 217, 0.06);
+  border: 1px solid rgba(109, 40, 217, 0.1);
+  border-radius: 6px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.trend-chart-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  height: 280px;
 }

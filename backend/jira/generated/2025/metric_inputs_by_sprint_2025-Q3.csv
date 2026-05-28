@@ -1,14 +1,14 @@
 team_name,sprint_id,sprint_name,quarter_label,cards_committed_at_start,cards_removed_after_start,cards_reestimated_after_start,cards_sent_backward_after_start,completed_cards,completed_points,committed_completed_points,average_wip_cards,average_throughput_cards_per_sprint,data_quality_note,last_refresh_utc
-Team Connexpoint,6626,CXP25Q3 - Sprint 0,2025-Q3,95,0,0,1,16,0,0,22.7867,16,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Connexpoint,6627,CXP25Q3 - Sprint 1,2025-Q3,62,0,0,4,27,0,0,13.2833,27,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Connexpoint,6628,CXP25Q3 - Sprint 2,2025-Q3,36,0,0,3,23,0,0,10.1123,23,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Connexpoint,6629,CXP25Q3 - Sprint 3,2025-Q3,63,0,0,5,17,0,0,8.8702,17,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Connexpoint,6630,CXP25Q3 - Sprint 4,2025-Q3,22,0,0,2,15,0,0,6.5007,15,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Connexpoint,6631,CXP25Q3 - Sprint 5,2025-Q3,64,0,0,0,22,0,0,12.3201,22,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Connexpoint,6632,CXP25Q3 - Sprint 6,2025-Q3,59,0,0,2,19,0,0,11.6962,19,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Webstore,6870,WS25Q3S1-Nimble NIN,2025-Q3,29,1,8,2,16,61,53,15.691,16,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Webstore,7088,WS25Q3S2-Outstanding Otis,2025-Q3,29,1,9,6,8,22,20,14.4732,8,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Webstore,7121,WS25Q3S3 - Peaceful Pink Floyd,2025-Q3,40,0,6,8,12,55,51,20.0906,12,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Webstore,7484,WS25Q3S4-Quintessential Queen,2025-Q3,26,0,5,6,11,56,51,20.0812,11,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Webstore,7616,WS25Q3S5-Recalcitrant RATM,2025-Q3,32,2,20,7,21,57,38,22.0272,21,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
-Team Webstore,7688,WS25Q3S6-Smoky Snoop Dogg,2025-Q3,42,15,10,1,8,27,8,21.192,8,Issue was not committed at sprint start.,2026-04-28T00:04:11.491Z
+Team Connexpoint,6626,CXP25Q3 - Sprint 0,2025-Q3,95,0,0,1,16,0,0,22.7867,16,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Connexpoint,6627,CXP25Q3 - Sprint 1,2025-Q3,62,0,0,4,27,0,0,13.2833,27,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Connexpoint,6628,CXP25Q3 - Sprint 2,2025-Q3,36,0,0,3,23,0,0,10.1123,23,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Connexpoint,6629,CXP25Q3 - Sprint 3,2025-Q3,63,0,0,5,17,0,0,8.8702,17,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Connexpoint,6630,CXP25Q3 - Sprint 4,2025-Q3,22,0,0,2,15,0,0,6.5007,15,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Connexpoint,6631,CXP25Q3 - Sprint 5,2025-Q3,64,0,0,0,22,0,0,12.3201,22,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Connexpoint,6632,CXP25Q3 - Sprint 6,2025-Q3,59,0,0,2,19,0,0,11.6962,19,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Webstore,6870,WS25Q3S1-Nimble NIN,2025-Q3,29,1,8,2,16,61,53,15.691,16,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Webstore,7088,WS25Q3S2-Outstanding Otis,2025-Q3,29,1,9,6,8,22,20,14.4732,8,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Webstore,7121,WS25Q3S3 - Peaceful Pink Floyd,2025-Q3,40,0,6,8,12,55,51,20.0906,12,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Webstore,7484,WS25Q3S4-Quintessential Queen,2025-Q3,26,0,5,6,11,56,51,20.0812,11,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Webstore,7616,WS25Q3S5-Recalcitrant RATM,2025-Q3,32,2,20,7,21,57,38,22.0272,21,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team Webstore,7688,WS25Q3S6-Smoky Snoop Dogg,2025-Q3,42,15,10,1,8,27,8,21.192,8,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z

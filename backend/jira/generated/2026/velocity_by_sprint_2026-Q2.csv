@@ -1,0 +1,10 @@
+team_name,sprint_id,sprint_name,quarter_label,velocity_points,velocity_source,last_refresh_utc
+Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,0,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,49,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,12,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,9919,CXP26Q2 - Sprint 3,2026-Q2,25,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Connexpoint,9920,CXP26Q2 - Sprint 4,2026-Q2,13,velocity_issue_types,2026-05-28T17:32:08.329Z
+Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,83,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,19,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,10530,WS26Q2S3 - It Takes Two,2026-Q2,34,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team Webstore,10597,WS26Q2S4 - Jackbox,2026-Q2,0,calculated_completed_points,2026-05-28T17:32:08.329Z

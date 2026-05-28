@@ -6,6 +6,7 @@ import {
   buildPeriodOptions,
   defaultPeriodKey,
   getPeriodOption,
+  getSprintsForQuarter,
   type MetricsPayload,
 } from "./lib/metrics";
 import HomePage from "./pages/HomePage";
@@ -17,6 +18,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [selectedPeriod, setSelectedPeriod] = useState("");
+  const [selectedSprint, setSelectedSprint] = useState("");
 
   useEffect(() => {
     let cancelled = false;
@@ -65,8 +67,12 @@ function App() {
     [periodOptions, selectedPeriod],
   );
   const teamSummaries = useMemo(
-    () => buildTeamSummaries(payload, activePeriod?.key ?? selectedPeriod),
-    [activePeriod?.key, payload, selectedPeriod],
+    () => buildTeamSummaries(payload, activePeriod?.key ?? selectedPeriod, selectedSprint || undefined),
+    [activePeriod?.key, payload, selectedPeriod, selectedSprint],
+  );
+  const availableSprints = useMemo(
+    () => getSprintsForQuarter(payload, activePeriod?.key ?? selectedPeriod),
+    [payload, activePeriod?.key, selectedPeriod],
   );
 
   useEffect(() => {
@@ -79,8 +85,14 @@ function App() {
 
     if (!selectedPeriod || !periodOptions.some((period) => period.key === selectedPeriod)) {
       setSelectedPeriod(defaultPeriodKey(periodOptions));
+      setSelectedSprint("");
     }
   }, [periodOptions, selectedPeriod]);
+
+  function handleSelectPeriod(key: string) {
+    setSelectedPeriod(key);
+    setSelectedSprint("");
+  }
 
   return (
     <div className="app-shell">
@@ -95,7 +107,7 @@ function App() {
               error={error}
               periodOptions={periodOptions}
               selectedPeriod={selectedPeriod}
-              onSelectPeriod={setSelectedPeriod}
+              onSelectPeriod={handleSelectPeriod}
             />
           }
         />
@@ -108,7 +120,10 @@ function App() {
               error={error}
               periodOptions={periodOptions}
               selectedPeriod={selectedPeriod}
-              onSelectPeriod={setSelectedPeriod}
+              onSelectPeriod={handleSelectPeriod}
+              availableSprints={availableSprints}
+              selectedSprint={selectedSprint}
+              onSelectSprint={setSelectedSprint}
             />
           }
         />
