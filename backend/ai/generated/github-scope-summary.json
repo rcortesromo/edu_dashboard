@@ -1,206 +1,26 @@
 {
-  "refreshedAt": "2026-05-20T18:31:13.935Z",
+  "refreshedAt": "2026-05-28T14:24:07.956Z",
   "source": "GitHub",
   "usersTracked": 30,
   "reposConfigured": 64,
   "status": "completed",
-  "note": "Processed 64 repos, 6 quarters, 60 metric rows generated.",
+  "note": "Processed 64 repos, 1 quarter(s), 60 total row(s) (50 retained).",
   "metrics": [
     {
       "team": "Team Connexpoint",
-      "quarter": "2025-Q1",
-      "totalPrs": 82,
-      "aiPrs": 2,
-      "aiPrCoverage": 2.439,
-      "activeDevs": 8,
-      "aiActiveDevs": 2
-    },
-    {
-      "team": "Team Webstore",
-      "quarter": "2025-Q1",
-      "totalPrs": 114,
-      "aiPrs": 2,
-      "aiPrCoverage": 1.7544,
-      "activeDevs": 7,
-      "aiActiveDevs": 2
-    },
-    {
-      "team": "ASAP",
-      "quarter": "2025-Q1",
-      "totalPrs": 0,
-      "aiPrs": 0,
-      "aiPrCoverage": 0,
-      "activeDevs": 0,
-      "aiActiveDevs": 0
-    },
-    {
-      "team": "Smartcare",
-      "quarter": "2025-Q1",
-      "totalPrs": 130,
-      "aiPrs": 0,
-      "aiPrCoverage": 0,
-      "activeDevs": 5,
-      "aiActiveDevs": 0
-    },
-    {
-      "team": "Team Connexpoint",
-      "quarter": "2025-Q2",
-      "totalPrs": 134,
-      "aiPrs": 4,
-      "aiPrCoverage": 2.9851,
+      "quarter": "2026-Q2",
+      "totalPrs": 135,
+      "aiPrs": 19,
+      "aiPrCoverage": 14.0741,
       "activeDevs": 9,
-      "aiActiveDevs": 2
-    },
-    {
-      "team": "Team Webstore",
-      "quarter": "2025-Q2",
-      "totalPrs": 94,
-      "aiPrs": 2,
-      "aiPrCoverage": 2.1277,
-      "activeDevs": 6,
-      "aiActiveDevs": 1
-    },
-    {
-      "team": "ASAP",
-      "quarter": "2025-Q2",
-      "totalPrs": 9,
-      "aiPrs": 1,
-      "aiPrCoverage": 11.1111,
-      "activeDevs": 2,
-      "aiActiveDevs": 1
-    },
-    {
-      "team": "Smartcare",
-      "quarter": "2025-Q2",
-      "totalPrs": 137,
-      "aiPrs": 0,
-      "aiPrCoverage": 0,
-      "activeDevs": 6,
-      "aiActiveDevs": 0
-    },
-    {
-      "team": "Team Connexpoint",
-      "quarter": "2025-Q3",
-      "totalPrs": 171,
-      "aiPrs": 11,
-      "aiPrCoverage": 6.4327,
-      "activeDevs": 8,
-      "aiActiveDevs": 3
-    },
-    {
-      "team": "Team Webstore",
-      "quarter": "2025-Q3",
-      "totalPrs": 98,
-      "aiPrs": 1,
-      "aiPrCoverage": 1.0204,
-      "activeDevs": 6,
-      "aiActiveDevs": 1
-    },
-    {
-      "team": "ASAP",
-      "quarter": "2025-Q3",
-      "totalPrs": 27,
-      "aiPrs": 2,
-      "aiPrCoverage": 7.4074,
-      "activeDevs": 2,
-      "aiActiveDevs": 1
-    },
-    {
-      "team": "Smartcare",
-      "quarter": "2025-Q3",
-      "totalPrs": 205,
-      "aiPrs": 1,
-      "aiPrCoverage": 0.4878,
-      "activeDevs": 6,
-      "aiActiveDevs": 1
-    },
-    {
-      "team": "Team Connexpoint",
-      "quarter": "2025-Q4",
-      "totalPrs": 89,
-      "aiPrs": 7,
-      "aiPrCoverage": 7.8652,
-      "activeDevs": 9,
-      "aiActiveDevs": 4
-    },
-    {
-      "team": "Team Webstore",
-      "quarter": "2025-Q4",
-      "totalPrs": 137,
-      "aiPrs": 0,
-      "aiPrCoverage": 0,
-      "activeDevs": 7,
-      "aiActiveDevs": 0
-    },
-    {
-      "team": "ASAP",
-      "quarter": "2025-Q4",
-      "totalPrs": 22,
-      "aiPrs": 0,
-      "aiPrCoverage": 0,
-      "activeDevs": 3,
-      "aiActiveDevs": 0
-    },
-    {
-      "team": "Smartcare",
-      "quarter": "2025-Q4",
-      "totalPrs": 262,
-      "aiPrs": 1,
-      "aiPrCoverage": 0.3817,
-      "activeDevs": 6,
-      "aiActiveDevs": 1
-    },
-    {
-      "team": "Team Connexpoint",
-      "quarter": "2026-Q1",
-      "totalPrs": 171,
-      "aiPrs": 12,
-      "aiPrCoverage": 7.0175,
-      "activeDevs": 8,
-      "aiActiveDevs": 3
-    },
-    {
-      "team": "Team Webstore",
-      "quarter": "2026-Q1",
-      "totalPrs": 132,
-      "aiPrs": 13,
-      "aiPrCoverage": 9.8485,
-      "activeDevs": 8,
       "aiActiveDevs": 5
     },
     {
-      "team": "ASAP",
-      "quarter": "2026-Q1",
-      "totalPrs": 19,
-      "aiPrs": 3,
-      "aiPrCoverage": 15.7895,
-      "activeDevs": 2,
-      "aiActiveDevs": 1
-    },
-    {
-      "team": "Smartcare",
-      "quarter": "2026-Q1",
-      "totalPrs": 223,
-      "aiPrs": 3,
-      "aiPrCoverage": 1.3453,
-      "activeDevs": 6,
-      "aiActiveDevs": 2
-    },
-    {
-      "team": "Team Connexpoint",
-      "quarter": "2026-Q2",
-      "totalPrs": 126,
-      "aiPrs": 15,
-      "aiPrCoverage": 11.9048,
-      "activeDevs": 9,
-      "aiActiveDevs": 4
-    },
-    {
       "team": "Team Webstore",
       "quarter": "2026-Q2",
-      "totalPrs": 65,
+      "totalPrs": 71,
       "aiPrs": 6,
-      "aiPrCoverage": 9.2308,
+      "aiPrCoverage": 8.4507,
       "activeDevs": 8,
       "aiActiveDevs": 3
     },
@@ -216,10 +36,10 @@
     {
       "team": "Smartcare",
       "quarter": "2026-Q2",
-      "totalPrs": 71,
+      "totalPrs": 81,
       "aiPrs": 0,
       "aiPrCoverage": 0,
-      "activeDevs": 5,
+      "activeDevs": 6,
       "aiActiveDevs": 0
     }
   ]
