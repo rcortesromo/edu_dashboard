@@ -1,10 +1,10 @@
 team_name,sprint_id,sprint_name,quarter_label,cards_committed_at_start,cards_removed_after_start,cards_reestimated_after_start,cards_sent_backward_after_start,completed_cards,completed_points,committed_completed_points,average_wip_cards,average_throughput_cards_per_sprint,data_quality_note,last_refresh_utc
-Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,64,0,0,1,2,0,0,10.3966,2,Issue was not committed at sprint start.,2026-05-20T18:29:58.355Z
-Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,85,0,0,4,43,0,0,12.608,43,Issue was not committed at sprint start.,2026-05-20T18:29:58.355Z
-Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,82,0,0,1,27,0,0,16.039,27,Issue was not committed at sprint start.,2026-05-20T18:29:58.355Z
-Team Connexpoint,9919,CXP26Q2 - Sprint 3,2026-Q2,50,0,0,0,21,0,0,8.3063,21,Issue was not committed at sprint start.,2026-05-20T18:29:58.355Z
-Team Connexpoint,9920,CXP26Q2 - Sprint 4,2026-Q2,61,0,0,0,0,0,0,7,0,,2026-05-20T18:29:58.355Z
-Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,28,0,12,6,20,86,83,19.384,20,Issue was not committed at sprint start.,2026-05-20T18:29:58.355Z
-Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,31,0,9,6,7,19,19,22.3344,7,Issue was not committed at sprint start.,2026-05-20T18:29:58.355Z
-Team Webstore,10530,WS26Q2S3 - It Takes Two,2026-Q2,25,1,3,4,12,41,34,16.4057,12,Issue was not committed at sprint start.,2026-05-20T18:29:58.355Z
-Team Webstore,10597,WS26Q2S4 - Jackbox,2026-Q2,25,0,0,0,0,0,0,16.5225,0,Issue was not committed at sprint start.,2026-05-20T18:29:58.355Z
+Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,64,0,0,1,2,0,0,10.3966,2,Issue was not committed at sprint start.,2026-05-28T14:32:27.206Z
+Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,85,0,0,4,43,0,0,12.608,43,Issue was not committed at sprint start.,2026-05-28T14:32:27.206Z
+Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,82,0,0,1,27,0,0,16.039,27,Issue was not committed at sprint start.,2026-05-28T14:32:27.206Z
+Team Connexpoint,9919,CXP26Q2 - Sprint 3,2026-Q2,50,0,0,0,21,0,0,8.3063,21,Issue was not committed at sprint start.,2026-05-28T14:32:27.206Z
+Team Connexpoint,9920,CXP26Q2 - Sprint 4,2026-Q2,61,0,0,1,13,0,0,13.0304,13,Issue was not committed at sprint start.,2026-05-28T14:32:27.206Z
+Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,28,0,12,6,20,86,83,19.384,20,Issue was not committed at sprint start.,2026-05-28T14:32:27.206Z
+Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,31,0,9,6,7,19,19,22.3344,7,Issue was not committed at sprint start.,2026-05-28T14:32:27.206Z
+Team Webstore,10530,WS26Q2S3 - It Takes Two,2026-Q2,25,1,3,4,12,41,34,16.4057,12,Issue was not committed at sprint start.,2026-05-28T14:32:27.206Z
+Team Webstore,10597,WS26Q2S4 - Jackbox,2026-Q2,25,0,0,0,0,0,0,18.9942,0,Issue was not committed at sprint start.,2026-05-28T14:32:27.206Z
