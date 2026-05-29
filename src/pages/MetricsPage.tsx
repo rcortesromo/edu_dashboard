@@ -88,6 +88,7 @@ function MetricsPage({
                   <div className="team-metrics">
                     {team.metrics.map((metric, index) => {
                       const isQuarterFallback = selectedSprint && "_quarterFallback" in metric;
+                      const isNoBugsInPeriod = Boolean(selectedSprint) && "_noBugsInPeriod" in metric;
                       const kickerLabel = activePeriod?.kind === "ytd"
                         ? "YTD"
                         : selectedSprint
@@ -107,6 +108,14 @@ function MetricsPage({
                             <p className="team-metric-name">{metric.metricName}</p>
                             {isQuarterFallback && (
                               <span className="quarter-fallback-badge">Quarter-level data</span>
+                            )}
+                            {isNoBugsInPeriod && (
+                              <span
+                                className="no-data-badge"
+                                title="No bugs logged in this period"
+                              >
+                                No bugs logged in this period
+                              </span>
                             )}
                           </div>
 

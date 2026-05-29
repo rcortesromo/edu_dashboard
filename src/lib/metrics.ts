@@ -52,6 +52,8 @@ export type PeriodOption = {
 export const metricDescriptions: Record<string, string> = {
   "Jira Card Churn %":
     "Share of sprint-committed work that left the plan, was re-pointed, or moved backward after sprint start.",
+  "Defect Leakage %":
+    "Share of high-severity bugs (Severity Level 1 and 2) out of all logged bugs plus reopens for the team.",
   "Average Velocity (points per sprint)":
     "Average completed story points per sprint across the period for the team.",
   "Flow-based Cycle Time Proxy (weeks)":
@@ -68,6 +70,7 @@ export const metricDescriptions: Record<string, string> = {
 
 export const metricDisplayOrder = [
   "Jira Card Churn %",
+  "Defect Leakage %",
   "Average Velocity (points per sprint)",
   "Flow-based Cycle Time Proxy (weeks)",
   "Actual Cycle Time (weeks)",
@@ -236,28 +239,36 @@ export function formatDateRange(start: string, end: string): string {
   return `${sMonth} ${sDay} \u2013 ${eMonth} ${eDay}`;
 }
 
+// Team Connexpoint (CXP) is the single official sprint calendar. The sprint axis is defined
+// strictly by CXP's sprints; every team's data is bucketed into these periods. Sprint 0 is
+// intentionally excluded.
+export const officialCalendarTeam = "Team Connexpoint";
+const excludedSprintSequences = new Set<number>([0]);
+
 export function getSprintsForQuarter(
   payload: MetricsPayload | null,
   quarterKey: string,
 ): SprintInfo[] {
   if (!payload?.sprintCalendar) return [];
 
-  const allSprints: SprintInfo[] = [];
-  const seenKeys = new Set<string>();
+  const officialSprints = payload.sprintCalendar[officialCalendarTeam]?.[quarterKey] ?? [];
+  const byKey = new Map<string, SprintInfo>();
 
-  for (const teamSprints of Object.values(payload.sprintCalendar)) {
-    const quarterSprints = teamSprints[quarterKey];
-    if (!quarterSprints) continue;
+  for (const sprint of officialSprints) {
+    if (excludedSprintSequences.has(sprint.sequence)) continue;
 
-    for (const sprint of quarterSprints) {
-      if (!seenKeys.has(sprint.key)) {
-        seenKeys.add(sprint.key);
-        allSprints.push(sprint);
-      }
+    const existing = byKey.get(sprint.key);
+    if (!existing) {
+      byKey.set(sprint.key, { ...sprint });
+      continue;
     }
+    // Same key appearing more than once (e.g. mislabeled sprints in Jira): merge into one window
+    // spanning the earliest start to the latest end so no part of the period is dropped.
+    if (sprint.start < existing.start) existing.start = sprint.start;
+    if (sprint.end > existing.end) existing.end = sprint.end;
   }
 
-  return allSprints.sort((a, b) => a.sequence - b.sequence);
+  return [...byKey.values()].sort((a, b) => a.sequence - b.sequence);
 }
 
 export function formatMetricValue(metric: MetricRecord) {
@@ -312,7 +323,14 @@ export function buildTeamSummaries(payload: MetricsPayload | null, periodKey: st
       const sprintMetricNames = new Set(sprintMetrics.map((m) => m.metricName));
       const fallbackMetrics = quarterMetrics
         .filter((m) => !sprintMetricNames.has(m.metricName))
-        .map((m) => ({ ...m, _quarterFallback: true as const }));
+        .map((m) => {
+          // Defect Leakage only emits a sprint row when bugs were logged in that sprint window.
+          // No row means zero bugs, so show 0% with a "no bugs" flag instead of the quarter value.
+          if (m.metricName === "Defect Leakage %") {
+            return { ...m, value: 0, quarter: sprintKey, _noBugsInPeriod: true as const };
+          }
+          return { ...m, _quarterFallback: true as const };
+        });
       teamMetrics = [...sprintMetrics, ...fallbackMetrics];
     } else {
       teamMetrics = quarterMetrics;

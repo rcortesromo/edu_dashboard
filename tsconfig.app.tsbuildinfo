@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/components/periodselector.tsx","./src/components/portfoliorollup.tsx","./src/components/topbar.tsx","./src/lib/metrics.ts","./src/pages/homepage.tsx","./src/pages/metricspage.tsx"],"version":"5.9.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/periodselector.tsx","./src/components/portfoliorollup.tsx","./src/components/sprintselector.tsx","./src/components/topbar.tsx","./src/lib/metrics.ts","./src/pages/homepage.tsx","./src/pages/metricspage.tsx","./src/pages/trendspage.tsx"],"version":"5.9.3"}

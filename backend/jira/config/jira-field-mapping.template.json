@@ -5,6 +5,7 @@
     "sprintFieldId": "customfield_10020",
     "teamFieldId": "customfield_10032",
     "storyPointsFieldId": "customfield_10043",
+    "severityFieldId": "customfield_10121",
     "statusFieldName": "status",
     "issueTypeFieldName": "issuetype"
   },
@@ -58,5 +59,19 @@
         "endValue": "Done"
       }
     }
-  ]
+  ],
+  "defectLeakage": {
+    "issueType": "Bug",
+    "projectKeys": ["OV"],
+    "createdFrom": "2025-01-01",
+    "severityNumeratorLevels": ["Level 1", "Level 2"],
+    "reopenedStatusNames": ["Reopened"],
+    "portfolioTeamName": "EDU",
+    "teams": [
+      { "jiraTeamName": "Team Connexpoint", "outputTeamName": "Team Connexpoint" },
+      { "jiraTeamName": "Team Webstore", "outputTeamName": "Team Webstore" },
+      { "jiraTeamName": "Team ASAP", "outputTeamName": "ASAP" },
+      { "jiraTeamName": "Team Smartcare", "outputTeamName": "Smartcare" }
+    ]
+  }
 }

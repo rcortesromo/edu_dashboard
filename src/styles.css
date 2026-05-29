@@ -1035,6 +1035,20 @@ th {
   text-transform: uppercase;
 }
 
+.no-data-badge {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 8px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: rgba(100, 116, 139, 0.08);
+  border: 1px solid rgba(100, 116, 139, 0.16);
+  border-radius: 6px;
+  letter-spacing: 0.02em;
+  cursor: help;
+}
+
 .trend-chart-empty {
   display: flex;
   align-items: center;

@@ -34,12 +34,75 @@ function hasArg(argv, name) {
   return argv.some((entry) => entry === name || entry.startsWith(`${name}=`));
 }
 
+function getArgValue(argv, name) {
+  for (let index = 0; index < argv.length; index += 1) {
+    const entry = argv[index];
+    if (entry === name) {
+      return argv[index + 1] ?? "";
+    }
+    if (entry.startsWith(`${name}=`)) {
+      return entry.slice(`${name}=`.length);
+    }
+  }
+  return "";
+}
+
+function stripArg(argv, name) {
+  const result = [];
+  for (let index = 0; index < argv.length; index += 1) {
+    const entry = argv[index];
+    if (entry === name) {
+      index += 1; // also drop the value token
+      continue;
+    }
+    if (entry.startsWith(`${name}=`)) {
+      continue;
+    }
+    result.push(entry);
+  }
+  return result;
+}
+
+// Sources that support being run in isolation via `--only <source>`.
+const ONLY_SOURCES = {
+  "defect-leakage": "jira/pull-defect-leakage.mjs",
+};
+
 async function main() {
-  const pullArgs = process.argv.slice(2);
+  const rawArgs = process.argv.slice(2);
+  const onlySource = getArgValue(rawArgs, "--only");
+
+  if (onlySource) {
+    const scriptRelPath = ONLY_SOURCES[onlySource];
+    if (!scriptRelPath) {
+      throw new Error(
+        `Unknown --only source "${onlySource}". Supported: ${Object.keys(ONLY_SOURCES).join(", ")}.`,
+      );
+    }
+
+    const forwardedArgs = stripArg(rawArgs, "--only");
+    await runNodeScript(path.join(__dirname, scriptRelPath), forwardedArgs);
+    await runNodeScript(path.join(__dirname, "published/merge-metric-sources.mjs"));
+    await runNodeScript(path.join(__dirname, "published/export-metrics-json.mjs"), [
+      generatedCsvPath,
+      generatedJsonPath,
+    ]);
+
+    await fs.mkdir(path.dirname(publicJsonPath), { recursive: true });
+    await fs.copyFile(generatedJsonPath, publicJsonPath);
+
+    console.log(
+      JSON.stringify({ only: onlySource, generatedJsonPath, publicJsonPath }, null, 2),
+    );
+    return;
+  }
+
+  const pullArgs = rawArgs;
   const isTeamScoped = hasArg(pullArgs, "--team");
 
   await runNodeScript(path.join(__dirname, "jira/pull-quarterly-metrics.mjs"), pullArgs);
   await runNodeScript(path.join(__dirname, "jira/compute-sprint-level-metrics.mjs"));
+  await runNodeScript(path.join(__dirname, "jira/pull-defect-leakage.mjs"), pullArgs);
 
   if (!isTeamScoped) {
     await runNodeScript(path.join(__dirname, "ai/pull-adoption-metrics.mjs"), pullArgs);

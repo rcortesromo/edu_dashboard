@@ -12,6 +12,7 @@
     "pull:ai-adoption-metrics": "node scripts/ai/pull-adoption-metrics.mjs",
     "pull:cursor-metrics": "node scripts/cursor/pull-cursor-metrics.mjs",
     "pull:jira-quarterly-metrics": "node scripts/jira/pull-quarterly-metrics.mjs",
+    "pull:defect-leakage": "node scripts/jira/pull-defect-leakage.mjs",
     "refresh:static-metrics": "node scripts/published/refresh-static-metrics.mjs"
   },
   "dependencies": {

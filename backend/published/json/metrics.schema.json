@@ -85,6 +85,7 @@
             "type": "string",
             "enum": [
               "Jira Card Churn %",
+              "Defect Leakage %",
               "Average Velocity (points per sprint)",
               "Flow-based Cycle Time Proxy (weeks)",
               "Actual Cycle Time (weeks)",

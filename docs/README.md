@@ -33,6 +33,7 @@ npm run refresh:static-metrics
 By default, each script picks up where it left off:
 
 - **Jira**: re-fetches the current quarter only; older quarters are preserved in the CSV.
+- **Defect Leakage**: re-fetches the current quarter only; merges by team + period so prior history is preserved.
 - **GitHub AI**: reads the existing CSV, finds the latest quarter, re-fetches from that quarter onward.
 - **Cursor**: same as GitHub AI -- re-fetches from the latest existing quarter onward.
 
@@ -55,6 +56,20 @@ This is useful for quick mid-sprint checks or when fixing data for a single team
 ```bash
 npm run refresh:static-metrics -- --team "Team Connexpoint" --quarter 2026-Q1
 ```
+
+### Defect Leakage-only refresh
+
+Pass `--only defect-leakage` to update just the Defect Leakage metric (Jira bugs in project OV for CXP, Revtrak, ASAP, and Smartcare). All other pulls (Jira quarterly, sprint compute, AI, Cursor) are skipped; only the Defect Leakage pull runs, followed by merge + export + copy to `public/data`.
+
+```bash
+# Update only Defect Leakage (current quarter, incremental)
+npm run refresh:static-metrics -- --only defect-leakage
+
+# One-time backfill from 2025 to today (already executed)
+npm run refresh:static-metrics -- --only defect-leakage --from-year 2025
+```
+
+Defect Leakage is also produced automatically as part of the default `npm run refresh:static-metrics`. It stays incremental (current quarter by default) and merges by team + period, so prior history is preserved. The first-time backfill above seeds the full 2025-to-today history.
 
 ### Full refresh (all quarters from scratch)
 
@@ -85,6 +100,7 @@ Then copy to public: `cp backend/published/json/metrics.generated.json public/da
 | `--from-year` | `-- --from-year 2025` | All quarters from the specified year |
 | `--quarter` | `-- --quarter 2026-Q1` | One specific quarter |
 | `--team` | `-- --team "Team Connexpoint"` | Scope to a single team (preserves other teams' data) |
+| `--only` | `-- --only defect-leakage` | Run only that source's pull + merge + export (skips all other pulls) |
 
 ### AI & Cursor flags
 
