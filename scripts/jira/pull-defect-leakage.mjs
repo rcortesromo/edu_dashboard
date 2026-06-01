@@ -16,9 +16,18 @@ const combinedCalendarPath = path.join(generatedDir, "sprint_calendar_combined.c
 
 const METRIC_NAME = "Defect Leakage %";
 const METRIC_UNIT = "percent";
+const SEV1_METRIC_NAME = "Sev 1 Bugs";
+const SEV2_METRIC_NAME = "Sev 2 Bugs";
+const SEV_HIGH_METRIC_NAME = "Sev 1 + Sev 2 Bugs";
+const COUNT_UNIT = "count";
 const SOURCE_SYSTEM = "Jira";
 const COVERAGE_STATUS = "Yes (partial)";
 const DEFAULT_PORTFOLIO = "EDU";
+
+// Severity-count metric names share the defect leakage export. Used when deciding which prior rows
+// to drop on incremental/quarter-scoped runs.
+const SEV_COUNT_METRIC_NAMES = new Set([SEV1_METRIC_NAME, SEV2_METRIC_NAME, SEV_HIGH_METRIC_NAME]);
+const ALL_METRIC_NAMES = new Set([METRIC_NAME, ...SEV_COUNT_METRIC_NAMES]);
 
 const sprintPeriodPattern = /^\d{4}-Q[1-4]-S\d+$/;
 
@@ -38,6 +47,8 @@ const countsHeaders = [
   "team_name",
   "quarter_label",
   "sev_high",
+  "sev1",
+  "sev2",
   "total_bugs",
   "reopened_distinct",
   "last_refresh_utc",
@@ -454,6 +465,28 @@ function noteFor(period, sevHigh, totalBugs, reopenedDistinct) {
   return `${period}: ${sevHigh} sev L1+L2 / (${totalBugs} bugs + ${reopenedDistinct} reopened).`;
 }
 
+function noteForCounts(period, sev1, sev2) {
+  return `${period}: ${sev1} Sev 1 + ${sev2} Sev 2 bug(s).`;
+}
+
+// Emit the three severity-count metric rows (Sev 1, Sev 2, and the combined) for one team/period.
+function countRowsFor(team, periodLabel, sev1, sev2, lastRefresh, notePrefix = "") {
+  const base = {
+    team_name: team,
+    quarter_label: periodLabel,
+    metric_unit: COUNT_UNIT,
+    source_system: SOURCE_SYSTEM,
+    coverage_status: COVERAGE_STATUS,
+    note: `${notePrefix}${noteForCounts(periodLabel, sev1, sev2)}`,
+    last_refresh_utc: lastRefresh,
+  };
+  return [
+    { ...base, metric_name: SEV1_METRIC_NAME, metric_value: String(sev1) },
+    { ...base, metric_name: SEV2_METRIC_NAME, metric_value: String(sev2) },
+    { ...base, metric_name: SEV_HIGH_METRIC_NAME, metric_value: String(sev1 + sev2) },
+  ];
+}
+
 async function main() {
   const argv = process.argv.slice(2);
   const env = parseEnv(await fs.readFile(envPath, "utf8"));
@@ -471,9 +504,9 @@ async function main() {
   const projectKeys = leakageConfig.projectKeys ?? ["OV"];
   const issueType = leakageConfig.issueType ?? "Bug";
   const portfolioTeamName = leakageConfig.portfolioTeamName ?? DEFAULT_PORTFOLIO;
-  const numeratorLevels = new Set(
-    (leakageConfig.severityNumeratorLevels ?? ["Level 1", "Level 2"]).map((level) => normalizeName(level)),
-  );
+  const numeratorLevelList = leakageConfig.severityNumeratorLevels ?? ["Level 1", "Level 2"];
+  const sev1Level = normalizeName(numeratorLevelList[0]);
+  const sev2Level = normalizeName(numeratorLevelList[1]);
   const reopenedStatusNames = new Set(
     (leakageConfig.reopenedStatusNames ?? ["Reopened"]).map((name) => normalizeName(name)),
   );
@@ -525,13 +558,20 @@ async function main() {
   // sprintCounts: Map<outputTeam, Map<sprintKey, { sevHigh, total, reopened }>>
   const sprintCounts = new Map();
 
-  function bump(map, team, period, isHigh, isReopened) {
+  function bump(map, team, period, isSev1, isSev2, isReopened) {
     if (!map.has(team)) map.set(team, new Map());
     const periodMap = map.get(team);
-    if (!periodMap.has(period)) periodMap.set(period, { sevHigh: 0, total: 0, reopened: 0 });
+    if (!periodMap.has(period)) periodMap.set(period, { sevHigh: 0, sev1: 0, sev2: 0, total: 0, reopened: 0 });
     const bucket = periodMap.get(period);
     bucket.total += 1;
-    if (isHigh) bucket.sevHigh += 1;
+    if (isSev1) {
+      bucket.sev1 += 1;
+      bucket.sevHigh += 1;
+    }
+    if (isSev2) {
+      bucket.sev2 += 1;
+      bucket.sevHigh += 1;
+    }
     if (isReopened) bucket.reopened += 1;
   }
 
@@ -551,7 +591,8 @@ async function main() {
     scopedBugCount += 1;
 
     const severity = normalizeName(severityValue(issue.fields?.[severityFieldId]));
-    const isHigh = numeratorLevels.has(severity);
+    const isSev1 = severity === sev1Level;
+    const isSev2 = severity === sev2Level;
 
     // Reopen detection: any status transition into a configured reopened status.
     let isReopened = false;
@@ -567,11 +608,11 @@ async function main() {
     }
 
     const outputTeam = team.outputTeamName;
-    bump(quarterCounts, outputTeam, quarterWindow.label, isHigh, isReopened);
+    bump(quarterCounts, outputTeam, quarterWindow.label, isSev1, isSev2, isReopened);
 
     const sprint = findCanonicalSprint(canonicalWindows, quarterWindow.label, created);
     if (sprint) {
-      bump(sprintCounts, outputTeam, sprint.key, isHigh, isReopened);
+      bump(sprintCounts, outputTeam, sprint.key, isSev1, isSev2, isReopened);
     }
   }
 
@@ -593,6 +634,8 @@ async function main() {
         team_name: team,
         quarter_label: quarterLabel,
         sev_high: String(bucket.sevHigh),
+        sev1: String(bucket.sev1),
+        sev2: String(bucket.sev2),
         total_bugs: String(bucket.total),
         reopened_distinct: String(bucket.reopened),
         last_refresh_utc: refreshTimestamp,
@@ -611,6 +654,8 @@ async function main() {
     if (!ledger.has(row.team_name)) ledger.set(row.team_name, new Map());
     ledger.get(row.team_name).set(row.quarter_label, {
       sevHigh: Number(row.sev_high) || 0,
+      sev1: Number(row.sev1) || 0,
+      sev2: Number(row.sev2) || 0,
       total: Number(row.total_bugs) || 0,
       reopened: Number(row.reopened_distinct) || 0,
       lastRefresh: row.last_refresh_utc || refreshTimestamp,
@@ -639,25 +684,36 @@ async function main() {
         });
       }
 
+      // Severity counts are emitted for every quarter present in the ledger (0 is meaningful).
+      quarterAndYtdRows.push(
+        ...countRowsFor(team, quarterLabel, bucket.sev1, bucket.sev2, bucket.lastRefresh),
+      );
+
       const year = Number(quarterLabel.slice(0, 4));
       const ytdKey = `${team}::${year}`;
-      if (!ytdByYearTeam.has(ytdKey)) ytdByYearTeam.set(ytdKey, { sevHigh: 0, total: 0, reopened: 0, year });
+      if (!ytdByYearTeam.has(ytdKey)) ytdByYearTeam.set(ytdKey, { sevHigh: 0, sev1: 0, sev2: 0, total: 0, reopened: 0, year });
       const ytdAgg = ytdByYearTeam.get(ytdKey);
       ytdAgg.sevHigh += bucket.sevHigh;
+      ytdAgg.sev1 += bucket.sev1;
+      ytdAgg.sev2 += bucket.sev2;
       ytdAgg.total += bucket.total;
       ytdAgg.reopened += bucket.reopened;
 
       if (!quarterPortfolio.has(quarterLabel)) {
-        quarterPortfolio.set(quarterLabel, { sevHigh: 0, total: 0, reopened: 0 });
+        quarterPortfolio.set(quarterLabel, { sevHigh: 0, sev1: 0, sev2: 0, total: 0, reopened: 0 });
       }
       const portfolioQuarter = quarterPortfolio.get(quarterLabel);
       portfolioQuarter.sevHigh += bucket.sevHigh;
+      portfolioQuarter.sev1 += bucket.sev1;
+      portfolioQuarter.sev2 += bucket.sev2;
       portfolioQuarter.total += bucket.total;
       portfolioQuarter.reopened += bucket.reopened;
 
-      if (!ytdByYearPortfolio.has(year)) ytdByYearPortfolio.set(year, { sevHigh: 0, total: 0, reopened: 0 });
+      if (!ytdByYearPortfolio.has(year)) ytdByYearPortfolio.set(year, { sevHigh: 0, sev1: 0, sev2: 0, total: 0, reopened: 0 });
       const portfolioYtd = ytdByYearPortfolio.get(year);
       portfolioYtd.sevHigh += bucket.sevHigh;
+      portfolioYtd.sev1 += bucket.sev1;
+      portfolioYtd.sev2 += bucket.sev2;
       portfolioYtd.total += bucket.total;
       portfolioYtd.reopened += bucket.reopened;
     }
@@ -665,51 +721,63 @@ async function main() {
 
   for (const [key, agg] of ytdByYearTeam.entries()) {
     const team = key.split("::")[0];
+    const ytdLabel = `${agg.year}-YTD`;
     const value = ratioPct(agg.sevHigh, agg.total, agg.reopened);
-    if (value === null) continue;
-    quarterAndYtdRows.push({
-      team_name: team,
-      quarter_label: `${agg.year}-YTD`,
-      metric_name: METRIC_NAME,
-      metric_value: String(round(value)),
-      metric_unit: METRIC_UNIT,
-      source_system: SOURCE_SYSTEM,
-      coverage_status: COVERAGE_STATUS,
-      note: noteFor(`${agg.year}-YTD`, agg.sevHigh, agg.total, agg.reopened),
-      last_refresh_utc: refreshTimestamp,
-    });
+    if (value !== null) {
+      quarterAndYtdRows.push({
+        team_name: team,
+        quarter_label: ytdLabel,
+        metric_name: METRIC_NAME,
+        metric_value: String(round(value)),
+        metric_unit: METRIC_UNIT,
+        source_system: SOURCE_SYSTEM,
+        coverage_status: COVERAGE_STATUS,
+        note: noteFor(ytdLabel, agg.sevHigh, agg.total, agg.reopened),
+        last_refresh_utc: refreshTimestamp,
+      });
+    }
+    quarterAndYtdRows.push(...countRowsFor(team, ytdLabel, agg.sev1, agg.sev2, refreshTimestamp));
   }
 
   for (const [quarterLabel, agg] of quarterPortfolio.entries()) {
     const value = ratioPct(agg.sevHigh, agg.total, agg.reopened);
-    if (value === null) continue;
-    quarterAndYtdRows.push({
-      team_name: portfolioTeamName,
-      quarter_label: quarterLabel,
-      metric_name: METRIC_NAME,
-      metric_value: String(round(value)),
-      metric_unit: METRIC_UNIT,
-      source_system: SOURCE_SYSTEM,
-      coverage_status: COVERAGE_STATUS,
-      note: `Portfolio rollup. ${noteFor(quarterLabel, agg.sevHigh, agg.total, agg.reopened)}`,
-      last_refresh_utc: refreshTimestamp,
-    });
+    if (value !== null) {
+      quarterAndYtdRows.push({
+        team_name: portfolioTeamName,
+        quarter_label: quarterLabel,
+        metric_name: METRIC_NAME,
+        metric_value: String(round(value)),
+        metric_unit: METRIC_UNIT,
+        source_system: SOURCE_SYSTEM,
+        coverage_status: COVERAGE_STATUS,
+        note: `Portfolio rollup. ${noteFor(quarterLabel, agg.sevHigh, agg.total, agg.reopened)}`,
+        last_refresh_utc: refreshTimestamp,
+      });
+    }
+    quarterAndYtdRows.push(
+      ...countRowsFor(portfolioTeamName, quarterLabel, agg.sev1, agg.sev2, refreshTimestamp, "Portfolio rollup. "),
+    );
   }
 
   for (const [year, agg] of ytdByYearPortfolio.entries()) {
+    const ytdLabel = `${year}-YTD`;
     const value = ratioPct(agg.sevHigh, agg.total, agg.reopened);
-    if (value === null) continue;
-    quarterAndYtdRows.push({
-      team_name: portfolioTeamName,
-      quarter_label: `${year}-YTD`,
-      metric_name: METRIC_NAME,
-      metric_value: String(round(value)),
-      metric_unit: METRIC_UNIT,
-      source_system: SOURCE_SYSTEM,
-      coverage_status: COVERAGE_STATUS,
-      note: `Portfolio rollup. ${noteFor(`${year}-YTD`, agg.sevHigh, agg.total, agg.reopened)}`,
-      last_refresh_utc: refreshTimestamp,
-    });
+    if (value !== null) {
+      quarterAndYtdRows.push({
+        team_name: portfolioTeamName,
+        quarter_label: ytdLabel,
+        metric_name: METRIC_NAME,
+        metric_value: String(round(value)),
+        metric_unit: METRIC_UNIT,
+        source_system: SOURCE_SYSTEM,
+        coverage_status: COVERAGE_STATUS,
+        note: `Portfolio rollup. ${noteFor(ytdLabel, agg.sevHigh, agg.total, agg.reopened)}`,
+        last_refresh_utc: refreshTimestamp,
+      });
+    }
+    quarterAndYtdRows.push(
+      ...countRowsFor(portfolioTeamName, ytdLabel, agg.sev1, agg.sev2, refreshTimestamp, "Portfolio rollup. "),
+    );
   }
 
   // --- sprint-level rows: recomputed for processed quarters, others preserved ---
@@ -717,18 +785,22 @@ async function main() {
   for (const [team, periodMap] of sprintCounts.entries()) {
     for (const [sprintKey, bucket] of periodMap.entries()) {
       const value = ratioPct(bucket.sevHigh, bucket.total, bucket.reopened);
-      if (value === null) continue;
-      freshSprintRows.push({
-        team_name: team,
-        quarter_label: sprintKey,
-        metric_name: METRIC_NAME,
-        metric_value: String(round(value)),
-        metric_unit: METRIC_UNIT,
-        source_system: SOURCE_SYSTEM,
-        coverage_status: COVERAGE_STATUS,
-        note: noteFor(sprintKey, bucket.sevHigh, bucket.total, bucket.reopened),
-        last_refresh_utc: refreshTimestamp,
-      });
+      if (value !== null) {
+        freshSprintRows.push({
+          team_name: team,
+          quarter_label: sprintKey,
+          metric_name: METRIC_NAME,
+          metric_value: String(round(value)),
+          metric_unit: METRIC_UNIT,
+          source_system: SOURCE_SYSTEM,
+          coverage_status: COVERAGE_STATUS,
+          note: noteFor(sprintKey, bucket.sevHigh, bucket.total, bucket.reopened),
+          last_refresh_utc: refreshTimestamp,
+        });
+      }
+      freshSprintRows.push(
+        ...countRowsFor(team, sprintKey, bucket.sev1, bucket.sev2, refreshTimestamp),
+      );
     }
   }
 
@@ -752,7 +824,7 @@ async function main() {
     ? existingExport.filter(
         (row) =>
           !sprintPeriodPattern.test(row.quarter_label) &&
-          row.metric_name === METRIC_NAME &&
+          ALL_METRIC_NAMES.has(row.metric_name) &&
           !processedOutputTeams.has(normalizeName(row.team_name)) &&
           normalizeName(row.team_name) !== normalizeName(portfolioTeamName),
       )

@@ -1,0 +1,12 @@
+metric_name,metric_value,metric_unit,billing_cycle,source_system,coverage_status,note,last_refresh_utc
+Clients identified,2230,count,2026-05-03..2026-06-03,Feathery,automated,Feathery workspaces,2026-06-01T16:27:46.733Z
+Submissions,61282,count,2026-05-03..2026-06-03,Feathery,automated,Current billing cycle,2026-06-01T16:27:46.733Z
+Total forms,36974,count,2026-05-03..2026-06-03,Feathery,automated,,2026-06-01T16:27:46.733Z
+Active forms,4459,count,2026-05-03..2026-06-03,Feathery,automated,,2026-06-01T16:27:46.733Z
+Inactive forms,32515,count,2026-05-03..2026-06-03,Feathery,automated,,2026-06-01T16:27:46.733Z
+Forms with multiple steps,1741,count,2026-05-03..2026-06-03,Feathery,automated,step_count > 1,2026-06-01T16:27:46.733Z
+Forms with eSignature,640,count,2026-05-03..2026-06-03,Feathery,automated,signature field,2026-06-01T16:27:46.733Z
+Forms with upload,75,count,2026-05-03..2026-06-03,Feathery,automated,file_upload field,2026-06-01T16:27:46.733Z
+Forms with payments embedded,0,count,2026-05-03..2026-06-03,Feathery,automated,payment_method field,2026-06-01T16:27:46.733Z
+Forms without payments,36974,count,2026-05-03..2026-06-03,Feathery,automated,,2026-06-01T16:27:46.733Z
+Checkouts,,count,2026-05-03..2026-06-03,Feathery,unavailable,Not exposed by report endpoints,2026-06-01T16:27:46.733Z

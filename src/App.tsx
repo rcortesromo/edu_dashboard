@@ -12,6 +12,8 @@ import {
 import HomePage from "./pages/HomePage";
 import MetricsPage from "./pages/MetricsPage";
 import TrendsPage from "./pages/TrendsPage";
+import ProductsPage from "./pages/ProductsPage";
+import ProductTrendsPage from "./pages/ProductTrendsPage";
 
 function App() {
   const [payload, setPayload] = useState<MetricsPayload | null>(null);
@@ -136,6 +138,13 @@ function App() {
               error={error}
             />
           }
+        />
+        <Route path="/business-metrics/feathery" element={<ProductsPage />} />
+        <Route path="/business-metrics/feathery/trends" element={<ProductTrendsPage />} />
+        <Route path="/products" element={<Navigate to="/business-metrics/feathery" replace />} />
+        <Route
+          path="/products/trends"
+          element={<Navigate to="/business-metrics/feathery/trends" replace />}
         />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

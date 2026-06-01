@@ -1,0 +1,187 @@
+import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
+import {
+  buildSummaryMetrics,
+  formatNumber,
+  useFeatheryProducts,
+  type FeatheryClient,
+} from "../lib/feathery";
+
+type SortKey = keyof Pick<
+  FeatheryClient,
+  | "name"
+  | "totalForms"
+  | "activeForms"
+  | "inactiveForms"
+  | "multiStepForms"
+  | "formsWithPayments"
+  | "formsWithESignature"
+  | "formsWithUpload"
+  | "submissions"
+>;
+
+type SortDir = "asc" | "desc";
+
+const COLUMNS: { key: SortKey; label: string }[] = [
+  { key: "name", label: "Client" },
+  { key: "totalForms", label: "Forms" },
+  { key: "activeForms", label: "Active" },
+  { key: "inactiveForms", label: "Inactive" },
+  { key: "multiStepForms", label: "Multi-step" },
+  { key: "formsWithPayments", label: "Payments" },
+  { key: "formsWithESignature", label: "eSignature" },
+  { key: "formsWithUpload", label: "Upload" },
+  { key: "submissions", label: "Submissions" },
+];
+
+function ProductsPage() {
+  const { payload, loading, error } = useFeatheryProducts();
+  const [query, setQuery] = useState("");
+  const [sortKey, setSortKey] = useState<SortKey>("totalForms");
+  const [sortDir, setSortDir] = useState<SortDir>("desc");
+
+  const summaryMetrics = useMemo(
+    () => (payload ? buildSummaryMetrics(payload.totals) : []),
+    [payload],
+  );
+
+  const visibleClients = useMemo(() => {
+    if (!payload) return [];
+    const normalized = query.trim().toLowerCase();
+    const filtered = normalized
+      ? payload.clients.filter((client) => client.name?.toLowerCase().includes(normalized))
+      : payload.clients;
+
+    const sorted = [...filtered].sort((a, b) => {
+      const aValue = a[sortKey];
+      const bValue = b[sortKey];
+
+      if (typeof aValue === "string" || typeof bValue === "string") {
+        const cmp = String(aValue ?? "").localeCompare(String(bValue ?? ""));
+        return sortDir === "asc" ? cmp : -cmp;
+      }
+
+      const cmp = (Number(aValue) || 0) - (Number(bValue) || 0);
+      return sortDir === "asc" ? cmp : -cmp;
+    });
+
+    return sorted;
+  }, [payload, query, sortKey, sortDir]);
+
+  function handleSort(key: SortKey) {
+    if (key === sortKey) {
+      setSortDir((dir) => (dir === "asc" ? "desc" : "asc"));
+    } else {
+      setSortKey(key);
+      setSortDir(key === "name" ? "asc" : "desc");
+    }
+  }
+
+  const billingLabel =
+    payload?.billingCycle?.start && payload?.billingCycle?.end
+      ? `${payload.billingCycle.start} to ${payload.billingCycle.end}`
+      : null;
+
+  return (
+    <main className="content-shell products-shell">
+      <section className="panel">
+        <div className="section-heading section-heading-with-selector">
+          <div>
+            <span className="hero-tag">Products</span>
+            <h2>Feathery usage overview</h2>
+            <p>
+              Form and submission usage across all Feathery workspaces (clients).
+              {billingLabel ? ` Submissions reflect the current billing cycle (${billingLabel}).` : ""}
+            </p>
+          </div>
+          <div className="period-toolbar">
+            <Link to="/business-metrics/feathery/trends" className="primary-action">
+              View charts
+            </Link>
+          </div>
+        </div>
+
+        {loading ? <div className="state-card">Loading Feathery products feed.</div> : null}
+        {!loading && error ? <div className="state-card state-card-error">{error}</div> : null}
+
+        {!loading && !error && payload ? (
+          <>
+            <div className="kpi-grid products-kpi-grid">
+              {summaryMetrics.map((metric) => (
+                <article key={metric.label} className="kpi-card">
+                  <span className="kpi-label" title={metric.note}>
+                    {metric.label}
+                  </span>
+                  <strong>{formatNumber(metric.value)}</strong>
+                  {metric.note ? <span className="kpi-note">{metric.note}</span> : null}
+                </article>
+              ))}
+            </div>
+
+            <div className="table-card">
+              <div className="table-header">
+                <div>
+                  <h3>By client</h3>
+                  <p className="table-note">
+                    {formatNumber(visibleClients.length)} of {formatNumber(payload.clients.length)} workspaces
+                  </p>
+                </div>
+                <input
+                  type="search"
+                  className="period-dropdown products-search"
+                  placeholder="Search client..."
+                  value={query}
+                  onChange={(event) => setQuery(event.target.value)}
+                />
+              </div>
+
+              <div className="table-wrap products-table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      {COLUMNS.map((column) => {
+                        const isActive = column.key === sortKey;
+                        return (
+                          <th
+                            key={column.key}
+                            className={`products-th${column.key === "name" ? "" : " products-th-num"}`}
+                          >
+                            <button
+                              type="button"
+                              className={`products-sort-btn${isActive ? " active" : ""}`}
+                              onClick={() => handleSort(column.key)}
+                            >
+                              {column.label}
+                              {isActive ? (sortDir === "asc" ? " \u2191" : " \u2193") : ""}
+                            </button>
+                          </th>
+                        );
+                      })}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {visibleClients.map((client) => (
+                      <tr key={client.id}>
+                        <td>{client.name || "(unnamed)"}</td>
+                        <td className="products-td-num">{formatNumber(client.totalForms)}</td>
+                        <td className="products-td-num">{formatNumber(client.activeForms)}</td>
+                        <td className="products-td-num">{formatNumber(client.inactiveForms)}</td>
+                        <td className="products-td-num">{formatNumber(client.multiStepForms)}</td>
+                        <td className="products-td-num">{formatNumber(client.formsWithPayments)}</td>
+                        <td className="products-td-num">{formatNumber(client.formsWithESignature)}</td>
+                        <td className="products-td-num">{formatNumber(client.formsWithUpload)}</td>
+                        <td className="products-td-num">{formatNumber(client.submissions)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </>
+        ) : null}
+      </section>
+    </main>
+  );
+}
+
+export default ProductsPage;

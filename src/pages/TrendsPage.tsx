@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
 import {
   LineChart,
   Line,
@@ -11,7 +11,7 @@ import {
   BarChart,
   Bar,
 } from "recharts";
-import { metricDisplayOrder, metricDescriptions, formatDateRange, getSprintsForQuarter, type MetricsPayload, type SprintInfo } from "../lib/metrics";
+import { trendsMetricOrder, metricDescriptions, formatDateRange, getSprintsForQuarter, severityCountMetricNames, type MetricsPayload, type SprintInfo } from "../lib/metrics";
 
 type TrendsPageProps = {
   payload: MetricsPayload | null;
@@ -58,6 +58,49 @@ function getAvailableYears(payload: MetricsPayload): number[] {
   return [...years].sort((a, b) => b - a);
 }
 
+function getPeriodMapping(
+  viewMode: ViewMode,
+  selectedYear: number,
+  selectedQuarter?: string,
+  sprintLookup?: Map<string, SprintInfo>,
+): { periodFilter: (q: string) => boolean; xLabel: (q: string) => string } {
+  if (viewMode === "sprint" && selectedQuarter) {
+    return {
+      periodFilter: (q) => {
+        const match = /^(\d{4}-Q[1-4])-S\d+$/.exec(q);
+        return match !== null && match[1] === selectedQuarter;
+      },
+      xLabel: (q) => {
+        const sprint = sprintLookup?.get(q);
+        if (sprint) {
+          const range = formatDateRange(sprint.start, sprint.end);
+          return range ? `S${sprint.sequence} (${range})` : `S${sprint.sequence}`;
+        }
+        return q.replace(/^.*-S/, "S");
+      },
+    };
+  }
+  if (viewMode === "ytd") {
+    return {
+      periodFilter: (q) => /^\d{4}-YTD$/.test(q),
+      xLabel: (q) => q.replace("-YTD", ""),
+    };
+  }
+  if (viewMode === "year") {
+    return {
+      periodFilter: (q) => {
+        const match = /^(\d{4})-Q\d$/.exec(q);
+        return match !== null && Number(match[1]) === selectedYear;
+      },
+      xLabel: (q) => q.replace(`${selectedYear}-`, ""),
+    };
+  }
+  return {
+    periodFilter: (q) => /^\d{4}-Q\d$/.test(q),
+    xLabel: (q) => q,
+  };
+}
+
 function buildChartData(
   payload: MetricsPayload,
   metricName: string,
@@ -66,35 +109,7 @@ function buildChartData(
   selectedQuarter?: string,
   sprintLookup?: Map<string, SprintInfo>,
 ): { data: ChartDataPoint[]; teams: string[] } {
-  let periodFilter: (q: string) => boolean;
-  let xLabel: (q: string) => string;
-
-  if (viewMode === "sprint" && selectedQuarter) {
-    periodFilter = (q) => {
-      const match = /^(\d{4}-Q[1-4])-S\d+$/.exec(q);
-      return match !== null && match[1] === selectedQuarter;
-    };
-    xLabel = (q) => {
-      const sprint = sprintLookup?.get(q);
-      if (sprint) {
-        const range = formatDateRange(sprint.start, sprint.end);
-        return range ? `S${sprint.sequence} (${range})` : `S${sprint.sequence}`;
-      }
-      return q.replace(/^.*-S/, "S");
-    };
-  } else if (viewMode === "ytd") {
-    periodFilter = (q) => /^\d{4}-YTD$/.test(q);
-    xLabel = (q) => q.replace("-YTD", "");
-  } else if (viewMode === "year") {
-    periodFilter = (q) => {
-      const match = /^(\d{4})-Q\d$/.exec(q);
-      return match !== null && Number(match[1]) === selectedYear;
-    };
-    xLabel = (q) => q.replace(`${selectedYear}-`, "");
-  } else {
-    periodFilter = (q) => /^\d{4}-Q\d$/.test(q);
-    xLabel = (q) => q;
-  }
+  const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
 
   const allPeriods = [
     ...new Set([
@@ -269,6 +284,140 @@ function MetricChart({
   );
 }
 
+const [SEV1_METRIC, SEV2_METRIC] = severityCountMetricNames;
+
+function buildSeverityChartData(
+  payload: MetricsPayload,
+  viewMode: ViewMode,
+  selectedYear: number,
+  selectedQuarter?: string,
+  sprintLookup?: Map<string, SprintInfo>,
+): { data: ChartDataPoint[]; teams: string[] } {
+  const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
+
+  const allPeriods = [
+    ...new Set([...payload.quarters, ...payload.metrics.map((m) => m.quarter)]),
+  ]
+    .filter(periodFilter)
+    .sort();
+
+  const teams = [
+    ...new Set(
+      payload.metrics
+        .filter(
+          (m) =>
+            (m.metricName === SEV1_METRIC || m.metricName === SEV2_METRIC) && periodFilter(m.quarter),
+        )
+        .map((m) => m.team),
+    ),
+  ].filter((t) => t !== "EDU");
+
+  const data: ChartDataPoint[] = allPeriods.map((period) => {
+    const point: ChartDataPoint = { quarter: xLabel(period) };
+    for (const team of teams) {
+      const sev1 = payload.metrics.find(
+        (m) => m.team === team && m.quarter === period && m.metricName === SEV1_METRIC,
+      );
+      const sev2 = payload.metrics.find(
+        (m) => m.team === team && m.quarter === period && m.metricName === SEV2_METRIC,
+      );
+      point[`${team}__s1`] = sev1?.value ?? 0;
+      point[`${team}__s2`] = sev2?.value ?? 0;
+    }
+    return point;
+  });
+
+  return { data, teams };
+}
+
+function SeverityTrendChart({
+  payload,
+  viewMode,
+  selectedYear,
+  selectedQuarter,
+  sprintLookup,
+}: {
+  payload: MetricsPayload;
+  viewMode: ViewMode;
+  selectedYear: number;
+  selectedQuarter?: string;
+  sprintLookup?: Map<string, SprintInfo>;
+}) {
+  const { data, teams } = useMemo(
+    () => buildSeverityChartData(payload, viewMode, selectedYear, selectedQuarter, sprintLookup),
+    [payload, viewMode, selectedYear, selectedQuarter, sprintLookup],
+  );
+
+  if (data.length === 0 || teams.length === 0) return null;
+
+  const isSprintView = viewMode === "sprint";
+  const xTickFormatter = isSprintView ? (value: string) => String(value).split(" (")[0] : undefined;
+  const xInterval = isSprintView ? 0 : undefined;
+
+  return (
+    <article className="trend-chart-card">
+      <div className="trend-chart-header">
+        <div className="trend-chart-title-row">
+          <h3>Sev 1 &amp; Sev 2 Bugs</h3>
+          <span className="trend-source-badge">Jira</span>
+        </div>
+        <p className="trend-chart-description">
+          High-severity bug counts per team: one solid line for Sev 1 and one dashed line for Sev 2.
+        </p>
+      </div>
+      <div className="trend-chart-body">
+        <ResponsiveContainer width="100%" height={280}>
+          <BarChart data={data} margin={{ top: 8, right: 24, left: 8, bottom: 8 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(109,40,217,0.08)" />
+            <XAxis
+              dataKey="quarter"
+              tick={{ fontSize: 12, fill: "#6b5a8d" }}
+              axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+              tickFormatter={xTickFormatter}
+              interval={xInterval}
+            />
+            <YAxis
+              tick={{ fontSize: 12, fill: "#6b5a8d" }}
+              axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+              allowDecimals={false}
+              label={{ value: "bugs", angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#6b5a8d" } }}
+            />
+            <Tooltip
+              contentStyle={{
+                background: "#ffffff",
+                border: "1px solid rgba(109,40,217,0.14)",
+                borderRadius: 12,
+                fontSize: 13,
+              }}
+            />
+            <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
+            {teams.flatMap((team) => {
+              const color = teamColors[team] ?? "#6d28d9";
+              return [
+                <Bar
+                  key={`${team}__s1`}
+                  dataKey={`${team}__s1`}
+                  name={`${teamDisplayMap[team] ?? team} Sev 1`}
+                  fill={color}
+                  radius={[3, 3, 0, 0]}
+                />,
+                <Bar
+                  key={`${team}__s2`}
+                  dataKey={`${team}__s2`}
+                  name={`${teamDisplayMap[team] ?? team} Sev 2`}
+                  fill={color}
+                  fillOpacity={0.4}
+                  radius={[3, 3, 0, 0]}
+                />,
+              ];
+            })}
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+    </article>
+  );
+}
+
 function getAvailableQuarters(payload: MetricsPayload): string[] {
   const quarters = new Set<string>();
   for (const q of payload.quarters) {
@@ -303,8 +452,15 @@ function TrendsPage({ payload, loading, error }: TrendsPageProps) {
   const availableMetrics = useMemo(() => {
     if (!payload) return [];
     const metricNames = [...new Set(payload.metrics.map((m) => m.metricName))];
-    return metricDisplayOrder.filter((name) => metricNames.includes(name));
+    return trendsMetricOrder.filter((name) => metricNames.includes(name));
   }, [payload]);
+
+  const hasSeverityData = useMemo(
+    () =>
+      Boolean(payload) &&
+      payload!.metrics.some((m) => m.metricName === SEV1_METRIC || m.metricName === SEV2_METRIC),
+    [payload],
+  );
 
   return (
     <main className="content-shell trends-shell">
@@ -374,15 +530,25 @@ function TrendsPage({ payload, loading, error }: TrendsPageProps) {
         {!loading && !error && payload ? (
           <div className="trends-grid">
             {availableMetrics.map((metricName) => (
-              <MetricChart
-                key={metricName}
-                payload={payload}
-                metricName={metricName}
-                viewMode={viewMode}
-                selectedYear={resolvedYear}
-                selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
-                sprintLookup={sprintLookup}
-              />
+              <Fragment key={metricName}>
+                <MetricChart
+                  payload={payload}
+                  metricName={metricName}
+                  viewMode={viewMode}
+                  selectedYear={resolvedYear}
+                  selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                  sprintLookup={sprintLookup}
+                />
+                {metricName === "Defect Leakage %" && hasSeverityData && (
+                  <SeverityTrendChart
+                    payload={payload}
+                    viewMode={viewMode}
+                    selectedYear={resolvedYear}
+                    selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                    sprintLookup={sprintLookup}
+                  />
+                )}
+              </Fragment>
             ))}
           </div>
         ) : null}

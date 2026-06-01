@@ -86,6 +86,9 @@
             "enum": [
               "Jira Card Churn %",
               "Defect Leakage %",
+              "Sev 1 Bugs",
+              "Sev 2 Bugs",
+              "Sev 1 + Sev 2 Bugs",
               "Average Velocity (points per sprint)",
               "Flow-based Cycle Time Proxy (weeks)",
               "Actual Cycle Time (weeks)",

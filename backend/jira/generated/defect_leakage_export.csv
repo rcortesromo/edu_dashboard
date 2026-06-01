@@ -1,166 +1,661 @@
 team_name,quarter_label,metric_name,metric_value,metric_unit,source_system,coverage_status,note,last_refresh_utc
-ASAP,2025-Q1,Defect Leakage %,15.63,percent,Jira,Yes (partial),2025-Q1: 5 sev L1+L2 / (30 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q1-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S1: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S2: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S3: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q1-S4,Defect Leakage %,14.29,percent,Jira,Yes (partial),2025-Q1-S4: 1 sev L1+L2 / (6 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q1-S5,Defect Leakage %,42.86,percent,Jira,Yes (partial),2025-Q1-S5: 3 sev L1+L2 / (6 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q1-S6,Defect Leakage %,14.29,percent,Jira,Yes (partial),2025-Q1-S6: 1 sev L1+L2 / (7 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q2,Defect Leakage %,4.88,percent,Jira,Yes (partial),2025-Q2: 2 sev L1+L2 / (40 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S1: 0 sev L1+L2 / (11 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S2: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q2-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S3: 0 sev L1+L2 / (7 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q2-S4,Defect Leakage %,20,percent,Jira,Yes (partial),2025-Q2-S4: 1 sev L1+L2 / (5 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q2-S5,Defect Leakage %,10,percent,Jira,Yes (partial),2025-Q2-S5: 1 sev L1+L2 / (10 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q2-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S6: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q3,Defect Leakage %,4.35,percent,Jira,Yes (partial),2025-Q3: 2 sev L1+L2 / (46 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q3-S1,Defect Leakage %,20,percent,Jira,Yes (partial),2025-Q3-S1: 1 sev L1+L2 / (5 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q3-S2,Defect Leakage %,12.5,percent,Jira,Yes (partial),2025-Q3-S2: 1 sev L1+L2 / (8 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q3-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S3: 0 sev L1+L2 / (11 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q3-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S4: 0 sev L1+L2 / (9 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q3-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S5: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q3-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S6: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q4,Defect Leakage %,6.25,percent,Jira,Yes (partial),2025-Q4: 2 sev L1+L2 / (32 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q4-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S1: 0 sev L1+L2 / (10 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q4-S2,Defect Leakage %,16.67,percent,Jira,Yes (partial),2025-Q4-S2: 1 sev L1+L2 / (6 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q4-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S3: 0 sev L1+L2 / (7 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q4-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S4: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q4-S5,Defect Leakage %,25,percent,Jira,Yes (partial),2025-Q4-S5: 1 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-Q4-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S6: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2025-YTD,Defect Leakage %,7.28,percent,Jira,Yes (partial),2025-YTD: 11 sev L1+L2 / (148 bugs + 3 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2026-Q1,Defect Leakage %,8.82,percent,Jira,Yes (partial),2026-Q1: 3 sev L1+L2 / (34 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2026-Q1-S1,Defect Leakage %,42.86,percent,Jira,Yes (partial),2026-Q1-S1: 3 sev L1+L2 / (7 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2026-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S2: 0 sev L1+L2 / (10 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2026-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S3: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2026-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S4: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2026-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S5: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2026-Q1-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S6: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2026-Q2,Defect Leakage %,15.38,percent,Jira,Yes (partial),2026-Q2: 2 sev L1+L2 / (13 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2026-Q2-S1,Defect Leakage %,9.09,percent,Jira,Yes (partial),2026-Q2-S1: 1 sev L1+L2 / (11 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-ASAP,2026-YTD,Defect Leakage %,10.64,percent,Jira,Yes (partial),2026-YTD: 5 sev L1+L2 / (47 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-EDU,2025-Q1,Defect Leakage %,4.6,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 11 sev L1+L2 / (218 bugs + 21 reopened).,2026-05-29T23:42:43.447Z
-EDU,2025-Q2,Defect Leakage %,0.87,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 2 sev L1+L2 / (213 bugs + 17 reopened).,2026-05-29T23:42:43.447Z
-EDU,2025-Q3,Defect Leakage %,10.8,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 42 sev L1+L2 / (370 bugs + 19 reopened).,2026-05-29T23:42:43.447Z
-EDU,2025-Q4,Defect Leakage %,2.83,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 6 sev L1+L2 / (201 bugs + 11 reopened).,2026-05-29T23:42:43.447Z
-EDU,2025-YTD,Defect Leakage %,5.7,percent,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 61 sev L1+L2 / (1002 bugs + 68 reopened).,2026-05-29T23:42:43.447Z
-EDU,2026-Q1,Defect Leakage %,3.43,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 6 sev L1+L2 / (167 bugs + 8 reopened).,2026-05-29T23:42:43.447Z
-EDU,2026-Q2,Defect Leakage %,8.96,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 12 sev L1+L2 / (129 bugs + 5 reopened).,2026-05-29T23:42:43.447Z
-EDU,2026-YTD,Defect Leakage %,5.83,percent,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 18 sev L1+L2 / (296 bugs + 13 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q1,Defect Leakage %,0.72,percent,Jira,Yes (partial),2025-Q1: 1 sev L1+L2 / (123 bugs + 15 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q1-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S1: 0 sev L1+L2 / (14 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q1-S2,Defect Leakage %,3.57,percent,Jira,Yes (partial),2025-Q1-S2: 1 sev L1+L2 / (24 bugs + 4 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S3: 0 sev L1+L2 / (27 bugs + 4 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S4: 0 sev L1+L2 / (25 bugs + 5 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S5: 0 sev L1+L2 / (16 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q1-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S6: 0 sev L1+L2 / (15 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2: 0 sev L1+L2 / (120 bugs + 14 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S1: 0 sev L1+L2 / (26 bugs + 4 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S2: 0 sev L1+L2 / (27 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q2-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S3: 0 sev L1+L2 / (18 bugs + 4 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S4: 0 sev L1+L2 / (19 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q2-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S5: 0 sev L1+L2 / (8 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q2-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S6: 0 sev L1+L2 / (16 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q3,Defect Leakage %,1.6,percent,Jira,Yes (partial),2025-Q3: 2 sev L1+L2 / (113 bugs + 12 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q3-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S1: 0 sev L1+L2 / (19 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q3-S2,Defect Leakage %,5.88,percent,Jira,Yes (partial),2025-Q3-S2: 1 sev L1+L2 / (15 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q3-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S3: 0 sev L1+L2 / (17 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q3-S4,Defect Leakage %,2.94,percent,Jira,Yes (partial),2025-Q3-S4: 1 sev L1+L2 / (31 bugs + 3 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q3-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S5: 0 sev L1+L2 / (1 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q3-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S6: 0 sev L1+L2 / (24 bugs + 4 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4: 0 sev L1+L2 / (100 bugs + 7 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q4-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S1: 0 sev L1+L2 / (8 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q4-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S2: 0 sev L1+L2 / (9 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q4-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S3: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q4-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S4: 0 sev L1+L2 / (19 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q4-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S5: 0 sev L1+L2 / (19 bugs + 3 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-Q4-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S6: 0 sev L1+L2 / (30 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2025-YTD,Defect Leakage %,0.6,percent,Jira,Yes (partial),2025-YTD: 3 sev L1+L2 / (456 bugs + 48 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q1,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1: 0 sev L1+L2 / (78 bugs + 4 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q1-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S1: 0 sev L1+L2 / (10 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S2: 0 sev L1+L2 / (15 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S3: 0 sev L1+L2 / (16 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S4: 0 sev L1+L2 / (11 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S5: 0 sev L1+L2 / (18 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q1-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S6: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q2,Defect Leakage %,5.41,percent,Jira,Yes (partial),2026-Q2: 4 sev L1+L2 / (69 bugs + 5 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q2-S1,Defect Leakage %,8.7,percent,Jira,Yes (partial),2026-Q2-S1: 2 sev L1+L2 / (21 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S2: 0 sev L1+L2 / (15 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q2-S3,Defect Leakage %,11.11,percent,Jira,Yes (partial),2026-Q2-S3: 2 sev L1+L2 / (17 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S4: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Smartcare,2026-YTD,Defect Leakage %,2.56,percent,Jira,Yes (partial),2026-YTD: 4 sev L1+L2 / (147 bugs + 9 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q1,Defect Leakage %,10,percent,Jira,Yes (partial),2025-Q1: 4 sev L1+L2 / (39 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q1-S2,Defect Leakage %,7.69,percent,Jira,Yes (partial),2025-Q1-S2: 1 sev L1+L2 / (13 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S3: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q1-S4,Defect Leakage %,12.5,percent,Jira,Yes (partial),2025-Q1-S4: 2 sev L1+L2 / (15 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q1-S5,Defect Leakage %,25,percent,Jira,Yes (partial),2025-Q1-S5: 1 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q1-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S6: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S1: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S2: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q2-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S3: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S4: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q2-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S5: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q2-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S6: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q3,Defect Leakage %,14.29,percent,Jira,Yes (partial),2025-Q3: 1 sev L1+L2 / (7 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q3-S1,Defect Leakage %,50,percent,Jira,Yes (partial),2025-Q3-S1: 1 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q3-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S2: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q3-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S3: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q3-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S5: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q4-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S1: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q4-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S3: 0 sev L1+L2 / (8 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-Q4-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S6: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2025-YTD,Defect Leakage %,6.67,percent,Jira,Yes (partial),2025-YTD: 5 sev L1+L2 / (74 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-Q1,Defect Leakage %,5.56,percent,Jira,Yes (partial),2026-Q1: 1 sev L1+L2 / (18 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-Q1-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S1: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S3: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-Q1-S4,Defect Leakage %,14.29,percent,Jira,Yes (partial),2026-Q1-S4: 1 sev L1+L2 / (7 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S5: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-Q1-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S6: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-Q2,Defect Leakage %,50,percent,Jira,Yes (partial),2026-Q2: 2 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-Q2-S2,Defect Leakage %,100,percent,Jira,Yes (partial),2026-Q2-S2: 1 sev L1+L2 / (1 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-Q2-S3,Defect Leakage %,100,percent,Jira,Yes (partial),2026-Q2-S3: 1 sev L1+L2 / (1 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S4: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Connexpoint,2026-YTD,Defect Leakage %,13.64,percent,Jira,Yes (partial),2026-YTD: 3 sev L1+L2 / (22 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q1,Defect Leakage %,3.45,percent,Jira,Yes (partial),2025-Q1: 1 sev L1+L2 / (26 bugs + 3 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q1-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S1: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S2: 0 sev L1+L2 / (7 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S3: 0 sev L1+L2 / (9 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S4: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S5: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q1-S6,Defect Leakage %,50,percent,Jira,Yes (partial),2025-Q1-S6: 1 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2: 0 sev L1+L2 / (39 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S1: 0 sev L1+L2 / (5 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S2: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q2-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S3: 0 sev L1+L2 / (6 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S4: 0 sev L1+L2 / (9 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q2-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S5: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q2-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S6: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q3,Defect Leakage %,17.54,percent,Jira,Yes (partial),2025-Q3: 37 sev L1+L2 / (204 bugs + 7 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q3-S1,Defect Leakage %,16.67,percent,Jira,Yes (partial),2025-Q3-S1: 1 sev L1+L2 / (6 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q3-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S2: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q3-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S3: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q3-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S4: 0 sev L1+L2 / (47 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q3-S5,Defect Leakage %,18.18,percent,Jira,Yes (partial),2025-Q3-S5: 14 sev L1+L2 / (75 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q3-S6,Defect Leakage %,37.5,percent,Jira,Yes (partial),2025-Q3-S6: 21 sev L1+L2 / (51 bugs + 5 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q4,Defect Leakage %,6.78,percent,Jira,Yes (partial),2025-Q4: 4 sev L1+L2 / (55 bugs + 4 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q4-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S1: 0 sev L1+L2 / (12 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q4-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S2: 0 sev L1+L2 / (12 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q4-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S3: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q4-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S4: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q4-S5,Defect Leakage %,23.53,percent,Jira,Yes (partial),2025-Q4-S5: 4 sev L1+L2 / (16 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-Q4-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S6: 0 sev L1+L2 / (4 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2025-YTD,Defect Leakage %,12.35,percent,Jira,Yes (partial),2025-YTD: 42 sev L1+L2 / (324 bugs + 16 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q1,Defect Leakage %,4.88,percent,Jira,Yes (partial),2026-Q1: 2 sev L1+L2 / (37 bugs + 4 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q1-S1,Defect Leakage %,12.5,percent,Jira,Yes (partial),2026-Q1-S1: 1 sev L1+L2 / (6 bugs + 2 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S2: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S3: 0 sev L1+L2 / (7 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S4: 0 sev L1+L2 / (11 bugs + 1 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S5: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q1-S6,Defect Leakage %,25,percent,Jira,Yes (partial),2026-Q1-S6: 1 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q2,Defect Leakage %,9.3,percent,Jira,Yes (partial),2026-Q2: 4 sev L1+L2 / (43 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S1: 0 sev L1+L2 / (8 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S2: 0 sev L1+L2 / (15 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q2-S3,Defect Leakage %,20,percent,Jira,Yes (partial),2026-Q2-S3: 2 sev L1+L2 / (10 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-Q2-S4,Defect Leakage %,50,percent,Jira,Yes (partial),2026-Q2-S4: 2 sev L1+L2 / (4 bugs + 0 reopened).,2026-05-29T23:42:43.447Z
-Team Webstore,2026-YTD,Defect Leakage %,7.14,percent,Jira,Yes (partial),2026-YTD: 6 sev L1+L2 / (80 bugs + 4 reopened).,2026-05-29T23:42:43.447Z
+ASAP,2025-Q1,Defect Leakage %,15.63,percent,Jira,Yes (partial),2025-Q1: 5 sev L1+L2 / (30 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1,Sev 1 + Sev 2 Bugs,5,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1,Sev 2 Bugs,5,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S1: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S2: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S3: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S4,Defect Leakage %,14.29,percent,Jira,Yes (partial),2025-Q1-S4: 1 sev L1+L2 / (6 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S4,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S4,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S5,Defect Leakage %,42.86,percent,Jira,Yes (partial),2025-Q1-S5: 3 sev L1+L2 / (6 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S5,Sev 1 + Sev 2 Bugs,3,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S5,Sev 2 Bugs,3,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S6,Defect Leakage %,14.29,percent,Jira,Yes (partial),2025-Q1-S6: 1 sev L1+L2 / (7 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S6,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q1-S6,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2,Defect Leakage %,4.88,percent,Jira,Yes (partial),2025-Q2: 2 sev L1+L2 / (40 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2,Sev 2 Bugs,2,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S1: 0 sev L1+L2 / (11 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S2: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S3: 0 sev L1+L2 / (7 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S4,Defect Leakage %,20,percent,Jira,Yes (partial),2025-Q2-S4: 1 sev L1+L2 / (5 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S4,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S4,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S5,Defect Leakage %,10,percent,Jira,Yes (partial),2025-Q2-S5: 1 sev L1+L2 / (10 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S5,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S5,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S6: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q2-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3,Defect Leakage %,4.35,percent,Jira,Yes (partial),2025-Q3: 2 sev L1+L2 / (46 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2025-Q3: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3,Sev 1 Bugs,1,count,Jira,Yes (partial),2025-Q3: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S1,Defect Leakage %,20,percent,Jira,Yes (partial),2025-Q3-S1: 1 sev L1+L2 / (5 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S1,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S2,Defect Leakage %,12.5,percent,Jira,Yes (partial),2025-Q3-S2: 1 sev L1+L2 / (8 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S2,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S2: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S2,Sev 1 Bugs,1,count,Jira,Yes (partial),2025-Q3-S2: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S2: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S3: 0 sev L1+L2 / (11 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S4: 0 sev L1+L2 / (9 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S5: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S6: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q3-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4,Defect Leakage %,6.25,percent,Jira,Yes (partial),2025-Q4: 2 sev L1+L2 / (32 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2025-Q4: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4,Sev 1 Bugs,1,count,Jira,Yes (partial),2025-Q4: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q4: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S1: 0 sev L1+L2 / (10 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S2,Defect Leakage %,16.67,percent,Jira,Yes (partial),2025-Q4-S2: 1 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S2,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q4-S2: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S2,Sev 1 Bugs,1,count,Jira,Yes (partial),2025-Q4-S2: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S2: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S3: 0 sev L1+L2 / (7 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S4: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S5,Defect Leakage %,25,percent,Jira,Yes (partial),2025-Q4-S5: 1 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S5,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S5,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S6: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-Q4-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-YTD,Defect Leakage %,7.28,percent,Jira,Yes (partial),2025-YTD: 11 sev L1+L2 / (148 bugs + 3 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2025-YTD,Sev 1 + Sev 2 Bugs,11,count,Jira,Yes (partial),2025-YTD: 2 Sev 1 + 9 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-YTD,Sev 1 Bugs,2,count,Jira,Yes (partial),2025-YTD: 2 Sev 1 + 9 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2025-YTD,Sev 2 Bugs,9,count,Jira,Yes (partial),2025-YTD: 2 Sev 1 + 9 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1,Defect Leakage %,8.82,percent,Jira,Yes (partial),2026-Q1: 3 sev L1+L2 / (34 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1,Sev 1 + Sev 2 Bugs,3,count,Jira,Yes (partial),2026-Q1: 2 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1,Sev 1 Bugs,2,count,Jira,Yes (partial),2026-Q1: 2 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1: 2 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S1,Defect Leakage %,42.86,percent,Jira,Yes (partial),2026-Q1-S1: 3 sev L1+L2 / (7 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S1,Sev 1 + Sev 2 Bugs,3,count,Jira,Yes (partial),2026-Q1-S1: 2 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S1,Sev 1 Bugs,2,count,Jira,Yes (partial),2026-Q1-S1: 2 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S1,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1-S1: 2 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S2: 0 sev L1+L2 / (10 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S3: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S4: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S5: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S6: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q1-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q2,Defect Leakage %,15.38,percent,Jira,Yes (partial),2026-Q2: 2 sev L1+L2 / (13 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q2,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q2,Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q2-S1,Defect Leakage %,9.09,percent,Jira,Yes (partial),2026-Q2-S1: 1 sev L1+L2 / (11 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q2-S1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-Q2-S1,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-YTD,Defect Leakage %,10.64,percent,Jira,Yes (partial),2026-YTD: 5 sev L1+L2 / (47 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+ASAP,2026-YTD,Sev 1 + Sev 2 Bugs,5,count,Jira,Yes (partial),2026-YTD: 2 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-YTD,Sev 1 Bugs,2,count,Jira,Yes (partial),2026-YTD: 2 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+ASAP,2026-YTD,Sev 2 Bugs,3,count,Jira,Yes (partial),2026-YTD: 2 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q1,Defect Leakage %,4.6,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 11 sev L1+L2 / (218 bugs + 21 reopened).,2026-06-01T16:05:03.827Z
+EDU,2025-Q1,Sev 1 + Sev 2 Bugs,11,count,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 0 Sev 1 + 11 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q1,Sev 1 Bugs,0,count,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 0 Sev 1 + 11 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q1,Sev 2 Bugs,11,count,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 0 Sev 1 + 11 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q2,Defect Leakage %,0.87,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 2 sev L1+L2 / (213 bugs + 17 reopened).,2026-06-01T16:05:03.827Z
+EDU,2025-Q2,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q2,Sev 2 Bugs,2,count,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q3,Defect Leakage %,10.8,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 42 sev L1+L2 / (370 bugs + 19 reopened).,2026-06-01T16:05:03.827Z
+EDU,2025-Q3,Sev 1 + Sev 2 Bugs,42,count,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 1 Sev 1 + 41 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q3,Sev 1 Bugs,1,count,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 1 Sev 1 + 41 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q3,Sev 2 Bugs,41,count,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 1 Sev 1 + 41 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q4,Defect Leakage %,2.83,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 6 sev L1+L2 / (201 bugs + 11 reopened).,2026-06-01T16:05:03.827Z
+EDU,2025-Q4,Sev 1 + Sev 2 Bugs,6,count,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q4,Sev 1 Bugs,1,count,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-Q4,Sev 2 Bugs,5,count,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-YTD,Defect Leakage %,5.7,percent,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 61 sev L1+L2 / (1002 bugs + 68 reopened).,2026-06-01T16:05:03.827Z
+EDU,2025-YTD,Sev 1 + Sev 2 Bugs,61,count,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 2 Sev 1 + 59 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-YTD,Sev 1 Bugs,2,count,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 2 Sev 1 + 59 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2025-YTD,Sev 2 Bugs,59,count,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 2 Sev 1 + 59 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2026-Q1,Defect Leakage %,3.43,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 6 sev L1+L2 / (167 bugs + 8 reopened).,2026-06-01T16:05:03.827Z
+EDU,2026-Q1,Sev 1 + Sev 2 Bugs,6,count,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 3 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2026-Q1,Sev 1 Bugs,3,count,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 3 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2026-Q1,Sev 2 Bugs,3,count,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 3 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2026-Q2,Defect Leakage %,8.96,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 12 sev L1+L2 / (129 bugs + 5 reopened).,2026-06-01T16:05:03.827Z
+EDU,2026-Q2,Sev 1 + Sev 2 Bugs,12,count,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 0 Sev 1 + 12 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2026-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 0 Sev 1 + 12 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2026-Q2,Sev 2 Bugs,12,count,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 0 Sev 1 + 12 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2026-YTD,Defect Leakage %,5.83,percent,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 18 sev L1+L2 / (296 bugs + 13 reopened).,2026-06-01T16:05:03.827Z
+EDU,2026-YTD,Sev 1 + Sev 2 Bugs,18,count,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 3 Sev 1 + 15 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2026-YTD,Sev 1 Bugs,3,count,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 3 Sev 1 + 15 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+EDU,2026-YTD,Sev 2 Bugs,15,count,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 3 Sev 1 + 15 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1,Defect Leakage %,0.72,percent,Jira,Yes (partial),2025-Q1: 1 sev L1+L2 / (123 bugs + 15 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S1: 0 sev L1+L2 / (14 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S2,Defect Leakage %,3.57,percent,Jira,Yes (partial),2025-Q1-S2: 1 sev L1+L2 / (24 bugs + 4 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S2,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S2,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S3: 0 sev L1+L2 / (27 bugs + 4 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S4: 0 sev L1+L2 / (25 bugs + 5 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S5: 0 sev L1+L2 / (16 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S6: 0 sev L1+L2 / (15 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q1-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2: 0 sev L1+L2 / (120 bugs + 14 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S1: 0 sev L1+L2 / (26 bugs + 4 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S2: 0 sev L1+L2 / (27 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S3: 0 sev L1+L2 / (18 bugs + 4 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S4: 0 sev L1+L2 / (19 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S5: 0 sev L1+L2 / (8 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S6: 0 sev L1+L2 / (16 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q2-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3,Defect Leakage %,1.6,percent,Jira,Yes (partial),2025-Q3: 2 sev L1+L2 / (113 bugs + 12 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3,Sev 2 Bugs,2,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S1: 0 sev L1+L2 / (19 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S2,Defect Leakage %,5.88,percent,Jira,Yes (partial),2025-Q3-S2: 1 sev L1+L2 / (15 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S2,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S2,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S3: 0 sev L1+L2 / (17 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S4,Defect Leakage %,2.94,percent,Jira,Yes (partial),2025-Q3-S4: 1 sev L1+L2 / (31 bugs + 3 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S4,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S4,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S5: 0 sev L1+L2 / (1 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S6: 0 sev L1+L2 / (24 bugs + 4 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q3-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4: 0 sev L1+L2 / (100 bugs + 7 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S1: 0 sev L1+L2 / (8 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S2: 0 sev L1+L2 / (9 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S3: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S4: 0 sev L1+L2 / (19 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S5: 0 sev L1+L2 / (19 bugs + 3 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S6: 0 sev L1+L2 / (30 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-Q4-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-YTD,Defect Leakage %,0.6,percent,Jira,Yes (partial),2025-YTD: 3 sev L1+L2 / (456 bugs + 48 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2025-YTD,Sev 1 + Sev 2 Bugs,3,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-YTD,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2025-YTD,Sev 2 Bugs,3,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1: 0 sev L1+L2 / (78 bugs + 4 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S1: 0 sev L1+L2 / (10 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S2: 0 sev L1+L2 / (15 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S3: 0 sev L1+L2 / (16 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S4: 0 sev L1+L2 / (11 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S5: 0 sev L1+L2 / (18 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S6: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q1-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2,Defect Leakage %,5.41,percent,Jira,Yes (partial),2026-Q2: 4 sev L1+L2 / (69 bugs + 5 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2,Sev 1 + Sev 2 Bugs,4,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2,Sev 2 Bugs,4,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S1,Defect Leakage %,8.7,percent,Jira,Yes (partial),2026-Q2-S1: 2 sev L1+L2 / (21 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S1,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S1,Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S2: 0 sev L1+L2 / (15 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S3,Defect Leakage %,11.11,percent,Jira,Yes (partial),2026-Q2-S3: 2 sev L1+L2 / (17 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S3,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S3,Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S4: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-Q2-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-YTD,Defect Leakage %,2.56,percent,Jira,Yes (partial),2026-YTD: 4 sev L1+L2 / (147 bugs + 9 reopened).,2026-06-01T16:05:03.827Z
+Smartcare,2026-YTD,Sev 1 + Sev 2 Bugs,4,count,Jira,Yes (partial),2026-YTD: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-YTD,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-YTD: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Smartcare,2026-YTD,Sev 2 Bugs,4,count,Jira,Yes (partial),2026-YTD: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1,Defect Leakage %,10,percent,Jira,Yes (partial),2025-Q1: 4 sev L1+L2 / (39 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1,Sev 1 + Sev 2 Bugs,4,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1,Sev 2 Bugs,4,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S2,Defect Leakage %,7.69,percent,Jira,Yes (partial),2025-Q1-S2: 1 sev L1+L2 / (13 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S2,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S2,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S3: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S4,Defect Leakage %,12.5,percent,Jira,Yes (partial),2025-Q1-S4: 2 sev L1+L2 / (15 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S4,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S4,Sev 2 Bugs,2,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S5,Defect Leakage %,25,percent,Jira,Yes (partial),2025-Q1-S5: 1 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S5,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S5,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S6: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q1-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S1: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S2: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S3: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S4: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S5: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S6: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q2-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3,Defect Leakage %,14.29,percent,Jira,Yes (partial),2025-Q3: 1 sev L1+L2 / (7 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S1,Defect Leakage %,50,percent,Jira,Yes (partial),2025-Q3-S1: 1 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S1,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S2: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S3: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S5: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q3-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S1: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S3: 0 sev L1+L2 / (8 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S6: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-Q4-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-YTD,Defect Leakage %,6.67,percent,Jira,Yes (partial),2025-YTD: 5 sev L1+L2 / (74 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-YTD,Sev 1 + Sev 2 Bugs,5,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-YTD,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2025-YTD,Sev 2 Bugs,5,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1,Defect Leakage %,5.56,percent,Jira,Yes (partial),2026-Q1: 1 sev L1+L2 / (18 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S1: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S3: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S4,Defect Leakage %,14.29,percent,Jira,Yes (partial),2026-Q1-S4: 1 sev L1+L2 / (7 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S4,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S4,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S5: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S6: 0 sev L1+L2 / (3 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q1-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2,Defect Leakage %,50,percent,Jira,Yes (partial),2026-Q2: 2 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2,Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S2,Defect Leakage %,100,percent,Jira,Yes (partial),2026-Q2-S2: 1 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S2,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S2,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S3,Defect Leakage %,100,percent,Jira,Yes (partial),2026-Q2-S3: 1 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S3,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S3,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S4: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-Q2-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-YTD,Defect Leakage %,13.64,percent,Jira,Yes (partial),2026-YTD: 3 sev L1+L2 / (22 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-YTD,Sev 1 + Sev 2 Bugs,3,count,Jira,Yes (partial),2026-YTD: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-YTD,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-YTD: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Connexpoint,2026-YTD,Sev 2 Bugs,3,count,Jira,Yes (partial),2026-YTD: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1,Defect Leakage %,3.45,percent,Jira,Yes (partial),2025-Q1: 1 sev L1+L2 / (26 bugs + 3 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S1: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S2: 0 sev L1+L2 / (7 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S3: 0 sev L1+L2 / (9 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S4: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S5: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S6,Defect Leakage %,50,percent,Jira,Yes (partial),2025-Q1-S6: 1 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S6,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q1-S6,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2: 0 sev L1+L2 / (39 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S1: 0 sev L1+L2 / (5 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S2: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S3: 0 sev L1+L2 / (6 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S4: 0 sev L1+L2 / (9 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S5: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S6: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q2-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3,Defect Leakage %,17.54,percent,Jira,Yes (partial),2025-Q3: 37 sev L1+L2 / (204 bugs + 7 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3,Sev 1 + Sev 2 Bugs,37,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 37 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 37 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3,Sev 2 Bugs,37,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 37 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S1,Defect Leakage %,16.67,percent,Jira,Yes (partial),2025-Q3-S1: 1 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S1,Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S2: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S3: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S4: 0 sev L1+L2 / (47 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S5,Defect Leakage %,18.18,percent,Jira,Yes (partial),2025-Q3-S5: 14 sev L1+L2 / (75 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S5,Sev 1 + Sev 2 Bugs,14,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 14 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 14 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S5,Sev 2 Bugs,14,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 14 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S6,Defect Leakage %,37.5,percent,Jira,Yes (partial),2025-Q3-S6: 21 sev L1+L2 / (51 bugs + 5 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S6,Sev 1 + Sev 2 Bugs,21,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 21 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 21 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q3-S6,Sev 2 Bugs,21,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 21 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4,Defect Leakage %,6.78,percent,Jira,Yes (partial),2025-Q4: 4 sev L1+L2 / (55 bugs + 4 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4,Sev 1 + Sev 2 Bugs,4,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4,Sev 2 Bugs,4,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S1: 0 sev L1+L2 / (12 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S2: 0 sev L1+L2 / (12 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S3: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S4: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S5,Defect Leakage %,23.53,percent,Jira,Yes (partial),2025-Q4-S5: 4 sev L1+L2 / (16 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S5,Sev 1 + Sev 2 Bugs,4,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S5,Sev 2 Bugs,4,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S6: 0 sev L1+L2 / (4 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-Q4-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-YTD,Defect Leakage %,12.35,percent,Jira,Yes (partial),2025-YTD: 42 sev L1+L2 / (324 bugs + 16 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-YTD,Sev 1 + Sev 2 Bugs,42,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 42 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-YTD,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 42 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2025-YTD,Sev 2 Bugs,42,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 42 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1,Defect Leakage %,4.88,percent,Jira,Yes (partial),2026-Q1: 2 sev L1+L2 / (37 bugs + 4 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q1: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1,Sev 1 Bugs,1,count,Jira,Yes (partial),2026-Q1: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S1,Defect Leakage %,12.5,percent,Jira,Yes (partial),2026-Q1-S1: 1 sev L1+L2 / (6 bugs + 2 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S1,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S2: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S3: 0 sev L1+L2 / (7 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S3,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S4: 0 sev L1+L2 / (11 bugs + 1 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S5: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S5,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S6,Defect Leakage %,25,percent,Jira,Yes (partial),2026-Q1-S6: 1 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S6,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1-S6: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S6,Sev 1 Bugs,1,count,Jira,Yes (partial),2026-Q1-S6: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q1-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2,Defect Leakage %,9.3,percent,Jira,Yes (partial),2026-Q2: 4 sev L1+L2 / (43 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2,Sev 1 + Sev 2 Bugs,4,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2,Sev 2 Bugs,4,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S1: 0 sev L1+L2 / (8 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S2: 0 sev L1+L2 / (15 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S3,Defect Leakage %,20,percent,Jira,Yes (partial),2026-Q2-S3: 2 sev L1+L2 / (10 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S3,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S3,Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S4,Defect Leakage %,50,percent,Jira,Yes (partial),2026-Q2-S4: 2 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S4,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-Q2-S4,Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-YTD,Defect Leakage %,7.14,percent,Jira,Yes (partial),2026-YTD: 6 sev L1+L2 / (80 bugs + 4 reopened).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-YTD,Sev 1 + Sev 2 Bugs,6,count,Jira,Yes (partial),2026-YTD: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-YTD,Sev 1 Bugs,1,count,Jira,Yes (partial),2026-YTD: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z
+Team Webstore,2026-YTD,Sev 2 Bugs,5,count,Jira,Yes (partial),2026-YTD: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-01T16:05:03.827Z

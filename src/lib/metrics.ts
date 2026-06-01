@@ -54,6 +54,10 @@ export const metricDescriptions: Record<string, string> = {
     "Share of sprint-committed work that left the plan, was re-pointed, or moved backward after sprint start.",
   "Defect Leakage %":
     "Share of high-severity bugs (Severity Level 1 and 2) out of all logged bugs plus reopens for the team.",
+  "Sev 1 Bugs": "Count of Severity Level 1 bugs logged for the team in the selected period.",
+  "Sev 2 Bugs": "Count of Severity Level 2 bugs logged for the team in the selected period.",
+  "Sev 1 + Sev 2 Bugs":
+    "Count of high-severity bugs (Severity Level 1 and 2 combined) logged for the team in the selected period.",
   "Average Velocity (points per sprint)":
     "Average completed story points per sprint across the period for the team.",
   "Flow-based Cycle Time Proxy (weeks)":
@@ -71,6 +75,8 @@ export const metricDescriptions: Record<string, string> = {
 export const metricDisplayOrder = [
   "Jira Card Churn %",
   "Defect Leakage %",
+  "Sev 1 Bugs",
+  "Sev 2 Bugs",
   "Average Velocity (points per sprint)",
   "Flow-based Cycle Time Proxy (weeks)",
   "Actual Cycle Time (weeks)",
@@ -78,6 +84,23 @@ export const metricDisplayOrder = [
   "AI-assisted Pull Request Coverage",
   "AI Active Developers",
 ];
+
+// Trends renders the per-severity bug counts in a dedicated chart (one Sev 1 and one Sev 2 line per
+// team), so the individual count metrics are not listed here; TrendsPage injects that chart right
+// after Defect Leakage.
+export const trendsMetricOrder = [
+  "Jira Card Churn %",
+  "Defect Leakage %",
+  "Average Velocity (points per sprint)",
+  "Flow-based Cycle Time Proxy (weeks)",
+  "Actual Cycle Time (weeks)",
+  "Cursor Adoption Rate",
+  "AI-assisted Pull Request Coverage",
+  "AI Active Developers",
+];
+
+// Metric names for the per-severity bug-count trend chart (team x severity lines).
+export const severityCountMetricNames = ["Sev 1 Bugs", "Sev 2 Bugs"] as const;
 
 const teamDisplayMap: Record<string, string> = {
   EDU: "EDU",
@@ -89,6 +112,12 @@ const teamDisplayMap: Record<string, string> = {
 };
 
 const preferredTeamOrder = ["EDU", "Team Connexpoint", "Team Webstore", "ASAP", "Smartcare"];
+
+const metricDisplaySet = new Set(metricDisplayOrder);
+
+// Metrics that represent counts/ratios of bugs in a period: when a sprint has no matching row it
+// means zero bugs, so show 0 with a "no bugs" flag instead of falling back to the quarter value.
+const zeroWhenNoSprintData = new Set(["Defect Leakage %", "Sev 1 Bugs", "Sev 2 Bugs"]);
 
 function metricSortIndex(metricName: string) {
   const index = metricDisplayOrder.indexOf(metricName);
@@ -310,11 +339,19 @@ export function buildTeamSummaries(payload: MetricsPayload | null, periodKey: st
 
   return orderedTeamKeys.map((teamKey) => {
     const sprintMetrics = sprintKey
-      ? payload.metrics.filter((metric) => metric.team === teamKey && metric.quarter === sprintKey)
+      ? payload.metrics.filter(
+          (metric) =>
+            metric.team === teamKey &&
+            metric.quarter === sprintKey &&
+            metricDisplaySet.has(metric.metricName),
+        )
       : [];
 
     const quarterMetrics = payload.metrics.filter(
-      (metric) => metric.team === teamKey && metric.quarter === (parentQuarter ?? periodKey),
+      (metric) =>
+        metric.team === teamKey &&
+        metric.quarter === (parentQuarter ?? periodKey) &&
+        metricDisplaySet.has(metric.metricName),
     );
 
     let teamMetrics: MetricRecord[];
@@ -324,9 +361,9 @@ export function buildTeamSummaries(payload: MetricsPayload | null, periodKey: st
       const fallbackMetrics = quarterMetrics
         .filter((m) => !sprintMetricNames.has(m.metricName))
         .map((m) => {
-          // Defect Leakage only emits a sprint row when bugs were logged in that sprint window.
-          // No row means zero bugs, so show 0% with a "no bugs" flag instead of the quarter value.
-          if (m.metricName === "Defect Leakage %") {
+          // These metrics only emit a sprint row when bugs were logged in that sprint window.
+          // No row means zero bugs, so show 0 with a "no bugs" flag instead of the quarter value.
+          if (zeroWhenNoSprintData.has(m.metricName)) {
             return { ...m, value: 0, quarter: sprintKey, _noBugsInPeriod: true as const };
           }
           return { ...m, _quarterFallback: true as const };
