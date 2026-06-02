@@ -102,6 +102,14 @@ export const trendsMetricOrder = [
 // Metric names for the per-severity bug-count trend chart (team x severity lines).
 export const severityCountMetricNames = ["Sev 1 Bugs", "Sev 2 Bugs"] as const;
 
+// Metric names for the internal-vs-external (Root Cause) severity breakdown chart.
+export const severityRootCauseMetricNames = [
+  "Sev 1 Bugs (Internal)",
+  "Sev 1 Bugs (External)",
+  "Sev 2 Bugs (Internal)",
+  "Sev 2 Bugs (External)",
+] as const;
+
 const teamDisplayMap: Record<string, string> = {
   EDU: "EDU",
   "Team Connexpoint": "CXP",

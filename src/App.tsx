@@ -12,6 +12,7 @@ import {
 import HomePage from "./pages/HomePage";
 import MetricsPage from "./pages/MetricsPage";
 import TrendsPage from "./pages/TrendsPage";
+import TeamTrends from "./pages/TeamTrends";
 import ProductsPage from "./pages/ProductsPage";
 import ProductTrendsPage from "./pages/ProductTrendsPage";
 
@@ -133,6 +134,16 @@ function App() {
           path="/trends"
           element={
             <TrendsPage
+              payload={payload}
+              loading={loading}
+              error={error}
+            />
+          }
+        />
+        <Route
+          path="/team-trends"
+          element={
+            <TeamTrends
               payload={payload}
               loading={loading}
               error={error}

@@ -6,6 +6,7 @@
     "teamFieldId": "customfield_10032",
     "storyPointsFieldId": "customfield_10043",
     "severityFieldId": "customfield_10121",
+    "rootCauseFieldId": "customfield_10102",
     "statusFieldName": "status",
     "issueTypeFieldName": "issuetype"
   },

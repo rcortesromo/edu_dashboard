@@ -11,7 +11,8 @@ import {
   BarChart,
   Bar,
 } from "recharts";
-import { trendsMetricOrder, metricDescriptions, formatDateRange, getSprintsForQuarter, severityCountMetricNames, type MetricsPayload, type SprintInfo } from "../lib/metrics";
+import { trendsMetricOrder, metricDescriptions, getSprintsForQuarter, severityCountMetricNames, severityRootCauseMetricNames, type MetricsPayload, type SprintInfo } from "../lib/metrics";
+import { getAvailableQuarters, getAvailableYears, getPeriodMapping, teamColors, teamDisplayMap, type ViewMode } from "../lib/trends";
 
 type TrendsPageProps = {
   payload: MetricsPayload | null;
@@ -19,87 +20,12 @@ type TrendsPageProps = {
   error: string;
 };
 
-type ViewMode = "year" | "all-quarters" | "ytd" | "sprint";
-
 // All metrics now have sprint-level data (Jira from sprint computation, AI/Cursor from pull scripts)
-
-const teamDisplayMap: Record<string, string> = {
-  EDU: "EDU",
-  "Team Connexpoint": "CXP",
-  "Team Webstore": "Revtrak",
-  ASAP: "ASAP",
-  Smartcare: "Smartcare",
-  SmartCare: "Smartcare",
-};
-
-const teamColors: Record<string, string> = {
-  EDU: "#6d28d9",
-  "Team Connexpoint": "#2563eb",
-  "Team Webstore": "#059669",
-  ASAP: "#d97706",
-  Smartcare: "#dc2626",
-};
 
 type ChartDataPoint = {
   quarter: string;
   [teamKey: string]: number | string;
 };
-
-function getAvailableYears(payload: MetricsPayload): number[] {
-  const years = new Set<number>();
-  for (const q of payload.quarters) {
-    const match = /^(\d{4})-/.exec(q);
-    if (match) years.add(Number(match[1]));
-  }
-  for (const m of payload.metrics) {
-    const match = /^(\d{4})-/.exec(m.quarter);
-    if (match) years.add(Number(match[1]));
-  }
-  return [...years].sort((a, b) => b - a);
-}
-
-function getPeriodMapping(
-  viewMode: ViewMode,
-  selectedYear: number,
-  selectedQuarter?: string,
-  sprintLookup?: Map<string, SprintInfo>,
-): { periodFilter: (q: string) => boolean; xLabel: (q: string) => string } {
-  if (viewMode === "sprint" && selectedQuarter) {
-    return {
-      periodFilter: (q) => {
-        const match = /^(\d{4}-Q[1-4])-S\d+$/.exec(q);
-        return match !== null && match[1] === selectedQuarter;
-      },
-      xLabel: (q) => {
-        const sprint = sprintLookup?.get(q);
-        if (sprint) {
-          const range = formatDateRange(sprint.start, sprint.end);
-          return range ? `S${sprint.sequence} (${range})` : `S${sprint.sequence}`;
-        }
-        return q.replace(/^.*-S/, "S");
-      },
-    };
-  }
-  if (viewMode === "ytd") {
-    return {
-      periodFilter: (q) => /^\d{4}-YTD$/.test(q),
-      xLabel: (q) => q.replace("-YTD", ""),
-    };
-  }
-  if (viewMode === "year") {
-    return {
-      periodFilter: (q) => {
-        const match = /^(\d{4})-Q\d$/.exec(q);
-        return match !== null && Number(match[1]) === selectedYear;
-      },
-      xLabel: (q) => q.replace(`${selectedYear}-`, ""),
-    };
-  }
-  return {
-    periodFilter: (q) => /^\d{4}-Q\d$/.test(q),
-    xLabel: (q) => q,
-  };
-}
 
 function buildChartData(
   payload: MetricsPayload,
@@ -292,7 +218,7 @@ function buildSeverityChartData(
   selectedYear: number,
   selectedQuarter?: string,
   sprintLookup?: Map<string, SprintInfo>,
-): { data: ChartDataPoint[]; teams: string[] } {
+): { data: ChartDataPoint[] } {
   const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
 
   const allPeriods = [
@@ -301,33 +227,22 @@ function buildSeverityChartData(
     .filter(periodFilter)
     .sort();
 
-  const teams = [
-    ...new Set(
-      payload.metrics
-        .filter(
-          (m) =>
-            (m.metricName === SEV1_METRIC || m.metricName === SEV2_METRIC) && periodFilter(m.quarter),
-        )
-        .map((m) => m.team),
-    ),
-  ].filter((t) => t !== "EDU");
+  // EDU is the vertical that groups every delivery team, so its value for a
+  // metric/period is the sum of that metric across all individual teams.
+  const eduValue = (period: string, metricName: string): number =>
+    payload.metrics
+      .filter(
+        (m) => m.team !== "EDU" && m.quarter === period && m.metricName === metricName,
+      )
+      .reduce((sum, m) => sum + (m.value ?? 0), 0);
 
-  const data: ChartDataPoint[] = allPeriods.map((period) => {
-    const point: ChartDataPoint = { quarter: xLabel(period) };
-    for (const team of teams) {
-      const sev1 = payload.metrics.find(
-        (m) => m.team === team && m.quarter === period && m.metricName === SEV1_METRIC,
-      );
-      const sev2 = payload.metrics.find(
-        (m) => m.team === team && m.quarter === period && m.metricName === SEV2_METRIC,
-      );
-      point[`${team}__s1`] = sev1?.value ?? 0;
-      point[`${team}__s2`] = sev2?.value ?? 0;
-    }
-    return point;
-  });
+  const data: ChartDataPoint[] = allPeriods.map((period) => ({
+    quarter: xLabel(period),
+    sev1: eduValue(period, SEV1_METRIC),
+    sev2: eduValue(period, SEV2_METRIC),
+  }));
 
-  return { data, teams };
+  return { data };
 }
 
 function SeverityTrendChart({
@@ -343,12 +258,12 @@ function SeverityTrendChart({
   selectedQuarter?: string;
   sprintLookup?: Map<string, SprintInfo>;
 }) {
-  const { data, teams } = useMemo(
+  const { data } = useMemo(
     () => buildSeverityChartData(payload, viewMode, selectedYear, selectedQuarter, sprintLookup),
     [payload, viewMode, selectedYear, selectedQuarter, sprintLookup],
   );
 
-  if (data.length === 0 || teams.length === 0) return null;
+  if (data.length === 0) return null;
 
   const isSprintView = viewMode === "sprint";
   const xTickFormatter = isSprintView ? (value: string) => String(value).split(" (")[0] : undefined;
@@ -362,7 +277,7 @@ function SeverityTrendChart({
           <span className="trend-source-badge">Jira</span>
         </div>
         <p className="trend-chart-description">
-          High-severity bug counts per team: one solid line for Sev 1 and one dashed line for Sev 2.
+          High-severity bug counts for EDU overall: one bar for Sev 1 and one bar for Sev 2 per period.
         </p>
       </div>
       <div className="trend-chart-body">
@@ -391,26 +306,18 @@ function SeverityTrendChart({
               }}
             />
             <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
-            {teams.flatMap((team) => {
-              const color = teamColors[team] ?? "#6d28d9";
-              return [
-                <Bar
-                  key={`${team}__s1`}
-                  dataKey={`${team}__s1`}
-                  name={`${teamDisplayMap[team] ?? team} Sev 1`}
-                  fill={color}
-                  radius={[3, 3, 0, 0]}
-                />,
-                <Bar
-                  key={`${team}__s2`}
-                  dataKey={`${team}__s2`}
-                  name={`${teamDisplayMap[team] ?? team} Sev 2`}
-                  fill={color}
-                  fillOpacity={0.4}
-                  radius={[3, 3, 0, 0]}
-                />,
-              ];
-            })}
+            <Bar
+              dataKey="sev1"
+              name="Sev 1"
+              fill="#dc2626"
+              radius={[3, 3, 0, 0]}
+            />
+            <Bar
+              dataKey="sev2"
+              name="Sev 2"
+              fill="#f59e0b"
+              radius={[3, 3, 0, 0]}
+            />
           </BarChart>
         </ResponsiveContainer>
       </div>
@@ -418,12 +325,119 @@ function SeverityTrendChart({
   );
 }
 
-function getAvailableQuarters(payload: MetricsPayload): string[] {
-  const quarters = new Set<string>();
-  for (const q of payload.quarters) {
-    if (/^\d{4}-Q[1-4]$/.test(q)) quarters.add(q);
-  }
-  return [...quarters].sort().reverse();
+const [SEV1_INTERNAL_METRIC, SEV1_EXTERNAL_METRIC, SEV2_INTERNAL_METRIC, SEV2_EXTERNAL_METRIC] =
+  severityRootCauseMetricNames;
+
+type RootCausePoint = {
+  quarter: string;
+  sev1Internal: number;
+  sev1External: number;
+  sev2Internal: number;
+  sev2External: number;
+};
+
+function buildSeverityRootCauseData(
+  payload: MetricsPayload,
+  viewMode: ViewMode,
+  selectedYear: number,
+  selectedQuarter?: string,
+  sprintLookup?: Map<string, SprintInfo>,
+): RootCausePoint[] {
+  const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
+
+  const allPeriods = [
+    ...new Set([...payload.quarters, ...payload.metrics.map((m) => m.quarter)]),
+  ]
+    .filter(periodFilter)
+    .sort();
+
+  // EDU is the vertical that groups every delivery team: sum each metric across all teams.
+  const eduValue = (period: string, metricName: string): number =>
+    payload.metrics
+      .filter(
+        (m) => m.team !== "EDU" && m.quarter === period && m.metricName === metricName,
+      )
+      .reduce((sum, m) => sum + (m.value ?? 0), 0);
+
+  return allPeriods.map((period) => ({
+    quarter: xLabel(period),
+    sev1Internal: eduValue(period, SEV1_INTERNAL_METRIC),
+    sev1External: eduValue(period, SEV1_EXTERNAL_METRIC),
+    sev2Internal: eduValue(period, SEV2_INTERNAL_METRIC),
+    sev2External: eduValue(period, SEV2_EXTERNAL_METRIC),
+  }));
+}
+
+function SeverityRootCauseChart({
+  payload,
+  viewMode,
+  selectedYear,
+  selectedQuarter,
+  sprintLookup,
+}: {
+  payload: MetricsPayload;
+  viewMode: ViewMode;
+  selectedYear: number;
+  selectedQuarter?: string;
+  sprintLookup?: Map<string, SprintInfo>;
+}) {
+  const data = useMemo(
+    () => buildSeverityRootCauseData(payload, viewMode, selectedYear, selectedQuarter, sprintLookup),
+    [payload, viewMode, selectedYear, selectedQuarter, sprintLookup],
+  );
+
+  if (data.length === 0) return null;
+
+  const isSprintView = viewMode === "sprint";
+  const xTickFormatter = isSprintView ? (value: string) => String(value).split(" (")[0] : undefined;
+  const xInterval = isSprintView ? 0 : undefined;
+
+  return (
+    <article className="trend-chart-card">
+      <div className="trend-chart-header">
+        <div className="trend-chart-title-row">
+          <h3>Sev 1 &amp; Sev 2 Bugs by Root Cause</h3>
+          <span className="trend-source-badge">Jira</span>
+        </div>
+        <p className="trend-chart-description">
+          EDU overall, split by Root Cause: External = "Third Party", Internal = any other root cause.
+        </p>
+      </div>
+      <div className="trend-chart-body">
+        <ResponsiveContainer width="100%" height={280}>
+          <BarChart data={data} margin={{ top: 8, right: 24, left: 8, bottom: 8 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(109,40,217,0.08)" />
+            <XAxis
+              dataKey="quarter"
+              tick={{ fontSize: 12, fill: "#6b5a8d" }}
+              axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+              tickFormatter={xTickFormatter}
+              interval={xInterval}
+            />
+            <YAxis
+              tick={{ fontSize: 12, fill: "#6b5a8d" }}
+              axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+              allowDecimals={false}
+              label={{ value: "bugs", angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#6b5a8d" } }}
+            />
+            <Tooltip
+              contentStyle={{
+                background: "#ffffff",
+                border: "1px solid rgba(109,40,217,0.14)",
+                borderRadius: 12,
+                fontSize: 13,
+              }}
+            />
+            <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
+            <Bar dataKey="sev1Internal" name="Sev 1 Internal" fill="#dc2626" radius={[3, 3, 0, 0]} />
+            <Bar dataKey="sev1External" name="Sev 1 External" fill="#2563eb" radius={[3, 3, 0, 0]} />
+            <Bar dataKey="sev2Internal" name="Sev 2 Internal" fill="#f59e0b" radius={[3, 3, 0, 0]} />
+            <Bar dataKey="sev2External" name="Sev 2 External" fill="#059669" radius={[3, 3, 0, 0]} />
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+    </article>
+  );
 }
 
 function TrendsPage({ payload, loading, error }: TrendsPageProps) {
@@ -459,6 +473,15 @@ function TrendsPage({ payload, loading, error }: TrendsPageProps) {
     () =>
       Boolean(payload) &&
       payload!.metrics.some((m) => m.metricName === SEV1_METRIC || m.metricName === SEV2_METRIC),
+    [payload],
+  );
+
+  const hasRootCauseData = useMemo(
+    () =>
+      Boolean(payload) &&
+      payload!.metrics.some((m) =>
+        (severityRootCauseMetricNames as readonly string[]).includes(m.metricName),
+      ),
     [payload],
   );
 
@@ -541,6 +564,15 @@ function TrendsPage({ payload, loading, error }: TrendsPageProps) {
                 />
                 {metricName === "Defect Leakage %" && hasSeverityData && (
                   <SeverityTrendChart
+                    payload={payload}
+                    viewMode={viewMode}
+                    selectedYear={resolvedYear}
+                    selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                    sprintLookup={sprintLookup}
+                  />
+                )}
+                {metricName === "Defect Leakage %" && hasRootCauseData && (
+                  <SeverityRootCauseChart
                     payload={payload}
                     viewMode={viewMode}
                     selectedYear={resolvedYear}

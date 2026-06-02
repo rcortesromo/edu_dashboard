@@ -19,6 +19,12 @@ const METRIC_UNIT = "percent";
 const SEV1_METRIC_NAME = "Sev 1 Bugs";
 const SEV2_METRIC_NAME = "Sev 2 Bugs";
 const SEV_HIGH_METRIC_NAME = "Sev 1 + Sev 2 Bugs";
+const SEV1_INTERNAL_METRIC_NAME = "Sev 1 Bugs (Internal)";
+const SEV1_EXTERNAL_METRIC_NAME = "Sev 1 Bugs (External)";
+const SEV2_INTERNAL_METRIC_NAME = "Sev 2 Bugs (Internal)";
+const SEV2_EXTERNAL_METRIC_NAME = "Sev 2 Bugs (External)";
+// Root Cause value that marks a bug as external; anything else (incl. null/empty) is internal.
+const EXTERNAL_ROOT_CAUSE = "third party";
 const COUNT_UNIT = "count";
 const SOURCE_SYSTEM = "Jira";
 const COVERAGE_STATUS = "Yes (partial)";
@@ -26,7 +32,15 @@ const DEFAULT_PORTFOLIO = "EDU";
 
 // Severity-count metric names share the defect leakage export. Used when deciding which prior rows
 // to drop on incremental/quarter-scoped runs.
-const SEV_COUNT_METRIC_NAMES = new Set([SEV1_METRIC_NAME, SEV2_METRIC_NAME, SEV_HIGH_METRIC_NAME]);
+const SEV_COUNT_METRIC_NAMES = new Set([
+  SEV1_METRIC_NAME,
+  SEV2_METRIC_NAME,
+  SEV_HIGH_METRIC_NAME,
+  SEV1_INTERNAL_METRIC_NAME,
+  SEV1_EXTERNAL_METRIC_NAME,
+  SEV2_INTERNAL_METRIC_NAME,
+  SEV2_EXTERNAL_METRIC_NAME,
+]);
 const ALL_METRIC_NAMES = new Set([METRIC_NAME, ...SEV_COUNT_METRIC_NAMES]);
 
 const sprintPeriodPattern = /^\d{4}-Q[1-4]-S\d+$/;
@@ -49,6 +63,10 @@ const countsHeaders = [
   "sev_high",
   "sev1",
   "sev2",
+  "sev1_internal",
+  "sev1_external",
+  "sev2_internal",
+  "sev2_external",
   "total_bugs",
   "reopened_distinct",
   "last_refresh_utc",
@@ -378,6 +396,23 @@ async function resolveSeverityFieldId(client, mapping) {
   return match.id;
 }
 
+async function resolveRootCauseFieldId(client, mapping) {
+  const configured = mapping.fields?.rootCauseFieldId;
+  if (configured) {
+    return configured;
+  }
+  const fields = await client.getFields();
+  // The select field that carries the "Third Party" option is "Root Cause Category"; several other
+  // free-text fields are also named "Root Cause", so prefer the category field by name.
+  const match =
+    fields.find((field) => normalizeName(field.name) === "root cause category") ??
+    fields.find((field) => normalizeName(field.name) === "root cause");
+  if (!match) {
+    throw new Error('Could not find a Jira field named "Root Cause Category". Set fields.rootCauseFieldId in the mapping.');
+  }
+  return match.id;
+}
+
 // Team Connexpoint (CXP) is the single official sprint calendar. The periods are defined strictly
 // by CXP's sprints; every team's bugs are bucketed into those windows by created date. This
 // matches the frontend's getSprintsForQuarter. Sprint 0 is intentionally excluded.
@@ -469,8 +504,15 @@ function noteForCounts(period, sev1, sev2) {
   return `${period}: ${sev1} Sev 1 + ${sev2} Sev 2 bug(s).`;
 }
 
-// Emit the three severity-count metric rows (Sev 1, Sev 2, and the combined) for one team/period.
-function countRowsFor(team, periodLabel, sev1, sev2, lastRefresh, notePrefix = "") {
+// Emit the severity-count metric rows (Sev 1, Sev 2, the combined, and the internal/external
+// split by Root Cause) for one team/period. `counts` carries the aggregated bucket values.
+function countRowsFor(team, periodLabel, counts, lastRefresh, notePrefix = "") {
+  const sev1 = counts.sev1 ?? 0;
+  const sev2 = counts.sev2 ?? 0;
+  const sev1Internal = counts.sev1Internal ?? 0;
+  const sev1External = counts.sev1External ?? 0;
+  const sev2Internal = counts.sev2Internal ?? 0;
+  const sev2External = counts.sev2External ?? 0;
   const base = {
     team_name: team,
     quarter_label: periodLabel,
@@ -484,6 +526,10 @@ function countRowsFor(team, periodLabel, sev1, sev2, lastRefresh, notePrefix = "
     { ...base, metric_name: SEV1_METRIC_NAME, metric_value: String(sev1) },
     { ...base, metric_name: SEV2_METRIC_NAME, metric_value: String(sev2) },
     { ...base, metric_name: SEV_HIGH_METRIC_NAME, metric_value: String(sev1 + sev2) },
+    { ...base, metric_name: SEV1_INTERNAL_METRIC_NAME, metric_value: String(sev1Internal) },
+    { ...base, metric_name: SEV1_EXTERNAL_METRIC_NAME, metric_value: String(sev1External) },
+    { ...base, metric_name: SEV2_INTERNAL_METRIC_NAME, metric_value: String(sev2Internal) },
+    { ...base, metric_name: SEV2_EXTERNAL_METRIC_NAME, metric_value: String(sev2External) },
   ];
 }
 
@@ -538,6 +584,7 @@ async function main() {
   });
 
   const severityFieldId = await resolveSeverityFieldId(client, mapping);
+  const rootCauseFieldId = await resolveRootCauseFieldId(client, mapping);
 
   const jiraTeamLookup = new Map();
   for (const team of teams) {
@@ -547,7 +594,7 @@ async function main() {
   // Fetch every in-scope bug once, group by team.
   const projectClause = `project in (${projectKeys.join(", ")})`;
   const jql = `${projectClause} AND issuetype = "${issueType}" AND created >= "${toIsoDate(rangeStart)}" ORDER BY created ASC`;
-  const fields = ["created", "status", "issuetype", teamFieldId, severityFieldId];
+  const fields = ["created", "status", "issuetype", teamFieldId, severityFieldId, rootCauseFieldId];
   const issues = await client.searchIssues(jql, fields);
 
   const canonicalWindows = await loadCanonicalSprintWindows();
@@ -558,19 +605,49 @@ async function main() {
   // sprintCounts: Map<outputTeam, Map<sprintKey, { sevHigh, total, reopened }>>
   const sprintCounts = new Map();
 
-  function bump(map, team, period, isSev1, isSev2, isReopened) {
+  function newBucket() {
+    return {
+      sevHigh: 0,
+      sev1: 0,
+      sev2: 0,
+      sev1Internal: 0,
+      sev1External: 0,
+      sev2Internal: 0,
+      sev2External: 0,
+      total: 0,
+      reopened: 0,
+    };
+  }
+
+  function addInto(target, src) {
+    target.sevHigh += src.sevHigh;
+    target.sev1 += src.sev1;
+    target.sev2 += src.sev2;
+    target.sev1Internal += src.sev1Internal;
+    target.sev1External += src.sev1External;
+    target.sev2Internal += src.sev2Internal;
+    target.sev2External += src.sev2External;
+    target.total += src.total;
+    target.reopened += src.reopened;
+  }
+
+  function bump(map, team, period, isSev1, isSev2, isExternal, isReopened) {
     if (!map.has(team)) map.set(team, new Map());
     const periodMap = map.get(team);
-    if (!periodMap.has(period)) periodMap.set(period, { sevHigh: 0, sev1: 0, sev2: 0, total: 0, reopened: 0 });
+    if (!periodMap.has(period)) periodMap.set(period, newBucket());
     const bucket = periodMap.get(period);
     bucket.total += 1;
     if (isSev1) {
       bucket.sev1 += 1;
       bucket.sevHigh += 1;
+      if (isExternal) bucket.sev1External += 1;
+      else bucket.sev1Internal += 1;
     }
     if (isSev2) {
       bucket.sev2 += 1;
       bucket.sevHigh += 1;
+      if (isExternal) bucket.sev2External += 1;
+      else bucket.sev2Internal += 1;
     }
     if (isReopened) bucket.reopened += 1;
   }
@@ -594,6 +671,10 @@ async function main() {
     const isSev1 = severity === sev1Level;
     const isSev2 = severity === sev2Level;
 
+    // Root Cause "Third Party" => external; anything else (incl. null/empty) => internal.
+    const rootCause = normalizeName(severityValue(issue.fields?.[rootCauseFieldId]));
+    const isExternal = rootCause === EXTERNAL_ROOT_CAUSE;
+
     // Reopen detection: any status transition into a configured reopened status.
     let isReopened = false;
     const changelog = await client.getIssueChangelog(issue.key);
@@ -608,11 +689,11 @@ async function main() {
     }
 
     const outputTeam = team.outputTeamName;
-    bump(quarterCounts, outputTeam, quarterWindow.label, isSev1, isSev2, isReopened);
+    bump(quarterCounts, outputTeam, quarterWindow.label, isSev1, isSev2, isExternal, isReopened);
 
     const sprint = findCanonicalSprint(canonicalWindows, quarterWindow.label, created);
     if (sprint) {
-      bump(sprintCounts, outputTeam, sprint.key, isSev1, isSev2, isReopened);
+      bump(sprintCounts, outputTeam, sprint.key, isSev1, isSev2, isExternal, isReopened);
     }
   }
 
@@ -636,6 +717,10 @@ async function main() {
         sev_high: String(bucket.sevHigh),
         sev1: String(bucket.sev1),
         sev2: String(bucket.sev2),
+        sev1_internal: String(bucket.sev1Internal),
+        sev1_external: String(bucket.sev1External),
+        sev2_internal: String(bucket.sev2Internal),
+        sev2_external: String(bucket.sev2External),
         total_bugs: String(bucket.total),
         reopened_distinct: String(bucket.reopened),
         last_refresh_utc: refreshTimestamp,
@@ -656,6 +741,10 @@ async function main() {
       sevHigh: Number(row.sev_high) || 0,
       sev1: Number(row.sev1) || 0,
       sev2: Number(row.sev2) || 0,
+      sev1Internal: Number(row.sev1_internal) || 0,
+      sev1External: Number(row.sev1_external) || 0,
+      sev2Internal: Number(row.sev2_internal) || 0,
+      sev2External: Number(row.sev2_external) || 0,
       total: Number(row.total_bugs) || 0,
       reopened: Number(row.reopened_distinct) || 0,
       lastRefresh: row.last_refresh_utc || refreshTimestamp,
@@ -686,36 +775,21 @@ async function main() {
 
       // Severity counts are emitted for every quarter present in the ledger (0 is meaningful).
       quarterAndYtdRows.push(
-        ...countRowsFor(team, quarterLabel, bucket.sev1, bucket.sev2, bucket.lastRefresh),
+        ...countRowsFor(team, quarterLabel, bucket, bucket.lastRefresh),
       );
 
       const year = Number(quarterLabel.slice(0, 4));
       const ytdKey = `${team}::${year}`;
-      if (!ytdByYearTeam.has(ytdKey)) ytdByYearTeam.set(ytdKey, { sevHigh: 0, sev1: 0, sev2: 0, total: 0, reopened: 0, year });
-      const ytdAgg = ytdByYearTeam.get(ytdKey);
-      ytdAgg.sevHigh += bucket.sevHigh;
-      ytdAgg.sev1 += bucket.sev1;
-      ytdAgg.sev2 += bucket.sev2;
-      ytdAgg.total += bucket.total;
-      ytdAgg.reopened += bucket.reopened;
+      if (!ytdByYearTeam.has(ytdKey)) ytdByYearTeam.set(ytdKey, { ...newBucket(), year });
+      addInto(ytdByYearTeam.get(ytdKey), bucket);
 
       if (!quarterPortfolio.has(quarterLabel)) {
-        quarterPortfolio.set(quarterLabel, { sevHigh: 0, sev1: 0, sev2: 0, total: 0, reopened: 0 });
+        quarterPortfolio.set(quarterLabel, newBucket());
       }
-      const portfolioQuarter = quarterPortfolio.get(quarterLabel);
-      portfolioQuarter.sevHigh += bucket.sevHigh;
-      portfolioQuarter.sev1 += bucket.sev1;
-      portfolioQuarter.sev2 += bucket.sev2;
-      portfolioQuarter.total += bucket.total;
-      portfolioQuarter.reopened += bucket.reopened;
+      addInto(quarterPortfolio.get(quarterLabel), bucket);
 
-      if (!ytdByYearPortfolio.has(year)) ytdByYearPortfolio.set(year, { sevHigh: 0, sev1: 0, sev2: 0, total: 0, reopened: 0 });
-      const portfolioYtd = ytdByYearPortfolio.get(year);
-      portfolioYtd.sevHigh += bucket.sevHigh;
-      portfolioYtd.sev1 += bucket.sev1;
-      portfolioYtd.sev2 += bucket.sev2;
-      portfolioYtd.total += bucket.total;
-      portfolioYtd.reopened += bucket.reopened;
+      if (!ytdByYearPortfolio.has(year)) ytdByYearPortfolio.set(year, newBucket());
+      addInto(ytdByYearPortfolio.get(year), bucket);
     }
   }
 
@@ -736,7 +810,7 @@ async function main() {
         last_refresh_utc: refreshTimestamp,
       });
     }
-    quarterAndYtdRows.push(...countRowsFor(team, ytdLabel, agg.sev1, agg.sev2, refreshTimestamp));
+    quarterAndYtdRows.push(...countRowsFor(team, ytdLabel, agg, refreshTimestamp));
   }
 
   for (const [quarterLabel, agg] of quarterPortfolio.entries()) {
@@ -755,7 +829,7 @@ async function main() {
       });
     }
     quarterAndYtdRows.push(
-      ...countRowsFor(portfolioTeamName, quarterLabel, agg.sev1, agg.sev2, refreshTimestamp, "Portfolio rollup. "),
+      ...countRowsFor(portfolioTeamName, quarterLabel, agg, refreshTimestamp, "Portfolio rollup. "),
     );
   }
 
@@ -776,7 +850,7 @@ async function main() {
       });
     }
     quarterAndYtdRows.push(
-      ...countRowsFor(portfolioTeamName, ytdLabel, agg.sev1, agg.sev2, refreshTimestamp, "Portfolio rollup. "),
+      ...countRowsFor(portfolioTeamName, ytdLabel, agg, refreshTimestamp, "Portfolio rollup. "),
     );
   }
 
@@ -799,7 +873,7 @@ async function main() {
         });
       }
       freshSprintRows.push(
-        ...countRowsFor(team, sprintKey, bucket.sev1, bucket.sev2, refreshTimestamp),
+        ...countRowsFor(team, sprintKey, bucket, refreshTimestamp),
       );
     }
   }
@@ -840,6 +914,7 @@ async function main() {
     JSON.stringify(
       {
         severityFieldId,
+        rootCauseFieldId,
         quartersProcessed: [...processedQuarterLabels],
         bugsFetched: issues.length,
         bugsInScope: scopedBugCount,

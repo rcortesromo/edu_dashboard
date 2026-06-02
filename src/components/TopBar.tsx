@@ -4,7 +4,11 @@ import { NavLink, useLocation } from "react-router-dom";
 const navItems = [
   { label: "Home", to: "/" },
   { label: "Metrics", to: "/metrics" },
-  { label: "Trends", to: "/trends" },
+];
+
+const trendsItems = [
+  { label: "EDU", to: "/trends" },
+  { label: "Teams", to: "/team-trends" },
 ];
 
 const businessMetricsItems = [
@@ -13,27 +17,29 @@ const businessMetricsItems = [
 
 function TopBar() {
   const location = useLocation();
-  const [menuOpen, setMenuOpen] = useState(false);
-  const menuRef = useRef<HTMLDivElement | null>(null);
+  const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const navRef = useRef<HTMLElement | null>(null);
 
+  const isTrendsActive =
+    location.pathname.startsWith("/trends") || location.pathname.startsWith("/team-trends");
   const isBusinessMetricsActive = location.pathname.startsWith("/business-metrics");
 
   useEffect(() => {
-    setMenuOpen(false);
+    setOpenMenu(null);
   }, [location.pathname]);
 
   useEffect(() => {
-    if (!menuOpen) return;
+    if (!openMenu) return;
 
     function handlePointerDown(event: MouseEvent) {
-      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
-        setMenuOpen(false);
+      if (navRef.current && !navRef.current.contains(event.target as Node)) {
+        setOpenMenu(null);
       }
     }
 
     document.addEventListener("mousedown", handlePointerDown);
     return () => document.removeEventListener("mousedown", handlePointerDown);
-  }, [menuOpen]);
+  }, [openMenu]);
 
   return (
     <header className="topbar">
@@ -45,7 +51,7 @@ function TopBar() {
         </div>
       </div>
 
-      <nav className="topbar-nav" aria-label="Main navigation">
+      <nav className="topbar-nav" aria-label="Main navigation" ref={navRef}>
         {navItems.map((item) => (
           <NavLink
             key={item.to}
@@ -57,13 +63,45 @@ function TopBar() {
           </NavLink>
         ))}
 
-        <div className="nav-dropdown" ref={menuRef}>
+        <div className="nav-dropdown">
+          <button
+            type="button"
+            className={`nav-link nav-dropdown-trigger${isTrendsActive ? " active" : ""}`}
+            aria-haspopup="true"
+            aria-expanded={openMenu === "trends"}
+            onClick={() => setOpenMenu((current) => (current === "trends" ? null : "trends"))}
+          >
+            Trends
+            <span className="nav-dropdown-caret" aria-hidden="true">
+              ▾
+            </span>
+          </button>
+
+          {openMenu === "trends" ? (
+            <div className="nav-dropdown-menu" role="menu">
+              {trendsItems.map((item) => (
+                <NavLink
+                  key={item.to}
+                  to={item.to}
+                  role="menuitem"
+                  className={({ isActive }) => `nav-dropdown-item${isActive ? " active" : ""}`}
+                >
+                  {item.label}
+                </NavLink>
+              ))}
+            </div>
+          ) : null}
+        </div>
+
+        <div className="nav-dropdown">
           <button
             type="button"
             className={`nav-link nav-dropdown-trigger${isBusinessMetricsActive ? " active" : ""}`}
             aria-haspopup="true"
-            aria-expanded={menuOpen}
-            onClick={() => setMenuOpen((open) => !open)}
+            aria-expanded={openMenu === "business-metrics"}
+            onClick={() =>
+              setOpenMenu((current) => (current === "business-metrics" ? null : "business-metrics"))
+            }
           >
             Business Metrics
             <span className="nav-dropdown-caret" aria-hidden="true">
@@ -71,7 +109,7 @@ function TopBar() {
             </span>
           </button>
 
-          {menuOpen ? (
+          {openMenu === "business-metrics" ? (
             <div className="nav-dropdown-menu" role="menu">
               {businessMetricsItems.map((item) => (
                 <NavLink
