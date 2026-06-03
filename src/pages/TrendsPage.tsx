@@ -11,8 +11,9 @@ import {
   BarChart,
   Bar,
 } from "recharts";
-import { trendsMetricOrder, metricDescriptions, getSprintsForQuarter, severityCountMetricNames, severityRootCauseMetricNames, type MetricsPayload, type SprintInfo } from "../lib/metrics";
+import { trendsMetricOrder, metricDescriptions, getSprintsForQuarter, severityCountMetricNames, severityRootCauseMetricNames, mttrMetricName, type MetricsPayload, type SprintInfo } from "../lib/metrics";
 import { getAvailableQuarters, getAvailableYears, getPeriodMapping, teamColors, teamDisplayMap, type ViewMode } from "../lib/trends";
+import MttrTrendChart from "../components/MttrTrendChart";
 
 type TrendsPageProps = {
   payload: MetricsPayload | null;
@@ -554,14 +555,26 @@ function TrendsPage({ payload, loading, error }: TrendsPageProps) {
           <div className="trends-grid">
             {availableMetrics.map((metricName) => (
               <Fragment key={metricName}>
-                <MetricChart
-                  payload={payload}
-                  metricName={metricName}
-                  viewMode={viewMode}
-                  selectedYear={resolvedYear}
-                  selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
-                  sprintLookup={sprintLookup}
-                />
+                {metricName === mttrMetricName ? (
+                  <MttrTrendChart
+                    payload={payload}
+                    viewMode={viewMode}
+                    selectedYear={resolvedYear}
+                    selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                    sprintLookup={sprintLookup}
+                    title="Mean time to resolve (Sev 1 + Sev 2)"
+                    description={metricDescriptions[mttrMetricName] ?? ""}
+                  />
+                ) : (
+                  <MetricChart
+                    payload={payload}
+                    metricName={metricName}
+                    viewMode={viewMode}
+                    selectedYear={resolvedYear}
+                    selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                    sprintLookup={sprintLookup}
+                  />
+                )}
                 {metricName === "Defect Leakage %" && hasSeverityData && (
                   <SeverityTrendChart
                     payload={payload}

@@ -451,6 +451,9 @@ EDU,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 30 mapped 
 EDU,2025-Q1,Defect Leakage %,4.6,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 11 sev L1+L2 / (218 bugs + 21 reopened).,2026-06-02T19:09:20.671Z
 EDU,2025-Q1,Flow-based Cycle Time Proxy (weeks),2.01,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2025-Q1,Jira Card Churn %,19.5,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2025-Q1,MTTR (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-Q1,MTTR Avg (Sev 1 + Sev 2),42.09,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-Q1,MTTR Tickets (Sev 1 + Sev 2),5,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
 EDU,2025-Q1,Sev 1 + Sev 2 Bugs,11,count,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 0 Sev 1 + 11 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2025-Q1,Sev 1 Bugs,0,count,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 0 Sev 1 + 11 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2025-Q1,Sev 1 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 0 Sev 1 + 11 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -466,6 +469,9 @@ EDU,2025-Q2,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped 
 EDU,2025-Q2,Defect Leakage %,0.87,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 2 sev L1+L2 / (213 bugs + 17 reopened).,2026-06-02T19:09:20.671Z
 EDU,2025-Q2,Flow-based Cycle Time Proxy (weeks),1.85,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2025-Q2,Jira Card Churn %,12.68,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2025-Q2,MTTR (Sev 1 + Sev 2),5.82,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-Q2,MTTR Avg (Sev 1 + Sev 2),49.07,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-Q2,MTTR Tickets (Sev 1 + Sev 2),62,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
 EDU,2025-Q2,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2025-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2025-Q2,Sev 1 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -481,6 +487,9 @@ EDU,2025-Q3,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped 
 EDU,2025-Q3,Defect Leakage %,10.8,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 42 sev L1+L2 / (370 bugs + 19 reopened).,2026-06-02T19:09:20.671Z
 EDU,2025-Q3,Flow-based Cycle Time Proxy (weeks),1.85,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2025-Q3,Jira Card Churn %,20.7,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2025-Q3,MTTR (Sev 1 + Sev 2),21.29,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-Q3,MTTR Avg (Sev 1 + Sev 2),65.22,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-Q3,MTTR Tickets (Sev 1 + Sev 2),82,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
 EDU,2025-Q3,Sev 1 + Sev 2 Bugs,42,count,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 1 Sev 1 + 41 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2025-Q3,Sev 1 Bugs,1,count,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 1 Sev 1 + 41 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2025-Q3,Sev 1 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 1 Sev 1 + 41 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -496,6 +505,9 @@ EDU,2025-Q4,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped 
 EDU,2025-Q4,Defect Leakage %,2.83,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 6 sev L1+L2 / (201 bugs + 11 reopened).,2026-06-02T19:09:20.671Z
 EDU,2025-Q4,Flow-based Cycle Time Proxy (weeks),1.76,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2025-Q4,Jira Card Churn %,20.95,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2025-Q4,MTTR (Sev 1 + Sev 2),48.11,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-Q4,MTTR Avg (Sev 1 + Sev 2),510.28,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-Q4,MTTR Tickets (Sev 1 + Sev 2),43,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
 EDU,2025-Q4,Sev 1 + Sev 2 Bugs,6,count,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2025-Q4,Sev 1 Bugs,1,count,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2025-Q4,Sev 1 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -508,6 +520,9 @@ EDU,2025-YTD,Average Velocity (points per sprint),27.83,points,Jira,Yes (partial
 EDU,2025-YTD,Defect Leakage %,5.7,percent,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 61 sev L1+L2 / (1002 bugs + 68 reopened).,2026-06-02T19:09:20.671Z
 EDU,2025-YTD,Flow-based Cycle Time Proxy (weeks),1.86,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2025-YTD,Jira Card Churn %,18.62,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2025-YTD,MTTR (Sev 1 + Sev 2),23.9,hours,Jira,Yes (partial),"Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-YTD,MTTR Avg (Sev 1 + Sev 2),159.08,hours,Jira,Yes (partial),"Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-YTD,MTTR Tickets (Sev 1 + Sev 2),192,count,Jira,Yes (partial),"Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
 EDU,2025-YTD,Sev 1 + Sev 2 Bugs,61,count,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 2 Sev 1 + 59 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2025-YTD,Sev 1 Bugs,2,count,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 2 Sev 1 + 59 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2025-YTD,Sev 1 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 2 Sev 1 + 59 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -523,6 +538,9 @@ EDU,2026-Q1,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mappe
 EDU,2026-Q1,Defect Leakage %,3.43,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 6 sev L1+L2 / (167 bugs + 8 reopened).,2026-06-02T19:09:20.671Z
 EDU,2026-Q1,Flow-based Cycle Time Proxy (weeks),2.03,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2026-Q1,Jira Card Churn %,7.28,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2026-Q1,MTTR (Sev 1 + Sev 2),24.81,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
+EDU,2026-Q1,MTTR Avg (Sev 1 + Sev 2),83.13,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
+EDU,2026-Q1,MTTR Tickets (Sev 1 + Sev 2),23,count,Jira,Yes (partial),"Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
 EDU,2026-Q1,Sev 1 + Sev 2 Bugs,6,count,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 3 Sev 1 + 3 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2026-Q1,Sev 1 Bugs,3,count,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 3 Sev 1 + 3 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2026-Q1,Sev 1 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 3 Sev 1 + 3 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -538,6 +556,9 @@ EDU,2026-Q2,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mappe
 EDU,2026-Q2,Defect Leakage %,9.42,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 13 sev L1+L2 / (133 bugs + 5 reopened).,2026-06-02T19:09:20.671Z
 EDU,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.88,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2026-Q2,Jira Card Churn %,10.86,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2026-Q2,MTTR (Sev 1 + Sev 2),170.96,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
+EDU,2026-Q2,MTTR Avg (Sev 1 + Sev 2),876.36,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
+EDU,2026-Q2,MTTR Tickets (Sev 1 + Sev 2),21,count,Jira,Yes (partial),"Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
 EDU,2026-Q2,Sev 1 + Sev 2 Bugs,13,count,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 0 Sev 1 + 13 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2026-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 0 Sev 1 + 13 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2026-Q2,Sev 1 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 0 Sev 1 + 13 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -550,6 +571,9 @@ EDU,2026-YTD,Average Velocity (points per sprint),24.52,points,Jira,Yes (partial
 EDU,2026-YTD,Defect Leakage %,6.07,percent,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 19 sev L1+L2 / (300 bugs + 13 reopened).,2026-06-02T19:09:20.671Z
 EDU,2026-YTD,Flow-based Cycle Time Proxy (weeks),1.96,weeks,Jira,Yes (partial),Year-to-date portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2026-YTD,Jira Card Churn %,8.82,percent,Jira,Yes (partial),"Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
+EDU,2026-YTD,MTTR (Sev 1 + Sev 2),78.35,hours,Jira,Yes (partial),"Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
+EDU,2026-YTD,MTTR Avg (Sev 1 + Sev 2),461.72,hours,Jira,Yes (partial),"Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
+EDU,2026-YTD,MTTR Tickets (Sev 1 + Sev 2),44,count,Jira,Yes (partial),"Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
 EDU,2026-YTD,Sev 1 + Sev 2 Bugs,19,count,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 3 Sev 1 + 16 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2026-YTD,Sev 1 Bugs,3,count,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 3 Sev 1 + 16 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 EDU,2026-YTD,Sev 1 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 3 Sev 1 + 16 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1621,6 +1645,9 @@ Team Webstore,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 
 Team Webstore,2025-Q1,Defect Leakage %,3.45,percent,Jira,Yes (partial),2025-Q1: 1 sev L1+L2 / (26 bugs + 3 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1,Flow-based Cycle Time Proxy (weeks),2.61,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q1,Jira Card Churn %,50.42,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1,MTTR (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q1,MTTR Avg (Sev 1 + Sev 2),42.09,hours,Jira,Yes (partial),"2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q1,MTTR Tickets (Sev 1 + Sev 2),5,count,Jira,Yes (partial),"2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1651,6 +1678,9 @@ Team Webstore,2025-Q1-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S2: 0 sev L1+L2 / (7 bugs + 2 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1-S2,Flow-based Cycle Time Proxy (weeks),3.21,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q1.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q1-S2,Jira Card Churn %,80,percent,Jira,Yes (partial),Sprint 2 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S2,MTTR (Sev 1 + Sev 2),23.85,hours,Jira,Yes (partial),"2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q1-S2,MTTR Avg (Sev 1 + Sev 2),63.31,hours,Jira,Yes (partial),"2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q1-S2,MTTR Tickets (Sev 1 + Sev 2),3,count,Jira,Yes (partial),"2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q1-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1-S2,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1696,6 +1726,9 @@ Team Webstore,2025-Q1-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q1-S5: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1-S5,Flow-based Cycle Time Proxy (weeks),2.38,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q1.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q1-S5,Jira Card Churn %,73.91,percent,Jira,Yes (partial),Sprint 5 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S5,MTTR (Sev 1 + Sev 2),0.26,hours,Jira,Yes (partial),"2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q1-S5,MTTR Avg (Sev 1 + Sev 2),0.26,hours,Jira,Yes (partial),"2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q1-S5,MTTR Tickets (Sev 1 + Sev 2),1,count,Jira,Yes (partial),"2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q1-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1-S5,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1711,6 +1744,9 @@ Team Webstore,2025-Q1-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q1-S6,Defect Leakage %,50,percent,Jira,Yes (partial),2025-Q1-S6: 1 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1-S6,Flow-based Cycle Time Proxy (weeks),1.79,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q1.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q1-S6,Jira Card Churn %,39.29,percent,Jira,Yes (partial),Sprint 6 of 2025-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q1-S6,MTTR (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q1-S6,MTTR Avg (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q1-S6,MTTR Tickets (Sev 1 + Sev 2),1,count,Jira,Yes (partial),"2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q1-S6,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q1-S6,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q1-S6: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1726,6 +1762,9 @@ Team Webstore,2025-Q2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 
 Team Webstore,2025-Q2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2: 0 sev L1+L2 / (39 bugs + 2 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2,Flow-based Cycle Time Proxy (weeks),3.58,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q2,Jira Card Churn %,34.59,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2,MTTR (Sev 1 + Sev 2),5.82,hours,Jira,Yes (partial),"2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2,MTTR Avg (Sev 1 + Sev 2),49.07,hours,Jira,Yes (partial),"2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2,MTTR Tickets (Sev 1 + Sev 2),62,count,Jira,Yes (partial),"2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1740,6 +1779,9 @@ Team Webstore,2025-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 6 ac
 Team Webstore,2025-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 27 merged PRs had AI signals,2026-05-28T17:40:17.519Z
 Team Webstore,2025-Q2-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
 Team Webstore,2025-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S1: 0 sev L1+L2 / (5 bugs + 1 reopened).,2026-06-02T19:09:20.671Z
+Team Webstore,2025-Q2-S1,MTTR (Sev 1 + Sev 2),2.54,hours,Jira,Yes (partial),"2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S1,MTTR Avg (Sev 1 + Sev 2),7.59,hours,Jira,Yes (partial),"2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S1,MTTR Tickets (Sev 1 + Sev 2),19,count,Jira,Yes (partial),"2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q2-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S1,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1755,6 +1797,9 @@ Team Webstore,2025-Q2-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S2: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S2,Flow-based Cycle Time Proxy (weeks),3.52,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q2.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q2-S2,Jira Card Churn %,45.45,percent,Jira,Yes (partial),Sprint 2 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S2,MTTR (Sev 1 + Sev 2),5.26,hours,Jira,Yes (partial),"2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S2,MTTR Avg (Sev 1 + Sev 2),14.25,hours,Jira,Yes (partial),"2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S2,MTTR Tickets (Sev 1 + Sev 2),9,count,Jira,Yes (partial),"2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q2-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S2,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1770,6 +1815,9 @@ Team Webstore,2025-Q2-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q2-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S3: 0 sev L1+L2 / (6 bugs + 1 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S3,Flow-based Cycle Time Proxy (weeks),4.24,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q2.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q2-S3,Jira Card Churn %,29.17,percent,Jira,Yes (partial),Sprint 3 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S3,MTTR (Sev 1 + Sev 2),39.03,hours,Jira,Yes (partial),"2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S3,MTTR Avg (Sev 1 + Sev 2),32.84,hours,Jira,Yes (partial),"2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S3,MTTR Tickets (Sev 1 + Sev 2),8,count,Jira,Yes (partial),"2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q2-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S3,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q2-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1785,6 +1833,9 @@ Team Webstore,2025-Q2-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S4: 0 sev L1+L2 / (9 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S4,Flow-based Cycle Time Proxy (weeks),5.33,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q2.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q2-S4,Jira Card Churn %,25.93,percent,Jira,Yes (partial),Sprint 4 of 2025-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q2-S4,MTTR (Sev 1 + Sev 2),48.83,hours,Jira,Yes (partial),"2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S4,MTTR Avg (Sev 1 + Sev 2),140.43,hours,Jira,Yes (partial),"2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S4,MTTR Tickets (Sev 1 + Sev 2),17,count,Jira,Yes (partial),"2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q2-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S4,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1796,6 +1847,9 @@ Team Webstore,2025-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 ac
 Team Webstore,2025-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
 Team Webstore,2025-Q2-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
 Team Webstore,2025-Q2-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S5: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
+Team Webstore,2025-Q2-S5,MTTR (Sev 1 + Sev 2),1.27,hours,Jira,Yes (partial),"2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S5,MTTR Avg (Sev 1 + Sev 2),2.27,hours,Jira,Yes (partial),"2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S5,MTTR Tickets (Sev 1 + Sev 2),3,count,Jira,Yes (partial),"2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q2-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S5,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1807,6 +1861,9 @@ Team Webstore,2025-Q2-S6,AI Active Developers,0,count,GitHub,automated,0 of 0 ac
 Team Webstore,2025-Q2-S6,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-05-28T17:40:17.519Z
 Team Webstore,2025-Q2-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 9 mapped members had Cursor activity,2026-05-28T17:57:57.965Z
 Team Webstore,2025-Q2-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q2-S6: 0 sev L1+L2 / (14 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
+Team Webstore,2025-Q2-S6,MTTR (Sev 1 + Sev 2),0.73,hours,Jira,Yes (partial),"2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S6,MTTR Avg (Sev 1 + Sev 2),0.73,hours,Jira,Yes (partial),"2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q2-S6,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q2-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q2-S6,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q2-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1822,6 +1879,9 @@ Team Webstore,2025-Q3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 
 Team Webstore,2025-Q3,Defect Leakage %,17.54,percent,Jira,Yes (partial),2025-Q3: 37 sev L1+L2 / (204 bugs + 7 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3,Flow-based Cycle Time Proxy (weeks),2.99,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q3,Jira Card Churn %,54.04,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3,MTTR (Sev 1 + Sev 2),21.29,hours,Jira,Yes (partial),"2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3,MTTR Avg (Sev 1 + Sev 2),65.22,hours,Jira,Yes (partial),"2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3,MTTR Tickets (Sev 1 + Sev 2),82,count,Jira,Yes (partial),"2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q3,Sev 1 + Sev 2 Bugs,37,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 37 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 37 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q3: 0 Sev 1 + 37 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1840,6 +1900,9 @@ Team Webstore,2025-Q3-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q3-S1,Defect Leakage %,16.67,percent,Jira,Yes (partial),2025-Q3-S1: 1 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S1,Flow-based Cycle Time Proxy (weeks),1.96,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q3.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q3-S1,Jira Card Churn %,37.93,percent,Jira,Yes (partial),Sprint 1 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S1,MTTR (Sev 1 + Sev 2),16.96,hours,Jira,Yes (partial),"2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S1,MTTR Avg (Sev 1 + Sev 2),43.29,hours,Jira,Yes (partial),"2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S1,MTTR Tickets (Sev 1 + Sev 2),12,count,Jira,Yes (partial),"2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q3-S1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S1,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q3-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1855,6 +1918,9 @@ Team Webstore,2025-Q3-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q3-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S2: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S2,Flow-based Cycle Time Proxy (weeks),3.62,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q3.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q3-S2,Jira Card Churn %,55.17,percent,Jira,Yes (partial),Sprint 2 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S2,MTTR (Sev 1 + Sev 2),23.9,hours,Jira,Yes (partial),"2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S2,MTTR Avg (Sev 1 + Sev 2),14.68,hours,Jira,Yes (partial),"2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S2,MTTR Tickets (Sev 1 + Sev 2),20,count,Jira,Yes (partial),"2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q3-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S2,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q3-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1870,6 +1936,9 @@ Team Webstore,2025-Q3-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q3-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S3: 0 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S3,Flow-based Cycle Time Proxy (weeks),3.35,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q3.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q3-S3,Jira Card Churn %,35,percent,Jira,Yes (partial),Sprint 3 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S3,MTTR (Sev 1 + Sev 2),51.88,hours,Jira,Yes (partial),"2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S3,MTTR Avg (Sev 1 + Sev 2),54.09,hours,Jira,Yes (partial),"2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S3,MTTR Tickets (Sev 1 + Sev 2),9,count,Jira,Yes (partial),"2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q3-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S3,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q3-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1885,6 +1954,9 @@ Team Webstore,2025-Q3-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q3-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q3-S4: 0 sev L1+L2 / (47 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S4,Flow-based Cycle Time Proxy (weeks),3.65,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q3.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q3-S4,Jira Card Churn %,42.31,percent,Jira,Yes (partial),Sprint 4 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S4,MTTR (Sev 1 + Sev 2),88.8,hours,Jira,Yes (partial),"2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S4,MTTR Avg (Sev 1 + Sev 2),69.48,hours,Jira,Yes (partial),"2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S4,MTTR Tickets (Sev 1 + Sev 2),11,count,Jira,Yes (partial),"2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q3-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S4,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q3-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1900,6 +1972,9 @@ Team Webstore,2025-Q3-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q3-S5,Defect Leakage %,18.18,percent,Jira,Yes (partial),2025-Q3-S5: 14 sev L1+L2 / (75 bugs + 2 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S5,Flow-based Cycle Time Proxy (weeks),2.1,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q3.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q3-S5,Jira Card Churn %,90.63,percent,Jira,Yes (partial),Sprint 5 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S5,MTTR (Sev 1 + Sev 2),25.48,hours,Jira,Yes (partial),"2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S5,MTTR Avg (Sev 1 + Sev 2),25.48,hours,Jira,Yes (partial),"2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S5,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q3-S5,Sev 1 + Sev 2 Bugs,14,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 14 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 14 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S5,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q3-S5: 0 Sev 1 + 14 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1915,6 +1990,9 @@ Team Webstore,2025-Q3-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q3-S6,Defect Leakage %,37.5,percent,Jira,Yes (partial),2025-Q3-S6: 21 sev L1+L2 / (51 bugs + 5 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S6,Flow-based Cycle Time Proxy (weeks),5.3,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q3.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q3-S6,Jira Card Churn %,61.9,percent,Jira,Yes (partial),Sprint 6 of 2025-Q3.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q3-S6,MTTR (Sev 1 + Sev 2),17.62,hours,Jira,Yes (partial),"2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S6,MTTR Avg (Sev 1 + Sev 2),188.7,hours,Jira,Yes (partial),"2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q3-S6,MTTR Tickets (Sev 1 + Sev 2),16,count,Jira,Yes (partial),"2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q3-S6,Sev 1 + Sev 2 Bugs,21,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 21 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 21 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q3-S6,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q3-S6: 0 Sev 1 + 21 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1930,6 +2008,9 @@ Team Webstore,2025-Q4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 
 Team Webstore,2025-Q4,Defect Leakage %,6.78,percent,Jira,Yes (partial),2025-Q4: 4 sev L1+L2 / (55 bugs + 4 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4,Flow-based Cycle Time Proxy (weeks),2.07,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q4,Jira Card Churn %,38.84,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4,MTTR (Sev 1 + Sev 2),48.11,hours,Jira,Yes (partial),"2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4,MTTR Avg (Sev 1 + Sev 2),510.28,hours,Jira,Yes (partial),"2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4,MTTR Tickets (Sev 1 + Sev 2),43,count,Jira,Yes (partial),"2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q4,Sev 1 + Sev 2 Bugs,4,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q4: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1952,6 +2033,9 @@ Team Webstore,2025-Q4-S1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q4-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S1: 0 sev L1+L2 / (12 bugs + 2 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S1,Flow-based Cycle Time Proxy (weeks),1.8,weeks,Jira,Yes (partial),Sprint 1 of 2025-Q4.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q4-S1,Jira Card Churn %,21.62,percent,Jira,Yes (partial),Sprint 1 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S1,MTTR (Sev 1 + Sev 2),19.62,hours,Jira,Yes (partial),"2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S1,MTTR Avg (Sev 1 + Sev 2),23.52,hours,Jira,Yes (partial),"2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S1,MTTR Tickets (Sev 1 + Sev 2),6,count,Jira,Yes (partial),"2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q4-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S1,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q4-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1967,6 +2051,9 @@ Team Webstore,2025-Q4-S2,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q4-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S2: 0 sev L1+L2 / (12 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S2,Flow-based Cycle Time Proxy (weeks),2.53,weeks,Jira,Yes (partial),Sprint 2 of 2025-Q4.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q4-S2,Jira Card Churn %,86.67,percent,Jira,Yes (partial),Sprint 2 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S2,MTTR (Sev 1 + Sev 2),885.89,hours,Jira,Yes (partial),"2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S2,MTTR Avg (Sev 1 + Sev 2),1396.18,hours,Jira,Yes (partial),"2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S2,MTTR Tickets (Sev 1 + Sev 2),15,count,Jira,Yes (partial),"2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q4-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S2,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q4-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1982,6 +2069,9 @@ Team Webstore,2025-Q4-S3,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q4-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S3: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S3,Flow-based Cycle Time Proxy (weeks),1.03,weeks,Jira,Yes (partial),Sprint 3 of 2025-Q4.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q4-S3,Jira Card Churn %,58,percent,Jira,Yes (partial),Sprint 3 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S3,MTTR (Sev 1 + Sev 2),26.45,hours,Jira,Yes (partial),"2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S3,MTTR Avg (Sev 1 + Sev 2),35.52,hours,Jira,Yes (partial),"2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S3,MTTR Tickets (Sev 1 + Sev 2),7,count,Jira,Yes (partial),"2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q4-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S3,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q4-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -1997,6 +2087,9 @@ Team Webstore,2025-Q4-S4,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q4-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S4: 0 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S4,Flow-based Cycle Time Proxy (weeks),1.71,weeks,Jira,Yes (partial),Sprint 4 of 2025-Q4.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q4-S4,Jira Card Churn %,29.51,percent,Jira,Yes (partial),Sprint 4 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S4,MTTR (Sev 1 + Sev 2),84.47,hours,Jira,Yes (partial),"2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S4,MTTR Avg (Sev 1 + Sev 2),72.98,hours,Jira,Yes (partial),"2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S4,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q4-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S4,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q4-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2012,6 +2105,9 @@ Team Webstore,2025-Q4-S5,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q4-S5,Defect Leakage %,23.53,percent,Jira,Yes (partial),2025-Q4-S5: 4 sev L1+L2 / (16 bugs + 1 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S5,Flow-based Cycle Time Proxy (weeks),2.84,weeks,Jira,Yes (partial),Sprint 5 of 2025-Q4.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q4-S5,Jira Card Churn %,46.3,percent,Jira,Yes (partial),Sprint 5 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S5,MTTR (Sev 1 + Sev 2),50.89,hours,Jira,Yes (partial),"2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S5,MTTR Avg (Sev 1 + Sev 2),50.91,hours,Jira,Yes (partial),"2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S5,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q4-S5,Sev 1 + Sev 2 Bugs,4,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S5,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q4-S5: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2027,6 +2123,9 @@ Team Webstore,2025-Q4-S6,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 
 Team Webstore,2025-Q4-S6,Defect Leakage %,0,percent,Jira,Yes (partial),2025-Q4-S6: 0 sev L1+L2 / (4 bugs + 1 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S6,Flow-based Cycle Time Proxy (weeks),3.08,weeks,Jira,Yes (partial),Sprint 6 of 2025-Q4.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-Q4-S6,Jira Card Churn %,23.73,percent,Jira,Yes (partial),Sprint 6 of 2025-Q4.,2026-05-28T17:32:08.329Z
+Team Webstore,2025-Q4-S6,MTTR (Sev 1 + Sev 2),2.06,hours,Jira,Yes (partial),"2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S6,MTTR Avg (Sev 1 + Sev 2),16.32,hours,Jira,Yes (partial),"2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-Q4-S6,MTTR Tickets (Sev 1 + Sev 2),7,count,Jira,Yes (partial),"2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-Q4-S6,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S6,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-Q4-S6,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-Q4-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2039,6 +2138,9 @@ Team Webstore,2025-YTD,Average Velocity (points per sprint),36.21,points,Jira,Ye
 Team Webstore,2025-YTD,Defect Leakage %,12.35,percent,Jira,Yes (partial),2025-YTD: 42 sev L1+L2 / (324 bugs + 16 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-YTD,Flow-based Cycle Time Proxy (weeks),2.66,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-05-28T17:32:08.329Z
 Team Webstore,2025-YTD,Jira Card Churn %,43.76,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-05-28T17:32:08.329Z
+Team Webstore,2025-YTD,MTTR (Sev 1 + Sev 2),23.9,hours,Jira,Yes (partial),"2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-YTD,MTTR Avg (Sev 1 + Sev 2),159.08,hours,Jira,Yes (partial),"2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2025-YTD,MTTR Tickets (Sev 1 + Sev 2),192,count,Jira,Yes (partial),"2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2025-YTD,Sev 1 + Sev 2 Bugs,42,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 42 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-YTD,Sev 1 Bugs,0,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 42 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2025-YTD,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2025-YTD: 0 Sev 1 + 42 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2054,6 +2156,9 @@ Team Webstore,2026-Q1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 o
 Team Webstore,2026-Q1,Defect Leakage %,4.88,percent,Jira,Yes (partial),2026-Q1: 2 sev L1+L2 / (37 bugs + 4 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1,Flow-based Cycle Time Proxy (weeks),6.32,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q1,Jira Card Churn %,12.55,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1,MTTR (Sev 1 + Sev 2),24.81,hours,Jira,Yes (partial),"2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1,MTTR Avg (Sev 1 + Sev 2),83.13,hours,Jira,Yes (partial),"2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1,MTTR Tickets (Sev 1 + Sev 2),23,count,Jira,Yes (partial),"2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q1,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q1: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1,Sev 1 Bugs,1,count,Jira,Yes (partial),2026-Q1: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q1: 1 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2069,6 +2174,9 @@ Team Webstore,2026-Q1-S1,Cursor Adoption Rate,33.3333,percent,Cursor,automated,3
 Team Webstore,2026-Q1-S1,Defect Leakage %,12.5,percent,Jira,Yes (partial),2026-Q1-S1: 1 sev L1+L2 / (6 bugs + 2 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S1,Flow-based Cycle Time Proxy (weeks),3.17,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q1.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q1-S1,Jira Card Churn %,24.49,percent,Jira,Yes (partial),Sprint 1 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S1,MTTR (Sev 1 + Sev 2),25.92,hours,Jira,Yes (partial),"2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S1,MTTR Avg (Sev 1 + Sev 2),131.8,hours,Jira,Yes (partial),"2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S1,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q1-S1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S1,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q1-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2084,6 +2192,9 @@ Team Webstore,2026-Q1-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8
 Team Webstore,2026-Q1-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S2: 0 sev L1+L2 / (5 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S2,Flow-based Cycle Time Proxy (weeks),3.98,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q1.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q1-S2,Jira Card Churn %,9.09,percent,Jira,Yes (partial),Sprint 2 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S2,MTTR (Sev 1 + Sev 2),118.39,hours,Jira,Yes (partial),"2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S2,MTTR Avg (Sev 1 + Sev 2),76.4,hours,Jira,Yes (partial),"2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S2,MTTR Tickets (Sev 1 + Sev 2),5,count,Jira,Yes (partial),"2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q1-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S2,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q1-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2099,6 +2210,9 @@ Team Webstore,2026-Q1-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,
 Team Webstore,2026-Q1-S3,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S3: 0 sev L1+L2 / (7 bugs + 1 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S3,Flow-based Cycle Time Proxy (weeks),2.33,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q1.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q1-S3,Jira Card Churn %,12.77,percent,Jira,Yes (partial),Sprint 3 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S3,MTTR (Sev 1 + Sev 2),3.57,hours,Jira,Yes (partial),"2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S3,MTTR Avg (Sev 1 + Sev 2),3.57,hours,Jira,Yes (partial),"2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S3,MTTR Tickets (Sev 1 + Sev 2),1,count,Jira,Yes (partial),"2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q1-S3,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S3,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q1-S3: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2114,6 +2228,9 @@ Team Webstore,2026-Q1-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,
 Team Webstore,2026-Q1-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S4: 0 sev L1+L2 / (11 bugs + 1 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S4,Flow-based Cycle Time Proxy (weeks),25.34,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q1.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q1-S4,Jira Card Churn %,10.81,percent,Jira,Yes (partial),Sprint 4 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S4,MTTR (Sev 1 + Sev 2),5.62,hours,Jira,Yes (partial),"2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S4,MTTR Avg (Sev 1 + Sev 2),86.24,hours,Jira,Yes (partial),"2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S4,MTTR Tickets (Sev 1 + Sev 2),9,count,Jira,Yes (partial),"2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q1-S4,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S4,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q1-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2129,6 +2246,9 @@ Team Webstore,2026-Q1-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8
 Team Webstore,2026-Q1-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q1-S5: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S5,Flow-based Cycle Time Proxy (weeks),41.41,weeks,Jira,Yes (partial),Sprint 5 of 2026-Q1.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q1-S5,Jira Card Churn %,10.53,percent,Jira,Yes (partial),Sprint 5 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S5,MTTR (Sev 1 + Sev 2),100.17,hours,Jira,Yes (partial),"2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S5,MTTR Avg (Sev 1 + Sev 2),100.17,hours,Jira,Yes (partial),"2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S5,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q1-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S5,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q1-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2144,6 +2264,9 @@ Team Webstore,2026-Q1-S6,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8
 Team Webstore,2026-Q1-S6,Defect Leakage %,25,percent,Jira,Yes (partial),2026-Q1-S6: 1 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S6,Flow-based Cycle Time Proxy (weeks),54.16,weeks,Jira,Yes (partial),Sprint 6 of 2026-Q1.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q1-S6,Jira Card Churn %,5,percent,Jira,Yes (partial),Sprint 6 of 2026-Q1.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q1-S6,MTTR (Sev 1 + Sev 2),11.38,hours,Jira,Yes (partial),"2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S6,MTTR Avg (Sev 1 + Sev 2),11.38,hours,Jira,Yes (partial),"2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q1-S6,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q1-S6,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q1-S6: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S6,Sev 1 Bugs,1,count,Jira,Yes (partial),2026-Q1-S6: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S6,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q1-S6: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2159,6 +2282,9 @@ Team Webstore,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 o
 Team Webstore,2026-Q2,Defect Leakage %,8.89,percent,Jira,Yes (partial),2026-Q2: 4 sev L1+L2 / (45 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2,Flow-based Cycle Time Proxy (weeks),3.95,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q2,Jira Card Churn %,38.53,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2,MTTR (Sev 1 + Sev 2),170.96,hours,Jira,Yes (partial),"2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q2,MTTR Avg (Sev 1 + Sev 2),876.36,hours,Jira,Yes (partial),"2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q2,MTTR Tickets (Sev 1 + Sev 2),21,count,Jira,Yes (partial),"2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q2,Sev 1 + Sev 2 Bugs,4,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 4 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2177,6 +2303,9 @@ Team Webstore,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,
 Team Webstore,2026-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S1: 0 sev L1+L2 / (8 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S1,Flow-based Cycle Time Proxy (weeks),1.94,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q2-S1,Jira Card Churn %,64.29,percent,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S1,MTTR (Sev 1 + Sev 2),168.21,hours,Jira,Yes (partial),"2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q2-S1,MTTR Avg (Sev 1 + Sev 2),1018.23,hours,Jira,Yes (partial),"2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q2-S1,MTTR Tickets (Sev 1 + Sev 2),8,count,Jira,Yes (partial),"2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q2-S1,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S1,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2192,6 +2321,9 @@ Team Webstore,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8
 Team Webstore,2026-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S2: 0 sev L1+L2 / (15 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S2,Flow-based Cycle Time Proxy (weeks),6.38,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q2-S2,Jira Card Churn %,48.39,percent,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S2,MTTR (Sev 1 + Sev 2),1358.39,hours,Jira,Yes (partial),"2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q2-S2,MTTR Avg (Sev 1 + Sev 2),1443.7,hours,Jira,Yes (partial),"2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q2-S2,MTTR Tickets (Sev 1 + Sev 2),7,count,Jira,Yes (partial),"2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q2-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S2,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2207,6 +2339,9 @@ Team Webstore,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8
 Team Webstore,2026-Q2-S3,Defect Leakage %,20,percent,Jira,Yes (partial),2026-Q2-S3: 2 sev L1+L2 / (10 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S3,Flow-based Cycle Time Proxy (weeks),2.73,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q2-S3,Jira Card Churn %,32,percent,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S3,MTTR (Sev 1 + Sev 2),0.92,hours,Jira,Yes (partial),"2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q2-S3,MTTR Avg (Sev 1 + Sev 2),21.33,hours,Jira,Yes (partial),"2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q2-S3,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q2-S3,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S3,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2221,6 +2356,9 @@ Team Webstore,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,
 Team Webstore,2026-Q2-S4,Defect Leakage %,33.33,percent,Jira,Yes (partial),2026-Q2-S4: 2 sev L1+L2 / (6 bugs + 0 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S4,Flow-based Cycle Time Proxy (weeks),,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-Q2-S4,Jira Card Churn %,4,percent,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-05-28T17:32:08.329Z
+Team Webstore,2026-Q2-S4,MTTR (Sev 1 + Sev 2),33.26,hours,Jira,Yes (partial),"2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q2-S4,MTTR Avg (Sev 1 + Sev 2),33.26,hours,Jira,Yes (partial),"2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-Q2-S4,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-Q2-S4,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2-S4,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
@@ -2233,6 +2371,9 @@ Team Webstore,2026-YTD,Average Velocity (points per sprint),23.7,points,Jira,Yes
 Team Webstore,2026-YTD,Defect Leakage %,6.98,percent,Jira,Yes (partial),2026-YTD: 6 sev L1+L2 / (82 bugs + 4 reopened).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-YTD,Flow-based Cycle Time Proxy (weeks),5.07,weeks,Jira,Yes (partial),Year-to-date flow-health rollup rebuilt from total WIP and total throughput across available quarters.,2026-05-28T17:32:08.329Z
 Team Webstore,2026-YTD,Jira Card Churn %,20.33,percent,Jira,Yes (partial),"Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",2026-05-28T17:32:08.329Z
+Team Webstore,2026-YTD,MTTR (Sev 1 + Sev 2),78.35,hours,Jira,Yes (partial),"2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-YTD,MTTR Avg (Sev 1 + Sev 2),461.72,hours,Jira,Yes (partial),"2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
+Team Webstore,2026-YTD,MTTR Tickets (Sev 1 + Sev 2),44,count,Jira,Yes (partial),"2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
 Team Webstore,2026-YTD,Sev 1 + Sev 2 Bugs,6,count,Jira,Yes (partial),2026-YTD: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-YTD,Sev 1 Bugs,1,count,Jira,Yes (partial),2026-YTD: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-YTD,Sev 1 Bugs (External),0,count,Jira,Yes (partial),2026-YTD: 1 Sev 1 + 5 Sev 2 bug(s).,2026-06-02T19:09:20.671Z

@@ -74,5 +74,17 @@
       { "jiraTeamName": "Team ASAP", "outputTeamName": "ASAP" },
       { "jiraTeamName": "Team Smartcare", "outputTeamName": "Smartcare" }
     ]
+  },
+  "mttr": {
+    "createdFrom": "2025-01-01",
+    "startEvent": "serviceDeskCreated",
+    "deployResolution": "Deployed",
+    "severityLevels": ["Level 1", "Level 2"],
+    "excludeResolutions": ["Declined", "Won't Do", "Cannot Reproduce", "Duplicate", "Abandoned"],
+    "businessDaysOnly": true,
+    "portfolioTeamName": "EDU",
+    "serviceDesks": [
+      { "projectKey": "RTSD", "outputTeamName": "Team Webstore" }
+    ]
   }
 }

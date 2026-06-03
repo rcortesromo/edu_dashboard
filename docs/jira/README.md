@@ -10,6 +10,37 @@ Sprint-level and quarter-level delivery health metrics extracted from Jira Cloud
 | **Average Velocity (points per sprint)** | points | Average completed story points per sprint across the period. |
 | **Flow-based Cycle Time Proxy (weeks)** | weeks | Flow-health signal from average WIP vs completed cards per sprint. Lower is healthier. |
 | **Actual Cycle Time (weeks)** | weeks | Average real elapsed time from "In Development" status until Done resolution. |
+| **MTTR (Sev 1 + Sev 2)** | hours | End-to-end **median** time to resolve for Sev 1/2: business time (weekends excluded) from Service Desk ticket creation until it is resolved -- either inside the Service Desk or, if escalated, when the linked product fix is deployed. Median is used as the headline because it is robust to the long tail of months-old tickets. |
+| **MTTR Avg (Sev 1 + Sev 2)** | hours | Same definition as above but the **mean**. Plotted as a lighter reference line so outlier-driven spikes stay visible without distorting the headline. |
+| **MTTR Tickets (Sev 1 + Sev 2)** | count | Number of Sev 1/2 Service Desk tickets resolved in the period (the bars in the MTTR combo chart). |
+
+### MTTR (Sev 1 + Sev 2) -- end-to-end
+
+Captures the lifecycle of a high-severity Service Desk ticket from Tech Ops intake to resolution, following one of two paths.
+
+- **Source script**: `scripts/jira/pull-mttr.mjs` -> `backend/jira/generated/mttr_export.csv`.
+- **Population**: Service Desk tickets (`RTSD`) whose own `Severity` field is `Level 1` / `Level 2`. The Service Desk ticket carries the Severity field, so severity does not depend on reaching OV.
+- **Start of clock**: the `created` date of the Service Desk ticket (Tech Ops intake).
+- **End of clock (two paths)**:
+  1. **Resolved in the Service Desk**: end = the ticket's `resolutiondate`.
+  2. **Escalated to a product fix**: if a linked issue (e.g. in OV) reaches `resolution = "Deployed"`, keep counting until that deploy date. ("Deployed" is a Jira **resolution**, not a status.) When several linked fixes were deployed, the latest deploy wins.
+- **Excluded resolutions**: tickets resolved as `Declined`, `Won't Do`, `Cannot Reproduce`, `Duplicate`, or `Abandoned` are not counted (configurable via `excludeResolutions`).
+- **Duration**: business time excluding Saturdays and Sundays, stored in hours. The UI shows hours under a day and days (24 business-hours = 1 day) from a day up.
+- **Statistic**: the headline series is the **median** (robust to the long tail of months-old tickets); the **average** is emitted as a second series (`MTTR Avg`) and drawn as a lighter reference line. Both are computed from the same per-ticket samples in the bucket.
+- **Bucketing**: by the resolution/deploy date, into quarter / YTD / sprint, with an `EDU` rollup. The rollup concatenates the per-team samples (ticket-weighted), not an average of team averages.
+- **Config**: the `mttr` block in `jira-field-mapping.template.json` (`serviceDesks`, `deployResolution`, `severityLevels`, `excludeResolutions`, `businessDaysOnly`).
+
+**Scope (v1): Revtrak only.** Only Revtrak (`RTSD`) and CXP (`CXPSD`) have a Service Desk. CXP is intentionally excluded for now because its tickets mostly link to `DBA` rather than `OV`; once that flow is reviewed, add a `{ "projectKey": "CXPSD", "outputTeamName": "Team Connexpoint" }` entry to `mttr.serviceDesks`. Because only Revtrak is in scope, the `EDU` rollup currently equals Revtrak.
+
+Run it standalone:
+
+```bash
+# Incremental refresh (current config createdFrom)
+npm run refresh:static-metrics -- --only mttr
+
+# One-time backfill from 2025
+node scripts/jira/pull-mttr.mjs --from-year 2025
+```
 
 ## Teams and Boards
 

@@ -8,6 +8,7 @@ const repoRoot = path.resolve(__dirname, "../..");
 
 const jiraInputPath = path.join(repoRoot, "backend/jira/generated/json_export_view.csv");
 const defectLeakageInputPath = path.join(repoRoot, "backend/jira/generated/defect_leakage_export.csv");
+const mttrInputPath = path.join(repoRoot, "backend/jira/generated/mttr_export.csv");
 const aiInputPath = path.join(repoRoot, "backend/ai/generated/json_export_view.csv");
 const cursorInputPath = path.join(repoRoot, "backend/cursor/generated/json_export_view.csv");
 const outputPath = path.join(repoRoot, "backend/published/generated/json_export_view.csv");
@@ -147,15 +148,16 @@ function sortRows(rows) {
 }
 
 async function main() {
-  const [jiraRows, defectLeakageRows, aiRows, cursorRows] = await Promise.all([
+  const [jiraRows, defectLeakageRows, mttrRows, aiRows, cursorRows] = await Promise.all([
     readCsvFile(jiraInputPath),
     readCsvFile(defectLeakageInputPath),
+    readCsvFile(mttrInputPath),
     readCsvFile(aiInputPath),
     readCsvFile(cursorInputPath),
   ]);
   const mergedByKey = new Map();
 
-  for (const row of [...jiraRows, ...defectLeakageRows, ...aiRows, ...cursorRows]) {
+  for (const row of [...jiraRows, ...defectLeakageRows, ...mttrRows, ...aiRows, ...cursorRows]) {
     const key = [
       row.team_name,
       row.quarter_label,
@@ -176,6 +178,7 @@ async function main() {
       {
         jiraRows: jiraRows.length,
         defectLeakageRows: defectLeakageRows.length,
+        mttrRows: mttrRows.length,
         aiRows: aiRows.length,
         cursorRows: cursorRows.length,
         mergedRows: mergedRows.length,

@@ -93,6 +93,9 @@
               "Sev 1 Bugs (External)",
               "Sev 2 Bugs (Internal)",
               "Sev 2 Bugs (External)",
+              "MTTR (Sev 1 + Sev 2)",
+              "MTTR Avg (Sev 1 + Sev 2)",
+              "MTTR Tickets (Sev 1 + Sev 2)",
               "Average Velocity (points per sprint)",
               "Flow-based Cycle Time Proxy (weeks)",
               "Actual Cycle Time (weeks)",
@@ -106,7 +109,7 @@
           },
           "unit": {
             "type": "string",
-            "enum": ["percent", "weeks", "points", "count"]
+            "enum": ["percent", "weeks", "points", "count", "hours"]
           },
           "source": {
             "type": "string",

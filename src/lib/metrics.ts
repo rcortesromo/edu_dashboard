@@ -58,6 +58,8 @@ export const metricDescriptions: Record<string, string> = {
   "Sev 2 Bugs": "Count of Severity Level 2 bugs logged for the team in the selected period.",
   "Sev 1 + Sev 2 Bugs":
     "Count of high-severity bugs (Severity Level 1 and 2 combined) logged for the team in the selected period.",
+  "MTTR (Sev 1 + Sev 2)":
+    "End-to-end time to resolve for Sev 1 and 2: business time (weekends excluded) from when the Service Desk ticket was created until it is resolved -- in the Service Desk, or, if escalated, when the linked product fix is deployed. The line is the median (the typical case); the lighter line is the average, which a few months-old tickets can pull up. Currently covers Revtrak only.",
   "Average Velocity (points per sprint)":
     "Average completed story points per sprint across the period for the team.",
   "Flow-based Cycle Time Proxy (weeks)":
@@ -77,6 +79,7 @@ export const metricDisplayOrder = [
   "Defect Leakage %",
   "Sev 1 Bugs",
   "Sev 2 Bugs",
+  "MTTR (Sev 1 + Sev 2)",
   "Average Velocity (points per sprint)",
   "Flow-based Cycle Time Proxy (weeks)",
   "Actual Cycle Time (weeks)",
@@ -91,6 +94,7 @@ export const metricDisplayOrder = [
 export const trendsMetricOrder = [
   "Jira Card Churn %",
   "Defect Leakage %",
+  "MTTR (Sev 1 + Sev 2)",
   "Average Velocity (points per sprint)",
   "Flow-based Cycle Time Proxy (weeks)",
   "Actual Cycle Time (weeks)",
@@ -109,6 +113,18 @@ export const severityRootCauseMetricNames = [
   "Sev 2 Bugs (Internal)",
   "Sev 2 Bugs (External)",
 ] as const;
+
+// MTTR combo chart: a median line (main) + average line (reference) for the resolve time, with bars
+// for the ticket count.
+export const mttrMetricName = "MTTR (Sev 1 + Sev 2)";
+export const mttrAvgMetricName = "MTTR Avg (Sev 1 + Sev 2)";
+export const mttrTicketsMetricName = "MTTR Tickets (Sev 1 + Sev 2)";
+
+// Format a business-hours duration adaptively: hours under a day, days (24h = 1 day) from a day up.
+export function formatBusinessHours(value: number): string {
+  if (!Number.isFinite(value)) return "";
+  return value < 24 ? `${value.toFixed(1)} h` : `${(value / 24).toFixed(2)} d`;
+}
 
 const teamDisplayMap: Record<string, string> = {
   EDU: "EDU",
@@ -315,6 +331,13 @@ export function formatMetricValue(metric: MetricRecord) {
 
   if (metric.unit === "weeks") {
     return `${metric.value.toFixed(2)} wks`;
+  }
+
+  if (metric.unit === "hours") {
+    // Adaptive: show hours under a day, days (24 business-hours = 1 day) from a day up.
+    return metric.value < 24
+      ? `${metric.value.toFixed(1)} h`
+      : `${(metric.value / 24).toFixed(2)} d`;
   }
 
   if (metric.unit === "points") {

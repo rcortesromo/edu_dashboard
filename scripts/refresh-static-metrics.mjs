@@ -66,6 +66,7 @@ function stripArg(argv, name) {
 // Sources that support being run in isolation via `--only <source>`.
 const ONLY_SOURCES = {
   "defect-leakage": "jira/pull-defect-leakage.mjs",
+  mttr: "jira/pull-mttr.mjs",
 };
 
 async function main() {
@@ -103,6 +104,7 @@ async function main() {
   await runNodeScript(path.join(__dirname, "jira/pull-quarterly-metrics.mjs"), pullArgs);
   await runNodeScript(path.join(__dirname, "jira/compute-sprint-level-metrics.mjs"));
   await runNodeScript(path.join(__dirname, "jira/pull-defect-leakage.mjs"), pullArgs);
+  await runNodeScript(path.join(__dirname, "jira/pull-mttr.mjs"), pullArgs);
 
   if (!isTeamScoped) {
     await runNodeScript(path.join(__dirname, "ai/pull-adoption-metrics.mjs"), pullArgs);

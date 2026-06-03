@@ -9,7 +9,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { getSprintsForQuarter, severityCountMetricNames, severityRootCauseMetricNames, type MetricsPayload, type SprintInfo } from "../lib/metrics";
+import { getSprintsForQuarter, metricDescriptions, mttrMetricName, severityCountMetricNames, severityRootCauseMetricNames, type MetricsPayload, type SprintInfo } from "../lib/metrics";
 import {
   getAvailableQuarters,
   getAvailableTeams,
@@ -18,6 +18,7 @@ import {
   teamDisplayMap,
   type ViewMode,
 } from "../lib/trends";
+import MttrTrendChart from "../components/MttrTrendChart";
 
 type TeamTrendsProps = {
   payload: MetricsPayload | null;
@@ -378,6 +379,16 @@ function TeamTrends({ payload, loading, error }: TeamTrendsProps) {
               selectedYear={resolvedYear}
               selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
               sprintLookup={sprintLookup}
+            />
+            <MttrTrendChart
+              payload={payload}
+              team={resolvedTeam}
+              viewMode={viewMode}
+              selectedYear={resolvedYear}
+              selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+              sprintLookup={sprintLookup}
+              title="Mean time to resolve (Sev 1 + Sev 2)"
+              description={metricDescriptions[mttrMetricName] ?? ""}
             />
           </div>
         ) : null}

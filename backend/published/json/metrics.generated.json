@@ -1,5 +1,5 @@
 {
-  "reportDate": "2026-06-02",
+  "reportDate": "2026-06-03",
   "teams": [
     "ASAP",
     "EDU",
@@ -5527,6 +5527,39 @@
     {
       "team": "EDU",
       "quarter": "2025-Q1",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 20.23,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q1",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 42.09,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q1",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 5,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q1",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 11,
       "unit": "count",
@@ -5688,6 +5721,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q2",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 5.82,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q2",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 49.07,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q2",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 62,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "EDU",
@@ -5857,6 +5923,39 @@
     {
       "team": "EDU",
       "quarter": "2025-Q3",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 21.29,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q3",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 65.22,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q3",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 82,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q3",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 42,
       "unit": "count",
@@ -6022,6 +6121,39 @@
     {
       "team": "EDU",
       "quarter": "2025-Q4",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 48.11,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q4",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 510.28,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q4",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 43,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-Q4",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 6,
       "unit": "count",
@@ -6150,6 +6282,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-YTD",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 23.9,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-YTD",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 159.08,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2025-YTD",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 192,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "EDU",
@@ -6319,6 +6484,39 @@
     {
       "team": "EDU",
       "quarter": "2026-Q1",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 24.81,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q1",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 83.13,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q1",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 23,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q1",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 6,
       "unit": "count",
@@ -6484,6 +6682,39 @@
     {
       "team": "EDU",
       "quarter": "2026-Q2",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 170.96,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q2",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 876.36,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q2",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 21,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-Q2",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 13,
       "unit": "count",
@@ -6612,6 +6843,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-YTD",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 78.35,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-YTD",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 461.72,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "EDU",
+      "quarter": "2026-YTD",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 44,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "EDU",
@@ -18397,6 +18661,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q1",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 20.23,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 42.09,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 5,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 1,
       "unit": "count",
@@ -18723,6 +19020,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 2 of 2025-Q1.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1-S2",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 23.85,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1-S2",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 63.31,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1-S2",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 3,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -19222,6 +19552,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q1-S5",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 0.26,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1-S5",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 0.26,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1-S5",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 1,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1-S5",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -19383,6 +19746,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 6 of 2025-Q1.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1-S6",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 20.23,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1-S6",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 20.23,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1-S6",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 1,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -19552,6 +19948,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q2",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 5.82,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 49.07,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 62,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -19702,6 +20131,39 @@
       "automationStatus": "Yes (partial)",
       "note": "2025-Q2-S1: 0 sev L1+L2 / (5 bugs + 1 reopened).",
       "lastRefreshUtc": "2026-06-02T19:09:20.671Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S1",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 2.54,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S1",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 7.59,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S1",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 19,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -19871,6 +20333,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q2-S2",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 5.26,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S2",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 14.25,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S2",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 9,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S2",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -20032,6 +20527,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 3 of 2025-Q2.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S3",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 39.03,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S3",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 32.84,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S3",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 8,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -20201,6 +20729,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q2-S4",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 48.83,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S4",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 140.43,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S4",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 17,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S4",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -20322,6 +20883,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q2-S5",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 1.27,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S5",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 2.27,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S5",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 3,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S5",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -20439,6 +21033,39 @@
       "automationStatus": "Yes (partial)",
       "note": "2025-Q2-S6: 0 sev L1+L2 / (14 bugs + 0 reopened).",
       "lastRefreshUtc": "2026-06-02T19:09:20.671Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S6",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 0.73,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S6",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 0.73,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2-S6",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 2,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -20604,6 +21231,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 21.29,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 65.22,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 82,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -20806,6 +21466,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q3-S1",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 16.96,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S1",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 43.29,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S1",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 12,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S1",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 1,
       "unit": "count",
@@ -20967,6 +21660,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 2 of 2025-Q3.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S2",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 23.9,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S2",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 14.68,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S2",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 20,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -21136,6 +21862,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q3-S3",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 51.88,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S3",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 54.09,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S3",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 9,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S3",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -21297,6 +22056,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 4 of 2025-Q3.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S4",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 88.8,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S4",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 69.48,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S4",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 11,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -21466,6 +22258,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q3-S5",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 25.48,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S5",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 25.48,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S5",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 4,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S5",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 14,
       "unit": "count",
@@ -21631,6 +22456,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q3-S6",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 17.62,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S6",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 188.7,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S6",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 16,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3-S6",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 21,
       "unit": "count",
@@ -21792,6 +22650,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 48.11,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 510.28,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 43,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -22038,6 +22929,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q4-S1",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 19.62,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S1",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 23.52,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S1",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 6,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S1",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -22199,6 +23123,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 2 of 2025-Q4.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S2",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 885.89,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S2",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 1396.18,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S2",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 15,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -22368,6 +23325,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q4-S3",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 26.45,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S3",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 35.52,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S3",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 7,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S3",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -22529,6 +23519,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 4 of 2025-Q4.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S4",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 84.47,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S4",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 72.98,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S4",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 4,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -22698,6 +23721,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q4-S5",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 50.89,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S5",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 50.91,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S5",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 4,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S5",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 4,
       "unit": "count",
@@ -22863,6 +23919,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2025-Q4-S6",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 2.06,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S6",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 16.32,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S6",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 7,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4-S6",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -22991,6 +24080,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-YTD",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 23.9,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-YTD",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 159.08,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-YTD",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 192,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -23160,6 +24282,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2026-Q1",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 24.81,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 83.13,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 23,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 2,
       "unit": "count",
@@ -23321,6 +24476,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 1 of 2026-Q1.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S1",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 25.92,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S1",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 131.8,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S1",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 4,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -23490,6 +24678,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2026-Q1-S2",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 118.39,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S2",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 76.4,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S2",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 5,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S2",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -23651,6 +24872,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 3 of 2026-Q1.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S3",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 3.57,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S3",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 3.57,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S3",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 1,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -23820,6 +25074,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2026-Q1-S4",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 5.62,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S4",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 86.24,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S4",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 9,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S4",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -23981,6 +25268,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 5 of 2026-Q1.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S5",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 100.17,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S5",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 100.17,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S5",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 2,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -24150,6 +25470,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2026-Q1-S6",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 11.38,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S6",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 11.38,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S6",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 2,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1-S6",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 1,
       "unit": "count",
@@ -24311,6 +25664,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Calculated from removed, re-estimated, and backward-move events after sprint start.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 170.96,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 876.36,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 21,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -24513,6 +25899,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2026-Q2-S1",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 168.21,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S1",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 1018.23,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S1",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 8,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S1",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 0,
       "unit": "count",
@@ -24674,6 +26093,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 2 of 2026-Q2.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S2",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 1358.39,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S2",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 1443.7,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S2",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 7,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
@@ -24843,6 +26295,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2026-Q2-S3",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 0.92,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S3",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 21.33,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S3",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 4,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S3",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 2,
       "unit": "count",
@@ -24997,6 +26482,39 @@
     {
       "team": "Team Webstore",
       "quarter": "2026-Q2-S4",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 33.26,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S4",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 33.26,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S4",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 2,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S4",
       "metricName": "Sev 1 + Sev 2 Bugs",
       "value": 2,
       "unit": "count",
@@ -25125,6 +26643,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Year-to-date churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts across available quarters.",
       "lastRefreshUtc": "2026-05-28T17:32:08.329Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-YTD",
+      "metricName": "MTTR (Sev 1 + Sev 2)",
+      "value": 78.35,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-YTD",
+      "metricName": "MTTR Avg (Sev 1 + Sev 2)",
+      "value": 461.72,
+      "unit": "hours",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-YTD",
+      "metricName": "MTTR Tickets (Sev 1 + Sev 2)",
+      "value": 44,
+      "unit": "count",
+      "source": "Jira",
+      "automationStatus": "Yes (partial)",
+      "note": "2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",
+      "lastRefreshUtc": "2026-06-03T17:30:16.041Z"
     },
     {
       "team": "Team Webstore",
