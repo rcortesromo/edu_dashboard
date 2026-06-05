@@ -124,7 +124,8 @@ async function readExistingCsv(filePath) {
 }
 
 function latestQuarterInRows(rows) {
-  const labels = [...new Set(rows.map((r) => r.quarter_label).filter(Boolean))];
+  const labels = [...new Set(rows.map((r) => r.quarter_label).filter(Boolean))]
+    .filter((l) => /^\d{4}-Q[1-4]$/.test(l));
   return labels.sort().pop() ?? null;
 }
 

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-01T16:27:46.733Z",
+  "generatedAt": "2026-06-05T18:56:12.145Z",
   "source": "Feathery",
   "billingCycle": {
-    "start": "2026-05-03",
-    "end": "2026-06-03"
+    "start": "2026-06-03",
+    "end": "2026-07-03"
   },
   "fieldTypes": [
     "button_group",
@@ -40,15 +40,15 @@
   ],
   "totals": {
     "clientsIdentified": 2230,
-    "totalForms": 36974,
-    "activeForms": 4459,
-    "inactiveForms": 32515,
-    "multiStepForms": 1741,
-    "formsWithESignature": 640,
-    "formsWithUpload": 75,
+    "totalForms": 37059,
+    "activeForms": 4374,
+    "inactiveForms": 32685,
+    "multiStepForms": 1752,
+    "formsWithESignature": 645,
+    "formsWithUpload": 76,
     "formsWithPayments": 0,
-    "formsWithoutPayments": 36974,
-    "submissions": 61282,
+    "formsWithoutPayments": 37059,
+    "submissions": 3028,
     "checkouts": null
   },
   "clients": [
@@ -63,111 +63,111 @@
       "formsWithPayments": 0,
       "formsWithESignature": 28,
       "formsWithUpload": 5,
-      "submissions": 2
+      "submissions": 0
     },
     {
       "id": "f9d8d2dc-14cd-4b21-8dfe-f961a4152d4e",
       "name": "ccboe",
       "createdAt": "2025-02-12T15:57:04.510311+00:00",
-      "totalForms": 3124,
-      "activeForms": 217,
-      "inactiveForms": 2907,
+      "totalForms": 3154,
+      "activeForms": 246,
+      "inactiveForms": 2908,
       "multiStepForms": 151,
       "formsWithPayments": 0,
       "formsWithESignature": 11,
       "formsWithUpload": 0,
-      "submissions": 3218
+      "submissions": 51
     },
     {
       "id": "66db807a-6a88-45c5-8f31-ceb78556c9b1",
       "name": "paulding",
       "createdAt": "2025-02-12T16:33:57.930388+00:00",
-      "totalForms": 3077,
-      "activeForms": 244,
-      "inactiveForms": 2833,
+      "totalForms": 3080,
+      "activeForms": 210,
+      "inactiveForms": 2870,
       "multiStepForms": 8,
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 0,
-      "submissions": 3617
+      "submissions": 30
     },
     {
       "id": "00ad69fd-1925-4662-a30e-21240a3d336c",
       "name": "stvrain",
       "createdAt": "2025-02-12T16:47:51.098977+00:00",
-      "totalForms": 1949,
-      "activeForms": 183,
-      "inactiveForms": 1766,
+      "totalForms": 1959,
+      "activeForms": 187,
+      "inactiveForms": 1772,
       "multiStepForms": 11,
       "formsWithPayments": 0,
       "formsWithESignature": 41,
       "formsWithUpload": 0,
-      "submissions": 2140
+      "submissions": 101
     },
     {
       "id": "6d631963-089d-4502-b219-64773171fdf6",
       "name": "pearlandisd",
       "createdAt": "2025-02-12T16:34:36.264491+00:00",
-      "totalForms": 949,
-      "activeForms": 59,
-      "inactiveForms": 890,
+      "totalForms": 956,
+      "activeForms": 70,
+      "inactiveForms": 886,
       "multiStepForms": 21,
       "formsWithPayments": 0,
       "formsWithESignature": 34,
       "formsWithUpload": 2,
-      "submissions": 2266
+      "submissions": 275
     },
     {
       "id": "bc737d46-5f8d-4f73-9638-176a9ce240f8",
       "name": "pcsb",
       "createdAt": "2025-02-12T16:34:26.649378+00:00",
       "totalForms": 927,
-      "activeForms": 183,
-      "inactiveForms": 744,
+      "activeForms": 165,
+      "inactiveForms": 762,
       "multiStepForms": 39,
       "formsWithPayments": 0,
       "formsWithESignature": 4,
       "formsWithUpload": 0,
-      "submissions": 2455
+      "submissions": 16
     },
     {
       "id": "cf3b5652-c770-4f66-93fa-418fb1ff034e",
       "name": "boerneisd",
       "createdAt": "2025-02-12T15:53:36.185789+00:00",
       "totalForms": 767,
-      "activeForms": 66,
-      "inactiveForms": 701,
+      "activeForms": 64,
+      "inactiveForms": 703,
       "multiStepForms": 5,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 1247
+      "submissions": 38
     },
     {
       "id": "8e162cd1-89ea-4cfd-9ba6-eaa3c0c676eb",
       "name": "northfieldschools",
       "createdAt": "2025-02-12T16:31:32.555010+00:00",
       "totalForms": 643,
-      "activeForms": 24,
-      "inactiveForms": 619,
+      "activeForms": 23,
+      "inactiveForms": 620,
       "multiStepForms": 49,
       "formsWithPayments": 0,
       "formsWithESignature": 4,
       "formsWithUpload": 0,
-      "submissions": 1231
+      "submissions": 31
     },
     {
       "id": "9c359e24-e662-4515-8388-5d47181df974",
       "name": "drippingspringsisd",
       "createdAt": "2025-02-12T16:05:49.278570+00:00",
       "totalForms": 587,
-      "activeForms": 22,
-      "inactiveForms": 565,
+      "activeForms": 21,
+      "inactiveForms": 566,
       "multiStepForms": 9,
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 1,
-      "submissions": 1757
+      "submissions": 32
     },
     {
       "id": "5d221b66-9f97-4642-bb94-94ef375d29d9",
@@ -187,26 +187,26 @@
       "name": "manateeschools",
       "createdAt": "2025-02-12T16:24:53.207800+00:00",
       "totalForms": 451,
-      "activeForms": 99,
-      "inactiveForms": 352,
+      "activeForms": 95,
+      "inactiveForms": 356,
       "multiStepForms": 22,
       "formsWithPayments": 0,
       "formsWithESignature": 6,
       "formsWithUpload": 0,
-      "submissions": 597
+      "submissions": 28
     },
     {
       "id": "de0436c0-aee2-4ed7-91d2-400b3f4da2f3",
       "name": "lewisville",
       "createdAt": "2025-02-12T16:22:25.627645+00:00",
       "totalForms": 438,
-      "activeForms": 30,
-      "inactiveForms": 408,
+      "activeForms": 24,
+      "inactiveForms": 414,
       "multiStepForms": 6,
       "formsWithPayments": 0,
       "formsWithESignature": 1,
       "formsWithUpload": 0,
-      "submissions": 1510
+      "submissions": 9
     },
     {
       "id": "8639c8f0-e4af-4d64-a162-3f953a04ad62",
@@ -219,7 +219,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 2,
       "formsWithUpload": 1,
-      "submissions": 721
+      "submissions": 8
     },
     {
       "id": "399803fc-2398-4717-afd4-f23364be34d5",
@@ -232,20 +232,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 0,
-      "submissions": 661
+      "submissions": 5
     },
     {
       "id": "cc416a8b-71e3-4ea5-9452-5d54023e8572",
       "name": "keysschools",
       "createdAt": "2025-02-12T16:19:26.104198+00:00",
       "totalForms": 401,
-      "activeForms": 140,
-      "inactiveForms": 261,
+      "activeForms": 139,
+      "inactiveForms": 262,
       "multiStepForms": 1,
       "formsWithPayments": 0,
       "formsWithESignature": 1,
       "formsWithUpload": 0,
-      "submissions": 213
+      "submissions": 0
     },
     {
       "id": "8908592e-6dd5-4447-aa82-c8e70f6fdc03",
@@ -271,46 +271,46 @@
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 0,
-      "submissions": 908
+      "submissions": 58
     },
     {
       "id": "d7220ac4-cba5-41c8-a032-56b11951410c",
       "name": "canyons",
       "createdAt": "2025-02-12T15:56:09.395512+00:00",
-      "totalForms": 379,
-      "activeForms": 83,
-      "inactiveForms": 296,
-      "multiStepForms": 204,
+      "totalForms": 383,
+      "activeForms": 78,
+      "inactiveForms": 305,
+      "multiStepForms": 208,
       "formsWithPayments": 0,
-      "formsWithESignature": 222,
+      "formsWithESignature": 226,
       "formsWithUpload": 0,
-      "submissions": 1022
+      "submissions": 115
     },
     {
       "id": "78c4520a-383f-41aa-b5f4-ec4e22ac1e17",
       "name": "lindberghschools",
       "createdAt": "2025-02-12T16:23:06.288440+00:00",
       "totalForms": 377,
-      "activeForms": 40,
-      "inactiveForms": 337,
+      "activeForms": 38,
+      "inactiveForms": 339,
       "multiStepForms": 3,
       "formsWithPayments": 0,
       "formsWithESignature": 2,
       "formsWithUpload": 3,
-      "submissions": 1570
+      "submissions": 49
     },
     {
       "id": "f0c6fd9e-8d30-407b-b31f-0ccced51abd0",
       "name": "bvsd",
       "createdAt": "2025-02-12T15:55:23.472726+00:00",
       "totalForms": 350,
-      "activeForms": 33,
-      "inactiveForms": 317,
+      "activeForms": 27,
+      "inactiveForms": 323,
       "multiStepForms": 27,
       "formsWithPayments": 0,
       "formsWithESignature": 49,
       "formsWithUpload": 0,
-      "submissions": 733
+      "submissions": 7
     },
     {
       "id": "8b83a085-1b4b-40b9-8308-05640e06eeae",
@@ -336,7 +336,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 1,
       "formsWithUpload": 0,
-      "submissions": 30
+      "submissions": 0
     },
     {
       "id": "06e3d2aa-904a-4020-8f0c-cc4e25fc607d",
@@ -349,7 +349,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 1276
+      "submissions": 43
     },
     {
       "id": "f9d3bfa0-2aa8-4d4e-9c70-545ea3d9c99c",
@@ -362,46 +362,46 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 65
+      "submissions": 2
     },
     {
       "id": "639893a6-85f4-4fbf-a1d5-b81e1912b4e9",
       "name": "okemosk12",
       "createdAt": "2025-02-12T16:33:02.472291+00:00",
       "totalForms": 259,
-      "activeForms": 96,
-      "inactiveForms": 163,
+      "activeForms": 84,
+      "inactiveForms": 175,
       "multiStepForms": 2,
       "formsWithPayments": 0,
       "formsWithESignature": 1,
       "formsWithUpload": 0,
-      "submissions": 1827
+      "submissions": 35
     },
     {
       "id": "8e4cdca4-f712-48ac-9959-45e6c1406c8f",
       "name": "nbisd",
       "createdAt": "2025-02-12T16:30:00.592904+00:00",
       "totalForms": 258,
-      "activeForms": 83,
-      "inactiveForms": 175,
+      "activeForms": 82,
+      "inactiveForms": 176,
       "multiStepForms": 4,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 765
+      "submissions": 24
     },
     {
       "id": "adb3a758-559c-4366-8b4a-9086db1b8c3d",
       "name": "hernando",
       "createdAt": "2025-02-12T16:14:35.836359+00:00",
       "totalForms": 253,
-      "activeForms": 48,
-      "inactiveForms": 205,
+      "activeForms": 44,
+      "inactiveForms": 209,
       "multiStepForms": 2,
       "formsWithPayments": 0,
       "formsWithESignature": 1,
       "formsWithUpload": 0,
-      "submissions": 403
+      "submissions": 21
     },
     {
       "id": "4dfe2e76-330d-4e86-b924-9f147866e422",
@@ -420,40 +420,40 @@
       "id": "fa4d68ac-f1b5-4c96-9c77-2826d33b4221",
       "name": "sjschools",
       "createdAt": "2025-02-12T16:44:15.484394+00:00",
-      "totalForms": 239,
-      "activeForms": 30,
-      "inactiveForms": 209,
+      "totalForms": 240,
+      "activeForms": 27,
+      "inactiveForms": 213,
       "multiStepForms": 31,
       "formsWithPayments": 0,
       "formsWithESignature": 5,
       "formsWithUpload": 0,
-      "submissions": 706
+      "submissions": 33
     },
     {
       "id": "74338909-44b6-4bba-ab1b-176705758ee5",
       "name": "terrellisd",
       "createdAt": "2025-02-12T16:49:02.494374+00:00",
       "totalForms": 239,
-      "activeForms": 33,
-      "inactiveForms": 206,
+      "activeForms": 32,
+      "inactiveForms": 207,
       "multiStepForms": 2,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 451
+      "submissions": 13
     },
     {
       "id": "74b38232-9ff4-4fb7-846b-f46918ed1301",
       "name": "fox",
       "createdAt": "2025-02-12T16:09:54.673612+00:00",
       "totalForms": 228,
-      "activeForms": 54,
-      "inactiveForms": 174,
+      "activeForms": 53,
+      "inactiveForms": 175,
       "multiStepForms": 2,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 1,
-      "submissions": 215
+      "submissions": 6
     },
     {
       "id": "29de1366-c68b-468f-bcfe-0e02cf7aec57",
@@ -466,7 +466,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 114
+      "submissions": 0
     },
     {
       "id": "e6f9aa69-dc7b-4f40-ac04-2fa78db22336",
@@ -479,7 +479,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 64
+      "submissions": 0
     },
     {
       "id": "1e71b4b1-d1b7-43bb-897b-16a19cfda301",
@@ -492,7 +492,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 157
+      "submissions": 28
     },
     {
       "id": "9e166952-6b56-4146-9a37-2f710e6aeb30",
@@ -505,7 +505,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 224
+      "submissions": 6
     },
     {
       "id": "f9765b35-e600-4993-90bb-c622f365aba2",
@@ -518,20 +518,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 4
+      "submissions": 0
     },
     {
       "id": "50b614f3-d4e1-4585-a346-880e64c2ac5d",
       "name": "southlakecarroll",
       "createdAt": "2025-02-12T16:45:10.415088+00:00",
       "totalForms": 203,
-      "activeForms": 103,
-      "inactiveForms": 100,
+      "activeForms": 88,
+      "inactiveForms": 115,
       "multiStepForms": 125,
       "formsWithPayments": 0,
       "formsWithESignature": 6,
       "formsWithUpload": 1,
-      "submissions": 3148
+      "submissions": 249
     },
     {
       "id": "f213765d-6d8f-4689-abc7-be91839fab3c",
@@ -544,7 +544,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 222
+      "submissions": 1
     },
     {
       "id": "bd65c848-06e6-4026-9fe9-20b6e376dcd9",
@@ -557,20 +557,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 0,
-      "submissions": 383
+      "submissions": 167
     },
     {
       "id": "1883b181-de02-454f-9f39-7741a4951121",
       "name": "monroe-woodbury",
       "createdAt": "2025-02-12T16:27:50.121617+00:00",
-      "totalForms": 175,
-      "activeForms": 12,
+      "totalForms": 177,
+      "activeForms": 14,
       "inactiveForms": 163,
       "multiStepForms": 2,
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 0,
-      "submissions": 564
+      "submissions": 6
     },
     {
       "id": "77b5940e-cce9-48ae-890b-744605a5e42b",
@@ -583,7 +583,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 372
+      "submissions": 8
     },
     {
       "id": "7a022298-a64f-416d-8e82-cc0b4e84bfb1",
@@ -596,20 +596,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 1,
-      "submissions": 19
+      "submissions": 0
     },
     {
       "id": "6e2729c1-f156-4633-9c66-a68d32a50ce5",
       "name": "rochesterk12",
       "createdAt": "2025-02-12T16:39:33.825666+00:00",
       "totalForms": 152,
-      "activeForms": 24,
-      "inactiveForms": 128,
+      "activeForms": 23,
+      "inactiveForms": 129,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 1,
       "formsWithUpload": 0,
-      "submissions": 32
+      "submissions": 20
     },
     {
       "id": "5c8c26e5-3fa9-4458-b91c-a6cd5efea2c4",
@@ -622,20 +622,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 28
-    },
-    {
-      "id": "2f3477d5-c68e-4521-be6b-1634e4728ef3",
-      "name": "manaraacademy",
-      "createdAt": "2025-02-12T16:24:51.428930+00:00",
-      "totalForms": 144,
-      "activeForms": 46,
-      "inactiveForms": 98,
-      "multiStepForms": 10,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 67
+      "submissions": 5
     },
     {
       "id": "0a0de0a9-015b-4fef-a9ca-361b5c472264",
@@ -648,20 +635,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 52
-    },
-    {
-      "id": "309b301c-f972-41de-8e21-9a2f27c47f13",
-      "name": "waynecounty",
-      "createdAt": "2025-02-12T16:55:16.802771+00:00",
-      "totalForms": 144,
-      "activeForms": 9,
-      "inactiveForms": 135,
-      "multiStepForms": 5,
-      "formsWithPayments": 0,
-      "formsWithESignature": 1,
-      "formsWithUpload": 0,
-      "submissions": 23
+      "submissions": 15
     },
     {
       "id": "f3ded2c2-1a01-4a25-868e-69ae7f72903b",
@@ -677,30 +651,56 @@
       "submissions": 0
     },
     {
-      "id": "4f9c6e31-110a-4bb1-92fc-02339be8251b",
-      "name": "bluesprings",
-      "createdAt": "2025-02-12T15:53:34.273294+00:00",
-      "totalForms": 136,
-      "activeForms": 39,
-      "inactiveForms": 97,
-      "multiStepForms": 5,
+      "id": "2f3477d5-c68e-4521-be6b-1634e4728ef3",
+      "name": "manaraacademy",
+      "createdAt": "2025-02-12T16:24:51.428930+00:00",
+      "totalForms": 144,
+      "activeForms": 46,
+      "inactiveForms": 98,
+      "multiStepForms": 10,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 342
+      "submissions": 0
+    },
+    {
+      "id": "309b301c-f972-41de-8e21-9a2f27c47f13",
+      "name": "waynecounty",
+      "createdAt": "2025-02-12T16:55:16.802771+00:00",
+      "totalForms": 144,
+      "activeForms": 9,
+      "inactiveForms": 135,
+      "multiStepForms": 5,
+      "formsWithPayments": 0,
+      "formsWithESignature": 1,
+      "formsWithUpload": 0,
+      "submissions": 0
     },
     {
       "id": "9333f0dc-953a-42e9-aa45-d0a3c8ac46a1",
       "name": "myschool",
       "createdAt": "2025-04-10T16:46:16.914421+00:00",
-      "totalForms": 136,
-      "activeForms": 94,
+      "totalForms": 137,
+      "activeForms": 95,
       "inactiveForms": 42,
-      "multiStepForms": 55,
+      "multiStepForms": 56,
       "formsWithPayments": 0,
       "formsWithESignature": 23,
       "formsWithUpload": 11,
-      "submissions": 47
+      "submissions": 11
+    },
+    {
+      "id": "4f9c6e31-110a-4bb1-92fc-02339be8251b",
+      "name": "bluesprings",
+      "createdAt": "2025-02-12T15:53:34.273294+00:00",
+      "totalForms": 136,
+      "activeForms": 37,
+      "inactiveForms": 99,
+      "multiStepForms": 5,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 11
     },
     {
       "id": "d8ff34f9-87d3-4dbd-9fea-d5a0f8a4fe91",
@@ -713,7 +713,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 23,
       "formsWithUpload": 1,
-      "submissions": 291
+      "submissions": 6
     },
     {
       "id": "4397cddd-3f67-4616-812a-de2348a7aa5d",
@@ -733,26 +733,26 @@
       "name": "desotoisd",
       "createdAt": "2025-02-12T16:04:31.181637+00:00",
       "totalForms": 133,
-      "activeForms": 20,
-      "inactiveForms": 113,
+      "activeForms": 19,
+      "inactiveForms": 114,
       "multiStepForms": 6,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 1,
-      "submissions": 692
+      "submissions": 16
     },
     {
       "id": "efe2895a-5796-4b08-9b04-019335c723bb",
       "name": "thevanguardschool",
       "createdAt": "2025-02-12T16:49:10.039016+00:00",
-      "totalForms": 132,
-      "activeForms": 6,
+      "totalForms": 133,
+      "activeForms": 7,
       "inactiveForms": 126,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 6
+      "submissions": 0
     },
     {
       "id": "23095cd9-355b-474a-9ce2-dea612da4ace",
@@ -765,7 +765,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 6
+      "submissions": 0
     },
     {
       "id": "c2e51fbf-aa55-4fdd-9997-26b190a899c5",
@@ -791,7 +791,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 75
+      "submissions": 10
     },
     {
       "id": "8fc8922e-5264-46f0-8294-577f49b553e3",
@@ -804,20 +804,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 2,
       "formsWithUpload": 0,
-      "submissions": 170
-    },
-    {
-      "id": "217875fe-32ef-4d11-a405-74d187b94ddb",
-      "name": "rosevillecs",
-      "createdAt": "2025-02-12T16:39:55.265967+00:00",
-      "totalForms": 120,
-      "activeForms": 19,
-      "inactiveForms": 101,
-      "multiStepForms": 3,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 1,
-      "submissions": 225
+      "submissions": 0
     },
     {
       "id": "00e28767-f365-4cc1-89c1-b912d8bfa93c",
@@ -830,20 +817,33 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 108
+      "submissions": 21
+    },
+    {
+      "id": "217875fe-32ef-4d11-a405-74d187b94ddb",
+      "name": "rosevillecs",
+      "createdAt": "2025-02-12T16:39:55.265967+00:00",
+      "totalForms": 120,
+      "activeForms": 14,
+      "inactiveForms": 106,
+      "multiStepForms": 3,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 1,
+      "submissions": 0
     },
     {
       "id": "1cdee79e-3d4c-4803-be9d-bc004223e3f5",
       "name": "coalcity",
       "createdAt": "2025-02-12T16:00:45.412259+00:00",
       "totalForms": 118,
-      "activeForms": 60,
-      "inactiveForms": 58,
+      "activeForms": 56,
+      "inactiveForms": 62,
       "multiStepForms": 4,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 865
+      "submissions": 29
     },
     {
       "id": "e2894cb6-4116-4d9f-9292-cd2eeae46245",
@@ -882,7 +882,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 2,
       "formsWithUpload": 4,
-      "submissions": 255
+      "submissions": 2
     },
     {
       "id": "9eaab008-ea93-4cb7-a168-55066e606472",
@@ -895,20 +895,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 76
+      "submissions": 3
     },
     {
       "id": "6b1e8241-2949-4612-92b1-872b58c587a4",
       "name": "eanes",
       "createdAt": "2025-02-12T16:06:19.077650+00:00",
       "totalForms": 114,
-      "activeForms": 24,
-      "inactiveForms": 90,
+      "activeForms": 25,
+      "inactiveForms": 89,
       "multiStepForms": 2,
       "formsWithPayments": 0,
       "formsWithESignature": 1,
       "formsWithUpload": 0,
-      "submissions": 33
+      "submissions": 5
     },
     {
       "id": "cee68ae8-0d67-4832-ae71-166fa6745e83",
@@ -921,7 +921,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 208
+      "submissions": 5
     },
     {
       "id": "d728b05a-a453-45d5-b957-26ecfeb76887",
@@ -934,7 +934,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 4,
       "formsWithUpload": 0,
-      "submissions": 13
+      "submissions": 0
     },
     {
       "id": "daaef6e0-1424-47d3-8d9a-4b7142b29163",
@@ -947,7 +947,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 629
+      "submissions": 84
     },
     {
       "id": "78ad5c3d-d18b-42e6-805a-f52ccacb0a95",
@@ -960,7 +960,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 9
+      "submissions": 0
     },
     {
       "id": "491b4155-ce63-46a3-a21a-f8b497893cda",
@@ -973,7 +973,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 24
+      "submissions": 5
     },
     {
       "id": "2afe3fcc-a114-448b-96b9-de0afb73f403",
@@ -999,7 +999,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 767
+      "submissions": 8
     },
     {
       "id": "158e0f52-2f20-4370-b195-1f45e7b4767a",
@@ -1012,7 +1012,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 3
+      "submissions": 1
     },
     {
       "id": "405530ee-b6db-49d4-8b16-222e2c3f6a7f",
@@ -1025,7 +1025,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 934
+      "submissions": 42
     },
     {
       "id": "7f65171d-eb79-476b-92f4-eee5bf837400",
@@ -1038,7 +1038,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 69
+      "submissions": 9
     },
     {
       "id": "6d6229cf-5312-440b-8aba-32973bd41eeb",
@@ -1051,20 +1051,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 16
-    },
-    {
-      "id": "ff5b70dc-79b9-4167-9d64-a39e829d0f8e",
-      "name": "maywoodschools",
-      "createdAt": "2025-02-12T16:25:55.650425+00:00",
-      "totalForms": 91,
-      "activeForms": 11,
-      "inactiveForms": 80,
-      "multiStepForms": 4,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 814
+      "submissions": 3
     },
     {
       "id": "e0fd1fdd-6535-4a4e-b256-50c8b6eddc52",
@@ -1077,7 +1064,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 0,
-      "submissions": 637
+      "submissions": 41
+    },
+    {
+      "id": "ff5b70dc-79b9-4167-9d64-a39e829d0f8e",
+      "name": "maywoodschools",
+      "createdAt": "2025-02-12T16:25:55.650425+00:00",
+      "totalForms": 91,
+      "activeForms": 10,
+      "inactiveForms": 81,
+      "multiStepForms": 4,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 15
     },
     {
       "id": "59e9db3b-6ee8-4a3a-bc64-6a5afa0609e6",
@@ -1090,7 +1090,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 23
+      "submissions": 9
     },
     {
       "id": "cea9b25e-3ebd-4608-81e6-9d60e378d440",
@@ -1103,7 +1103,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 3
+      "submissions": 0
     },
     {
       "id": "fdd3256f-854d-4d14-9051-aba1bec46afc",
@@ -1116,7 +1116,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 2
+      "submissions": 0
     },
     {
       "id": "707bc128-00a3-4d4f-b1ba-58af429b8f2d",
@@ -1129,7 +1129,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 95
+      "submissions": 6
     },
     {
       "id": "4a157e96-abca-462a-89dd-6537b661f32a",
@@ -1168,7 +1168,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 478
+      "submissions": 6
     },
     {
       "id": "e3830588-91e2-4e79-8de5-be5fe8951439",
@@ -1181,20 +1181,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 3,
-      "submissions": 124
-    },
-    {
-      "id": "1d83813c-bbb8-460b-b3a0-0794690f5a68",
-      "name": "gatesvilleisd",
-      "createdAt": "2025-02-12T16:11:06.664726+00:00",
-      "totalForms": 81,
-      "activeForms": 10,
-      "inactiveForms": 71,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 540
+      "submissions": 0
     },
     {
       "id": "1637a51d-411c-4410-b11b-33d42a8e9b27",
@@ -1207,7 +1194,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 407
+      "submissions": 18
+    },
+    {
+      "id": "1d83813c-bbb8-460b-b3a0-0794690f5a68",
+      "name": "gatesvilleisd",
+      "createdAt": "2025-02-12T16:11:06.664726+00:00",
+      "totalForms": 81,
+      "activeForms": 10,
+      "inactiveForms": 71,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 15
     },
     {
       "id": "bc532923-0e27-4a27-a0c3-50625f4e50cb",
@@ -1220,7 +1220,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 105
+      "submissions": 0
     },
     {
       "id": "2ae85f4e-75ca-4581-9b68-c04ebf250ba7",
@@ -1246,20 +1246,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 2
-    },
-    {
-      "id": "4376d484-a72e-480d-80e8-8b786e5b72ed",
-      "name": "westlakeacademy",
-      "createdAt": "2025-08-20T23:20:09.749320+00:00",
-      "totalForms": 73,
-      "activeForms": 6,
-      "inactiveForms": 67,
-      "multiStepForms": 59,
-      "formsWithPayments": 0,
-      "formsWithESignature": 8,
-      "formsWithUpload": 0,
-      "submissions": 85
+      "submissions": 1
     },
     {
       "id": "213aa8da-9bb2-4649-a151-5f7dd22a81e1",
@@ -1272,7 +1259,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 69
+      "submissions": 11
+    },
+    {
+      "id": "4376d484-a72e-480d-80e8-8b786e5b72ed",
+      "name": "westlakeacademy",
+      "createdAt": "2025-08-20T23:20:09.749320+00:00",
+      "totalForms": 73,
+      "activeForms": 6,
+      "inactiveForms": 67,
+      "multiStepForms": 59,
+      "formsWithPayments": 0,
+      "formsWithESignature": 8,
+      "formsWithUpload": 0,
+      "submissions": 0
     },
     {
       "id": "9e315ff3-920f-4ff5-bc5a-af012b445ee8",
@@ -1301,19 +1301,6 @@
       "submissions": 0
     },
     {
-      "id": "49f87a58-adea-4bed-a09f-e50b2bfa403f",
-      "name": "joshuaisd",
-      "createdAt": "2025-02-12T16:18:26.358010+00:00",
-      "totalForms": 69,
-      "activeForms": 4,
-      "inactiveForms": 65,
-      "multiStepForms": 1,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 19
-    },
-    {
       "id": "c62a7848-97ad-434e-96c1-9ab30df242b6",
       "name": "hollyacademy",
       "createdAt": "2025-02-12T16:15:17.473533+00:00",
@@ -1327,17 +1314,30 @@
       "submissions": 0
     },
     {
-      "id": "a576a6a1-9935-4f69-9ae7-b9b6f888957f",
-      "name": "paywallerisd",
-      "createdAt": "2025-02-12T16:34:13.150850+00:00",
-      "totalForms": 66,
+      "id": "49f87a58-adea-4bed-a09f-e50b2bfa403f",
+      "name": "joshuaisd",
+      "createdAt": "2025-02-12T16:18:26.358010+00:00",
+      "totalForms": 69,
       "activeForms": 4,
-      "inactiveForms": 62,
+      "inactiveForms": 65,
       "multiStepForms": 1,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 927
+      "submissions": 0
+    },
+    {
+      "id": "a576a6a1-9935-4f69-9ae7-b9b6f888957f",
+      "name": "paywallerisd",
+      "createdAt": "2025-02-12T16:34:13.150850+00:00",
+      "totalForms": 68,
+      "activeForms": 5,
+      "inactiveForms": 63,
+      "multiStepForms": 1,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 3
     },
     {
       "id": "3834198b-ab28-40c8-b2a9-78cf392f417c",
@@ -1357,13 +1357,13 @@
       "name": "cusd301",
       "createdAt": "2025-02-12T16:02:42.634353+00:00",
       "totalForms": 65,
-      "activeForms": 56,
-      "inactiveForms": 9,
+      "activeForms": 54,
+      "inactiveForms": 11,
       "multiStepForms": 65,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 1211
+      "submissions": 297
     },
     {
       "id": "dd15aa1b-7c5c-4fda-8213-41140f6b8e39",
@@ -1376,7 +1376,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 17
+      "submissions": 9
     },
     {
       "id": "6d6c2e43-b704-41c5-88a5-2137294a4ecf",
@@ -1389,7 +1389,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 11
+      "submissions": 4
     },
     {
       "id": "f620f15b-3c11-4bc3-9d6d-3a127271bbd9",
@@ -1405,6 +1405,32 @@
       "submissions": 0
     },
     {
+      "id": "f88f1a63-d7ab-4dd0-b074-49f498fec492",
+      "name": "northvilleschools",
+      "createdAt": "2025-02-12T16:31:51.379468+00:00",
+      "totalForms": 59,
+      "activeForms": 14,
+      "inactiveForms": 45,
+      "multiStepForms": 11,
+      "formsWithPayments": 0,
+      "formsWithESignature": 5,
+      "formsWithUpload": 0,
+      "submissions": 13
+    },
+    {
+      "id": "39bea23f-2c90-485a-aea7-2af0ef591618",
+      "name": "channelviewisd",
+      "createdAt": "2025-02-12T15:58:14.684091+00:00",
+      "totalForms": 59,
+      "activeForms": 5,
+      "inactiveForms": 54,
+      "multiStepForms": 9,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 7
+    },
+    {
       "id": "50f17986-4942-47e6-bf03-029fd63f5d4d",
       "name": "libertyhillisd",
       "createdAt": "2025-02-12T16:22:46.985697+00:00",
@@ -1415,7 +1441,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 6,
       "formsWithUpload": 0,
-      "submissions": 98
+      "submissions": 1
     },
     {
       "id": "3bec5732-d9a6-4d82-a6d0-be919ecea7e3",
@@ -1428,7 +1454,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 4
+      "submissions": 0
     },
     {
       "id": "419431d0-9d78-47d0-a3f5-78dde6500d09",
@@ -1441,20 +1467,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 13
-    },
-    {
-      "id": "39bea23f-2c90-485a-aea7-2af0ef591618",
-      "name": "channelviewisd",
-      "createdAt": "2025-02-12T15:58:14.684091+00:00",
-      "totalForms": 57,
-      "activeForms": 4,
-      "inactiveForms": 53,
-      "multiStepForms": 7,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 224
+      "submissions": 0
     },
     {
       "id": "37c96f33-fea6-4ff3-9b5b-bd9838c57f24",
@@ -1481,19 +1494,6 @@
       "formsWithESignature": 0,
       "formsWithUpload": 0,
       "submissions": 0
-    },
-    {
-      "id": "f88f1a63-d7ab-4dd0-b074-49f498fec492",
-      "name": "northvilleschools",
-      "createdAt": "2025-02-12T16:31:51.379468+00:00",
-      "totalForms": 56,
-      "activeForms": 11,
-      "inactiveForms": 45,
-      "multiStepForms": 11,
-      "formsWithPayments": 0,
-      "formsWithESignature": 5,
-      "formsWithUpload": 0,
-      "submissions": 122
     },
     {
       "id": "aceeb85d-dee0-4964-882c-915e58ea0469",
@@ -1545,7 +1545,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 16,
       "formsWithUpload": 0,
-      "submissions": 631
+      "submissions": 18
     },
     {
       "id": "ff1473ba-8db4-4eaa-baee-f3da8eb04be5",
@@ -1565,13 +1565,13 @@
       "name": "coatesvillearea",
       "createdAt": "2025-02-12T16:00:47.337245+00:00",
       "totalForms": 52,
-      "activeForms": 11,
-      "inactiveForms": 41,
+      "activeForms": 10,
+      "inactiveForms": 42,
       "multiStepForms": 4,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 434
+      "submissions": 2
     },
     {
       "id": "7758e9f3-bdcd-4ed5-a83d-db03e6a9ea9a",
@@ -1584,7 +1584,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 280
+      "submissions": 28
     },
     {
       "id": "f346e963-05be-405c-9a8d-eee8d75cac2d",
@@ -1623,7 +1623,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 430
+      "submissions": 11
     },
     {
       "id": "761ca2ee-e7df-48d8-8b90-871022a55bef",
@@ -1649,7 +1649,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 48
+      "submissions": 1
     },
     {
       "id": "01128220-af74-4c52-9925-91b78be0c665",
@@ -1669,13 +1669,13 @@
       "name": "orland135",
       "createdAt": "2025-02-12T16:33:21.979398+00:00",
       "totalForms": 44,
-      "activeForms": 24,
-      "inactiveForms": 20,
+      "activeForms": 17,
+      "inactiveForms": 27,
       "multiStepForms": 9,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 247
+      "submissions": 21
     },
     {
       "id": "6fd3ca7c-6a1b-4dc5-b300-6aff91f10edf",
@@ -1688,20 +1688,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 98
-    },
-    {
-      "id": "727fd836-4780-4af1-aaa6-3720173825f5",
-      "name": "sancarlos",
-      "createdAt": "2025-08-12T17:06:23.824873+00:00",
-      "totalForms": 44,
-      "activeForms": 3,
-      "inactiveForms": 41,
-      "multiStepForms": 43,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 90
+      "submissions": 8
     },
     {
       "id": "97cf3be4-4f2b-4318-8c50-4fc300694a5f",
@@ -1714,7 +1701,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 5
+      "submissions": 1
+    },
+    {
+      "id": "727fd836-4780-4af1-aaa6-3720173825f5",
+      "name": "sancarlos",
+      "createdAt": "2025-08-12T17:06:23.824873+00:00",
+      "totalForms": 44,
+      "activeForms": 2,
+      "inactiveForms": 42,
+      "multiStepForms": 43,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
     },
     {
       "id": "d70cd3df-aabc-4d23-88b9-41849cbfd076",
@@ -1740,20 +1740,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 175
-    },
-    {
-      "id": "7692403a-3720-4d3c-87fa-59175938a8ce",
-      "name": "bfschools",
-      "createdAt": "2025-02-12T15:52:42.902630+00:00",
-      "totalForms": 43,
-      "activeForms": 4,
-      "inactiveForms": 39,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 2
+      "submissions": 14
     },
     {
       "id": "667e5e3d-5e44-45a8-990f-efb08d3a4e0b",
@@ -1766,7 +1753,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 1
+      "submissions": 0
+    },
+    {
+      "id": "7692403a-3720-4d3c-87fa-59175938a8ce",
+      "name": "bfschools",
+      "createdAt": "2025-02-12T15:52:42.902630+00:00",
+      "totalForms": 43,
+      "activeForms": 4,
+      "inactiveForms": 39,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
     },
     {
       "id": "ab4d83a4-9af0-43bd-8122-6fe47d3c228b",
@@ -1779,7 +1779,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 188
+      "submissions": 8
     },
     {
       "id": "ee2a3a35-6569-400d-a2a3-477c1744427b",
@@ -1792,7 +1792,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 1,
       "formsWithUpload": 0,
-      "submissions": 1513
+      "submissions": 1
     },
     {
       "id": "937fcbba-2306-4edb-ba8e-a118c878befe",
@@ -1831,7 +1831,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 14
+      "submissions": 0
     },
     {
       "id": "abcb97e8-70b0-4986-ab97-bf361fa6146b",
@@ -1857,7 +1857,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 3
+      "submissions": 0
     },
     {
       "id": "da2d1dbc-8c6c-4a51-8eeb-dd22f292aa4f",
@@ -1896,7 +1896,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 567
+      "submissions": 65
     },
     {
       "id": "8655de6d-b579-41e7-accb-16faa4a8253a",
@@ -1922,7 +1922,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 17,
       "formsWithUpload": 12,
-      "submissions": 16
+      "submissions": 3
     },
     {
       "id": "d0e6ab25-a37b-4e07-b2b0-81056b2aafea",
@@ -1935,7 +1935,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 470
+      "submissions": 0
     },
     {
       "id": "ac0ed77d-a2cd-44ae-8d8f-198c8032d16a",
@@ -1948,7 +1948,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 10
+      "submissions": 0
     },
     {
       "id": "09c8b428-597f-4e91-bde5-d88fd1190ae1",
@@ -1964,6 +1964,19 @@
       "submissions": 0
     },
     {
+      "id": "9e5d6b43-a0c6-46ac-ab07-e6f2c98551f5",
+      "name": "simsburyboe",
+      "createdAt": "2025-02-12T16:44:01.150431+00:00",
+      "totalForms": 33,
+      "activeForms": 15,
+      "inactiveForms": 18,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 72
+    },
+    {
       "id": "7b247049-a17a-439e-9a88-5d6b0e0554d4",
       "name": "princetonisd",
       "createdAt": "2025-02-12T16:37:04.378738+00:00",
@@ -1974,7 +1987,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 1,
-      "submissions": 668
+      "submissions": 0
     },
     {
       "id": "d500b823-ef98-47c9-8d8a-f077b8826771",
@@ -1987,33 +2000,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 32
-    },
-    {
-      "id": "fc6d04ee-1918-48fb-b10c-f56628027991",
-      "name": "stmaryeg",
-      "createdAt": "2025-07-29T19:06:38.629384+00:00",
-      "totalForms": 31,
-      "activeForms": 5,
-      "inactiveForms": 26,
-      "multiStepForms": 3,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 5,
-      "submissions": 443
-    },
-    {
-      "id": "c60013cd-0da7-498c-8d85-84cffe5deb2b",
-      "name": "fisd",
-      "createdAt": "2025-02-12T16:09:27.532252+00:00",
-      "totalForms": 31,
-      "activeForms": 2,
-      "inactiveForms": 29,
-      "multiStepForms": 2,
-      "formsWithPayments": 0,
-      "formsWithESignature": 5,
-      "formsWithUpload": 0,
-      "submissions": 208
+      "submissions": 3
     },
     {
       "id": "b79fb2e9-c0cc-4a13-b4f6-69a2dedcc704",
@@ -2026,31 +2013,44 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 56
+      "submissions": 13
     },
     {
-      "id": "9e5d6b43-a0c6-46ac-ab07-e6f2c98551f5",
-      "name": "simsburyboe",
-      "createdAt": "2025-02-12T16:44:01.150431+00:00",
-      "totalForms": 30,
-      "activeForms": 15,
-      "inactiveForms": 15,
-      "multiStepForms": 0,
+      "id": "fc6d04ee-1918-48fb-b10c-f56628027991",
+      "name": "stmaryeg",
+      "createdAt": "2025-07-29T19:06:38.629384+00:00",
+      "totalForms": 31,
+      "activeForms": 5,
+      "inactiveForms": 26,
+      "multiStepForms": 3,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 323
+      "formsWithUpload": 5,
+      "submissions": 13
     },
     {
-      "id": "310728ae-d10d-4aec-8ef5-87b5b894a6e8",
-      "name": "franklin",
-      "createdAt": "2025-02-12T16:10:07.444533+00:00",
-      "totalForms": 30,
-      "activeForms": 11,
-      "inactiveForms": 19,
-      "multiStepForms": 0,
+      "id": "c60013cd-0da7-498c-8d85-84cffe5deb2b",
+      "name": "fisd",
+      "createdAt": "2025-02-12T16:09:27.532252+00:00",
+      "totalForms": 31,
+      "activeForms": 0,
+      "inactiveForms": 31,
+      "multiStepForms": 2,
       "formsWithPayments": 0,
-      "formsWithESignature": 7,
+      "formsWithESignature": 5,
+      "formsWithUpload": 0,
+      "submissions": 1
+    },
+    {
+      "id": "392098be-27cc-417f-ab89-e8d99518cec1",
+      "name": "needvilleisd",
+      "createdAt": "2025-02-12T16:30:16.369843+00:00",
+      "totalForms": 30,
+      "activeForms": 3,
+      "inactiveForms": 27,
+      "multiStepForms": 4,
+      "formsWithPayments": 0,
+      "formsWithESignature": 2,
       "formsWithUpload": 0,
       "submissions": 9
     },
@@ -2077,6 +2077,19 @@
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "310728ae-d10d-4aec-8ef5-87b5b894a6e8",
+      "name": "franklin",
+      "createdAt": "2025-02-12T16:10:07.444533+00:00",
+      "totalForms": 30,
+      "activeForms": 11,
+      "inactiveForms": 19,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 7,
       "formsWithUpload": 0,
       "submissions": 0
     },
@@ -2120,19 +2133,6 @@
       "submissions": 0
     },
     {
-      "id": "392098be-27cc-417f-ab89-e8d99518cec1",
-      "name": "needvilleisd",
-      "createdAt": "2025-02-12T16:30:16.369843+00:00",
-      "totalForms": 29,
-      "activeForms": 2,
-      "inactiveForms": 27,
-      "multiStepForms": 3,
-      "formsWithPayments": 0,
-      "formsWithESignature": 2,
-      "formsWithUpload": 0,
-      "submissions": 99
-    },
-    {
       "id": "582aba6e-01ab-4fe2-a233-01736af0ba3b",
       "name": "lgisd",
       "createdAt": "2025-02-12T16:22:35.775420+00:00",
@@ -2143,7 +2143,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 18
+      "submissions": 0
     },
     {
       "id": "4e989af1-fafd-4788-b6ed-dbd9b32b8515",
@@ -2169,7 +2169,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 13
+      "submissions": 0
     },
     {
       "id": "ab2bb8bb-5bef-4592-81de-c7055eed3565",
@@ -2182,7 +2182,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 5
+      "submissions": 0
     },
     {
       "id": "d94c73e4-1871-4dc3-9c02-a3730cc2b436",
@@ -2191,6 +2191,32 @@
       "totalForms": 27,
       "activeForms": 0,
       "inactiveForms": 27,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "bf909129-6907-43fb-baa2-61d46a859726",
+      "name": "ridgeviewdemo",
+      "createdAt": "2026-03-18T16:21:28.554418+00:00",
+      "totalForms": 26,
+      "activeForms": 20,
+      "inactiveForms": 6,
+      "multiStepForms": 14,
+      "formsWithPayments": 0,
+      "formsWithESignature": 7,
+      "formsWithUpload": 4,
+      "submissions": 14
+    },
+    {
+      "id": "24f5ac70-dcf5-4aa7-93b2-60735904123b",
+      "name": "helenaschools",
+      "createdAt": "2025-02-12T16:14:26.389714+00:00",
+      "totalForms": 26,
+      "activeForms": 0,
+      "inactiveForms": 26,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -2208,19 +2234,6 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 23
-    },
-    {
-      "id": "24f5ac70-dcf5-4aa7-93b2-60735904123b",
-      "name": "helenaschools",
-      "createdAt": "2025-02-12T16:14:26.389714+00:00",
-      "totalForms": 26,
-      "activeForms": 0,
-      "inactiveForms": 26,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
       "submissions": 0
     },
     {
@@ -2234,7 +2247,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 2,
-      "submissions": 204
+      "submissions": 12
     },
     {
       "id": "f909246d-b8cc-42d6-a3ba-d08f583b8f83",
@@ -2247,7 +2260,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 84
+      "submissions": 8
     },
     {
       "id": "16335efd-d59a-4803-882e-4e160beb7826",
@@ -2260,33 +2273,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 25
-    },
-    {
-      "id": "ad2938a6-34ff-40a1-aaac-ff4d4226e09c",
-      "name": "troupisd",
-      "createdAt": "2025-02-12T16:49:58.104812+00:00",
-      "totalForms": 24,
-      "activeForms": 12,
-      "inactiveForms": 12,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 24
-    },
-    {
-      "id": "0a3fbea0-6814-4317-88e8-177547762a8e",
-      "name": "pineisland",
-      "createdAt": "2025-02-12T16:35:54.402165+00:00",
-      "totalForms": 24,
-      "activeForms": 3,
-      "inactiveForms": 21,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 4
+      "submissions": 5
     },
     {
       "id": "2feb3ca5-a62c-415c-b048-ebe8ba4c9077",
@@ -2302,17 +2289,30 @@
       "submissions": 0
     },
     {
-      "id": "bf909129-6907-43fb-baa2-61d46a859726",
-      "name": "ridgeviewdemo",
-      "createdAt": "2026-03-18T16:21:28.554418+00:00",
-      "totalForms": 23,
-      "activeForms": 18,
-      "inactiveForms": 5,
-      "multiStepForms": 12,
+      "id": "0a3fbea0-6814-4317-88e8-177547762a8e",
+      "name": "pineisland",
+      "createdAt": "2025-02-12T16:35:54.402165+00:00",
+      "totalForms": 24,
+      "activeForms": 3,
+      "inactiveForms": 21,
+      "multiStepForms": 0,
       "formsWithPayments": 0,
-      "formsWithESignature": 6,
-      "formsWithUpload": 3,
-      "submissions": 13
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "ad2938a6-34ff-40a1-aaac-ff4d4226e09c",
+      "name": "troupisd",
+      "createdAt": "2025-02-12T16:49:58.104812+00:00",
+      "totalForms": 24,
+      "activeForms": 12,
+      "inactiveForms": 12,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
     },
     {
       "id": "22bad2ef-59bb-4ca3-beb4-253f55fe2c80",
@@ -2325,7 +2325,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 9,
       "formsWithUpload": 7,
-      "submissions": 4
+      "submissions": 0
     },
     {
       "id": "85d8c58b-52ed-4564-91f7-dd059e5753bb",
@@ -2351,7 +2351,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 8
+      "submissions": 1
     },
     {
       "id": "144e792d-1520-4a38-9b75-34457f7a6b1e",
@@ -2403,7 +2403,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 2,
-      "submissions": 28
+      "submissions": 1
     },
     {
       "id": "e3304b87-1c3e-472d-a65c-408ecac29dd1",
@@ -2442,12 +2442,12 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 37
+      "submissions": 0
     },
     {
-      "id": "9e520c07-34d4-4d2d-8e83-4dcfceeea09b",
-      "name": "mstm",
-      "createdAt": "2025-02-12T16:28:57.779283+00:00",
+      "id": "c98813eb-bc93-466d-92d4-70704aa1b00f",
+      "name": "merrillschools",
+      "createdAt": "2025-02-12T16:26:33.194838+00:00",
       "totalForms": 20,
       "activeForms": 2,
       "inactiveForms": 18,
@@ -2455,12 +2455,12 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 2
+      "submissions": 0
     },
     {
-      "id": "c98813eb-bc93-466d-92d4-70704aa1b00f",
-      "name": "merrillschools",
-      "createdAt": "2025-02-12T16:26:33.194838+00:00",
+      "id": "9e520c07-34d4-4d2d-8e83-4dcfceeea09b",
+      "name": "mstm",
+      "createdAt": "2025-02-12T16:28:57.779283+00:00",
       "totalForms": 20,
       "activeForms": 2,
       "inactiveForms": 18,
@@ -2520,7 +2520,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 13
+      "submissions": 1
     },
     {
       "id": "61687001-7a38-405b-8237-a3d1c2ad0da4",
@@ -2575,17 +2575,17 @@
       "submissions": 0
     },
     {
-      "id": "9b693915-28be-4388-92ee-3ae5266d0b28",
-      "name": "vmbulldogs",
-      "createdAt": "2025-02-12T16:54:10.778089+00:00",
+      "id": "21a21f0d-a243-4f6d-a24e-dc070bfc4254",
+      "name": "cario",
+      "createdAt": "2025-02-12T15:56:15.930001+00:00",
       "totalForms": 17,
-      "activeForms": 1,
-      "inactiveForms": 16,
+      "activeForms": 0,
+      "inactiveForms": 17,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 14
+      "submissions": 0
     },
     {
       "id": "47dee2e4-0fc3-4830-906b-a1beb716f09e",
@@ -2598,15 +2598,15 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 3
+      "submissions": 0
     },
     {
-      "id": "21a21f0d-a243-4f6d-a24e-dc070bfc4254",
-      "name": "cario",
-      "createdAt": "2025-02-12T15:56:15.930001+00:00",
+      "id": "9b693915-28be-4388-92ee-3ae5266d0b28",
+      "name": "vmbulldogs",
+      "createdAt": "2025-02-12T16:54:10.778089+00:00",
       "totalForms": 17,
-      "activeForms": 0,
-      "inactiveForms": 17,
+      "activeForms": 1,
+      "inactiveForms": 16,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -2640,19 +2640,6 @@
       "submissions": 0
     },
     {
-      "id": "2d31ab31-e1cb-48d3-bac2-0f5ca169783d",
-      "name": "wcsdk12",
-      "createdAt": "2025-02-12T16:55:24.736748+00:00",
-      "totalForms": 16,
-      "activeForms": 16,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 8
-    },
-    {
       "id": "cbc37cef-401d-4869-9a47-cb5a12d823ad",
       "name": "spencerport",
       "createdAt": "2025-02-12T16:45:29.323470+00:00",
@@ -2663,7 +2650,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 1
+      "submissions": 0
+    },
+    {
+      "id": "2d31ab31-e1cb-48d3-bac2-0f5ca169783d",
+      "name": "wcsdk12",
+      "createdAt": "2025-02-12T16:55:24.736748+00:00",
+      "totalForms": 16,
+      "activeForms": 16,
+      "inactiveForms": 0,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
     },
     {
       "id": "31d17ffa-74a4-43d9-9d20-965fa6f57172",
@@ -2676,20 +2676,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 57
-    },
-    {
-      "id": "3ce81231-17d6-4ad6-a841-61be8b790701",
-      "name": "nicolet",
-      "createdAt": "2025-02-12T16:31:00.938033+00:00",
-      "totalForms": 15,
-      "activeForms": 1,
-      "inactiveForms": 14,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 10
+      "submissions": 4
     },
     {
       "id": "ef80623a-3f58-4980-a12d-6621fc8034ce",
@@ -2757,6 +2744,19 @@
       "submissions": 0
     },
     {
+      "id": "3ce81231-17d6-4ad6-a841-61be8b790701",
+      "name": "nicolet",
+      "createdAt": "2025-02-12T16:31:00.938033+00:00",
+      "totalForms": 15,
+      "activeForms": 1,
+      "inactiveForms": 14,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "5b2f52fd-e48e-476a-8ffd-cb282f9d32f5",
       "name": "wisd",
       "createdAt": "2025-02-12T16:57:37.615197+00:00",
@@ -2780,7 +2780,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 2,
-      "submissions": 139
+      "submissions": 16
     },
     {
       "id": "3fc62e5f-d43f-4c48-b67b-46fa7fb71660",
@@ -2848,19 +2848,6 @@
       "submissions": 0
     },
     {
-      "id": "da9858b3-a021-425d-84af-9f7d55435562",
-      "name": "sab",
-      "createdAt": "2025-02-12T16:40:25.218478+00:00",
-      "totalForms": 13,
-      "activeForms": 2,
-      "inactiveForms": 11,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 288
-    },
-    {
       "id": "d06fda8f-43bc-4c78-96be-64990ef034c3",
       "name": "cheathamcountyschools",
       "createdAt": "2025-02-12T15:58:34.610133+00:00",
@@ -2871,7 +2858,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 58
+      "submissions": 7
+    },
+    {
+      "id": "da9858b3-a021-425d-84af-9f7d55435562",
+      "name": "sab",
+      "createdAt": "2025-02-12T16:40:25.218478+00:00",
+      "totalForms": 13,
+      "activeForms": 2,
+      "inactiveForms": 11,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 2
     },
     {
       "id": "e42d9430-26d9-40fe-acee-cf2fbf1bea43",
@@ -2884,7 +2884,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 11
+      "submissions": 0
+    },
+    {
+      "id": "2ef48686-1286-4105-84cb-419bb3af7918",
+      "name": "arlington",
+      "createdAt": "2025-02-10T16:04:43.242344+00:00",
+      "totalForms": 13,
+      "activeForms": 0,
+      "inactiveForms": 13,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
     },
     {
       "id": "47559754-8c1b-4192-be01-c58c4ac482e4",
@@ -2897,15 +2910,15 @@
       "formsWithPayments": 0,
       "formsWithESignature": 1,
       "formsWithUpload": 0,
-      "submissions": 1
+      "submissions": 0
     },
     {
-      "id": "2ef48686-1286-4105-84cb-419bb3af7918",
-      "name": "arlington",
-      "createdAt": "2025-02-10T16:04:43.242344+00:00",
+      "id": "493564f3-e64c-4818-8497-74c7675d9d23",
+      "name": "go2rose",
+      "createdAt": "2025-02-12T16:12:09.087756+00:00",
       "totalForms": 13,
-      "activeForms": 0,
-      "inactiveForms": 13,
+      "activeForms": 12,
+      "inactiveForms": 1,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -2962,7 +2975,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 315
+      "submissions": 13
     },
     {
       "id": "53bfe640-8294-4918-85cf-95cdf88f50f0",
@@ -2975,20 +2988,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 8
+      "submissions": 3
     },
     {
       "id": "55055ef8-5f36-4557-bb0c-fb06c429a60f",
       "name": "cabot",
       "createdAt": "2025-02-12T15:55:29.434713+00:00",
       "totalForms": 12,
-      "activeForms": 2,
-      "inactiveForms": 10,
+      "activeForms": 1,
+      "inactiveForms": 11,
       "multiStepForms": 1,
       "formsWithPayments": 0,
       "formsWithESignature": 1,
       "formsWithUpload": 0,
-      "submissions": 5
+      "submissions": 0
     },
     {
       "id": "0474b24a-3dfb-4a20-b465-1d5c75cff387",
@@ -3001,7 +3014,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 5
+      "submissions": 0
     },
     {
       "id": "38919215-27b1-44fd-a81d-69fbd6424e8f",
@@ -3028,32 +3041,6 @@
       "formsWithESignature": 0,
       "formsWithUpload": 0,
       "submissions": 0
-    },
-    {
-      "id": "ab27c0aa-58d1-4ef6-993a-08322f0420da",
-      "name": "pawneecityschool",
-      "createdAt": "2025-02-12T16:34:01.795961+00:00",
-      "totalForms": 11,
-      "activeForms": 10,
-      "inactiveForms": 1,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 8
-    },
-    {
-      "id": "ae24a74d-077a-465a-b0ea-a601d484681a",
-      "name": "holyghostlutheran",
-      "createdAt": "2025-10-02T19:37:53.449870+00:00",
-      "totalForms": 11,
-      "activeForms": 5,
-      "inactiveForms": 6,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 4
     },
     {
       "id": "81b56011-2464-40f8-a904-02dc1a65ec6c",
@@ -3088,6 +3075,19 @@
       "totalForms": 11,
       "activeForms": 0,
       "inactiveForms": 11,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "ae24a74d-077a-465a-b0ea-a601d484681a",
+      "name": "holyghostlutheran",
+      "createdAt": "2025-10-02T19:37:53.449870+00:00",
+      "totalForms": 11,
+      "activeForms": 5,
+      "inactiveForms": 6,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -3134,6 +3134,19 @@
       "submissions": 0
     },
     {
+      "id": "ab27c0aa-58d1-4ef6-993a-08322f0420da",
+      "name": "pawneecityschool",
+      "createdAt": "2025-02-12T16:34:01.795961+00:00",
+      "totalForms": 11,
+      "activeForms": 10,
+      "inactiveForms": 1,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "f5b2a6be-d7b0-49f9-a07a-efbc34d78705",
       "name": "usd470",
       "createdAt": "2025-02-12T16:53:07.258324+00:00",
@@ -3170,20 +3183,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 22
-    },
-    {
-      "id": "f77aa380-a251-4410-afa1-3e62f2786377",
-      "name": "homeoftheshamrocks",
-      "createdAt": "2025-02-12T16:15:30.571456+00:00",
-      "totalForms": 10,
-      "activeForms": 5,
-      "inactiveForms": 5,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 4
+      "submissions": 2
     },
     {
       "id": "d02208de-37a9-4d77-a9f5-d7f8d49b1c66",
@@ -3192,19 +3192,6 @@
       "totalForms": 10,
       "activeForms": 3,
       "inactiveForms": 7,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 2
-    },
-    {
-      "id": "0847f223-0416-4b86-acea-b26491522cb6",
-      "name": "miramonte",
-      "createdAt": "2025-02-12T16:27:23.122477+00:00",
-      "totalForms": 10,
-      "activeForms": 6,
-      "inactiveForms": 4,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -3251,6 +3238,19 @@
       "submissions": 0
     },
     {
+      "id": "f77aa380-a251-4410-afa1-3e62f2786377",
+      "name": "homeoftheshamrocks",
+      "createdAt": "2025-02-12T16:15:30.571456+00:00",
+      "totalForms": 10,
+      "activeForms": 5,
+      "inactiveForms": 5,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "f1fb2e26-6a21-441c-b082-302cc69cd5c4",
       "name": "lincolnshire",
       "createdAt": "2025-02-12T16:23:02.231241+00:00",
@@ -3270,6 +3270,19 @@
       "totalForms": 10,
       "activeForms": 1,
       "inactiveForms": 9,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "0847f223-0416-4b86-acea-b26491522cb6",
+      "name": "miramonte",
+      "createdAt": "2025-02-12T16:27:23.122477+00:00",
+      "totalForms": 10,
+      "activeForms": 6,
+      "inactiveForms": 4,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -3300,7 +3313,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 218
+      "submissions": 16
+    },
+    {
+      "id": "afa940e1-0827-4262-abf9-78f329646964",
+      "name": "wlcsd",
+      "createdAt": "2025-02-12T16:57:52.022996+00:00",
+      "totalForms": 9,
+      "activeForms": 2,
+      "inactiveForms": 7,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 7
     },
     {
       "id": "cb0cef8c-ecae-45e3-8c38-1df9d2e60ddf",
@@ -3313,7 +3339,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 74
+      "submissions": 1
     },
     {
       "id": "a81f695e-117f-415f-b842-1c0c167a304d",
@@ -3326,20 +3352,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 15
-    },
-    {
-      "id": "d484e495-c99a-46e9-ab5b-19ae90803ed0",
-      "name": "bayfieldk12co",
-      "createdAt": "2025-02-10T16:06:41.465913+00:00",
-      "totalForms": 9,
-      "activeForms": 5,
-      "inactiveForms": 4,
-      "multiStepForms": 1,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 10
+      "submissions": 0
     },
     {
       "id": "ba563211-cb0a-46d2-972b-82594cd6dbf4",
@@ -3351,6 +3364,19 @@
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 5,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "d484e495-c99a-46e9-ab5b-19ae90803ed0",
+      "name": "bayfieldk12co",
+      "createdAt": "2025-02-10T16:06:41.465913+00:00",
+      "totalForms": 9,
+      "activeForms": 5,
+      "inactiveForms": 4,
+      "multiStepForms": 1,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
       "formsWithUpload": 0,
       "submissions": 0
     },
@@ -3385,8 +3411,8 @@
       "name": "holycrossgb",
       "createdAt": "2025-08-07T14:44:56.189291+00:00",
       "totalForms": 9,
-      "activeForms": 3,
-      "inactiveForms": 6,
+      "activeForms": 1,
+      "inactiveForms": 8,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -3456,20 +3482,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 204
-    },
-    {
-      "id": "afa940e1-0827-4262-abf9-78f329646964",
-      "name": "wlcsd",
-      "createdAt": "2025-02-12T16:57:52.022996+00:00",
-      "totalForms": 8,
-      "activeForms": 1,
-      "inactiveForms": 7,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 40
+      "submissions": 17
     },
     {
       "id": "6fbf68ab-c7fd-4cfd-9b1d-fb2f2e02737d",
@@ -3482,46 +3495,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 18
-    },
-    {
-      "id": "f38a4af1-071d-4165-a123-ba27c9beb2b6",
-      "name": "rosefield",
-      "createdAt": "2025-02-12T16:39:51.398477+00:00",
-      "totalForms": 8,
-      "activeForms": 3,
-      "inactiveForms": 5,
-      "multiStepForms": 2,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 3
-    },
-    {
-      "id": "950449f9-60a9-4d96-b977-af8474b1fc9e",
-      "name": "kimsdemo",
-      "createdAt": "2025-10-24T12:59:09.715639+00:00",
-      "totalForms": 8,
-      "activeForms": 5,
-      "inactiveForms": 3,
-      "multiStepForms": 3,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
       "submissions": 2
-    },
-    {
-      "id": "27e72374-6486-4a70-91c3-81e953a24133",
-      "name": "thefranklinacademy",
-      "createdAt": "2025-02-12T16:49:06.174168+00:00",
-      "totalForms": 8,
-      "activeForms": 5,
-      "inactiveForms": 3,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 1
     },
     {
       "id": "13f6a823-291d-4313-adeb-04a50f3dcf77",
@@ -3563,9 +3537,48 @@
       "submissions": 0
     },
     {
+      "id": "950449f9-60a9-4d96-b977-af8474b1fc9e",
+      "name": "kimsdemo",
+      "createdAt": "2025-10-24T12:59:09.715639+00:00",
+      "totalForms": 8,
+      "activeForms": 5,
+      "inactiveForms": 3,
+      "multiStepForms": 3,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "a955fbcf-1444-4822-b528-dc9238b80ea9",
       "name": "mvr3",
       "createdAt": "2025-02-12T16:29:27.987932+00:00",
+      "totalForms": 8,
+      "activeForms": 5,
+      "inactiveForms": 3,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "f38a4af1-071d-4165-a123-ba27c9beb2b6",
+      "name": "rosefield",
+      "createdAt": "2025-02-12T16:39:51.398477+00:00",
+      "totalForms": 8,
+      "activeForms": 3,
+      "inactiveForms": 5,
+      "multiStepForms": 2,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "27e72374-6486-4a70-91c3-81e953a24133",
+      "name": "thefranklinacademy",
+      "createdAt": "2025-02-12T16:49:06.174168+00:00",
       "totalForms": 8,
       "activeForms": 5,
       "inactiveForms": 3,
@@ -3586,46 +3599,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 78
-    },
-    {
-      "id": "efeca35d-5c85-4163-8af4-8079676afc03",
-      "name": "lpjusd",
-      "createdAt": "2025-02-12T16:24:03.439003+00:00",
-      "totalForms": 7,
-      "activeForms": 1,
-      "inactiveForms": 6,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 51
-    },
-    {
-      "id": "1c47f49c-0601-4c11-80fd-83acd8c1a130",
-      "name": "platteville",
-      "createdAt": "2025-02-12T16:36:26.076729+00:00",
-      "totalForms": 7,
-      "activeForms": 2,
-      "inactiveForms": 5,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 37
-    },
-    {
-      "id": "06d8a79c-5006-4e28-a57a-569d1cf6c558",
-      "name": "philadelphiaperformingarts",
-      "createdAt": "2025-02-12T16:35:29.690381+00:00",
-      "totalForms": 7,
-      "activeForms": 1,
-      "inactiveForms": 6,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 13
+      "submissions": 3
     },
     {
       "id": "0ea36b0e-0bab-4e24-b54c-cc825e8fe1cc",
@@ -3706,12 +3680,51 @@
       "submissions": 0
     },
     {
+      "id": "efeca35d-5c85-4163-8af4-8079676afc03",
+      "name": "lpjusd",
+      "createdAt": "2025-02-12T16:24:03.439003+00:00",
+      "totalForms": 7,
+      "activeForms": 1,
+      "inactiveForms": 6,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "b73751dd-75b2-43c1-bc78-32b1f4bd9858",
       "name": "meridiantechnicalcharter",
       "createdAt": "2025-02-12T16:26:29.133976+00:00",
       "totalForms": 7,
       "activeForms": 0,
       "inactiveForms": 7,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "06d8a79c-5006-4e28-a57a-569d1cf6c558",
+      "name": "philadelphiaperformingarts",
+      "createdAt": "2025-02-12T16:35:29.690381+00:00",
+      "totalForms": 7,
+      "activeForms": 1,
+      "inactiveForms": 6,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "1c47f49c-0601-4c11-80fd-83acd8c1a130",
+      "name": "platteville",
+      "createdAt": "2025-02-12T16:36:26.076729+00:00",
+      "totalForms": 7,
+      "activeForms": 2,
+      "inactiveForms": 5,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -3729,46 +3742,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 0,
-      "submissions": 707
+      "submissions": 71
     },
     {
-      "id": "af7c728b-6dcd-4d3c-88f7-e3e4c5b3ca49",
-      "name": "milton",
-      "createdAt": "2025-02-12T16:27:10.635481+00:00",
+      "id": "442bfffb-4847-45b3-a028-aac8be04e377",
+      "name": "sjredwings",
+      "createdAt": "2025-02-12T16:44:13.652773+00:00",
       "totalForms": 6,
-      "activeForms": 3,
-      "inactiveForms": 3,
+      "activeForms": 6,
+      "inactiveForms": 0,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 77
-    },
-    {
-      "id": "aa45725e-42e4-4253-adeb-ebd697680303",
-      "name": "ltisd",
-      "createdAt": "2025-02-12T16:24:13.505004+00:00",
-      "totalForms": 6,
-      "activeForms": 2,
-      "inactiveForms": 4,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 17
-    },
-    {
-      "id": "e68cb1a5-43ed-4d73-be68-1bca80ae3891",
-      "name": "d124",
-      "createdAt": "2025-02-12T16:03:03.698363+00:00",
-      "totalForms": 6,
-      "activeForms": 0,
-      "inactiveForms": 6,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 3
+      "submissions": 2
     },
     {
       "id": "8ad76b61-2593-4dbb-be10-9d5bf3d3d2c6",
@@ -3810,6 +3797,19 @@
       "submissions": 0
     },
     {
+      "id": "e68cb1a5-43ed-4d73-be68-1bca80ae3891",
+      "name": "d124",
+      "createdAt": "2025-02-12T16:03:03.698363+00:00",
+      "totalForms": 6,
+      "activeForms": 0,
+      "inactiveForms": 6,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "7a45cbd2-b3f7-4f79-a9f8-ad0ec69a4a7b",
       "name": "egcsd",
       "createdAt": "2025-02-12T16:07:11.071361+00:00",
@@ -3839,6 +3839,32 @@
       "id": "f9e2038a-cc42-48c6-ba35-b66db345cc15",
       "name": "kpbsd",
       "createdAt": "2025-02-12T16:20:01.298953+00:00",
+      "totalForms": 6,
+      "activeForms": 2,
+      "inactiveForms": 4,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "aa45725e-42e4-4253-adeb-ebd697680303",
+      "name": "ltisd",
+      "createdAt": "2025-02-12T16:24:13.505004+00:00",
+      "totalForms": 6,
+      "activeForms": 0,
+      "inactiveForms": 6,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "af7c728b-6dcd-4d3c-88f7-e3e4c5b3ca49",
+      "name": "milton",
+      "createdAt": "2025-02-12T16:27:10.635481+00:00",
       "totalForms": 6,
       "activeForms": 2,
       "inactiveForms": 4,
@@ -3901,45 +3927,6 @@
       "submissions": 0
     },
     {
-      "id": "442bfffb-4847-45b3-a028-aac8be04e377",
-      "name": "sjredwings",
-      "createdAt": "2025-02-12T16:44:13.652773+00:00",
-      "totalForms": 6,
-      "activeForms": 6,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 0
-    },
-    {
-      "id": "4ffba586-b405-4862-b3cd-6e39385f9566",
-      "name": "mauryk12",
-      "createdAt": "2025-02-12T16:25:49.649666+00:00",
-      "totalForms": 5,
-      "activeForms": 2,
-      "inactiveForms": 3,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 31
-    },
-    {
-      "id": "513f5654-5cc9-4192-9c6e-c8be76a6a5e0",
-      "name": "eths",
-      "createdAt": "2025-02-12T16:08:15.038113+00:00",
-      "totalForms": 5,
-      "activeForms": 2,
-      "inactiveForms": 3,
-      "multiStepForms": 2,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 25
-    },
-    {
       "id": "4c1fb7ab-33f2-4b8d-b9ca-173f6a3b8842",
       "name": "brightonschools",
       "createdAt": "2025-02-12T15:54:15.049745+00:00",
@@ -3950,59 +3937,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 14
+      "submissions": 231
     },
     {
-      "id": "8c69f043-96cd-436c-b130-0d3892a34be9",
-      "name": "michigancollegiate",
-      "createdAt": "2025-02-12T16:26:50.753376+00:00",
+      "id": "26197880-a711-4c2a-8bcc-9b17ff1dd546",
+      "name": "wrightstown",
+      "createdAt": "2025-02-12T16:58:21.466500+00:00",
       "totalForms": 5,
-      "activeForms": 2,
-      "inactiveForms": 3,
-      "multiStepForms": 2,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 7
-    },
-    {
-      "id": "661ab70c-6791-42a4-9bd1-477fcf6cc47b",
-      "name": "sheldonisd",
-      "createdAt": "2025-02-12T16:43:28.633250+00:00",
-      "totalForms": 5,
-      "activeForms": 3,
-      "inactiveForms": 2,
-      "multiStepForms": 1,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 5
-    },
-    {
-      "id": "05805404-1ced-4bd9-85e0-9391e7502fda",
-      "name": "ennislions",
-      "createdAt": "2025-02-12T16:07:51.355567+00:00",
-      "totalForms": 5,
-      "activeForms": 1,
-      "inactiveForms": 4,
+      "activeForms": 4,
+      "inactiveForms": 1,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 2
-    },
-    {
-      "id": "29a4d8af-c141-4e18-abda-01f963860a6b",
-      "name": "cavaacademy",
-      "createdAt": "2025-02-12T15:56:56.746928+00:00",
-      "totalForms": 5,
-      "activeForms": 5,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 1
+      "submissions": 4
     },
     {
       "id": "4956e46c-6740-4706-9b1a-99d1942ee32f",
@@ -4011,6 +3959,19 @@
       "totalForms": 5,
       "activeForms": 1,
       "inactiveForms": 4,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "29a4d8af-c141-4e18-abda-01f963860a6b",
+      "name": "cavaacademy",
+      "createdAt": "2025-02-12T15:56:56.746928+00:00",
+      "totalForms": 5,
+      "activeForms": 5,
+      "inactiveForms": 0,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -4031,13 +3992,26 @@
       "submissions": 0
     },
     {
-      "id": "493564f3-e64c-4818-8497-74c7675d9d23",
-      "name": "go2rose",
-      "createdAt": "2025-02-12T16:12:09.087756+00:00",
+      "id": "05805404-1ced-4bd9-85e0-9391e7502fda",
+      "name": "ennislions",
+      "createdAt": "2025-02-12T16:07:51.355567+00:00",
       "totalForms": 5,
-      "activeForms": 5,
-      "inactiveForms": 0,
+      "activeForms": 1,
+      "inactiveForms": 4,
       "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "513f5654-5cc9-4192-9c6e-c8be76a6a5e0",
+      "name": "eths",
+      "createdAt": "2025-02-12T16:08:15.038113+00:00",
+      "totalForms": 5,
+      "activeForms": 2,
+      "inactiveForms": 3,
+      "multiStepForms": 2,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
@@ -4096,6 +4070,19 @@
       "submissions": 0
     },
     {
+      "id": "4ffba586-b405-4862-b3cd-6e39385f9566",
+      "name": "mauryk12",
+      "createdAt": "2025-02-12T16:25:49.649666+00:00",
+      "totalForms": 5,
+      "activeForms": 2,
+      "inactiveForms": 3,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "c243594d-7abf-41c0-b354-60d13d729b92",
       "name": "mckinneyisd",
       "createdAt": "2025-02-12T16:26:07.898082+00:00",
@@ -4103,6 +4090,19 @@
       "activeForms": 0,
       "inactiveForms": 5,
       "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "8c69f043-96cd-436c-b130-0d3892a34be9",
+      "name": "michigancollegiate",
+      "createdAt": "2025-02-12T16:26:50.753376+00:00",
+      "totalForms": 5,
+      "activeForms": 2,
+      "inactiveForms": 3,
+      "multiStepForms": 2,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
@@ -4148,6 +4148,19 @@
       "submissions": 0
     },
     {
+      "id": "661ab70c-6791-42a4-9bd1-477fcf6cc47b",
+      "name": "sheldonisd",
+      "createdAt": "2025-02-12T16:43:28.633250+00:00",
+      "totalForms": 5,
+      "activeForms": 2,
+      "inactiveForms": 3,
+      "multiStepForms": 1,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "ab59b99e-52ef-4e9e-a358-6def1a510b63",
       "name": "washington",
       "createdAt": "2025-02-12T16:54:50.134047+00:00",
@@ -4161,19 +4174,6 @@
       "submissions": 0
     },
     {
-      "id": "04e42922-0340-46fb-8b5a-081a8bb1647c",
-      "name": "PTHS",
-      "createdAt": "2026-02-26T18:14:33.270944+00:00",
-      "totalForms": 4,
-      "activeForms": 0,
-      "inactiveForms": 4,
-      "multiStepForms": 3,
-      "formsWithPayments": 0,
-      "formsWithESignature": 2,
-      "formsWithUpload": 1,
-      "submissions": 1103
-    },
-    {
       "id": "2d406f94-84be-4e98-9e90-da505b4e99a0",
       "name": "nred",
       "createdAt": "2025-02-12T16:32:06.426125+00:00",
@@ -4184,7 +4184,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 265
+      "submissions": 3
     },
     {
       "id": "75c2a83a-b920-4b55-ac12-ee7723927ed6",
@@ -4197,59 +4197,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 54
-    },
-    {
-      "id": "26197880-a711-4c2a-8bcc-9b17ff1dd546",
-      "name": "wrightstown",
-      "createdAt": "2025-02-12T16:58:21.466500+00:00",
-      "totalForms": 4,
-      "activeForms": 3,
-      "inactiveForms": 1,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 35
-    },
-    {
-      "id": "6d83a51b-50d5-43a4-ac4d-5474d9ba2732",
-      "name": "montessoricommunityschool",
-      "createdAt": "2025-02-12T16:27:53.964467+00:00",
-      "totalForms": 4,
-      "activeForms": 3,
-      "inactiveForms": 1,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 13
-    },
-    {
-      "id": "23fcb97c-3b23-46fe-87ce-f2fb1a34992a",
-      "name": "fairlawnschools",
-      "createdAt": "2026-03-24T18:50:25.132129+00:00",
-      "totalForms": 4,
-      "activeForms": 1,
-      "inactiveForms": 3,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 1,
       "submissions": 2
-    },
-    {
-      "id": "c7439717-4e9d-48c4-9527-9dea914afbc9",
-      "name": "carterchristianacademy",
-      "createdAt": "2025-09-15T18:31:16.631220+00:00",
-      "totalForms": 4,
-      "activeForms": 2,
-      "inactiveForms": 2,
-      "multiStepForms": 1,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 1
     },
     {
       "id": "62228f10-650a-4cb5-abf2-4cc3b582185a",
@@ -4259,6 +4207,19 @@
       "activeForms": 0,
       "inactiveForms": 4,
       "multiStepForms": 4,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "c7439717-4e9d-48c4-9527-9dea914afbc9",
+      "name": "carterchristianacademy",
+      "createdAt": "2025-09-15T18:31:16.631220+00:00",
+      "totalForms": 4,
+      "activeForms": 2,
+      "inactiveForms": 2,
+      "multiStepForms": 1,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
@@ -4288,6 +4249,19 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "23fcb97c-3b23-46fe-87ce-f2fb1a34992a",
+      "name": "fairlawnschools",
+      "createdAt": "2026-03-24T18:50:25.132129+00:00",
+      "totalForms": 4,
+      "activeForms": 1,
+      "inactiveForms": 3,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 1,
       "submissions": 0
     },
     {
@@ -4369,6 +4343,19 @@
       "submissions": 0
     },
     {
+      "id": "6d83a51b-50d5-43a4-ac4d-5474d9ba2732",
+      "name": "montessoricommunityschool",
+      "createdAt": "2025-02-12T16:27:53.964467+00:00",
+      "totalForms": 4,
+      "activeForms": 3,
+      "inactiveForms": 1,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "59fc2ece-c877-4fd5-babd-46226eae933b",
       "name": "myrgcgisd",
       "createdAt": "2025-06-04T18:19:34.315829+00:00",
@@ -4405,6 +4392,19 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "04e42922-0340-46fb-8b5a-081a8bb1647c",
+      "name": "PTHS",
+      "createdAt": "2026-02-26T18:14:33.270944+00:00",
+      "totalForms": 4,
+      "activeForms": 0,
+      "inactiveForms": 4,
+      "multiStepForms": 3,
+      "formsWithPayments": 0,
+      "formsWithESignature": 2,
+      "formsWithUpload": 1,
       "submissions": 0
     },
     {
@@ -4470,111 +4470,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 3,
       "formsWithUpload": 0,
-      "submissions": 106
-    },
-    {
-      "id": "87a002c6-bdc9-4d72-8ca4-9d3b7b9a9e36",
-      "name": "rvcs",
-      "createdAt": "2025-02-12T16:40:21.467050+00:00",
-      "totalForms": 3,
-      "activeForms": 0,
-      "inactiveForms": 3,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 52
-    },
-    {
-      "id": "1ab3745d-df61-4f8e-b8d0-c557fd4f2207",
-      "name": "apisd",
-      "createdAt": "2025-02-10T16:04:27.796574+00:00",
-      "totalForms": 3,
-      "activeForms": 0,
-      "inactiveForms": 3,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 45
-    },
-    {
-      "id": "78788d9b-e280-446c-898d-7e559261ef75",
-      "name": "nausetschools",
-      "createdAt": "2025-02-12T16:29:56.462147+00:00",
-      "totalForms": 3,
-      "activeForms": 3,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 28
-    },
-    {
-      "id": "1f3570f2-4ad5-4c16-b8e3-93b65c910b65",
-      "name": "bachoirstore",
-      "createdAt": "2025-02-10T16:05:53.215560+00:00",
-      "totalForms": 3,
-      "activeForms": 2,
-      "inactiveForms": 1,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 6
-    },
-    {
-      "id": "72ba02d0-d737-4842-996d-423a45cd6400",
-      "name": "smsdpa",
-      "createdAt": "2025-05-02T17:21:48.657398+00:00",
-      "totalForms": 3,
-      "activeForms": 3,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 2
-    },
-    {
-      "id": "0c4467e4-b2f3-4eee-bfea-284665ecfb8b",
-      "name": "gpsbulldogs",
-      "createdAt": "2025-05-02T14:36:41.792066+00:00",
-      "totalForms": 3,
-      "activeForms": 1,
-      "inactiveForms": 2,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 1
-    },
-    {
-      "id": "3663f3bf-fa9c-41a3-9aa7-f8097fac3f13",
-      "name": "lcmschools",
-      "createdAt": "2025-02-12T16:21:50.827006+00:00",
-      "totalForms": 3,
-      "activeForms": 2,
-      "inactiveForms": 1,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 1
-    },
-    {
-      "id": "31971de1-997f-48b1-808d-c361fdf06a35",
-      "name": "mcsd",
-      "createdAt": "2025-02-12T16:26:11.554306+00:00",
-      "totalForms": 3,
-      "activeForms": 3,
-      "inactiveForms": 0,
-      "multiStepForms": 1,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 1
+      "submissions": 3
     },
     {
       "id": "384ce57e-6868-41f5-9e31-e1426d6ecca4",
@@ -4587,7 +4483,20 @@
       "formsWithPayments": 0,
       "formsWithESignature": 2,
       "formsWithUpload": 0,
-      "submissions": 1
+      "submissions": 2
+    },
+    {
+      "id": "f9afacfc-7ad8-4b41-84b5-5bc52fd1a327",
+      "name": "umasd",
+      "createdAt": "2025-02-12T16:50:46.505619+00:00",
+      "totalForms": 3,
+      "activeForms": 3,
+      "inactiveForms": 0,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 2
     },
     {
       "id": "f81fb5f9-b430-470d-b22c-4710649b391c",
@@ -4603,9 +4512,35 @@
       "submissions": 0
     },
     {
+      "id": "1ab3745d-df61-4f8e-b8d0-c557fd4f2207",
+      "name": "apisd",
+      "createdAt": "2025-02-10T16:04:27.796574+00:00",
+      "totalForms": 3,
+      "activeForms": 0,
+      "inactiveForms": 3,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "86c6dc45-ace5-4d73-9c92-b7173925f0e1",
       "name": "avongrove",
       "createdAt": "2025-02-10T16:05:41.387425+00:00",
+      "totalForms": 3,
+      "activeForms": 2,
+      "inactiveForms": 1,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "1f3570f2-4ad5-4c16-b8e3-93b65c910b65",
+      "name": "bachoirstore",
+      "createdAt": "2025-02-10T16:05:53.215560+00:00",
       "totalForms": 3,
       "activeForms": 2,
       "inactiveForms": 1,
@@ -4681,6 +4616,19 @@
       "submissions": 0
     },
     {
+      "id": "0c4467e4-b2f3-4eee-bfea-284665ecfb8b",
+      "name": "gpsbulldogs",
+      "createdAt": "2025-05-02T14:36:41.792066+00:00",
+      "totalForms": 3,
+      "activeForms": 1,
+      "inactiveForms": 2,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "bf75287c-0f31-433c-9b87-cb9a87c7c513",
       "name": "hawthorn73",
       "createdAt": "2025-02-12T16:14:01.088488+00:00",
@@ -4733,6 +4681,19 @@
       "submissions": 0
     },
     {
+      "id": "3663f3bf-fa9c-41a3-9aa7-f8097fac3f13",
+      "name": "lcmschools",
+      "createdAt": "2025-02-12T16:21:50.827006+00:00",
+      "totalForms": 3,
+      "activeForms": 2,
+      "inactiveForms": 1,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "3c7f9bb6-a0ee-4727-870d-35ecd4a177ff",
       "name": "lone-tree",
       "createdAt": "2025-02-12T16:23:34.322897+00:00",
@@ -4740,6 +4701,19 @@
       "activeForms": 1,
       "inactiveForms": 2,
       "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "31971de1-997f-48b1-808d-c361fdf06a35",
+      "name": "mcsd",
+      "createdAt": "2025-02-12T16:26:11.554306+00:00",
+      "totalForms": 3,
+      "activeForms": 3,
+      "inactiveForms": 0,
+      "multiStepForms": 1,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
@@ -4766,6 +4740,19 @@
       "activeForms": 2,
       "inactiveForms": 1,
       "multiStepForms": 1,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "78788d9b-e280-446c-898d-7e559261ef75",
+      "name": "nausetschools",
+      "createdAt": "2025-02-12T16:29:56.462147+00:00",
+      "totalForms": 3,
+      "activeForms": 3,
+      "inactiveForms": 0,
+      "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
@@ -4850,6 +4837,19 @@
       "submissions": 0
     },
     {
+      "id": "87a002c6-bdc9-4d72-8ca4-9d3b7b9a9e36",
+      "name": "rvcs",
+      "createdAt": "2025-02-12T16:40:21.467050+00:00",
+      "totalForms": 3,
+      "activeForms": 0,
+      "inactiveForms": 3,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "1480b000-9c88-465a-b786-614206e93706",
       "name": "skokie735",
       "createdAt": "2025-02-12T16:44:21.005875+00:00",
@@ -4857,6 +4857,19 @@
       "activeForms": 0,
       "inactiveForms": 3,
       "multiStepForms": 2,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "72ba02d0-d737-4842-996d-423a45cd6400",
+      "name": "smsdpa",
+      "createdAt": "2025-05-02T17:21:48.657398+00:00",
+      "totalForms": 3,
+      "activeForms": 3,
+      "inactiveForms": 0,
+      "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
@@ -4889,32 +4902,6 @@
       "submissions": 0
     },
     {
-      "id": "f9afacfc-7ad8-4b41-84b5-5bc52fd1a327",
-      "name": "umasd",
-      "createdAt": "2025-02-12T16:50:46.505619+00:00",
-      "totalForms": 3,
-      "activeForms": 3,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 0
-    },
-    {
-      "id": "6a5de662-e9aa-4a24-9b63-ae879e266a86",
-      "name": "casdonline",
-      "createdAt": "2025-02-12T15:56:45.336472+00:00",
-      "totalForms": 2,
-      "activeForms": 2,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 137
-    },
-    {
       "id": "c6feafee-1113-4859-bceb-a11a95a91848",
       "name": "wisp",
       "createdAt": "2025-02-12T16:57:39.473516+00:00",
@@ -4925,46 +4912,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 37
-    },
-    {
-      "id": "8dc0f7aa-2d15-4fc4-950a-847639819ace",
-      "name": "bemidji",
-      "createdAt": "2025-02-12T15:52:20.019784+00:00",
-      "totalForms": 2,
-      "activeForms": 2,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 20
-    },
-    {
-      "id": "53e927f6-2203-4244-ad38-0a4dc54baa7d",
-      "name": "yesprep",
-      "createdAt": "2025-02-12T16:58:55.355781+00:00",
-      "totalForms": 2,
-      "activeForms": 2,
-      "inactiveForms": 0,
-      "multiStepForms": 1,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 1,
-      "submissions": 8
-    },
-    {
-      "id": "c6957706-a81c-469e-b0bc-3b54a308b664",
-      "name": "dupage88",
-      "createdAt": "2025-02-12T16:06:02.510235+00:00",
-      "totalForms": 2,
-      "activeForms": 1,
-      "inactiveForms": 1,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 3
+      "submissions": 2
     },
     {
       "id": "44c7976c-894f-4c4a-bd4e-7c4618304862",
@@ -4980,6 +4928,32 @@
       "submissions": 0
     },
     {
+      "id": "8dc0f7aa-2d15-4fc4-950a-847639819ace",
+      "name": "bemidji",
+      "createdAt": "2025-02-12T15:52:20.019784+00:00",
+      "totalForms": 2,
+      "activeForms": 2,
+      "inactiveForms": 0,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "a71615dc-a006-4129-abc8-8d311b41cda0",
+      "name": "bremencs",
+      "createdAt": "2025-02-12T15:54:04.557946+00:00",
+      "totalForms": 2,
+      "activeForms": 1,
+      "inactiveForms": 1,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "d1b42b11-e8b8-4859-bc0c-bb6ae293a986",
       "name": "busd",
       "createdAt": "2025-02-12T15:55:18.770544+00:00",
@@ -4987,6 +4961,19 @@
       "activeForms": 2,
       "inactiveForms": 0,
       "multiStepForms": 1,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "6a5de662-e9aa-4a24-9b63-ae879e266a86",
+      "name": "casdonline",
+      "createdAt": "2025-02-12T15:56:45.336472+00:00",
+      "totalForms": 2,
+      "activeForms": 2,
+      "inactiveForms": 0,
+      "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
@@ -5077,6 +5064,19 @@
       "totalForms": 2,
       "activeForms": 0,
       "inactiveForms": 2,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "c6957706-a81c-469e-b0bc-3b54a308b664",
+      "name": "dupage88",
+      "createdAt": "2025-02-12T16:06:02.510235+00:00",
+      "totalForms": 2,
+      "activeForms": 1,
+      "inactiveForms": 1,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -5448,17 +5448,17 @@
       "submissions": 0
     },
     {
-      "id": "13de914b-5c13-4a58-87fb-565f291f436a",
-      "name": "primaveratech",
-      "createdAt": "2025-02-12T16:37:00.168800+00:00",
-      "totalForms": 1,
-      "activeForms": 0,
-      "inactiveForms": 1,
-      "multiStepForms": 0,
+      "id": "53e927f6-2203-4244-ad38-0a4dc54baa7d",
+      "name": "yesprep",
+      "createdAt": "2025-02-12T16:58:55.355781+00:00",
+      "totalForms": 2,
+      "activeForms": 2,
+      "inactiveForms": 0,
+      "multiStepForms": 1,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 115
+      "formsWithUpload": 1,
+      "submissions": 0
     },
     {
       "id": "d521c6fd-82fa-47c5-bc3d-d68c61a22fc1",
@@ -5471,7 +5471,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 60
+      "submissions": 9
     },
     {
       "id": "a46008b2-bc17-488f-9e8e-b30df63e0619",
@@ -5484,59 +5484,7 @@
       "formsWithPayments": 0,
       "formsWithESignature": 0,
       "formsWithUpload": 0,
-      "submissions": 21
-    },
-    {
-      "id": "a71615dc-a006-4129-abc8-8d311b41cda0",
-      "name": "bremencs",
-      "createdAt": "2025-02-12T15:54:04.557946+00:00",
-      "totalForms": 1,
-      "activeForms": 1,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
       "submissions": 7
-    },
-    {
-      "id": "f60ad7d3-1e62-4297-b4e3-12957e6119fc",
-      "name": "cwctsalisbury",
-      "createdAt": "2025-07-31T14:19:04.551691+00:00",
-      "totalForms": 1,
-      "activeForms": 1,
-      "inactiveForms": 0,
-      "multiStepForms": 1,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 2
-    },
-    {
-      "id": "0e51ffa7-fe39-4a59-ac93-c9f127ec36d8",
-      "name": "ecsolympia",
-      "createdAt": "2026-05-07T19:27:24.862661+00:00",
-      "totalForms": 1,
-      "activeForms": 1,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 1
-    },
-    {
-      "id": "01c2f187-02ea-4c4d-97f8-6043923329ab",
-      "name": "portcharlottemiddleschool",
-      "createdAt": "2026-05-19T16:06:18.132191+00:00",
-      "totalForms": 1,
-      "activeForms": 1,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 1
     },
     {
       "id": "abc38e32-887a-4a74-a983-13d25a30e026",
@@ -5851,6 +5799,19 @@
       "submissions": 0
     },
     {
+      "id": "f60ad7d3-1e62-4297-b4e3-12957e6119fc",
+      "name": "cwctsalisbury",
+      "createdAt": "2025-07-31T14:19:04.551691+00:00",
+      "totalForms": 1,
+      "activeForms": 1,
+      "inactiveForms": 0,
+      "multiStepForms": 1,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "d1c2472b-eff3-4b9c-9f65-9b1ecf6b573e",
       "name": "d230",
       "createdAt": "2025-02-12T16:03:14.996310+00:00",
@@ -5922,6 +5883,19 @@
       "totalForms": 1,
       "activeForms": 0,
       "inactiveForms": 1,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "0e51ffa7-fe39-4a59-ac93-c9f127ec36d8",
+      "name": "ecsolympia",
+      "createdAt": "2026-05-07T19:27:24.862661+00:00",
+      "totalForms": 1,
+      "activeForms": 1,
+      "inactiveForms": 0,
       "multiStepForms": 0,
       "formsWithPayments": 0,
       "formsWithESignature": 0,
@@ -6358,6 +6332,19 @@
       "submissions": 0
     },
     {
+      "id": "1bdbca9d-89a0-433d-a598-5c5309aa32dd",
+      "name": "pittsburgisd",
+      "createdAt": "2025-02-12T16:36:02.288810+00:00",
+      "totalForms": 1,
+      "activeForms": 0,
+      "inactiveForms": 1,
+      "multiStepForms": 1,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "22e5c949-5f3b-4ed1-a0b7-6940c679eb19",
       "name": "portageschools",
       "createdAt": "2025-02-12T16:36:43.228582+00:00",
@@ -6371,9 +6358,35 @@
       "submissions": 0
     },
     {
+      "id": "01c2f187-02ea-4c4d-97f8-6043923329ab",
+      "name": "portcharlottemiddleschool",
+      "createdAt": "2026-05-19T16:06:18.132191+00:00",
+      "totalForms": 1,
+      "activeForms": 1,
+      "inactiveForms": 0,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
       "id": "dfc1b84d-3b01-4ad6-8752-b3673693d5d3",
       "name": "preston",
       "createdAt": "2025-02-12T16:36:54.396534+00:00",
+      "totalForms": 1,
+      "activeForms": 0,
+      "inactiveForms": 1,
+      "multiStepForms": 0,
+      "formsWithPayments": 0,
+      "formsWithESignature": 0,
+      "formsWithUpload": 0,
+      "submissions": 0
+    },
+    {
+      "id": "13de914b-5c13-4a58-87fb-565f291f436a",
+      "name": "primaveratech",
+      "createdAt": "2025-02-12T16:37:00.168800+00:00",
       "totalForms": 1,
       "activeForms": 0,
       "inactiveForms": 1,
@@ -21545,19 +21558,6 @@
       "id": "e1201b7d-5afd-4929-b356-488f6151cacf",
       "name": "piperschools",
       "createdAt": "2025-02-12T16:36:00.043932+00:00",
-      "totalForms": 0,
-      "activeForms": 0,
-      "inactiveForms": 0,
-      "multiStepForms": 0,
-      "formsWithPayments": 0,
-      "formsWithESignature": 0,
-      "formsWithUpload": 0,
-      "submissions": 0
-    },
-    {
-      "id": "1bdbca9d-89a0-433d-a598-5c5309aa32dd",
-      "name": "pittsburgisd",
-      "createdAt": "2025-02-12T16:36:02.288810+00:00",
       "totalForms": 0,
       "activeForms": 0,
       "inactiveForms": 0,

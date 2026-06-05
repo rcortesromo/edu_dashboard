@@ -401,9 +401,9 @@ ASAP,2026-Q1-S6,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q1-S6: 0 S
 ASAP,2026-Q1-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 ASAP,2026-Q1-S6,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 ASAP,2026-Q1-S6,Sev 2 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
-ASAP,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+ASAP,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 3 team members,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 12 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 ASAP,2026-Q2,Defect Leakage %,15.38,percent,Jira,Yes (partial),2026-Q2: 2 sev L1+L2 / (13 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 ASAP,2026-Q2,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 ASAP,2026-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
@@ -412,12 +412,12 @@ ASAP,2026-Q2,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 +
 ASAP,2026-Q2,Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 ASAP,2026-Q2,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 ASAP,2026-Q2,Sev 2 Bugs (Internal),2,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
-ASAP,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S0,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
-ASAP,2026-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+ASAP,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S0,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
+ASAP,2026-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 6 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,3 of 3 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 ASAP,2026-Q2-S1,Defect Leakage %,9.09,percent,Jira,Yes (partial),2026-Q2-S1: 1 sev L1+L2 / (11 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 ASAP,2026-Q2-S1,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 ASAP,2026-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
@@ -426,18 +426,18 @@ ASAP,2026-Q2-S1,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2-S1: 0 S
 ASAP,2026-Q2-S1,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 ASAP,2026-Q2-S1,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 ASAP,2026-Q2-S1,Sev 2 Bugs (Internal),1,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
-ASAP,2026-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
-ASAP,2026-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
-ASAP,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
-ASAP,2026-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-ASAP,2026-Q2-S5,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+ASAP,2026-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 2 active devs in sprint,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
+ASAP,2026-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
+ASAP,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
+ASAP,2026-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 0 active devs in sprint,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 0 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+ASAP,2026-Q2-S5,Cursor Adoption Rate,100.0000,percent,Cursor,automated,1 of 1 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 ASAP,2026-YTD,Defect Leakage %,10.64,percent,Jira,Yes (partial),2026-YTD: 5 sev L1+L2 / (47 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 ASAP,2026-YTD,Sev 1 + Sev 2 Bugs,5,count,Jira,Yes (partial),2026-YTD: 2 Sev 1 + 3 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 ASAP,2026-YTD,Sev 1 Bugs,2,count,Jira,Yes (partial),2026-YTD: 2 Sev 1 + 3 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
@@ -447,10 +447,10 @@ ASAP,2026-YTD,Sev 2 Bugs,3,count,Jira,Yes (partial),2026-YTD: 2 Sev 1 + 3 Sev 2 
 ASAP,2026-YTD,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-YTD: 2 Sev 1 + 3 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 ASAP,2026-YTD,Sev 2 Bugs (Internal),3,count,Jira,Yes (partial),2026-YTD: 2 Sev 1 + 3 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2025-Q1,Actual Cycle Time (weeks),1.63,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
-EDU,2025-Q1,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-06-05T17:15:35.432Z
-EDU,2025-Q1,AI-assisted Pull Request Coverage,1.2270,percent,GitHub,automated,4 of 326 merged PRs had AI signals (portfolio rollup),2026-06-05T17:15:35.432Z
+EDU,2025-Q1,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-06-05T18:45:13.384Z
+EDU,2025-Q1,AI-assisted Pull Request Coverage,1.2270,percent,GitHub,automated,4 of 326 merged PRs had AI signals (portfolio rollup),2026-06-05T18:45:13.384Z
 EDU,2025-Q1,Average Velocity (points per sprint),35.42,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
-EDU,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T17:33:34.517Z
+EDU,2025-Q1,Cursor Adoption Rate,0.0000,percent,Cursor,automated,0 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T18:47:32.172Z
 EDU,2025-Q1,Defect Leakage %,4.6,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 11 sev L1+L2 / (218 bugs + 21 reopened).,2026-06-05T17:14:52.231Z
 EDU,2025-Q1,Flow-based Cycle Time Proxy (weeks),2.01,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2025-Q1,Jira Card Churn %,19.5,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
@@ -465,10 +465,10 @@ EDU,2025-Q1,Sev 2 Bugs,11,count,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 0 
 EDU,2025-Q1,Sev 2 Bugs (External),1,count,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 0 Sev 1 + 11 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2025-Q1,Sev 2 Bugs (Internal),10,count,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 0 Sev 1 + 11 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2025-Q2,Actual Cycle Time (weeks),1.29,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
-EDU,2025-Q2,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-06-05T17:15:35.432Z
-EDU,2025-Q2,AI-assisted Pull Request Coverage,1.9074,percent,GitHub,automated,7 of 367 merged PRs had AI signals (portfolio rollup),2026-06-05T17:15:35.432Z
+EDU,2025-Q2,AI Active Developers,4,count,GitHub,automated,4 of 30 members (portfolio rollup),2026-06-05T18:45:13.384Z
+EDU,2025-Q2,AI-assisted Pull Request Coverage,1.9074,percent,GitHub,automated,7 of 367 merged PRs had AI signals (portfolio rollup),2026-06-05T18:45:13.384Z
 EDU,2025-Q2,Average Velocity (points per sprint),22.74,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
-EDU,2025-Q2,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T17:33:34.517Z
+EDU,2025-Q2,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T18:47:32.172Z
 EDU,2025-Q2,Defect Leakage %,0.87,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 2 sev L1+L2 / (213 bugs + 17 reopened).,2026-06-05T17:14:52.231Z
 EDU,2025-Q2,Flow-based Cycle Time Proxy (weeks),1.85,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2025-Q2,Jira Card Churn %,12.68,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
@@ -483,10 +483,10 @@ EDU,2025-Q2,Sev 2 Bugs,2,count,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 0 S
 EDU,2025-Q2,Sev 2 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2025-Q2,Sev 2 Bugs (Internal),2,count,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2025-Q3,Actual Cycle Time (weeks),1.61,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
-EDU,2025-Q3,AI Active Developers,6,count,GitHub,automated,6 of 30 members (portfolio rollup),2026-06-05T17:15:35.432Z
-EDU,2025-Q3,AI-assisted Pull Request Coverage,2.9940,percent,GitHub,automated,15 of 501 merged PRs had AI signals (portfolio rollup),2026-06-05T17:15:35.432Z
+EDU,2025-Q3,AI Active Developers,6,count,GitHub,automated,6 of 30 members (portfolio rollup),2026-06-05T18:45:13.384Z
+EDU,2025-Q3,AI-assisted Pull Request Coverage,2.9940,percent,GitHub,automated,15 of 501 merged PRs had AI signals (portfolio rollup),2026-06-05T18:45:13.384Z
 EDU,2025-Q3,Average Velocity (points per sprint),28.04,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
-EDU,2025-Q3,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T17:33:34.517Z
+EDU,2025-Q3,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T18:47:32.172Z
 EDU,2025-Q3,Defect Leakage %,10.8,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 42 sev L1+L2 / (370 bugs + 19 reopened).,2026-06-05T17:14:52.231Z
 EDU,2025-Q3,Flow-based Cycle Time Proxy (weeks),1.85,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2025-Q3,Jira Card Churn %,20.7,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
@@ -501,10 +501,10 @@ EDU,2025-Q3,Sev 2 Bugs,41,count,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 1 
 EDU,2025-Q3,Sev 2 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 1 Sev 1 + 41 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2025-Q3,Sev 2 Bugs (Internal),41,count,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 1 Sev 1 + 41 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2025-Q4,Actual Cycle Time (weeks),1.39,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
-EDU,2025-Q4,AI Active Developers,5,count,GitHub,automated,5 of 30 members (portfolio rollup),2026-06-05T17:15:35.432Z
-EDU,2025-Q4,AI-assisted Pull Request Coverage,1.5686,percent,GitHub,automated,8 of 510 merged PRs had AI signals (portfolio rollup),2026-06-05T17:15:35.432Z
+EDU,2025-Q4,AI Active Developers,5,count,GitHub,automated,5 of 30 members (portfolio rollup),2026-06-05T18:45:13.384Z
+EDU,2025-Q4,AI-assisted Pull Request Coverage,1.5686,percent,GitHub,automated,8 of 510 merged PRs had AI signals (portfolio rollup),2026-06-05T18:45:13.384Z
 EDU,2025-Q4,Average Velocity (points per sprint),25.5,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
-EDU,2025-Q4,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T17:33:34.517Z
+EDU,2025-Q4,Cursor Adoption Rate,6.6667,percent,Cursor,automated,2 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T18:47:32.172Z
 EDU,2025-Q4,Defect Leakage %,2.83,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 6 sev L1+L2 / (201 bugs + 11 reopened).,2026-06-05T17:14:52.231Z
 EDU,2025-Q4,Flow-based Cycle Time Proxy (weeks),1.76,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2025-Q4,Jira Card Churn %,20.95,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
@@ -534,10 +534,10 @@ EDU,2025-YTD,Sev 2 Bugs,59,count,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 
 EDU,2025-YTD,Sev 2 Bugs (External),1,count,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 2 Sev 1 + 59 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2025-YTD,Sev 2 Bugs (Internal),58,count,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 2 Sev 1 + 59 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2026-Q1,Actual Cycle Time (weeks),0.99,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-05-28T17:32:08.329Z
-EDU,2026-Q1,AI Active Developers,11,count,GitHub,automated,11 of 30 members (portfolio rollup),2026-06-05T17:15:35.432Z
-EDU,2026-Q1,AI-assisted Pull Request Coverage,5.6881,percent,GitHub,automated,31 of 545 merged PRs had AI signals (portfolio rollup),2026-06-05T17:15:35.432Z
+EDU,2026-Q1,AI Active Developers,11,count,GitHub,automated,11 of 30 members (portfolio rollup),2026-06-05T18:45:13.384Z
+EDU,2026-Q1,AI-assisted Pull Request Coverage,5.6881,percent,GitHub,automated,31 of 545 merged PRs had AI signals (portfolio rollup),2026-06-05T18:45:13.384Z
 EDU,2026-Q1,Average Velocity (points per sprint),23.33,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-05-28T17:32:08.329Z
-EDU,2026-Q1,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T17:33:34.517Z
+EDU,2026-Q1,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T18:47:32.172Z
 EDU,2026-Q1,Defect Leakage %,3.43,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 6 sev L1+L2 / (167 bugs + 8 reopened).,2026-06-05T17:14:52.231Z
 EDU,2026-Q1,Flow-based Cycle Time Proxy (weeks),2.03,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-05-28T17:32:08.329Z
 EDU,2026-Q1,Jira Card Churn %,7.28,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-05-28T17:32:08.329Z
@@ -552,10 +552,10 @@ EDU,2026-Q1,Sev 2 Bugs,3,count,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 3 S
 EDU,2026-Q1,Sev 2 Bugs (External),0,count,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 3 Sev 1 + 3 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2026-Q1,Sev 2 Bugs (Internal),3,count,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 3 Sev 1 + 3 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 EDU,2026-Q2,Actual Cycle Time (weeks),1.4,weeks,Jira,Yes (partial),Portfolio rollup weighted by completed items across all in-scope teams.,2026-06-05T17:13:24.138Z
-EDU,2026-Q2,AI Active Developers,8,count,GitHub,automated,8 of 30 members (portfolio rollup),2026-06-05T17:15:35.432Z
-EDU,2026-Q2,AI-assisted Pull Request Coverage,9.8802,percent,GitHub,automated,33 of 334 merged PRs had AI signals (portfolio rollup),2026-06-05T17:15:35.432Z
+EDU,2026-Q2,AI Active Developers,8,count,GitHub,automated,8 of 30 members (portfolio rollup),2026-06-05T18:45:13.384Z
+EDU,2026-Q2,AI-assisted Pull Request Coverage,9.8802,percent,GitHub,automated,33 of 334 merged PRs had AI signals (portfolio rollup),2026-06-05T18:45:13.384Z
 EDU,2026-Q2,Average Velocity (points per sprint),28.18,points,Jira,Yes (partial),Portfolio rollup weighted by team sprint counts across all in-scope teams.,2026-06-05T17:13:24.138Z
-EDU,2026-Q2,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T17:33:34.517Z
+EDU,2026-Q2,Cursor Adoption Rate,96.6667,percent,Cursor,automated,29 of 30 mapped members had Cursor activity (portfolio rollup),2026-06-05T18:47:32.172Z
 EDU,2026-Q2,Defect Leakage %,9.35,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 13 sev L1+L2 / (134 bugs + 5 reopened).,2026-06-05T17:14:52.231Z
 EDU,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.89,weeks,Jira,Yes (partial),Portfolio flow-health rollup rebuilt from total WIP and total throughput across all in-scope teams.,2026-06-05T17:13:24.138Z
 EDU,2026-Q2,Jira Card Churn %,9.81,percent,Jira,Yes (partial),"Portfolio churn rollup rebuilt from total removed, re-estimated, backward-move, and committed counts.",2026-06-05T17:13:24.138Z
@@ -986,9 +986,9 @@ Smartcare,2026-Q1-S6,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q1-S6
 Smartcare,2026-Q1-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Smartcare,2026-Q1-S6,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Smartcare,2026-Q1-S6,Sev 2 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
-Smartcare,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 89 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Smartcare,2026-Q2,AI Active Developers,0,count,GitHub,automated,0 of 9 team members,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 89 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Smartcare,2026-Q2,Defect Leakage %,6.58,percent,Jira,Yes (partial),2026-Q2: 5 sev L1+L2 / (71 bugs + 5 reopened).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2,Sev 1 + Sev 2 Bugs,5,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
@@ -997,12 +997,12 @@ Smartcare,2026-Q2,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2: 0 Se
 Smartcare,2026-Q2,Sev 2 Bugs,5,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2,Sev 2 Bugs (Internal),5,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
-Smartcare,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 3 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S0,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
-Smartcare,2026-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S1,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Smartcare,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 3 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S0,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
+Smartcare,2026-Q2-S1,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S1,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 23 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S1,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Smartcare,2026-Q2-S1,Defect Leakage %,8.7,percent,Jira,Yes (partial),2026-Q2-S1: 2 sev L1+L2 / (21 bugs + 2 reopened).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S1,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S1,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
@@ -1011,9 +1011,9 @@ Smartcare,2026-Q2-S1,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2-S1
 Smartcare,2026-Q2-S1,Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S1,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S1,Sev 2 Bugs (Internal),2,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
-Smartcare,2026-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Smartcare,2026-Q2-S2,AI Active Developers,0,count,GitHub,automated,0 of 3 active devs in sprint,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S2,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 4 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Smartcare,2026-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S2: 0 sev L1+L2 / (15 bugs + 2 reopened).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S2,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S2,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
@@ -1022,9 +1022,9 @@ Smartcare,2026-Q2-S2,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2-S2
 Smartcare,2026-Q2-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S2,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S2,Sev 2 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
-Smartcare,2026-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 32 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Smartcare,2026-Q2-S3,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S3,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 32 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Smartcare,2026-Q2-S3,Defect Leakage %,11.11,percent,Jira,Yes (partial),2026-Q2-S3: 2 sev L1+L2 / (17 bugs + 1 reopened).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S3,Sev 1 + Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S3,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
@@ -1033,9 +1033,9 @@ Smartcare,2026-Q2-S3,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2-S3
 Smartcare,2026-Q2-S3,Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S3,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S3,Sev 2 Bugs (Internal),2,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
-Smartcare,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S4,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Smartcare,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S4,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Smartcare,2026-Q2-S4,Defect Leakage %,6.25,percent,Jira,Yes (partial),2026-Q2-S4: 1 sev L1+L2 / (16 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S4,Sev 1 + Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S4,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
@@ -1044,9 +1044,9 @@ Smartcare,2026-Q2-S4,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2-S4
 Smartcare,2026-Q2-S4,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S4,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S4,Sev 2 Bugs (Internal),1,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
-Smartcare,2026-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 3 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-Smartcare,2026-Q2-S5,Cursor Adoption Rate,66.6667,percent,Cursor,automated,6 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Smartcare,2026-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 3 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+Smartcare,2026-Q2-S5,Cursor Adoption Rate,66.6667,percent,Cursor,automated,6 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Smartcare,2026-Q2-S5,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S5: 0 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S5,Sev 1 + Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Smartcare,2026-Q2-S5,Sev 1 Bugs,0,count,Jira,Yes (partial),2026-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
@@ -1566,10 +1566,10 @@ Team Connexpoint,2026-Q1-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 0 
 Team Connexpoint,2026-Q1-S6,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Connexpoint,2026-Q1-S6,Sev 2 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q1-S6: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Connexpoint,2026-Q2,Actual Cycle Time (weeks),0.61,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-06-05T17:15:35.432Z
-Team Connexpoint,2026-Q2,AI-assisted Pull Request Coverage,17.7632,percent,GitHub,automated,27 of 152 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Connexpoint,2026-Q2,AI Active Developers,5,count,GitHub,automated,5 of 9 team members,2026-06-05T18:45:13.384Z
+Team Connexpoint,2026-Q2,AI-assisted Pull Request Coverage,17.7632,percent,GitHub,automated,27 of 152 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Connexpoint,2026-Q2,Average Velocity (points per sprint),22.33,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Connexpoint,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Connexpoint,2026-Q2,Defect Leakage %,25,percent,Jira,Yes (partial),2026-Q2: 1 sev L1+L2 / (4 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 Team Connexpoint,2026-Q2,Flow-based Cycle Time Proxy (weeks),1.06,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-Q2,Jira Card Churn %,2,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-06-05T17:13:24.138Z
@@ -1581,24 +1581,24 @@ Team Connexpoint,2026-Q2,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 
 Team Connexpoint,2026-Q2,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Connexpoint,2026-Q2,Sev 2 Bugs (Internal),1,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Connexpoint,2026-Q2-S0,Actual Cycle Time (weeks),0.01,weeks,Jira,Yes (partial),Sprint 0 of 2026-Q2 (2 items).,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Connexpoint,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Connexpoint,2026-Q2-S0,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Connexpoint,2026-Q2-S0,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 2 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Connexpoint,2026-Q2-S0,Average Velocity (points per sprint),0,points,Jira,Yes (partial),Sprint 0 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S0,Cursor Adoption Rate,77.7778,percent,Cursor,automated,7 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Connexpoint,2026-Q2-S0,Cursor Adoption Rate,77.7778,percent,Cursor,automated,7 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Connexpoint,2026-Q2-S0,Flow-based Cycle Time Proxy (weeks),10.4,weeks,Jira,Yes (partial),Sprint 0 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-Q2-S0,Jira Card Churn %,1.56,percent,Jira,Yes (partial),Sprint 0 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-Q2-S1,Actual Cycle Time (weeks),0.6,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q2 (43 items).,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S1,AI Active Developers,4,count,GitHub,automated,4 of 8 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Connexpoint,2026-Q2-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,7 of 49 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Connexpoint,2026-Q2-S1,AI Active Developers,4,count,GitHub,automated,4 of 8 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Connexpoint,2026-Q2-S1,AI-assisted Pull Request Coverage,14.2857,percent,GitHub,automated,7 of 49 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Connexpoint,2026-Q2-S1,Average Velocity (points per sprint),49,points,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Connexpoint,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Connexpoint,2026-Q2-S1,Flow-based Cycle Time Proxy (weeks),0.59,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-Q2-S1,Jira Card Churn %,4.71,percent,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-Q2-S2,Actual Cycle Time (weeks),0.59,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q2 (27 items).,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S2,AI Active Developers,3,count,GitHub,automated,3 of 5 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Connexpoint,2026-Q2-S2,AI-assisted Pull Request Coverage,9.3750,percent,GitHub,automated,3 of 32 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Connexpoint,2026-Q2-S2,AI Active Developers,3,count,GitHub,automated,3 of 5 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Connexpoint,2026-Q2-S2,AI-assisted Pull Request Coverage,9.3750,percent,GitHub,automated,3 of 32 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Connexpoint,2026-Q2-S2,Average Velocity (points per sprint),12,points,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Connexpoint,2026-Q2-S2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Connexpoint,2026-Q2-S2,Defect Leakage %,100,percent,Jira,Yes (partial),2026-Q2-S2: 1 sev L1+L2 / (1 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 Team Connexpoint,2026-Q2-S2,Flow-based Cycle Time Proxy (weeks),1.19,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-Q2-S2,Jira Card Churn %,1.22,percent,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-06-05T17:13:24.138Z
@@ -1610,17 +1610,17 @@ Team Connexpoint,2026-Q2-S2,Sev 2 Bugs,1,count,Jira,Yes (partial),2026-Q2-S2: 0 
 Team Connexpoint,2026-Q2-S2,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Connexpoint,2026-Q2-S2,Sev 2 Bugs (Internal),1,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 1 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Connexpoint,2026-Q2-S3,Actual Cycle Time (weeks),0.59,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q2 (21 items).,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S3,AI Active Developers,3,count,GitHub,automated,3 of 8 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Connexpoint,2026-Q2-S3,AI-assisted Pull Request Coverage,13.8889,percent,GitHub,automated,5 of 36 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Connexpoint,2026-Q2-S3,AI Active Developers,3,count,GitHub,automated,3 of 8 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Connexpoint,2026-Q2-S3,AI-assisted Pull Request Coverage,13.8889,percent,GitHub,automated,5 of 36 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Connexpoint,2026-Q2-S3,Average Velocity (points per sprint),25,points,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Connexpoint,2026-Q2-S3,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Connexpoint,2026-Q2-S3,Flow-based Cycle Time Proxy (weeks),0.79,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-Q2-S3,Jira Card Churn %,0,percent,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-Q2-S4,Actual Cycle Time (weeks),0.55,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q2 (37 items).,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S4,AI Active Developers,4,count,GitHub,automated,4 of 8 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Connexpoint,2026-Q2-S4,AI-assisted Pull Request Coverage,42.8571,percent,GitHub,automated,9 of 21 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Connexpoint,2026-Q2-S4,AI Active Developers,4,count,GitHub,automated,4 of 8 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Connexpoint,2026-Q2-S4,AI-assisted Pull Request Coverage,42.8571,percent,GitHub,automated,9 of 21 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Connexpoint,2026-Q2-S4,Average Velocity (points per sprint),42,points,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Connexpoint,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Connexpoint,2026-Q2-S4,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S4: 0 sev L1+L2 / (2 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 Team Connexpoint,2026-Q2-S4,Flow-based Cycle Time Proxy (weeks),0.6,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-Q2-S4,Jira Card Churn %,3.57,percent,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-06-05T17:13:24.138Z
@@ -1631,10 +1631,10 @@ Team Connexpoint,2026-Q2-S4,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),202
 Team Connexpoint,2026-Q2-S4,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Connexpoint,2026-Q2-S4,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Connexpoint,2026-Q2-S4,Sev 2 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
-Team Connexpoint,2026-Q2-S5,AI Active Developers,2,count,GitHub,automated,2 of 3 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Connexpoint,2026-Q2-S5,AI-assisted Pull Request Coverage,50.0000,percent,GitHub,automated,3 of 6 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Connexpoint,2026-Q2-S5,AI Active Developers,2,count,GitHub,automated,2 of 3 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Connexpoint,2026-Q2-S5,AI-assisted Pull Request Coverage,50.0000,percent,GitHub,automated,3 of 6 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Connexpoint,2026-Q2-S5,Average Velocity (points per sprint),6,points,Jira,Yes (partial),Sprint 5 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Connexpoint,2026-Q2-S5,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Connexpoint,2026-Q2-S5,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Connexpoint,2026-Q2-S5,Flow-based Cycle Time Proxy (weeks),,weeks,Jira,Yes (partial),Sprint 5 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-Q2-S5,Jira Card Churn %,0,percent,Jira,Yes (partial),Sprint 5 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Connexpoint,2026-YTD,Actual Cycle Time (weeks),0.6,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-06-05T17:13:24.138Z
@@ -2287,10 +2287,10 @@ Team Webstore,2026-Q1-S6,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q1-S6: 1 Sev
 Team Webstore,2026-Q1-S6,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q1-S6: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q1-S6,Sev 2 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q1-S6: 1 Sev 1 + 0 Sev 2 bug(s).,2026-06-02T19:09:20.671Z
 Team Webstore,2026-Q2,Actual Cycle Time (weeks),3.99,weeks,Jira,Yes (partial),Average completed-item cycle time from the configured team start point to the Jira Done category.,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-06-05T17:15:35.432Z
-Team Webstore,2026-Q2,AI-assisted Pull Request Coverage,7.4074,percent,GitHub,automated,6 of 81 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Webstore,2026-Q2,AI Active Developers,3,count,GitHub,automated,3 of 9 team members,2026-06-05T18:45:13.384Z
+Team Webstore,2026-Q2,AI-assisted Pull Request Coverage,7.4074,percent,GitHub,automated,6 of 81 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Webstore,2026-Q2,Average Velocity (points per sprint),35.2,points,Jira,Yes (partial),Average completed story points per sprint across the quarter.,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Webstore,2026-Q2,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Webstore,2026-Q2,Defect Leakage %,10.87,percent,Jira,Yes (partial),2026-Q2: 5 sev L1+L2 / (46 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2,Flow-based Cycle Time Proxy (weeks),4.21,weeks,Jira,Yes (partial),Proxy metric based on average WIP cards and completed cards per sprint.,2026-06-05T17:13:24.138Z
 Team Webstore,2026-Q2,Jira Card Churn %,32.37,percent,Jira,Yes (partial),"Calculated from removed, re-estimated, and backward-move events after sprint start.",2026-06-05T17:13:24.138Z
@@ -2304,14 +2304,14 @@ Team Webstore,2026-Q2,Sev 1 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2: 
 Team Webstore,2026-Q2,Sev 2 Bugs,5,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2,Sev 2 Bugs (External),1,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2,Sev 2 Bugs (Internal),4,count,Jira,Yes (partial),2026-Q2: 0 Sev 1 + 5 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
-Team Webstore,2026-Q2-S0,AI Active Developers,1,count,GitHub,automated,1 of 3 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Webstore,2026-Q2-S0,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-06-05T17:15:35.432Z
-Team Webstore,2026-Q2-S0,Cursor Adoption Rate,77.7778,percent,Cursor,automated,7 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Webstore,2026-Q2-S0,AI Active Developers,1,count,GitHub,automated,1 of 3 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Webstore,2026-Q2-S0,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,1 of 6 merged PRs had AI signals,2026-06-05T18:45:13.384Z
+Team Webstore,2026-Q2-S0,Cursor Adoption Rate,77.7778,percent,Cursor,automated,7 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Webstore,2026-Q2-S1,Actual Cycle Time (weeks),4.96,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q2 (20 items).,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2-S1,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Webstore,2026-Q2-S1,AI-assisted Pull Request Coverage,4.1667,percent,GitHub,automated,1 of 24 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Webstore,2026-Q2-S1,AI Active Developers,1,count,GitHub,automated,1 of 4 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Webstore,2026-Q2-S1,AI-assisted Pull Request Coverage,4.1667,percent,GitHub,automated,1 of 24 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Webstore,2026-Q2-S1,Average Velocity (points per sprint),83,points,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Webstore,2026-Q2-S1,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Webstore,2026-Q2-S1,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S1: 0 sev L1+L2 / (8 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S1,Flow-based Cycle Time Proxy (weeks),2.04,weeks,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Webstore,2026-Q2-S1,Jira Card Churn %,62.07,percent,Jira,Yes (partial),Sprint 1 of 2026-Q2.,2026-06-05T17:13:24.138Z
@@ -2326,10 +2326,10 @@ Team Webstore,2026-Q2-S1,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev
 Team Webstore,2026-Q2-S1,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S1,Sev 2 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2-S1: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S2,Actual Cycle Time (weeks),2.11,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q2 (7 items).,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2-S2,AI Active Developers,2,count,GitHub,automated,2 of 3 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Webstore,2026-Q2-S2,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,2 of 12 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Webstore,2026-Q2-S2,AI Active Developers,2,count,GitHub,automated,2 of 3 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Webstore,2026-Q2-S2,AI-assisted Pull Request Coverage,16.6667,percent,GitHub,automated,2 of 12 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Webstore,2026-Q2-S2,Average Velocity (points per sprint),19,points,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Webstore,2026-Q2-S2,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Webstore,2026-Q2-S2,Defect Leakage %,0,percent,Jira,Yes (partial),2026-Q2-S2: 0 sev L1+L2 / (15 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S2,Flow-based Cycle Time Proxy (weeks),6.38,weeks,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Webstore,2026-Q2-S2,Jira Card Churn %,48.39,percent,Jira,Yes (partial),Sprint 2 of 2026-Q2.,2026-06-05T17:13:24.138Z
@@ -2344,10 +2344,10 @@ Team Webstore,2026-Q2-S2,Sev 2 Bugs,0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev
 Team Webstore,2026-Q2-S2,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S2,Sev 2 Bugs (Internal),0,count,Jira,Yes (partial),2026-Q2-S2: 0 Sev 1 + 0 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S3,Actual Cycle Time (weeks),4.5,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q2 (12 items).,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2-S3,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Webstore,2026-Q2-S3,AI-assisted Pull Request Coverage,5.5556,percent,GitHub,automated,1 of 18 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Webstore,2026-Q2-S3,AI Active Developers,1,count,GitHub,automated,1 of 7 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Webstore,2026-Q2-S3,AI-assisted Pull Request Coverage,5.5556,percent,GitHub,automated,1 of 18 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Webstore,2026-Q2-S3,Average Velocity (points per sprint),34,points,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Webstore,2026-Q2-S3,Cursor Adoption Rate,88.8889,percent,Cursor,automated,8 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Webstore,2026-Q2-S3,Defect Leakage %,20,percent,Jira,Yes (partial),2026-Q2-S3: 2 sev L1+L2 / (10 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S3,Flow-based Cycle Time Proxy (weeks),2.73,weeks,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Webstore,2026-Q2-S3,Jira Card Churn %,30.77,percent,Jira,Yes (partial),Sprint 3 of 2026-Q2.,2026-06-05T17:13:24.138Z
@@ -2362,10 +2362,10 @@ Team Webstore,2026-Q2-S3,Sev 2 Bugs,2,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev
 Team Webstore,2026-Q2-S3,Sev 2 Bugs (External),0,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S3,Sev 2 Bugs (Internal),2,count,Jira,Yes (partial),2026-Q2-S3: 0 Sev 1 + 2 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S4,Actual Cycle Time (weeks),2.5,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q2 (7 items).,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Webstore,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Webstore,2026-Q2-S4,AI Active Developers,0,count,GitHub,automated,0 of 5 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Webstore,2026-Q2-S4,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 17 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Webstore,2026-Q2-S4,Average Velocity (points per sprint),27,points,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Webstore,2026-Q2-S4,Cursor Adoption Rate,100.0000,percent,Cursor,automated,9 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Webstore,2026-Q2-S4,Defect Leakage %,42.86,percent,Jira,Yes (partial),2026-Q2-S4: 3 sev L1+L2 / (7 bugs + 0 reopened).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S4,Flow-based Cycle Time Proxy (weeks),5.9,weeks,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Webstore,2026-Q2-S4,Jira Card Churn %,15.38,percent,Jira,Yes (partial),Sprint 4 of 2026-Q2.,2026-06-05T17:13:24.138Z
@@ -2380,10 +2380,10 @@ Team Webstore,2026-Q2-S4,Sev 2 Bugs,3,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev
 Team Webstore,2026-Q2-S4,Sev 2 Bugs (External),1,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S4,Sev 2 Bugs (Internal),2,count,Jira,Yes (partial),2026-Q2-S4: 0 Sev 1 + 3 Sev 2 bug(s).,2026-06-05T17:14:52.231Z
 Team Webstore,2026-Q2-S5,Actual Cycle Time (weeks),2.04,weeks,Jira,Yes (partial),Sprint 5 of 2026-Q2 (1 items).,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-06-05T17:15:35.432Z
-Team Webstore,2026-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 1 merged PRs had AI signals,2026-06-05T17:15:35.432Z
+Team Webstore,2026-Q2-S5,AI Active Developers,0,count,GitHub,automated,0 of 1 active devs in sprint,2026-06-05T18:45:13.384Z
+Team Webstore,2026-Q2-S5,AI-assisted Pull Request Coverage,0.0000,percent,GitHub,automated,0 of 1 merged PRs had AI signals,2026-06-05T18:45:13.384Z
 Team Webstore,2026-Q2-S5,Average Velocity (points per sprint),13,points,Jira,Yes (partial),Sprint 5 of 2026-Q2.,2026-06-05T17:13:24.138Z
-Team Webstore,2026-Q2-S5,Cursor Adoption Rate,55.5556,percent,Cursor,automated,5 of 9 mapped members had Cursor activity,2026-06-05T17:33:34.517Z
+Team Webstore,2026-Q2-S5,Cursor Adoption Rate,55.5556,percent,Cursor,automated,5 of 9 mapped members had Cursor activity,2026-06-05T18:47:32.172Z
 Team Webstore,2026-Q2-S5,Flow-based Cycle Time Proxy (weeks),38.16,weeks,Jira,Yes (partial),Sprint 5 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Webstore,2026-Q2-S5,Jira Card Churn %,0,percent,Jira,Yes (partial),Sprint 5 of 2026-Q2.,2026-06-05T17:13:24.138Z
 Team Webstore,2026-YTD,Actual Cycle Time (weeks),3.37,weeks,Jira,Yes (partial),Year-to-date rollup weighted by completed items across available quarters.,2026-06-05T17:13:24.138Z
