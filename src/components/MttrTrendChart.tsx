@@ -53,58 +53,52 @@ function buildPoints(
     .filter(periodFilter)
     .sort();
 
-  if (team) {
-    return allPeriods.map((period) => {
-      const ticketRec = payload.metrics.find(
-        (m) => m.team === team && m.quarter === period && m.metricName === mttrTicketsMetricName,
-      );
-      const mttrRec = payload.metrics.find(
-        (m) => m.team === team && m.quarter === period && m.metricName === mttrMetricName,
-      );
-      const mttrAvgRec = payload.metrics.find(
-        (m) => m.team === team && m.quarter === period && m.metricName === mttrAvgMetricName,
-      );
-      const tickets = ticketRec?.value ?? 0;
-      return {
-        quarter: xLabel(period),
-        tickets,
-        mttr: tickets > 0 && mttrRec ? mttrRec.value : null,
-        mttrAvg: tickets > 0 && mttrAvgRec ? mttrAvgRec.value : null,
-      };
-    });
-  }
+  // Per-team view uses the team's rows; the EDU rollup uses the precomputed "EDU" portfolio rows.
+  // Both the median and the average are true pooled statistics emitted by the pull script (the EDU
+  // median is a real median across all teams' tickets, not an average of team medians), so reading
+  // them directly keeps the chart consistent with the underlying data.
+  const targetTeam = team ?? "EDU";
+  const rollupTeams = team
+    ? null
+    : [...new Set(payload.metrics.map((m) => m.team))].filter((t) => t !== "EDU");
 
-  // EDU rollup: bars = sum of tickets across teams; lines = ticket-weighted median/average so adding
-  // more service desks later aggregates correctly (not an average of team averages). Today Revtrak is
-  // the only team in scope, so EDU equals Revtrak; the weighting matters once CXP is added.
-  const teams = [...new Set(payload.metrics.map((m) => m.team))].filter((t) => t !== "EDU");
+  const find = (tm: string, period: string, name: string) =>
+    payload.metrics.find((m) => m.team === tm && m.quarter === period && m.metricName === name);
+
   return allPeriods.map((period) => {
-    let tickets = 0;
-    let weightedMedian = 0;
-    let weightedAvg = 0;
-    for (const t of teams) {
-      const ticketRec = payload.metrics.find(
-        (m) => m.team === t && m.quarter === period && m.metricName === mttrTicketsMetricName,
-      );
-      const mttrRec = payload.metrics.find(
-        (m) => m.team === t && m.quarter === period && m.metricName === mttrMetricName,
-      );
-      const mttrAvgRec = payload.metrics.find(
-        (m) => m.team === t && m.quarter === period && m.metricName === mttrAvgMetricName,
-      );
-      const teamTickets = ticketRec?.value ?? 0;
-      if (teamTickets > 0 && mttrRec) {
-        tickets += teamTickets;
-        weightedMedian += mttrRec.value * teamTickets;
-        weightedAvg += (mttrAvgRec?.value ?? mttrRec.value) * teamTickets;
+    const ticketRec = find(targetTeam, period, mttrTicketsMetricName);
+    const mttrRec = find(targetTeam, period, mttrMetricName);
+    const mttrAvgRec = find(targetTeam, period, mttrAvgMetricName);
+    let tickets = ticketRec?.value ?? 0;
+    let mttr = tickets > 0 && mttrRec ? mttrRec.value : null;
+    let mttrAvg = tickets > 0 && mttrAvgRec ? mttrAvgRec.value : null;
+
+    // Fallback for the EDU rollup: if a precomputed EDU row is missing for this period (e.g. an older
+    // data feed without the per-sprint EDU rollup), derive it from the per-team rows so the chart
+    // still renders. Average stays exact (ticket-weighted); median degrades to a ticket-weighted
+    // mean of team medians, which is only used when the true pooled value is unavailable.
+    if (!team && tickets === 0 && rollupTeams) {
+      let t = 0;
+      let weightedMedian = 0;
+      let weightedAvg = 0;
+      for (const tm of rollupTeams) {
+        const teamTickets = find(tm, period, mttrTicketsMetricName)?.value ?? 0;
+        const teamMedian = find(tm, period, mttrMetricName);
+        const teamAvg = find(tm, period, mttrAvgMetricName);
+        if (teamTickets > 0 && teamMedian) {
+          t += teamTickets;
+          weightedMedian += teamMedian.value * teamTickets;
+          weightedAvg += (teamAvg?.value ?? teamMedian.value) * teamTickets;
+        }
+      }
+      if (t > 0) {
+        tickets = t;
+        mttr = weightedMedian / t;
+        mttrAvg = weightedAvg / t;
       }
     }
-    return {
-      quarter: xLabel(period),
-      tickets,
-      mttr: tickets > 0 ? weightedMedian / tickets : null,
-      mttrAvg: tickets > 0 ? weightedAvg / tickets : null,
-    };
+
+    return { quarter: xLabel(period), tickets, mttr, mttrAvg };
   });
 }
 

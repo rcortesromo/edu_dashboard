@@ -31,7 +31,7 @@ function App() {
         setLoading(true);
         setError("");
 
-        const response = await fetch("/data/metrics.generated.json");
+        const response = await fetch("/data/metrics.generated.json", { cache: "no-cache" });
 
         if (!response.ok) {
           throw new Error("Published metrics feed is unavailable.");

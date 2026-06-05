@@ -13,12 +13,11 @@ const generatedDir = path.join(repoRoot, "backend/jira/generated");
 const exportPath = path.join(generatedDir, "mttr_export.csv");
 const combinedCalendarPath = path.join(generatedDir, "sprint_calendar_combined.csv");
 
-// Mean Time To Resolve (e2e): from Service Desk ticket creation (Tech Ops intake) until the ticket
-// is resolved. Two paths, both starting at the SD ticket's `created`:
-//   1) Resolved inside the Service Desk -> end = the SD ticket's resolutiondate.
-//   2) Escalated to a product fix (OV) -> keep counting until the linked fix reaches resolution
-//      "Deployed" (end = that deploy date).
-// Severity (Sev 1/2) is read from the Service Desk ticket itself (it carries the Severity field).
+// Mean Time To Resolve: business time from an OV issue's creation until its status changes to
+// "Closed". Population = OV issues of type Bug/Story/Task whose Severity is Level 1 / Level 2,
+// grouped by the Jira Team field into the EDU teams. The end of the clock is taken from the
+// changelog (the latest status -> Closed transition), falling back to resolutiondate when an
+// already-Closed issue has no recorded transition.
 // The main metric is the MEDIAN (robust to the long-tail of aged tickets); the average is kept as a
 // reference series so the spikes from a few months-old tickets are still visible.
 const MTTR_METRIC_NAME = "MTTR (Sev 1 + Sev 2)";
@@ -308,6 +307,22 @@ class JiraClient {
     }
     return issues;
   }
+
+  async getIssueChangelog(issueKey) {
+    const entries = [];
+    let startAt = 0;
+    let total = Infinity;
+    while (startAt < total) {
+      const payload = await this.requestJson(`/rest/api/3/issue/${issueKey}/changelog`, {
+        startAt,
+        maxResults: 100,
+      });
+      entries.push(...(payload.values ?? []));
+      total = payload.total ?? entries.length;
+      startAt += payload.maxResults ?? 100;
+    }
+    return entries;
+  }
 }
 
 function ensureRequiredEnv(env) {
@@ -377,13 +392,34 @@ function fieldVal(raw) {
   return String(raw);
 }
 
-function linkedIssueKeys(issue) {
-  const keys = [];
-  for (const link of issue.fields?.issuelinks ?? []) {
-    const other = link.outwardIssue ?? link.inwardIssue;
-    if (other?.key) keys.push(other.key);
+// The Jira Team field can be a string, an object, or a single-element array of objects.
+function teamFieldValue(raw) {
+  if (raw === null || raw === undefined) return "";
+  if (typeof raw === "string") return raw;
+  if (Array.isArray(raw)) {
+    const first = raw[0];
+    return first ? (first.value ?? first.name ?? "") : "";
   }
-  return keys;
+  if (typeof raw === "object") {
+    return raw.value ?? raw.name ?? "";
+  }
+  return String(raw);
+}
+
+// Latest timestamp at which the issue transitioned into the given status, from the changelog.
+function lastTransitionInto(changelog, statusName) {
+  const target = normalizeName(statusName);
+  let latest = null;
+  for (const entry of changelog) {
+    for (const item of entry.items ?? []) {
+      if (item.field !== "status") continue;
+      if (normalizeName(item.toString) !== target) continue;
+      const when = new Date(entry.created);
+      if (Number.isNaN(when.getTime())) continue;
+      if (!latest || when > latest) latest = when;
+    }
+  }
+  return latest;
 }
 
 // A bucket keeps every per-ticket business-hours value so we can derive both the median and the
@@ -454,23 +490,32 @@ async function main() {
 
   const mapping = JSON.parse(await fs.readFile(mappingPath, "utf8"));
   const mttrConfig = mapping.mttr;
-  if (!mttrConfig || !Array.isArray(mttrConfig.serviceDesks) || mttrConfig.serviceDesks.length === 0) {
-    throw new Error("Missing mttr.serviceDesks configuration in jira-field-mapping.template.json.");
+  if (!mttrConfig || !Array.isArray(mttrConfig.teams) || mttrConfig.teams.length === 0) {
+    throw new Error("Missing mttr.teams configuration in jira-field-mapping.template.json.");
   }
 
   const now = new Date();
   const refreshTimestamp = toIsoDateTime(now);
   const severityFieldId = mapping.fields.severityFieldId;
+  const teamFieldId = mapping.fields.teamFieldId;
   const severityCfNum = String(severityFieldId).replace(/^customfield_/, "");
   const portfolioTeamName = mttrConfig.portfolioTeamName ?? DEFAULT_PORTFOLIO;
-  const deployResolution = normalizeName(mttrConfig.deployResolution ?? "Deployed");
   const severityLevels = new Set((mttrConfig.severityLevels ?? ["Level 1", "Level 2"]).map(normalizeName));
-  const excludeResolutions = new Set((mttrConfig.excludeResolutions ?? []).map(normalizeName));
   const severityJqlValues = (mttrConfig.severityLevels ?? ["Level 1", "Level 2"])
     .map((level) => `"${level}"`)
     .join(", ");
+  const projectKeys = mttrConfig.projectKeys ?? ["OV"];
+  const issueTypes = mttrConfig.issueTypes ?? ["Bug", "Story", "Task"];
+  const issueTypeJqlValues = issueTypes.map((type) => `"${type}"`).join(", ");
+  const endStatus = mttrConfig.endStatus ?? "Closed";
   const fromYearArg = getArgValue(argv, "--from-year");
   const createdFrom = fromYearArg ? `${fromYearArg}-01-01` : mttrConfig.createdFrom ?? "2025-01-01";
+
+  // Normalized Jira team name -> output team name.
+  const teamLookup = new Map();
+  for (const team of mttrConfig.teams) {
+    teamLookup.set(normalizeName(team.jiraTeamName), team.outputTeamName);
+  }
 
   const client = new JiraClient({
     baseUrl: env.JIRA_BASE_URL,
@@ -480,71 +525,14 @@ async function main() {
 
   const canonicalWindows = await loadCanonicalSprintWindows();
 
-  // Fetch the Sev 1/2 Service Desk tickets (the start of the clock) and collect their linked keys.
-  // sdTickets: [{ key, created, outputTeam, resolution, sdResolvedAt, linkedKeys }]
-  const sdTickets = [];
-  const allLinkedKeys = new Set();
-  const sdFields = ["created", severityFieldId, "resolution", "resolutiondate", "issuelinks"];
-  for (const desk of mttrConfig.serviceDesks) {
-    const jql =
-      `project = ${desk.projectKey} AND cf[${severityCfNum}] in (${severityJqlValues}) ` +
-      `AND created >= "${createdFrom}" ORDER BY created ASC`;
-    const issues = await client.searchIssues(jql, sdFields);
-    for (const issue of issues) {
-      const created = new Date(issue.fields?.created);
-      if (Number.isNaN(created.getTime())) continue;
+  // Fetch the in-scope OV issues (Sev 1/2, Bug/Story/Task) in one pass.
+  const jql =
+    `project in (${projectKeys.join(", ")}) AND issuetype in (${issueTypeJqlValues}) ` +
+    `AND cf[${severityCfNum}] in (${severityJqlValues}) AND created >= "${createdFrom}" ORDER BY created ASC`;
+  const issueFields = ["created", "status", "resolutiondate", teamFieldId, severityFieldId];
+  const issues = await client.searchIssues(jql, issueFields);
 
-      const severity = normalizeName(fieldVal(issue.fields?.[severityFieldId]));
-      if (!severityLevels.has(severity)) continue;
-
-      const resolution = normalizeName(fieldVal(issue.fields?.resolution));
-      const resDateRaw = issue.fields?.resolutiondate;
-      const sdResolvedAtDate = resDateRaw ? new Date(resDateRaw) : null;
-      const sdResolvedAt =
-        sdResolvedAtDate && !Number.isNaN(sdResolvedAtDate.getTime()) ? sdResolvedAtDate : null;
-
-      const keys = linkedIssueKeys(issue);
-      for (const key of keys) allLinkedKeys.add(key);
-
-      sdTickets.push({
-        key: issue.key,
-        created,
-        outputTeam: desk.outputTeamName,
-        resolution,
-        sdResolvedAt,
-        linkedKeys: keys,
-      });
-    }
-  }
-
-  // Batch-fetch the linked issues' resolution + resolution date (to detect the product deploy).
-  // fixById: Map<key, { resolution, deployedAt: Date|null }>
-  const fixById = new Map();
-  const keyList = [...allLinkedKeys];
-  const fixFields = ["resolution", "resolutiondate"];
-  for (let i = 0; i < keyList.length; i += 100) {
-    const batch = keyList.slice(i, i + 100);
-    const jql = `issuekey in (${batch.join(",")})`;
-    let issues = [];
-    try {
-      issues = await client.searchIssues(jql, fixFields);
-    } catch (error) {
-      // Some linked keys may live in projects the token cannot read; skip the batch's failures.
-      console.warn(`Skipping a linked-issue batch: ${error.message}`);
-      continue;
-    }
-    for (const issue of issues) {
-      const resolution = normalizeName(fieldVal(issue.fields?.resolution));
-      const resDateRaw = issue.fields?.resolutiondate;
-      const deployedAt = resDateRaw ? new Date(resDateRaw) : null;
-      fixById.set(issue.key, {
-        resolution,
-        deployedAt: deployedAt && !Number.isNaN(deployedAt.getTime()) ? deployedAt : null,
-      });
-    }
-  }
-
-  // Aggregators: Map<team, Map<period, { sumHours, count }>>
+  // Aggregators: Map<team, Map<period, { hours: [] }>>
   const quarterAgg = new Map();
   const sprintAgg = new Map();
 
@@ -556,48 +544,50 @@ async function main() {
     bucket.hours.push(hours);
   }
 
-  let consideredTickets = 0;
-  let deployPathTickets = 0;
-  let sdPathTickets = 0;
-  for (const ticket of sdTickets) {
-    consideredTickets += 1;
+  const endStatusNorm = normalizeName(endStatus);
+  let inScopeIssues = 0;
+  let countedTickets = 0;
+  let fallbackToResolutionDate = 0;
+  for (const issue of issues) {
+    const outputTeam = teamLookup.get(normalizeName(teamFieldValue(issue.fields?.[teamFieldId])));
+    if (!outputTeam) continue;
 
-    // Path 2 (escalated to product): the clock stops when the linked fix is Deployed. If several
-    // linked fixes were deployed, use the latest deploy.
-    let chosenDeployedAt = null;
-    for (const key of ticket.linkedKeys) {
-      const fix = fixById.get(key);
-      if (!fix || !fix.deployedAt) continue;
-      if (fix.resolution !== deployResolution) continue;
-      if (!chosenDeployedAt || fix.deployedAt > chosenDeployedAt) {
-        chosenDeployedAt = fix.deployedAt;
+    const created = new Date(issue.fields?.created);
+    if (Number.isNaN(created.getTime())) continue;
+
+    const severity = normalizeName(fieldVal(issue.fields?.[severityFieldId]));
+    if (!severityLevels.has(severity)) continue;
+
+    inScopeIssues += 1;
+
+    // Only issues that have reached the end status have a measurable end of clock.
+    const status = normalizeName(fieldVal(issue.fields?.status));
+    if (status !== endStatusNorm) continue;
+
+    const changelog = await client.getIssueChangelog(issue.key);
+    let endAt = lastTransitionInto(changelog, endStatus);
+    if (!endAt) {
+      // Already-Closed issue with no recorded transition: fall back to resolutiondate.
+      const resDateRaw = issue.fields?.resolutiondate;
+      const resDate = resDateRaw ? new Date(resDateRaw) : null;
+      if (resDate && !Number.isNaN(resDate.getTime())) {
+        endAt = resDate;
+        fallbackToResolutionDate += 1;
       }
     }
 
-    let endAt = null;
-    let viaDeploy = false;
-    if (chosenDeployedAt) {
-      // e2e path: keep counting until the product deploy.
-      endAt = chosenDeployedAt;
-      viaDeploy = true;
-    } else if (ticket.sdResolvedAt && !excludeResolutions.has(ticket.resolution)) {
-      // Service Desk path: resolved inside RTSD without (or before) a product deploy.
-      endAt = ticket.sdResolvedAt;
-    }
-
     if (!endAt) continue;
-    if (endAt <= ticket.created) continue;
+    if (endAt <= created) continue;
 
-    const hours = businessHoursBetween(ticket.created, endAt);
-    if (viaDeploy) deployPathTickets += 1;
-    else sdPathTickets += 1;
+    const hours = businessHoursBetween(created, endAt);
+    countedTickets += 1;
 
     const quarterWindow = quarterWindowForDate(endAt);
-    bump(quarterAgg, ticket.outputTeam, quarterWindow.label, hours);
+    bump(quarterAgg, outputTeam, quarterWindow.label, hours);
 
     const sprint = findCanonicalSprint(canonicalWindows, quarterWindow.label, endAt);
     if (sprint) {
-      bump(sprintAgg, ticket.outputTeam, sprint.key, hours);
+      bump(sprintAgg, outputTeam, sprint.key, hours);
     }
   }
 
@@ -637,10 +627,20 @@ async function main() {
     rows.push(...rowsFor(portfolioTeamName, `${year}-YTD`, agg, refreshTimestamp, "Portfolio rollup. "));
   }
 
+  // Sprint rows per team, plus the EDU portfolio rollup (true pooled samples per sprint, so the
+  // EDU median is a real median of all teams' tickets -- not an average of team medians).
+  const sprintPortfolio = new Map(); // sprintKey -> bucket
   for (const [team, periodMap] of sprintAgg.entries()) {
     for (const [sprintKey, bucket] of periodMap.entries()) {
       rows.push(...rowsFor(team, sprintKey, bucket, refreshTimestamp));
+
+      if (!sprintPortfolio.has(sprintKey)) sprintPortfolio.set(sprintKey, newBucket());
+      addInto(sprintPortfolio.get(sprintKey), bucket);
     }
+  }
+
+  for (const [sprintKey, agg] of sprintPortfolio.entries()) {
+    rows.push(...rowsFor(portfolioTeamName, sprintKey, agg, refreshTimestamp, "Portfolio rollup. "));
   }
 
   const finalRows = sortByKeys(rows, ["team_name", "quarter_label", "metric_name"]);
@@ -650,15 +650,15 @@ async function main() {
   console.log(
     JSON.stringify(
       {
-        serviceDesks: mttrConfig.serviceDesks.map((d) => `${d.projectKey} -> ${d.outputTeamName}`),
+        projectKeys,
+        issueTypes,
+        teams: mttrConfig.teams.map((t) => `${t.jiraTeamName} -> ${t.outputTeamName}`),
         createdFrom,
-        deployResolution: mttrConfig.deployResolution ?? "Deployed",
-        sdTicketsSev12: sdTickets.length,
-        linkedIssuesFetched: fixById.size,
-        consideredTickets,
-        countedTickets: deployPathTickets + sdPathTickets,
-        deployPathTickets,
-        sdPathTickets,
+        endStatus,
+        issuesFetched: issues.length,
+        inScopeIssues,
+        countedTickets,
+        fallbackToResolutionDate,
         exportRows: finalRows.length,
         output: exportPath,
         refreshedAt: refreshTimestamp,

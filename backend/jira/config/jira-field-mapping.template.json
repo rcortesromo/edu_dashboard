@@ -77,14 +77,17 @@
   },
   "mttr": {
     "createdFrom": "2025-01-01",
-    "startEvent": "serviceDeskCreated",
-    "deployResolution": "Deployed",
+    "projectKeys": ["OV"],
+    "issueTypes": ["Bug", "Story", "Task"],
     "severityLevels": ["Level 1", "Level 2"],
-    "excludeResolutions": ["Declined", "Won't Do", "Cannot Reproduce", "Duplicate", "Abandoned"],
+    "endStatus": "Closed",
     "businessDaysOnly": true,
     "portfolioTeamName": "EDU",
-    "serviceDesks": [
-      { "projectKey": "RTSD", "outputTeamName": "Team Webstore" }
+    "teams": [
+      { "jiraTeamName": "Team Connexpoint", "outputTeamName": "Team Connexpoint" },
+      { "jiraTeamName": "Team Webstore", "outputTeamName": "Team Webstore" },
+      { "jiraTeamName": "Team ASAP", "outputTeamName": "ASAP" },
+      { "jiraTeamName": "Team Smartcare", "outputTeamName": "Smartcare" }
     ]
   }
 }

@@ -59,7 +59,7 @@ export const metricDescriptions: Record<string, string> = {
   "Sev 1 + Sev 2 Bugs":
     "Count of high-severity bugs (Severity Level 1 and 2 combined) logged for the team in the selected period.",
   "MTTR (Sev 1 + Sev 2)":
-    "End-to-end time to resolve for Sev 1 and 2: business time (weekends excluded) from when the Service Desk ticket was created until it is resolved -- in the Service Desk, or, if escalated, when the linked product fix is deployed. The line is the median (the typical case); the lighter line is the average, which a few months-old tickets can pull up. Currently covers Revtrak only.",
+    "Time to resolve for Sev 1 and 2 OV issues (Bug, Story, Task): business time (weekends excluded) from when the issue was created until its status changes to Closed. Covers Connexpoint, Webstore, ASAP, and Smartcare. The line is the median (the typical case); the lighter line is the average, which a few long-running issues can pull up.",
   "Average Velocity (points per sprint)":
     "Average completed story points per sprint across the period for the team.",
   "Flow-based Cycle Time Proxy (weeks)":
