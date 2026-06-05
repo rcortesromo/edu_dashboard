@@ -2,7 +2,8 @@ team_name,quarter_label,quarter_start_date,quarter_end_date,quarter_status,last_
 EDU,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-05-27T12:05:31.757-0700,2026-01-07T08:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
 EDU,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-05-27T12:05:31.757-0700,2026-01-07T08:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
 EDU,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-05-27T12:05:31.757-0700,2026-01-07T08:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
-EDU,2026-YTD,2026-01-01,2026-05-28,in_progress,2026-05-28T17:32:08.329Z,2026-05-28T10:17:43.800-0700,2026-06-03T17:00:00.000Z,yes,Current year-to-date period is recalculated on every run.
+EDU,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-05-27T12:05:31.757-0700,2026-01-07T08:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
+EDU,2026-YTD,2026-01-01,2026-06-05,in_progress,2026-06-05T17:13:24.138Z,2026-06-05T09:56:07.958-0700,2026-06-17T16:00:00.000Z,yes,Current year-to-date period is recalculated on every run.
 Team Connexpoint,2025-Q1,2025-01-01,2025-03-31,complete,2026-05-28T17:32:08.329Z,2026-03-17T06:59:28.561-0700,2025-03-26T08:00:00.000Z,no,
 Team Connexpoint,2025-Q2,2025-04-01,2025-06-30,complete,2026-05-28T17:32:08.329Z,2025-09-24T08:37:34.827-0700,2025-06-25T16:12:00.000Z,no,
 Team Connexpoint,2025-Q3,2025-07-01,2025-09-30,complete,2026-05-28T17:32:08.329Z,2025-11-21T08:39:54.005-0800,2025-09-24T07:00:00.000Z,no,
@@ -10,9 +11,10 @@ Team Connexpoint,2025-Q4,2025-10-01,2025-12-31,complete,2026-05-28T17:32:08.329Z
 Team Connexpoint,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-03-17T06:59:28.561-0700,2026-01-07T08:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
 Team Connexpoint,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-03-17T06:59:28.561-0700,2026-01-07T08:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
 Team Connexpoint,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-03-17T06:59:28.561-0700,2026-01-07T08:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
+Team Connexpoint,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-03-17T06:59:28.561-0700,2026-01-07T08:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
 Team Connexpoint,2026-Q1,2026-01-01,2026-03-31,complete,2026-05-28T17:32:08.329Z,2026-05-04T14:02:31.644-0700,2026-04-01T08:00:00.000Z,no,
-Team Connexpoint,2026-Q2,2026-04-01,2026-06-30,in_progress,2026-05-28T17:32:08.329Z,2026-05-28T10:17:43.800-0700,2026-06-03T07:00:00.000Z,yes,Current quarter is recalculated on every run.
-Team Connexpoint,2026-YTD,2026-01-01,2026-05-28,in_progress,2026-05-28T17:32:08.329Z,2026-05-28T10:17:43.800-0700,2026-06-03T07:00:00.000Z,yes,Current year-to-date period is recalculated on every run.
+Team Connexpoint,2026-Q2,2026-04-01,2026-06-30,in_progress,2026-06-05T17:13:24.138Z,2026-06-05T08:49:10.448-0700,2026-06-17T07:00:00.000Z,yes,Current quarter is recalculated on every run.
+Team Connexpoint,2026-YTD,2026-01-01,2026-06-05,in_progress,2026-06-05T17:13:24.138Z,2026-06-05T08:49:10.448-0700,2026-06-17T07:00:00.000Z,yes,Current year-to-date period is recalculated on every run.
 Team Webstore,2025-Q1,2025-01-01,2025-03-31,complete,2026-05-28T17:32:08.329Z,2026-05-27T12:05:31.757-0700,2025-03-26T16:00:00.000Z,no,
 Team Webstore,2025-Q2,2025-04-01,2025-06-30,complete,2026-05-28T17:32:08.329Z,2026-04-17T12:19:20.423-0700,2025-06-25T16:00:00.000Z,no,
 Team Webstore,2025-Q3,2025-07-01,2025-09-30,complete,2026-05-28T17:32:08.329Z,2026-05-04T18:26:45.739-0700,2025-09-24T16:30:00.000Z,no,
@@ -20,6 +22,7 @@ Team Webstore,2025-Q4,2025-10-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,20
 Team Webstore,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-05-27T12:05:31.757-0700,2025-12-24T17:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
 Team Webstore,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-05-27T12:05:31.757-0700,2025-12-24T17:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
 Team Webstore,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-05-27T12:05:31.757-0700,2025-12-24T17:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
+Team Webstore,2025-YTD,2025-01-01,2025-12-31,complete,2026-05-28T17:32:08.329Z,2026-05-27T12:05:31.757-0700,2025-12-24T17:00:00.000Z,no,Year-to-date period is based on completed quarter snapshots.
 Team Webstore,2026-Q1,2026-01-01,2026-03-31,complete,2026-05-28T17:32:08.329Z,2026-05-28T08:34:29.710-0700,2026-04-01T16:00:00.000Z,no,
-Team Webstore,2026-Q2,2026-04-01,2026-06-30,in_progress,2026-05-28T17:32:08.329Z,2026-05-28T09:29:41.133-0700,2026-06-03T17:00:00.000Z,yes,Current quarter is recalculated on every run.
-Team Webstore,2026-YTD,2026-01-01,2026-05-28,in_progress,2026-05-28T17:32:08.329Z,2026-05-28T09:29:41.133-0700,2026-06-03T17:00:00.000Z,yes,Current year-to-date period is recalculated on every run.
+Team Webstore,2026-Q2,2026-04-01,2026-06-30,in_progress,2026-06-05T17:13:24.138Z,2026-06-05T09:56:07.958-0700,2026-06-17T16:00:00.000Z,yes,Current quarter is recalculated on every run.
+Team Webstore,2026-YTD,2026-01-01,2026-06-05,in_progress,2026-06-05T17:13:24.138Z,2026-06-05T09:56:07.958-0700,2026-06-17T16:00:00.000Z,yes,Current year-to-date period is recalculated on every run.

@@ -1,142 +1,142 @@
 team_name,quarter_label,metric_name,metric_value,metric_unit,source_system,coverage_status,note,last_refresh_utc
-EDU,2025-Q1,MTTR (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q1,MTTR Avg (Sev 1 + Sev 2),42.09,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q1,MTTR Tickets (Sev 1 + Sev 2),5,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q2,MTTR (Sev 1 + Sev 2),5.82,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q2,MTTR Avg (Sev 1 + Sev 2),49.07,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q2,MTTR Tickets (Sev 1 + Sev 2),62,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q3,MTTR (Sev 1 + Sev 2),21.29,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q3,MTTR Avg (Sev 1 + Sev 2),65.22,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q3,MTTR Tickets (Sev 1 + Sev 2),82,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q4,MTTR (Sev 1 + Sev 2),48.11,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q4,MTTR Avg (Sev 1 + Sev 2),510.28,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-Q4,MTTR Tickets (Sev 1 + Sev 2),43,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-YTD,MTTR (Sev 1 + Sev 2),23.9,hours,Jira,Yes (partial),"Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-YTD,MTTR Avg (Sev 1 + Sev 2),159.08,hours,Jira,Yes (partial),"Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
-EDU,2025-YTD,MTTR Tickets (Sev 1 + Sev 2),192,count,Jira,Yes (partial),"Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
-EDU,2026-Q1,MTTR (Sev 1 + Sev 2),24.81,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
-EDU,2026-Q1,MTTR Avg (Sev 1 + Sev 2),83.13,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
-EDU,2026-Q1,MTTR Tickets (Sev 1 + Sev 2),23,count,Jira,Yes (partial),"Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
-EDU,2026-Q2,MTTR (Sev 1 + Sev 2),170.96,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
-EDU,2026-Q2,MTTR Avg (Sev 1 + Sev 2),876.36,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
-EDU,2026-Q2,MTTR Tickets (Sev 1 + Sev 2),21,count,Jira,Yes (partial),"Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
-EDU,2026-YTD,MTTR (Sev 1 + Sev 2),78.35,hours,Jira,Yes (partial),"Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
-EDU,2026-YTD,MTTR Avg (Sev 1 + Sev 2),461.72,hours,Jira,Yes (partial),"Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
-EDU,2026-YTD,MTTR Tickets (Sev 1 + Sev 2),44,count,Jira,Yes (partial),"Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1,MTTR (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1,MTTR Avg (Sev 1 + Sev 2),42.09,hours,Jira,Yes (partial),"2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1,MTTR Tickets (Sev 1 + Sev 2),5,count,Jira,Yes (partial),"2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1-S2,MTTR (Sev 1 + Sev 2),23.85,hours,Jira,Yes (partial),"2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1-S2,MTTR Avg (Sev 1 + Sev 2),63.31,hours,Jira,Yes (partial),"2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1-S2,MTTR Tickets (Sev 1 + Sev 2),3,count,Jira,Yes (partial),"2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1-S5,MTTR (Sev 1 + Sev 2),0.26,hours,Jira,Yes (partial),"2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1-S5,MTTR Avg (Sev 1 + Sev 2),0.26,hours,Jira,Yes (partial),"2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1-S5,MTTR Tickets (Sev 1 + Sev 2),1,count,Jira,Yes (partial),"2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1-S6,MTTR (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1-S6,MTTR Avg (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q1-S6,MTTR Tickets (Sev 1 + Sev 2),1,count,Jira,Yes (partial),"2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2,MTTR (Sev 1 + Sev 2),5.82,hours,Jira,Yes (partial),"2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2,MTTR Avg (Sev 1 + Sev 2),49.07,hours,Jira,Yes (partial),"2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2,MTTR Tickets (Sev 1 + Sev 2),62,count,Jira,Yes (partial),"2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S1,MTTR (Sev 1 + Sev 2),2.54,hours,Jira,Yes (partial),"2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S1,MTTR Avg (Sev 1 + Sev 2),7.59,hours,Jira,Yes (partial),"2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S1,MTTR Tickets (Sev 1 + Sev 2),19,count,Jira,Yes (partial),"2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S2,MTTR (Sev 1 + Sev 2),5.26,hours,Jira,Yes (partial),"2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S2,MTTR Avg (Sev 1 + Sev 2),14.25,hours,Jira,Yes (partial),"2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S2,MTTR Tickets (Sev 1 + Sev 2),9,count,Jira,Yes (partial),"2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S3,MTTR (Sev 1 + Sev 2),39.03,hours,Jira,Yes (partial),"2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S3,MTTR Avg (Sev 1 + Sev 2),32.84,hours,Jira,Yes (partial),"2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S3,MTTR Tickets (Sev 1 + Sev 2),8,count,Jira,Yes (partial),"2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S4,MTTR (Sev 1 + Sev 2),48.83,hours,Jira,Yes (partial),"2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S4,MTTR Avg (Sev 1 + Sev 2),140.43,hours,Jira,Yes (partial),"2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S4,MTTR Tickets (Sev 1 + Sev 2),17,count,Jira,Yes (partial),"2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S5,MTTR (Sev 1 + Sev 2),1.27,hours,Jira,Yes (partial),"2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S5,MTTR Avg (Sev 1 + Sev 2),2.27,hours,Jira,Yes (partial),"2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S5,MTTR Tickets (Sev 1 + Sev 2),3,count,Jira,Yes (partial),"2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S6,MTTR (Sev 1 + Sev 2),0.73,hours,Jira,Yes (partial),"2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S6,MTTR Avg (Sev 1 + Sev 2),0.73,hours,Jira,Yes (partial),"2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q2-S6,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3,MTTR (Sev 1 + Sev 2),21.29,hours,Jira,Yes (partial),"2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3,MTTR Avg (Sev 1 + Sev 2),65.22,hours,Jira,Yes (partial),"2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3,MTTR Tickets (Sev 1 + Sev 2),82,count,Jira,Yes (partial),"2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S1,MTTR (Sev 1 + Sev 2),16.96,hours,Jira,Yes (partial),"2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S1,MTTR Avg (Sev 1 + Sev 2),43.29,hours,Jira,Yes (partial),"2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S1,MTTR Tickets (Sev 1 + Sev 2),12,count,Jira,Yes (partial),"2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S2,MTTR (Sev 1 + Sev 2),23.9,hours,Jira,Yes (partial),"2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S2,MTTR Avg (Sev 1 + Sev 2),14.68,hours,Jira,Yes (partial),"2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S2,MTTR Tickets (Sev 1 + Sev 2),20,count,Jira,Yes (partial),"2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S3,MTTR (Sev 1 + Sev 2),51.88,hours,Jira,Yes (partial),"2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S3,MTTR Avg (Sev 1 + Sev 2),54.09,hours,Jira,Yes (partial),"2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S3,MTTR Tickets (Sev 1 + Sev 2),9,count,Jira,Yes (partial),"2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S4,MTTR (Sev 1 + Sev 2),88.8,hours,Jira,Yes (partial),"2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S4,MTTR Avg (Sev 1 + Sev 2),69.48,hours,Jira,Yes (partial),"2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S4,MTTR Tickets (Sev 1 + Sev 2),11,count,Jira,Yes (partial),"2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S5,MTTR (Sev 1 + Sev 2),25.48,hours,Jira,Yes (partial),"2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S5,MTTR Avg (Sev 1 + Sev 2),25.48,hours,Jira,Yes (partial),"2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S5,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S6,MTTR (Sev 1 + Sev 2),17.62,hours,Jira,Yes (partial),"2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S6,MTTR Avg (Sev 1 + Sev 2),188.7,hours,Jira,Yes (partial),"2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q3-S6,MTTR Tickets (Sev 1 + Sev 2),16,count,Jira,Yes (partial),"2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4,MTTR (Sev 1 + Sev 2),48.11,hours,Jira,Yes (partial),"2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4,MTTR Avg (Sev 1 + Sev 2),510.28,hours,Jira,Yes (partial),"2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4,MTTR Tickets (Sev 1 + Sev 2),43,count,Jira,Yes (partial),"2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S1,MTTR (Sev 1 + Sev 2),19.62,hours,Jira,Yes (partial),"2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S1,MTTR Avg (Sev 1 + Sev 2),23.52,hours,Jira,Yes (partial),"2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S1,MTTR Tickets (Sev 1 + Sev 2),6,count,Jira,Yes (partial),"2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S2,MTTR (Sev 1 + Sev 2),885.89,hours,Jira,Yes (partial),"2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S2,MTTR Avg (Sev 1 + Sev 2),1396.18,hours,Jira,Yes (partial),"2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S2,MTTR Tickets (Sev 1 + Sev 2),15,count,Jira,Yes (partial),"2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S3,MTTR (Sev 1 + Sev 2),26.45,hours,Jira,Yes (partial),"2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S3,MTTR Avg (Sev 1 + Sev 2),35.52,hours,Jira,Yes (partial),"2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S3,MTTR Tickets (Sev 1 + Sev 2),7,count,Jira,Yes (partial),"2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S4,MTTR (Sev 1 + Sev 2),84.47,hours,Jira,Yes (partial),"2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S4,MTTR Avg (Sev 1 + Sev 2),72.98,hours,Jira,Yes (partial),"2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S4,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S5,MTTR (Sev 1 + Sev 2),50.89,hours,Jira,Yes (partial),"2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S5,MTTR Avg (Sev 1 + Sev 2),50.91,hours,Jira,Yes (partial),"2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S5,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S6,MTTR (Sev 1 + Sev 2),2.06,hours,Jira,Yes (partial),"2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S6,MTTR Avg (Sev 1 + Sev 2),16.32,hours,Jira,Yes (partial),"2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-Q4-S6,MTTR Tickets (Sev 1 + Sev 2),7,count,Jira,Yes (partial),"2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-YTD,MTTR (Sev 1 + Sev 2),23.9,hours,Jira,Yes (partial),"2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-YTD,MTTR Avg (Sev 1 + Sev 2),159.08,hours,Jira,Yes (partial),"2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2025-YTD,MTTR Tickets (Sev 1 + Sev 2),192,count,Jira,Yes (partial),"2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1,MTTR (Sev 1 + Sev 2),24.81,hours,Jira,Yes (partial),"2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1,MTTR Avg (Sev 1 + Sev 2),83.13,hours,Jira,Yes (partial),"2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1,MTTR Tickets (Sev 1 + Sev 2),23,count,Jira,Yes (partial),"2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S1,MTTR (Sev 1 + Sev 2),25.92,hours,Jira,Yes (partial),"2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S1,MTTR Avg (Sev 1 + Sev 2),131.8,hours,Jira,Yes (partial),"2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S1,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S2,MTTR (Sev 1 + Sev 2),118.39,hours,Jira,Yes (partial),"2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S2,MTTR Avg (Sev 1 + Sev 2),76.4,hours,Jira,Yes (partial),"2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S2,MTTR Tickets (Sev 1 + Sev 2),5,count,Jira,Yes (partial),"2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S3,MTTR (Sev 1 + Sev 2),3.57,hours,Jira,Yes (partial),"2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S3,MTTR Avg (Sev 1 + Sev 2),3.57,hours,Jira,Yes (partial),"2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S3,MTTR Tickets (Sev 1 + Sev 2),1,count,Jira,Yes (partial),"2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S4,MTTR (Sev 1 + Sev 2),5.62,hours,Jira,Yes (partial),"2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S4,MTTR Avg (Sev 1 + Sev 2),86.24,hours,Jira,Yes (partial),"2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S4,MTTR Tickets (Sev 1 + Sev 2),9,count,Jira,Yes (partial),"2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S5,MTTR (Sev 1 + Sev 2),100.17,hours,Jira,Yes (partial),"2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S5,MTTR Avg (Sev 1 + Sev 2),100.17,hours,Jira,Yes (partial),"2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S5,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S6,MTTR (Sev 1 + Sev 2),11.38,hours,Jira,Yes (partial),"2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S6,MTTR Avg (Sev 1 + Sev 2),11.38,hours,Jira,Yes (partial),"2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q1-S6,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2,MTTR (Sev 1 + Sev 2),170.96,hours,Jira,Yes (partial),"2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2,MTTR Avg (Sev 1 + Sev 2),876.36,hours,Jira,Yes (partial),"2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2,MTTR Tickets (Sev 1 + Sev 2),21,count,Jira,Yes (partial),"2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S1,MTTR (Sev 1 + Sev 2),168.21,hours,Jira,Yes (partial),"2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S1,MTTR Avg (Sev 1 + Sev 2),1018.23,hours,Jira,Yes (partial),"2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S1,MTTR Tickets (Sev 1 + Sev 2),8,count,Jira,Yes (partial),"2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S2,MTTR (Sev 1 + Sev 2),1358.39,hours,Jira,Yes (partial),"2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S2,MTTR Avg (Sev 1 + Sev 2),1443.7,hours,Jira,Yes (partial),"2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S2,MTTR Tickets (Sev 1 + Sev 2),7,count,Jira,Yes (partial),"2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S3,MTTR (Sev 1 + Sev 2),0.92,hours,Jira,Yes (partial),"2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S3,MTTR Avg (Sev 1 + Sev 2),21.33,hours,Jira,Yes (partial),"2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S3,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S4,MTTR (Sev 1 + Sev 2),33.26,hours,Jira,Yes (partial),"2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S4,MTTR Avg (Sev 1 + Sev 2),33.26,hours,Jira,Yes (partial),"2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-Q2-S4,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-YTD,MTTR (Sev 1 + Sev 2),78.35,hours,Jira,Yes (partial),"2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-YTD,MTTR Avg (Sev 1 + Sev 2),461.72,hours,Jira,Yes (partial),"2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
-Team Webstore,2026-YTD,MTTR Tickets (Sev 1 + Sev 2),44,count,Jira,Yes (partial),"2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-03T17:30:16.041Z
+EDU,2025-Q1,MTTR (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q1,MTTR Avg (Sev 1 + Sev 2),42.09,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q1,MTTR Tickets (Sev 1 + Sev 2),5,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q2,MTTR (Sev 1 + Sev 2),5.82,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q2,MTTR Avg (Sev 1 + Sev 2),49.07,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q2,MTTR Tickets (Sev 1 + Sev 2),62,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q3,MTTR (Sev 1 + Sev 2),21.29,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q3,MTTR Avg (Sev 1 + Sev 2),65.22,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q3,MTTR Tickets (Sev 1 + Sev 2),82,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q4,MTTR (Sev 1 + Sev 2),48.11,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q4,MTTR Avg (Sev 1 + Sev 2),510.28,hours,Jira,Yes (partial),"Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-Q4,MTTR Tickets (Sev 1 + Sev 2),43,count,Jira,Yes (partial),"Portfolio rollup. 2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-YTD,MTTR (Sev 1 + Sev 2),23.9,hours,Jira,Yes (partial),"Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-YTD,MTTR Avg (Sev 1 + Sev 2),159.08,hours,Jira,Yes (partial),"Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-05T17:15:33.505Z
+EDU,2025-YTD,MTTR Tickets (Sev 1 + Sev 2),192,count,Jira,Yes (partial),"Portfolio rollup. 2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-05T17:15:33.505Z
+EDU,2026-Q1,MTTR (Sev 1 + Sev 2),24.81,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-05T17:15:33.505Z
+EDU,2026-Q1,MTTR Avg (Sev 1 + Sev 2),83.13,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-05T17:15:33.505Z
+EDU,2026-Q1,MTTR Tickets (Sev 1 + Sev 2),23,count,Jira,Yes (partial),"Portfolio rollup. 2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-05T17:15:33.505Z
+EDU,2026-Q2,MTTR (Sev 1 + Sev 2),170.96,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-05T17:15:33.505Z
+EDU,2026-Q2,MTTR Avg (Sev 1 + Sev 2),876.36,hours,Jira,Yes (partial),"Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-05T17:15:33.505Z
+EDU,2026-Q2,MTTR Tickets (Sev 1 + Sev 2),21,count,Jira,Yes (partial),"Portfolio rollup. 2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-05T17:15:33.505Z
+EDU,2026-YTD,MTTR (Sev 1 + Sev 2),78.35,hours,Jira,Yes (partial),"Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-05T17:15:33.505Z
+EDU,2026-YTD,MTTR Avg (Sev 1 + Sev 2),461.72,hours,Jira,Yes (partial),"Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-05T17:15:33.505Z
+EDU,2026-YTD,MTTR Tickets (Sev 1 + Sev 2),44,count,Jira,Yes (partial),"Portfolio rollup. 2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1,MTTR (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1,MTTR Avg (Sev 1 + Sev 2),42.09,hours,Jira,Yes (partial),"2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1,MTTR Tickets (Sev 1 + Sev 2),5,count,Jira,Yes (partial),"2025-Q1: 5 Sev 1/2 ticket(s), median 20.23h / avg 42.09h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1-S2,MTTR (Sev 1 + Sev 2),23.85,hours,Jira,Yes (partial),"2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1-S2,MTTR Avg (Sev 1 + Sev 2),63.31,hours,Jira,Yes (partial),"2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1-S2,MTTR Tickets (Sev 1 + Sev 2),3,count,Jira,Yes (partial),"2025-Q1-S2: 3 Sev 1/2 ticket(s), median 23.85h / avg 63.31h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1-S5,MTTR (Sev 1 + Sev 2),0.26,hours,Jira,Yes (partial),"2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1-S5,MTTR Avg (Sev 1 + Sev 2),0.26,hours,Jira,Yes (partial),"2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1-S5,MTTR Tickets (Sev 1 + Sev 2),1,count,Jira,Yes (partial),"2025-Q1-S5: 1 Sev 1/2 ticket(s), median 0.26h / avg 0.26h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1-S6,MTTR (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1-S6,MTTR Avg (Sev 1 + Sev 2),20.23,hours,Jira,Yes (partial),"2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q1-S6,MTTR Tickets (Sev 1 + Sev 2),1,count,Jira,Yes (partial),"2025-Q1-S6: 1 Sev 1/2 ticket(s), median 20.23h / avg 20.23h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2,MTTR (Sev 1 + Sev 2),5.82,hours,Jira,Yes (partial),"2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2,MTTR Avg (Sev 1 + Sev 2),49.07,hours,Jira,Yes (partial),"2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2,MTTR Tickets (Sev 1 + Sev 2),62,count,Jira,Yes (partial),"2025-Q2: 62 Sev 1/2 ticket(s), median 5.82h / avg 49.07h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S1,MTTR (Sev 1 + Sev 2),2.54,hours,Jira,Yes (partial),"2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S1,MTTR Avg (Sev 1 + Sev 2),7.59,hours,Jira,Yes (partial),"2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S1,MTTR Tickets (Sev 1 + Sev 2),19,count,Jira,Yes (partial),"2025-Q2-S1: 19 Sev 1/2 ticket(s), median 2.54h / avg 7.59h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S2,MTTR (Sev 1 + Sev 2),5.26,hours,Jira,Yes (partial),"2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S2,MTTR Avg (Sev 1 + Sev 2),14.25,hours,Jira,Yes (partial),"2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S2,MTTR Tickets (Sev 1 + Sev 2),9,count,Jira,Yes (partial),"2025-Q2-S2: 9 Sev 1/2 ticket(s), median 5.26h / avg 14.25h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S3,MTTR (Sev 1 + Sev 2),39.03,hours,Jira,Yes (partial),"2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S3,MTTR Avg (Sev 1 + Sev 2),32.84,hours,Jira,Yes (partial),"2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S3,MTTR Tickets (Sev 1 + Sev 2),8,count,Jira,Yes (partial),"2025-Q2-S3: 8 Sev 1/2 ticket(s), median 39.03h / avg 32.84h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S4,MTTR (Sev 1 + Sev 2),48.83,hours,Jira,Yes (partial),"2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S4,MTTR Avg (Sev 1 + Sev 2),140.43,hours,Jira,Yes (partial),"2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S4,MTTR Tickets (Sev 1 + Sev 2),17,count,Jira,Yes (partial),"2025-Q2-S4: 17 Sev 1/2 ticket(s), median 48.83h / avg 140.43h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S5,MTTR (Sev 1 + Sev 2),1.27,hours,Jira,Yes (partial),"2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S5,MTTR Avg (Sev 1 + Sev 2),2.27,hours,Jira,Yes (partial),"2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S5,MTTR Tickets (Sev 1 + Sev 2),3,count,Jira,Yes (partial),"2025-Q2-S5: 3 Sev 1/2 ticket(s), median 1.27h / avg 2.27h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S6,MTTR (Sev 1 + Sev 2),0.73,hours,Jira,Yes (partial),"2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S6,MTTR Avg (Sev 1 + Sev 2),0.73,hours,Jira,Yes (partial),"2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q2-S6,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2025-Q2-S6: 2 Sev 1/2 ticket(s), median 0.73h / avg 0.73h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3,MTTR (Sev 1 + Sev 2),21.29,hours,Jira,Yes (partial),"2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3,MTTR Avg (Sev 1 + Sev 2),65.22,hours,Jira,Yes (partial),"2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3,MTTR Tickets (Sev 1 + Sev 2),82,count,Jira,Yes (partial),"2025-Q3: 82 Sev 1/2 ticket(s), median 21.29h / avg 65.22h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S1,MTTR (Sev 1 + Sev 2),16.96,hours,Jira,Yes (partial),"2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S1,MTTR Avg (Sev 1 + Sev 2),43.29,hours,Jira,Yes (partial),"2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S1,MTTR Tickets (Sev 1 + Sev 2),12,count,Jira,Yes (partial),"2025-Q3-S1: 12 Sev 1/2 ticket(s), median 16.96h / avg 43.29h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S2,MTTR (Sev 1 + Sev 2),23.9,hours,Jira,Yes (partial),"2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S2,MTTR Avg (Sev 1 + Sev 2),14.68,hours,Jira,Yes (partial),"2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S2,MTTR Tickets (Sev 1 + Sev 2),20,count,Jira,Yes (partial),"2025-Q3-S2: 20 Sev 1/2 ticket(s), median 23.9h / avg 14.68h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S3,MTTR (Sev 1 + Sev 2),51.88,hours,Jira,Yes (partial),"2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S3,MTTR Avg (Sev 1 + Sev 2),54.09,hours,Jira,Yes (partial),"2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S3,MTTR Tickets (Sev 1 + Sev 2),9,count,Jira,Yes (partial),"2025-Q3-S3: 9 Sev 1/2 ticket(s), median 51.88h / avg 54.09h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S4,MTTR (Sev 1 + Sev 2),88.8,hours,Jira,Yes (partial),"2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S4,MTTR Avg (Sev 1 + Sev 2),69.48,hours,Jira,Yes (partial),"2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S4,MTTR Tickets (Sev 1 + Sev 2),11,count,Jira,Yes (partial),"2025-Q3-S4: 11 Sev 1/2 ticket(s), median 88.8h / avg 69.48h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S5,MTTR (Sev 1 + Sev 2),25.48,hours,Jira,Yes (partial),"2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S5,MTTR Avg (Sev 1 + Sev 2),25.48,hours,Jira,Yes (partial),"2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S5,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2025-Q3-S5: 4 Sev 1/2 ticket(s), median 25.48h / avg 25.48h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S6,MTTR (Sev 1 + Sev 2),17.62,hours,Jira,Yes (partial),"2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S6,MTTR Avg (Sev 1 + Sev 2),188.7,hours,Jira,Yes (partial),"2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q3-S6,MTTR Tickets (Sev 1 + Sev 2),16,count,Jira,Yes (partial),"2025-Q3-S6: 16 Sev 1/2 ticket(s), median 17.62h / avg 188.7h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4,MTTR (Sev 1 + Sev 2),48.11,hours,Jira,Yes (partial),"2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4,MTTR Avg (Sev 1 + Sev 2),510.28,hours,Jira,Yes (partial),"2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4,MTTR Tickets (Sev 1 + Sev 2),43,count,Jira,Yes (partial),"2025-Q4: 43 Sev 1/2 ticket(s), median 48.11h / avg 510.28h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S1,MTTR (Sev 1 + Sev 2),19.62,hours,Jira,Yes (partial),"2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S1,MTTR Avg (Sev 1 + Sev 2),23.52,hours,Jira,Yes (partial),"2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S1,MTTR Tickets (Sev 1 + Sev 2),6,count,Jira,Yes (partial),"2025-Q4-S1: 6 Sev 1/2 ticket(s), median 19.62h / avg 23.52h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S2,MTTR (Sev 1 + Sev 2),885.89,hours,Jira,Yes (partial),"2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S2,MTTR Avg (Sev 1 + Sev 2),1396.18,hours,Jira,Yes (partial),"2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S2,MTTR Tickets (Sev 1 + Sev 2),15,count,Jira,Yes (partial),"2025-Q4-S2: 15 Sev 1/2 ticket(s), median 885.89h / avg 1396.18h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S3,MTTR (Sev 1 + Sev 2),26.45,hours,Jira,Yes (partial),"2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S3,MTTR Avg (Sev 1 + Sev 2),35.52,hours,Jira,Yes (partial),"2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S3,MTTR Tickets (Sev 1 + Sev 2),7,count,Jira,Yes (partial),"2025-Q4-S3: 7 Sev 1/2 ticket(s), median 26.45h / avg 35.52h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S4,MTTR (Sev 1 + Sev 2),84.47,hours,Jira,Yes (partial),"2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S4,MTTR Avg (Sev 1 + Sev 2),72.98,hours,Jira,Yes (partial),"2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S4,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2025-Q4-S4: 4 Sev 1/2 ticket(s), median 84.47h / avg 72.98h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S5,MTTR (Sev 1 + Sev 2),50.89,hours,Jira,Yes (partial),"2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S5,MTTR Avg (Sev 1 + Sev 2),50.91,hours,Jira,Yes (partial),"2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S5,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2025-Q4-S5: 4 Sev 1/2 ticket(s), median 50.89h / avg 50.91h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S6,MTTR (Sev 1 + Sev 2),2.06,hours,Jira,Yes (partial),"2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S6,MTTR Avg (Sev 1 + Sev 2),16.32,hours,Jira,Yes (partial),"2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-Q4-S6,MTTR Tickets (Sev 1 + Sev 2),7,count,Jira,Yes (partial),"2025-Q4-S6: 7 Sev 1/2 ticket(s), median 2.06h / avg 16.32h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-YTD,MTTR (Sev 1 + Sev 2),23.9,hours,Jira,Yes (partial),"2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-YTD,MTTR Avg (Sev 1 + Sev 2),159.08,hours,Jira,Yes (partial),"2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2025-YTD,MTTR Tickets (Sev 1 + Sev 2),192,count,Jira,Yes (partial),"2025-YTD: 192 Sev 1/2 ticket(s), median 23.9h / avg 159.08h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1,MTTR (Sev 1 + Sev 2),24.81,hours,Jira,Yes (partial),"2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1,MTTR Avg (Sev 1 + Sev 2),83.13,hours,Jira,Yes (partial),"2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1,MTTR Tickets (Sev 1 + Sev 2),23,count,Jira,Yes (partial),"2026-Q1: 23 Sev 1/2 ticket(s), median 24.81h / avg 83.13h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S1,MTTR (Sev 1 + Sev 2),25.92,hours,Jira,Yes (partial),"2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S1,MTTR Avg (Sev 1 + Sev 2),131.8,hours,Jira,Yes (partial),"2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S1,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2026-Q1-S1: 4 Sev 1/2 ticket(s), median 25.92h / avg 131.8h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S2,MTTR (Sev 1 + Sev 2),118.39,hours,Jira,Yes (partial),"2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S2,MTTR Avg (Sev 1 + Sev 2),76.4,hours,Jira,Yes (partial),"2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S2,MTTR Tickets (Sev 1 + Sev 2),5,count,Jira,Yes (partial),"2026-Q1-S2: 5 Sev 1/2 ticket(s), median 118.39h / avg 76.4h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S3,MTTR (Sev 1 + Sev 2),3.57,hours,Jira,Yes (partial),"2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S3,MTTR Avg (Sev 1 + Sev 2),3.57,hours,Jira,Yes (partial),"2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S3,MTTR Tickets (Sev 1 + Sev 2),1,count,Jira,Yes (partial),"2026-Q1-S3: 1 Sev 1/2 ticket(s), median 3.57h / avg 3.57h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S4,MTTR (Sev 1 + Sev 2),5.62,hours,Jira,Yes (partial),"2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S4,MTTR Avg (Sev 1 + Sev 2),86.24,hours,Jira,Yes (partial),"2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S4,MTTR Tickets (Sev 1 + Sev 2),9,count,Jira,Yes (partial),"2026-Q1-S4: 9 Sev 1/2 ticket(s), median 5.62h / avg 86.24h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S5,MTTR (Sev 1 + Sev 2),100.17,hours,Jira,Yes (partial),"2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S5,MTTR Avg (Sev 1 + Sev 2),100.17,hours,Jira,Yes (partial),"2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S5,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2026-Q1-S5: 2 Sev 1/2 ticket(s), median 100.17h / avg 100.17h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S6,MTTR (Sev 1 + Sev 2),11.38,hours,Jira,Yes (partial),"2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S6,MTTR Avg (Sev 1 + Sev 2),11.38,hours,Jira,Yes (partial),"2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q1-S6,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2026-Q1-S6: 2 Sev 1/2 ticket(s), median 11.38h / avg 11.38h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2,MTTR (Sev 1 + Sev 2),170.96,hours,Jira,Yes (partial),"2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2,MTTR Avg (Sev 1 + Sev 2),876.36,hours,Jira,Yes (partial),"2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2,MTTR Tickets (Sev 1 + Sev 2),21,count,Jira,Yes (partial),"2026-Q2: 21 Sev 1/2 ticket(s), median 170.96h / avg 876.36h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S1,MTTR (Sev 1 + Sev 2),168.21,hours,Jira,Yes (partial),"2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S1,MTTR Avg (Sev 1 + Sev 2),1018.23,hours,Jira,Yes (partial),"2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S1,MTTR Tickets (Sev 1 + Sev 2),8,count,Jira,Yes (partial),"2026-Q2-S1: 8 Sev 1/2 ticket(s), median 168.21h / avg 1018.23h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S2,MTTR (Sev 1 + Sev 2),1358.39,hours,Jira,Yes (partial),"2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S2,MTTR Avg (Sev 1 + Sev 2),1443.7,hours,Jira,Yes (partial),"2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S2,MTTR Tickets (Sev 1 + Sev 2),7,count,Jira,Yes (partial),"2026-Q2-S2: 7 Sev 1/2 ticket(s), median 1358.39h / avg 1443.7h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S3,MTTR (Sev 1 + Sev 2),0.92,hours,Jira,Yes (partial),"2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S3,MTTR Avg (Sev 1 + Sev 2),21.33,hours,Jira,Yes (partial),"2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S3,MTTR Tickets (Sev 1 + Sev 2),4,count,Jira,Yes (partial),"2026-Q2-S3: 4 Sev 1/2 ticket(s), median 0.92h / avg 21.33h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S4,MTTR (Sev 1 + Sev 2),33.26,hours,Jira,Yes (partial),"2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S4,MTTR Avg (Sev 1 + Sev 2),33.26,hours,Jira,Yes (partial),"2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-Q2-S4,MTTR Tickets (Sev 1 + Sev 2),2,count,Jira,Yes (partial),"2026-Q2-S4: 2 Sev 1/2 ticket(s), median 33.26h / avg 33.26h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-YTD,MTTR (Sev 1 + Sev 2),78.35,hours,Jira,Yes (partial),"2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-YTD,MTTR Avg (Sev 1 + Sev 2),461.72,hours,Jira,Yes (partial),"2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-05T17:15:33.505Z
+Team Webstore,2026-YTD,MTTR Tickets (Sev 1 + Sev 2),44,count,Jira,Yes (partial),"2026-YTD: 44 Sev 1/2 ticket(s), median 78.35h / avg 461.72h business time.",2026-06-05T17:15:33.505Z

@@ -1,9 +1,9 @@
 {
-  "refreshedAt": "2026-05-28T17:57:57.965Z",
+  "refreshedAt": "2026-06-05T17:33:34.517Z",
   "source": "Cursor",
   "usersTracked": 30,
   "status": "completed",
-  "note": "Processed 6 quarter(s), 318 total row(s) (0 retained).",
+  "note": "Processed 6 quarter(s), 326 total row(s) (0 retained).",
   "metrics": [
     {
       "team": "Team Connexpoint",
