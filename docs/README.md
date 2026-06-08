@@ -118,7 +118,7 @@ Copy `.env.example` to `.env.local` and fill in:
 | `JIRA_BASE_URL` | Atlassian Cloud instance URL |
 | `JIRA_EMAIL` | Jira account email for Basic auth |
 | `JIRA_API_TOKEN` | Jira API token |
-| `GITHUB_TOKEN` | GitHub PAT with `repo` and `read:org` scopes for vancopayments and SmartTuition |
+| `AI_METRICS_GITHUB_TOKEN` | GitHub PAT with `repo` and `read:org` scopes for vancopayments and SmartTuition |
 | `CURSOR_TOKEN` | Cursor Admin API key with `admin:*` scope (from team settings) |
 
 ## Output

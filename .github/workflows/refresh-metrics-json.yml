@@ -7,6 +7,8 @@ on:
         description: Optional quarter override in YYYY-Q# format
         required: false
         type: string
+  schedule:
+    - cron: "0 12 * * 1" # Mondays 12:00 UTC = 6:00 AM CDMX (UTC-6)
 
 permissions:
   contents: write
@@ -36,7 +38,9 @@ jobs:
           JIRA_BASE_URL=${{ secrets.JIRA_BASE_URL }}
           JIRA_EMAIL=${{ secrets.JIRA_EMAIL }}
           JIRA_API_TOKEN=${{ secrets.JIRA_API_TOKEN }}
-          GITHUB_TOKEN=${{ secrets.AI_METRICS_GITHUB_TOKEN }}
+          AI_METRICS_GITHUB_TOKEN=${{ secrets.AI_METRICS_GITHUB_TOKEN }}
+          CURSOR_TOKEN=${{ secrets.CURSOR_TOKEN }}
+          FEATHERY_TOKEN=${{ secrets.FEATHERY_TOKEN }}
           EOF
 
       - name: Refresh metrics assets
@@ -47,10 +51,33 @@ jobs:
             npm run refresh:static-metrics
           fi
 
+      - name: Detect data changes
+        id: detect
+        run: |
+          if git diff --quiet -- public/data/metrics.generated.json backend/published/json/metrics.generated.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Commit refreshed metrics
+        if: steps.detect.outputs.changed == 'true'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "refresh metrics json"
           file_pattern: |
             backend/published/json/metrics.generated.json
             public/data/metrics.generated.json
+            backend/published/refresh-summary.json
+
+      - name: Render run log
+        if: always()
+        run: node scripts/published/render-run-log.mjs
+
+      - name: Upload run log artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: refresh-summary
+          path: backend/published/refresh-summary.json
+          if-no-files-found: warn

@@ -353,8 +353,8 @@ async function main() {
     return;
   }
 
-  if (!env.GITHUB_TOKEN) {
-    throw new Error("Missing GITHUB_TOKEN in .env.local");
+  if (!env.AI_METRICS_GITHUB_TOKEN) {
+    throw new Error("Missing AI_METRICS_GITHUB_TOKEN in .env.local");
   }
 
   const loginToUser = new Map();
@@ -408,7 +408,7 @@ async function main() {
 
       let mergedPrs;
       try {
-        mergedPrs = await fetchMergedPrs(repoFullName, quarter.start, quarter.end, env.GITHUB_TOKEN);
+        mergedPrs = await fetchMergedPrs(repoFullName, quarter.start, quarter.end, env.AI_METRICS_GITHUB_TOKEN);
       } catch (error) {
         console.error(`  Failed to fetch PRs for ${repoFullName}: ${error.message}`);
         continue;
@@ -432,7 +432,7 @@ async function main() {
 
         const textsToScan = [pr.title ?? "", pr.body ?? ""];
 
-        const commitMessages = await fetchPrCommitMessages(repoFullName, pr.number, env.GITHUB_TOKEN);
+        const commitMessages = await fetchPrCommitMessages(repoFullName, pr.number, env.AI_METRICS_GITHUB_TOKEN);
         textsToScan.push(...commitMessages);
 
         const isAi = hasAiSignals(textsToScan);

@@ -129,8 +129,8 @@ async function main() {
   const envText = await fs.readFile(envPath, "utf8").catch(() => "");
   const env = parseEnv(envText);
 
-  if (!env.GITHUB_TOKEN) {
-    throw new Error("Missing GITHUB_TOKEN in .env.local");
+  if (!env.AI_METRICS_GITHUB_TOKEN) {
+    throw new Error("Missing AI_METRICS_GITHUB_TOKEN in .env.local");
   }
 
   const identityMap = JSON.parse(await fs.readFile(identityMapPath, "utf8"));
@@ -154,7 +154,7 @@ async function main() {
     let repos = [];
 
     try {
-      repos = await listOrgRepos(org, env.GITHUB_TOKEN);
+      repos = await listOrgRepos(org, env.AI_METRICS_GITHUB_TOKEN);
     } catch (error) {
       console.warn(`  Org repos API failed for ${org}: ${error.message}`);
     }
@@ -164,7 +164,7 @@ async function main() {
     if (activeRepos.length === 0) {
       console.log(`  Org repos API returned 0 results, falling back to search API...`);
       try {
-        const searchResults = await searchOrgRepos(org, env.GITHUB_TOKEN);
+        const searchResults = await searchOrgRepos(org, env.AI_METRICS_GITHUB_TOKEN);
         activeRepos = searchResults.filter((r) => !r.archived && !r.disabled);
         console.log(`  Search API found ${activeRepos.length} repos with recent activity`);
       } catch (error) {
@@ -179,7 +179,7 @@ async function main() {
       let contributors;
 
       try {
-        contributors = await listContributors(fullName, env.GITHUB_TOKEN);
+        contributors = await listContributors(fullName, env.AI_METRICS_GITHUB_TOKEN);
       } catch (error) {
         console.error(`  Skipping ${fullName}: ${error.message}`);
         continue;
