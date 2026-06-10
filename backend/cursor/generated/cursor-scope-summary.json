@@ -1,10 +1,150 @@
 {
-  "refreshedAt": "2026-06-05T18:47:32.172Z",
+  "refreshedAt": "2026-06-10T17:40:36.692Z",
   "source": "Cursor",
   "usersTracked": 30,
   "status": "completed",
-  "note": "Processed 1 quarter(s), 326 total row(s) (277 retained).",
+  "note": "Processed 6 quarter(s), 1164 total row(s) (0 retained).",
   "metrics": [
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q1",
+      "activeMembers": 0,
+      "eligibleMembers": 9,
+      "adoptionRate": 0
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q1",
+      "activeMembers": 0,
+      "eligibleMembers": 4,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q1",
+      "activeMembers": 0,
+      "eligibleMembers": 8,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q1",
+      "activeMembers": 0,
+      "eligibleMembers": 9,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q2",
+      "activeMembers": 2,
+      "eligibleMembers": 9,
+      "adoptionRate": 22.2222
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q2",
+      "activeMembers": 0,
+      "eligibleMembers": 4,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q2",
+      "activeMembers": 0,
+      "eligibleMembers": 8,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q2",
+      "activeMembers": 0,
+      "eligibleMembers": 9,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q3",
+      "activeMembers": 2,
+      "eligibleMembers": 9,
+      "adoptionRate": 22.2222
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q3",
+      "activeMembers": 0,
+      "eligibleMembers": 4,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q3",
+      "activeMembers": 0,
+      "eligibleMembers": 8,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q3",
+      "activeMembers": 0,
+      "eligibleMembers": 9,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2025-Q4",
+      "activeMembers": 2,
+      "eligibleMembers": 9,
+      "adoptionRate": 22.2222
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2025-Q4",
+      "activeMembers": 0,
+      "eligibleMembers": 4,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2025-Q4",
+      "activeMembers": 0,
+      "eligibleMembers": 8,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2025-Q4",
+      "activeMembers": 0,
+      "eligibleMembers": 9,
+      "adoptionRate": 0
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q1",
+      "activeMembers": 9,
+      "eligibleMembers": 9,
+      "adoptionRate": 100
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q1",
+      "activeMembers": 4,
+      "eligibleMembers": 4,
+      "adoptionRate": 100
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q1",
+      "activeMembers": 8,
+      "eligibleMembers": 8,
+      "adoptionRate": 100
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2026-Q1",
+      "activeMembers": 8,
+      "eligibleMembers": 9,
+      "adoptionRate": 88.8889
+    },
     {
       "team": "Team Connexpoint",
       "quarter": "2026-Q2",
@@ -13,17 +153,17 @@
       "adoptionRate": 100
     },
     {
-      "team": "Team Webstore",
+      "team": "ASAP",
       "quarter": "2026-Q2",
-      "activeMembers": 9,
-      "eligibleMembers": 9,
+      "activeMembers": 4,
+      "eligibleMembers": 4,
       "adoptionRate": 100
     },
     {
-      "team": "ASAP",
+      "team": "Team Webstore",
       "quarter": "2026-Q2",
-      "activeMembers": 3,
-      "eligibleMembers": 3,
+      "activeMembers": 8,
+      "eligibleMembers": 8,
       "adoptionRate": 100
     },
     {

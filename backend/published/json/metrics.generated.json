@@ -1048,10 +1048,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1072,8 +1072,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1202,10 +1202,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1226,8 +1226,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1323,10 +1323,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1347,8 +1347,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1444,10 +1444,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1468,8 +1468,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1565,10 +1565,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1589,8 +1589,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1719,10 +1719,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1743,8 +1743,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1873,10 +1873,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -1897,8 +1897,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2025,12 +2025,12 @@
       "team": "ASAP",
       "quarter": "2025-Q2",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 3 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2051,8 +2051,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2181,10 +2181,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2205,8 +2205,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2214,10 +2214,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2238,8 +2238,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2368,10 +2368,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2392,8 +2392,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2522,10 +2522,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2546,8 +2546,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2674,12 +2674,12 @@
       "team": "ASAP",
       "quarter": "2025-Q2-S4",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2700,8 +2700,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2797,10 +2797,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2821,8 +2821,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2951,10 +2951,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -2975,8 +2975,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3070,12 +3070,12 @@
       "team": "ASAP",
       "quarter": "2025-Q3",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 3 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3096,8 +3096,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3226,10 +3226,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3250,19 +3250,19 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
       "quarter": "2025-Q3-S1",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3283,8 +3283,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3413,10 +3413,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3437,8 +3437,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3567,10 +3567,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3591,8 +3591,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3719,12 +3719,12 @@
       "team": "ASAP",
       "quarter": "2025-Q3-S4",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3745,8 +3745,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3875,10 +3875,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -3899,8 +3899,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4029,10 +4029,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4053,8 +4053,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4150,10 +4150,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4174,8 +4174,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4304,10 +4304,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4328,8 +4328,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4337,10 +4337,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4361,8 +4361,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4458,10 +4458,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4482,8 +4482,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4612,10 +4612,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4636,8 +4636,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4733,10 +4733,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4757,8 +4757,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4854,10 +4854,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4878,8 +4878,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4975,10 +4975,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -4999,8 +4999,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5215,12 +5215,12 @@
       "team": "ASAP",
       "quarter": "2026-Q1",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 4,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 3 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5241,8 +5241,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5369,12 +5369,12 @@
       "team": "ASAP",
       "quarter": "2026-Q1-S1",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5395,8 +5395,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5490,12 +5490,12 @@
       "team": "ASAP",
       "quarter": "2026-Q1-S2",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 4,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5516,8 +5516,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5644,12 +5644,12 @@
       "team": "ASAP",
       "quarter": "2026-Q1-S3",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 4,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5670,8 +5670,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5765,12 +5765,12 @@
       "team": "ASAP",
       "quarter": "2026-Q1-S4",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 4,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5791,8 +5791,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5886,12 +5886,12 @@
       "team": "ASAP",
       "quarter": "2026-Q1-S5",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 4,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -5912,8 +5912,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6007,12 +6007,12 @@
       "team": "ASAP",
       "quarter": "2026-Q1-S6",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 4,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6033,8 +6033,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6128,12 +6128,12 @@
       "team": "ASAP",
       "quarter": "2026-Q2",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 4,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 team members",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6143,8 +6143,8 @@
       "unit": "percent",
       "source": "GitHub",
       "automationStatus": "automated",
-      "note": "0 of 12 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "0 of 13 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "ASAP",
@@ -6154,8 +6154,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6282,12 +6282,12 @@
       "team": "ASAP",
       "quarter": "2026-Q2-S0",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 4,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6298,7 +6298,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 0 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "ASAP",
@@ -6308,19 +6308,19 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
       "quarter": "2026-Q2-S1",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 4,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6331,7 +6331,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 6 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "ASAP",
@@ -6341,8 +6341,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 3 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "4 of 4 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6469,12 +6469,12 @@
       "team": "ASAP",
       "quarter": "2026-Q2-S2",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "2 of 2 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6485,7 +6485,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 4 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "ASAP",
@@ -6495,19 +6495,19 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 1 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "2 of 2 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
       "quarter": "2026-Q2-S3",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "2 of 2 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6517,8 +6517,8 @@
       "unit": "percent",
       "source": "GitHub",
       "automationStatus": "automated",
-      "note": "0 of 2 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "0 of 3 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "ASAP",
@@ -6528,74 +6528,107 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 1 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "2 of 2 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
       "quarter": "2026-Q2-S4",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
-      "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
-    },
-    {
-      "team": "ASAP",
-      "quarter": "2026-Q2-S4",
-      "metricName": "AI-assisted Pull Request Coverage",
-      "value": 0,
-      "unit": "percent",
-      "source": "GitHub",
-      "automationStatus": "automated",
-      "note": "0 of 0 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
-    },
-    {
-      "team": "ASAP",
-      "quarter": "2026-Q2-S4",
-      "metricName": "Cursor Adoption Rate",
-      "value": 100,
-      "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 1 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "2 of 2 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
-      "quarter": "2026-Q2-S5",
-      "metricName": "AI Active Developers",
-      "value": 0,
-      "unit": "count",
-      "source": "GitHub",
-      "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
-    },
-    {
-      "team": "ASAP",
-      "quarter": "2026-Q2-S5",
+      "quarter": "2026-Q2-S4",
       "metricName": "AI-assisted Pull Request Coverage",
       "value": 0,
       "unit": "percent",
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 0 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "ASAP",
-      "quarter": "2026-Q2-S5",
+      "quarter": "2026-Q2-S4",
       "metricName": "Cursor Adoption Rate",
       "value": 100,
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 1 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "2 of 2 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q2-S5",
+      "metricName": "AI Active Developers",
+      "value": 1,
+      "unit": "count",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "1 of 2 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q2-S5",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 0 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q2-S5",
+      "metricName": "Cursor Adoption Rate",
+      "value": 50,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "1 of 2 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q2-S6",
+      "metricName": "AI Active Developers",
+      "value": 1,
+      "unit": "count",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "1 of 2 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q2-S6",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 0 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
+    },
+    {
+      "team": "ASAP",
+      "quarter": "2026-Q2-S6",
+      "metricName": "Cursor Adoption Rate",
+      "value": 50,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "1 of 2 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "ASAP",
@@ -6733,12 +6766,12 @@
       "team": "EDU",
       "quarter": "2025-Q1",
       "metricName": "AI Active Developers",
-      "value": 4,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "4 of 30 members (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "0 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -6749,7 +6782,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "4 of 326 merged PRs had AI signals (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "EDU",
@@ -6771,7 +6804,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 30 mapped members had Cursor activity (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -7063,12 +7096,12 @@
       "team": "EDU",
       "quarter": "2025-Q2",
       "metricName": "AI Active Developers",
-      "value": 4,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "4 of 30 members (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "2 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -7079,7 +7112,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "7 of 367 merged PRs had AI signals (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "EDU",
@@ -7101,7 +7134,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 30 mapped members had Cursor activity (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -7426,12 +7459,12 @@
       "team": "EDU",
       "quarter": "2025-Q3",
       "metricName": "AI Active Developers",
-      "value": 6,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "6 of 30 members (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "2 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -7442,7 +7475,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "15 of 501 merged PRs had AI signals (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "EDU",
@@ -7464,7 +7497,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 30 mapped members had Cursor activity (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -7822,12 +7855,12 @@
       "team": "EDU",
       "quarter": "2025-Q4",
       "metricName": "AI Active Developers",
-      "value": 5,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "5 of 30 members (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "2 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -7838,7 +7871,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "8 of 510 merged PRs had AI signals (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "EDU",
@@ -7860,7 +7893,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 30 mapped members had Cursor activity (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -8350,12 +8383,12 @@
       "team": "EDU",
       "quarter": "2026-Q1",
       "metricName": "AI Active Developers",
-      "value": 11,
+      "value": 29,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "11 of 30 members (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "29 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -8366,7 +8399,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "31 of 545 merged PRs had AI signals (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "EDU",
@@ -8388,7 +8421,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "29 of 30 mapped members had Cursor activity (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -8713,23 +8746,23 @@
       "team": "EDU",
       "quarter": "2026-Q2",
       "metricName": "AI Active Developers",
-      "value": 8,
+      "value": 29,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "8 of 30 members (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "29 of 30 mapped members had Cursor activity (portfolio rollup)",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
       "quarter": "2026-Q2",
       "metricName": "AI-assisted Pull Request Coverage",
-      "value": 9.8802,
+      "value": 9.7923,
       "unit": "percent",
       "source": "GitHub",
       "automationStatus": "automated",
-      "note": "33 of 334 merged PRs had AI signals (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "33 of 337 merged PRs had AI signals (portfolio rollup)",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "EDU",
@@ -8751,7 +8784,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "29 of 30 mapped members had Cursor activity (portfolio rollup)",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "EDU",
@@ -9166,10 +9199,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9191,7 +9224,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9320,10 +9353,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9345,7 +9378,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9441,10 +9474,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9466,7 +9499,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9595,10 +9628,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9620,7 +9653,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9716,10 +9749,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9741,7 +9774,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9837,10 +9870,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9862,7 +9895,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9958,10 +9991,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -9983,7 +10016,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10079,10 +10112,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10104,7 +10137,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10200,10 +10233,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10225,7 +10258,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10233,10 +10266,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10258,7 +10291,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10354,10 +10387,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10379,7 +10412,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10475,10 +10508,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10500,7 +10533,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10596,10 +10629,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10621,7 +10654,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10717,10 +10750,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10742,7 +10775,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10838,10 +10871,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10863,7 +10896,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10957,12 +10990,12 @@
       "team": "Smartcare",
       "quarter": "2025-Q3",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -10984,7 +11017,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11113,10 +11146,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 2 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11138,7 +11171,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11146,10 +11179,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11171,7 +11204,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11267,10 +11300,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11292,7 +11325,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11388,10 +11421,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11413,7 +11446,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11509,10 +11542,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11534,7 +11567,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11663,10 +11696,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11688,7 +11721,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11817,10 +11850,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11842,7 +11875,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11936,12 +11969,12 @@
       "team": "Smartcare",
       "quarter": "2025-Q4",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -11963,7 +11996,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12059,10 +12092,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12084,7 +12117,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12092,10 +12125,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12117,7 +12150,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12213,10 +12246,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12238,7 +12271,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12334,10 +12367,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12359,7 +12392,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12455,10 +12488,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12480,7 +12513,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12574,12 +12607,12 @@
       "team": "Smartcare",
       "quarter": "2025-Q4-S5",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12601,7 +12634,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12697,10 +12730,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12722,7 +12755,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12937,12 +12970,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q1",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -12964,7 +12997,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13058,12 +13091,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q1-S1",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 4,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "4 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13085,7 +13118,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "4 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13179,12 +13212,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q1-S2",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13206,7 +13239,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13300,12 +13333,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q1-S3",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13327,7 +13360,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13421,12 +13454,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q1-S4",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13448,7 +13481,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13542,12 +13575,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q1-S5",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13569,7 +13602,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13663,12 +13696,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q1-S6",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13690,7 +13723,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13784,12 +13817,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q2",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13799,8 +13832,8 @@
       "unit": "percent",
       "source": "GitHub",
       "automationStatus": "automated",
-      "note": "0 of 89 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "0 of 91 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Smartcare",
@@ -13811,7 +13844,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13938,12 +13971,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q2-S0",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13954,7 +13987,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 3 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Smartcare",
@@ -13965,18 +13998,18 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
       "quarter": "2026-Q2-S1",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -13987,7 +14020,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 23 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Smartcare",
@@ -13998,7 +14031,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -14092,12 +14125,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q2-S2",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -14108,7 +14141,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 4 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Smartcare",
@@ -14119,7 +14152,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -14213,12 +14246,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q2-S3",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -14229,7 +14262,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 32 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Smartcare",
@@ -14240,7 +14273,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -14367,12 +14400,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q2-S4",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -14383,7 +14416,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 17 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Smartcare",
@@ -14394,7 +14427,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -14488,12 +14521,12 @@
       "team": "Smartcare",
       "quarter": "2026-Q2-S5",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -14503,19 +14536,19 @@
       "unit": "percent",
       "source": "GitHub",
       "automationStatus": "automated",
-      "note": "0 of 3 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "0 of 5 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Smartcare",
       "quarter": "2026-Q2-S5",
       "metricName": "Cursor Adoption Rate",
-      "value": 66.6667,
+      "value": 88.8889,
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "6 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -14604,6 +14637,39 @@
       "automationStatus": "Yes (partial)",
       "note": "2026-Q2-S5: 0 Sev 1 + 0 Sev 2 bug(s).",
       "lastRefreshUtc": "2026-06-05T17:14:52.231Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2026-Q2-S6",
+      "metricName": "AI Active Developers",
+      "value": 8,
+      "unit": "count",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2026-Q2-S6",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 0 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
+    },
+    {
+      "team": "Smartcare",
+      "quarter": "2026-Q2-S6",
+      "metricName": "Cursor Adoption Rate",
+      "value": 88.8889,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Smartcare",
@@ -16435,12 +16501,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q1",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -16473,7 +16539,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -16633,12 +16699,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q1-S1",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -16671,7 +16737,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -16712,10 +16778,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -16748,7 +16814,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -16877,10 +16943,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -16913,7 +16979,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17042,10 +17108,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17078,7 +17144,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17207,10 +17273,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17243,7 +17309,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17405,10 +17471,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17441,7 +17507,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17603,10 +17669,10 @@
       "metricName": "AI Active Developers",
       "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17639,7 +17705,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17801,10 +17867,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17837,7 +17903,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17878,10 +17944,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -17914,7 +17980,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18076,10 +18142,10 @@
       "metricName": "AI Active Developers",
       "value": 1,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "1 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18112,7 +18178,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "1 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18239,12 +18305,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q2-S3",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 1,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "1 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18277,7 +18343,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "1 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18404,12 +18470,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q2-S4",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 8 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18442,7 +18508,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18569,12 +18635,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q2-S5",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18607,7 +18673,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18734,12 +18800,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q2-S6",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18772,7 +18838,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18899,12 +18965,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q3",
       "metricName": "AI Active Developers",
-      "value": 3,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -18937,7 +19003,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19097,12 +19163,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q3-S0",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19135,7 +19201,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19174,12 +19240,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q3-S1",
       "metricName": "AI Active Developers",
-      "value": 3,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19212,7 +19278,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19372,12 +19438,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q3-S2",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19410,7 +19476,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19537,12 +19603,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q3-S3",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19575,7 +19641,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19702,12 +19768,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q3-S4",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19740,7 +19806,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19779,12 +19845,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q3-S5",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19817,7 +19883,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19944,12 +20010,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q3-S6",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -19982,7 +20048,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20021,12 +20087,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q4",
       "metricName": "AI Active Developers",
-      "value": 4,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "4 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20059,7 +20125,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20186,12 +20252,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q4-S0",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 1,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "1 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20224,7 +20290,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "1 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20263,12 +20329,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q4-S1",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 7 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20301,7 +20367,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20428,12 +20494,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q4-S2",
       "metricName": "AI Active Developers",
-      "value": 3,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 7 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20466,7 +20532,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20505,12 +20571,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q4-S3",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20543,7 +20609,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20672,10 +20738,10 @@
       "metricName": "AI Active Developers",
       "value": 1,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 7 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "1 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20708,7 +20774,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "1 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20747,12 +20813,12 @@
       "team": "Team Connexpoint",
       "quarter": "2025-Q4-S5",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 2,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "2 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20785,7 +20851,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "2 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20826,10 +20892,10 @@
       "metricName": "AI Active Developers",
       "value": 1,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "1 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -20862,7 +20928,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "1 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21154,12 +21220,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q1",
       "metricName": "AI Active Developers",
-      "value": 3,
+      "value": 9,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21192,7 +21258,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21352,12 +21418,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q1-S1",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 5,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "5 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21390,7 +21456,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "5 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21517,12 +21583,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q1-S2",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 9,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21555,7 +21621,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21594,12 +21660,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q1-S3",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 9,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21632,7 +21698,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21792,12 +21858,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q1-S4",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 9,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 7 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21830,7 +21896,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21957,12 +22023,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q1-S5",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -21995,7 +22061,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22122,12 +22188,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q1-S6",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22160,7 +22226,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22320,12 +22386,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q2",
       "metricName": "AI Active Developers",
-      "value": 5,
+      "value": 9,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "5 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22336,7 +22402,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "27 of 152 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22358,7 +22424,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22518,12 +22584,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q2-S0",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 7,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "7 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22534,7 +22600,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 2 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22556,7 +22622,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "7 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22595,12 +22661,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q2-S1",
       "metricName": "AI Active Developers",
-      "value": 4,
+      "value": 9,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "4 of 8 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22611,7 +22677,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "7 of 49 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22633,7 +22699,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22705,12 +22771,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q2-S2",
       "metricName": "AI Active Developers",
-      "value": 3,
+      "value": 9,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22721,7 +22787,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "3 of 32 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22743,7 +22809,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22870,12 +22936,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q2-S3",
       "metricName": "AI Active Developers",
-      "value": 3,
+      "value": 9,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 8 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22886,7 +22952,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "5 of 36 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22908,7 +22974,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22980,12 +23046,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q2-S4",
       "metricName": "AI Active Developers",
-      "value": 4,
+      "value": 9,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "4 of 8 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -22996,7 +23062,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "9 of 21 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Connexpoint",
@@ -23018,7 +23084,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -23178,12 +23244,12 @@
       "team": "Team Connexpoint",
       "quarter": "2026-Q2-S5",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 9,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -23194,7 +23260,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "3 of 6 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Connexpoint",
@@ -23216,7 +23282,7 @@
       "source": "Cursor",
       "automationStatus": "automated",
       "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -23239,6 +23305,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 5 of 2026-Q2.",
       "lastRefreshUtc": "2026-06-10T00:04:52.036Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q2-S6",
+      "metricName": "AI Active Developers",
+      "value": 9,
+      "unit": "count",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q2-S6",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 0 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
+    },
+    {
+      "team": "Team Connexpoint",
+      "quarter": "2026-Q2-S6",
+      "metricName": "Cursor Adoption Rate",
+      "value": 100,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "9 of 9 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Connexpoint",
@@ -25158,12 +25257,12 @@
       "team": "Team Webstore",
       "quarter": "2025-Q1",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -25195,8 +25294,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -25358,10 +25457,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -25393,8 +25492,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -25523,10 +25622,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -25558,8 +25657,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -25686,12 +25785,12 @@
       "team": "Team Webstore",
       "quarter": "2025-Q1-S3",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -25723,8 +25822,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -25853,10 +25952,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -25888,8 +25987,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26016,12 +26115,12 @@
       "team": "Team Webstore",
       "quarter": "2025-Q1-S5",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26053,8 +26152,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26183,10 +26282,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26218,8 +26317,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26346,12 +26445,12 @@
       "team": "Team Webstore",
       "quarter": "2025-Q2",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26383,8 +26482,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26535,10 +26634,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26559,8 +26658,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26568,10 +26667,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26592,8 +26691,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26700,10 +26799,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26735,8 +26834,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26863,12 +26962,12 @@
       "team": "Team Webstore",
       "quarter": "2025-Q2-S3",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -26900,8 +26999,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27030,10 +27129,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27065,8 +27164,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27184,10 +27283,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27208,8 +27307,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27305,10 +27404,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27329,8 +27428,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27468,12 +27567,12 @@
       "team": "Team Webstore",
       "quarter": "2025-Q3",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27505,8 +27604,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27657,10 +27756,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27681,8 +27780,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27699,12 +27798,12 @@
       "team": "Team Webstore",
       "quarter": "2025-Q3-S1",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27736,8 +27835,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27866,10 +27965,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -27901,8 +28000,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28064,10 +28163,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28099,8 +28198,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28229,10 +28328,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28264,8 +28363,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28394,10 +28493,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28429,8 +28528,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28559,10 +28658,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28594,8 +28693,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28757,10 +28856,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28792,8 +28891,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28955,10 +29054,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 0 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -28990,8 +29089,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29032,10 +29131,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29067,8 +29166,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29230,10 +29329,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29265,8 +29364,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29395,10 +29494,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29430,8 +29529,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29593,10 +29692,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29628,8 +29727,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29791,10 +29890,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29826,8 +29925,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -29989,10 +30088,10 @@
       "metricName": "AI Active Developers",
       "value": 0,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -30024,8 +30123,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "0 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -30317,12 +30416,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1",
       "metricName": "AI Active Developers",
-      "value": 5,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "5 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -30354,8 +30453,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -30515,12 +30614,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1-S1",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 3,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "3 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -30548,12 +30647,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1-S1",
       "metricName": "Cursor Adoption Rate",
-      "value": 33.3333,
+      "value": 37.5,
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "3 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -30713,12 +30812,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1-S2",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 7,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -30746,12 +30845,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1-S2",
       "metricName": "Cursor Adoption Rate",
-      "value": 88.8889,
+      "value": 87.5,
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -30878,12 +30977,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1-S3",
       "metricName": "AI Active Developers",
-      "value": 3,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 7 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -30915,8 +31014,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31043,12 +31142,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1-S4",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31080,8 +31179,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31208,12 +31307,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1-S5",
       "metricName": "AI Active Developers",
-      "value": 3,
+      "value": 7,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 6 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31241,12 +31340,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1-S5",
       "metricName": "Cursor Adoption Rate",
-      "value": 88.8889,
+      "value": 87.5,
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31406,12 +31505,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1-S6",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 7,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T17:15:35.432Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31439,12 +31538,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q1-S6",
       "metricName": "Cursor Adoption Rate",
-      "value": 88.8889,
+      "value": 87.5,
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T17:33:34.517Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31571,12 +31670,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q2",
       "metricName": "AI Active Developers",
-      "value": 3,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "3 of 9 team members",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31587,7 +31686,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "6 of 81 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Webstore",
@@ -31608,8 +31707,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31758,12 +31857,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q2-S0",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 6,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "6 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31774,18 +31873,18 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "1 of 6 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Webstore",
       "quarter": "2026-Q2-S0",
       "metricName": "Cursor Adoption Rate",
-      "value": 77.7778,
+      "value": 75,
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "7 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "6 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31802,12 +31901,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q2-S1",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 4 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -31818,7 +31917,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "1 of 24 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Webstore",
@@ -31839,8 +31938,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -32000,12 +32099,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q2-S2",
       "metricName": "AI Active Developers",
-      "value": 2,
+      "value": 7,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "2 of 3 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -32016,7 +32115,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "2 of 12 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Webstore",
@@ -32033,12 +32132,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q2-S2",
       "metricName": "Cursor Adoption Rate",
-      "value": 88.8889,
+      "value": 87.5,
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -32165,23 +32264,23 @@
       "team": "Team Webstore",
       "quarter": "2026-Q2-S3",
       "metricName": "AI Active Developers",
-      "value": 1,
+      "value": 7,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "1 of 7 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
       "quarter": "2026-Q2-S3",
       "metricName": "AI-assisted Pull Request Coverage",
-      "value": 5.5556,
+      "value": 5.8824,
       "unit": "percent",
       "source": "GitHub",
       "automationStatus": "automated",
-      "note": "1 of 18 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "1 of 17 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Webstore",
@@ -32198,12 +32297,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q2-S3",
       "metricName": "Cursor Adoption Rate",
-      "value": 88.8889,
+      "value": 87.5,
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "8 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -32363,12 +32462,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q2-S4",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 8,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 5 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -32379,7 +32478,7 @@
       "source": "GitHub",
       "automationStatus": "automated",
       "note": "0 of 17 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Webstore",
@@ -32400,8 +32499,8 @@
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "9 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "8 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -32561,12 +32660,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q2-S5",
       "metricName": "AI Active Developers",
-      "value": 0,
+      "value": 7,
       "unit": "count",
-      "source": "GitHub",
+      "source": "Cursor",
       "automationStatus": "automated",
-      "note": "0 of 1 active devs in sprint",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -32576,8 +32675,8 @@
       "unit": "percent",
       "source": "GitHub",
       "automationStatus": "automated",
-      "note": "0 of 1 merged PRs had AI signals",
-      "lastRefreshUtc": "2026-06-05T18:45:13.384Z"
+      "note": "0 of 2 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
     },
     {
       "team": "Team Webstore",
@@ -32594,12 +32693,12 @@
       "team": "Team Webstore",
       "quarter": "2026-Q2-S5",
       "metricName": "Cursor Adoption Rate",
-      "value": 55.5556,
+      "value": 87.5,
       "unit": "percent",
       "source": "Cursor",
       "automationStatus": "automated",
-      "note": "5 of 9 mapped members had Cursor activity",
-      "lastRefreshUtc": "2026-06-05T18:47:32.172Z"
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",
@@ -32622,6 +32721,39 @@
       "automationStatus": "Yes (partial)",
       "note": "Sprint 5 of 2026-Q2.",
       "lastRefreshUtc": "2026-06-10T00:04:52.036Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S6",
+      "metricName": "AI Active Developers",
+      "value": 7,
+      "unit": "count",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S6",
+      "metricName": "AI-assisted Pull Request Coverage",
+      "value": 0,
+      "unit": "percent",
+      "source": "GitHub",
+      "automationStatus": "automated",
+      "note": "0 of 0 merged PRs had AI signals",
+      "lastRefreshUtc": "2026-06-10T17:52:14.213Z"
+    },
+    {
+      "team": "Team Webstore",
+      "quarter": "2026-Q2-S6",
+      "metricName": "Cursor Adoption Rate",
+      "value": 87.5,
+      "unit": "percent",
+      "source": "Cursor",
+      "automationStatus": "automated",
+      "note": "7 of 8 mapped members had Cursor activity",
+      "lastRefreshUtc": "2026-06-10T17:40:36.692Z"
     },
     {
       "team": "Team Webstore",

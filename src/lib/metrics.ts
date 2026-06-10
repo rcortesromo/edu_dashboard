@@ -71,7 +71,7 @@ export const metricDescriptions: Record<string, string> = {
   "AI-assisted Pull Request Coverage":
     "Share of in-scope pull requests with qualifying AI assistance signals in the selected period.",
   "AI Active Developers":
-    "Count of mapped developers with qualifying AI-assisted activity in the selected period.",
+    "Count of mapped team members with qualifying Cursor activity in the selected period (the numerator behind the Cursor adoption rate).",
 };
 
 export const metricDisplayOrder = [

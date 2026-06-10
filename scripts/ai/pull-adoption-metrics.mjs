@@ -378,6 +378,9 @@ async function main() {
   const fetchedLabels = new Set(quarters.map((q) => q.label));
   const sprintPattern = /^\d{4}-Q[1-4]-S\d+$/;
   const retainedRows = existingRows.filter((r) => {
+    // AI Active Developers is now produced by the Cursor pull; drop any stale
+    // GitHub-sourced rows for this metric so they do not linger after refresh.
+    if (r.metric_name === "AI Active Developers") return false;
     if (fetchedLabels.has(r.quarter_label)) return false;
     if (sprintPattern.test(r.quarter_label)) {
       const parentQ = r.quarter_label.replace(/-S\d+$/, "");
@@ -451,10 +454,6 @@ async function main() {
     }
 
     for (const [team, data] of teamPrData) {
-      const activeMembers = teamUsers.get(team).filter((u) =>
-        isUserActiveInPeriod(u, quarter.start, quarter.end),
-      );
-
       const aiPrCoverage = data.totalPrs > 0 ? (data.aiPrs / data.totalPrs) * 100 : 0;
       const aiActiveDevelopers = data.aiDevs.size;
 
@@ -472,17 +471,9 @@ async function main() {
         last_refresh_utc: now,
       });
 
-      csvRows.push({
-        team_name: team,
-        quarter_label: quarter.label,
-        metric_name: "AI Active Developers",
-        metric_value: String(aiActiveDevelopers),
-        metric_unit: "count",
-        source_system: "GitHub",
-        coverage_status: "automated",
-        note: `${aiActiveDevelopers} of ${activeMembers.length} team members`,
-        last_refresh_utc: now,
-      });
+      // "AI Active Developers" is now sourced from Cursor activity (see
+      // scripts/cursor/pull-cursor-metrics.mjs), so it is intentionally not
+      // emitted from GitHub PR-text signals here.
 
       summary.metrics.push({
         team,
@@ -514,18 +505,6 @@ async function main() {
             note: `${bucket.aiPrs} of ${bucket.totalPrs} merged PRs had AI signals`,
             last_refresh_utc: now,
           });
-
-          csvRows.push({
-            team_name: team,
-            quarter_label: sprint.key,
-            metric_name: "AI Active Developers",
-            metric_value: String(bucket.aiDevs.size),
-            metric_unit: "count",
-            source_system: "GitHub",
-            coverage_status: "automated",
-            note: `${bucket.aiDevs.size} of ${bucket.activeDevs.size} active devs in sprint`,
-            last_refresh_utc: now,
-          });
         }
       }
     }
@@ -551,7 +530,6 @@ function buildEduRollup(teamRows, quarters, now) {
     const quarterTeamRows = teamRows.filter((r) => r.quarter_label === quarter.label);
 
     const prCoverageRows = quarterTeamRows.filter((r) => r.metric_name === "AI-assisted Pull Request Coverage");
-    const aiDevRows = quarterTeamRows.filter((r) => r.metric_name === "AI Active Developers");
 
     if (prCoverageRows.length > 0) {
       let totalAiPrs = 0;
@@ -576,31 +554,6 @@ function buildEduRollup(teamRows, quarters, now) {
         source_system: "GitHub",
         coverage_status: "automated",
         note: `${totalAiPrs} of ${totalPrs} merged PRs had AI signals (portfolio rollup)`,
-        last_refresh_utc: now,
-      });
-    }
-
-    if (aiDevRows.length > 0) {
-      let totalAiDevs = 0;
-      let totalMembers = 0;
-
-      for (const row of aiDevRows) {
-        const match = String(row.note).match(/^(\d+) of (\d+)/);
-        if (match) {
-          totalAiDevs += Number(match[1]);
-          totalMembers += Number(match[2]);
-        }
-      }
-
-      eduRows.push({
-        team_name: "EDU",
-        quarter_label: quarter.label,
-        metric_name: "AI Active Developers",
-        metric_value: String(totalAiDevs),
-        metric_unit: "count",
-        source_system: "GitHub",
-        coverage_status: "automated",
-        note: `${totalAiDevs} of ${totalMembers} members (portfolio rollup)`,
         last_refresh_utc: now,
       });
     }

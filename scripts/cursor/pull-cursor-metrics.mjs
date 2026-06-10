@@ -499,6 +499,20 @@ async function main() {
         last_refresh_utc: now,
       });
 
+      // AI Active Developers is the count of mapped team members with qualifying
+      // Cursor activity in the period (the numerator behind the adoption rate).
+      csvRows.push({
+        team_name: team,
+        quarter_label: quarter.label,
+        metric_name: "AI Active Developers",
+        metric_value: String(activeCount),
+        metric_unit: "count",
+        source_system: "Cursor",
+        coverage_status: "automated",
+        note: `${activeCount} of ${totalEligible} mapped members had Cursor activity`,
+        last_refresh_utc: now,
+      });
+
       summary.metrics.push({
         team,
         quarter: quarter.label,
@@ -558,6 +572,18 @@ async function main() {
             note: `${activeCount} of ${totalEligible} mapped members had Cursor activity`,
             last_refresh_utc: now,
           });
+
+          csvRows.push({
+            team_name: team,
+            quarter_label: sprint.key,
+            metric_name: "AI Active Developers",
+            metric_value: String(activeCount),
+            metric_unit: "count",
+            source_system: "Cursor",
+            coverage_status: "automated",
+            note: `${activeCount} of ${totalEligible} mapped members had Cursor activity`,
+            last_refresh_utc: now,
+          });
         }
 
         console.log(`    ${sprintRecords.length} record(s), ${sprintActiveEmails.size} active user(s)`);
@@ -607,6 +633,20 @@ function buildEduRollup(teamRows, quarters, now) {
       metric_name: "Cursor Adoption Rate",
       metric_value: eduRate.toFixed(4),
       metric_unit: "percent",
+      source_system: "Cursor",
+      coverage_status: "automated",
+      note: `${totalActive} of ${totalEligible} mapped members had Cursor activity (portfolio rollup)`,
+      last_refresh_utc: now,
+    });
+
+    // Each roster member belongs to exactly one team, so the portfolio active
+    // developer count is the sum of the per-team active counts.
+    eduRows.push({
+      team_name: "EDU",
+      quarter_label: quarter.label,
+      metric_name: "AI Active Developers",
+      metric_value: String(totalActive),
+      metric_unit: "count",
       source_system: "Cursor",
       coverage_status: "automated",
       note: `${totalActive} of ${totalEligible} mapped members had Cursor activity (portfolio rollup)`,

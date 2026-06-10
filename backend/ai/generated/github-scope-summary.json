@@ -1,10 +1,10 @@
 {
-  "refreshedAt": "2026-06-05T18:45:13.384Z",
+  "refreshedAt": "2026-06-10T17:52:14.213Z",
   "source": "GitHub",
   "usersTracked": 30,
   "reposConfigured": 64,
   "status": "completed",
-  "note": "Processed 64 repos, 1 quarter(s), 652 total row(s) (554 retained).",
+  "note": "Processed 64 repos, 1 quarter(s), 366 total row(s) (277 retained).",
   "metrics": [
     {
       "team": "Team Connexpoint",
@@ -16,27 +16,27 @@
       "aiActiveDevs": 5
     },
     {
+      "team": "ASAP",
+      "quarter": "2026-Q2",
+      "totalPrs": 13,
+      "aiPrs": 0,
+      "aiPrCoverage": 0,
+      "activeDevs": 3,
+      "aiActiveDevs": 0
+    },
+    {
       "team": "Team Webstore",
       "quarter": "2026-Q2",
       "totalPrs": 81,
       "aiPrs": 6,
       "aiPrCoverage": 7.4074,
-      "activeDevs": 8,
+      "activeDevs": 7,
       "aiActiveDevs": 3
-    },
-    {
-      "team": "ASAP",
-      "quarter": "2026-Q2",
-      "totalPrs": 12,
-      "aiPrs": 0,
-      "aiPrCoverage": 0,
-      "activeDevs": 2,
-      "aiActiveDevs": 0
     },
     {
       "team": "Smartcare",
       "quarter": "2026-Q2",
-      "totalPrs": 89,
+      "totalPrs": 91,
       "aiPrs": 0,
       "aiPrCoverage": 0,
       "activeDevs": 6,
