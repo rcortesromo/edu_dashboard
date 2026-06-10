@@ -32,7 +32,9 @@ function PortfolioRollup({ portfolioTeam, deliveryTeams }: PortfolioRollupProps)
         <div>
           <p className="team-card-tag">Portfolio rollup</p>
           <h3>{portfolioTeam.teamLabel} aggregate</h3>
-          <p className="portfolio-description">CXP + Revtrak</p>
+          <p className="portfolio-description">
+            {deliveryTeams.map((team) => team.teamLabel).join(" + ") || "All delivery teams"}
+          </p>
         </div>
 
         <div className="portfolio-meta">

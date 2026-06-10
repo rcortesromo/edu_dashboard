@@ -59,6 +59,46 @@
         "endType": "status_category",
         "endValue": "Done"
       }
+    },
+    {
+      "teamName": "Team ASAP",
+      "boardId": "174",
+      "projectKeys": ["OV"],
+      "workItemScope": {
+        "includeIssueTypes": ["Story", "Bug", "Task"],
+        "excludeIssueTypes": ["Epic", "Sub-task"]
+      },
+      "velocity": {
+        "sourceType": "calculated_completed_points",
+        "velocityScope": "committed_only",
+        "sprintNameRegex": "^ASAP\\s-\\s\\d{2}Q\\dS[1-9]\\d*"
+      },
+      "cycleTime": {
+        "startType": "status_name",
+        "startValue": "In Development",
+        "endType": "status_category",
+        "endValue": "Done"
+      }
+    },
+    {
+      "teamName": "Team Smartcare",
+      "boardId": "198",
+      "projectKeys": ["OV"],
+      "workItemScope": {
+        "includeIssueTypes": ["Story", "Bug", "Task"],
+        "excludeIssueTypes": ["Epic", "Sub-task"]
+      },
+      "velocity": {
+        "sourceType": "calculated_completed_points",
+        "velocityScope": "committed_only",
+        "sprintNameRegex": "^VC\\s\\d{2}Q\\dS[1-9]\\d*"
+      },
+      "cycleTime": {
+        "startType": "status_name",
+        "startValue": "In Development",
+        "endType": "status_category",
+        "endValue": "Done"
+      }
     }
   ],
   "defectLeakage": {

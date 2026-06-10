@@ -4,6 +4,19 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// Some board-based teams are tracked internally under their Jira Team field
+// value (e.g. "Team ASAP") but must surface in the dashboard under their
+// canonical key (e.g. "ASAP") so their delivery metrics merge with the existing
+// defect/sev/MTTR/AI rows for the same team.
+const TEAM_NAME_OVERRIDES = {
+  "Team ASAP": "ASAP",
+  "Team Smartcare": "Smartcare",
+};
+
+function normalizeTeamName(teamName) {
+  return TEAM_NAME_OVERRIDES[teamName] ?? teamName;
+}
+
 function parseCsv(text) {
   const rows = [];
   let current = "";
@@ -111,7 +124,7 @@ function buildSprintCalendarMap(calendarRows) {
   const map = {};
 
   for (const row of calendarRows) {
-    const team = row.team_name;
+    const team = normalizeTeamName(row.team_name);
     const quarter = row.quarter_label;
 
     if (!team || !quarter) continue;
@@ -151,7 +164,7 @@ async function main() {
   const rows = parseCsv(csvText);
 
   const metrics = rows.map((row) => ({
-    team: row.team_name,
+    team: normalizeTeamName(row.team_name),
     quarter: row.quarter_label,
     metricName: row.metric_name,
     value: metricValue(row.metric_name, row.metric_value),
@@ -178,7 +191,7 @@ async function main() {
 
   const payload = {
     reportDate,
-    teams: uniqueSorted(rows.map((row) => row.team_name)),
+    teams: uniqueSorted(rows.map((row) => normalizeTeamName(row.team_name))),
     quarters: quarterOnlyLabels,
     sprintCalendar,
     metrics,

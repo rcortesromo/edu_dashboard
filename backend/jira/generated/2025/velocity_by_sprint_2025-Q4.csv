@@ -1,15 +1,27 @@
 team_name,sprint_id,sprint_name,quarter_label,velocity_points,velocity_source,last_refresh_utc
-Team Connexpoint,6527,CXP25Q4 - Sprint 1,2025-Q4,13,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,7682,CXP25Q4 - Sprint 2,2025-Q4,2,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,7683,CXP25Q4 - Sprint 3,2025-Q4,22,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,7684,CXP25Q4 - Sprint 4,2025-Q4,24,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,7685,CXP25Q4 - Sprint 5,2025-Q4,31,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,7686,CXP25Q4 - Sprint 6,2025-Q4,34,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,7687,CXP25Q4 - Sprint 0,2025-Q4,15,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Webstore,7750,WS25Q4S1 - Talented TOOL,2025-Q4,26,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,7751,WS25Q4S2 - Useful Ukulele DS,2025-Q4,25,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,7752,WS25Q4S3 - Vigorous VicenteFdz,2025-Q4,32,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,7753,WS25Q4S4 - Wacky Weird Al,2025-Q4,42,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,7754,WS25Q4S5 - Xenial The XX,2025-Q4,34,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,7755,WS25Q4S6 - Zextastic Zoé,2025-Q4,21,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,7814,WS25Q4S0,2025-Q4,83,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team ASAP,8078,ASAP - 25Q4S1,2025-Q4,13,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,8177,ASAP - 25Q4S2,2025-Q4,18,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,8375,ASAP - 25Q4S3,2025-Q4,5,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,8540,ASAP - 25Q4S4,2025-Q4,11,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,8672,ASAP - 25Q4S5,2025-Q4,6,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,8876,ASAP - 25Q4S6,2025-Q4,6,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Connexpoint,6527,CXP25Q4 - Sprint 1,2025-Q4,13,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,7682,CXP25Q4 - Sprint 2,2025-Q4,2,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,7683,CXP25Q4 - Sprint 3,2025-Q4,22,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,7684,CXP25Q4 - Sprint 4,2025-Q4,24,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,7685,CXP25Q4 - Sprint 5,2025-Q4,31,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,7686,CXP25Q4 - Sprint 6,2025-Q4,34,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,7687,CXP25Q4 - Sprint 0,2025-Q4,15,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Smartcare,7847,VC 25Q4S1,2025-Q4,3,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,7881,VC 25Q4S2,2025-Q4,6,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,7882,VC 25Q4S3,2025-Q4,6,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,7883,VC 25Q4S4,2025-Q4,8,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,7884,VC 25Q4S5,2025-Q4,16,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,7885,VC 25Q4S6,2025-Q4,5,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,7750,WS25Q4S1 - Talented TOOL,2025-Q4,26,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,7751,WS25Q4S2 - Useful Ukulele DS,2025-Q4,25,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,7752,WS25Q4S3 - Vigorous VicenteFdz,2025-Q4,32,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,7753,WS25Q4S4 - Wacky Weird Al,2025-Q4,42,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,7754,WS25Q4S5 - Xenial The XX,2025-Q4,34,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,7755,WS25Q4S6 - Zextastic Zoé,2025-Q4,21,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,7814,WS25Q4S0,2025-Q4,83,calculated_completed_points,2026-06-10T00:04:52.036Z

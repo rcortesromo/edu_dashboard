@@ -1,13 +1,25 @@
 team_name,sprint_id,sprint_name,quarter_label,cards_committed_at_start,cards_removed_after_start,cards_reestimated_after_start,cards_sent_backward_after_start,completed_cards,completed_points,committed_completed_points,average_wip_cards,average_throughput_cards_per_sprint,data_quality_note,last_refresh_utc
-Team Connexpoint,5141,CXP25Q2 - Sprint 1,2025-Q2,46,0,0,2,23,0,0,11.8255,23,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Connexpoint,5142,CXP25Q2 - Sprint 2,2025-Q2,56,0,0,3,18,0,0,19.9402,18,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Connexpoint,5143,CXP25Q2 - Sprint 3,2025-Q2,60,0,0,4,43,0,0,15.2231,43,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Connexpoint,5144,CXP25Q2 - Sprint 4,2025-Q2,57,0,0,3,17,0,0,13.672,17,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Connexpoint,5145,CXP25Q2 - Sprint 5,2025-Q2,95,0,0,3,28,0,0,20.2328,28,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Connexpoint,5146,CXP25Q2 - Sprint 6,2025-Q2,60,0,0,8,23,0,0,16.5407,23,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Connexpoint,5702,CXP25Q2 - Sprint 0,2025-Q2,45,0,0,1,9,0,0,9.826,9,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Webstore,5966,WS25Q2S2 - Inexhaustible INXS,2025-Q2,22,0,7,3,6,43,38,10.5466,6,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Webstore,6065,WS25Q2S3 - Jaded Johnny Cash,2025-Q2,24,0,3,4,8,20,20,16.9485,8,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Webstore,6297,WS25Q2S4 - Krazy KISS,2025-Q2,31,0,8,0,14,43,39,20.5134,14,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Webstore,6362,WS25Q2S4 - Lujoso Luis Miguel,2025-Q2,29,1,11,2,13,57,55,19.3123,13,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
-Team Webstore,6593,WS25Q2S4-Mad Mozart,2025-Q2,27,0,3,4,7,31,31,18.6595,7,Issue was not committed at sprint start.,2026-05-28T17:32:08.329Z
+Team ASAP,5801,ASAP - 25Q2S1 04/02- 04/15,2025-Q2,8,2,1,7,5,8,3,7.3091,5,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team ASAP,5802,ASAP - 25Q2S2 04/16- 04/29,2025-Q2,11,0,6,4,7,13,11,5.3079,7,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team ASAP,5900,ASAP - 25Q2S3 04/30 - 05/13,2025-Q2,7,0,0,4,2,7,5,4.8921,2,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team ASAP,5901,ASAP - 25Q2S4 05/14 - 05/27,2025-Q2,12,0,1,4,10,25,21,3.6105,10,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team ASAP,5902,ASAP - 25Q2S5 05/16 - 06/10,2025-Q2,6,0,0,5,2,3,3,5.1315,2,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team ASAP,5903,ASAP - 25Q2S6 06/ - 06/24,2025-Q2,8,0,3,5,9,27,23,3.9621,9,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Connexpoint,5141,CXP25Q2 - Sprint 1,2025-Q2,46,0,0,2,23,0,0,11.8255,23,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Connexpoint,5142,CXP25Q2 - Sprint 2,2025-Q2,56,0,0,3,18,0,0,19.9402,18,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Connexpoint,5143,CXP25Q2 - Sprint 3,2025-Q2,60,0,0,4,43,0,0,15.2231,43,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Connexpoint,5144,CXP25Q2 - Sprint 4,2025-Q2,57,0,0,3,17,0,0,13.672,17,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Connexpoint,5145,CXP25Q2 - Sprint 5,2025-Q2,95,0,0,3,28,0,0,20.2328,28,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Connexpoint,5146,CXP25Q2 - Sprint 6,2025-Q2,60,0,0,8,23,0,0,16.5407,23,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Connexpoint,5702,CXP25Q2 - Sprint 0,2025-Q2,45,0,0,1,9,0,0,9.826,9,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Smartcare,5670,VC 25Q2S6,2025-Q2,32,1,17,12,0,0,0,24.4287,0,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Smartcare,5671,VC 25Q2S5,2025-Q2,34,0,8,7,2,6,6,16.3842,2,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Smartcare,5672,VC 25Q2S4,2025-Q2,45,1,12,19,5,15,13,31.1931,5,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Smartcare,5673,VC 25Q2S3,2025-Q2,40,0,19,9,13,32,19,26.8935,13,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Smartcare,5674,VC 25Q2S1,2025-Q2,42,2,16,13,25,72,58,34.7735,25,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Smartcare,5676,VC 25Q2S2,2025-Q2,38,4,15,12,5,12,11,19.4985,5,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Webstore,5966,WS25Q2S2 - Inexhaustible INXS,2025-Q2,22,0,7,3,6,43,38,10.5466,6,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Webstore,6065,WS25Q2S3 - Jaded Johnny Cash,2025-Q2,24,0,3,4,8,20,20,16.9485,8,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Webstore,6297,WS25Q2S4 - Krazy KISS,2025-Q2,31,0,8,0,14,43,39,20.5134,14,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Webstore,6362,WS25Q2S4 - Lujoso Luis Miguel,2025-Q2,29,1,11,2,13,57,55,19.3123,13,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z
+Team Webstore,6593,WS25Q2S4-Mad Mozart,2025-Q2,27,0,3,4,7,31,31,18.6595,7,Issue was not committed at sprint start.,2026-06-10T00:04:52.036Z

@@ -1,13 +1,22 @@
 team_name,sprint_id,sprint_name,quarter_label,velocity_points,velocity_source,last_refresh_utc
-Team Connexpoint,4284,CXP25Q1 - Sp 1,2025-Q1,13,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,4285,CXP25Q1 - Sp 2,2025-Q1,22,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,4286,CXP25Q1 - Sp 3,2025-Q1,44,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,4287,CXP25Q1 - Sp 4,2025-Q1,47,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,4288,CXP25Q1 - Sp 5,2025-Q1,29,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,4289,CXP25Q1 - Sp 6,2025-Q1,15,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Webstore,4515,WS25Q1S1 - Angelic Avicii,2025-Q1,66,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,4580,WS25Q1S2-Basic Backstreet Boys,2025-Q1,37,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,4910,WS25Q1S3-Cringe Chumbawumba,2025-Q1,12,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,5042,WS25Q1S4-Daft Daft Punk,2025-Q1,23,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,5273,WS25Q1S5-Elvish Elvis,2025-Q1,54,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,5405,WS25Q1S6-Flying Foo Fighters,2025-Q1,63,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team ASAP,4384,ASAP - 25Q1S1 01/01- 01/14,2025-Q1,15,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,4712,ASAP - 25Q1S2 01/15 - 01/28,2025-Q1,11,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,4812,ASAP - 25Q1S3 01/29 - 02/11,2025-Q1,7,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,5075,ASAP - 25Q1S4 02/12 - 02/25,2025-Q1,19,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,5174,ASAP - 25Q1S5 02/26 - 03/11,2025-Q1,22,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,5274,ASAP - 25Q1S6 03/12- 03/25,2025-Q1,11,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Connexpoint,4284,CXP25Q1 - Sp 1,2025-Q1,13,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,4285,CXP25Q1 - Sp 2,2025-Q1,22,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,4286,CXP25Q1 - Sp 3,2025-Q1,44,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,4287,CXP25Q1 - Sp 4,2025-Q1,47,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,4288,CXP25Q1 - Sp 5,2025-Q1,29,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,4289,CXP25Q1 - Sp 6,2025-Q1,15,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Smartcare,5009,VC 25Q1S4,2025-Q1,0,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,5240,VC 25Q1S5 - 02/26 - 03/11,2025-Q1,9,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,5306,VC 25Q1S6 - 03/12 - 03/25,2025-Q1,17,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,4515,WS25Q1S1 - Angelic Avicii,2025-Q1,66,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,4580,WS25Q1S2-Basic Backstreet Boys,2025-Q1,37,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,4910,WS25Q1S3-Cringe Chumbawumba,2025-Q1,12,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,5042,WS25Q1S4-Daft Daft Punk,2025-Q1,23,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,5273,WS25Q1S5-Elvish Elvis,2025-Q1,54,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,5405,WS25Q1S6-Flying Foo Fighters,2025-Q1,63,calculated_completed_points,2026-06-10T00:04:52.036Z

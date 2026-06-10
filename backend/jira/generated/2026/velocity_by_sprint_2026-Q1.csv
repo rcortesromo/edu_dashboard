@@ -1,13 +1,25 @@
 team_name,sprint_id,sprint_name,quarter_label,velocity_points,velocity_source,last_refresh_utc
-Team Connexpoint,8739,CXP26Q1 - Sprint 1,2026-Q1,11,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,8740,CXP26Q1 - Sprint 2,2026-Q1,27,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,8741,CXP26Q1 - Sprint 3,2026-Q1,23,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,8743,CXP26Q1 - Sprint 5,2026-Q1,50,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,8744,CXP26Q1 - Sprint 6,2026-Q1,25,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Connexpoint,9615,CXP26Q1 - Sprint 4,2026-Q1,43,velocity_issue_types,2026-05-28T17:32:08.329Z
-Team Webstore,2606,WS26Q1S2 - Battlefield,2026-Q1,24,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,5639,WS26Q1S1 - Ape Escape,2026-Q1,22,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,5803,WS26Q1S4 - Duke Nukem,2026-Q1,5,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,8243,WS26Q1S3 - Cyberpunk 2077,2026-Q1,42,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,8942,WS26Q1S5 - Elden Ring,2026-Q1,8,calculated_completed_points,2026-05-28T17:32:08.329Z
-Team Webstore,8943,WS26Q1S6 - Final Fantasy,2026-Q1,0,calculated_completed_points,2026-05-28T17:32:08.329Z
+Team ASAP,10054,ASAP - 26Q1S6,2026-Q1,3,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,9248,ASAP - 26Q1S1,2026-Q1,8,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,9281,ASAP - 26Q1S2,2026-Q1,22,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,9549,ASAP - 26Q1S3,2026-Q1,27,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,9748,ASAP - 26Q1S4,2026-Q1,18,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,9915,ASAP - 26Q1S5,2026-Q1,11,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Connexpoint,8739,CXP26Q1 - Sprint 1,2026-Q1,11,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,8740,CXP26Q1 - Sprint 2,2026-Q1,27,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,8741,CXP26Q1 - Sprint 3,2026-Q1,23,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,8743,CXP26Q1 - Sprint 5,2026-Q1,50,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,8744,CXP26Q1 - Sprint 6,2026-Q1,25,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Connexpoint,9615,CXP26Q1 - Sprint 4,2026-Q1,43,velocity_issue_types,2026-06-10T00:04:52.036Z
+Team Smartcare,9043,VC 26Q1S1,2026-Q1,16,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,9314,VC 26Q1S2,2026-Q1,26,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,9417,VC 26Q1S3,2026-Q1,16,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,9582,VC 26Q1S4,2026-Q1,3,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,9682,VC 26Q1S5,2026-Q1,0,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Smartcare,9848,VC 26Q1S6,2026-Q1,5,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,2606,WS26Q1S2 - Battlefield,2026-Q1,24,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,5639,WS26Q1S1 - Ape Escape,2026-Q1,22,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,5803,WS26Q1S4 - Duke Nukem,2026-Q1,5,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,8243,WS26Q1S3 - Cyberpunk 2077,2026-Q1,42,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,8942,WS26Q1S5 - Elden Ring,2026-Q1,8,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team Webstore,8943,WS26Q1S6 - Final Fantasy,2026-Q1,0,calculated_completed_points,2026-06-10T00:04:52.036Z
