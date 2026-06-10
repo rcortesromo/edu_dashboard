@@ -8,7 +8,7 @@ on:
         required: false
         type: string
   schedule:
-    - cron: "0 12 * * 1" # Mondays 12:00 UTC = 6:00 AM CDMX (UTC-6)
+    - cron: "0 12 * * 5" # Fridays 12:00 UTC = 6:00 AM CDMX (UTC-6)
 
 permissions:
   contents: write
