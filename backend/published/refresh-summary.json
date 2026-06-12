@@ -1,6 +1,6 @@
 {
-  "runAt": "2026-06-08T20:48:32.156Z",
-  "trigger": "workflow_dispatch",
+  "runAt": "2026-06-12T14:58:43.471Z",
+  "trigger": "schedule",
   "dataChanged": true,
   "sources": [
     {
@@ -26,12 +26,12 @@
     {
       "name": "ai",
       "status": "completed",
-      "note": "Processed 64 repos, 1 quarter(s), 652 total row(s) (554 retained)."
+      "note": "Processed 64 repos, 1 quarter(s), 370 total row(s) (277 retained)."
     },
     {
       "name": "cursor",
       "status": "completed",
-      "note": "Processed 1 quarter(s), 326 total row(s) (277 retained)."
+      "note": "Processed 1 quarter(s), 1172 total row(s) (986 retained)."
     },
     {
       "name": "feathery",
