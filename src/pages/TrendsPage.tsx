@@ -11,7 +11,7 @@ import {
   BarChart,
   Bar,
 } from "recharts";
-import { trendsMetricOrder, metricDescriptions, getSprintsForQuarter, severityCountMetricNames, severityRootCauseMetricNames, mttrMetricName, type MetricsPayload, type SprintInfo } from "../lib/metrics";
+import { trendsMetricOrder, metricDescriptions, getSprintsForQuarter, severityRootCauseMetricNames, mttrMetricName, type MetricsPayload, type SprintInfo } from "../lib/metrics";
 import { getAvailableQuarters, getAvailableYears, getPeriodMapping, teamColors, teamDisplayMap, type ViewMode } from "../lib/trends";
 import MttrTrendChart from "../components/MttrTrendChart";
 
@@ -211,139 +211,24 @@ function MetricChart({
   );
 }
 
-const [SEV1_METRIC, SEV2_METRIC] = severityCountMetricNames;
-
-function buildSeverityChartData(
-  payload: MetricsPayload,
-  viewMode: ViewMode,
-  selectedYear: number,
-  selectedQuarter?: string,
-  sprintLookup?: Map<string, SprintInfo>,
-): { data: ChartDataPoint[] } {
-  const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
-
-  const allPeriods = [
-    ...new Set([...payload.quarters, ...payload.metrics.map((m) => m.quarter)]),
-  ]
-    .filter(periodFilter)
-    .sort();
-
-  // EDU is the vertical that groups every delivery team, so its value for a
-  // metric/period is the sum of that metric across all individual teams.
-  const eduValue = (period: string, metricName: string): number =>
-    payload.metrics
-      .filter(
-        (m) => m.team !== "EDU" && m.quarter === period && m.metricName === metricName,
-      )
-      .reduce((sum, m) => sum + (m.value ?? 0), 0);
-
-  const data: ChartDataPoint[] = allPeriods.map((period) => ({
-    quarter: xLabel(period),
-    sev1: eduValue(period, SEV1_METRIC),
-    sev2: eduValue(period, SEV2_METRIC),
-  }));
-
-  return { data };
-}
-
-function SeverityTrendChart({
-  payload,
-  viewMode,
-  selectedYear,
-  selectedQuarter,
-  sprintLookup,
-}: {
-  payload: MetricsPayload;
-  viewMode: ViewMode;
-  selectedYear: number;
-  selectedQuarter?: string;
-  sprintLookup?: Map<string, SprintInfo>;
-}) {
-  const { data } = useMemo(
-    () => buildSeverityChartData(payload, viewMode, selectedYear, selectedQuarter, sprintLookup),
-    [payload, viewMode, selectedYear, selectedQuarter, sprintLookup],
-  );
-
-  if (data.length === 0) return null;
-
-  const isSprintView = viewMode === "sprint";
-  const xTickFormatter = isSprintView ? (value: string) => String(value).split(" (")[0] : undefined;
-  const xInterval = isSprintView ? 0 : undefined;
-
-  return (
-    <article className="trend-chart-card">
-      <div className="trend-chart-header">
-        <div className="trend-chart-title-row">
-          <h3>Sev 1 &amp; Sev 2 Bugs</h3>
-          <span className="trend-source-badge">Jira</span>
-        </div>
-        <p className="trend-chart-description">
-          High-severity bug counts for EDU overall: one bar for Sev 1 and one bar for Sev 2 per period.
-        </p>
-      </div>
-      <div className="trend-chart-body">
-        <ResponsiveContainer width="100%" height={280}>
-          <BarChart data={data} margin={{ top: 8, right: 24, left: 8, bottom: 8 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="rgba(109,40,217,0.08)" />
-            <XAxis
-              dataKey="quarter"
-              tick={{ fontSize: 12, fill: "#6b5a8d" }}
-              axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
-              tickFormatter={xTickFormatter}
-              interval={xInterval}
-            />
-            <YAxis
-              tick={{ fontSize: 12, fill: "#6b5a8d" }}
-              axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
-              allowDecimals={false}
-              label={{ value: "bugs", angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#6b5a8d" } }}
-            />
-            <Tooltip
-              contentStyle={{
-                background: "#ffffff",
-                border: "1px solid rgba(109,40,217,0.14)",
-                borderRadius: 12,
-                fontSize: 13,
-              }}
-            />
-            <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
-            <Bar
-              dataKey="sev1"
-              name="Sev 1"
-              fill="#dc2626"
-              radius={[3, 3, 0, 0]}
-            />
-            <Bar
-              dataKey="sev2"
-              name="Sev 2"
-              fill="#f59e0b"
-              radius={[3, 3, 0, 0]}
-            />
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
-    </article>
-  );
-}
-
 const [SEV1_INTERNAL_METRIC, SEV1_EXTERNAL_METRIC, SEV2_INTERNAL_METRIC, SEV2_EXTERNAL_METRIC] =
   severityRootCauseMetricNames;
 
-type RootCausePoint = {
+type SeverityLevelPoint = {
   quarter: string;
-  sev1Internal: number;
-  sev1External: number;
-  sev2Internal: number;
-  sev2External: number;
+  internal: number;
+  external: number;
 };
 
-function buildSeverityRootCauseData(
+function buildSeverityLevelData(
   payload: MetricsPayload,
+  internalMetric: string,
+  externalMetric: string,
   viewMode: ViewMode,
   selectedYear: number,
   selectedQuarter?: string,
   sprintLookup?: Map<string, SprintInfo>,
-): RootCausePoint[] {
+): SeverityLevelPoint[] {
   const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
 
   const allPeriods = [
@@ -362,29 +247,46 @@ function buildSeverityRootCauseData(
 
   return allPeriods.map((period) => ({
     quarter: xLabel(period),
-    sev1Internal: eduValue(period, SEV1_INTERNAL_METRIC),
-    sev1External: eduValue(period, SEV1_EXTERNAL_METRIC),
-    sev2Internal: eduValue(period, SEV2_INTERNAL_METRIC),
-    sev2External: eduValue(period, SEV2_EXTERNAL_METRIC),
+    internal: eduValue(period, internalMetric),
+    external: eduValue(period, externalMetric),
   }));
 }
 
-function SeverityRootCauseChart({
+function SeverityLevelChart({
   payload,
+  title,
+  internalMetric,
+  externalMetric,
+  internalColor,
+  externalColor,
   viewMode,
   selectedYear,
   selectedQuarter,
   sprintLookup,
 }: {
   payload: MetricsPayload;
+  title: string;
+  internalMetric: string;
+  externalMetric: string;
+  internalColor: string;
+  externalColor: string;
   viewMode: ViewMode;
   selectedYear: number;
   selectedQuarter?: string;
   sprintLookup?: Map<string, SprintInfo>;
 }) {
   const data = useMemo(
-    () => buildSeverityRootCauseData(payload, viewMode, selectedYear, selectedQuarter, sprintLookup),
-    [payload, viewMode, selectedYear, selectedQuarter, sprintLookup],
+    () =>
+      buildSeverityLevelData(
+        payload,
+        internalMetric,
+        externalMetric,
+        viewMode,
+        selectedYear,
+        selectedQuarter,
+        sprintLookup,
+      ),
+    [payload, internalMetric, externalMetric, viewMode, selectedYear, selectedQuarter, sprintLookup],
   );
 
   if (data.length === 0) return null;
@@ -397,7 +299,7 @@ function SeverityRootCauseChart({
     <article className="trend-chart-card">
       <div className="trend-chart-header">
         <div className="trend-chart-title-row">
-          <h3>Sev 1 &amp; Sev 2 Bugs by Root Cause</h3>
+          <h3>{title}</h3>
           <span className="trend-source-badge">Jira</span>
         </div>
         <p className="trend-chart-description">
@@ -430,10 +332,8 @@ function SeverityRootCauseChart({
               }}
             />
             <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
-            <Bar dataKey="sev1Internal" name="Sev 1 Internal" fill="#dc2626" radius={[3, 3, 0, 0]} />
-            <Bar dataKey="sev1External" name="Sev 1 External" fill="#2563eb" radius={[3, 3, 0, 0]} />
-            <Bar dataKey="sev2Internal" name="Sev 2 Internal" fill="#f59e0b" radius={[3, 3, 0, 0]} />
-            <Bar dataKey="sev2External" name="Sev 2 External" fill="#059669" radius={[3, 3, 0, 0]} />
+            <Bar dataKey="internal" name="Internal" fill={internalColor} radius={[3, 3, 0, 0]} />
+            <Bar dataKey="external" name="External" fill={externalColor} radius={[3, 3, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>
@@ -469,13 +369,6 @@ function TrendsPage({ payload, loading, error }: TrendsPageProps) {
     const metricNames = [...new Set(payload.metrics.map((m) => m.metricName))];
     return trendsMetricOrder.filter((name) => metricNames.includes(name));
   }, [payload]);
-
-  const hasSeverityData = useMemo(
-    () =>
-      Boolean(payload) &&
-      payload!.metrics.some((m) => m.metricName === SEV1_METRIC || m.metricName === SEV2_METRIC),
-    [payload],
-  );
 
   const hasRootCauseData = useMemo(
     () =>
@@ -575,23 +468,33 @@ function TrendsPage({ payload, loading, error }: TrendsPageProps) {
                     sprintLookup={sprintLookup}
                   />
                 )}
-                {metricName === "Defect Leakage %" && hasSeverityData && (
-                  <SeverityTrendChart
-                    payload={payload}
-                    viewMode={viewMode}
-                    selectedYear={resolvedYear}
-                    selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
-                    sprintLookup={sprintLookup}
-                  />
-                )}
                 {metricName === "Defect Leakage %" && hasRootCauseData && (
-                  <SeverityRootCauseChart
-                    payload={payload}
-                    viewMode={viewMode}
-                    selectedYear={resolvedYear}
-                    selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
-                    sprintLookup={sprintLookup}
-                  />
+                  <>
+                    <SeverityLevelChart
+                      payload={payload}
+                      title="Sev 1 Bugs (Internal & External)"
+                      internalMetric={SEV1_INTERNAL_METRIC}
+                      externalMetric={SEV1_EXTERNAL_METRIC}
+                      internalColor="#dc2626"
+                      externalColor="#2563eb"
+                      viewMode={viewMode}
+                      selectedYear={resolvedYear}
+                      selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                      sprintLookup={sprintLookup}
+                    />
+                    <SeverityLevelChart
+                      payload={payload}
+                      title="Sev 2 Bugs (Internal & External)"
+                      internalMetric={SEV2_INTERNAL_METRIC}
+                      externalMetric={SEV2_EXTERNAL_METRIC}
+                      internalColor="#f59e0b"
+                      externalColor="#059669"
+                      viewMode={viewMode}
+                      selectedYear={resolvedYear}
+                      selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                      sprintLookup={sprintLookup}
+                    />
+                  </>
                 )}
               </Fragment>
             ))}

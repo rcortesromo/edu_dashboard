@@ -54,7 +54,12 @@ jobs:
       - name: Detect data changes
         id: detect
         run: |
-          if git diff --quiet -- public/data/metrics.generated.json backend/published/json/metrics.generated.json; then
+          if git diff --quiet -- public/data/metrics.generated.json \
+                                  backend/published/json/metrics.generated.json \
+                                  public/data/feathery-products.generated.json \
+                                  backend/feathery/generated/feathery-products.generated.json \
+                                  backend/feathery/generated/feathery-products-clients.csv \
+                                  backend/feathery/generated/feathery-products-totals.csv; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -67,7 +72,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add backend/published/json/metrics.generated.json \
                   public/data/metrics.generated.json \
-                  backend/published/refresh-summary.json
+                  backend/published/refresh-summary.json \
+                  public/data/feathery-products.generated.json \
+                  backend/feathery/generated/feathery-products.generated.json \
+                  backend/feathery/generated/feathery-products-clients.csv \
+                  backend/feathery/generated/feathery-products-totals.csv
           if git diff --cached --quiet; then
             echo "No staged changes to commit."
           else

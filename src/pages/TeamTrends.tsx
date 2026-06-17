@@ -9,7 +9,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { getSprintsForQuarter, metricDescriptions, mttrMetricName, severityCountMetricNames, severityRootCauseMetricNames, type MetricsPayload, type SprintInfo } from "../lib/metrics";
+import { getSprintsForQuarter, metricDescriptions, mttrMetricName, severityRootCauseMetricNames, type MetricsPayload, type SprintInfo } from "../lib/metrics";
 import {
   getAvailableQuarters,
   getAvailableTeams,
@@ -26,135 +26,25 @@ type TeamTrendsProps = {
   error: string;
 };
 
-const [SEV1_METRIC, SEV2_METRIC] = severityCountMetricNames;
-
-type SeverityPoint = {
-  quarter: string;
-  sev1: number;
-  sev2: number;
-};
-
-function buildTeamSeverityData(
-  payload: MetricsPayload,
-  team: string,
-  viewMode: ViewMode,
-  selectedYear: number,
-  selectedQuarter?: string,
-  sprintLookup?: Map<string, SprintInfo>,
-): SeverityPoint[] {
-  const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
-
-  const allPeriods = [
-    ...new Set([...payload.quarters, ...payload.metrics.map((m) => m.quarter)]),
-  ]
-    .filter(periodFilter)
-    .sort();
-
-  const valueFor = (period: string, metricName: string): number => {
-    const record = payload.metrics.find(
-      (m) => m.team === team && m.quarter === period && m.metricName === metricName,
-    );
-    return record?.value ?? 0;
-  };
-
-  return allPeriods.map((period) => ({
-    quarter: xLabel(period),
-    sev1: valueFor(period, SEV1_METRIC),
-    sev2: valueFor(period, SEV2_METRIC),
-  }));
-}
-
-function TeamSeverityChart({
-  payload,
-  team,
-  viewMode,
-  selectedYear,
-  selectedQuarter,
-  sprintLookup,
-}: {
-  payload: MetricsPayload;
-  team: string;
-  viewMode: ViewMode;
-  selectedYear: number;
-  selectedQuarter?: string;
-  sprintLookup?: Map<string, SprintInfo>;
-}) {
-  const data = useMemo(
-    () => buildTeamSeverityData(payload, team, viewMode, selectedYear, selectedQuarter, sprintLookup),
-    [payload, team, viewMode, selectedYear, selectedQuarter, sprintLookup],
-  );
-
-  if (data.length === 0) return null;
-
-  const isSprintView = viewMode === "sprint";
-  const xTickFormatter = isSprintView ? (value: string) => String(value).split(" (")[0] : undefined;
-  const xInterval = isSprintView ? 0 : undefined;
-
-  return (
-    <article className="trend-chart-card">
-      <div className="trend-chart-header">
-        <div className="trend-chart-title-row">
-          <h3>Sev 1 &amp; Sev 2 Bugs</h3>
-          <span className="trend-source-badge">Jira</span>
-        </div>
-        <p className="trend-chart-description">
-          High-severity bug counts for {teamDisplayMap[team] ?? team}: one bar for Sev 1 and one bar for Sev 2 per period.
-        </p>
-      </div>
-      <div className="trend-chart-body">
-        <ResponsiveContainer width="100%" height={280}>
-          <BarChart data={data} margin={{ top: 8, right: 24, left: 8, bottom: 8 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="rgba(109,40,217,0.08)" />
-            <XAxis
-              dataKey="quarter"
-              tick={{ fontSize: 12, fill: "#6b5a8d" }}
-              axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
-              tickFormatter={xTickFormatter}
-              interval={xInterval}
-            />
-            <YAxis
-              tick={{ fontSize: 12, fill: "#6b5a8d" }}
-              axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
-              allowDecimals={false}
-              label={{ value: "bugs", angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#6b5a8d" } }}
-            />
-            <Tooltip
-              contentStyle={{
-                background: "#ffffff",
-                border: "1px solid rgba(109,40,217,0.14)",
-                borderRadius: 12,
-                fontSize: 13,
-              }}
-            />
-            <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
-            <Bar dataKey="sev1" name="Sev 1" fill="#dc2626" radius={[3, 3, 0, 0]} />
-            <Bar dataKey="sev2" name="Sev 2" fill="#f59e0b" radius={[3, 3, 0, 0]} />
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
-    </article>
-  );
-}
-
 const [SEV1_INTERNAL_METRIC, SEV1_EXTERNAL_METRIC, SEV2_INTERNAL_METRIC, SEV2_EXTERNAL_METRIC] =
   severityRootCauseMetricNames;
 
-type RootCausePoint = {
+type SeverityLevelPoint = {
   quarter: string;
-  sev1Internal: number;
-  sev1External: number;
-  sev2Internal: number;
-  sev2External: number;
+  internal: number;
+  external: number;
 };
 
-function buildTeamSeverityRootCauseData(
+function buildTeamSeverityLevelData(
   payload: MetricsPayload,
   team: string,
+  internalMetric: string,
+  externalMetric: string,
   viewMode: ViewMode,
   selectedYear: number,
   selectedQuarter?: string,
   sprintLookup?: Map<string, SprintInfo>,
-): RootCausePoint[] {
+): SeverityLevelPoint[] {
   const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
 
   const allPeriods = [
@@ -172,16 +62,19 @@ function buildTeamSeverityRootCauseData(
 
   return allPeriods.map((period) => ({
     quarter: xLabel(period),
-    sev1Internal: valueFor(period, SEV1_INTERNAL_METRIC),
-    sev1External: valueFor(period, SEV1_EXTERNAL_METRIC),
-    sev2Internal: valueFor(period, SEV2_INTERNAL_METRIC),
-    sev2External: valueFor(period, SEV2_EXTERNAL_METRIC),
+    internal: valueFor(period, internalMetric),
+    external: valueFor(period, externalMetric),
   }));
 }
 
-function TeamSeverityRootCauseChart({
+function TeamSeverityLevelChart({
   payload,
   team,
+  title,
+  internalMetric,
+  externalMetric,
+  internalColor,
+  externalColor,
   viewMode,
   selectedYear,
   selectedQuarter,
@@ -189,14 +82,29 @@ function TeamSeverityRootCauseChart({
 }: {
   payload: MetricsPayload;
   team: string;
+  title: string;
+  internalMetric: string;
+  externalMetric: string;
+  internalColor: string;
+  externalColor: string;
   viewMode: ViewMode;
   selectedYear: number;
   selectedQuarter?: string;
   sprintLookup?: Map<string, SprintInfo>;
 }) {
   const data = useMemo(
-    () => buildTeamSeverityRootCauseData(payload, team, viewMode, selectedYear, selectedQuarter, sprintLookup),
-    [payload, team, viewMode, selectedYear, selectedQuarter, sprintLookup],
+    () =>
+      buildTeamSeverityLevelData(
+        payload,
+        team,
+        internalMetric,
+        externalMetric,
+        viewMode,
+        selectedYear,
+        selectedQuarter,
+        sprintLookup,
+      ),
+    [payload, team, internalMetric, externalMetric, viewMode, selectedYear, selectedQuarter, sprintLookup],
   );
 
   if (data.length === 0) return null;
@@ -209,7 +117,7 @@ function TeamSeverityRootCauseChart({
     <article className="trend-chart-card">
       <div className="trend-chart-header">
         <div className="trend-chart-title-row">
-          <h3>Sev 1 &amp; Sev 2 Bugs by Root Cause</h3>
+          <h3>{title}</h3>
           <span className="trend-source-badge">Jira</span>
         </div>
         <p className="trend-chart-description">
@@ -242,10 +150,8 @@ function TeamSeverityRootCauseChart({
               }}
             />
             <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
-            <Bar dataKey="sev1Internal" name="Sev 1 Internal" fill="#dc2626" radius={[3, 3, 0, 0]} />
-            <Bar dataKey="sev1External" name="Sev 1 External" fill="#2563eb" radius={[3, 3, 0, 0]} />
-            <Bar dataKey="sev2Internal" name="Sev 2 Internal" fill="#f59e0b" radius={[3, 3, 0, 0]} />
-            <Bar dataKey="sev2External" name="Sev 2 External" fill="#059669" radius={[3, 3, 0, 0]} />
+            <Bar dataKey="internal" name="Internal" fill={internalColor} radius={[3, 3, 0, 0]} />
+            <Bar dataKey="external" name="External" fill={externalColor} radius={[3, 3, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>
@@ -364,17 +270,27 @@ function TeamTrends({ payload, loading, error }: TeamTrendsProps) {
 
         {!loading && !error && payload && resolvedTeam ? (
           <div className="trends-grid">
-            <TeamSeverityChart
+            <TeamSeverityLevelChart
               payload={payload}
               team={resolvedTeam}
+              title="Sev 1 Bugs (Internal & External)"
+              internalMetric={SEV1_INTERNAL_METRIC}
+              externalMetric={SEV1_EXTERNAL_METRIC}
+              internalColor="#dc2626"
+              externalColor="#2563eb"
               viewMode={viewMode}
               selectedYear={resolvedYear}
               selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
               sprintLookup={sprintLookup}
             />
-            <TeamSeverityRootCauseChart
+            <TeamSeverityLevelChart
               payload={payload}
               team={resolvedTeam}
+              title="Sev 2 Bugs (Internal & External)"
+              internalMetric={SEV2_INTERNAL_METRIC}
+              externalMetric={SEV2_EXTERNAL_METRIC}
+              internalColor="#f59e0b"
+              externalColor="#059669"
               viewMode={viewMode}
               selectedYear={resolvedYear}
               selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
