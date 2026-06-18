@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import {
   buildSummaryMetrics,
   formatNumber,
+  useFeatheryCheckouts,
   useFeatheryProducts,
   type FeatheryClient,
 } from "../lib/feathery";
@@ -36,13 +37,17 @@ const COLUMNS: { key: SortKey; label: string }[] = [
 
 function ProductsPage() {
   const { payload, loading, error } = useFeatheryProducts();
+  const { payload: checkoutsPayload } = useFeatheryCheckouts();
   const [query, setQuery] = useState("");
   const [sortKey, setSortKey] = useState<SortKey>("totalForms");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
 
   const summaryMetrics = useMemo(
-    () => (payload ? buildSummaryMetrics(payload.totals) : []),
-    [payload],
+    () =>
+      payload
+        ? buildSummaryMetrics(payload.totals, checkoutsPayload?.currentCycle?.checkouts ?? null)
+        : [],
+    [payload, checkoutsPayload],
   );
 
   const visibleClients = useMemo(() => {
@@ -77,6 +82,33 @@ function ProductsPage() {
     }
   }
 
+  function handleExportCsv() {
+    if (!visibleClients.length) return;
+
+    const escapeCell = (value: string | number) => {
+      const text = String(value ?? "");
+      return /[",\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
+    };
+
+    const header = COLUMNS.map((column) => escapeCell(column.label)).join(",");
+    const rows = visibleClients.map((client) =>
+      COLUMNS.map((column) =>
+        escapeCell(column.key === "name" ? client.name || "(unnamed)" : Number(client[column.key]) || 0)
+      ).join(",")
+    );
+    const csv = [header, ...rows].join("\r\n");
+
+    const blob = new Blob(["\ufeff", csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `revtrak-forms-by-client-${new Date().toISOString().slice(0, 10)}.csv`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }
+
   const billingLabel =
     payload?.billingCycle?.start && payload?.billingCycle?.end
       ? `${payload.billingCycle.start} to ${payload.billingCycle.end}`
@@ -88,9 +120,9 @@ function ProductsPage() {
         <div className="section-heading section-heading-with-selector">
           <div>
             <span className="hero-tag">Products</span>
-            <h2>Feathery usage overview</h2>
+            <h2>RevTrak Forms Usage Overview</h2>
             <p>
-              Form and submission usage across all Feathery workspaces (clients).
+              Form and submission usage across all RevTrak workspaces (clients).
               {billingLabel ? ` Submissions reflect the current billing cycle (${billingLabel}).` : ""}
             </p>
           </div>
@@ -126,13 +158,23 @@ function ProductsPage() {
                     {formatNumber(visibleClients.length)} of {formatNumber(payload.clients.length)} workspaces
                   </p>
                 </div>
-                <input
-                  type="search"
-                  className="period-dropdown products-search"
-                  placeholder="Search client..."
-                  value={query}
-                  onChange={(event) => setQuery(event.target.value)}
-                />
+                <div className="period-toolbar">
+                  <input
+                    type="search"
+                    className="period-dropdown products-search"
+                    placeholder="Search client..."
+                    value={query}
+                    onChange={(event) => setQuery(event.target.value)}
+                  />
+                  <button
+                    type="button"
+                    className="primary-action"
+                    onClick={handleExportCsv}
+                    disabled={!visibleClients.length}
+                  >
+                    Export CSV
+                  </button>
+                </div>
               </div>
 
               <div className="table-wrap products-table-wrap">

@@ -105,7 +105,10 @@ export type SummaryMetric = {
   note?: string;
 };
 
-export function buildSummaryMetrics(totals: FeatheryTotals): SummaryMetric[] {
+export function buildSummaryMetrics(
+  totals: FeatheryTotals,
+  checkouts?: number | null,
+): SummaryMetric[] {
   return [
     { label: "Clients identified", value: totals.clientsIdentified, note: "Feathery workspaces" },
     { label: "Submissions", value: totals.submissions, note: "Current billing cycle" },
@@ -115,8 +118,99 @@ export function buildSummaryMetrics(totals: FeatheryTotals): SummaryMetric[] {
     { label: "Forms with multiple steps", value: totals.multiStepForms },
     { label: "Forms with eSignature", value: totals.formsWithESignature },
     { label: "Forms with upload", value: totals.formsWithUpload },
-    { label: "Forms with payments embedded", value: totals.formsWithPayments },
+    {
+      label: "Forms with payments embedded",
+      value: totals.formsWithPayments,
+      note: "Includes inactive forms — every form that ever embedded RevTrak",
+    },
     { label: "Forms without payments", value: totals.formsWithoutPayments },
-    { label: "Checkouts", value: totals.checkouts, note: "Not exposed by report endpoints" },
+    {
+      label: "Checkouts",
+      value: checkouts ?? null,
+      note: "RevTrak orders, current billing cycle",
+    },
   ];
+}
+
+export type FeatheryCheckoutsClient = {
+  id: string;
+  name: string;
+  checkouts: number;
+  amount: number;
+  cycleSubmissions: number;
+};
+
+export type FeatheryCheckoutsPayload = {
+  generatedAt: string;
+  source: string;
+  definition: string;
+  period: { since: string | null; label: string };
+  currentCycle: { checkouts: number; amount: number };
+  accumulated: { checkouts: number; amount: number; closedCycles: number };
+  coverage: {
+    workspacesWithRevtrak: number;
+    workspacesProcessed: number;
+    workspacesScanned: number;
+    skippedNoSubmissions: number;
+    skippedNoChange: number;
+    activeFormsOnly: boolean;
+  };
+  perWorkspace: FeatheryCheckoutsClient[];
+};
+
+export type FeatheryCheckoutsState = {
+  payload: FeatheryCheckoutsPayload | null;
+  loading: boolean;
+  error: string;
+};
+
+const CHECKOUTS_FEED_URL = "/data/feathery-checkouts.generated.json";
+
+export function useFeatheryCheckouts(): FeatheryCheckoutsState {
+  const [payload, setPayload] = useState<FeatheryCheckoutsPayload | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function load() {
+      try {
+        setLoading(true);
+        setError("");
+
+        const response = await fetch(CHECKOUTS_FEED_URL);
+
+        if (!response.ok) {
+          throw new Error("Feathery checkouts feed is unavailable.");
+        }
+
+        const data = (await response.json()) as FeatheryCheckoutsPayload;
+
+        if (!cancelled) {
+          setPayload(data);
+        }
+      } catch (fetchError) {
+        if (!cancelled) {
+          setError(
+            fetchError instanceof Error
+              ? fetchError.message
+              : "Unable to load the Feathery checkouts feed.",
+          );
+        }
+      } finally {
+        if (!cancelled) {
+          setLoading(false);
+        }
+      }
+    }
+
+    load();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  return { payload, loading, error };
 }

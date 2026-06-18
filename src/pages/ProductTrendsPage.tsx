@@ -17,7 +17,8 @@ import { formatNumber, useFeatheryProducts, type FeatheryClient } from "../lib/f
 
 const PALETTE = ["#6d28d9", "#2563eb", "#059669", "#d97706", "#dc2626", "#0891b2", "#7c3aed", "#db2777"];
 
-const TOP_N = 12;
+const TOP_N_OPTIONS = [10, 20, 50, "all"] as const;
+type TopCount = (typeof TOP_N_OPTIONS)[number];
 
 const tooltipStyle = {
   background: "#ffffff",
@@ -29,6 +30,7 @@ const tooltipStyle = {
 function ProductTrendsPage() {
   const { payload, loading, error } = useFeatheryProducts();
   const [topMetric, setTopMetric] = useState<"submissions" | "totalForms">("submissions");
+  const [topCount, setTopCount] = useState<TopCount>(10);
 
   const formComposition = useMemo(() => {
     if (!payload) return [];
@@ -53,14 +55,22 @@ function ProductTrendsPage() {
   const topClients = useMemo(() => {
     if (!payload) return [];
     const key: keyof FeatheryClient = topMetric;
-    return [...payload.clients]
-      .sort((a, b) => (Number(b[key]) || 0) - (Number(a[key]) || 0))
-      .slice(0, TOP_N)
-      .map((client) => ({
-        name: client.name || "(unnamed)",
-        value: Number(client[key]) || 0,
-      }));
-  }, [payload, topMetric]);
+    const sorted = [...payload.clients].sort(
+      (a, b) => (Number(b[key]) || 0) - (Number(a[key]) || 0)
+    );
+    const limited =
+      topCount === "all"
+        ? sorted.filter(
+            (client) =>
+              (Number(client.submissions) || 0) > 0 &&
+              (Number(client.totalForms) || 0) > 0
+          )
+        : sorted.slice(0, topCount);
+    return limited.map((client) => ({
+      name: client.name || "(unnamed)",
+      value: Number(client[key]) || 0,
+    }));
+  }, [payload, topMetric, topCount]);
 
   return (
     <main className="content-shell products-shell trends-shell">
@@ -68,8 +78,8 @@ function ProductTrendsPage() {
         <div className="section-heading section-heading-with-selector">
           <div>
             <span className="hero-tag">Products</span>
-            <h2>Feathery usage charts</h2>
-            <p>Visual breakdown of forms and submissions across Feathery workspaces.</p>
+            <h2>RevTrak Forms Usage Charts</h2>
+            <p>Visual breakdown of client usage of RevTrak Forms.</p>
           </div>
           <div className="period-toolbar">
             <Link to="/business-metrics/feathery" className="primary-action">
@@ -147,17 +157,36 @@ function ProductTrendsPage() {
                     <h3>Top clients</h3>
                   </div>
                   <p className="trend-chart-description">
-                    Top {TOP_N} workspaces by the selected metric.
+                    {topCount === "all" ? "All" : `Top ${topCount}`} workspaces by the selected metric.
                   </p>
                 </div>
-                <select
-                  className="period-dropdown"
-                  value={topMetric}
-                  onChange={(event) => setTopMetric(event.target.value as "submissions" | "totalForms")}
-                >
-                  <option value="submissions">Submissions</option>
-                  <option value="totalForms">Total forms</option>
-                </select>
+                <div className="period-toolbar">
+                  <select
+                    className="period-dropdown"
+                    value={topCount}
+                    onChange={(event) =>
+                      setTopCount(
+                        event.target.value === "all"
+                          ? "all"
+                          : (Number(event.target.value) as TopCount)
+                      )
+                    }
+                  >
+                    {TOP_N_OPTIONS.map((option) => (
+                      <option key={option} value={option}>
+                        {option === "all" ? "All clients" : `Top ${option}`}
+                      </option>
+                    ))}
+                  </select>
+                  <select
+                    className="period-dropdown"
+                    value={topMetric}
+                    onChange={(event) => setTopMetric(event.target.value as "submissions" | "totalForms")}
+                  >
+                    <option value="submissions">Submissions</option>
+                    <option value="totalForms">Total forms</option>
+                  </select>
+                </div>
               </div>
               <div className="trend-chart-body">
                 <ResponsiveContainer width="100%" height={Math.max(280, topClients.length * 34)}>

@@ -17,7 +17,11 @@ const API_BASE = "https://api.feathery.io";
 
 // Candidate field-type keys in form_field_stats that map to the metrics we care
 // about. Feathery may use slightly different keys, so we match against a list.
-const PAYMENT_FIELD_TYPES = ["payment_method", "payment", "stripe", "checkout"];
+// Payments are embedded via the RevTrak custom component, which the form report
+// exposes under the custom field key `revtrak_inventory` (not `payment_method`,
+// which stays at 0 because these workspaces don't use Feathery's native payment
+// element).
+const PAYMENT_FIELD_TYPES = ["revtrak_inventory", "payment_method", "payment", "stripe", "checkout"];
 const SIGNATURE_FIELD_TYPES = ["signature", "esignature", "e_signature"];
 const UPLOAD_FIELD_TYPES = ["file_upload", "upload", "file"];
 
@@ -306,7 +310,7 @@ async function main() {
     { metric_name: "Forms with multiple steps", metric_value: totals.multiStepForms, note: "step_count > 1" },
     { metric_name: "Forms with eSignature", metric_value: totals.formsWithESignature, note: "signature field" },
     { metric_name: "Forms with upload", metric_value: totals.formsWithUpload, note: "file_upload field" },
-    { metric_name: "Forms with payments embedded", metric_value: totals.formsWithPayments, note: "payment_method field" },
+    { metric_name: "Forms with payments embedded", metric_value: totals.formsWithPayments, note: "revtrak_inventory (RevTrak) element — includes inactive forms (every form that ever embedded RevTrak)" },
     { metric_name: "Forms without payments", metric_value: totals.formsWithoutPayments, note: "" },
     { metric_name: "Checkouts", metric_value: totals.checkouts, note: "Not exposed by report endpoints" },
   ];

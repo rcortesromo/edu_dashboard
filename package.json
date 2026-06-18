@@ -15,6 +15,7 @@
     "pull:defect-leakage": "node scripts/jira/pull-defect-leakage.mjs",
     "pull:jira-mttr": "node scripts/jira/pull-mttr.mjs",
     "pull:feathery-products": "node scripts/feathery/pull-feathery-products.mjs",
+    "pull:feathery-checkouts": "node scripts/feathery/pull-feathery-checkouts.mjs",
     "refresh:static-metrics": "node scripts/published/refresh-static-metrics.mjs"
   },
   "dependencies": {

@@ -15,7 +15,7 @@ const API_BASE = "https://api.feathery.io";
 // Field type keys in form_field_stats that map to the metrics we care about.
 // Feathery may use slightly different keys per workspace, so we match against
 // a list of candidates and report which one actually matched.
-const PAYMENT_FIELD_TYPES = ["payment_method", "payment", "stripe", "checkout"];
+const PAYMENT_FIELD_TYPES = ["revtrak_inventory", "payment_method", "payment", "stripe", "checkout"];
 const SIGNATURE_FIELD_TYPES = ["signature", "esignature", "e_signature"];
 const UPLOAD_FIELD_TYPES = ["file_upload", "upload", "file"];
 

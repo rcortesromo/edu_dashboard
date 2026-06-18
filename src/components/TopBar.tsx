@@ -12,7 +12,7 @@ const trendsItems = [
 ];
 
 const businessMetricsItems = [
-  { label: "Feathery", to: "/business-metrics/feathery" },
+  { label: "RevTrak Forms", to: "/business-metrics/feathery" },
 ];
 
 function TopBar() {
