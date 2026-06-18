@@ -72,6 +72,10 @@ jobs:
             git push origin "HEAD:${{ github.ref_name }}"
           fi
 
+      - name: Render run log
+        if: always()
+        run: node scripts/feathery/render-feathery-log.mjs
+
       - name: Upload refresh summary artifact
         if: always()
         uses: actions/upload-artifact@v4

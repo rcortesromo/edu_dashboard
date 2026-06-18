@@ -17,6 +17,7 @@
     "pull:feathery-products": "node scripts/feathery/pull-feathery-products.mjs",
     "pull:feathery-checkouts": "node scripts/feathery/pull-feathery-checkouts.mjs",
     "archive:feathery-cycles": "node scripts/feathery/archive-feathery-cycles.mjs",
+    "render:feathery-log": "node scripts/feathery/render-feathery-log.mjs",
     "refresh:feathery": "node scripts/feathery/refresh-feathery.mjs",
     "refresh:static-metrics": "node scripts/published/refresh-static-metrics.mjs"
   },
