@@ -16,6 +16,8 @@
     "pull:jira-mttr": "node scripts/jira/pull-mttr.mjs",
     "pull:feathery-products": "node scripts/feathery/pull-feathery-products.mjs",
     "pull:feathery-checkouts": "node scripts/feathery/pull-feathery-checkouts.mjs",
+    "archive:feathery-cycles": "node scripts/feathery/archive-feathery-cycles.mjs",
+    "refresh:feathery": "node scripts/feathery/refresh-feathery.mjs",
     "refresh:static-metrics": "node scripts/published/refresh-static-metrics.mjs"
   },
   "dependencies": {

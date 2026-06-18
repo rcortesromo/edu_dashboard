@@ -13,7 +13,13 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { formatNumber, useFeatheryProducts, type FeatheryClient } from "../lib/feathery";
+import {
+  formatCycleLabel,
+  formatNumber,
+  useFeatheryCycleSelection,
+  useFeatheryProducts,
+  type FeatheryClient,
+} from "../lib/feathery";
 
 const PALETTE = ["#6d28d9", "#2563eb", "#059669", "#d97706", "#dc2626", "#0891b2", "#7c3aed", "#db2777"];
 
@@ -28,7 +34,8 @@ const tooltipStyle = {
 } as const;
 
 function ProductTrendsPage() {
-  const { payload, loading, error } = useFeatheryProducts();
+  const { cycles, selectedEntry, setSelectedFolder, productsUrl } = useFeatheryCycleSelection();
+  const { payload, loading, error } = useFeatheryProducts(productsUrl);
   const [topMetric, setTopMetric] = useState<"submissions" | "totalForms">("submissions");
   const [topCount, setTopCount] = useState<TopCount>(10);
 
@@ -79,9 +86,30 @@ function ProductTrendsPage() {
           <div>
             <span className="hero-tag">Products</span>
             <h2>RevTrak Forms Usage Charts</h2>
-            <p>Visual breakdown of client usage of RevTrak Forms.</p>
+            <p>
+              Visual breakdown of client usage of RevTrak Forms.
+              {selectedEntry
+                ? selectedEntry.folder === "all-time"
+                  ? ` Aggregated across all billing cycles (${formatCycleLabel(selectedEntry)}).`
+                  : ` Billing cycle: ${formatCycleLabel(selectedEntry)}${selectedEntry.current ? " (current)" : ""}.`
+                : ""}
+            </p>
           </div>
           <div className="period-toolbar">
+            {cycles.length ? (
+              <select
+                className="period-dropdown"
+                value={selectedEntry?.folder ?? ""}
+                onChange={(event) => setSelectedFolder(event.target.value)}
+                aria-label="Billing cycle"
+              >
+                {cycles.map((cycle) => (
+                  <option key={cycle.folder} value={cycle.folder}>
+                    {cycle.current ? `${formatCycleLabel(cycle)} (current)` : formatCycleLabel(cycle)}
+                  </option>
+                ))}
+              </select>
+            ) : null}
             <Link to="/business-metrics/feathery" className="primary-action">
               Back to table
             </Link>

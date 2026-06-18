@@ -34,19 +34,6 @@ function runNodeScript(scriptPath, args = []) {
   });
 }
 
-// Best-effort runner: logs and swallows failures instead of aborting the whole
-// refresh. Used for optional sources (e.g. Feathery) whose credentials may be
-// absent in some environments and that are independent of the merged pipeline.
-function runNodeScriptBestEffort(scriptPath, args = []) {
-  return runNodeScript(scriptPath, args).then(
-    () => true,
-    (error) => {
-      console.warn(`Skipping ${path.basename(scriptPath)}: ${error.message}`);
-      return false;
-    },
-  );
-}
-
 function hasArg(argv, name) {
   return argv.some((entry) => entry === name || entry.startsWith(`${name}=`));
 }
@@ -155,15 +142,9 @@ async function main() {
   await runNodeScript(path.join(__dirname, "jira/pull-defect-leakage.mjs"), pullArgs);
   await runNodeScript(path.join(__dirname, "jira/pull-mttr.mjs"), pullArgs);
 
-  let featheryRefreshed = false;
   if (!isTeamScoped) {
     await runNodeScript(path.join(__dirname, "ai/pull-adoption-metrics.mjs"), pullArgs);
     await runNodeScript(path.join(__dirname, "cursor/pull-cursor-metrics.mjs"), pullArgs);
-    // Feathery is a self-contained snapshot (writes its own public JSON) and is
-    // optional: a missing FEATHERY_TOKEN must not fail the rest of the refresh.
-    featheryRefreshed = await runNodeScriptBestEffort(
-      path.join(__dirname, "feathery/pull-feathery-products.mjs"),
-    );
   }
 
   await runNodeScript(path.join(__dirname, "published/merge-metric-sources.mjs"));
@@ -188,19 +169,12 @@ async function main() {
   ];
 
   if (isTeamScoped) {
-    for (const name of ["ai", "cursor", "feathery"]) {
+    for (const name of ["ai", "cursor"]) {
       sources.push({ name, status: "skipped", note: "team-scoped run" });
     }
   } else {
     sources.push(await readSourceSummary(aiSummaryPath, "ai"));
     sources.push(await readSourceSummary(cursorSummaryPath, "cursor"));
-    sources.push({
-      name: "feathery",
-      status: featheryRefreshed ? "completed" : "skipped",
-      note: featheryRefreshed
-        ? ""
-        : "best-effort skip (missing FEATHERY_TOKEN or fetch failed)",
-    });
   }
 
   const refreshSummary = await writeRefreshSummary(sources, dataChanged);
@@ -211,7 +185,6 @@ async function main() {
         generatedJsonPath,
         publicJsonPath,
         refreshSummaryPath,
-        featheryRefreshed,
         dataChanged,
         sources: refreshSummary.sources,
       },

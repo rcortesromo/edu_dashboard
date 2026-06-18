@@ -2,8 +2,10 @@ import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   buildSummaryMetrics,
+  formatCycleLabel,
   formatNumber,
   useFeatheryCheckouts,
+  useFeatheryCycleSelection,
   useFeatheryProducts,
   type FeatheryClient,
 } from "../lib/feathery";
@@ -36,8 +38,10 @@ const COLUMNS: { key: SortKey; label: string }[] = [
 ];
 
 function ProductsPage() {
-  const { payload, loading, error } = useFeatheryProducts();
-  const { payload: checkoutsPayload } = useFeatheryCheckouts();
+  const { cycles, selectedEntry, setSelectedFolder, productsUrl, checkoutsUrl } =
+    useFeatheryCycleSelection();
+  const { payload, loading, error } = useFeatheryProducts(productsUrl);
+  const { payload: checkoutsPayload } = useFeatheryCheckouts(checkoutsUrl);
   const [query, setQuery] = useState("");
   const [sortKey, setSortKey] = useState<SortKey>("totalForms");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
@@ -109,8 +113,10 @@ function ProductsPage() {
     URL.revokeObjectURL(url);
   }
 
-  const billingLabel =
-    payload?.billingCycle?.start && payload?.billingCycle?.end
+  const isAllTime = selectedEntry?.folder === "all-time";
+  const billingLabel = selectedEntry
+    ? formatCycleLabel(selectedEntry)
+    : payload?.billingCycle?.start && payload?.billingCycle?.end
       ? `${payload.billingCycle.start} to ${payload.billingCycle.end}`
       : null;
 
@@ -123,10 +129,30 @@ function ProductsPage() {
             <h2>RevTrak Forms Usage Overview</h2>
             <p>
               Form and submission usage across all RevTrak workspaces (clients).
-              {billingLabel ? ` Submissions reflect the current billing cycle (${billingLabel}).` : ""}
+              {billingLabel
+                ? isAllTime
+                  ? ` Submissions and checkouts are summed across all billing cycles (${billingLabel}).`
+                  : ` Submissions and checkouts reflect the ${
+                      selectedEntry?.current ? "current " : ""
+                    }billing cycle (${billingLabel}).`
+                : ""}
             </p>
           </div>
           <div className="period-toolbar">
+            {cycles.length ? (
+              <select
+                className="period-dropdown"
+                value={selectedEntry?.folder ?? ""}
+                onChange={(event) => setSelectedFolder(event.target.value)}
+                aria-label="Billing cycle"
+              >
+                {cycles.map((cycle) => (
+                  <option key={cycle.folder} value={cycle.folder}>
+                    {cycle.current ? `${formatCycleLabel(cycle)} (current)` : formatCycleLabel(cycle)}
+                  </option>
+                ))}
+              </select>
+            ) : null}
             <Link to="/business-metrics/feathery/trends" className="primary-action">
               View charts
             </Link>

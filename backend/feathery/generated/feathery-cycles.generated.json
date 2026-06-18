@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-06-18T16:11:54.508Z",
+  "current": "2026-06-03_2026-07-03",
+  "cycles": [
+    {
+      "folder": "2026-06-03_2026-07-03",
+      "label": "2026-06-03 to 2026-07-03",
+      "start": "2026-06-03",
+      "end": "2026-07-03",
+      "current": true,
+      "productsUrl": "/data/feathery-cycles/2026-06-03_2026-07-03/products.json",
+      "checkoutsUrl": "/data/feathery-cycles/2026-06-03_2026-07-03/checkouts.json",
+      "generatedAt": "2026-06-17T19:32:47.088Z"
+    },
+    {
+      "folder": "all-time",
+      "label": "All-time",
+      "start": "2026-06-03",
+      "end": "2026-07-03",
+      "current": false,
+      "productsUrl": "/data/feathery-cycles/all-time/products.json",
+      "checkoutsUrl": "/data/feathery-cycles/all-time/checkouts.json",
+      "generatedAt": "2026-06-18T16:11:54.508Z"
+    }
+  ]
+}
