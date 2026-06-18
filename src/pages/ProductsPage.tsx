@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
-  buildSummaryMetrics,
+  buildSummaryGroups,
   formatCycleLabel,
   formatNumber,
   useFeatheryCheckouts,
@@ -46,10 +46,10 @@ function ProductsPage() {
   const [sortKey, setSortKey] = useState<SortKey>("totalForms");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
 
-  const summaryMetrics = useMemo(
+  const summaryGroups = useMemo(
     () =>
       payload
-        ? buildSummaryMetrics(payload.totals, checkoutsPayload?.currentCycle?.checkouts ?? null)
+        ? buildSummaryGroups(payload.totals, checkoutsPayload?.currentCycle ?? null)
         : [],
     [payload, checkoutsPayload],
   );
@@ -164,17 +164,22 @@ function ProductsPage() {
 
         {!loading && !error && payload ? (
           <>
-            <div className="kpi-grid products-kpi-grid">
-              {summaryMetrics.map((metric) => (
-                <article key={metric.label} className="kpi-card">
-                  <span className="kpi-label" title={metric.note}>
-                    {metric.label}
-                  </span>
-                  <strong>{formatNumber(metric.value)}</strong>
-                  {metric.note ? <span className="kpi-note">{metric.note}</span> : null}
-                </article>
-              ))}
-            </div>
+            {summaryGroups.map((group) => (
+              <div key={group.title} className="kpi-group">
+                <h3 className="kpi-group-title">{group.title}</h3>
+                <div className="kpi-grid products-kpi-grid">
+                  {group.metrics.map((metric) => (
+                    <article key={metric.label} className="kpi-card">
+                      <span className="kpi-label" title={metric.note}>
+                        {metric.label}
+                      </span>
+                      <strong>{metric.display ?? formatNumber(metric.value)}</strong>
+                      {metric.note ? <span className="kpi-note">{metric.note}</span> : null}
+                    </article>
+                  ))}
+                </div>
+              </div>
+            ))}
 
             <div className="table-card">
               <div className="table-header">

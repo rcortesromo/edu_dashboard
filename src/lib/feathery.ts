@@ -102,32 +102,90 @@ export function formatNumber(value: number | null | undefined): string {
 export type SummaryMetric = {
   label: string;
   value: number | null;
+  // Optional preformatted display (e.g. "48%" or "$144"); falls back to formatNumber(value).
+  display?: string;
   note?: string;
 };
 
-export function buildSummaryMetrics(
+export type SummaryMetricGroup = {
+  title: string;
+  metrics: SummaryMetric[];
+};
+
+// Builds the grouped KPI cards shown on the Products page. The checkout argument
+// carries the current-cycle aggregates (count + amount) so we can derive the
+// purchase rate and average form cost from data we already have.
+export function buildSummaryGroups(
   totals: FeatheryTotals,
-  checkouts?: number | null,
-): SummaryMetric[] {
+  checkout?: { checkouts: number; amount: number } | null,
+): SummaryMetricGroup[] {
+  const checkouts = checkout?.checkouts ?? null;
+  const amount = checkout?.amount ?? null;
+  const submissions = totals.submissions;
+
+  // Purchased Forms = checkouts / forms added to cart (submissions) * 100.
+  const purchasedPct =
+    checkouts !== null && submissions > 0 ? (checkouts / submissions) * 100 : null;
+  // Avg. Form Cost = total checkout amount / checkouts.
+  const avgFormCost =
+    checkouts !== null && checkouts > 0 && amount !== null ? amount / checkouts : null;
+
   return [
-    { label: "Clients identified", value: totals.clientsIdentified, note: "Feathery workspaces" },
-    { label: "Submissions", value: totals.submissions, note: "Current billing cycle" },
-    { label: "Total forms", value: totals.totalForms },
-    { label: "Active forms", value: totals.activeForms },
-    { label: "Inactive forms", value: totals.inactiveForms },
-    { label: "Forms with multiple steps", value: totals.multiStepForms },
-    { label: "Forms with eSignature", value: totals.formsWithESignature },
-    { label: "Forms with upload", value: totals.formsWithUpload },
     {
-      label: "Forms with payments embedded",
-      value: totals.formsWithPayments,
-      note: "Includes inactive forms — every form that ever embedded RevTrak",
+      title: "Client Information",
+      metrics: [
+        {
+          label: "Clients Enabled with RevTrak Forms",
+          value: totals.clientsIdentified,
+          note: "Feathery workspaces",
+        },
+        { label: "Total Active Forms", value: totals.activeForms },
+        {
+          label: "Total Active & Archived",
+          value: totals.formsWithPayments + totals.formsWithoutPayments,
+          note: "Forms with payments + forms without payments",
+        },
+      ],
     },
-    { label: "Forms without payments", value: totals.formsWithoutPayments },
     {
-      label: "Checkouts",
-      value: checkouts ?? null,
-      note: "RevTrak orders, current billing cycle",
+      title: "Element Information",
+      metrics: [
+        { label: "Multiple Steps", value: totals.multiStepForms },
+        { label: "eSignature", value: totals.formsWithESignature },
+        { label: "File Upload", value: totals.formsWithUpload },
+        {
+          label: "Active Forms with Inventory",
+          value: totals.formsWithPayments,
+          note: "Forms with the RevTrak component (includes archived)",
+        },
+      ],
+    },
+    {
+      title: "Payment Information",
+      metrics: [
+        {
+          label: "Total forms added to cart",
+          value: submissions,
+          note: "Submissions, current billing cycle",
+        },
+        {
+          label: "Checkouts",
+          value: checkouts,
+          note: "Submissions with a RevTrak OrderId",
+        },
+        {
+          label: "Purchased Forms",
+          value: purchasedPct,
+          display: purchasedPct !== null ? `${Math.round(purchasedPct)}%` : "N/A",
+          note: "Checkouts ÷ forms added to cart",
+        },
+        {
+          label: "Avg. Form Cost",
+          value: avgFormCost,
+          display: avgFormCost !== null ? `$${formatNumber(Math.round(avgFormCost))}` : "N/A",
+          note: "Total checkout amount ÷ checkouts",
+        },
+      ],
     },
   ];
 }

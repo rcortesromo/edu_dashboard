@@ -111,7 +111,7 @@ function ProductTrendsPage() {
               </select>
             ) : null}
             <Link to="/business-metrics/feathery" className="primary-action">
-              Back to table
+              Back to Usage Overview
             </Link>
           </div>
         </div>
