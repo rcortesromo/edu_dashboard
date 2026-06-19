@@ -1,6 +1,6 @@
 {
-  "runAt": "2026-06-18T18:15:13.368Z",
-  "trigger": "workflow_dispatch",
+  "runAt": "2026-06-19T17:21:21.957Z",
+  "trigger": "schedule",
   "status": "completed",
   "note": "",
   "sources": [
