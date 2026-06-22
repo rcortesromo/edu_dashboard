@@ -99,6 +99,15 @@ export function formatNumber(value: number | null | undefined): string {
   return new Intl.NumberFormat("en-US").format(value);
 }
 
+export function formatCurrency(value: number | null | undefined): string {
+  if (value === null || value === undefined) return "N/A";
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 0,
+  }).format(value);
+}
+
 export type SummaryMetric = {
   label: string;
   value: number | null;
@@ -156,7 +165,7 @@ export function buildSummaryGroups(
         {
           label: "Active Forms with Inventory",
           value: totals.formsWithPayments,
-          note: "Forms with the RevTrak component (includes archived)",
+          note: "Forms with the RevTrak component",
         },
       ],
     },
@@ -197,6 +206,36 @@ export type FeatheryCheckoutsClient = {
   amount: number;
   cycleSubmissions: number;
 };
+
+export type ClientTableRow = FeatheryClient & {
+  activeFormsWithoutPayments: number;
+  checkouts: number;
+  avgFormCost: number | null;
+};
+
+export function buildClientTableRows(
+  clients: FeatheryClient[],
+  checkoutClients: FeatheryCheckoutsClient[] | undefined,
+): ClientTableRow[] {
+  const checkoutsById = new Map((checkoutClients ?? []).map((client) => [client.id, client]));
+
+  return clients.map((client) => {
+    const checkout = checkoutsById.get(client.id);
+    const checkouts = checkout?.checkouts ?? 0;
+    const amount = checkout?.amount ?? 0;
+    const avgFormCost = checkouts > 0 ? amount / checkouts : null;
+
+    return {
+      ...client,
+      activeFormsWithoutPayments: Math.min(
+        client.activeForms,
+        Math.max(0, client.totalForms - client.formsWithPayments),
+      ),
+      checkouts,
+      avgFormCost,
+    };
+  });
+}
 
 export type FeatheryCheckoutsPayload = {
   generatedAt: string;

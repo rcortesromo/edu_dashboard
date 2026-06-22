@@ -1,17 +1,19 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
+  buildClientTableRows,
   buildSummaryGroups,
   formatCycleLabel,
+  formatCurrency,
   formatNumber,
   useFeatheryCheckouts,
   useFeatheryCycleSelection,
   useFeatheryProducts,
-  type FeatheryClient,
+  type ClientTableRow,
 } from "../lib/feathery";
 
 type SortKey = keyof Pick<
-  FeatheryClient,
+  ClientTableRow,
   | "name"
   | "totalForms"
   | "activeForms"
@@ -21,20 +23,94 @@ type SortKey = keyof Pick<
   | "formsWithESignature"
   | "formsWithUpload"
   | "submissions"
+  | "activeFormsWithoutPayments"
+  | "checkouts"
+  | "avgFormCost"
 >;
 
 type SortDir = "asc" | "desc";
 
-const COLUMNS: { key: SortKey; label: string }[] = [
-  { key: "name", label: "Client" },
-  { key: "totalForms", label: "Forms" },
-  { key: "activeForms", label: "Active" },
-  { key: "inactiveForms", label: "Inactive" },
-  { key: "multiStepForms", label: "Multi-step" },
-  { key: "formsWithPayments", label: "Payments" },
-  { key: "formsWithESignature", label: "eSignature" },
-  { key: "formsWithUpload", label: "Upload" },
-  { key: "submissions", label: "Submissions" },
+type TableColumn = {
+  key: SortKey;
+  label: string;
+  exportValue: (client: ClientTableRow) => string | number;
+  displayValue: (client: ClientTableRow) => string;
+};
+
+const COLUMNS: TableColumn[] = [
+  {
+    key: "name",
+    label: "Client",
+    exportValue: (client) => client.name || "(unnamed)",
+    displayValue: (client) => client.name || "(unnamed)",
+  },
+  {
+    key: "totalForms",
+    label: "Forms",
+    exportValue: (client) => client.totalForms,
+    displayValue: (client) => formatNumber(client.totalForms),
+  },
+  {
+    key: "activeForms",
+    label: "Active",
+    exportValue: (client) => client.activeForms,
+    displayValue: (client) => formatNumber(client.activeForms),
+  },
+  {
+    key: "inactiveForms",
+    label: "Inactive",
+    exportValue: (client) => client.inactiveForms,
+    displayValue: (client) => formatNumber(client.inactiveForms),
+  },
+  {
+    key: "multiStepForms",
+    label: "Multi-step",
+    exportValue: (client) => client.multiStepForms,
+    displayValue: (client) => formatNumber(client.multiStepForms),
+  },
+  {
+    key: "formsWithPayments",
+    label: "Payments",
+    exportValue: (client) => client.formsWithPayments,
+    displayValue: (client) => formatNumber(client.formsWithPayments),
+  },
+  {
+    key: "formsWithESignature",
+    label: "eSignature",
+    exportValue: (client) => client.formsWithESignature,
+    displayValue: (client) => formatNumber(client.formsWithESignature),
+  },
+  {
+    key: "formsWithUpload",
+    label: "Upload",
+    exportValue: (client) => client.formsWithUpload,
+    displayValue: (client) => formatNumber(client.formsWithUpload),
+  },
+  {
+    key: "submissions",
+    label: "Submissions",
+    exportValue: (client) => client.submissions,
+    displayValue: (client) => formatNumber(client.submissions),
+  },
+  {
+    key: "activeFormsWithoutPayments",
+    label: "Active w/o payment",
+    exportValue: (client) => client.activeFormsWithoutPayments,
+    displayValue: (client) => formatNumber(client.activeFormsWithoutPayments),
+  },
+  {
+    key: "checkouts",
+    label: "Checkouts",
+    exportValue: (client) => client.checkouts,
+    displayValue: (client) => formatNumber(client.checkouts),
+  },
+  {
+    key: "avgFormCost",
+    label: "Avg cost",
+    exportValue: (client) =>
+      client.avgFormCost !== null ? Math.round(client.avgFormCost) : "",
+    displayValue: (client) => formatCurrency(client.avgFormCost),
+  },
 ];
 
 function ProductsPage() {
@@ -54,12 +130,19 @@ function ProductsPage() {
     [payload, checkoutsPayload],
   );
 
+  const clientRows = useMemo(
+    () =>
+      payload
+        ? buildClientTableRows(payload.clients, checkoutsPayload?.perWorkspace)
+        : [],
+    [payload, checkoutsPayload],
+  );
+
   const visibleClients = useMemo(() => {
-    if (!payload) return [];
     const normalized = query.trim().toLowerCase();
     const filtered = normalized
-      ? payload.clients.filter((client) => client.name?.toLowerCase().includes(normalized))
-      : payload.clients;
+      ? clientRows.filter((client) => client.name?.toLowerCase().includes(normalized))
+      : clientRows;
 
     const sorted = [...filtered].sort((a, b) => {
       const aValue = a[sortKey];
@@ -70,12 +153,14 @@ function ProductsPage() {
         return sortDir === "asc" ? cmp : -cmp;
       }
 
-      const cmp = (Number(aValue) || 0) - (Number(bValue) || 0);
+      const aNumber = aValue === null || aValue === undefined ? -1 : Number(aValue) || 0;
+      const bNumber = bValue === null || bValue === undefined ? -1 : Number(bValue) || 0;
+      const cmp = aNumber - bNumber;
       return sortDir === "asc" ? cmp : -cmp;
     });
 
     return sorted;
-  }, [payload, query, sortKey, sortDir]);
+  }, [clientRows, query, sortKey, sortDir]);
 
   function handleSort(key: SortKey) {
     if (key === sortKey) {
@@ -96,9 +181,7 @@ function ProductsPage() {
 
     const header = COLUMNS.map((column) => escapeCell(column.label)).join(",");
     const rows = visibleClients.map((client) =>
-      COLUMNS.map((column) =>
-        escapeCell(column.key === "name" ? client.name || "(unnamed)" : Number(client[column.key]) || 0)
-      ).join(",")
+      COLUMNS.map((column) => escapeCell(column.exportValue(client))).join(",")
     );
     const csv = [header, ...rows].join("\r\n");
 
@@ -235,15 +318,14 @@ function ProductsPage() {
                   <tbody>
                     {visibleClients.map((client) => (
                       <tr key={client.id}>
-                        <td>{client.name || "(unnamed)"}</td>
-                        <td className="products-td-num">{formatNumber(client.totalForms)}</td>
-                        <td className="products-td-num">{formatNumber(client.activeForms)}</td>
-                        <td className="products-td-num">{formatNumber(client.inactiveForms)}</td>
-                        <td className="products-td-num">{formatNumber(client.multiStepForms)}</td>
-                        <td className="products-td-num">{formatNumber(client.formsWithPayments)}</td>
-                        <td className="products-td-num">{formatNumber(client.formsWithESignature)}</td>
-                        <td className="products-td-num">{formatNumber(client.formsWithUpload)}</td>
-                        <td className="products-td-num">{formatNumber(client.submissions)}</td>
+                        {COLUMNS.map((column) => (
+                          <td
+                            key={column.key}
+                            className={column.key === "name" ? undefined : "products-td-num"}
+                          >
+                            {column.displayValue(client)}
+                          </td>
+                        ))}
                       </tr>
                     ))}
                   </tbody>
