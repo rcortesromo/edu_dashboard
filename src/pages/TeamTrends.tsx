@@ -14,6 +14,7 @@ import {
   getAvailableQuarters,
   getAvailableTeams,
   getAvailableYears,
+  getChartPeriods,
   getPeriodMapping,
   teamDisplayMap,
   type ViewMode,
@@ -45,13 +46,9 @@ function buildTeamSeverityLevelData(
   selectedQuarter?: string,
   sprintLookup?: Map<string, SprintInfo>,
 ): SeverityLevelPoint[] {
-  const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
+  const { xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
 
-  const allPeriods = [
-    ...new Set([...payload.quarters, ...payload.metrics.map((m) => m.quarter)]),
-  ]
-    .filter(periodFilter)
-    .sort();
+  const allPeriods = getChartPeriods(payload, viewMode, selectedYear, selectedQuarter, sprintLookup);
 
   const valueFor = (period: string, metricName: string): number => {
     const record = payload.metrics.find(

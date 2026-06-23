@@ -716,12 +716,25 @@ function sprintMatchesQuarterPattern(teamConfig, sprintName, quarterLabel) {
   }
 }
 
-function extractSprintNumber(sprintName) {
+function extractSprintNumber(sprintName, quarterLabel) {
   const name = String(sprintName ?? "");
   const explicit = /(?:Sprint|Sp)\s*(\d+)/i.exec(name);
   if (explicit) return Number(explicit[1]);
   const wsPattern = /^WS\d{2}Q\dS(\d+)/i.exec(name);
   if (wsPattern) return Number(wsPattern[1]);
+
+  // Compact token used by VC, ASAP, etc.: "VC 26Q2S6", "ASAP - 26Q2S0", "26Q3S1".
+  const compactPattern = /\d{2}Q(\d)S(\d+)/i.exec(name);
+  if (compactPattern) {
+    const nameQuarter = Number(compactPattern[1]);
+    const sprintNumber = Number(compactPattern[2]);
+    const quarterMatch = /^(\d{4})-Q(\d)$/.exec(String(quarterLabel ?? "").trim());
+    if (quarterMatch && Number(quarterMatch[2]) === nameQuarter) {
+      return sprintNumber;
+    }
+    return null;
+  }
+
   return null;
 }
 
@@ -1639,7 +1652,7 @@ async function processQuarterWindow({
         ...sprint,
         teamName: team.teamName,
         projectKeys: team.projectKeys ?? [],
-        sprintSequence: extractSprintNumber(sprint.name) ?? index + 1,
+        sprintSequence: extractSprintNumber(sprint.name, quarterWindow.label) ?? index + 1,
       });
     });
 

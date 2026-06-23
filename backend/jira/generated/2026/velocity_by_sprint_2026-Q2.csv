@@ -1,22 +1,27 @@
 team_name,sprint_id,sprint_name,quarter_label,velocity_points,velocity_source,last_refresh_utc
-Team ASAP,10365,ASAP - 26Q2S1,2026-Q2,3,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team ASAP,10531,ASAP - 26Q2S2,2026-Q2,0,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team ASAP,10665,ASAP - 26Q2S3,2026-Q2,0,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team ASAP,10764,ASAP - 26Q2S4,2026-Q2,0,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,0,velocity_issue_types,2026-06-10T00:04:52.036Z
-Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,49,velocity_issue_types,2026-06-10T00:04:52.036Z
-Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,12,velocity_issue_types,2026-06-10T00:04:52.036Z
-Team Connexpoint,9919,CXP26Q2 - Sprint 3,2026-Q2,25,velocity_issue_types,2026-06-10T00:04:52.036Z
-Team Connexpoint,9920,CXP26Q2 - Sprint 4,2026-Q2,42,velocity_issue_types,2026-06-10T00:04:52.036Z
-Team Connexpoint,9921,CXP26Q2 - Sprint 5,2026-Q2,17,velocity_issue_types,2026-06-10T00:04:52.036Z
-Team Smartcare,10120,VC 26Q2S1,2026-Q2,13,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Smartcare,10153,VC 26Q2S2,2026-Q2,0,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Smartcare,10464,VC 26Q2S3,2026-Q2,0,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Smartcare,10632,VC 26Q2S4,2026-Q2,3,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Smartcare,10731,VC 26Q2S5,2026-Q2,2,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Smartcare,9848,VC 26Q1S6,2026-Q2,5,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,83,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,19,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Webstore,10530,WS26Q2S3 - It Takes Two,2026-Q2,34,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Webstore,10597,WS26Q2S4 - Jackbox,2026-Q2,27,calculated_completed_points,2026-06-10T00:04:52.036Z
-Team Webstore,10598,WS26Q2S5 - Kirby’s Adventure,2026-Q2,13,calculated_completed_points,2026-06-10T00:04:52.036Z
+Team ASAP,10365,ASAP - 26Q2S1,2026-Q2,3,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team ASAP,10531,ASAP - 26Q2S2,2026-Q2,0,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team ASAP,10665,ASAP - 26Q2S3,2026-Q2,0,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team ASAP,10764,ASAP - 26Q2S4,2026-Q2,0,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team ASAP,10967,ASAP - 26Q2S5,2026-Q2,0,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team ASAP,11072,ASAP - 26Q2S6,2026-Q2,0,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Connexpoint,9916,CXP26Q2 - Sprint 0,2026-Q2,0,velocity_issue_types,2026-06-23T18:25:12.335Z
+Team Connexpoint,9917,CXP26Q2 - Sprint 1,2026-Q2,49,velocity_issue_types,2026-06-23T18:25:12.335Z
+Team Connexpoint,9918,CXP26Q2 - Sprint 2,2026-Q2,12,velocity_issue_types,2026-06-23T18:25:12.335Z
+Team Connexpoint,9919,CXP26Q2 - Sprint 3,2026-Q2,25,velocity_issue_types,2026-06-23T18:25:12.335Z
+Team Connexpoint,9920,CXP26Q2 - Sprint 4,2026-Q2,42,velocity_issue_types,2026-06-23T18:25:12.335Z
+Team Connexpoint,9921,CXP26Q2 - Sprint 5,2026-Q2,34,velocity_issue_types,2026-06-23T18:25:12.335Z
+Team Connexpoint,9922,CXP26Q2 - Sprint 6,2026-Q2,3,velocity_issue_types,2026-06-23T18:25:12.335Z
+Team Smartcare,10120,VC 26Q2S1,2026-Q2,13,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Smartcare,10153,VC 26Q2S2,2026-Q2,0,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Smartcare,10464,VC 26Q2S3,2026-Q2,0,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Smartcare,10632,VC 26Q2S4,2026-Q2,3,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Smartcare,10731,VC 26Q2S5,2026-Q2,10,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Smartcare,10896,VC 26Q2S6,2026-Q2,2,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Smartcare,9848,VC 26Q1S6,2026-Q2,5,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Webstore,10332,WS26Q2S1 - Golden Eye,2026-Q2,83,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Webstore,10398,WS26Q2S2 - Half-Life,2026-Q2,19,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Webstore,10530,WS26Q2S3 - It Takes Two,2026-Q2,34,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Webstore,10597,WS26Q2S4 - Jackbox,2026-Q2,27,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Webstore,10598,WS26Q2S5 - Kirby’s Adventure,2026-Q2,28,calculated_completed_points,2026-06-23T18:25:12.335Z
+Team Webstore,10599,WS26Q2S6 - Last of Us,2026-Q2,8,calculated_completed_points,2026-06-23T18:25:12.335Z

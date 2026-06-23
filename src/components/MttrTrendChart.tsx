@@ -18,7 +18,7 @@ import {
   type MetricsPayload,
   type SprintInfo,
 } from "../lib/metrics";
-import { getPeriodMapping, type ViewMode } from "../lib/trends";
+import { getChartPeriods, getPeriodMapping, type ViewMode } from "../lib/trends";
 
 type MttrPoint = {
   quarter: string;
@@ -47,11 +47,9 @@ function buildPoints(
   sprintLookup: Map<string, SprintInfo> | undefined,
   team: string | undefined,
 ): MttrPoint[] {
-  const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
+  const { xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
 
-  const allPeriods = [...new Set([...payload.quarters, ...payload.metrics.map((m) => m.quarter)])]
-    .filter(periodFilter)
-    .sort();
+  const allPeriods = getChartPeriods(payload, viewMode, selectedYear, selectedQuarter, sprintLookup);
 
   // Per-team view uses the team's rows; the EDU rollup uses the precomputed "EDU" portfolio rows.
   // Both the median and the average are true pooled statistics emitted by the pull script (the EDU

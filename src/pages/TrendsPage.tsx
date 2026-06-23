@@ -12,7 +12,7 @@ import {
   Bar,
 } from "recharts";
 import { trendsMetricOrder, metricDescriptions, getSprintsForQuarter, severityRootCauseMetricNames, mttrMetricName, type MetricsPayload, type SprintInfo } from "../lib/metrics";
-import { getAvailableQuarters, getAvailableYears, getPeriodMapping, teamColors, teamDisplayMap, type ViewMode } from "../lib/trends";
+import { getAvailableQuarters, getAvailableYears, getChartPeriods, getPeriodMapping, teamColors, teamDisplayMap, type ViewMode } from "../lib/trends";
 import MttrTrendChart from "../components/MttrTrendChart";
 
 type TrendsPageProps = {
@@ -36,21 +36,14 @@ function buildChartData(
   selectedQuarter?: string,
   sprintLookup?: Map<string, SprintInfo>,
 ): { data: ChartDataPoint[]; teams: string[] } {
-  const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
+  const { xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
 
-  const allPeriods = [
-    ...new Set([
-      ...payload.quarters,
-      ...payload.metrics.map((m) => m.quarter),
-    ]),
-  ]
-    .filter(periodFilter)
-    .sort();
+  const allPeriods = getChartPeriods(payload, viewMode, selectedYear, selectedQuarter, sprintLookup);
 
   const relevantTeams = [
     ...new Set(
       payload.metrics
-        .filter((m) => m.metricName === metricName && periodFilter(m.quarter))
+        .filter((m) => m.metricName === metricName && allPeriods.includes(m.quarter))
         .map((m) => m.team),
     ),
   ].filter((t) => t !== "EDU");
@@ -229,13 +222,9 @@ function buildSeverityLevelData(
   selectedQuarter?: string,
   sprintLookup?: Map<string, SprintInfo>,
 ): SeverityLevelPoint[] {
-  const { periodFilter, xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
+  const { xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
 
-  const allPeriods = [
-    ...new Set([...payload.quarters, ...payload.metrics.map((m) => m.quarter)]),
-  ]
-    .filter(periodFilter)
-    .sort();
+  const allPeriods = getChartPeriods(payload, viewMode, selectedYear, selectedQuarter, sprintLookup);
 
   // EDU is the vertical that groups every delivery team: sum each metric across all teams.
   const eduValue = (period: string, metricName: string): number =>

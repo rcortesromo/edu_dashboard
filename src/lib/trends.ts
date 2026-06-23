@@ -49,6 +49,27 @@ export function getAvailableTeams(payload: MetricsPayload): string[] {
   return [...ordered, ...rest];
 }
 
+// In sprint view the X axis follows the official CXP calendar (S1–S6), not every
+// sprint_key present in team metrics — mis-keyed rows (e.g. a phantom S7) must not
+// extend the chart.
+export function getChartPeriods(
+  payload: MetricsPayload,
+  viewMode: ViewMode,
+  selectedYear: number,
+  selectedQuarter: string | undefined,
+  sprintLookup: Map<string, SprintInfo> | undefined,
+): string[] {
+  const { periodFilter } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
+
+  if (viewMode === "sprint" && sprintLookup && sprintLookup.size > 0) {
+    return [...sprintLookup.keys()];
+  }
+
+  return [...new Set([...payload.quarters, ...payload.metrics.map((m) => m.quarter)])]
+    .filter(periodFilter)
+    .sort();
+}
+
 export function getPeriodMapping(
   viewMode: ViewMode,
   selectedYear: number,
