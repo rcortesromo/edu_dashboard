@@ -613,19 +613,19 @@ OV-81052,330918,Add to release branch 06/30,Sub-task,OV,Team Connexpoint,CXP26Q2
 OV-81054,330920,Merge to release branch 06/30,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,Closed,,,no,no,no,no
 OV-83335,339404,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,no,no
 OV-83397,340063,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,Ready To Test,,,no,yes,no,no
-OV-83398,340065,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
+OV-83398,340065,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,Ready for Sprint,,,no,yes,no,no
 OV-83399,340067,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-83400,340069,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-83401,340071,Merge to release branch and create PR to Master,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
-OV-83407,340083,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,no,no
+OV-83407,340083,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Secure Code Review,,,no,yes,no,no
 OV-83408,340085,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-83409,340087,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-83410,340090,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-83411,340092,Merge to release branch and create PR to Master,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-83550,341332,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,no,no
 OV-83663,342738,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,Closed,,,no,yes,no,no
-OV-83830,343836,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,In Secure Code Review,Reopened,,,no,yes,no,no
-OV-83831,343837,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,In Development,In Development,,,no,yes,no,no
+OV-83830,343836,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,In Secure Code Review,In Test,,,no,yes,no,no
+OV-83831,343837,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,In Development,Closed,,,yes,yes,no,no
 OV-83832,343838,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Test,,,no,yes,no,no
 OV-83833,343839,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-83834,343840,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
@@ -648,12 +648,12 @@ OV-84115,346191,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprin
 OV-84116,346192,Merge to release branch and create PR to Master,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-84148,347064,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,In Development,In Development,,,no,yes,no,no
 OV-84363,349302,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,In Development,In Development,,,no,yes,no,no
-OV-84536,350865,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,no,no
+OV-84536,350865,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Secure Code Review,,,no,yes,no,no
 OV-84537,350866,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-84538,350867,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-84539,350868,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-84540,350869,Merge to release branch and create PR to Master,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
-OV-84541,350873,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,no,no
+OV-84541,350873,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Secure Code Review,,,no,yes,no,no
 OV-84542,350874,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-84543,350875,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-84544,350876,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
@@ -663,9 +663,9 @@ OV-84547,350879,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP2
 OV-84548,350880,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-84549,350881,Add to release card,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-84550,350882,Merge to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
-OV-84551,350883,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,no,no
+OV-84551,350883,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Verification,,,no,yes,no,no
 OV-84552,350884,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
-OV-84554,350886,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Review,,,no,yes,no,no
+OV-84554,350886,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,Ready To Test,,,no,yes,no,no
 OV-84555,350887,Create/Update x-ray test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-84556,350888,Execute test cases,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
 OV-84557,350889,Add to release branch,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,no,no
@@ -677,11 +677,12 @@ OV-84581,351521,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,992
 OV-84592,351609,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Review,,,no,yes,yes,no
 OV-84662,352295,create - update tests in xray,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,Closed,,,yes,yes,yes,no
 OV-84663,352296,execute regression,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,Closed,,,no,yes,yes,no
-OV-84664,352297,add to release card 07/02,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,Closed,,,no,no,yes,no
-OV-84665,352298,merge to release branch create PR 07/02,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,yes,no
+OV-84664,352297,add to release card 07/09,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,Closed,,,no,no,yes,no
+OV-84665,352298,merge to release branch create PR 07/09,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,Closed,,,yes,yes,yes,no
 OV-84670,352312,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,yes,no
 OV-84673,352325,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Review,,,no,no,yes,no
 OV-84722,352599,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,In Development,,,no,yes,yes,no
+OV-84803,353282,Do the thing,Sub-task,OV,Team Connexpoint,CXP26Q2 - Sprint 6,9922,2026-06-17T20:04:47.509Z,2026-07-01T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
 OV-61789,240624,[Automation-Testing][Children>Notes] Add/Edit notes,Story,OV,Team Smartcare,VC 26Q2S1,10120,2026-04-09T15:05:28.002Z,2026-04-22T07:00:00.000Z,2026-Q2,In Development,In Development,3,3,no,yes,no,no
 OV-70893,266310,[Reporting] Agency Payment Reconciliation - does not exclude Voided Payments,Bug,OV,Team Smartcare,VC 26Q2S1,10120,2026-04-09T15:05:28.002Z,2026-04-22T07:00:00.000Z,2026-Q2,SLT Review,SLT Review,3,3,no,no,no,no
 OV-73945,275973,Transactions stuck in pending due to the domain expired issue,Task,OV,Team Smartcare,VC 26Q2S1,10120,2026-04-09T15:05:28.002Z,2026-04-22T07:00:00.000Z,2026-Q2,In Development,Closed,3,3,yes,yes,no,no
@@ -1029,8 +1030,9 @@ OV-80310,324440,[BE]Reason not displayed on the failed CC autopay payment,Bug,OV
 OV-80311,324443,Silo Center - 2026: CampWhataKid | Email Messaging Sent/Delivered Issue,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Development,In Secure Code Review,5,5,no,yes,no,no
 OV-80358,325743,[PDK v2][Centerweb] Implement Changes for PDK V2 Integration in My Center,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,5,5,no,yes,no,no
 OV-80932,330657,[Parent Flutter] [Notifications] Push notifications,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,8,8,no,yes,no,no
+OV-80933,330658,[Parent Flutter] [Notifications] Unread notifications badge,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,5,5,no,no,no,no
 OV-80934,330659,[Parent Flutter] [Notifications] Notifications inbox screen,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,In Secure Code Review,8,5,no,yes,no,no
-OV-80935,330660,Parent Flutter] [Notifications] Notification preferences screen,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,5,5,no,no,no,no
+OV-80935,330660,[Parent Flutter] [Notifications] Notification preferences screen,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,5,5,no,no,no,no
 OV-80936,330662,[Parent Flutter] [Drop-off] Forms list screen,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,5,5,no,yes,no,no
 OV-80937,330663,[Parent Flutter] [Drop-off] Child selection screen,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,3,3,no,yes,no,no
 OV-80938,330664,[Parent Flutter] [Drop-off] Form details screen (both complete and read-only modes),Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Secure Code Review,In Development,8,8,no,yes,no,no
@@ -1043,6 +1045,7 @@ OV-82942,336277,External API timeout,Task,OV,Team Smartcare,VC 26Q2S6,10896,2026
 OV-82960,336317,P2Me - Fix P2Me syncing all centers ,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,3,3,no,yes,no,no
 OV-83051,336695,[PDK v2][Onboarding Portal] Implement Frontend Changes for PDK V2 Integration,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,5,5,no,yes,no,no
 OV-83074,336769,[BE] Filtering by Sync Status not returning correct results,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,2,2,no,no,no,no
+OV-83075,336771,[BE-Kinder Systems] Attendances created manually after the sync are not getting synced when next job is running,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
 OV-83183,337168,[PDK v2][Centerweb]  Employees and adults Door Lock access management,Story,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Secure Code Review,In Secure Code Review,5,5,no,yes,no,no
 OV-83325,339354,[Mend][Android App] Kiosk - SmartCare-Android-Kiosk,Task,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,SLT Review,SLT Review,3,3,no,no,no,no
 OV-83326,339356,[Mend][Android App] Parent - SmartCare-Android-Parent,Task,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,SLT Review,SLT Review,3,3,no,no,no,no
@@ -1051,6 +1054,9 @@ OV-83617,342411,[Flutter Parent App] Wrong relationship order and naming in the 
 OV-83628,342527,[Mend][Web] Center - SmartTuition.CenterWeb (New),Task,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Development,SLT Review,3,3,no,yes,no,no
 OV-83691,343000,[Flutter Parent App] Add adult form State field improvement,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,In Development,2,2,no,yes,no,no
 OV-83692,343001,[Flutter Parent App]The phone number field improvements in add/edit adult and My info forms,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,In Development,2,2,no,yes,no,no
+OV-83755,343414,[Flutter Parent App]The all files downloaded success message is displayed when Cancel btn is clicked while download is in progress ,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,1,1,no,no,no,no
+OV-83770,343502,[Flutter Parent App] The warning pop up is not showing when switching the child while there are files selected,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,2,2,no,no,no,no
+OV-83774,343506,[Flutter Parent App] The First Name instead of child fullname displayed in the child bar,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,1,1,no,no,no,no
 OV-83923,344814,[Mend][BadDawg] API - DOM Based Cross-Site Scripting - centerfinance.js,Task,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,SLT Review,SLT Review,3,3,no,no,no,no
 OV-83928,344982,"The Quarry Lane School, Inc. | Auto Pay Exceptions Not Loading",Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Test,Closed,5,5,no,yes,no,no
 OV-83942,345068,[Mend][Web] Teacher - SmartTuition.TeacherWeb-v2,Task,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,SLT Review,3,3,no,yes,no,no
@@ -1059,6 +1065,7 @@ OV-84139,346585,[BE] [Parent Flutter] [Notifications] Modify notification payloa
 OV-84171,347330,[Center web] Wrong message displayed on login with missing internet connection,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
 OV-84172,347331,[Mend][Android App] Kiosk - SmartCare-Android-Kiosk,Task,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,SLT Review,SLT Review,3,3,no,no,no,no
 OV-84173,347332,[Mend][Android App] Parent - SmartCare-Android-Parent,Task,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,SLT Review,SLT Review,3,3,no,no,no,no
+OV-84222,347875,Spike - Billing statements being sent (disabled in OP),Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
 OV-84223,347908,[Enterprise web v2] Events displayed wrongly in calendar view for Monthly Billing schedules,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,In Secure Code Review,3,3,no,yes,no,no
 OV-84224,347941,[Kiosk iOS] Misaligned calendar picker buttons on ios 26 ,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,In Development,Closed,2,2,no,yes,no,no
 OV-84239,348022,Unable to add tuition plan to multiple enrollment configurations,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,Ready for Sprint,In Secure Code Review,3,3,no,yes,no,no
@@ -1077,8 +1084,9 @@ OV-84565,351251,Feature Request - Add Back Center Name to Failed Payment Alert E
 OV-84575,351436,[Center web] Remittance section from Center Settings page getting stuck in loading state when no account info is available for the center,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,New,Ready For Refinement,2,2,no,no,yes,no
 OV-84707,352537,[BE Stable] Payments api failing with error connection,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,New,New,1,1,no,no,yes,no
 OV-84713,352545,[Center web] Employee tabs are not hidden if user does not have Employee financial data permission,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,New,New,2,2,no,no,yes,no
-OV-84717,352587,NSF fee's showing on remittance for a Parent that does not have any failed payments,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,New,New,,,no,no,yes,no
+OV-84717,352587,NSF fee's showing on remittance for a Parent that does not have any failed payments,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,New,New,3,3,no,no,yes,no
 OV-84718,352589,[Center web] Unable to edit the child statuses in My center,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,New,New,2,2,no,no,yes,no
+OV-84808,353427,[Center web]Unable to Save Employee Medical Settings,Bug,OV,Team Smartcare,VC 26Q2S6,10896,2026-06-17T14:02:43.000Z,2026-06-23T07:00:00.000Z,2026-Q2,New,New,2,2,no,no,yes,no
 OV-61789,240624,[Automation-Testing][Children>Notes] Add/Edit notes,Story,OV,Team Smartcare,VC 26Q1S6,9848,2026-03-19T16:32:01.719Z,2026-04-01T08:00:00.000Z,2026-Q2,Ready for Sprint,Ready for Sprint,3,3,no,no,no,no
 OV-69887,262947,[Spike] - Research what is left to be moved from Old to New Center Web code,Task,OV,Team Smartcare,VC 26Q1S6,9848,2026-03-19T16:32:01.719Z,2026-04-01T08:00:00.000Z,2026-Q2,In Development,In Verification,3,3,no,yes,no,no
 OV-70893,266310,[Reporting] Agency Payment Reconciliation - does not exclude Voided Payments,Bug,OV,Team Smartcare,VC 26Q1S6,9848,2026-03-19T16:32:01.719Z,2026-04-01T08:00:00.000Z,2026-Q2,SLT Review,SLT Review,3,3,no,no,no,no
@@ -1306,13 +1314,13 @@ OV-77159,303104,Service Fee Configuration in Global Settings (Admin / Operations
 OV-77177,303155,Update Reports to Support Service Fee Model and Remove Software Fee References,Story,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,Ready To Test,Ready To Test,11,11,no,yes,no,no
 OV-80178,322911,NEW SERVICE FEES - Update Inventory Items excel export for new service fee,Story,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,Ready To Test,Ready To Test,1,1,no,yes,no,no
 OV-80182,322915,NEW SERVICE FEES - Service Fee applying on AR and Payment plans,Story,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,Ready To Test,In Test,8,8,no,yes,no,no
-OV-80725,328919,Service fee - Audit Log,Story,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,In Test,In Test,10,10,no,yes,no,no
+OV-80725,328919,Service fee - Audit Log,Story,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,In Test,In Verification,10,10,no,yes,no,no
 OV-80828,329632,Auto-archive a form assignment when the end date hits,Story,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,Ready To Test,Ready To Test,21,21,no,yes,no,no
 OV-83314,339062,OLD UI - CXP CC add box cuts off in mobile view,Bug,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,Closed,Closed,4,4,no,no,no,no
 OV-83529,341063,Setup Playwright repo to work in CI and Stage Env,Task,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,In Development,In Development,5,5,no,yes,no,no
 OV-84207,347448,CXP modal not loading on RegWerks,Bug,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,In Secure Code Review,Ready To Test,5,5,no,yes,no,no
 OV-84296,348225,Forms inventory items cart add issues,Bug,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,In Test,Closed,8,8,yes,yes,no,no
 OV-84436,350341,Regression Webstore 2026.07,Task,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,Ready for Sprint,Ready To Test,5,5,no,yes,no,no
-OV-84634,352011,"New UI cart shows ""Failed to remove item"" when removing Skyward QC / Qmlativ fees and food payments",Bug,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,New,Ready for Sprint,,,no,no,yes,no
+OV-84634,352011,"[Regression] - New UI cart shows ""Failed to remove item"" when removing Skyward QC / Qmlativ fees and food payments",Bug,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,New,In Verification,,,no,yes,yes,no
 OV-84661,352290,NEW UI -  Fixed price items are allowing customers to enter custom price,Bug,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,New,In Development,8,8,no,yes,yes,no
-OV-84725,352607,Pagination not shown on Fees in Portal,Bug,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,New,Ready for Sprint,,,no,no,yes,no
+OV-84725,352607,[Regression] - Pagination not shown on Fees in Portal,Bug,OV,Team Webstore,WS26Q2S6 - Last of Us,10599,2026-06-17T16:12:54.767Z,2026-07-01T15:54:00.000Z,2026-Q2,New,Ready To Test,,,no,yes,yes,no
