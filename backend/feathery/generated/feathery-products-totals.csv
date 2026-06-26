@@ -1,12 +1,12 @@
 metric_name,metric_value,metric_unit,billing_cycle,source_system,coverage_status,note,last_refresh_utc
-Clients identified,2230,count,2026-06-03..2026-07-03,Feathery,automated,Feathery workspaces,2026-06-19T16:29:37.397Z
-Submissions,12145,count,2026-06-03..2026-07-03,Feathery,automated,Current billing cycle,2026-06-19T16:29:37.397Z
-Total forms,37196,count,2026-06-03..2026-07-03,Feathery,automated,,2026-06-19T16:29:37.397Z
-Active forms,4304,count,2026-06-03..2026-07-03,Feathery,automated,,2026-06-19T16:29:37.397Z
-Inactive forms,32892,count,2026-06-03..2026-07-03,Feathery,automated,,2026-06-19T16:29:37.397Z
-Forms with multiple steps,1806,count,2026-06-03..2026-07-03,Feathery,automated,step_count > 1,2026-06-19T16:29:37.397Z
-Forms with eSignature,653,count,2026-06-03..2026-07-03,Feathery,automated,signature field,2026-06-19T16:29:37.397Z
-Forms with upload,77,count,2026-06-03..2026-07-03,Feathery,automated,file_upload field,2026-06-19T16:29:37.397Z
-Forms with payments embedded,36887,count,2026-06-03..2026-07-03,Feathery,automated,revtrak_inventory (RevTrak) element — includes inactive forms (every form that ever embedded RevTrak),2026-06-19T16:29:37.397Z
-Forms without payments,309,count,2026-06-03..2026-07-03,Feathery,automated,,2026-06-19T16:29:37.397Z
-Checkouts,,count,2026-06-03..2026-07-03,Feathery,unavailable,Not exposed by report endpoints,2026-06-19T16:29:37.397Z
+Clients identified,2230,count,2026-06-03..2026-07-03,Feathery,automated,Feathery workspaces,2026-06-26T16:09:53.720Z
+Submissions,14607,count,2026-06-03..2026-07-03,Feathery,automated,Current billing cycle,2026-06-26T16:09:53.720Z
+Total forms,37257,count,2026-06-03..2026-07-03,Feathery,automated,,2026-06-26T16:09:53.720Z
+Active forms,4284,count,2026-06-03..2026-07-03,Feathery,automated,,2026-06-26T16:09:53.720Z
+Inactive forms,32973,count,2026-06-03..2026-07-03,Feathery,automated,,2026-06-26T16:09:53.720Z
+Forms with multiple steps,1821,count,2026-06-03..2026-07-03,Feathery,automated,step_count > 1,2026-06-26T16:09:53.720Z
+Forms with eSignature,666,count,2026-06-03..2026-07-03,Feathery,automated,signature field,2026-06-26T16:09:53.720Z
+Forms with upload,77,count,2026-06-03..2026-07-03,Feathery,automated,file_upload field,2026-06-26T16:09:53.720Z
+Forms with payments embedded,36945,count,2026-06-03..2026-07-03,Feathery,automated,revtrak_inventory (RevTrak) element — includes inactive forms (every form that ever embedded RevTrak),2026-06-26T16:09:53.720Z
+Forms without payments,312,count,2026-06-03..2026-07-03,Feathery,automated,,2026-06-26T16:09:53.720Z
+Checkouts,,count,2026-06-03..2026-07-03,Feathery,unavailable,Not exposed by report endpoints,2026-06-26T16:09:53.720Z

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T17:21:21.933Z",
+  "generatedAt": "2026-06-26T17:18:57.459Z",
   "current": "2026-06-03_2026-07-03",
   "cycles": [
     {
@@ -10,7 +10,7 @@
       "current": true,
       "productsUrl": "/data/feathery-cycles/2026-06-03_2026-07-03/products.json",
       "checkoutsUrl": "/data/feathery-cycles/2026-06-03_2026-07-03/checkouts.json",
-      "generatedAt": "2026-06-19T16:29:37.397Z"
+      "generatedAt": "2026-06-26T16:09:53.720Z"
     },
     {
       "folder": "all-time",
@@ -20,7 +20,7 @@
       "current": false,
       "productsUrl": "/data/feathery-cycles/all-time/products.json",
       "checkoutsUrl": "/data/feathery-cycles/all-time/checkouts.json",
-      "generatedAt": "2026-06-19T17:21:21.933Z"
+      "generatedAt": "2026-06-26T17:18:57.459Z"
     }
   ]
 }
