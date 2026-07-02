@@ -10,9 +10,9 @@ import {
   type MetricsPayload,
 } from "./lib/metrics";
 import HomePage from "./pages/HomePage";
+import ScorecardPage from "./pages/ScorecardPage";
 import MetricsPage from "./pages/MetricsPage";
-import TrendsPage from "./pages/TrendsPage";
-import TeamTrends from "./pages/TeamTrends";
+import TeamMetricsPage from "./pages/TeamMetricsPage";
 import ProductsPage from "./pages/ProductsPage";
 import ProductTrendsPage from "./pages/ProductTrendsPage";
 
@@ -115,9 +115,9 @@ function App() {
           }
         />
         <Route
-          path="/metrics"
+          path="/scorecard"
           element={
-            <MetricsPage
+            <ScorecardPage
               teams={teamSummaries}
               loading={loading}
               error={error}
@@ -131,9 +131,9 @@ function App() {
           }
         />
         <Route
-          path="/trends"
+          path="/metrics"
           element={
-            <TrendsPage
+            <MetricsPage
               payload={payload}
               loading={loading}
               error={error}
@@ -141,9 +141,9 @@ function App() {
           }
         />
         <Route
-          path="/team-trends"
+          path="/team-metrics"
           element={
-            <TeamTrends
+            <TeamMetricsPage
               payload={payload}
               loading={loading}
               error={error}
@@ -157,6 +157,9 @@ function App() {
           path="/products/trends"
           element={<Navigate to="/business-metrics/feathery/trends" replace />}
         />
+        {/* Legacy URLs from before the Trends/Metrics rename: keep old bookmarks working. */}
+        <Route path="/trends" element={<Navigate to="/metrics" replace />} />
+        <Route path="/team-trends" element={<Navigate to="/team-metrics" replace />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>

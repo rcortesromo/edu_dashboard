@@ -13,6 +13,7 @@ Sprint-level and quarter-level delivery health metrics extracted from Jira Cloud
 | **MTTR (Sev 1 + Sev 2)** | hours | **Median** time to resolve for Sev 1/2 OV issues (Bug, Story, Task): business time (weekends excluded) from issue creation until its status changes to `Closed`. Median is the headline because it is robust to the long tail of months-old issues. |
 | **MTTR Avg (Sev 1 + Sev 2)** | hours | Same definition as above but the **mean**. Plotted as a lighter reference line so outlier-driven spikes stay visible without distorting the headline. |
 | **MTTR Tickets (Sev 1 + Sev 2)** | count | Number of Sev 1/2 OV issues Closed in the period (the bars in the MTTR combo chart). |
+| **Maintain / Run / Growth %** | percent | Share of logged worklog hours per Work Type category (Maintain, Run, Growth) for the team/period. Rendered as a 3-bar snapshot chart, not a trend line. |
 
 ### MTTR (Sev 1 + Sev 2)
 
@@ -37,6 +38,32 @@ npm run refresh:static-metrics -- --only mttr
 
 # One-time backfill from 2025
 node scripts/jira/pull-mttr.mjs --from-year 2025
+```
+
+### Maintain / Run / Growth
+
+Share of engineering hours spent on Maintain, Run, and Growth work, from Jira's native worklog time tracking (worklogs are written by the "Timesheets by Tempo" app but sync back into Jira's standard worklog store, so no separate Tempo API is needed).
+
+- **Source script**: `scripts/jira/pull-work-type-mix.mjs` -> `backend/jira/generated/work_type_mix_export.csv` (plus a quarter-grain hours ledger, `work_type_mix_hours.csv`, that is the incrementally-merged source of truth).
+- **Population**: every `OV` issue (any issue type -- Story/Bug/Task/Sub-task) with at least one worklog entry whose `started` date falls in the period. Bucketing uses each worklog's own date, not the issue's `created` date, since a single ticket can accrue hours across many sprints.
+- **Categories**: the `Work Type` field (`customfield_10371`, a single-select) is mapped to three buckets, configured in `jira-field-mapping.template.json` under `workTypeMix.categories`:
+  - **Maintain**: M - Prod (Sev 1), M - Maintenance, M - Tech Hardening
+  - **Run**: R - Client Request, R - Strategic
+  - **Growth**: G - Experiment/Growth
+- **Unmapped hours**: worklogs on issues with no Work Type set (or a value outside the 6 known options) are excluded from both the numerator and denominator and reported separately in the row's `note`. In practice these are non-project catch-all tickets (PTO, Scrum Ceremonies, General OPEX/CAPEX) that were never meant to carry a Work Type, not a data-quality gap.
+- **Calculation**: `% = category hours / (Maintain + Run + Growth hours)` for the whole period, computed once from the period's total -- never averaged from smaller buckets (weeks/sprints) or across teams. This mirrors the Churn % rollup rule below and corrects the bias of the old manual process (a Jira report + Excel pivot filled in week by week, then averaged).
+- **Teams**: grouped by the Jira `Team` field, same mapping as Defect Leakage/MTTR, with an `EDU` portfolio rollup (hours summed across teams first, then percent computed once).
+- **Chart**: a single-period snapshot bar chart (3 bars: Maintain/Run/Growth), not a time-series line -- rendered by `src/components/MrgMixChart.tsx` with its own Quarter/YTD selector, shown on both `/metrics` (EDU) and `/team-metrics` (per team).
+- **Config**: the `workTypeMix` block in `jira-field-mapping.template.json` (`projectKeys`, `categories`, `teams`) and `fields.workTypeFieldId`.
+
+Run it standalone:
+
+```bash
+# Incremental refresh (current config createdFrom)
+npm run refresh:static-metrics -- --only work-type-mix
+
+# One-time backfill from 2025
+node scripts/jira/pull-work-type-mix.mjs --from-year 2025
 ```
 
 ## Teams and Boards

@@ -682,11 +682,35 @@ button {
   text-align: right;
 }
 
+.team-metric-section-list {
+  display: grid;
+  gap: 24px;
+  margin-top: 4px;
+}
+
+.team-metric-section + .team-metric-section {
+  padding-top: 22px;
+  border-top: 1px dashed rgba(109, 40, 217, 0.14);
+}
+
+.team-metric-section-heading h4 {
+  margin: 0 0 4px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+}
+
+.team-metric-section-heading p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
 .team-metrics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
-  margin-top: 4px;
+  margin-top: 12px;
 }
 
 .team-metric-card {
@@ -985,6 +1009,35 @@ th {
 
 .trends-toolbar .period-dropdown {
   min-width: 140px;
+}
+
+.trend-chart-period-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.trend-chart-period-row .period-dropdown {
+  min-width: 140px;
+  padding: 6px 30px 6px 12px;
+}
+
+.trends-section {
+  margin-top: 40px;
+}
+
+.trends-section-heading h3 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+}
+
+.trends-section-heading p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
 }
 
 .trends-grid {

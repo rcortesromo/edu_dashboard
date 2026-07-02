@@ -20,8 +20,9 @@ import {
   type ViewMode,
 } from "../lib/trends";
 import MttrTrendChart from "../components/MttrTrendChart";
+import MrgMixChart from "../components/MrgMixChart";
 
-type TeamTrendsProps = {
+type TeamMetricsPageProps = {
   payload: MetricsPayload | null;
   loading: boolean;
   error: string;
@@ -156,7 +157,7 @@ function TeamSeverityLevelChart({
   );
 }
 
-function TeamTrends({ payload, loading, error }: TeamTrendsProps) {
+function TeamMetricsPage({ payload, loading, error }: TeamMetricsPageProps) {
   const availableYears = useMemo(() => (payload ? getAvailableYears(payload) : []), [payload]);
   const availableQuarters = useMemo(() => (payload ? getAvailableQuarters(payload) : []), [payload]);
   const availableTeams = useMemo(() => (payload ? getAvailableTeams(payload) : []), [payload]);
@@ -188,7 +189,7 @@ function TeamTrends({ payload, loading, error }: TeamTrendsProps) {
     <main className="content-shell trends-shell">
       <section className="panel">
         <div className="section-heading">
-          <span className="hero-tag">Team Trends</span>
+          <span className="hero-tag">Team Metrics</span>
           <h2>Delivery pulse by team</h2>
           <p>Visual evolution of each metric across periods, for a single delivery team.</p>
         </div>
@@ -267,6 +268,7 @@ function TeamTrends({ payload, loading, error }: TeamTrendsProps) {
 
         {!loading && !error && payload && resolvedTeam ? (
           <div className="trends-grid">
+            <MrgMixChart payload={payload} team={resolvedTeam} />
             <TeamSeverityLevelChart
               payload={payload}
               team={resolvedTeam}
@@ -310,4 +312,4 @@ function TeamTrends({ payload, loading, error }: TeamTrendsProps) {
   );
 }
 
-export default TeamTrends;
+export default TeamMetricsPage;

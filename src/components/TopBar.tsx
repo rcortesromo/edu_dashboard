@@ -1,14 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
-const navItems = [
-  { label: "Home", to: "/" },
-  { label: "Metrics", to: "/metrics" },
-];
+const navItems = [{ label: "Home", to: "/" }];
 
-const trendsItems = [
-  { label: "EDU", to: "/trends" },
-  { label: "Teams", to: "/team-trends" },
+const scorecardItem = { label: "Scorecard", to: "/scorecard" };
+
+const metricsItems = [
+  { label: "EDU", to: "/metrics" },
+  { label: "Teams", to: "/team-metrics" },
 ];
 
 const businessMetricsItems = [
@@ -20,8 +19,8 @@ function TopBar() {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const navRef = useRef<HTMLElement | null>(null);
 
-  const isTrendsActive =
-    location.pathname.startsWith("/trends") || location.pathname.startsWith("/team-trends");
+  const isMetricsActive =
+    location.pathname.startsWith("/metrics") || location.pathname.startsWith("/team-metrics");
   const isBusinessMetricsActive = location.pathname.startsWith("/business-metrics");
 
   useEffect(() => {
@@ -66,20 +65,20 @@ function TopBar() {
         <div className="nav-dropdown">
           <button
             type="button"
-            className={`nav-link nav-dropdown-trigger${isTrendsActive ? " active" : ""}`}
+            className={`nav-link nav-dropdown-trigger${isMetricsActive ? " active" : ""}`}
             aria-haspopup="true"
-            aria-expanded={openMenu === "trends"}
-            onClick={() => setOpenMenu((current) => (current === "trends" ? null : "trends"))}
+            aria-expanded={openMenu === "metrics"}
+            onClick={() => setOpenMenu((current) => (current === "metrics" ? null : "metrics"))}
           >
-            Trends
+            Metrics
             <span className="nav-dropdown-caret" aria-hidden="true">
               ▾
             </span>
           </button>
 
-          {openMenu === "trends" ? (
+          {openMenu === "metrics" ? (
             <div className="nav-dropdown-menu" role="menu">
-              {trendsItems.map((item) => (
+              {metricsItems.map((item) => (
                 <NavLink
                   key={item.to}
                   to={item.to}
@@ -92,6 +91,13 @@ function TopBar() {
             </div>
           ) : null}
         </div>
+
+        <NavLink
+          to={scorecardItem.to}
+          className={({ isActive }) => `nav-link${isActive ? " active" : ""}`}
+        >
+          {scorecardItem.label}
+        </NavLink>
 
         <div className="nav-dropdown">
           <button

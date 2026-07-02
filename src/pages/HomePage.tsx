@@ -48,8 +48,8 @@ function HomePage({
         </p>
 
         <div className="hero-actions">
-          <Link to="/metrics" className="primary-action">
-            Open Team Metrics
+          <Link to="/scorecard" className="primary-action">
+            Open Team Scorecard
           </Link>
         </div>
       </section>

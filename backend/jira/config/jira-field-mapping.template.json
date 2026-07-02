@@ -7,6 +7,7 @@
     "storyPointsFieldId": "customfield_10043",
     "severityFieldId": "customfield_10121",
     "rootCauseFieldId": "customfield_10102",
+    "workTypeFieldId": "customfield_10371",
     "statusFieldName": "status",
     "issueTypeFieldName": "issuetype"
   },
@@ -123,6 +124,23 @@
     "endStatus": "Closed",
     "businessDaysOnly": true,
     "portfolioTeamName": "EDU",
+    "teams": [
+      { "jiraTeamName": "Team Connexpoint", "outputTeamName": "Team Connexpoint" },
+      { "jiraTeamName": "Team Webstore", "outputTeamName": "Team Webstore" },
+      { "jiraTeamName": "Team ASAP", "outputTeamName": "ASAP" },
+      { "jiraTeamName": "Team Smartcare", "outputTeamName": "Smartcare" }
+    ]
+  },
+  "workTypeMix": {
+    "createdFrom": "2025-01-01",
+    "projectKeys": ["OV"],
+    "portfolioTeamName": "EDU",
+    "notes": "Maintain/Run/Growth mix of logged worklog hours, bucketed by the Work Type field. Population is every OV issue with a worklog entry in the period, regardless of issue type (Story/Bug/Task/Sub-task) so Team Connexpoint's sub-task-tracked work is included.",
+    "categories": {
+      "Maintain": ["M - Prod (Sev 1)", "M - Maintenance", "M - Tech Hardening"],
+      "Run": ["R - Client Request", "R - Strategic"],
+      "Growth": ["G - Experiment/Growth"]
+    },
     "teams": [
       { "jiraTeamName": "Team Connexpoint", "outputTeamName": "Team Connexpoint" },
       { "jiraTeamName": "Team Webstore", "outputTeamName": "Team Webstore" },

@@ -60,6 +60,12 @@ export const metricDescriptions: Record<string, string> = {
     "Count of high-severity bugs (Severity Level 1 and 2 combined) logged for the team in the selected period.",
   "MTTR (Sev 1 + Sev 2)":
     "Time to resolve for Sev 1 and 2 OV issues (Bug, Story, Task): business time (weekends excluded) from when the issue was created until its status changes to Closed. Covers Connexpoint, Webstore, ASAP, and Smartcare. The line is the median (the typical case); the lighter line is the average, which a few long-running issues can pull up.",
+  "Maintain %":
+    "Share of logged worklog hours spent on Maintain work (Prod Sev 1, Maintenance, Tech Hardening) in the selected period, from the Work Type field.",
+  "Run %":
+    "Share of logged worklog hours spent on Run work (Client Request, Strategic) in the selected period, from the Work Type field.",
+  "Growth %":
+    "Share of logged worklog hours spent on Growth work (Experiment/Growth) in the selected period, from the Work Type field.",
   "Average Velocity (points per sprint)":
     "Average completed story points per sprint across the period for the team.",
   "Flow-based Cycle Time Proxy (weeks)":
@@ -75,6 +81,9 @@ export const metricDescriptions: Record<string, string> = {
 };
 
 export const metricDisplayOrder = [
+  "Maintain %",
+  "Run %",
+  "Growth %",
   "Jira Card Churn %",
   "Defect Leakage %",
   "Sev 1 Bugs",
@@ -88,9 +97,9 @@ export const metricDisplayOrder = [
   "AI Active Developers",
 ];
 
-// Trends renders the per-severity bug counts in a dedicated chart (one Sev 1 and one Sev 2 line per
-// team), so the individual count metrics are not listed here; TrendsPage injects that chart right
-// after Defect Leakage.
+// The Metrics (charts) page renders the per-severity bug counts in a dedicated chart (one Sev 1 and
+// one Sev 2 line per team), so the individual count metrics are not listed here; MetricsPage injects
+// that chart right after Defect Leakage.
 export const trendsMetricOrder = [
   "Jira Card Churn %",
   "Defect Leakage %",
@@ -120,6 +129,14 @@ export const mttrMetricName = "MTTR (Sev 1 + Sev 2)";
 export const mttrAvgMetricName = "MTTR Avg (Sev 1 + Sev 2)";
 export const mttrTicketsMetricName = "MTTR Tickets (Sev 1 + Sev 2)";
 
+// Maintain/Run/Growth mix: a single-period snapshot bar chart (one bar per category), not a
+// per-period trend line, so it is rendered by a dedicated component instead of the generic
+// trendsMetricOrder loop.
+export const maintainMetricName = "Maintain %";
+export const runMetricName = "Run %";
+export const growthMetricName = "Growth %";
+export const mrgMetricNames = [maintainMetricName, runMetricName, growthMetricName] as const;
+
 // Format a business-hours duration adaptively: hours under a day, days (24h = 1 day) from a day up.
 export function formatBusinessHours(value: number): string {
   if (!Number.isFinite(value)) return "";
@@ -138,6 +155,46 @@ const teamDisplayMap: Record<string, string> = {
 const preferredTeamOrder = ["EDU", "Team Connexpoint", "Team Webstore", "ASAP", "Smartcare"];
 
 const metricDisplaySet = new Set(metricDisplayOrder);
+
+// Shared visual grouping, reused by both the Metrics (Trends) charts page and the Scorecard
+// snapshot page: each section owns an ordered subset of metric names. Each page still filters
+// this down to whichever metric names actually apply to it (trendsMetricOrder for charts,
+// metricDisplayOrder for scorecard cards), so a metric only listed here for one page (e.g. Sev 1/2
+// counts, which the Trends page renders via a dedicated combo chart instead) is automatically
+// skipped on the other.
+export type MetricSectionId = "work-type" | "delivery-flow" | "quality-reliability" | "ai-adoption";
+
+export const metricSections: { id: MetricSectionId; title: string; description: string; metrics: string[] }[] = [
+  {
+    id: "work-type",
+    title: "Work Type",
+    description: "Share of logged hours across Maintain, Run, and Growth work.",
+    metrics: [maintainMetricName, runMetricName, growthMetricName],
+  },
+  {
+    id: "delivery-flow",
+    title: "Delivery Flow",
+    description: "Sprint planning stability, throughput, and cycle time.",
+    metrics: [
+      "Jira Card Churn %",
+      "Average Velocity (points per sprint)",
+      "Flow-based Cycle Time Proxy (weeks)",
+      "Actual Cycle Time (weeks)",
+    ],
+  },
+  {
+    id: "quality-reliability",
+    title: "Severities & MTTR",
+    description: "Defect leakage, severity breakdown, and resolution time.",
+    metrics: ["Defect Leakage %", "Sev 1 Bugs", "Sev 2 Bugs", "MTTR (Sev 1 + Sev 2)"],
+  },
+  {
+    id: "ai-adoption",
+    title: "AI & Cursor Adoption",
+    description: "Cursor usage and AI-assisted delivery signals.",
+    metrics: ["Cursor Adoption Rate", "AI-assisted Pull Request Coverage", "AI Active Developers"],
+  },
+];
 
 // Metrics that represent counts/ratios of bugs in a period: when a sprint has no matching row it
 // means zero bugs, so show 0 with a "no bugs" flag instead of falling back to the quarter value.

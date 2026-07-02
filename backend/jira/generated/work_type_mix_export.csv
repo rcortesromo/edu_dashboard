@@ -1,0 +1,661 @@
+team_name,quarter_label,metric_name,metric_value,metric_unit,source_system,coverage_status,note,last_refresh_utc
+ASAP,2025-Q1,Growth %,0,percent,Jira,Yes (partial),2025-Q1: 2527.17h logged — M 1976.5h / R 550.67h / G 0h (615.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1,Maintain %,78.21,percent,Jira,Yes (partial),2025-Q1: 2527.17h logged — M 1976.5h / R 550.67h / G 0h (615.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1,Run %,21.79,percent,Jira,Yes (partial),2025-Q1: 2527.17h logged — M 1976.5h / R 550.67h / G 0h (615.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S1: 382.5h logged — M 293.92h / R 88.58h / G 0h (66h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S1,Maintain %,76.84,percent,Jira,Yes (partial),2025-Q1-S1: 382.5h logged — M 293.92h / R 88.58h / G 0h (66h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S1,Run %,23.16,percent,Jira,Yes (partial),2025-Q1-S1: 382.5h logged — M 293.92h / R 88.58h / G 0h (66h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S2: 369.58h logged — M 265.58h / R 104h / G 0h (39.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S2,Maintain %,71.86,percent,Jira,Yes (partial),2025-Q1-S2: 369.58h logged — M 265.58h / R 104h / G 0h (39.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S2,Run %,28.14,percent,Jira,Yes (partial),2025-Q1-S2: 369.58h logged — M 265.58h / R 104h / G 0h (39.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S3: 421.92h logged — M 339.83h / R 82.08h / G 0h (88.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S3,Maintain %,80.55,percent,Jira,Yes (partial),2025-Q1-S3: 421.92h logged — M 339.83h / R 82.08h / G 0h (88.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S3,Run %,19.45,percent,Jira,Yes (partial),2025-Q1-S3: 421.92h logged — M 339.83h / R 82.08h / G 0h (88.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S4: 423.08h logged — M 342.08h / R 81h / G 0h (59.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S4,Maintain %,80.85,percent,Jira,Yes (partial),2025-Q1-S4: 423.08h logged — M 342.08h / R 81h / G 0h (59.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S4,Run %,19.15,percent,Jira,Yes (partial),2025-Q1-S4: 423.08h logged — M 342.08h / R 81h / G 0h (59.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S5: 480h logged — M 378h / R 102h / G 0h (52.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S5,Maintain %,78.75,percent,Jira,Yes (partial),2025-Q1-S5: 480h logged — M 378h / R 102h / G 0h (52.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S5,Run %,21.25,percent,Jira,Yes (partial),2025-Q1-S5: 480h logged — M 378h / R 102h / G 0h (52.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S6: 332.25h logged — M 267.75h / R 64.5h / G 0h (207.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S6,Maintain %,80.59,percent,Jira,Yes (partial),2025-Q1-S6: 332.25h logged — M 267.75h / R 64.5h / G 0h (207.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q1-S6,Run %,19.41,percent,Jira,Yes (partial),2025-Q1-S6: 332.25h logged — M 267.75h / R 64.5h / G 0h (207.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2,Growth %,0,percent,Jira,Yes (partial),2025-Q2: 2985.73h logged — M 2439.53h / R 546.2h / G 0h (546.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2,Maintain %,81.71,percent,Jira,Yes (partial),2025-Q2: 2985.73h logged — M 2439.53h / R 546.2h / G 0h (546.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2,Run %,18.29,percent,Jira,Yes (partial),2025-Q2: 2985.73h logged — M 2439.53h / R 546.2h / G 0h (546.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S1: 571.08h logged — M 493.25h / R 77.83h / G 0h (56h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S1,Maintain %,86.37,percent,Jira,Yes (partial),2025-Q2-S1: 571.08h logged — M 493.25h / R 77.83h / G 0h (56h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S1,Run %,13.63,percent,Jira,Yes (partial),2025-Q2-S1: 571.08h logged — M 493.25h / R 77.83h / G 0h (56h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S2: 394.75h logged — M 323.58h / R 71.17h / G 0h (122.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S2,Maintain %,81.97,percent,Jira,Yes (partial),2025-Q2-S2: 394.75h logged — M 323.58h / R 71.17h / G 0h (122.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S2,Run %,18.03,percent,Jira,Yes (partial),2025-Q2-S2: 394.75h logged — M 323.58h / R 71.17h / G 0h (122.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S3: 448h logged — M 373.75h / R 74.25h / G 0h (84.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S3,Maintain %,83.43,percent,Jira,Yes (partial),2025-Q2-S3: 448h logged — M 373.75h / R 74.25h / G 0h (84.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S3,Run %,16.57,percent,Jira,Yes (partial),2025-Q2-S3: 448h logged — M 373.75h / R 74.25h / G 0h (84.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S4: 432.73h logged — M 325.73h / R 107h / G 0h (93.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S4,Maintain %,75.27,percent,Jira,Yes (partial),2025-Q2-S4: 432.73h logged — M 325.73h / R 107h / G 0h (93.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S4,Run %,24.73,percent,Jira,Yes (partial),2025-Q2-S4: 432.73h logged — M 325.73h / R 107h / G 0h (93.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S5: 509.08h logged — M 414.83h / R 94.25h / G 0h (38h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S5,Maintain %,81.49,percent,Jira,Yes (partial),2025-Q2-S5: 509.08h logged — M 414.83h / R 94.25h / G 0h (38h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S5,Run %,18.51,percent,Jira,Yes (partial),2025-Q2-S5: 509.08h logged — M 414.83h / R 94.25h / G 0h (38h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S6: 431h logged — M 344.55h / R 86.45h / G 0h (130.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S6,Maintain %,79.94,percent,Jira,Yes (partial),2025-Q2-S6: 431h logged — M 344.55h / R 86.45h / G 0h (130.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q2-S6,Run %,20.06,percent,Jira,Yes (partial),2025-Q2-S6: 431h logged — M 344.55h / R 86.45h / G 0h (130.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3,Growth %,0,percent,Jira,Yes (partial),2025-Q3: 1620.75h logged — M 1224.58h / R 396.17h / G 0h (1013.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3,Maintain %,75.56,percent,Jira,Yes (partial),2025-Q3: 1620.75h logged — M 1224.58h / R 396.17h / G 0h (1013.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3,Run %,24.44,percent,Jira,Yes (partial),2025-Q3: 1620.75h logged — M 1224.58h / R 396.17h / G 0h (1013.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S1: 414h logged — M 354.75h / R 59.25h / G 0h (59h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S1,Maintain %,85.69,percent,Jira,Yes (partial),2025-Q3-S1: 414h logged — M 354.75h / R 59.25h / G 0h (59h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S1,Run %,14.31,percent,Jira,Yes (partial),2025-Q3-S1: 414h logged — M 354.75h / R 59.25h / G 0h (59h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S2: 281.5h logged — M 207.67h / R 73.83h / G 0h (136.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S2,Maintain %,73.77,percent,Jira,Yes (partial),2025-Q3-S2: 281.5h logged — M 207.67h / R 73.83h / G 0h (136.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S2,Run %,26.23,percent,Jira,Yes (partial),2025-Q3-S2: 281.5h logged — M 207.67h / R 73.83h / G 0h (136.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S3: 294h logged — M 247.25h / R 46.75h / G 0h (92.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S3,Maintain %,84.1,percent,Jira,Yes (partial),2025-Q3-S3: 294h logged — M 247.25h / R 46.75h / G 0h (92.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S3,Run %,15.9,percent,Jira,Yes (partial),2025-Q3-S3: 294h logged — M 247.25h / R 46.75h / G 0h (92.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S4: 169.17h logged — M 98.33h / R 70.83h / G 0h (222.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S4,Maintain %,58.13,percent,Jira,Yes (partial),2025-Q3-S4: 169.17h logged — M 98.33h / R 70.83h / G 0h (222.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S4,Run %,41.87,percent,Jira,Yes (partial),2025-Q3-S4: 169.17h logged — M 98.33h / R 70.83h / G 0h (222.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S5: 134.42h logged — M 97.67h / R 36.75h / G 0h (202.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S5,Maintain %,72.66,percent,Jira,Yes (partial),2025-Q3-S5: 134.42h logged — M 97.67h / R 36.75h / G 0h (202.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S5,Run %,27.34,percent,Jira,Yes (partial),2025-Q3-S5: 134.42h logged — M 97.67h / R 36.75h / G 0h (202.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S6: 187.75h logged — M 99.25h / R 88.5h / G 0h (213.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S6,Maintain %,52.86,percent,Jira,Yes (partial),2025-Q3-S6: 187.75h logged — M 99.25h / R 88.5h / G 0h (213.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q3-S6,Run %,47.14,percent,Jira,Yes (partial),2025-Q3-S6: 187.75h logged — M 99.25h / R 88.5h / G 0h (213.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4,Growth %,0,percent,Jira,Yes (partial),2025-Q4: 1189.25h logged — M 939.08h / R 250.17h / G 0h (1194.78h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4,Maintain %,78.96,percent,Jira,Yes (partial),2025-Q4: 1189.25h logged — M 939.08h / R 250.17h / G 0h (1194.78h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4,Run %,21.04,percent,Jira,Yes (partial),2025-Q4: 1189.25h logged — M 939.08h / R 250.17h / G 0h (1194.78h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S1: 195.42h logged — M 145.33h / R 50.08h / G 0h (191.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S1,Maintain %,74.37,percent,Jira,Yes (partial),2025-Q4-S1: 195.42h logged — M 145.33h / R 50.08h / G 0h (191.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S1,Run %,25.63,percent,Jira,Yes (partial),2025-Q4-S1: 195.42h logged — M 145.33h / R 50.08h / G 0h (191.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S2: 169.08h logged — M 142h / R 27.08h / G 0h (205.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S2,Maintain %,83.98,percent,Jira,Yes (partial),2025-Q4-S2: 169.08h logged — M 142h / R 27.08h / G 0h (205.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S2,Run %,16.02,percent,Jira,Yes (partial),2025-Q4-S2: 169.08h logged — M 142h / R 27.08h / G 0h (205.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S3: 180.33h logged — M 138.58h / R 41.75h / G 0h (176.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S3,Maintain %,76.85,percent,Jira,Yes (partial),2025-Q4-S3: 180.33h logged — M 138.58h / R 41.75h / G 0h (176.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S3,Run %,23.15,percent,Jira,Yes (partial),2025-Q4-S3: 180.33h logged — M 138.58h / R 41.75h / G 0h (176.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S4: 123.83h logged — M 89.17h / R 34.67h / G 0h (256.2h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S4,Maintain %,72.01,percent,Jira,Yes (partial),2025-Q4-S4: 123.83h logged — M 89.17h / R 34.67h / G 0h (256.2h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S4,Run %,27.99,percent,Jira,Yes (partial),2025-Q4-S4: 123.83h logged — M 89.17h / R 34.67h / G 0h (256.2h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S5: 159.75h logged — M 127.25h / R 32.5h / G 0h (151h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S5,Maintain %,79.66,percent,Jira,Yes (partial),2025-Q4-S5: 159.75h logged — M 127.25h / R 32.5h / G 0h (151h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S5,Run %,20.34,percent,Jira,Yes (partial),2025-Q4-S5: 159.75h logged — M 127.25h / R 32.5h / G 0h (151h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S6: 337.5h logged — M 274.5h / R 63h / G 0h (195.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S6,Maintain %,81.33,percent,Jira,Yes (partial),2025-Q4-S6: 337.5h logged — M 274.5h / R 63h / G 0h (195.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-Q4-S6,Run %,18.67,percent,Jira,Yes (partial),2025-Q4-S6: 337.5h logged — M 274.5h / R 63h / G 0h (195.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-YTD,Growth %,0,percent,Jira,Yes (partial),2025-YTD: 8322.9h logged — M 6579.7h / R 1743.2h / G 0h (3370.7h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-YTD,Maintain %,79.06,percent,Jira,Yes (partial),2025-YTD: 8322.9h logged — M 6579.7h / R 1743.2h / G 0h (3370.7h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2025-YTD,Run %,20.94,percent,Jira,Yes (partial),2025-YTD: 8322.9h logged — M 6579.7h / R 1743.2h / G 0h (3370.7h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1,Growth %,0,percent,Jira,Yes (partial),2026-Q1: 911.5h logged — M 719.75h / R 191.75h / G 0h (1034.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1,Maintain %,78.96,percent,Jira,Yes (partial),2026-Q1: 911.5h logged — M 719.75h / R 191.75h / G 0h (1034.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1,Run %,21.04,percent,Jira,Yes (partial),2026-Q1: 911.5h logged — M 719.75h / R 191.75h / G 0h (1034.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S1,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S1: 168h logged — M 130.25h / R 37.75h / G 0h (228.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S1,Maintain %,77.53,percent,Jira,Yes (partial),2026-Q1-S1: 168h logged — M 130.25h / R 37.75h / G 0h (228.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S1,Run %,22.47,percent,Jira,Yes (partial),2026-Q1-S1: 168h logged — M 130.25h / R 37.75h / G 0h (228.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S2,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S2: 144.67h logged — M 100.83h / R 43.83h / G 0h (200.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S2,Maintain %,69.7,percent,Jira,Yes (partial),2026-Q1-S2: 144.67h logged — M 100.83h / R 43.83h / G 0h (200.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S2,Run %,30.3,percent,Jira,Yes (partial),2026-Q1-S2: 144.67h logged — M 100.83h / R 43.83h / G 0h (200.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S3,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S3: 90.33h logged — M 65.83h / R 24.5h / G 0h (194.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S3,Maintain %,72.88,percent,Jira,Yes (partial),2026-Q1-S3: 90.33h logged — M 65.83h / R 24.5h / G 0h (194.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S3,Run %,27.12,percent,Jira,Yes (partial),2026-Q1-S3: 90.33h logged — M 65.83h / R 24.5h / G 0h (194.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S4,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S4: 141.58h logged — M 112.25h / R 29.33h / G 0h (123.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S4,Maintain %,79.28,percent,Jira,Yes (partial),2026-Q1-S4: 141.58h logged — M 112.25h / R 29.33h / G 0h (123.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S4,Run %,20.72,percent,Jira,Yes (partial),2026-Q1-S4: 141.58h logged — M 112.25h / R 29.33h / G 0h (123.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S5,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S5: 181.25h logged — M 156.42h / R 24.83h / G 0h (81.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S5,Maintain %,86.3,percent,Jira,Yes (partial),2026-Q1-S5: 181.25h logged — M 156.42h / R 24.83h / G 0h (81.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S5,Run %,13.7,percent,Jira,Yes (partial),2026-Q1-S5: 181.25h logged — M 156.42h / R 24.83h / G 0h (81.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S6,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S6: 118.17h logged — M 101.67h / R 16.5h / G 0h (105.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S6,Maintain %,86.04,percent,Jira,Yes (partial),2026-Q1-S6: 118.17h logged — M 101.67h / R 16.5h / G 0h (105.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q1-S6,Run %,13.96,percent,Jira,Yes (partial),2026-Q1-S6: 118.17h logged — M 101.67h / R 16.5h / G 0h (105.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2,Growth %,0,percent,Jira,Yes (partial),2026-Q2: 673.25h logged — M 550.75h / R 122.5h / G 0h (400h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2,Maintain %,81.8,percent,Jira,Yes (partial),2026-Q2: 673.25h logged — M 550.75h / R 122.5h / G 0h (400h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2,Run %,18.2,percent,Jira,Yes (partial),2026-Q2: 673.25h logged — M 550.75h / R 122.5h / G 0h (400h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S1,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S1: 197.25h logged — M 157.5h / R 39.75h / G 0h (69h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S1,Maintain %,79.85,percent,Jira,Yes (partial),2026-Q2-S1: 197.25h logged — M 157.5h / R 39.75h / G 0h (69h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S1,Run %,20.15,percent,Jira,Yes (partial),2026-Q2-S1: 197.25h logged — M 157.5h / R 39.75h / G 0h (69h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S2,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S2: 108.5h logged — M 102.75h / R 5.75h / G 0h (35.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S2,Maintain %,94.7,percent,Jira,Yes (partial),2026-Q2-S2: 108.5h logged — M 102.75h / R 5.75h / G 0h (35.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S2,Run %,5.3,percent,Jira,Yes (partial),2026-Q2-S2: 108.5h logged — M 102.75h / R 5.75h / G 0h (35.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S3,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S3: 27.25h logged — M 23.75h / R 3.5h / G 0h (112.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S3,Maintain %,87.16,percent,Jira,Yes (partial),2026-Q2-S3: 27.25h logged — M 23.75h / R 3.5h / G 0h (112.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S3,Run %,12.84,percent,Jira,Yes (partial),2026-Q2-S3: 27.25h logged — M 23.75h / R 3.5h / G 0h (112.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S4,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S4: 55.5h logged — M 49h / R 6.5h / G 0h (34h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S4,Maintain %,88.29,percent,Jira,Yes (partial),2026-Q2-S4: 55.5h logged — M 49h / R 6.5h / G 0h (34h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S4,Run %,11.71,percent,Jira,Yes (partial),2026-Q2-S4: 55.5h logged — M 49h / R 6.5h / G 0h (34h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S5,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S5: 125.75h logged — M 84.25h / R 41.5h / G 0h (22.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S5,Maintain %,67,percent,Jira,Yes (partial),2026-Q2-S5: 125.75h logged — M 84.25h / R 41.5h / G 0h (22.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S5,Run %,33,percent,Jira,Yes (partial),2026-Q2-S5: 125.75h logged — M 84.25h / R 41.5h / G 0h (22.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S6,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S6: 106.75h logged — M 92.75h / R 14h / G 0h (20.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S6,Maintain %,86.89,percent,Jira,Yes (partial),2026-Q2-S6: 106.75h logged — M 92.75h / R 14h / G 0h (20.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-Q2-S6,Run %,13.11,percent,Jira,Yes (partial),2026-Q2-S6: 106.75h logged — M 92.75h / R 14h / G 0h (20.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-YTD,Growth %,0,percent,Jira,Yes (partial),2026-YTD: 1584.75h logged — M 1270.5h / R 314.25h / G 0h (1434.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-YTD,Maintain %,80.17,percent,Jira,Yes (partial),2026-YTD: 1584.75h logged — M 1270.5h / R 314.25h / G 0h (1434.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+ASAP,2026-YTD,Run %,19.83,percent,Jira,Yes (partial),2026-YTD: 1584.75h logged — M 1270.5h / R 314.25h / G 0h (1434.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1,Growth %,2.62,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 12357.78h logged — M 5381.27h / R 6653.27h / G 323.25h (7440.95h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1,Maintain %,43.55,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 12357.78h logged — M 5381.27h / R 6653.27h / G 323.25h (7440.95h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1,Run %,53.84,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1: 12357.78h logged — M 5381.27h / R 6653.27h / G 323.25h (7440.95h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S1,Growth %,0.76,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S1: 1774.7h logged — M 801.75h / R 959.45h / G 13.5h (1372.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S1,Maintain %,45.18,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S1: 1774.7h logged — M 801.75h / R 959.45h / G 13.5h (1372.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S1,Run %,54.06,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S1: 1774.7h logged — M 801.75h / R 959.45h / G 13.5h (1372.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S2,Growth %,2.36,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S2: 2013.23h logged — M 973.62h / R 992.12h / G 47.5h (1081.53h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S2,Maintain %,48.36,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S2: 2013.23h logged — M 973.62h / R 992.12h / G 47.5h (1081.53h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S2,Run %,49.28,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S2: 2013.23h logged — M 973.62h / R 992.12h / G 47.5h (1081.53h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S3,Growth %,2.58,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S3: 2024.93h logged — M 885.82h / R 1086.87h / G 52.25h (1098.63h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S3,Maintain %,43.75,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S3: 2024.93h logged — M 885.82h / R 1086.87h / G 52.25h (1098.63h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S3,Run %,53.67,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S3: 2024.93h logged — M 885.82h / R 1086.87h / G 52.25h (1098.63h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S4,Growth %,5.17,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S4: 2111.92h logged — M 773.17h / R 1229.5h / G 109.25h (952.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S4,Maintain %,36.61,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S4: 2111.92h logged — M 773.17h / R 1229.5h / G 109.25h (952.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S4,Run %,58.22,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S4: 2111.92h logged — M 773.17h / R 1229.5h / G 109.25h (952.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S5,Growth %,3.08,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S5: 2058.58h logged — M 839h / R 1156.08h / G 63.5h (1055.97h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S5,Maintain %,40.76,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S5: 2058.58h logged — M 839h / R 1156.08h / G 63.5h (1055.97h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S5,Run %,56.16,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S5: 2058.58h logged — M 839h / R 1156.08h / G 63.5h (1055.97h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S6,Growth %,1.96,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S6: 1853.92h logged — M 844.42h / R 973.25h / G 36.25h (1156.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S6,Maintain %,45.55,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S6: 1853.92h logged — M 844.42h / R 973.25h / G 36.25h (1156.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q1-S6,Run %,52.5,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q1-S6: 1853.92h logged — M 844.42h / R 973.25h / G 36.25h (1156.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2,Growth %,2.04,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 12566.4h logged — M 5241.2h / R 7069.2h / G 256h (7482.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2,Maintain %,41.71,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 12566.4h logged — M 5241.2h / R 7069.2h / G 256h (7482.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2,Run %,56.25,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2: 12566.4h logged — M 5241.2h / R 7069.2h / G 256h (7482.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S1,Growth %,4.08,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S1: 2242.83h logged — M 1114.58h / R 1036.75h / G 91.5h (1152.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S1,Maintain %,49.7,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S1: 2242.83h logged — M 1114.58h / R 1036.75h / G 91.5h (1152.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S1,Run %,46.23,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S1: 2242.83h logged — M 1114.58h / R 1036.75h / G 91.5h (1152.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S2,Growth %,2.21,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S2: 1718.58h logged — M 782h / R 898.58h / G 38h (1245.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S2,Maintain %,45.5,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S2: 1718.58h logged — M 782h / R 898.58h / G 38h (1245.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S2,Run %,52.29,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S2: 1718.58h logged — M 782h / R 898.58h / G 38h (1245.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S3,Growth %,2.84,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S3: 1898.5h logged — M 819.67h / R 1024.83h / G 54h (1157.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S3,Maintain %,43.17,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S3: 1898.5h logged — M 819.67h / R 1024.83h / G 54h (1157.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S3,Run %,53.98,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S3: 1898.5h logged — M 819.67h / R 1024.83h / G 54h (1157.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S4,Growth %,2.19,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S4: 2007.65h logged — M 659.07h / R 1304.58h / G 44h (1077.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S4,Maintain %,32.83,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S4: 2007.65h logged — M 659.07h / R 1304.58h / G 44h (1077.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S4,Run %,64.98,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S4: 2007.65h logged — M 659.07h / R 1304.58h / G 44h (1077.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S5,Growth %,1.12,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S5: 2011.67h logged — M 623.67h / R 1365.5h / G 22.5h (1088.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S5,Maintain %,31,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S5: 2011.67h logged — M 623.67h / R 1365.5h / G 22.5h (1088.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S5,Run %,67.88,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S5: 2011.67h logged — M 623.67h / R 1365.5h / G 22.5h (1088.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S6,Growth %,0.21,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S6: 1914.83h logged — M 902.22h / R 1008.62h / G 4h (1288.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S6,Maintain %,47.12,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S6: 1914.83h logged — M 902.22h / R 1008.62h / G 4h (1288.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q2-S6,Run %,52.67,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q2-S6: 1914.83h logged — M 902.22h / R 1008.62h / G 4h (1288.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3,Growth %,1.73,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 11222.33h logged — M 4768.5h / R 6259.83h / G 194h (7845.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3,Maintain %,42.49,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 11222.33h logged — M 4768.5h / R 6259.83h / G 194h (7845.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3,Run %,55.78,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3: 11222.33h logged — M 4768.5h / R 6259.83h / G 194h (7845.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S1,Growth %,2.57,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S1: 2155.42h logged — M 800h / R 1299.92h / G 55.5h (1188.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S1,Maintain %,37.12,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S1: 2155.42h logged — M 800h / R 1299.92h / G 55.5h (1188.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S1,Run %,60.31,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S1: 2155.42h logged — M 800h / R 1299.92h / G 55.5h (1188.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S2,Growth %,2.9,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S2: 1868.25h logged — M 836.75h / R 977.25h / G 54.25h (1037.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S2,Maintain %,44.79,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S2: 1868.25h logged — M 836.75h / R 977.25h / G 54.25h (1037.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S2,Run %,52.31,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S2: 1868.25h logged — M 836.75h / R 977.25h / G 54.25h (1037.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S3,Growth %,1.25,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S3: 1761h logged — M 891.75h / R 847.25h / G 22h (1097.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S3,Maintain %,50.64,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S3: 1761h logged — M 891.75h / R 847.25h / G 22h (1097.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S3,Run %,48.11,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S3: 1761h logged — M 891.75h / R 847.25h / G 22h (1097.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S4,Growth %,1.94,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S4: 1467.17h logged — M 558.33h / R 880.33h / G 28.5h (1419.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S4,Maintain %,38.06,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S4: 1467.17h logged — M 558.33h / R 880.33h / G 28.5h (1419.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S4,Run %,60,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S4: 1467.17h logged — M 558.33h / R 880.33h / G 28.5h (1419.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S5,Growth %,0.87,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S5: 1318.17h logged — M 597.58h / R 709.08h / G 11.5h (1220.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S5,Maintain %,45.33,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S5: 1318.17h logged — M 597.58h / R 709.08h / G 11.5h (1220.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S5,Run %,53.79,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S5: 1318.17h logged — M 597.58h / R 709.08h / G 11.5h (1220.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S6,Growth %,1.34,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S6: 1626h logged — M 673.17h / R 931.08h / G 21.75h (1178.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S6,Maintain %,41.4,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S6: 1626h logged — M 673.17h / R 931.08h / G 21.75h (1178.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q3-S6,Run %,57.26,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q3-S6: 1626h logged — M 673.17h / R 931.08h / G 21.75h (1178.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4,Growth %,1.78,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 10679.25h logged — M 5894.42h / R 4594.83h / G 190h (8316.78h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4,Maintain %,55.2,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 10679.25h logged — M 5894.42h / R 4594.83h / G 190h (8316.78h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4,Run %,43.03,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4: 10679.25h logged — M 5894.42h / R 4594.83h / G 190h (8316.78h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S1,Growth %,0,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S1: 1745h logged — M 899.75h / R 845.25h / G 0h (1403.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S1,Maintain %,51.56,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S1: 1745h logged — M 899.75h / R 845.25h / G 0h (1403.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S1,Run %,48.44,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S1: 1745h logged — M 899.75h / R 845.25h / G 0h (1403.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S2,Growth %,3.22,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S2: 1643.92h logged — M 910.08h / R 680.83h / G 53h (1002.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S2,Maintain %,55.36,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S2: 1643.92h logged — M 910.08h / R 680.83h / G 53h (1002.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S2,Run %,41.42,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S2: 1643.92h logged — M 910.08h / R 680.83h / G 53h (1002.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S3,Growth %,4.26,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S3: 1779.25h logged — M 997.58h / R 705.92h / G 75.75h (1134.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S3,Maintain %,56.07,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S3: 1779.25h logged — M 997.58h / R 705.92h / G 75.75h (1134.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S3,Run %,39.67,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S3: 1779.25h logged — M 997.58h / R 705.92h / G 75.75h (1134.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S4,Growth %,1.99,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S4: 1807.92h logged — M 1043.5h / R 728.42h / G 36h (1314.87h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S4,Maintain %,57.72,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S4: 1807.92h logged — M 1043.5h / R 728.42h / G 36h (1314.87h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S4,Run %,40.29,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S4: 1807.92h logged — M 1043.5h / R 728.42h / G 36h (1314.87h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S5,Growth %,0.59,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S5: 1483h logged — M 792.08h / R 682.17h / G 8.75h (1024.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S5,Maintain %,53.41,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S5: 1483h logged — M 792.08h / R 682.17h / G 8.75h (1024.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S5,Run %,46,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S5: 1483h logged — M 792.08h / R 682.17h / G 8.75h (1024.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S6,Growth %,0.8,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S6: 2062.67h logged — M 1166.42h / R 879.75h / G 16.5h (2319.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S6,Maintain %,56.55,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S6: 2062.67h logged — M 1166.42h / R 879.75h / G 16.5h (2319.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-Q4-S6,Run %,42.65,percent,Jira,Yes (partial),Portfolio rollup. 2025-Q4-S6: 2062.67h logged — M 1166.42h / R 879.75h / G 16.5h (2319.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-YTD,Growth %,2.06,percent,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 46825.77h logged — M 21285.38h / R 24577.13h / G 963.25h (31085.73h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-YTD,Maintain %,45.46,percent,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 46825.77h logged — M 21285.38h / R 24577.13h / G 963.25h (31085.73h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2025-YTD,Run %,52.49,percent,Jira,Yes (partial),Portfolio rollup. 2025-YTD: 46825.77h logged — M 21285.38h / R 24577.13h / G 963.25h (31085.73h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1,Growth %,0.96,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 9320.27h logged — M 5471.17h / R 3759.6h / G 89.5h (7847.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1,Maintain %,58.7,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 9320.27h logged — M 5471.17h / R 3759.6h / G 89.5h (7847.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1,Run %,40.34,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1: 9320.27h logged — M 5471.17h / R 3759.6h / G 89.5h (7847.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S1,Growth %,3.09,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S1: 1569.92h logged — M 876.5h / R 644.92h / G 48.5h (1533.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S1,Maintain %,55.83,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S1: 1569.92h logged — M 876.5h / R 644.92h / G 48.5h (1533.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S1,Run %,41.08,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S1: 1569.92h logged — M 876.5h / R 644.92h / G 48.5h (1533.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S2,Growth %,2.53,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S2: 1617.83h logged — M 955.5h / R 621.33h / G 41h (1175.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S2,Maintain %,59.06,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S2: 1617.83h logged — M 955.5h / R 621.33h / G 41h (1175.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S2,Run %,38.41,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S2: 1617.83h logged — M 955.5h / R 621.33h / G 41h (1175.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S3,Growth %,0,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S3: 1501.75h logged — M 900.33h / R 601.42h / G 0h (1162.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S3,Maintain %,59.95,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S3: 1501.75h logged — M 900.33h / R 601.42h / G 0h (1162.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S3,Run %,40.05,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S3: 1501.75h logged — M 900.33h / R 601.42h / G 0h (1162.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S4,Growth %,0,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S4: 1467.13h logged — M 872.08h / R 595.05h / G 0h (1105.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S4,Maintain %,59.44,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S4: 1467.13h logged — M 872.08h / R 595.05h / G 0h (1105.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S4,Run %,40.56,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S4: 1467.13h logged — M 872.08h / R 595.05h / G 0h (1105.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S5,Growth %,0,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S5: 1470.22h logged — M 894.42h / R 575.8h / G 0h (1072.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S5,Maintain %,60.84,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S5: 1470.22h logged — M 894.42h / R 575.8h / G 0h (1072.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S5,Run %,39.16,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S5: 1470.22h logged — M 894.42h / R 575.8h / G 0h (1072.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S6,Growth %,0,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S6: 1192.33h logged — M 668.17h / R 524.17h / G 0h (900.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S6,Maintain %,56.04,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S6: 1192.33h logged — M 668.17h / R 524.17h / G 0h (900.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q1-S6,Run %,43.96,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q1-S6: 1192.33h logged — M 668.17h / R 524.17h / G 0h (900.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2,Growth %,0.28,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 11430.07h logged — M 6812.07h / R 4586.5h / G 31.5h (7011.27h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2,Maintain %,59.6,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 11430.07h logged — M 6812.07h / R 4586.5h / G 31.5h (7011.27h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2,Run %,40.13,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2: 11430.07h logged — M 6812.07h / R 4586.5h / G 31.5h (7011.27h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S1,Growth %,0,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S1: 1928.5h logged — M 1169.33h / R 759.17h / G 0h (1331h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S1,Maintain %,60.63,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S1: 1928.5h logged — M 1169.33h / R 759.17h / G 0h (1331h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S1,Run %,39.37,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S1: 1928.5h logged — M 1169.33h / R 759.17h / G 0h (1331h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S2,Growth %,0.32,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S2: 1633.65h logged — M 954.4h / R 674h / G 5.25h (1188.52h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S2,Maintain %,58.42,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S2: 1633.65h logged — M 954.4h / R 674h / G 5.25h (1188.52h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S2,Run %,41.26,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S2: 1633.65h logged — M 954.4h / R 674h / G 5.25h (1188.52h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S3,Growth %,0.8,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S3: 1806.42h logged — M 1109.58h / R 682.33h / G 14.5h (1079.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S3,Maintain %,61.42,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S3: 1806.42h logged — M 1109.58h / R 682.33h / G 14.5h (1079.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S3,Run %,37.77,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S3: 1806.42h logged — M 1109.58h / R 682.33h / G 14.5h (1079.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S4,Growth %,0.63,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S4: 1777.17h logged — M 913.17h / R 852.75h / G 11.25h (1037.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S4,Maintain %,51.38,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S4: 1777.17h logged — M 913.17h / R 852.75h / G 11.25h (1037.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S4,Run %,47.98,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S4: 1777.17h logged — M 913.17h / R 852.75h / G 11.25h (1037.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S5,Growth %,0.03,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S5: 1942.08h logged — M 1221.58h / R 720h / G 0.5h (834h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S5,Maintain %,62.9,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S5: 1942.08h logged — M 1221.58h / R 720h / G 0.5h (834h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S5,Run %,37.07,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S5: 1942.08h logged — M 1221.58h / R 720h / G 0.5h (834h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S6,Growth %,0,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S6: 1661.92h logged — M 1064.75h / R 597.17h / G 0h (754.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S6,Maintain %,64.07,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S6: 1661.92h logged — M 1064.75h / R 597.17h / G 0h (754.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-Q2-S6,Run %,35.93,percent,Jira,Yes (partial),Portfolio rollup. 2026-Q2-S6: 1661.92h logged — M 1064.75h / R 597.17h / G 0h (754.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-YTD,Growth %,0.58,percent,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 20750.33h logged — M 12283.23h / R 8346.1h / G 121h (14859.18h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-YTD,Maintain %,59.2,percent,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 20750.33h logged — M 12283.23h / R 8346.1h / G 121h (14859.18h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+EDU,2026-YTD,Run %,40.22,percent,Jira,Yes (partial),Portfolio rollup. 2026-YTD: 20750.33h logged — M 12283.23h / R 8346.1h / G 121h (14859.18h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1,Growth %,3,percent,Jira,Yes (partial),2025-Q1: 3580.25h logged — M 2173.67h / R 1299.08h / G 107.5h (1425.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1,Maintain %,60.71,percent,Jira,Yes (partial),2025-Q1: 3580.25h logged — M 2173.67h / R 1299.08h / G 107.5h (1425.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1,Run %,36.28,percent,Jira,Yes (partial),2025-Q1: 3580.25h logged — M 2173.67h / R 1299.08h / G 107.5h (1425.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S1: 398.17h logged — M 198.33h / R 199.83h / G 0h (435.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S1,Maintain %,49.81,percent,Jira,Yes (partial),2025-Q1-S1: 398.17h logged — M 198.33h / R 199.83h / G 0h (435.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S1,Run %,50.19,percent,Jira,Yes (partial),2025-Q1-S1: 398.17h logged — M 198.33h / R 199.83h / G 0h (435.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S2,Growth %,0.15,percent,Jira,Yes (partial),2025-Q1-S2: 666.25h logged — M 382.17h / R 283.08h / G 1h (177.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S2,Maintain %,57.36,percent,Jira,Yes (partial),2025-Q1-S2: 666.25h logged — M 382.17h / R 283.08h / G 1h (177.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S2,Run %,42.49,percent,Jira,Yes (partial),2025-Q1-S2: 666.25h logged — M 382.17h / R 283.08h / G 1h (177.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S3,Growth %,2.25,percent,Jira,Yes (partial),2025-Q1-S3: 611.75h logged — M 347.75h / R 250.25h / G 13.75h (174.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S3,Maintain %,56.85,percent,Jira,Yes (partial),2025-Q1-S3: 611.75h logged — M 347.75h / R 250.25h / G 13.75h (174.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S3,Run %,40.91,percent,Jira,Yes (partial),2025-Q1-S3: 611.75h logged — M 347.75h / R 250.25h / G 13.75h (174.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S4,Growth %,5.04,percent,Jira,Yes (partial),2025-Q1-S4: 565.58h logged — M 302.83h / R 234.25h / G 28.5h (181.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S4,Maintain %,53.54,percent,Jira,Yes (partial),2025-Q1-S4: 565.58h logged — M 302.83h / R 234.25h / G 28.5h (181.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S4,Run %,41.42,percent,Jira,Yes (partial),2025-Q1-S4: 565.58h logged — M 302.83h / R 234.25h / G 28.5h (181.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S5,Growth %,9.71,percent,Jira,Yes (partial),2025-Q1-S5: 561.33h logged — M 382.5h / R 124.33h / G 54.5h (188.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S5,Maintain %,68.14,percent,Jira,Yes (partial),2025-Q1-S5: 561.33h logged — M 382.5h / R 124.33h / G 54.5h (188.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S5,Run %,22.15,percent,Jira,Yes (partial),2025-Q1-S5: 561.33h logged — M 382.5h / R 124.33h / G 54.5h (188.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S6,Growth %,1.45,percent,Jira,Yes (partial),2025-Q1-S6: 604h logged — M 410.42h / R 184.83h / G 8.75h (136.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S6,Maintain %,67.95,percent,Jira,Yes (partial),2025-Q1-S6: 604h logged — M 410.42h / R 184.83h / G 8.75h (136.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q1-S6,Run %,30.6,percent,Jira,Yes (partial),2025-Q1-S6: 604h logged — M 410.42h / R 184.83h / G 8.75h (136.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2,Growth %,0.15,percent,Jira,Yes (partial),2025-Q2: 3177.92h logged — M 1443.17h / R 1730h / G 4.75h (1729.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2,Maintain %,45.41,percent,Jira,Yes (partial),2025-Q2: 3177.92h logged — M 1443.17h / R 1730h / G 4.75h (1729.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2,Run %,54.44,percent,Jira,Yes (partial),2025-Q2: 3177.92h logged — M 1443.17h / R 1730h / G 4.75h (1729.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S1,Growth %,0.47,percent,Jira,Yes (partial),2025-Q2-S1: 585.5h logged — M 373.58h / R 209.17h / G 2.75h (238.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S1,Maintain %,63.81,percent,Jira,Yes (partial),2025-Q2-S1: 585.5h logged — M 373.58h / R 209.17h / G 2.75h (238.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S1,Run %,35.72,percent,Jira,Yes (partial),2025-Q2-S1: 585.5h logged — M 373.58h / R 209.17h / G 2.75h (238.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S2: 468.17h logged — M 267h / R 201.17h / G 0h (282.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S2,Maintain %,57.03,percent,Jira,Yes (partial),2025-Q2-S2: 468.17h logged — M 267h / R 201.17h / G 0h (282.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S2,Run %,42.97,percent,Jira,Yes (partial),2025-Q2-S2: 468.17h logged — M 267h / R 201.17h / G 0h (282.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S3: 489h logged — M 283.17h / R 205.83h / G 0h (268.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S3,Maintain %,57.91,percent,Jira,Yes (partial),2025-Q2-S3: 489h logged — M 283.17h / R 205.83h / G 0h (268.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S3,Run %,42.09,percent,Jira,Yes (partial),2025-Q2-S3: 489h logged — M 283.17h / R 205.83h / G 0h (268.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S4: 488.83h logged — M 172.25h / R 316.58h / G 0h (253.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S4,Maintain %,35.24,percent,Jira,Yes (partial),2025-Q2-S4: 488.83h logged — M 172.25h / R 316.58h / G 0h (253.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S4,Run %,64.76,percent,Jira,Yes (partial),2025-Q2-S4: 488.83h logged — M 172.25h / R 316.58h / G 0h (253.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S5: 422.42h logged — M 71.08h / R 351.33h / G 0h (314.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S5,Maintain %,16.83,percent,Jira,Yes (partial),2025-Q2-S5: 422.42h logged — M 71.08h / R 351.33h / G 0h (314.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S5,Run %,83.17,percent,Jira,Yes (partial),2025-Q2-S5: 422.42h logged — M 71.08h / R 351.33h / G 0h (314.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S6: 514.83h logged — M 195.92h / R 318.92h / G 0h (280.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S6,Maintain %,38.05,percent,Jira,Yes (partial),2025-Q2-S6: 514.83h logged — M 195.92h / R 318.92h / G 0h (280.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q2-S6,Run %,61.95,percent,Jira,Yes (partial),2025-Q2-S6: 514.83h logged — M 195.92h / R 318.92h / G 0h (280.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3,Growth %,0,percent,Jira,Yes (partial),2025-Q3: 3466.5h logged — M 1900.58h / R 1565.92h / G 0h (1465.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3,Maintain %,54.83,percent,Jira,Yes (partial),2025-Q3: 3466.5h logged — M 1900.58h / R 1565.92h / G 0h (1465.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3,Run %,45.17,percent,Jira,Yes (partial),2025-Q3: 3466.5h logged — M 1900.58h / R 1565.92h / G 0h (1465.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S1: 632.17h logged — M 122.5h / R 509.67h / G 0h (201.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S1,Maintain %,19.38,percent,Jira,Yes (partial),2025-Q3-S1: 632.17h logged — M 122.5h / R 509.67h / G 0h (201.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S1,Run %,80.62,percent,Jira,Yes (partial),2025-Q3-S1: 632.17h logged — M 122.5h / R 509.67h / G 0h (201.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S2: 536.25h logged — M 301.17h / R 235.08h / G 0h (203.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S2,Maintain %,56.16,percent,Jira,Yes (partial),2025-Q3-S2: 536.25h logged — M 301.17h / R 235.08h / G 0h (203.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S2,Run %,43.84,percent,Jira,Yes (partial),2025-Q3-S2: 536.25h logged — M 301.17h / R 235.08h / G 0h (203.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S3: 536.5h logged — M 359.25h / R 177.25h / G 0h (199.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S3,Maintain %,66.96,percent,Jira,Yes (partial),2025-Q3-S3: 536.5h logged — M 359.25h / R 177.25h / G 0h (199.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S3,Run %,33.04,percent,Jira,Yes (partial),2025-Q3-S3: 536.5h logged — M 359.25h / R 177.25h / G 0h (199.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S4: 407.92h logged — M 307.25h / R 100.67h / G 0h (325.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S4,Maintain %,75.32,percent,Jira,Yes (partial),2025-Q3-S4: 407.92h logged — M 307.25h / R 100.67h / G 0h (325.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S4,Run %,24.68,percent,Jira,Yes (partial),2025-Q3-S4: 407.92h logged — M 307.25h / R 100.67h / G 0h (325.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S5: 411.75h logged — M 257.92h / R 153.83h / G 0h (265.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S5,Maintain %,62.64,percent,Jira,Yes (partial),2025-Q3-S5: 411.75h logged — M 257.92h / R 153.83h / G 0h (265.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S5,Run %,37.36,percent,Jira,Yes (partial),2025-Q3-S5: 411.75h logged — M 257.92h / R 153.83h / G 0h (265.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S6: 607.58h logged — M 336.92h / R 270.67h / G 0h (160.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S6,Maintain %,55.45,percent,Jira,Yes (partial),2025-Q3-S6: 607.58h logged — M 336.92h / R 270.67h / G 0h (160.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q3-S6,Run %,44.55,percent,Jira,Yes (partial),2025-Q3-S6: 607.58h logged — M 336.92h / R 270.67h / G 0h (160.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4,Growth %,0,percent,Jira,Yes (partial),2025-Q4: 3428.58h logged — M 2406.92h / R 1021.67h / G 0h (1562.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4,Maintain %,70.2,percent,Jira,Yes (partial),2025-Q4: 3428.58h logged — M 2406.92h / R 1021.67h / G 0h (1562.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4,Run %,29.8,percent,Jira,Yes (partial),2025-Q4: 3428.58h logged — M 2406.92h / R 1021.67h / G 0h (1562.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S1: 516.33h logged — M 410.42h / R 105.92h / G 0h (304.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S1,Maintain %,79.49,percent,Jira,Yes (partial),2025-Q4-S1: 516.33h logged — M 410.42h / R 105.92h / G 0h (304.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S1,Run %,20.51,percent,Jira,Yes (partial),2025-Q4-S1: 516.33h logged — M 410.42h / R 105.92h / G 0h (304.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S2: 533.83h logged — M 387.58h / R 146.25h / G 0h (139.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S2,Maintain %,72.6,percent,Jira,Yes (partial),2025-Q4-S2: 533.83h logged — M 387.58h / R 146.25h / G 0h (139.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S2,Run %,27.4,percent,Jira,Yes (partial),2025-Q4-S2: 533.83h logged — M 387.58h / R 146.25h / G 0h (139.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S3: 567.75h logged — M 398.08h / R 169.67h / G 0h (182.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S3,Maintain %,70.12,percent,Jira,Yes (partial),2025-Q4-S3: 567.75h logged — M 398.08h / R 169.67h / G 0h (182.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S3,Run %,29.88,percent,Jira,Yes (partial),2025-Q4-S3: 567.75h logged — M 398.08h / R 169.67h / G 0h (182.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S4: 629.42h logged — M 450.92h / R 178.5h / G 0h (182.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S4,Maintain %,71.64,percent,Jira,Yes (partial),2025-Q4-S4: 629.42h logged — M 450.92h / R 178.5h / G 0h (182.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S4,Run %,28.36,percent,Jira,Yes (partial),2025-Q4-S4: 629.42h logged — M 450.92h / R 178.5h / G 0h (182.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S5: 484.92h logged — M 268h / R 216.92h / G 0h (186.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S5,Maintain %,55.27,percent,Jira,Yes (partial),2025-Q4-S5: 484.92h logged — M 268h / R 216.92h / G 0h (186.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S5,Run %,44.73,percent,Jira,Yes (partial),2025-Q4-S5: 484.92h logged — M 268h / R 216.92h / G 0h (186.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S6: 634.92h logged — M 446.92h / R 188h / G 0h (555.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S6,Maintain %,70.39,percent,Jira,Yes (partial),2025-Q4-S6: 634.92h logged — M 446.92h / R 188h / G 0h (555.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-Q4-S6,Run %,29.61,percent,Jira,Yes (partial),2025-Q4-S6: 634.92h logged — M 446.92h / R 188h / G 0h (555.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-YTD,Growth %,0.82,percent,Jira,Yes (partial),2025-YTD: 13653.25h logged — M 7924.33h / R 5616.67h / G 112.25h (6183h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-YTD,Maintain %,58.04,percent,Jira,Yes (partial),2025-YTD: 13653.25h logged — M 7924.33h / R 5616.67h / G 112.25h (6183h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2025-YTD,Run %,41.14,percent,Jira,Yes (partial),2025-YTD: 13653.25h logged — M 7924.33h / R 5616.67h / G 112.25h (6183h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1,Growth %,0,percent,Jira,Yes (partial),2026-Q1: 3241.75h logged — M 2041.58h / R 1200.17h / G 0h (1618.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1,Maintain %,62.98,percent,Jira,Yes (partial),2026-Q1: 3241.75h logged — M 2041.58h / R 1200.17h / G 0h (1618.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1,Run %,37.02,percent,Jira,Yes (partial),2026-Q1: 3241.75h logged — M 2041.58h / R 1200.17h / G 0h (1618.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S1,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S1: 415.5h logged — M 268.25h / R 147.25h / G 0h (416.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S1,Maintain %,64.56,percent,Jira,Yes (partial),2026-Q1-S1: 415.5h logged — M 268.25h / R 147.25h / G 0h (416.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S1,Run %,35.44,percent,Jira,Yes (partial),2026-Q1-S1: 415.5h logged — M 268.25h / R 147.25h / G 0h (416.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S2,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S2: 519.58h logged — M 432.58h / R 87h / G 0h (234.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S2,Maintain %,83.26,percent,Jira,Yes (partial),2026-Q1-S2: 519.58h logged — M 432.58h / R 87h / G 0h (234.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S2,Run %,16.74,percent,Jira,Yes (partial),2026-Q1-S2: 519.58h logged — M 432.58h / R 87h / G 0h (234.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S3,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S3: 602.83h logged — M 443.33h / R 159.5h / G 0h (149.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S3,Maintain %,73.54,percent,Jira,Yes (partial),2026-Q1-S3: 602.83h logged — M 443.33h / R 159.5h / G 0h (149.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S3,Run %,26.46,percent,Jira,Yes (partial),2026-Q1-S3: 602.83h logged — M 443.33h / R 159.5h / G 0h (149.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S4,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S4: 582.58h logged — M 336.67h / R 245.92h / G 0h (195.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S4,Maintain %,57.79,percent,Jira,Yes (partial),2026-Q1-S4: 582.58h logged — M 336.67h / R 245.92h / G 0h (195.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S4,Run %,42.21,percent,Jira,Yes (partial),2026-Q1-S4: 582.58h logged — M 336.67h / R 245.92h / G 0h (195.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S5,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S5: 554.17h logged — M 276h / R 278.17h / G 0h (198.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S5,Maintain %,49.8,percent,Jira,Yes (partial),2026-Q1-S5: 554.17h logged — M 276h / R 278.17h / G 0h (198.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S5,Run %,50.2,percent,Jira,Yes (partial),2026-Q1-S5: 554.17h logged — M 276h / R 278.17h / G 0h (198.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S6,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S6: 450h logged — M 207.58h / R 242.42h / G 0h (154.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S6,Maintain %,46.13,percent,Jira,Yes (partial),2026-Q1-S6: 450h logged — M 207.58h / R 242.42h / G 0h (154.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q1-S6,Run %,53.87,percent,Jira,Yes (partial),2026-Q1-S6: 450h logged — M 207.58h / R 242.42h / G 0h (154.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2,Growth %,0,percent,Jira,Yes (partial),2026-Q2: 3340.25h logged — M 1960.17h / R 1380.08h / G 0h (1431.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2,Maintain %,58.68,percent,Jira,Yes (partial),2026-Q2: 3340.25h logged — M 1960.17h / R 1380.08h / G 0h (1431.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2,Run %,41.32,percent,Jira,Yes (partial),2026-Q2: 3340.25h logged — M 1960.17h / R 1380.08h / G 0h (1431.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S1,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S1: 496.08h logged — M 305.75h / R 190.33h / G 0h (321.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S1,Maintain %,61.63,percent,Jira,Yes (partial),2026-Q2-S1: 496.08h logged — M 305.75h / R 190.33h / G 0h (321.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S1,Run %,38.37,percent,Jira,Yes (partial),2026-Q2-S1: 496.08h logged — M 305.75h / R 190.33h / G 0h (321.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S2,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S2: 461.83h logged — M 204.83h / R 257h / G 0h (257.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S2,Maintain %,44.35,percent,Jira,Yes (partial),2026-Q2-S2: 461.83h logged — M 204.83h / R 257h / G 0h (257.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S2,Run %,55.65,percent,Jira,Yes (partial),2026-Q2-S2: 461.83h logged — M 204.83h / R 257h / G 0h (257.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S3,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S3: 576h logged — M 339h / R 237h / G 0h (141.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S3,Maintain %,58.85,percent,Jira,Yes (partial),2026-Q2-S3: 576h logged — M 339h / R 237h / G 0h (141.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S3,Run %,41.15,percent,Jira,Yes (partial),2026-Q2-S3: 576h logged — M 339h / R 237h / G 0h (141.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S4,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S4: 482.08h logged — M 261.33h / R 220.75h / G 0h (264.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S4,Maintain %,54.21,percent,Jira,Yes (partial),2026-Q2-S4: 482.08h logged — M 261.33h / R 220.75h / G 0h (264.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S4,Run %,45.79,percent,Jira,Yes (partial),2026-Q2-S4: 482.08h logged — M 261.33h / R 220.75h / G 0h (264.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S5,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S5: 511.92h logged — M 349.67h / R 162.25h / G 0h (226.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S5,Maintain %,68.31,percent,Jira,Yes (partial),2026-Q2-S5: 511.92h logged — M 349.67h / R 162.25h / G 0h (226.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S5,Run %,31.69,percent,Jira,Yes (partial),2026-Q2-S5: 511.92h logged — M 349.67h / R 162.25h / G 0h (226.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S6,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S6: 540.75h logged — M 365.08h / R 175.67h / G 0h (116.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S6,Maintain %,67.51,percent,Jira,Yes (partial),2026-Q2-S6: 540.75h logged — M 365.08h / R 175.67h / G 0h (116.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-Q2-S6,Run %,32.49,percent,Jira,Yes (partial),2026-Q2-S6: 540.75h logged — M 365.08h / R 175.67h / G 0h (116.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-YTD,Growth %,0,percent,Jira,Yes (partial),2026-YTD: 6582h logged — M 4001.75h / R 2580.25h / G 0h (3050.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-YTD,Maintain %,60.8,percent,Jira,Yes (partial),2026-YTD: 6582h logged — M 4001.75h / R 2580.25h / G 0h (3050.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Smartcare,2026-YTD,Run %,39.2,percent,Jira,Yes (partial),2026-YTD: 6582h logged — M 4001.75h / R 2580.25h / G 0h (3050.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1,Growth %,0,percent,Jira,Yes (partial),2025-Q1: 2823.75h logged — M 424.33h / R 2399.42h / G 0h (2801h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1,Maintain %,15.03,percent,Jira,Yes (partial),2025-Q1: 2823.75h logged — M 424.33h / R 2399.42h / G 0h (2801h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1,Run %,84.97,percent,Jira,Yes (partial),2025-Q1: 2823.75h logged — M 424.33h / R 2399.42h / G 0h (2801h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S1: 447.58h logged — M 134h / R 313.58h / G 0h (448.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S1,Maintain %,29.94,percent,Jira,Yes (partial),2025-Q1-S1: 447.58h logged — M 134h / R 313.58h / G 0h (448.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S1,Run %,70.06,percent,Jira,Yes (partial),2025-Q1-S1: 447.58h logged — M 134h / R 313.58h / G 0h (448.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S2: 399.25h logged — M 136h / R 263.25h / G 0h (484h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S2,Maintain %,34.06,percent,Jira,Yes (partial),2025-Q1-S2: 399.25h logged — M 136h / R 263.25h / G 0h (484h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S2,Run %,65.94,percent,Jira,Yes (partial),2025-Q1-S2: 399.25h logged — M 136h / R 263.25h / G 0h (484h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S3: 443.58h logged — M 41.58h / R 402h / G 0h (497.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S3,Maintain %,9.37,percent,Jira,Yes (partial),2025-Q1-S3: 443.58h logged — M 41.58h / R 402h / G 0h (497.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S3,Run %,90.63,percent,Jira,Yes (partial),2025-Q1-S3: 443.58h logged — M 41.58h / R 402h / G 0h (497.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S4: 503.25h logged — M 9.5h / R 493.75h / G 0h (369.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S4,Maintain %,1.89,percent,Jira,Yes (partial),2025-Q1-S4: 503.25h logged — M 9.5h / R 493.75h / G 0h (369.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S4,Run %,98.11,percent,Jira,Yes (partial),2025-Q1-S4: 503.25h logged — M 9.5h / R 493.75h / G 0h (369.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S5: 481.42h logged — M 26.75h / R 454.67h / G 0h (399.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S5,Maintain %,5.56,percent,Jira,Yes (partial),2025-Q1-S5: 481.42h logged — M 26.75h / R 454.67h / G 0h (399.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S5,Run %,94.44,percent,Jira,Yes (partial),2025-Q1-S5: 481.42h logged — M 26.75h / R 454.67h / G 0h (399.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q1-S6: 410.42h logged — M 56.5h / R 353.92h / G 0h (391.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S6,Maintain %,13.77,percent,Jira,Yes (partial),2025-Q1-S6: 410.42h logged — M 56.5h / R 353.92h / G 0h (391.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q1-S6,Run %,86.23,percent,Jira,Yes (partial),2025-Q1-S6: 410.42h logged — M 56.5h / R 353.92h / G 0h (391.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2,Growth %,0,percent,Jira,Yes (partial),2025-Q2: 2844.25h logged — M 690.5h / R 2153.75h / G 0h (2701.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2,Maintain %,24.28,percent,Jira,Yes (partial),2025-Q2: 2844.25h logged — M 690.5h / R 2153.75h / G 0h (2701.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2,Run %,75.72,percent,Jira,Yes (partial),2025-Q2: 2844.25h logged — M 690.5h / R 2153.75h / G 0h (2701.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S1: 485.5h logged — M 148h / R 337.5h / G 0h (413.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S1,Maintain %,30.48,percent,Jira,Yes (partial),2025-Q2-S1: 485.5h logged — M 148h / R 337.5h / G 0h (413.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S1,Run %,69.52,percent,Jira,Yes (partial),2025-Q2-S1: 485.5h logged — M 148h / R 337.5h / G 0h (413.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S2: 346.67h logged — M 108.17h / R 238.5h / G 0h (435.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S2,Maintain %,31.2,percent,Jira,Yes (partial),2025-Q2-S2: 346.67h logged — M 108.17h / R 238.5h / G 0h (435.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S2,Run %,68.8,percent,Jira,Yes (partial),2025-Q2-S2: 346.67h logged — M 108.17h / R 238.5h / G 0h (435.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S3: 430.5h logged — M 67.5h / R 363h / G 0h (387.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S3,Maintain %,15.68,percent,Jira,Yes (partial),2025-Q2-S3: 430.5h logged — M 67.5h / R 363h / G 0h (387.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S3,Run %,84.32,percent,Jira,Yes (partial),2025-Q2-S3: 430.5h logged — M 67.5h / R 363h / G 0h (387.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S4: 478.08h logged — M 87.58h / R 390.5h / G 0h (376.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S4,Maintain %,18.32,percent,Jira,Yes (partial),2025-Q2-S4: 478.08h logged — M 87.58h / R 390.5h / G 0h (376.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S4,Run %,81.68,percent,Jira,Yes (partial),2025-Q2-S4: 478.08h logged — M 87.58h / R 390.5h / G 0h (376.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S5: 486.67h logged — M 103h / R 383.67h / G 0h (401.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S5,Maintain %,21.16,percent,Jira,Yes (partial),2025-Q2-S5: 486.67h logged — M 103h / R 383.67h / G 0h (401.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S5,Run %,78.84,percent,Jira,Yes (partial),2025-Q2-S5: 486.67h logged — M 103h / R 383.67h / G 0h (401.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q2-S6: 439h logged — M 129h / R 310h / G 0h (507h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S6,Maintain %,29.38,percent,Jira,Yes (partial),2025-Q2-S6: 439h logged — M 129h / R 310h / G 0h (507h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q2-S6,Run %,70.62,percent,Jira,Yes (partial),2025-Q2-S6: 439h logged — M 129h / R 310h / G 0h (507h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3,Growth %,0,percent,Jira,Yes (partial),2025-Q3: 2844.08h logged — M 1085.58h / R 1758.5h / G 0h (2979.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3,Maintain %,38.17,percent,Jira,Yes (partial),2025-Q3: 2844.08h logged — M 1085.58h / R 1758.5h / G 0h (2979.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3,Run %,61.83,percent,Jira,Yes (partial),2025-Q3: 2844.08h logged — M 1085.58h / R 1758.5h / G 0h (2979.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S1: 528.25h logged — M 185.75h / R 342.5h / G 0h (505.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S1,Maintain %,35.16,percent,Jira,Yes (partial),2025-Q3-S1: 528.25h logged — M 185.75h / R 342.5h / G 0h (505.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S1,Run %,64.84,percent,Jira,Yes (partial),2025-Q3-S1: 528.25h logged — M 185.75h / R 342.5h / G 0h (505.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S2: 462h logged — M 186.17h / R 275.83h / G 0h (390.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S2,Maintain %,40.3,percent,Jira,Yes (partial),2025-Q3-S2: 462h logged — M 186.17h / R 275.83h / G 0h (390.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S2,Run %,59.7,percent,Jira,Yes (partial),2025-Q3-S2: 462h logged — M 186.17h / R 275.83h / G 0h (390.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S3: 398.5h logged — M 206.25h / R 192.25h / G 0h (474.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S3,Maintain %,51.76,percent,Jira,Yes (partial),2025-Q3-S3: 398.5h logged — M 206.25h / R 192.25h / G 0h (474.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S3,Run %,48.24,percent,Jira,Yes (partial),2025-Q3-S3: 398.5h logged — M 206.25h / R 192.25h / G 0h (474.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S4: 445.08h logged — M 101h / R 344.08h / G 0h (450.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S4,Maintain %,22.69,percent,Jira,Yes (partial),2025-Q3-S4: 445.08h logged — M 101h / R 344.08h / G 0h (450.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S4,Run %,77.31,percent,Jira,Yes (partial),2025-Q3-S4: 445.08h logged — M 101h / R 344.08h / G 0h (450.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S5: 374h logged — M 157h / R 217h / G 0h (402.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S5,Maintain %,41.98,percent,Jira,Yes (partial),2025-Q3-S5: 374h logged — M 157h / R 217h / G 0h (402.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S5,Run %,58.02,percent,Jira,Yes (partial),2025-Q3-S5: 374h logged — M 157h / R 217h / G 0h (402.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q3-S6: 377.92h logged — M 187.25h / R 190.67h / G 0h (472.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S6,Maintain %,49.55,percent,Jira,Yes (partial),2025-Q3-S6: 377.92h logged — M 187.25h / R 190.67h / G 0h (472.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q3-S6,Run %,50.45,percent,Jira,Yes (partial),2025-Q3-S6: 377.92h logged — M 187.25h / R 190.67h / G 0h (472.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4,Growth %,0,percent,Jira,Yes (partial),2025-Q4: 2762.42h logged — M 2163.67h / R 598.75h / G 0h (2717h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4,Maintain %,78.33,percent,Jira,Yes (partial),2025-Q4: 2762.42h logged — M 2163.67h / R 598.75h / G 0h (2717h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4,Run %,21.67,percent,Jira,Yes (partial),2025-Q4: 2762.42h logged — M 2163.67h / R 598.75h / G 0h (2717h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S1: 520.25h logged — M 319h / R 201.25h / G 0h (448h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S1,Maintain %,61.32,percent,Jira,Yes (partial),2025-Q4-S1: 520.25h logged — M 319h / R 201.25h / G 0h (448h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S1,Run %,38.68,percent,Jira,Yes (partial),2025-Q4-S1: 520.25h logged — M 319h / R 201.25h / G 0h (448h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S2,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S2: 438.5h logged — M 288.75h / R 149.75h / G 0h (310h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S2,Maintain %,65.85,percent,Jira,Yes (partial),2025-Q4-S2: 438.5h logged — M 288.75h / R 149.75h / G 0h (310h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S2,Run %,34.15,percent,Jira,Yes (partial),2025-Q4-S2: 438.5h logged — M 288.75h / R 149.75h / G 0h (310h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S3,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S3: 443.67h logged — M 355.42h / R 88.25h / G 0h (404.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S3,Maintain %,80.11,percent,Jira,Yes (partial),2025-Q4-S3: 443.67h logged — M 355.42h / R 88.25h / G 0h (404.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S3,Run %,19.89,percent,Jira,Yes (partial),2025-Q4-S3: 443.67h logged — M 355.42h / R 88.25h / G 0h (404.92h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S4,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S4: 524.17h logged — M 468.67h / R 55.5h / G 0h (386.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S4,Maintain %,89.41,percent,Jira,Yes (partial),2025-Q4-S4: 524.17h logged — M 468.67h / R 55.5h / G 0h (386.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S4,Run %,10.59,percent,Jira,Yes (partial),2025-Q4-S4: 524.17h logged — M 468.67h / R 55.5h / G 0h (386.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S5,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S5: 387.08h logged — M 346.08h / R 41h / G 0h (346h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S5,Maintain %,89.41,percent,Jira,Yes (partial),2025-Q4-S5: 387.08h logged — M 346.08h / R 41h / G 0h (346h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S5,Run %,10.59,percent,Jira,Yes (partial),2025-Q4-S5: 387.08h logged — M 346.08h / R 41h / G 0h (346h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S6,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S6: 416.5h logged — M 368h / R 48.5h / G 0h (778.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S6,Maintain %,88.36,percent,Jira,Yes (partial),2025-Q4-S6: 416.5h logged — M 368h / R 48.5h / G 0h (778.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-Q4-S6,Run %,11.64,percent,Jira,Yes (partial),2025-Q4-S6: 416.5h logged — M 368h / R 48.5h / G 0h (778.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-YTD,Growth %,0,percent,Jira,Yes (partial),2025-YTD: 11274.5h logged — M 4364.08h / R 6910.42h / G 0h (11198.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-YTD,Maintain %,38.71,percent,Jira,Yes (partial),2025-YTD: 11274.5h logged — M 4364.08h / R 6910.42h / G 0h (11198.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2025-YTD,Run %,61.29,percent,Jira,Yes (partial),2025-YTD: 11274.5h logged — M 4364.08h / R 6910.42h / G 0h (11198.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1,Growth %,0,percent,Jira,Yes (partial),2026-Q1: 2546.42h logged — M 2155.33h / R 391.08h / G 0h (2844.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1,Maintain %,84.64,percent,Jira,Yes (partial),2026-Q1: 2546.42h logged — M 2155.33h / R 391.08h / G 0h (2844.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1,Run %,15.36,percent,Jira,Yes (partial),2026-Q1: 2546.42h logged — M 2155.33h / R 391.08h / G 0h (2844.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S1,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S1: 382.25h logged — M 240.25h / R 142h / G 0h (488.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S1,Maintain %,62.85,percent,Jira,Yes (partial),2026-Q1-S1: 382.25h logged — M 240.25h / R 142h / G 0h (488.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S1,Run %,37.15,percent,Jira,Yes (partial),2026-Q1-S1: 382.25h logged — M 240.25h / R 142h / G 0h (488.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S2,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S2: 442.17h logged — M 333.58h / R 108.58h / G 0h (380.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S2,Maintain %,75.44,percent,Jira,Yes (partial),2026-Q1-S2: 442.17h logged — M 333.58h / R 108.58h / G 0h (380.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S2,Run %,24.56,percent,Jira,Yes (partial),2026-Q1-S2: 442.17h logged — M 333.58h / R 108.58h / G 0h (380.17h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S3,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S3: 408.92h logged — M 315.67h / R 93.25h / G 0h (484.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S3,Maintain %,77.2,percent,Jira,Yes (partial),2026-Q1-S3: 408.92h logged — M 315.67h / R 93.25h / G 0h (484.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S3,Run %,22.8,percent,Jira,Yes (partial),2026-Q1-S3: 408.92h logged — M 315.67h / R 93.25h / G 0h (484.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S4,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S4: 411.67h logged — M 372.92h / R 38.75h / G 0h (462.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S4,Maintain %,90.59,percent,Jira,Yes (partial),2026-Q1-S4: 411.67h logged — M 372.92h / R 38.75h / G 0h (462.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S4,Run %,9.41,percent,Jira,Yes (partial),2026-Q1-S4: 411.67h logged — M 372.92h / R 38.75h / G 0h (462.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S5,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S5: 418.75h logged — M 413.75h / R 5h / G 0h (448.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S5,Maintain %,98.81,percent,Jira,Yes (partial),2026-Q1-S5: 418.75h logged — M 413.75h / R 5h / G 0h (448.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S5,Run %,1.19,percent,Jira,Yes (partial),2026-Q1-S5: 418.75h logged — M 413.75h / R 5h / G 0h (448.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S6,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S6: 333.67h logged — M 333.42h / R 0.25h / G 0h (326.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S6,Maintain %,99.93,percent,Jira,Yes (partial),2026-Q1-S6: 333.67h logged — M 333.42h / R 0.25h / G 0h (326.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q1-S6,Run %,0.07,percent,Jira,Yes (partial),2026-Q1-S6: 333.67h logged — M 333.42h / R 0.25h / G 0h (326.33h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2,Growth %,0.81,percent,Jira,Yes (partial),2026-Q2: 3901.65h logged — M 3490.98h / R 379.17h / G 31.5h (2640.68h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2,Maintain %,89.47,percent,Jira,Yes (partial),2026-Q2: 3901.65h logged — M 3490.98h / R 379.17h / G 31.5h (2640.68h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2,Run %,9.72,percent,Jira,Yes (partial),2026-Q2: 3901.65h logged — M 3490.98h / R 379.17h / G 31.5h (2640.68h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S1,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S1: 604.58h logged — M 557.08h / R 47.5h / G 0h (490.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S1,Maintain %,92.14,percent,Jira,Yes (partial),2026-Q2-S1: 604.58h logged — M 557.08h / R 47.5h / G 0h (490.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S1,Run %,7.86,percent,Jira,Yes (partial),2026-Q2-S1: 604.58h logged — M 557.08h / R 47.5h / G 0h (490.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S2,Growth %,0.98,percent,Jira,Yes (partial),2026-Q2-S2: 536.82h logged — M 498.57h / R 33h / G 5.25h (455.68h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S2,Maintain %,92.87,percent,Jira,Yes (partial),2026-Q2-S2: 536.82h logged — M 498.57h / R 33h / G 5.25h (455.68h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S2,Run %,6.15,percent,Jira,Yes (partial),2026-Q2-S2: 536.82h logged — M 498.57h / R 33h / G 5.25h (455.68h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S3,Growth %,2.16,percent,Jira,Yes (partial),2026-Q2-S3: 670.17h logged — M 616.08h / R 39.58h / G 14.5h (387.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S3,Maintain %,91.93,percent,Jira,Yes (partial),2026-Q2-S3: 670.17h logged — M 616.08h / R 39.58h / G 14.5h (387.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S3,Run %,5.91,percent,Jira,Yes (partial),2026-Q2-S3: 670.17h logged — M 616.08h / R 39.58h / G 14.5h (387.08h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S4,Growth %,1.66,percent,Jira,Yes (partial),2026-Q2-S4: 679.08h logged — M 537.33h / R 130.5h / G 11.25h (379.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S4,Maintain %,79.13,percent,Jira,Yes (partial),2026-Q2-S4: 679.08h logged — M 537.33h / R 130.5h / G 11.25h (379.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S4,Run %,19.22,percent,Jira,Yes (partial),2026-Q2-S4: 679.08h logged — M 537.33h / R 130.5h / G 11.25h (379.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S5,Growth %,0.07,percent,Jira,Yes (partial),2026-Q2-S5: 681.25h logged — M 564.17h / R 116.58h / G 0.5h (356.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S5,Maintain %,82.81,percent,Jira,Yes (partial),2026-Q2-S5: 681.25h logged — M 564.17h / R 116.58h / G 0.5h (356.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S5,Run %,17.11,percent,Jira,Yes (partial),2026-Q2-S5: 681.25h logged — M 564.17h / R 116.58h / G 0.5h (356.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S6,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S6: 555h logged — M 543.25h / R 11.75h / G 0h (295.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S6,Maintain %,97.88,percent,Jira,Yes (partial),2026-Q2-S6: 555h logged — M 543.25h / R 11.75h / G 0h (295.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-Q2-S6,Run %,2.12,percent,Jira,Yes (partial),2026-Q2-S6: 555h logged — M 543.25h / R 11.75h / G 0h (295.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-YTD,Growth %,0.49,percent,Jira,Yes (partial),2026-YTD: 6448.07h logged — M 5646.32h / R 770.25h / G 31.5h (5485.35h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-YTD,Maintain %,87.57,percent,Jira,Yes (partial),2026-YTD: 6448.07h logged — M 5646.32h / R 770.25h / G 31.5h (5485.35h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Connexpoint,2026-YTD,Run %,11.95,percent,Jira,Yes (partial),2026-YTD: 6448.07h logged — M 5646.32h / R 770.25h / G 31.5h (5485.35h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1,Growth %,6.3,percent,Jira,Yes (partial),2025-Q1: 3426.62h logged — M 806.77h / R 2404.1h / G 215.75h (2598.62h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1,Maintain %,23.54,percent,Jira,Yes (partial),2025-Q1: 3426.62h logged — M 806.77h / R 2404.1h / G 215.75h (2598.62h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1,Run %,70.16,percent,Jira,Yes (partial),2025-Q1: 3426.62h logged — M 806.77h / R 2404.1h / G 215.75h (2598.62h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S1,Growth %,2.47,percent,Jira,Yes (partial),2025-Q1-S1: 546.45h logged — M 175.5h / R 357.45h / G 13.5h (422.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S1,Maintain %,32.12,percent,Jira,Yes (partial),2025-Q1-S1: 546.45h logged — M 175.5h / R 357.45h / G 13.5h (422.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S1,Run %,65.41,percent,Jira,Yes (partial),2025-Q1-S1: 546.45h logged — M 175.5h / R 357.45h / G 13.5h (422.58h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S2,Growth %,8.04,percent,Jira,Yes (partial),2025-Q1-S2: 578.15h logged — M 189.87h / R 341.78h / G 46.5h (380.62h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S2,Maintain %,32.84,percent,Jira,Yes (partial),2025-Q1-S2: 578.15h logged — M 189.87h / R 341.78h / G 46.5h (380.62h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S2,Run %,59.12,percent,Jira,Yes (partial),2025-Q1-S2: 578.15h logged — M 189.87h / R 341.78h / G 46.5h (380.62h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S3,Growth %,7.03,percent,Jira,Yes (partial),2025-Q1-S3: 547.68h logged — M 156.65h / R 352.53h / G 38.5h (338.47h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S3,Maintain %,28.6,percent,Jira,Yes (partial),2025-Q1-S3: 547.68h logged — M 156.65h / R 352.53h / G 38.5h (338.47h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S3,Run %,64.37,percent,Jira,Yes (partial),2025-Q1-S3: 547.68h logged — M 156.65h / R 352.53h / G 38.5h (338.47h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S4,Growth %,13.02,percent,Jira,Yes (partial),2025-Q1-S4: 620h logged — M 118.75h / R 420.5h / G 80.75h (342h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S4,Maintain %,19.15,percent,Jira,Yes (partial),2025-Q1-S4: 620h logged — M 118.75h / R 420.5h / G 80.75h (342h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S4,Run %,67.82,percent,Jira,Yes (partial),2025-Q1-S4: 620h logged — M 118.75h / R 420.5h / G 80.75h (342h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S5,Growth %,1.68,percent,Jira,Yes (partial),2025-Q1-S5: 535.83h logged — M 51.75h / R 475.08h / G 9h (415.72h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S5,Maintain %,9.66,percent,Jira,Yes (partial),2025-Q1-S5: 535.83h logged — M 51.75h / R 475.08h / G 9h (415.72h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S5,Run %,88.66,percent,Jira,Yes (partial),2025-Q1-S5: 535.83h logged — M 51.75h / R 475.08h / G 9h (415.72h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S6,Growth %,5.42,percent,Jira,Yes (partial),2025-Q1-S6: 507.25h logged — M 109.75h / R 370h / G 27.5h (420.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S6,Maintain %,21.64,percent,Jira,Yes (partial),2025-Q1-S6: 507.25h logged — M 109.75h / R 370h / G 27.5h (420.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q1-S6,Run %,72.94,percent,Jira,Yes (partial),2025-Q1-S6: 507.25h logged — M 109.75h / R 370h / G 27.5h (420.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2,Growth %,7.06,percent,Jira,Yes (partial),2025-Q2: 3558.5h logged — M 668h / R 2639.25h / G 251.25h (2504.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2,Maintain %,18.77,percent,Jira,Yes (partial),2025-Q2: 3558.5h logged — M 668h / R 2639.25h / G 251.25h (2504.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2,Run %,74.17,percent,Jira,Yes (partial),2025-Q2: 3558.5h logged — M 668h / R 2639.25h / G 251.25h (2504.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S1,Growth %,14.77,percent,Jira,Yes (partial),2025-Q2-S1: 600.75h logged — M 99.75h / R 412.25h / G 88.75h (444.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S1,Maintain %,16.6,percent,Jira,Yes (partial),2025-Q2-S1: 600.75h logged — M 99.75h / R 412.25h / G 88.75h (444.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S1,Run %,68.62,percent,Jira,Yes (partial),2025-Q2-S1: 600.75h logged — M 99.75h / R 412.25h / G 88.75h (444.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S2,Growth %,7.47,percent,Jira,Yes (partial),2025-Q2-S2: 509h logged — M 83.25h / R 387.75h / G 38h (405h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S2,Maintain %,16.36,percent,Jira,Yes (partial),2025-Q2-S2: 509h logged — M 83.25h / R 387.75h / G 38h (405h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S2,Run %,76.18,percent,Jira,Yes (partial),2025-Q2-S2: 509h logged — M 83.25h / R 387.75h / G 38h (405h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S3,Growth %,10.17,percent,Jira,Yes (partial),2025-Q2-S3: 531h logged — M 95.25h / R 381.75h / G 54h (417.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S3,Maintain %,17.94,percent,Jira,Yes (partial),2025-Q2-S3: 531h logged — M 95.25h / R 381.75h / G 54h (417.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S3,Run %,71.89,percent,Jira,Yes (partial),2025-Q2-S3: 531h logged — M 95.25h / R 381.75h / G 54h (417.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S4,Growth %,7.24,percent,Jira,Yes (partial),2025-Q2-S4: 608h logged — M 73.5h / R 490.5h / G 44h (353.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S4,Maintain %,12.09,percent,Jira,Yes (partial),2025-Q2-S4: 608h logged — M 73.5h / R 490.5h / G 44h (353.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S4,Run %,80.67,percent,Jira,Yes (partial),2025-Q2-S4: 608h logged — M 73.5h / R 490.5h / G 44h (353.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S5,Growth %,3.79,percent,Jira,Yes (partial),2025-Q2-S5: 593.5h logged — M 34.75h / R 536.25h / G 22.5h (334.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S5,Maintain %,5.86,percent,Jira,Yes (partial),2025-Q2-S5: 593.5h logged — M 34.75h / R 536.25h / G 22.5h (334.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S5,Run %,90.35,percent,Jira,Yes (partial),2025-Q2-S5: 593.5h logged — M 34.75h / R 536.25h / G 22.5h (334.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S6,Growth %,0.75,percent,Jira,Yes (partial),2025-Q2-S6: 530h logged — M 232.75h / R 293.25h / G 4h (370.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S6,Maintain %,43.92,percent,Jira,Yes (partial),2025-Q2-S6: 530h logged — M 232.75h / R 293.25h / G 4h (370.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q2-S6,Run %,55.33,percent,Jira,Yes (partial),2025-Q2-S6: 530h logged — M 232.75h / R 293.25h / G 4h (370.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3,Growth %,5.89,percent,Jira,Yes (partial),2025-Q3: 3291h logged — M 557.75h / R 2539.25h / G 194h (2387.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3,Maintain %,16.95,percent,Jira,Yes (partial),2025-Q3: 3291h logged — M 557.75h / R 2539.25h / G 194h (2387.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3,Run %,77.16,percent,Jira,Yes (partial),2025-Q3: 3291h logged — M 557.75h / R 2539.25h / G 194h (2387.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S1,Growth %,9.55,percent,Jira,Yes (partial),2025-Q3-S1: 581h logged — M 137h / R 388.5h / G 55.5h (422.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S1,Maintain %,23.58,percent,Jira,Yes (partial),2025-Q3-S1: 581h logged — M 137h / R 388.5h / G 55.5h (422.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S1,Run %,66.87,percent,Jira,Yes (partial),2025-Q3-S1: 581h logged — M 137h / R 388.5h / G 55.5h (422.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S2,Growth %,9.22,percent,Jira,Yes (partial),2025-Q3-S2: 588.5h logged — M 141.75h / R 392.5h / G 54.25h (308h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S2,Maintain %,24.09,percent,Jira,Yes (partial),2025-Q3-S2: 588.5h logged — M 141.75h / R 392.5h / G 54.25h (308h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S2,Run %,66.69,percent,Jira,Yes (partial),2025-Q3-S2: 588.5h logged — M 141.75h / R 392.5h / G 54.25h (308h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S3,Growth %,4.14,percent,Jira,Yes (partial),2025-Q3-S3: 532h logged — M 79h / R 431h / G 22h (331.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S3,Maintain %,14.85,percent,Jira,Yes (partial),2025-Q3-S3: 532h logged — M 79h / R 431h / G 22h (331.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S3,Run %,81.02,percent,Jira,Yes (partial),2025-Q3-S3: 532h logged — M 79h / R 431h / G 22h (331.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S4,Growth %,6.4,percent,Jira,Yes (partial),2025-Q3-S4: 445h logged — M 51.75h / R 364.75h / G 28.5h (421.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S4,Maintain %,11.63,percent,Jira,Yes (partial),2025-Q3-S4: 445h logged — M 51.75h / R 364.75h / G 28.5h (421.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S4,Run %,81.97,percent,Jira,Yes (partial),2025-Q3-S4: 445h logged — M 51.75h / R 364.75h / G 28.5h (421.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S5,Growth %,2.89,percent,Jira,Yes (partial),2025-Q3-S5: 398h logged — M 85h / R 301.5h / G 11.5h (349.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S5,Maintain %,21.36,percent,Jira,Yes (partial),2025-Q3-S5: 398h logged — M 85h / R 301.5h / G 11.5h (349.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S5,Run %,75.75,percent,Jira,Yes (partial),2025-Q3-S5: 398h logged — M 85h / R 301.5h / G 11.5h (349.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S6,Growth %,4.8,percent,Jira,Yes (partial),2025-Q3-S6: 452.75h logged — M 49.75h / R 381.25h / G 21.75h (331.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S6,Maintain %,10.99,percent,Jira,Yes (partial),2025-Q3-S6: 452.75h logged — M 49.75h / R 381.25h / G 21.75h (331.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q3-S6,Run %,84.21,percent,Jira,Yes (partial),2025-Q3-S6: 452.75h logged — M 49.75h / R 381.25h / G 21.75h (331.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4,Growth %,5.76,percent,Jira,Yes (partial),2025-Q4: 3299h logged — M 384.75h / R 2724.25h / G 190h (2842.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4,Maintain %,11.66,percent,Jira,Yes (partial),2025-Q4: 3299h logged — M 384.75h / R 2724.25h / G 190h (2842.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4,Run %,82.58,percent,Jira,Yes (partial),2025-Q4: 3299h logged — M 384.75h / R 2724.25h / G 190h (2842.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S1,Growth %,0,percent,Jira,Yes (partial),2025-Q4-S1: 513h logged — M 25h / R 488h / G 0h (460h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S1,Maintain %,4.87,percent,Jira,Yes (partial),2025-Q4-S1: 513h logged — M 25h / R 488h / G 0h (460h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S1,Run %,95.13,percent,Jira,Yes (partial),2025-Q4-S1: 513h logged — M 25h / R 488h / G 0h (460h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S2,Growth %,10.55,percent,Jira,Yes (partial),2025-Q4-S2: 502.5h logged — M 91.75h / R 357.75h / G 53h (347.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S2,Maintain %,18.26,percent,Jira,Yes (partial),2025-Q4-S2: 502.5h logged — M 91.75h / R 357.75h / G 53h (347.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S2,Run %,71.19,percent,Jira,Yes (partial),2025-Q4-S2: 502.5h logged — M 91.75h / R 357.75h / G 53h (347.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S3,Growth %,12.89,percent,Jira,Yes (partial),2025-Q4-S3: 587.5h logged — M 105.5h / R 406.25h / G 75.75h (370.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S3,Maintain %,17.96,percent,Jira,Yes (partial),2025-Q4-S3: 587.5h logged — M 105.5h / R 406.25h / G 75.75h (370.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S3,Run %,69.15,percent,Jira,Yes (partial),2025-Q4-S3: 587.5h logged — M 105.5h / R 406.25h / G 75.75h (370.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S4,Growth %,6.79,percent,Jira,Yes (partial),2025-Q4-S4: 530.5h logged — M 34.75h / R 459.75h / G 36h (490h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S4,Maintain %,6.55,percent,Jira,Yes (partial),2025-Q4-S4: 530.5h logged — M 34.75h / R 459.75h / G 36h (490h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S4,Run %,86.66,percent,Jira,Yes (partial),2025-Q4-S4: 530.5h logged — M 34.75h / R 459.75h / G 36h (490h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S5,Growth %,1.94,percent,Jira,Yes (partial),2025-Q4-S5: 451.25h logged — M 50.75h / R 391.75h / G 8.75h (340.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S5,Maintain %,11.25,percent,Jira,Yes (partial),2025-Q4-S5: 451.25h logged — M 50.75h / R 391.75h / G 8.75h (340.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S5,Run %,86.81,percent,Jira,Yes (partial),2025-Q4-S5: 451.25h logged — M 50.75h / R 391.75h / G 8.75h (340.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S6,Growth %,2.45,percent,Jira,Yes (partial),2025-Q4-S6: 673.75h logged — M 77h / R 580.25h / G 16.5h (790.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S6,Maintain %,11.43,percent,Jira,Yes (partial),2025-Q4-S6: 673.75h logged — M 77h / R 580.25h / G 16.5h (790.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-Q4-S6,Run %,86.12,percent,Jira,Yes (partial),2025-Q4-S6: 673.75h logged — M 77h / R 580.25h / G 16.5h (790.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-YTD,Growth %,6.27,percent,Jira,Yes (partial),2025-YTD: 13575.12h logged — M 2417.27h / R 10306.85h / G 851h (10333.37h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-YTD,Maintain %,17.81,percent,Jira,Yes (partial),2025-YTD: 13575.12h logged — M 2417.27h / R 10306.85h / G 851h (10333.37h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2025-YTD,Run %,75.92,percent,Jira,Yes (partial),2025-YTD: 13575.12h logged — M 2417.27h / R 10306.85h / G 851h (10333.37h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1,Growth %,3.42,percent,Jira,Yes (partial),2026-Q1: 2620.6h logged — M 554.5h / R 1976.6h / G 89.5h (2349.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1,Maintain %,21.16,percent,Jira,Yes (partial),2026-Q1: 2620.6h logged — M 554.5h / R 1976.6h / G 89.5h (2349.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1,Run %,75.43,percent,Jira,Yes (partial),2026-Q1: 2620.6h logged — M 554.5h / R 1976.6h / G 89.5h (2349.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S1,Growth %,8.03,percent,Jira,Yes (partial),2026-Q1-S1: 604.17h logged — M 237.75h / R 317.92h / G 48.5h (399.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S1,Maintain %,39.35,percent,Jira,Yes (partial),2026-Q1-S1: 604.17h logged — M 237.75h / R 317.92h / G 48.5h (399.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S1,Run %,52.62,percent,Jira,Yes (partial),2026-Q1-S1: 604.17h logged — M 237.75h / R 317.92h / G 48.5h (399.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S2,Growth %,8.02,percent,Jira,Yes (partial),2026-Q1-S2: 511.42h logged — M 88.5h / R 381.92h / G 41h (360.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S2,Maintain %,17.3,percent,Jira,Yes (partial),2026-Q1-S2: 511.42h logged — M 88.5h / R 381.92h / G 41h (360.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S2,Run %,74.68,percent,Jira,Yes (partial),2026-Q1-S2: 511.42h logged — M 88.5h / R 381.92h / G 41h (360.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S3,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S3: 399.67h logged — M 75.5h / R 324.17h / G 0h (333.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S3,Maintain %,18.89,percent,Jira,Yes (partial),2026-Q1-S3: 399.67h logged — M 75.5h / R 324.17h / G 0h (333.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S3,Run %,81.11,percent,Jira,Yes (partial),2026-Q1-S3: 399.67h logged — M 75.5h / R 324.17h / G 0h (333.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S4,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S4: 331.3h logged — M 50.25h / R 281.05h / G 0h (323.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S4,Maintain %,15.17,percent,Jira,Yes (partial),2026-Q1-S4: 331.3h logged — M 50.25h / R 281.05h / G 0h (323.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S4,Run %,84.83,percent,Jira,Yes (partial),2026-Q1-S4: 331.3h logged — M 50.25h / R 281.05h / G 0h (323.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S5,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S5: 316.05h logged — M 48.25h / R 267.8h / G 0h (343.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S5,Maintain %,15.27,percent,Jira,Yes (partial),2026-Q1-S5: 316.05h logged — M 48.25h / R 267.8h / G 0h (343.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S5,Run %,84.73,percent,Jira,Yes (partial),2026-Q1-S5: 316.05h logged — M 48.25h / R 267.8h / G 0h (343.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S6,Growth %,0,percent,Jira,Yes (partial),2026-Q1-S6: 290.5h logged — M 25.5h / R 265h / G 0h (314.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S6,Maintain %,8.78,percent,Jira,Yes (partial),2026-Q1-S6: 290.5h logged — M 25.5h / R 265h / G 0h (314.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q1-S6,Run %,91.22,percent,Jira,Yes (partial),2026-Q1-S6: 290.5h logged — M 25.5h / R 265h / G 0h (314.42h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2,Growth %,0,percent,Jira,Yes (partial),2026-Q2: 3514.92h logged — M 810.17h / R 2704.75h / G 0h (2539h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2,Maintain %,23.05,percent,Jira,Yes (partial),2026-Q2: 3514.92h logged — M 810.17h / R 2704.75h / G 0h (2539h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2,Run %,76.95,percent,Jira,Yes (partial),2026-Q2: 3514.92h logged — M 810.17h / R 2704.75h / G 0h (2539h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S1,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S1: 630.58h logged — M 149h / R 481.58h / G 0h (449.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S1,Maintain %,23.63,percent,Jira,Yes (partial),2026-Q2-S1: 630.58h logged — M 149h / R 481.58h / G 0h (449.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S1,Run %,76.37,percent,Jira,Yes (partial),2026-Q2-S1: 630.58h logged — M 149h / R 481.58h / G 0h (449.67h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S2,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S2: 526.5h logged — M 148.25h / R 378.25h / G 0h (439.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S2,Maintain %,28.16,percent,Jira,Yes (partial),2026-Q2-S2: 526.5h logged — M 148.25h / R 378.25h / G 0h (439.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S2,Run %,71.84,percent,Jira,Yes (partial),2026-Q2-S2: 526.5h logged — M 148.25h / R 378.25h / G 0h (439.5h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S3,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S3: 533h logged — M 130.75h / R 402.25h / G 0h (437.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S3,Maintain %,24.53,percent,Jira,Yes (partial),2026-Q2-S3: 533h logged — M 130.75h / R 402.25h / G 0h (437.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S3,Run %,75.47,percent,Jira,Yes (partial),2026-Q2-S3: 533h logged — M 130.75h / R 402.25h / G 0h (437.75h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S4,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S4: 560.5h logged — M 65.5h / R 495h / G 0h (360h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S4,Maintain %,11.69,percent,Jira,Yes (partial),2026-Q2-S4: 560.5h logged — M 65.5h / R 495h / G 0h (360h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S4,Run %,88.31,percent,Jira,Yes (partial),2026-Q2-S4: 560.5h logged — M 65.5h / R 495h / G 0h (360h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S5,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S5: 623.17h logged — M 223.5h / R 399.67h / G 0h (228.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S5,Maintain %,35.87,percent,Jira,Yes (partial),2026-Q2-S5: 623.17h logged — M 223.5h / R 399.67h / G 0h (228.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S5,Run %,64.13,percent,Jira,Yes (partial),2026-Q2-S5: 623.17h logged — M 223.5h / R 399.67h / G 0h (228.25h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S6,Growth %,0,percent,Jira,Yes (partial),2026-Q2-S6: 459.42h logged — M 63.67h / R 395.75h / G 0h (321.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S6,Maintain %,13.86,percent,Jira,Yes (partial),2026-Q2-S6: 459.42h logged — M 63.67h / R 395.75h / G 0h (321.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-Q2-S6,Run %,86.14,percent,Jira,Yes (partial),2026-Q2-S6: 459.42h logged — M 63.67h / R 395.75h / G 0h (321.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-YTD,Growth %,1.46,percent,Jira,Yes (partial),2026-YTD: 6135.52h logged — M 1364.67h / R 4681.35h / G 89.5h (4888.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-YTD,Maintain %,22.24,percent,Jira,Yes (partial),2026-YTD: 6135.52h logged — M 1364.67h / R 4681.35h / G 89.5h (4888.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z
+Team Webstore,2026-YTD,Run %,76.3,percent,Jira,Yes (partial),2026-YTD: 6135.52h logged — M 1364.67h / R 4681.35h / G 89.5h (4888.83h with an unmapped Work Type excluded).,2026-07-01T21:43:01.925Z

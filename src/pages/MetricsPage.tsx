@@ -1,136 +1,518 @@
-import PeriodSelector from "../components/PeriodSelector";
-import SprintSelector from "../components/SprintSelector";
-import { formatMetricValue, getPeriodOption, type PeriodOption, type SprintInfo, type TeamSummary } from "../lib/metrics";
+import { Fragment, useMemo, useState } from "react";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+  BarChart,
+  Bar,
+} from "recharts";
+import { trendsMetricOrder, metricSections, metricDescriptions, getSprintsForQuarter, severityRootCauseMetricNames, mttrMetricName, type MetricsPayload, type SprintInfo } from "../lib/metrics";
+import { getAvailableQuarters, getAvailableYears, getChartPeriods, getPeriodMapping, teamColors, teamDisplayMap, type ViewMode } from "../lib/trends";
+import MttrTrendChart from "../components/MttrTrendChart";
+import MrgMixChart from "../components/MrgMixChart";
 
 type MetricsPageProps = {
-  teams: TeamSummary[];
+  payload: MetricsPayload | null;
   loading: boolean;
   error: string;
-  periodOptions: PeriodOption[];
-  selectedPeriod: string;
-  onSelectPeriod: (periodKey: string) => void;
-  availableSprints: SprintInfo[];
-  selectedSprint: string;
-  onSelectSprint: (sprintKey: string) => void;
 };
 
-function MetricsPage({
-  teams,
-  loading,
-  error,
-  periodOptions,
-  selectedPeriod,
-  onSelectPeriod,
-  availableSprints,
-  selectedSprint,
-  onSelectSprint,
-}: MetricsPageProps) {
-  const activePeriod = getPeriodOption(periodOptions, selectedPeriod);
-  const hasAnyMetrics = teams.some((team) => team.metrics.length > 0);
-  const visibleTeams = teams.filter((team) => team.metrics.length > 0);
-  const deliveryTeams = visibleTeams.filter((team) => !team.isPortfolio);
-  const headingLabel = activePeriod?.kind === "ytd" ? "Year-to-date summary" : "Delivery briefing";
+// All metrics now have sprint-level data (Jira from sprint computation, AI/Cursor from pull scripts)
+
+type ChartDataPoint = {
+  quarter: string;
+  [teamKey: string]: number | string;
+};
+
+function buildChartData(
+  payload: MetricsPayload,
+  metricName: string,
+  viewMode: ViewMode,
+  selectedYear: number,
+  selectedQuarter?: string,
+  sprintLookup?: Map<string, SprintInfo>,
+): { data: ChartDataPoint[]; teams: string[] } {
+  const { xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
+
+  const allPeriods = getChartPeriods(payload, viewMode, selectedYear, selectedQuarter, sprintLookup);
+
+  const relevantTeams = [
+    ...new Set(
+      payload.metrics
+        .filter((m) => m.metricName === metricName && allPeriods.includes(m.quarter))
+        .map((m) => m.team),
+    ),
+  ].filter((t) => t !== "EDU");
+
+  const data: ChartDataPoint[] = allPeriods.map((period) => {
+    const point: ChartDataPoint = { quarter: xLabel(period) };
+    for (const team of relevantTeams) {
+      const record = payload.metrics.find(
+        (m) => m.team === team && m.quarter === period && m.metricName === metricName,
+      );
+      point[team] = record?.value ?? 0;
+    }
+    return point;
+  });
+
+  return { data, teams: relevantTeams };
+}
+
+function getUnitLabel(metricName: string): string {
+  if (metricName.includes("(weeks)")) return "weeks";
+  if (metricName.includes("(points")) return "pts";
+  if (metricName.includes("%") || metricName.includes("Coverage") || metricName.includes("Rate"))
+    return "%";
+  return "";
+}
+
+function isBarMetric(metricName: string, viewMode: ViewMode): boolean {
+  return metricName === "AI Active Developers" || viewMode === "ytd";
+}
+
+function MetricChart({
+  payload,
+  metricName,
+  viewMode,
+  selectedYear,
+  selectedQuarter,
+  sprintLookup,
+}: {
+  payload: MetricsPayload;
+  metricName: string;
+  viewMode: ViewMode;
+  selectedYear: number;
+  selectedQuarter?: string;
+  sprintLookup?: Map<string, SprintInfo>;
+}) {
+  const { data, teams } = useMemo(
+    () => buildChartData(payload, metricName, viewMode, selectedYear, selectedQuarter, sprintLookup),
+    [payload, metricName, viewMode, selectedYear, selectedQuarter, sprintLookup],
+  );
+
+  const source = useMemo(() => {
+    const record = payload.metrics.find((m) => m.metricName === metricName && m.source);
+    return record?.source ?? "";
+  }, [payload, metricName]);
+
+  if (data.length === 0 || teams.length === 0) return null;
+
+  const unitLabel = getUnitLabel(metricName);
+  const useBar = isBarMetric(metricName, viewMode);
+  const isSprintView = viewMode === "sprint";
+  const xTickFormatter = isSprintView ? (value: string) => String(value).split(" (")[0] : undefined;
+  const xInterval = isSprintView ? 0 : undefined;
 
   return (
-    <main className="content-shell metrics-shell">
-      <section className="panel">
-        <div className="section-heading section-heading-with-selector">
-          <div>
-            <span className="hero-tag">Delivery Detail</span>
-            <h2>{activePeriod ? `${activePeriod.label} ${headingLabel}` : "Delivery briefing"}</h2>
-            <p>Every team snapshot below follows the same selected period as the EDU rollup.</p>
-          </div>
-          <div className="period-toolbar">
-            <PeriodSelector
-              options={periodOptions}
-              selectedPeriod={selectedPeriod}
-              onSelectPeriod={onSelectPeriod}
-            />
-            {activePeriod?.kind === "quarter" && (
-              <SprintSelector
-                sprints={availableSprints}
-                selectedSprint={selectedSprint}
-                onSelectSprint={onSelectSprint}
+    <article className="trend-chart-card">
+      <div className="trend-chart-header">
+        <div className="trend-chart-title-row">
+          <h3>{metricName}</h3>
+          {source && <span className="trend-source-badge">{source}</span>}
+        </div>
+        <p className="trend-chart-description">
+          {metricDescriptions[metricName] ?? ""}
+        </p>
+      </div>
+      <div className="trend-chart-body">
+        <ResponsiveContainer width="100%" height={280}>
+          {useBar ? (
+            <BarChart data={data} margin={{ top: 8, right: 24, left: 8, bottom: 8 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(109,40,217,0.08)" />
+              <XAxis
+                dataKey="quarter"
+                tick={{ fontSize: 12, fill: "#6b5a8d" }}
+                axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+                tickFormatter={xTickFormatter}
+                interval={xInterval}
               />
-            )}
-          </div>
+              <YAxis
+                tick={{ fontSize: 12, fill: "#6b5a8d" }}
+                axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+                label={unitLabel ? { value: unitLabel, angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#6b5a8d" } } : undefined}
+              />
+              <Tooltip
+                contentStyle={{
+                  background: "#ffffff",
+                  border: "1px solid rgba(109,40,217,0.14)",
+                  borderRadius: 12,
+                  fontSize: 13,
+                }}
+              />
+              <Legend
+                wrapperStyle={{ fontSize: 12, paddingTop: 8 }}
+                formatter={(value: string) => teamDisplayMap[value] ?? value}
+              />
+              {teams.map((team) => (
+                <Bar
+                  key={team}
+                  dataKey={team}
+                  name={team}
+                  fill={teamColors[team] ?? "#6d28d9"}
+                  radius={[4, 4, 0, 0]}
+                />
+              ))}
+            </BarChart>
+          ) : (
+            <LineChart data={data} margin={{ top: 8, right: 24, left: 8, bottom: 8 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(109,40,217,0.08)" />
+              <XAxis
+                dataKey="quarter"
+                tick={{ fontSize: 12, fill: "#6b5a8d" }}
+                axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+                tickFormatter={xTickFormatter}
+                interval={xInterval}
+              />
+              <YAxis
+                tick={{ fontSize: 12, fill: "#6b5a8d" }}
+                axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+                label={unitLabel ? { value: unitLabel, angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#6b5a8d" } } : undefined}
+              />
+              <Tooltip
+                contentStyle={{
+                  background: "#ffffff",
+                  border: "1px solid rgba(109,40,217,0.14)",
+                  borderRadius: 12,
+                  fontSize: 13,
+                }}
+              />
+              <Legend
+                wrapperStyle={{ fontSize: 12, paddingTop: 8 }}
+                formatter={(value: string) => teamDisplayMap[value] ?? value}
+              />
+              {teams.map((team) => (
+                <Line
+                  key={team}
+                  type="monotone"
+                  dataKey={team}
+                  name={team}
+                  stroke={teamColors[team] ?? "#6d28d9"}
+                  strokeWidth={2.5}
+                  dot={{ r: 4, strokeWidth: 2 }}
+                  activeDot={{ r: 6 }}
+                />
+              ))}
+            </LineChart>
+          )}
+        </ResponsiveContainer>
+      </div>
+    </article>
+  );
+}
+
+const [SEV1_INTERNAL_METRIC, SEV1_EXTERNAL_METRIC, SEV2_INTERNAL_METRIC, SEV2_EXTERNAL_METRIC] =
+  severityRootCauseMetricNames;
+
+type SeverityLevelPoint = {
+  quarter: string;
+  internal: number;
+  external: number;
+};
+
+function buildSeverityLevelData(
+  payload: MetricsPayload,
+  internalMetric: string,
+  externalMetric: string,
+  viewMode: ViewMode,
+  selectedYear: number,
+  selectedQuarter?: string,
+  sprintLookup?: Map<string, SprintInfo>,
+): SeverityLevelPoint[] {
+  const { xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
+
+  const allPeriods = getChartPeriods(payload, viewMode, selectedYear, selectedQuarter, sprintLookup);
+
+  // EDU is the vertical that groups every delivery team: sum each metric across all teams.
+  const eduValue = (period: string, metricName: string): number =>
+    payload.metrics
+      .filter(
+        (m) => m.team !== "EDU" && m.quarter === period && m.metricName === metricName,
+      )
+      .reduce((sum, m) => sum + (m.value ?? 0), 0);
+
+  return allPeriods.map((period) => ({
+    quarter: xLabel(period),
+    internal: eduValue(period, internalMetric),
+    external: eduValue(period, externalMetric),
+  }));
+}
+
+function SeverityLevelChart({
+  payload,
+  title,
+  internalMetric,
+  externalMetric,
+  internalColor,
+  externalColor,
+  viewMode,
+  selectedYear,
+  selectedQuarter,
+  sprintLookup,
+}: {
+  payload: MetricsPayload;
+  title: string;
+  internalMetric: string;
+  externalMetric: string;
+  internalColor: string;
+  externalColor: string;
+  viewMode: ViewMode;
+  selectedYear: number;
+  selectedQuarter?: string;
+  sprintLookup?: Map<string, SprintInfo>;
+}) {
+  const data = useMemo(
+    () =>
+      buildSeverityLevelData(
+        payload,
+        internalMetric,
+        externalMetric,
+        viewMode,
+        selectedYear,
+        selectedQuarter,
+        sprintLookup,
+      ),
+    [payload, internalMetric, externalMetric, viewMode, selectedYear, selectedQuarter, sprintLookup],
+  );
+
+  if (data.length === 0) return null;
+
+  const isSprintView = viewMode === "sprint";
+  const xTickFormatter = isSprintView ? (value: string) => String(value).split(" (")[0] : undefined;
+  const xInterval = isSprintView ? 0 : undefined;
+
+  return (
+    <article className="trend-chart-card">
+      <div className="trend-chart-header">
+        <div className="trend-chart-title-row">
+          <h3>{title}</h3>
+          <span className="trend-source-badge">Jira</span>
+        </div>
+        <p className="trend-chart-description">
+          EDU overall, split by Root Cause: External = "Third Party", Internal = any other root cause.
+        </p>
+      </div>
+      <div className="trend-chart-body">
+        <ResponsiveContainer width="100%" height={280}>
+          <BarChart data={data} margin={{ top: 8, right: 24, left: 8, bottom: 8 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(109,40,217,0.08)" />
+            <XAxis
+              dataKey="quarter"
+              tick={{ fontSize: 12, fill: "#6b5a8d" }}
+              axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+              tickFormatter={xTickFormatter}
+              interval={xInterval}
+            />
+            <YAxis
+              tick={{ fontSize: 12, fill: "#6b5a8d" }}
+              axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
+              allowDecimals={false}
+              label={{ value: "bugs", angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#6b5a8d" } }}
+            />
+            <Tooltip
+              contentStyle={{
+                background: "#ffffff",
+                border: "1px solid rgba(109,40,217,0.14)",
+                borderRadius: 12,
+                fontSize: 13,
+              }}
+            />
+            <Legend wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
+            <Bar dataKey="internal" name="Internal" fill={internalColor} radius={[3, 3, 0, 0]} />
+            <Bar dataKey="external" name="External" fill={externalColor} radius={[3, 3, 0, 0]} />
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+    </article>
+  );
+}
+
+function MetricsPage({ payload, loading, error }: MetricsPageProps) {
+  const availableYears = useMemo(() => (payload ? getAvailableYears(payload) : []), [payload]);
+  const availableQuarters = useMemo(() => (payload ? getAvailableQuarters(payload) : []), [payload]);
+  const [viewMode, setViewMode] = useState<ViewMode>("sprint");
+  const [selectedYear, setSelectedYear] = useState<number>(() => availableYears[0] ?? new Date().getFullYear());
+  const [selectedQuarter, setSelectedQuarter] = useState<string>(() => availableQuarters[0] ?? "");
+
+  const resolvedYear = availableYears.includes(selectedYear)
+    ? selectedYear
+    : availableYears[0] ?? new Date().getFullYear();
+
+  const resolvedQuarter = availableQuarters.includes(selectedQuarter)
+    ? selectedQuarter
+    : availableQuarters[0] ?? "";
+
+  const sprintLookup = useMemo(() => {
+    if (!payload || viewMode !== "sprint" || !resolvedQuarter) return undefined;
+    const sprints = getSprintsForQuarter(payload, resolvedQuarter);
+    const map = new Map<string, SprintInfo>();
+    for (const s of sprints) map.set(s.key, s);
+    return map;
+  }, [payload, viewMode, resolvedQuarter]);
+
+  const availableMetrics = useMemo(() => {
+    if (!payload) return [];
+    const metricNames = [...new Set(payload.metrics.map((m) => m.metricName))];
+    return trendsMetricOrder.filter((name) => metricNames.includes(name));
+  }, [payload]);
+
+  const hasRootCauseData = useMemo(
+    () =>
+      Boolean(payload) &&
+      payload!.metrics.some((m) =>
+        (severityRootCauseMetricNames as readonly string[]).includes(m.metricName),
+      ),
+    [payload],
+  );
+
+  return (
+    <main className="content-shell trends-shell">
+      <section className="panel">
+        <div className="section-heading">
+          <span className="hero-tag">Metrics</span>
+          <h2>Delivery pulse</h2>
+          <p>Visual evolution of each metric across quarters, by delivery team.</p>
         </div>
 
-        {activePeriod?.isInProgress ? (
-          <div className="state-card period-state-card">
-            Current quarter is still in progress. Values reflect work completed or observed so far.
+        <div className="trends-toolbar">
+          <div className="trends-toolbar-group">
+            <label className="trends-toolbar-label" htmlFor="trend-view-mode">View</label>
+            <select
+              id="trend-view-mode"
+              className="period-dropdown"
+              value={viewMode}
+              onChange={(e) => setViewMode(e.target.value as ViewMode)}
+            >
+              <option value="year">By Year</option>
+              <option value="all-quarters">All Quarters</option>
+              <option value="ytd">Year-to-Date</option>
+              <option value="sprint">By Sprint</option>
+            </select>
           </div>
-        ) : null}
 
-        {loading ? <div className="state-card">Loading metrics from the published JSON feed.</div> : null}
-        {!loading && error ? <div className="state-card state-card-error">{error}</div> : null}
-        {!loading && !error && !hasAnyMetrics ? (
-          <div className="state-card">No team metrics are available yet in the published JSON feed.</div>
-        ) : null}
-
-        {!loading && !error && hasAnyMetrics ? (
-          <div className="quarter-report">
-            <div className="team-section-list">
-              {deliveryTeams.map((team) => (
-                <section key={team.teamKey} className="team-section">
-                  <div className="team-section-header">
-                    <div>
-                      <p className="team-card-tag">Team snapshot</p>
-                      <h3>{team.teamLabel}</h3>
-                    </div>
-                    <div className="team-meta">
-                      <span>
-                        <strong>{team.periodLabel}</strong>
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="team-metrics">
-                    {team.metrics.map((metric, index) => {
-                      const isQuarterFallback = selectedSprint && "_quarterFallback" in metric;
-                      const isNoBugsInPeriod = Boolean(selectedSprint) && "_noBugsInPeriod" in metric;
-                      const kickerLabel = activePeriod?.kind === "ytd"
-                        ? "YTD"
-                        : selectedSprint
-                          ? isQuarterFallback ? "Quarter" : "Sprint"
-                          : "Snapshot";
-                      return (
-                        <article
-                          key={metric.metricName}
-                          className={`team-metric-card metric-tone-${(index % 3) + 1}`}
-                        >
-                          <div className="team-metric-card-header">
-                            <p className="team-metric-kicker">{kickerLabel}</p>
-                            <span className="team-metric-source">Source: {metric.source}</span>
-                          </div>
-
-                          <div className="team-metric-copy">
-                            <p className="team-metric-name">{metric.metricName}</p>
-                            {isQuarterFallback && (
-                              <span className="quarter-fallback-badge">Quarter-level data</span>
-                            )}
-                            {isNoBugsInPeriod && (
-                              <span
-                                className="no-data-badge"
-                                title="No bugs logged in this period"
-                              >
-                                No bugs logged in this period
-                              </span>
-                            )}
-                          </div>
-
-                          <div className="team-metric-value">
-                            <strong>{formatMetricValue(metric)}</strong>
-                            <span>{isQuarterFallback ? (activePeriod?.key ?? team.periodLabel) : team.periodLabel}</span>
-                          </div>
-                        </article>
-                      );
-                    })}
-                  </div>
-                </section>
-              ))}
+          {viewMode === "year" && availableYears.length > 0 && (
+            <div className="trends-toolbar-group">
+              <label className="trends-toolbar-label" htmlFor="trend-year">Year</label>
+              <select
+                id="trend-year"
+                className="period-dropdown"
+                value={resolvedYear}
+                onChange={(e) => setSelectedYear(Number(e.target.value))}
+              >
+                {availableYears.map((year) => (
+                  <option key={year} value={year}>
+                    {year}
+                  </option>
+                ))}
+              </select>
             </div>
-          </div>
+          )}
+
+          {viewMode === "sprint" && availableQuarters.length > 0 && (
+            <div className="trends-toolbar-group">
+              <label className="trends-toolbar-label" htmlFor="trend-quarter">Quarter</label>
+              <select
+                id="trend-quarter"
+                className="period-dropdown"
+                value={resolvedQuarter}
+                onChange={(e) => setSelectedQuarter(e.target.value)}
+              >
+                {availableQuarters.map((q) => (
+                  <option key={q} value={q}>
+                    {q}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
+        </div>
+
+        {loading ? <div className="state-card">Loading metrics data...</div> : null}
+        {!loading && error ? <div className="state-card state-card-error">{error}</div> : null}
+
+        {!loading && !error && payload ? (
+          <>
+            <div className="trends-section">
+              <div className="trends-section-heading">
+                <h3>Work Type</h3>
+                <p>Share of logged hours across Maintain, Run, and Growth work.</p>
+              </div>
+              <div className="trends-grid">
+                <MrgMixChart payload={payload} />
+              </div>
+            </div>
+
+            {metricSections.map((section) => {
+              const sectionMetrics = section.metrics.filter((m) => availableMetrics.includes(m));
+              if (sectionMetrics.length === 0) return null;
+              return (
+                <div key={section.id} className="trends-section">
+                  <div className="trends-section-heading">
+                    <h3>{section.title}</h3>
+                    <p>{section.description}</p>
+                  </div>
+                  <div className="trends-grid">
+                    {sectionMetrics.map((metricName) => (
+                      <Fragment key={metricName}>
+                        {metricName === mttrMetricName ? (
+                          <MttrTrendChart
+                            payload={payload}
+                            viewMode={viewMode}
+                            selectedYear={resolvedYear}
+                            selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                            sprintLookup={sprintLookup}
+                            title="Mean time to resolve (Sev 1 + Sev 2)"
+                            description={metricDescriptions[mttrMetricName] ?? ""}
+                          />
+                        ) : (
+                          <MetricChart
+                            payload={payload}
+                            metricName={metricName}
+                            viewMode={viewMode}
+                            selectedYear={resolvedYear}
+                            selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                            sprintLookup={sprintLookup}
+                          />
+                        )}
+                        {metricName === "Defect Leakage %" && hasRootCauseData && (
+                          <>
+                            <SeverityLevelChart
+                              payload={payload}
+                              title="Sev 1 Bugs (Internal & External)"
+                              internalMetric={SEV1_INTERNAL_METRIC}
+                              externalMetric={SEV1_EXTERNAL_METRIC}
+                              internalColor="#dc2626"
+                              externalColor="#2563eb"
+                              viewMode={viewMode}
+                              selectedYear={resolvedYear}
+                              selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                              sprintLookup={sprintLookup}
+                            />
+                            <SeverityLevelChart
+                              payload={payload}
+                              title="Sev 2 Bugs (Internal & External)"
+                              internalMetric={SEV2_INTERNAL_METRIC}
+                              externalMetric={SEV2_EXTERNAL_METRIC}
+                              internalColor="#f59e0b"
+                              externalColor="#059669"
+                              viewMode={viewMode}
+                              selectedYear={resolvedYear}
+                              selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+                              sprintLookup={sprintLookup}
+                            />
+                          </>
+                        )}
+                      </Fragment>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </>
         ) : null}
       </section>
     </main>
