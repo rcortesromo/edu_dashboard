@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-06-26T14:21:28.554Z",
+  "runAt": "2026-07-03T13:59:36.526Z",
   "trigger": "schedule",
   "dataChanged": true,
   "sources": [
@@ -24,14 +24,19 @@
       "note": ""
     },
     {
+      "name": "work-type-mix",
+      "status": "completed",
+      "note": ""
+    },
+    {
       "name": "ai",
       "status": "completed",
-      "note": "Processed 64 repos, 1 quarter(s), 386 total row(s) (277 retained)."
+      "note": "Processed 64 repos, 2 quarter(s), 395 total row(s) (277 retained)."
     },
     {
       "name": "cursor",
       "status": "completed",
-      "note": "Processed 1 quarter(s), 1204 total row(s) (986 retained)."
+      "note": "Processed 2 quarter(s), 1222 total row(s) (986 retained)."
     }
   ]
 }
