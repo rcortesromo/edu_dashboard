@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-06-26T17:18:57.459Z",
-  "current": "2026-06-03_2026-07-03",
+  "generatedAt": "2026-07-03T16:21:44.260Z",
+  "current": "2026-07-03_2026-08-03",
   "cycles": [
+    {
+      "folder": "2026-07-03_2026-08-03",
+      "label": "2026-07-03 to 2026-08-03",
+      "start": "2026-07-03",
+      "end": "2026-08-03",
+      "current": true,
+      "productsUrl": "/data/feathery-cycles/2026-07-03_2026-08-03/products.json",
+      "checkoutsUrl": "/data/feathery-cycles/2026-07-03_2026-08-03/checkouts.json",
+      "generatedAt": "2026-07-03T15:50:20.642Z"
+    },
     {
       "folder": "2026-06-03_2026-07-03",
       "label": "2026-06-03 to 2026-07-03",
       "start": "2026-06-03",
       "end": "2026-07-03",
-      "current": true,
+      "current": false,
       "productsUrl": "/data/feathery-cycles/2026-06-03_2026-07-03/products.json",
       "checkoutsUrl": "/data/feathery-cycles/2026-06-03_2026-07-03/checkouts.json",
       "generatedAt": "2026-06-26T16:09:53.720Z"
@@ -16,11 +26,11 @@
       "folder": "all-time",
       "label": "All-time",
       "start": "2026-06-03",
-      "end": "2026-07-03",
+      "end": "2026-08-03",
       "current": false,
       "productsUrl": "/data/feathery-cycles/all-time/products.json",
       "checkoutsUrl": "/data/feathery-cycles/all-time/checkouts.json",
-      "generatedAt": "2026-06-26T17:18:57.459Z"
+      "generatedAt": "2026-07-03T16:21:44.260Z"
     }
   ]
 }
