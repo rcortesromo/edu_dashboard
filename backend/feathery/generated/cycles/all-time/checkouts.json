@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T16:21:44.260Z",
+  "generatedAt": "2026-07-10T17:32:36.946Z",
   "source": "Feathery",
   "definition": "checkout = submission with a populated RevTrak OrderId hidden field",
   "period": {
@@ -7,85 +7,435 @@
     "label": "All-time"
   },
   "currentCycle": {
-    "checkouts": 9584,
-    "amount": 1282318.55
+    "checkouts": 72025,
+    "amount": 5806008.1
   },
   "accumulated": {
-    "checkouts": 9584,
-    "amount": 1282318.55,
+    "checkouts": 72025,
+    "amount": 5806008.1,
     "closedCycles": 2
   },
   "coverage": {
-    "workspacesWithRevtrak": 512,
-    "workspacesProcessed": 512,
-    "workspacesScanned": 43,
-    "skippedNoSubmissions": 469,
-    "skippedNoChange": 0,
+    "workspacesWithRevtrak": 515,
+    "workspacesProcessed": 515,
+    "workspacesScanned": 123,
+    "skippedNoSubmissions": 390,
+    "skippedNoChange": 2,
     "activeFormsOnly": true
   },
   "perWorkspace": [
     {
+      "id": "399803fc-2398-4717-afd4-f23364be34d5",
+      "name": "columbia",
+      "checkouts": 7186,
+      "amount": 556637.5,
+      "cycleSubmissions": 29
+    },
+    {
+      "id": "f9d8d2dc-14cd-4b21-8dfe-f961a4152d4e",
+      "name": "ccboe",
+      "checkouts": 6861,
+      "amount": 312178.63,
+      "cycleSubmissions": 245
+    },
+    {
+      "id": "639893a6-85f4-4fbf-a1d5-b81e1912b4e9",
+      "name": "okemosk12",
+      "checkouts": 4003,
+      "amount": 92319.66,
+      "cycleSubmissions": 120
+    },
+    {
       "id": "cc416a8b-71e3-4ea5-9452-5d54023e8572",
       "name": "keysschools",
-      "checkouts": 1544,
-      "amount": 108897.29,
-      "cycleSubmissions": 5
+      "checkouts": 3103,
+      "amount": 221274.58,
+      "cycleSubmissions": 20
+    },
+    {
+      "id": "77b5940e-cce9-48ae-890b-744605a5e42b",
+      "name": "whitehouseisd",
+      "checkouts": 2700,
+      "amount": 193970.25,
+      "cycleSubmissions": 51
+    },
+    {
+      "id": "49ebc1dd-3b58-4c80-85db-ee1d1024eeaa",
+      "name": "manateeschools",
+      "checkouts": 2675,
+      "amount": 155221.92,
+      "cycleSubmissions": 233
+    },
+    {
+      "id": "46f58a43-625b-43b8-a7de-2d9cefd86856",
+      "name": "westcentral",
+      "checkouts": 2278,
+      "amount": 151862.25,
+      "cycleSubmissions": 267
+    },
+    {
+      "id": "bc737d46-5f8d-4f73-9638-176a9ce240f8",
+      "name": "pcsb",
+      "checkouts": 2225,
+      "amount": 115011.31,
+      "cycleSubmissions": 122
+    },
+    {
+      "id": "fa4d68ac-f1b5-4c96-9c77-2826d33b4221",
+      "name": "sjschools",
+      "checkouts": 2206,
+      "amount": 117066.85,
+      "cycleSubmissions": 176
+    },
+    {
+      "id": "9c359e24-e662-4515-8388-5d47181df974",
+      "name": "drippingspringsisd",
+      "checkouts": 1970,
+      "amount": 103378.71,
+      "cycleSubmissions": 182
+    },
+    {
+      "id": "de0436c0-aee2-4ed7-91d2-400b3f4da2f3",
+      "name": "lewisville",
+      "checkouts": 1958,
+      "amount": 128802.28,
+      "cycleSubmissions": 83
+    },
+    {
+      "id": "e0fd1fdd-6535-4a4e-b256-50c8b6eddc52",
+      "name": "kalamazoo",
+      "checkouts": 1587,
+      "amount": 89092.19,
+      "cycleSubmissions": 62
+    },
+    {
+      "id": "1637a51d-411c-4410-b11b-33d42a8e9b27",
+      "name": "trinitychristian",
+      "checkouts": 1554,
+      "amount": 82738.3,
+      "cycleSubmissions": 133
+    },
+    {
+      "id": "9e166952-6b56-4146-9a37-2f710e6aeb30",
+      "name": "huttoisd",
+      "checkouts": 1524,
+      "amount": 114052.15,
+      "cycleSubmissions": 19
+    },
+    {
+      "id": "4f9c6e31-110a-4bb1-92fc-02339be8251b",
+      "name": "bluesprings",
+      "checkouts": 1406,
+      "amount": 121886.25,
+      "cycleSubmissions": 48
+    },
+    {
+      "id": "ff5b70dc-79b9-4167-9d64-a39e829d0f8e",
+      "name": "maywoodschools",
+      "checkouts": 1230,
+      "amount": 43169,
+      "cycleSubmissions": 86
+    },
+    {
+      "id": "3f5a5208-6084-4e0a-b84b-a869c13dc2c5",
+      "name": "southlyon",
+      "checkouts": 1142,
+      "amount": 34968.13,
+      "cycleSubmissions": 45
+    },
+    {
+      "id": "f909246d-b8cc-42d6-a3ba-d08f583b8f83",
+      "name": "hopkinsmn",
+      "checkouts": 1135,
+      "amount": 464207,
+      "cycleSubmissions": 76
+    },
+    {
+      "id": "0fe187b6-674d-4d0a-b709-8c9a6059f5f8",
+      "name": "desotoisd",
+      "checkouts": 1051,
+      "amount": 50518,
+      "cycleSubmissions": 140
+    },
+    {
+      "id": "1e71b4b1-d1b7-43bb-897b-16a19cfda301",
+      "name": "lubbockisd",
+      "checkouts": 874,
+      "amount": 44685.87,
+      "cycleSubmissions": 99
     },
     {
       "id": "50b614f3-d4e1-4585-a346-880e64c2ac5d",
       "name": "southlakecarroll",
-      "checkouts": 740,
-      "amount": 289386.25,
-      "cycleSubmissions": 1281
+      "checkouts": 832,
+      "amount": 319846.25,
+      "cycleSubmissions": 1405
+    },
+    {
+      "id": "37c6faed-8a91-40a4-bab1-e48b46942cde",
+      "name": "crandall-isd",
+      "checkouts": 802,
+      "amount": 117322.84,
+      "cycleSubmissions": 69
+    },
+    {
+      "id": "f5a01ec2-f5d6-4e25-8808-8e7b2b1995d7",
+      "name": "nburlington",
+      "checkouts": 773,
+      "amount": 56738,
+      "cycleSubmissions": 92
+    },
+    {
+      "id": "2f3477d5-c68e-4521-be6b-1634e4728ef3",
+      "name": "manaraacademy",
+      "checkouts": 764,
+      "amount": 18044.3,
+      "cycleSubmissions": 15
     },
     {
       "id": "6d631963-089d-4502-b219-64773171fdf6",
       "name": "pearlandisd",
-      "checkouts": 563,
-      "amount": 11076.07,
-      "cycleSubmissions": 1211
+      "checkouts": 742,
+      "amount": 15687.2,
+      "cycleSubmissions": 1472
+    },
+    {
+      "id": "8e4cdca4-f712-48ac-9959-45e6c1406c8f",
+      "name": "nbisd",
+      "checkouts": 730,
+      "amount": 41789.68,
+      "cycleSubmissions": 80
+    },
+    {
+      "id": "75c2a83a-b920-4b55-ac12-ee7723927ed6",
+      "name": "centennialsd",
+      "checkouts": 695,
+      "amount": 2585,
+      "cycleSubmissions": 56
+    },
+    {
+      "id": "ab4d83a4-9af0-43bd-8122-6fe47d3c228b",
+      "name": "glastonbury",
+      "checkouts": 674,
+      "amount": 61368,
+      "cycleSubmissions": 33
+    },
+    {
+      "id": "1883b181-de02-454f-9f39-7741a4951121",
+      "name": "monroe-woodbury",
+      "checkouts": 613,
+      "amount": 70109.2,
+      "cycleSubmissions": 333
+    },
+    {
+      "id": "7758e9f3-bdcd-4ed5-a83d-db03e6a9ea9a",
+      "name": "hfisd",
+      "checkouts": 597,
+      "amount": 47464,
+      "cycleSubmissions": 141
+    },
+    {
+      "id": "74b38232-9ff4-4fb7-846b-f46918ed1301",
+      "name": "fox",
+      "checkouts": 574,
+      "amount": 41263,
+      "cycleSubmissions": 28
+    },
+    {
+      "id": "00e28767-f365-4cc1-89c1-b912d8bfa93c",
+      "name": "southeastern",
+      "checkouts": 560,
+      "amount": 23967,
+      "cycleSubmissions": 121
+    },
+    {
+      "id": "b33b31a6-6750-4c08-8397-c8b8210fd72b",
+      "name": "nla",
+      "checkouts": 554,
+      "amount": 59758.55,
+      "cycleSubmissions": 8
+    },
+    {
+      "id": "6fd3ca7c-6a1b-4dc5-b300-6aff91f10edf",
+      "name": "uppermorelandsd",
+      "checkouts": 549,
+      "amount": 97558,
+      "cycleSubmissions": 79
+    },
+    {
+      "id": "3502713a-a7c3-446b-b2bd-4d8ef25465b2",
+      "name": "staffordmsd",
+      "checkouts": 478,
+      "amount": 37810.91,
+      "cycleSubmissions": 77
+    },
+    {
+      "id": "66db807a-6a88-45c5-8f31-ceb78556c9b1",
+      "name": "paulding",
+      "checkouts": 475,
+      "amount": 53117.5,
+      "cycleSubmissions": 660
     },
     {
       "id": "d7220ac4-cba5-41c8-a032-56b11951410c",
       "name": "canyons",
-      "checkouts": 334,
-      "amount": 45325,
-      "cycleSubmissions": 688
+      "checkouts": 472,
+      "amount": 60435,
+      "cycleSubmissions": 886
+    },
+    {
+      "id": "e6f9aa69-dc7b-4f40-ac04-2fa78db22336",
+      "name": "lindaleisd",
+      "checkouts": 434,
+      "amount": 11174.82,
+      "cycleSubmissions": 13
+    },
+    {
+      "id": "d500b823-ef98-47c9-8d8a-f077b8826771",
+      "name": "soudertoncommed",
+      "checkouts": 424,
+      "amount": 4430,
+      "cycleSubmissions": 46
+    },
+    {
+      "id": "6d6c2e43-b704-41c5-88a5-2137294a4ecf",
+      "name": "dewittschools",
+      "checkouts": 415,
+      "amount": 8579,
+      "cycleSubmissions": 13
+    },
+    {
+      "id": "efe2895a-5796-4b08-9b04-019335c723bb",
+      "name": "thevanguardschool",
+      "checkouts": 415,
+      "amount": 58099,
+      "cycleSubmissions": 8
+    },
+    {
+      "id": "f38a4af1-071d-4165-a123-ba27c9beb2b6",
+      "name": "rosefield",
+      "checkouts": 413,
+      "amount": 37169,
+      "cycleSubmissions": 4
     },
     {
       "id": "78c4520a-383f-41aa-b5f4-ec4e22ac1e17",
       "name": "lindberghschools",
-      "checkouts": 294,
-      "amount": 15588.1,
-      "cycleSubmissions": 383
+      "checkouts": 412,
+      "amount": 22480.21,
+      "cycleSubmissions": 543
+    },
+    {
+      "id": "1b8537a5-dcb9-413a-9bf4-eaedb78d88f6",
+      "name": "saline",
+      "checkouts": 407,
+      "amount": 96755,
+      "cycleSubmissions": 27
+    },
+    {
+      "id": "fc6d04ee-1918-48fb-b10c-f56628027991",
+      "name": "stmaryeg",
+      "checkouts": 386,
+      "amount": 36543.11,
+      "cycleSubmissions": 49
+    },
+    {
+      "id": "e1d1130c-4e24-44ee-ba0d-87f2c179a6f9",
+      "name": "saginawisd",
+      "checkouts": 374,
+      "amount": 4430,
+      "cycleSubmissions": 53
+    },
+    {
+      "id": "9eaab008-ea93-4cb7-a168-55066e606472",
+      "name": "dearbornschools",
+      "checkouts": 371,
+      "amount": 78419.55,
+      "cycleSubmissions": 100
     },
     {
       "id": "00ad69fd-1925-4662-a30e-21240a3d336c",
       "name": "stvrain",
-      "checkouts": 287,
-      "amount": 32282.23,
-      "cycleSubmissions": 530
+      "checkouts": 361,
+      "amount": 40812.23,
+      "cycleSubmissions": 630
     },
     {
       "id": "bd65c848-06e6-4026-9fe9-20b6e376dcd9",
       "name": "midlothian-isd",
-      "checkouts": 278,
-      "amount": 23205.99,
-      "cycleSubmissions": 502
+      "checkouts": 342,
+      "amount": 29010.99,
+      "cycleSubmissions": 596
     },
     {
       "id": "9e5d6b43-a0c6-46ac-ab07-e6f2c98551f5",
       "name": "simsburyboe",
-      "checkouts": 273,
-      "amount": 42202,
-      "cycleSubmissions": 380
+      "checkouts": 325,
+      "amount": 49397,
+      "cycleSubmissions": 438
+    },
+    {
+      "id": "f213765d-6d8f-4689-abc7-be91839fab3c",
+      "name": "howard-suamicoschools",
+      "checkouts": 322,
+      "amount": 30453,
+      "cycleSubmissions": 120
+    },
+    {
+      "id": "bcf8176d-0617-4e96-a7cd-e6b803faa746",
+      "name": "canutillo-isd",
+      "checkouts": 301,
+      "amount": 22349.76,
+      "cycleSubmissions": 15
+    },
+    {
+      "id": "165fb697-5d59-46a1-b4cd-8b595e260a75",
+      "name": "jeffcityschools",
+      "checkouts": 293,
+      "amount": 60630.04,
+      "cycleSubmissions": 414
+    },
+    {
+      "id": "0a0de0a9-015b-4fef-a9ca-361b5c472264",
+      "name": "shelllakewi",
+      "checkouts": 289,
+      "amount": 8575,
+      "cycleSubmissions": 88
     },
     {
       "id": "6a5b6ac7-6308-44c8-a482-b3010b0febbf",
       "name": "cusd301",
-      "checkouts": 240,
-      "amount": 24535,
-      "cycleSubmissions": 697
+      "checkouts": 282,
+      "amount": 28135,
+      "cycleSubmissions": 763
+    },
+    {
+      "id": "8639c8f0-e4af-4d64-a162-3f953a04ad62",
+      "name": "marionschools",
+      "checkouts": 273,
+      "amount": 36906.72,
+      "cycleSubmissions": 131
+    },
+    {
+      "id": "de3159fd-f218-4c88-bd46-7d5872e73b53",
+      "name": "umeprep",
+      "checkouts": 273,
+      "amount": 12380.07,
+      "cycleSubmissions": 15
+    },
+    {
+      "id": "62eebe3d-1f19-4df8-9cef-0b31d1ed8190",
+      "name": "solon",
+      "checkouts": 248,
+      "amount": 33440,
+      "cycleSubmissions": 21
+    },
+    {
+      "id": "310728ae-d10d-4aec-8ef5-87b5b894a6e8",
+      "name": "franklin",
+      "checkouts": 235,
+      "amount": 22715,
+      "cycleSubmissions": 2
     },
     {
       "id": "0a3fb8d5-44d2-4609-ad73-15047ce2de42",
@@ -95,25 +445,39 @@
       "cycleSubmissions": 598
     },
     {
-      "id": "165fb697-5d59-46a1-b4cd-8b595e260a75",
-      "name": "jeffcityschools",
-      "checkouts": 233,
-      "amount": 42690.59,
-      "cycleSubmissions": 334
+      "id": "bc532923-0e27-4a27-a0c3-50625f4e50cb",
+      "name": "sanangeloisd",
+      "checkouts": 214,
+      "amount": 9147.94,
+      "cycleSubmissions": 2
     },
     {
-      "id": "f38a4af1-071d-4165-a123-ba27c9beb2b6",
-      "name": "rosefield",
-      "checkouts": 227,
-      "amount": 21254,
-      "cycleSubmissions": 3
+      "id": "26197880-a711-4c2a-8bcc-9b17ff1dd546",
+      "name": "wrightstown",
+      "checkouts": 213,
+      "amount": 11475,
+      "cycleSubmissions": 47
     },
     {
-      "id": "1883b181-de02-454f-9f39-7741a4951121",
-      "name": "monroe-woodbury",
-      "checkouts": 202,
-      "amount": 28182.4,
-      "cycleSubmissions": 323
+      "id": "f88f1a63-d7ab-4dd0-b074-49f498fec492",
+      "name": "northvilleschools",
+      "checkouts": 192,
+      "amount": 76608.69,
+      "cycleSubmissions": 321
+    },
+    {
+      "id": "8167a129-caf6-4647-ad96-c0ba0df7f379",
+      "name": "waterforduhs",
+      "checkouts": 191,
+      "amount": 14920,
+      "cycleSubmissions": 110
+    },
+    {
+      "id": "392098be-27cc-417f-ab89-e8d99518cec1",
+      "name": "needvilleisd",
+      "checkouts": 170,
+      "amount": 23625,
+      "cycleSubmissions": 82
     },
     {
       "id": "78788d9b-e280-446c-898d-7e559261ef75",
@@ -123,11 +487,11 @@
       "cycleSubmissions": 1
     },
     {
-      "id": "f88f1a63-d7ab-4dd0-b074-49f498fec492",
-      "name": "northvilleschools",
-      "checkouts": 151,
-      "amount": 66903.69,
-      "cycleSubmissions": 266
+      "id": "309b301c-f972-41de-8e21-9a2f27c47f13",
+      "name": "waynecounty",
+      "checkouts": 141,
+      "amount": 3999,
+      "cycleSubmissions": 128
     },
     {
       "id": "528fb21a-9032-4d2e-bc1f-6f2cfe3ba3fc",
@@ -137,32 +501,39 @@
       "cycleSubmissions": 176
     },
     {
-      "id": "f9d8d2dc-14cd-4b21-8dfe-f961a4152d4e",
-      "name": "ccboe",
-      "checkouts": 134,
-      "amount": 10049.9,
-      "cycleSubmissions": 183
+      "id": "cf3b5652-c770-4f66-93fa-418fb1ff034e",
+      "name": "boerneisd",
+      "checkouts": 136,
+      "amount": 5771,
+      "cycleSubmissions": 300
     },
     {
       "id": "4823dcb6-7557-4835-bb7a-14a5822c667c",
       "name": "nbpsd",
-      "checkouts": 128,
-      "amount": 45900,
-      "cycleSubmissions": 204
+      "checkouts": 134,
+      "amount": 48300,
+      "cycleSubmissions": 217
     },
     {
       "id": "405530ee-b6db-49d4-8b16-222e2c3f6a7f",
       "name": "birdvilleisd",
-      "checkouts": 124,
-      "amount": 19172.44,
-      "cycleSubmissions": 197
+      "checkouts": 125,
+      "amount": 19372.44,
+      "cycleSubmissions": 198
     },
     {
-      "id": "46f58a43-625b-43b8-a7de-2d9cefd86856",
-      "name": "westcentral",
-      "checkouts": 119,
-      "amount": 10961.3,
-      "cycleSubmissions": 181
+      "id": "6d33b98f-cbef-4c00-8a45-ec7f5b2c40fe",
+      "name": "smithvilleisd",
+      "checkouts": 118,
+      "amount": 6875,
+      "cycleSubmissions": 172
+    },
+    {
+      "id": "d521c6fd-82fa-47c5-bc3d-d68c61a22fc1",
+      "name": "dallasisd",
+      "checkouts": 117,
+      "amount": 1777.24,
+      "cycleSubmissions": 32
     },
     {
       "id": "daaef6e0-1424-47d3-8d9a-4b7142b29163",
@@ -172,18 +543,25 @@
       "cycleSubmissions": 184
     },
     {
-      "id": "1637a51d-411c-4410-b11b-33d42a8e9b27",
-      "name": "trinitychristian",
-      "checkouts": 99,
-      "amount": 2184.75,
-      "cycleSubmissions": 119
+      "id": "53bfe640-8294-4918-85cf-95cdf88f50f0",
+      "name": "franklinssd",
+      "checkouts": 107,
+      "amount": 142927.5,
+      "cycleSubmissions": 17
     },
     {
-      "id": "cf3b5652-c770-4f66-93fa-418fb1ff034e",
-      "name": "boerneisd",
-      "checkouts": 91,
-      "amount": 3195,
-      "cycleSubmissions": 215
+      "id": "a46008b2-bc17-488f-9e8e-b30df63e0619",
+      "name": "taylorisd",
+      "checkouts": 99,
+      "amount": 860,
+      "cycleSubmissions": 26
+    },
+    {
+      "id": "da9858b3-a021-425d-84af-9f7d55435562",
+      "name": "sab",
+      "checkouts": 94,
+      "amount": 23500,
+      "cycleSubmissions": 33
     },
     {
       "id": "06e3d2aa-904a-4020-8f0c-cc4e25fc607d",
@@ -193,151 +571,144 @@
       "cycleSubmissions": 242
     },
     {
-      "id": "f5a01ec2-f5d6-4e25-8808-8e7b2b1995d7",
-      "name": "nburlington",
-      "checkouts": 76,
-      "amount": 4155,
-      "cycleSubmissions": 88
-    },
-    {
-      "id": "9c359e24-e662-4515-8388-5d47181df974",
-      "name": "drippingspringsisd",
-      "checkouts": 75,
-      "amount": 3275.33,
-      "cycleSubmissions": 147
-    },
-    {
-      "id": "7758e9f3-bdcd-4ed5-a83d-db03e6a9ea9a",
-      "name": "hfisd",
-      "checkouts": 73,
-      "amount": 5665,
-      "cycleSubmissions": 123
-    },
-    {
-      "id": "00e28767-f365-4cc1-89c1-b912d8bfa93c",
-      "name": "southeastern",
-      "checkouts": 70,
-      "amount": 4452,
-      "cycleSubmissions": 112
-    },
-    {
-      "id": "fa4d68ac-f1b5-4c96-9c77-2826d33b4221",
-      "name": "sjschools",
-      "checkouts": 68,
-      "amount": 6778,
-      "cycleSubmissions": 118
-    },
-    {
-      "id": "0fe187b6-674d-4d0a-b709-8c9a6059f5f8",
-      "name": "desotoisd",
-      "checkouts": 68,
-      "amount": 1801,
-      "cycleSubmissions": 115
-    },
-    {
-      "id": "6d33b98f-cbef-4c00-8a45-ec7f5b2c40fe",
-      "name": "smithvilleisd",
-      "checkouts": 68,
-      "amount": 3925,
-      "cycleSubmissions": 94
-    },
-    {
-      "id": "bc737d46-5f8d-4f73-9638-176a9ce240f8",
-      "name": "pcsb",
-      "checkouts": 64,
-      "amount": 4397,
-      "cycleSubmissions": 108
-    },
-    {
-      "id": "f213765d-6d8f-4689-abc7-be91839fab3c",
-      "name": "howard-suamicoschools",
-      "checkouts": 63,
-      "amount": 5608,
-      "cycleSubmissions": 111
+      "id": "9333f0dc-953a-42e9-aa45-d0a3c8ac46a1",
+      "name": "myschool",
+      "checkouts": 82,
+      "amount": 6765.49,
+      "cycleSubmissions": 32
     },
     {
       "id": "adb3a758-559c-4366-8b4a-9086db1b8c3d",
       "name": "hernando",
-      "checkouts": 60,
-      "amount": 1613,
-      "cycleSubmissions": 100
+      "checkouts": 81,
+      "amount": 2000,
+      "cycleSubmissions": 133
     },
     {
-      "id": "8639c8f0-e4af-4d64-a162-3f953a04ad62",
-      "name": "marionschools",
-      "checkouts": 59,
-      "amount": 14651.23,
-      "cycleSubmissions": 130
-    },
-    {
-      "id": "1cdee79e-3d4c-4803-be9d-bc004223e3f5",
-      "name": "coalcity",
-      "checkouts": 59,
-      "amount": 2645,
-      "cycleSubmissions": 117
-    },
-    {
-      "id": "49ebc1dd-3b58-4c80-85db-ee1d1024eeaa",
-      "name": "manateeschools",
-      "checkouts": 58,
-      "amount": 4203.63,
-      "cycleSubmissions": 153
+      "id": "ad2938a6-34ff-40a1-aaac-ff4d4226e09c",
+      "name": "troupisd",
+      "checkouts": 80,
+      "amount": 16469.7,
+      "cycleSubmissions": 7
     },
     {
       "id": "cee68ae8-0d67-4832-ae71-166fa6745e83",
       "name": "racine",
-      "checkouts": 56,
-      "amount": 18860.99,
-      "cycleSubmissions": 72
+      "checkouts": 78,
+      "amount": 21169.63,
+      "cycleSubmissions": 111
     },
     {
-      "id": "6fd3ca7c-6a1b-4dc5-b300-6aff91f10edf",
-      "name": "uppermorelandsd",
-      "checkouts": 53,
-      "amount": 9158,
-      "cycleSubmissions": 71
+      "id": "1cdee79e-3d4c-4803-be9d-bc004223e3f5",
+      "name": "coalcity",
+      "checkouts": 77,
+      "amount": 3580,
+      "cycleSubmissions": 186
     },
     {
-      "id": "8167a129-caf6-4647-ad96-c0ba0df7f379",
-      "name": "waterforduhs",
-      "checkouts": 52,
-      "amount": 3695,
-      "cycleSubmissions": 105
+      "id": "6b1e8241-2949-4612-92b1-872b58c587a4",
+      "name": "eanes",
+      "checkouts": 76,
+      "amount": 9226,
+      "cycleSubmissions": 14
+    },
+    {
+      "id": "419431d0-9d78-47d0-a3f5-78dde6500d09",
+      "name": "raypeck12",
+      "checkouts": 68,
+      "amount": 19283.8,
+      "cycleSubmissions": 5
+    },
+    {
+      "id": "31d17ffa-74a4-43d9-9d20-965fa6f57172",
+      "name": "casscity",
+      "checkouts": 67,
+      "amount": 6700,
+      "cycleSubmissions": 16
     },
     {
       "id": "39675bad-e3f1-4c37-bdb3-21fef2965ada",
       "name": "rqs",
-      "checkouts": 51,
-      "amount": 255,
-      "cycleSubmissions": 93
+      "checkouts": 63,
+      "amount": 315,
+      "cycleSubmissions": 117
+    },
+    {
+      "id": "730a61fd-dd8f-4d2a-bca8-5b2ebdecbc14",
+      "name": "coatesvillearea",
+      "checkouts": 61,
+      "amount": 2491,
+      "cycleSubmissions": 9
+    },
+    {
+      "id": "ee2a3a35-6569-400d-a2a3-477c1744427b",
+      "name": "elmbrookschools",
+      "checkouts": 60,
+      "amount": 12425,
+      "cycleSubmissions": 44
+    },
+    {
+      "id": "14382178-b4a1-4e49-acd5-4223fb32a999",
+      "name": "beckman",
+      "checkouts": 57,
+      "amount": 280,
+      "cycleSubmissions": 3
     },
     {
       "id": "39bea23f-2c90-485a-aea7-2af0ef591618",
       "name": "channelviewisd",
-      "checkouts": 50,
-      "amount": 3898.5,
-      "cycleSubmissions": 147
-    },
-    {
-      "id": "309b301c-f972-41de-8e21-9a2f27c47f13",
-      "name": "waynecounty",
-      "checkouts": 49,
-      "amount": 1247,
-      "cycleSubmissions": 1
-    },
-    {
-      "id": "9eaab008-ea93-4cb7-a168-55066e606472",
-      "name": "dearbornschools",
-      "checkouts": 46,
-      "amount": 11882.16,
-      "cycleSubmissions": 97
+      "checkouts": 56,
+      "amount": 6564.21,
+      "cycleSubmissions": 158
     },
     {
       "id": "4ab8cb74-1f6b-4ef4-97eb-2a6072173182",
       "name": "northmontco",
-      "checkouts": 44,
-      "amount": 61735,
-      "cycleSubmissions": 145
+      "checkouts": 56,
+      "amount": 71680,
+      "cycleSubmissions": 194
+    },
+    {
+      "id": "e3830588-91e2-4e79-8de5-be5fe8951439",
+      "name": "georgetownisd",
+      "checkouts": 54,
+      "amount": 6570,
+      "cycleSubmissions": 87
+    },
+    {
+      "id": "9cae6477-dee6-4e1a-a516-859fa47ea5d4",
+      "name": "orland135",
+      "checkouts": 52,
+      "amount": 3055,
+      "cycleSubmissions": 82
+    },
+    {
+      "id": "1d83813c-bbb8-460b-b3a0-0794690f5a68",
+      "name": "gatesvilleisd",
+      "checkouts": 51,
+      "amount": 2040,
+      "cycleSubmissions": 101
+    },
+    {
+      "id": "74338909-44b6-4bba-ab1b-176705758ee5",
+      "name": "terrellisd",
+      "checkouts": 50,
+      "amount": 2321.5,
+      "cycleSubmissions": 84
+    },
+    {
+      "id": "b79fb2e9-c0cc-4a13-b4f6-69a2dedcc704",
+      "name": "euclidschools",
+      "checkouts": 47,
+      "amount": 157,
+      "cycleSubmissions": 101
+    },
+    {
+      "id": "27e72374-6486-4a70-91c3-81e953a24133",
+      "name": "thefranklinacademy",
+      "checkouts": 46,
+      "amount": 9465,
+      "cycleSubmissions": 1
     },
     {
       "id": "e2894cb6-4116-4d9f-9292-cd2eeae46245",
@@ -347,20 +718,6 @@
       "cycleSubmissions": 1
     },
     {
-      "id": "9cae6477-dee6-4e1a-a516-859fa47ea5d4",
-      "name": "orland135",
-      "checkouts": 43,
-      "amount": 2525,
-      "cycleSubmissions": 68
-    },
-    {
-      "id": "e3830588-91e2-4e79-8de5-be5fe8951439",
-      "name": "georgetownisd",
-      "checkouts": 43,
-      "amount": 5550,
-      "cycleSubmissions": 65
-    },
-    {
       "id": "d0e6ab25-a37b-4e07-b2b0-81056b2aafea",
       "name": "brighton27j",
       "checkouts": 41,
@@ -368,158 +725,74 @@
       "cycleSubmissions": 1
     },
     {
-      "id": "de0436c0-aee2-4ed7-91d2-400b3f4da2f3",
-      "name": "lewisville",
-      "checkouts": 38,
-      "amount": 5337,
-      "cycleSubmissions": 76
-    },
-    {
-      "id": "b79fb2e9-c0cc-4a13-b4f6-69a2dedcc704",
-      "name": "euclidschools",
-      "checkouts": 38,
-      "amount": 111,
-      "cycleSubmissions": 77
-    },
-    {
-      "id": "f909246d-b8cc-42d6-a3ba-d08f583b8f83",
-      "name": "hopkinsmn",
-      "checkouts": 37,
-      "amount": 28091.76,
-      "cycleSubmissions": 53
-    },
-    {
-      "id": "77b5940e-cce9-48ae-890b-744605a5e42b",
-      "name": "whitehouseisd",
-      "checkouts": 36,
-      "amount": 4521.89,
-      "cycleSubmissions": 47
-    },
-    {
-      "id": "3502713a-a7c3-446b-b2bd-4d8ef25465b2",
-      "name": "staffordmsd",
-      "checkouts": 36,
-      "amount": 5285.18,
-      "cycleSubmissions": 71
-    },
-    {
-      "id": "74338909-44b6-4bba-ab1b-176705758ee5",
-      "name": "terrellisd",
-      "checkouts": 35,
-      "amount": 1678.5,
-      "cycleSubmissions": 58
-    },
-    {
-      "id": "1e71b4b1-d1b7-43bb-897b-16a19cfda301",
-      "name": "lubbockisd",
-      "checkouts": 34,
-      "amount": 3016.19,
-      "cycleSubmissions": 76
-    },
-    {
-      "id": "0a0de0a9-015b-4fef-a9ca-361b5c472264",
-      "name": "shelllakewi",
-      "checkouts": 34,
-      "amount": 1490,
-      "cycleSubmissions": 87
-    },
-    {
-      "id": "ff5b70dc-79b9-4167-9d64-a39e829d0f8e",
-      "name": "maywoodschools",
-      "checkouts": 34,
-      "amount": 1977,
-      "cycleSubmissions": 82
-    },
-    {
-      "id": "fc6d04ee-1918-48fb-b10c-f56628027991",
-      "name": "stmaryeg",
-      "checkouts": 34,
-      "amount": 2775.01,
-      "cycleSubmissions": 48
-    },
-    {
-      "id": "8e4cdca4-f712-48ac-9959-45e6c1406c8f",
-      "name": "nbisd",
-      "checkouts": 33,
-      "amount": 6855.5,
-      "cycleSubmissions": 79
-    },
-    {
       "id": "a576a6a1-9935-4f69-9ae7-b9b6f888957f",
       "name": "paywallerisd",
-      "checkouts": 33,
-      "amount": 543.44,
-      "cycleSubmissions": 91
-    },
-    {
-      "id": "37c6faed-8a91-40a4-bab1-e48b46942cde",
-      "name": "crandall-isd",
-      "checkouts": 32,
-      "amount": 7515.92,
-      "cycleSubmissions": 49
-    },
-    {
-      "id": "3f5a5208-6084-4e0a-b84b-a869c13dc2c5",
-      "name": "southlyon",
-      "checkouts": 29,
-      "amount": 680.23,
-      "cycleSubmissions": 42
+      "checkouts": 39,
+      "amount": 640.88,
+      "cycleSubmissions": 111
     },
     {
       "id": "213aa8da-9bb2-4649-a151-5f7dd22a81e1",
       "name": "pacehs",
-      "checkouts": 29,
-      "amount": 1445,
-      "cycleSubmissions": 39
+      "checkouts": 37,
+      "amount": 1665,
+      "cycleSubmissions": 52
     },
     {
-      "id": "16335efd-d59a-4803-882e-4e160beb7826",
-      "name": "cheltenham",
-      "checkouts": 29,
-      "amount": 58,
-      "cycleSubmissions": 35
-    },
-    {
-      "id": "14382178-b4a1-4e49-acd5-4223fb32a999",
-      "name": "beckman",
-      "checkouts": 28,
-      "amount": 140,
-      "cycleSubmissions": 2
-    },
-    {
-      "id": "e1d1130c-4e24-44ee-ba0d-87f2c179a6f9",
-      "name": "saginawisd",
-      "checkouts": 26,
-      "amount": 330,
-      "cycleSubmissions": 43
+      "id": "22bad2ef-59bb-4ca3-beb4-253f55fe2c80",
+      "name": "tag",
+      "checkouts": 37,
+      "amount": 1890,
+      "cycleSubmissions": 13
     },
     {
       "id": "c6feafee-1113-4859-bceb-a11a95a91848",
       "name": "wisp",
-      "checkouts": 26,
-      "amount": 3895,
-      "cycleSubmissions": 29
+      "checkouts": 36,
+      "amount": 5220,
+      "cycleSubmissions": 41
     },
     {
       "id": "95d2581d-0f57-407b-9fb0-cd8f0362c8d2",
       "name": "nhsd",
-      "checkouts": 25,
-      "amount": 3529,
-      "cycleSubmissions": 50
+      "checkouts": 35,
+      "amount": 4288,
+      "cycleSubmissions": 63
     },
     {
-      "id": "e0fd1fdd-6535-4a4e-b256-50c8b6eddc52",
-      "name": "kalamazoo",
-      "checkouts": 24,
-      "amount": 1139,
-      "cycleSubmissions": 57
+      "id": "491b4155-ce63-46a3-a21a-f8b497893cda",
+      "name": "menomoneefalls",
+      "checkouts": 35,
+      "amount": 818,
+      "cycleSubmissions": 51
     },
     {
-      "id": "26197880-a711-4c2a-8bcc-9b17ff1dd546",
-      "name": "wrightstown",
-      "checkouts": 24,
-      "amount": 1265,
-      "cycleSubmissions": 40
+      "id": "6d6229cf-5312-440b-8aba-32973bd41eeb",
+      "name": "bsd7",
+      "checkouts": 34,
+      "amount": 4455,
+      "cycleSubmissions": 44
+    },
+    {
+      "id": "16335efd-d59a-4803-882e-4e160beb7826",
+      "name": "cheltenham",
+      "checkouts": 31,
+      "amount": 62,
+      "cycleSubmissions": 37
+    },
+    {
+      "id": "af7c728b-6dcd-4d3c-88f7-e3e4c5b3ca49",
+      "name": "milton",
+      "checkouts": 26,
+      "amount": 1275,
+      "cycleSubmissions": 20
+    },
+    {
+      "id": "7b247049-a17a-439e-9a88-5d6b0e0554d4",
+      "name": "princetonisd",
+      "checkouts": 26,
+      "amount": 2340,
+      "cycleSubmissions": 4
     },
     {
       "id": "1f3570f2-4ad5-4c16-b8e3-93b65c910b65",
@@ -529,13 +802,6 @@
       "cycleSubmissions": 4
     },
     {
-      "id": "d500b823-ef98-47c9-8d8a-f077b8826771",
-      "name": "soudertoncommed",
-      "checkouts": 23,
-      "amount": 230,
-      "cycleSubmissions": 33
-    },
-    {
       "id": "ccd49079-7931-4096-945b-cd4759f6ebdc",
       "name": "eastchambersisd",
       "checkouts": 23,
@@ -543,25 +809,25 @@
       "cycleSubmissions": 64
     },
     {
-      "id": "75c2a83a-b920-4b55-ac12-ee7723927ed6",
-      "name": "centennialsd",
+      "id": "707bc128-00a3-4d4f-b1ba-58af429b8f2d",
+      "name": "roundlakecharter",
       "checkouts": 23,
-      "amount": 95,
-      "cycleSubmissions": 39
-    },
-    {
-      "id": "491b4155-ce63-46a3-a21a-f8b497893cda",
-      "name": "menomoneefalls",
-      "checkouts": 22,
-      "amount": 309,
-      "cycleSubmissions": 34
+      "amount": 2653.51,
+      "cycleSubmissions": 32
     },
     {
       "id": "2c662f37-4112-4e8d-b05f-331572982059",
       "name": "fairfieldisd",
       "checkouts": 22,
       "amount": 1340,
-      "cycleSubmissions": 76
+      "cycleSubmissions": 81
+    },
+    {
+      "id": "23095cd9-355b-474a-9ce2-dea612da4ace",
+      "name": "indianola",
+      "checkouts": 22,
+      "amount": 2080,
+      "cycleSubmissions": 16
     },
     {
       "id": "7f65171d-eb79-476b-92f4-eee5bf837400",
@@ -571,74 +837,25 @@
       "cycleSubmissions": 31
     },
     {
-      "id": "707bc128-00a3-4d4f-b1ba-58af429b8f2d",
-      "name": "roundlakecharter",
+      "id": "c9f4dba7-e291-4cbb-b810-e078bd2f8b43",
+      "name": "urbandaleschools",
       "checkouts": 21,
-      "amount": 2403.51,
-      "cycleSubmissions": 29
+      "amount": 2865,
+      "cycleSubmissions": 3
     },
     {
-      "id": "4f9c6e31-110a-4bb1-92fc-02339be8251b",
-      "name": "bluesprings",
-      "checkouts": 20,
-      "amount": 2916,
-      "cycleSubmissions": 31
-    },
-    {
-      "id": "1b8537a5-dcb9-413a-9bf4-eaedb78d88f6",
-      "name": "saline",
-      "checkouts": 20,
-      "amount": 3965,
-      "cycleSubmissions": 25
-    },
-    {
-      "id": "ab4d83a4-9af0-43bd-8122-6fe47d3c228b",
-      "name": "glastonbury",
-      "checkouts": 20,
-      "amount": 2005,
-      "cycleSubmissions": 31
-    },
-    {
-      "id": "399803fc-2398-4717-afd4-f23364be34d5",
-      "name": "columbia",
-      "checkouts": 19,
-      "amount": 1950,
-      "cycleSubmissions": 27
-    },
-    {
-      "id": "da9858b3-a021-425d-84af-9f7d55435562",
-      "name": "sab",
-      "checkouts": 19,
-      "amount": 4750,
-      "cycleSubmissions": 28
-    },
-    {
-      "id": "1d83813c-bbb8-460b-b3a0-0794690f5a68",
-      "name": "gatesvilleisd",
-      "checkouts": 18,
-      "amount": 720,
-      "cycleSubmissions": 93
+      "id": "86c6dc45-ace5-4d73-9c92-b7173925f0e1",
+      "name": "avongrove",
+      "checkouts": 21,
+      "amount": 10046,
+      "cycleSubmissions": 2
     },
     {
       "id": "afa940e1-0827-4262-abf9-78f329646964",
       "name": "wlcsd",
       "checkouts": 18,
       "amount": 1100,
-      "cycleSubmissions": 31
-    },
-    {
-      "id": "d521c6fd-82fa-47c5-bc3d-d68c61a22fc1",
-      "name": "dallasisd",
-      "checkouts": 18,
-      "amount": 170.27,
-      "cycleSubmissions": 23
-    },
-    {
-      "id": "66db807a-6a88-45c5-8f31-ceb78556c9b1",
-      "name": "paulding",
-      "checkouts": 17,
-      "amount": 6102.5,
-      "cycleSubmissions": 100
+      "cycleSubmissions": 34
     },
     {
       "id": "15f7dd33-4786-4ebd-b02f-f86a5716579d",
@@ -657,51 +874,30 @@
     {
       "id": "cb0cef8c-ecae-45e3-8c38-1df9d2e60ddf",
       "name": "wabash348",
-      "checkouts": 15,
-      "amount": 590,
-      "cycleSubmissions": 26
+      "checkouts": 17,
+      "amount": 690,
+      "cycleSubmissions": 28
     },
     {
       "id": "f0c6fd9e-8d30-407b-b31f-0ccced51abd0",
       "name": "bvsd",
-      "checkouts": 14,
-      "amount": 1222,
-      "cycleSubmissions": 24
+      "checkouts": 17,
+      "amount": 1449,
+      "cycleSubmissions": 28
     },
     {
-      "id": "a46008b2-bc17-488f-9e8e-b30df63e0619",
-      "name": "taylorisd",
-      "checkouts": 14,
-      "amount": 130,
-      "cycleSubmissions": 20
-    },
-    {
-      "id": "ee2a3a35-6569-400d-a2a3-477c1744427b",
-      "name": "elmbrookschools",
+      "id": "950449f9-60a9-4d96-b977-af8474b1fc9e",
+      "name": "kimsdemo",
       "checkouts": 12,
-      "amount": 3155,
-      "cycleSubmissions": 18
+      "amount": 197,
+      "cycleSubmissions": 9
     },
     {
-      "id": "392098be-27cc-417f-ab89-e8d99518cec1",
-      "name": "needvilleisd",
-      "checkouts": 11,
-      "amount": 1650,
-      "cycleSubmissions": 24
-    },
-    {
-      "id": "af7c728b-6dcd-4d3c-88f7-e3e4c5b3ca49",
-      "name": "milton",
-      "checkouts": 11,
-      "amount": 650,
-      "cycleSubmissions": 13
-    },
-    {
-      "id": "6d6229cf-5312-440b-8aba-32973bd41eeb",
-      "name": "bsd7",
+      "id": "4e989af1-fafd-4788-b6ed-dbd9b32b8515",
+      "name": "ytech",
       "checkouts": 10,
-      "amount": 1335,
-      "cycleSubmissions": 15
+      "amount": 200,
+      "cycleSubmissions": 6
     },
     {
       "id": "a81f695e-117f-415f-b842-1c0c167a304d",
@@ -711,11 +907,25 @@
       "cycleSubmissions": 11
     },
     {
+      "id": "f7e45a88-28b3-4b13-ab24-d9dcb9eb1efd",
+      "name": "platoacademy",
+      "checkouts": 9,
+      "amount": 2285,
+      "cycleSubmissions": 28
+    },
+    {
+      "id": "26030dcd-cc9a-4feb-8625-8abee79b4652",
+      "name": "Gotham",
+      "checkouts": 9,
+      "amount": 309,
+      "cycleSubmissions": 2
+    },
+    {
       "id": "e188a546-540f-4ef9-9cab-69ed84be5a95",
       "name": "conceptmichigan",
       "checkouts": 9,
       "amount": 126,
-      "cycleSubmissions": 9
+      "cycleSubmissions": 31
     },
     {
       "id": "8e162cd1-89ea-4cfd-9ba6-eaa3c0c676eb",
@@ -725,32 +935,11 @@
       "cycleSubmissions": 38
     },
     {
-      "id": "9e166952-6b56-4146-9a37-2f710e6aeb30",
-      "name": "huttoisd",
-      "checkouts": 8,
-      "amount": 1061,
-      "cycleSubmissions": 18
-    },
-    {
       "id": "596ddf4e-4e2e-4727-9abe-6aaccc706593",
       "name": "gracesystem",
       "checkouts": 8,
       "amount": 945,
       "cycleSubmissions": 14
-    },
-    {
-      "id": "639893a6-85f4-4fbf-a1d5-b81e1912b4e9",
-      "name": "okemosk12",
-      "checkouts": 7,
-      "amount": 105.46,
-      "cycleSubmissions": 118
-    },
-    {
-      "id": "74b38232-9ff4-4fb7-846b-f46918ed1301",
-      "name": "fox",
-      "checkouts": 7,
-      "amount": 390,
-      "cycleSubmissions": 24
     },
     {
       "id": "d8ff34f9-87d3-4dbd-9fea-d5a0f8a4fe91",
@@ -760,32 +949,11 @@
       "cycleSubmissions": 8
     },
     {
-      "id": "31d17ffa-74a4-43d9-9d20-965fa6f57172",
-      "name": "casscity",
-      "checkouts": 7,
-      "amount": 700,
-      "cycleSubmissions": 11
-    },
-    {
-      "id": "53bfe640-8294-4918-85cf-95cdf88f50f0",
-      "name": "franklinssd",
-      "checkouts": 7,
-      "amount": 11000,
-      "cycleSubmissions": 14
-    },
-    {
       "id": "6e2729c1-f156-4633-9c66-a68d32a50ce5",
       "name": "rochesterk12",
       "checkouts": 6,
       "amount": 630,
       "cycleSubmissions": 26
-    },
-    {
-      "id": "6b1e8241-2949-4612-92b1-872b58c587a4",
-      "name": "eanes",
-      "checkouts": 6,
-      "amount": 2350,
-      "cycleSubmissions": 13
     },
     {
       "id": "ac0ed77d-a2cd-44ae-8d8f-198c8032d16a",
@@ -795,20 +963,6 @@
       "cycleSubmissions": 13
     },
     {
-      "id": "bcf8176d-0617-4e96-a7cd-e6b803faa746",
-      "name": "canutillo-isd",
-      "checkouts": 6,
-      "amount": 447.07,
-      "cycleSubmissions": 7
-    },
-    {
-      "id": "f7e45a88-28b3-4b13-ab24-d9dcb9eb1efd",
-      "name": "platoacademy",
-      "checkouts": 6,
-      "amount": 2135,
-      "cycleSubmissions": 25
-    },
-    {
       "id": "dd15aa1b-7c5c-4fda-8213-41140f6b8e39",
       "name": "anderson1",
       "checkouts": 5,
@@ -816,46 +970,11 @@
       "cycleSubmissions": 11
     },
     {
-      "id": "6d6c2e43-b704-41c5-88a5-2137294a4ecf",
-      "name": "dewittschools",
-      "checkouts": 5,
-      "amount": 25,
-      "cycleSubmissions": 6
-    },
-    {
       "id": "f9d3bfa0-2aa8-4d4e-9c70-545ea3d9c99c",
       "name": "waukee",
       "checkouts": 4,
       "amount": 2250,
       "cycleSubmissions": 7
-    },
-    {
-      "id": "9333f0dc-953a-42e9-aa45-d0a3c8ac46a1",
-      "name": "myschool",
-      "checkouts": 4,
-      "amount": 350,
-      "cycleSubmissions": 28
-    },
-    {
-      "id": "730a61fd-dd8f-4d2a-bca8-5b2ebdecbc14",
-      "name": "coatesvillearea",
-      "checkouts": 4,
-      "amount": 365,
-      "cycleSubmissions": 8
-    },
-    {
-      "id": "de3159fd-f218-4c88-bd46-7d5872e73b53",
-      "name": "umeprep",
-      "checkouts": 4,
-      "amount": 605.97,
-      "cycleSubmissions": 7
-    },
-    {
-      "id": "950449f9-60a9-4d96-b977-af8474b1fc9e",
-      "name": "kimsdemo",
-      "checkouts": 4,
-      "amount": 61,
-      "cycleSubmissions": 6
     },
     {
       "id": "0474b24a-3dfb-4a20-b465-1d5c75cff387",
@@ -874,29 +993,15 @@
     {
       "id": "217875fe-32ef-4d11-a405-74d187b94ddb",
       "name": "rosevillecs",
-      "checkouts": 3,
-      "amount": 375,
-      "cycleSubmissions": 4
+      "checkouts": 4,
+      "amount": 575,
+      "cycleSubmissions": 6
     },
     {
       "id": "158e0f52-2f20-4370-b195-1f45e7b4767a",
       "name": "lovejoy",
       "checkouts": 3,
       "amount": 1050,
-      "cycleSubmissions": 3
-    },
-    {
-      "id": "419431d0-9d78-47d0-a3f5-78dde6500d09",
-      "name": "raypeck12",
-      "checkouts": 3,
-      "amount": 1932.5,
-      "cycleSubmissions": 4
-    },
-    {
-      "id": "ad2938a6-34ff-40a1-aaac-ff4d4226e09c",
-      "name": "troupisd",
-      "checkouts": 3,
-      "amount": 919,
       "cycleSubmissions": 3
     },
     {
@@ -907,31 +1012,17 @@
       "cycleSubmissions": 5
     },
     {
+      "id": "5728d7cc-86e3-411a-85d6-7faf9b6d9d58",
+      "name": "arrowhead",
+      "checkouts": 3,
+      "amount": 195,
+      "cycleSubmissions": 5
+    },
+    {
       "id": "29de1366-c68b-468f-bcfe-0e02cf7aec57",
       "name": "pflugervilleisd",
       "checkouts": 2,
       "amount": 620,
-      "cycleSubmissions": 4
-    },
-    {
-      "id": "e6f9aa69-dc7b-4f40-ac04-2fa78db22336",
-      "name": "lindaleisd",
-      "checkouts": 2,
-      "amount": 250,
-      "cycleSubmissions": 3
-    },
-    {
-      "id": "2f3477d5-c68e-4521-be6b-1634e4728ef3",
-      "name": "manaraacademy",
-      "checkouts": 2,
-      "amount": 24,
-      "cycleSubmissions": 8
-    },
-    {
-      "id": "efe2895a-5796-4b08-9b04-019335c723bb",
-      "name": "thevanguardschool",
-      "checkouts": 2,
-      "amount": 250,
       "cycleSubmissions": 4
     },
     {
@@ -947,20 +1038,6 @@
       "checkouts": 2,
       "amount": 100,
       "cycleSubmissions": 3
-    },
-    {
-      "id": "b33b31a6-6750-4c08-8397-c8b8210fd72b",
-      "name": "nla",
-      "checkouts": 2,
-      "amount": 58,
-      "cycleSubmissions": 5
-    },
-    {
-      "id": "c9f4dba7-e291-4cbb-b810-e078bd2f8b43",
-      "name": "urbandaleschools",
-      "checkouts": 2,
-      "amount": 465,
-      "cycleSubmissions": 2
     },
     {
       "id": "ae24a74d-077a-465a-b0ea-a601d484681a",
@@ -998,6 +1075,20 @@
       "cycleSubmissions": 3
     },
     {
+      "id": "384ce57e-6868-41f5-9e31-e1426d6ecca4",
+      "name": "oprfhs",
+      "checkouts": 2,
+      "amount": 50,
+      "cycleSubmissions": 17
+    },
+    {
+      "id": "0b0ef11e-9d12-4dc6-834e-5e8c7406e547",
+      "name": "revtrakliveest",
+      "checkouts": 2,
+      "amount": 6,
+      "cycleSubmissions": 4
+    },
+    {
       "id": "59e9db3b-6ee8-4a3a-bc64-6a5afa0609e6",
       "name": "mascottecharter",
       "checkouts": 1,
@@ -1033,39 +1124,11 @@
       "cycleSubmissions": 1
     },
     {
-      "id": "7b247049-a17a-439e-9a88-5d6b0e0554d4",
-      "name": "princetonisd",
-      "checkouts": 1,
-      "amount": 22,
-      "cycleSubmissions": 3
-    },
-    {
-      "id": "310728ae-d10d-4aec-8ef5-87b5b894a6e8",
-      "name": "franklin",
-      "checkouts": 1,
-      "amount": 85,
-      "cycleSubmissions": 1
-    },
-    {
-      "id": "4e989af1-fafd-4788-b6ed-dbd9b32b8515",
-      "name": "ytech",
-      "checkouts": 1,
-      "amount": 20,
-      "cycleSubmissions": 1
-    },
-    {
-      "id": "22bad2ef-59bb-4ca3-beb4-253f55fe2c80",
-      "name": "tag",
-      "checkouts": 1,
-      "amount": 80,
-      "cycleSubmissions": 6
-    },
-    {
       "id": "c0881a7a-2b8e-4f1d-8993-5b47516dfa8f",
       "name": "carrolltonhs",
       "checkouts": 1,
       "amount": 200,
-      "cycleSubmissions": 8
+      "cycleSubmissions": 15
     },
     {
       "id": "2d31ab31-e1cb-48d3-bac2-0f5ca169783d",
@@ -1087,6 +1150,13 @@
       "checkouts": 1,
       "amount": 900,
       "cycleSubmissions": 7
+    },
+    {
+      "id": "85d8c58b-52ed-4564-91f7-dd059e5753bb",
+      "name": "tonkatrack",
+      "checkouts": 1,
+      "amount": 0,
+      "cycleSubmissions": 90
     },
     {
       "id": "7a022298-a64f-416d-8e82-cc0b4e84bfb1",
@@ -1115,13 +1185,6 @@
       "checkouts": 0,
       "amount": 0,
       "cycleSubmissions": 2
-    },
-    {
-      "id": "bc532923-0e27-4a27-a0c3-50625f4e50cb",
-      "name": "sanangeloisd",
-      "checkouts": 0,
-      "amount": 0,
-      "cycleSubmissions": 1
     },
     {
       "id": "49f87a58-adea-4bed-a09f-e50b2bfa403f",
@@ -1194,25 +1257,11 @@
       "cycleSubmissions": 1
     },
     {
-      "id": "86c6dc45-ace5-4d73-9c92-b7173925f0e1",
-      "name": "avongrove",
-      "checkouts": 0,
-      "amount": 0,
-      "cycleSubmissions": 1
-    },
-    {
       "id": "8c69f043-96cd-436c-b130-0d3892a34be9",
       "name": "michigancollegiate",
       "checkouts": 0,
       "amount": 0,
       "cycleSubmissions": 1
-    },
-    {
-      "id": "384ce57e-6868-41f5-9e31-e1426d6ecca4",
-      "name": "oprfhs",
-      "checkouts": 0,
-      "amount": 0,
-      "cycleSubmissions": 6
     },
     {
       "id": "f2c662a7-cafa-479c-af3a-f36cb9801afe",
@@ -1241,6 +1290,13 @@
       "checkouts": 0,
       "amount": 0,
       "cycleSubmissions": 2
+    },
+    {
+      "id": "ef80623a-3f58-4980-a12d-6621fc8034ce",
+      "name": "bastrop",
+      "checkouts": 0,
+      "amount": 0,
+      "cycleSubmissions": 4
     }
   ]
 }
