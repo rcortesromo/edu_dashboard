@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-07-03T13:59:36.526Z",
+  "runAt": "2026-07-10T14:19:49.734Z",
   "trigger": "schedule",
   "dataChanged": true,
   "sources": [
@@ -31,12 +31,12 @@
     {
       "name": "ai",
       "status": "completed",
-      "note": "Processed 64 repos, 2 quarter(s), 395 total row(s) (277 retained)."
+      "note": "Processed 64 repos, 2 quarter(s), 411 total row(s) (277 retained)."
     },
     {
       "name": "cursor",
       "status": "completed",
-      "note": "Processed 2 quarter(s), 1222 total row(s) (986 retained)."
+      "note": "Processed 2 quarter(s), 1254 total row(s) (986 retained)."
     }
   ]
 }
