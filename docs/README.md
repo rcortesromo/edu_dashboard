@@ -10,6 +10,8 @@ Executive delivery dashboard for SDLC metrics, sprint health, and AI adoption tr
 | **GitHub** | AI-assisted PR Coverage, AI Active Developers | [ai/README.md](ai/README.md) |
 | **Cursor** | Cursor Adoption Rate | [cursor/README.md](cursor/README.md) |
 
+See [metrics-formulas.md](metrics-formulas.md) for the exact formula and EDU rollup rule behind every metric in one place.
+
 ## Teams
 
 | Team Key | Display Label | Org |
