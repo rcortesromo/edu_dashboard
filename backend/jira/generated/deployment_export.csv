@@ -1,0 +1,231 @@
+team_name,quarter_label,metric_name,metric_value,metric_unit,source_system,coverage_status,note,last_refresh_utc
+ASAP,2025-Q1,No. of Deployments,10,count,Jira,Yes,10 Done RMM deployment ticket(s) with a valid title date in 2025-Q1.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q1-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S1.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q1-S2,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S2.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q1-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S3.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q1-S4,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S4.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q1-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S5.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q1-S6,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S6.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q2,No. of Deployments,10,count,Jira,Yes,10 Done RMM deployment ticket(s) with a valid title date in 2025-Q2.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q2-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S1.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q2-S2,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S2.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q2-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S3.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q2-S4,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S4.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q2-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S5.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q2-S6,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S6.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q3,No. of Deployments,8,count,Jira,Yes,8 Done RMM deployment ticket(s) with a valid title date in 2025-Q3.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q3-S1,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S1.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q3-S2,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S2.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q3-S3,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S3.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q3-S4,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S4.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q3-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S5.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q3-S6,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S6.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q4,No. of Deployments,4,count,Jira,Yes,4 Done RMM deployment ticket(s) with a valid title date in 2025-Q4.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q4-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S1.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q4-S2,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S2.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q4-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S3.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q4-S4,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S4.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q4-S5,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S5.,2026-07-16T19:35:58.888Z
+ASAP,2025-Q4-S6,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S6.,2026-07-16T19:35:58.888Z
+ASAP,2025-YTD,No. of Deployments,32,count,Jira,Yes,32 Done RMM deployment ticket(s) with a valid title date in 2025-YTD.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q1.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q1-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S1.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q1-S2,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S2.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q1-S3,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S3.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q1-S4,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S4.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q1-S5,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S5.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q1-S6,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S6.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q2,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q2.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q2-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S1.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q2-S2,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S2.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q2-S3,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S3.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q2-S4,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S4.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q2-S5,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S5.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q2-S6,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S6.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q3.,2026-07-16T19:35:58.888Z
+ASAP,2026-Q3-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q3-S1.,2026-07-16T19:35:58.888Z
+ASAP,2026-YTD,No. of Deployments,4,count,Jira,Yes,4 Done RMM deployment ticket(s) with a valid title date in 2026-YTD.,2026-07-16T19:35:58.888Z
+EDU,2025-Q1,No. of Deployments,32,count,Jira,Yes,Portfolio rollup. 32 Done RMM deployment ticket(s) with a valid title date in 2025-Q1.,2026-07-16T19:35:58.888Z
+EDU,2025-Q1-S1,No. of Deployments,2,count,Jira,Yes,Portfolio rollup. 2 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S1.,2026-07-16T19:35:58.888Z
+EDU,2025-Q1-S2,No. of Deployments,7,count,Jira,Yes,Portfolio rollup. 7 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S2.,2026-07-16T19:35:58.888Z
+EDU,2025-Q1-S3,No. of Deployments,6,count,Jira,Yes,Portfolio rollup. 6 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S3.,2026-07-16T19:35:58.888Z
+EDU,2025-Q1-S4,No. of Deployments,6,count,Jira,Yes,Portfolio rollup. 6 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S4.,2026-07-16T19:35:58.888Z
+EDU,2025-Q1-S5,No. of Deployments,5,count,Jira,Yes,Portfolio rollup. 5 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S5.,2026-07-16T19:35:58.888Z
+EDU,2025-Q1-S6,No. of Deployments,6,count,Jira,Yes,Portfolio rollup. 6 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S6.,2026-07-16T19:35:58.888Z
+EDU,2025-Q2,No. of Deployments,32,count,Jira,Yes,Portfolio rollup. 32 Done RMM deployment ticket(s) with a valid title date in 2025-Q2.,2026-07-16T19:35:58.888Z
+EDU,2025-Q2-S1,No. of Deployments,4,count,Jira,Yes,Portfolio rollup. 4 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S1.,2026-07-16T19:35:58.888Z
+EDU,2025-Q2-S2,No. of Deployments,6,count,Jira,Yes,Portfolio rollup. 6 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S2.,2026-07-16T19:35:58.888Z
+EDU,2025-Q2-S3,No. of Deployments,4,count,Jira,Yes,Portfolio rollup. 4 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S3.,2026-07-16T19:35:58.888Z
+EDU,2025-Q2-S4,No. of Deployments,7,count,Jira,Yes,Portfolio rollup. 7 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S4.,2026-07-16T19:35:58.888Z
+EDU,2025-Q2-S5,No. of Deployments,4,count,Jira,Yes,Portfolio rollup. 4 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S5.,2026-07-16T19:35:58.888Z
+EDU,2025-Q2-S6,No. of Deployments,7,count,Jira,Yes,Portfolio rollup. 7 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S6.,2026-07-16T19:35:58.888Z
+EDU,2025-Q3,No. of Deployments,31,count,Jira,Yes,Portfolio rollup. 31 Done RMM deployment ticket(s) with a valid title date in 2025-Q3.,2026-07-16T19:35:58.888Z
+EDU,2025-Q3-S1,No. of Deployments,6,count,Jira,Yes,Portfolio rollup. 6 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S1.,2026-07-16T19:35:58.888Z
+EDU,2025-Q3-S2,No. of Deployments,5,count,Jira,Yes,Portfolio rollup. 5 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S2.,2026-07-16T19:35:58.888Z
+EDU,2025-Q3-S3,No. of Deployments,6,count,Jira,Yes,Portfolio rollup. 6 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S3.,2026-07-16T19:35:58.888Z
+EDU,2025-Q3-S4,No. of Deployments,4,count,Jira,Yes,Portfolio rollup. 4 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S4.,2026-07-16T19:35:58.888Z
+EDU,2025-Q3-S5,No. of Deployments,3,count,Jira,Yes,Portfolio rollup. 3 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S5.,2026-07-16T19:35:58.888Z
+EDU,2025-Q3-S6,No. of Deployments,7,count,Jira,Yes,Portfolio rollup. 7 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S6.,2026-07-16T19:35:58.888Z
+EDU,2025-Q4,No. of Deployments,22,count,Jira,Yes,Portfolio rollup. 22 Done RMM deployment ticket(s) with a valid title date in 2025-Q4.,2026-07-16T19:35:58.888Z
+EDU,2025-Q4-S1,No. of Deployments,6,count,Jira,Yes,Portfolio rollup. 6 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S1.,2026-07-16T19:35:58.888Z
+EDU,2025-Q4-S2,No. of Deployments,5,count,Jira,Yes,Portfolio rollup. 5 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S2.,2026-07-16T19:35:58.888Z
+EDU,2025-Q4-S3,No. of Deployments,4,count,Jira,Yes,Portfolio rollup. 4 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S3.,2026-07-16T19:35:58.888Z
+EDU,2025-Q4-S4,No. of Deployments,3,count,Jira,Yes,Portfolio rollup. 3 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S4.,2026-07-16T19:35:58.888Z
+EDU,2025-Q4-S5,No. of Deployments,4,count,Jira,Yes,Portfolio rollup. 4 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S5.,2026-07-16T19:35:58.888Z
+EDU,2025-Q4-S6,No. of Deployments,0,count,Jira,Yes,Portfolio rollup. 0 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S6.,2026-07-16T19:35:58.888Z
+EDU,2025-YTD,No. of Deployments,117,count,Jira,Yes,Portfolio rollup. 117 Done RMM deployment ticket(s) with a valid title date in 2025-YTD.,2026-07-16T19:35:58.888Z
+EDU,2026-Q1,No. of Deployments,26,count,Jira,Yes,Portfolio rollup. 26 Done RMM deployment ticket(s) with a valid title date in 2026-Q1.,2026-07-16T19:35:58.888Z
+EDU,2026-Q1-S1,No. of Deployments,4,count,Jira,Yes,Portfolio rollup. 4 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S1.,2026-07-16T19:35:58.888Z
+EDU,2026-Q1-S2,No. of Deployments,5,count,Jira,Yes,Portfolio rollup. 5 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S2.,2026-07-16T19:35:58.888Z
+EDU,2026-Q1-S3,No. of Deployments,5,count,Jira,Yes,Portfolio rollup. 5 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S3.,2026-07-16T19:35:58.888Z
+EDU,2026-Q1-S4,No. of Deployments,5,count,Jira,Yes,Portfolio rollup. 5 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S4.,2026-07-16T19:35:58.888Z
+EDU,2026-Q1-S5,No. of Deployments,3,count,Jira,Yes,Portfolio rollup. 3 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S5.,2026-07-16T19:35:58.888Z
+EDU,2026-Q1-S6,No. of Deployments,4,count,Jira,Yes,Portfolio rollup. 4 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S6.,2026-07-16T19:35:58.888Z
+EDU,2026-Q2,No. of Deployments,26,count,Jira,Yes,Portfolio rollup. 26 Done RMM deployment ticket(s) with a valid title date in 2026-Q2.,2026-07-16T19:35:58.888Z
+EDU,2026-Q2-S1,No. of Deployments,5,count,Jira,Yes,Portfolio rollup. 5 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S1.,2026-07-16T19:35:58.888Z
+EDU,2026-Q2-S2,No. of Deployments,5,count,Jira,Yes,Portfolio rollup. 5 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S2.,2026-07-16T19:35:58.888Z
+EDU,2026-Q2-S3,No. of Deployments,3,count,Jira,Yes,Portfolio rollup. 3 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S3.,2026-07-16T19:35:58.888Z
+EDU,2026-Q2-S4,No. of Deployments,2,count,Jira,Yes,Portfolio rollup. 2 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S4.,2026-07-16T19:35:58.888Z
+EDU,2026-Q2-S5,No. of Deployments,6,count,Jira,Yes,Portfolio rollup. 6 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S5.,2026-07-16T19:35:58.888Z
+EDU,2026-Q2-S6,No. of Deployments,5,count,Jira,Yes,Portfolio rollup. 5 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S6.,2026-07-16T19:35:58.888Z
+EDU,2026-Q3,No. of Deployments,2,count,Jira,Yes,Portfolio rollup. 2 Done RMM deployment ticket(s) with a valid title date in 2026-Q3.,2026-07-16T19:35:58.888Z
+EDU,2026-Q3-S1,No. of Deployments,2,count,Jira,Yes,Portfolio rollup. 2 Done RMM deployment ticket(s) with a valid title date in 2026-Q3-S1.,2026-07-16T19:35:58.888Z
+EDU,2026-YTD,No. of Deployments,54,count,Jira,Yes,Portfolio rollup. 54 Done RMM deployment ticket(s) with a valid title date in 2026-YTD.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q1,No. of Deployments,10,count,Jira,Yes,10 Done RMM deployment ticket(s) with a valid title date in 2025-Q1.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q1-S1,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S1.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q1-S2,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S2.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q1-S3,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S3.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q1-S4,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S4.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q1-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S5.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q1-S6,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S6.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q2,No. of Deployments,4,count,Jira,Yes,4 Done RMM deployment ticket(s) with a valid title date in 2025-Q2.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q2-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S1.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q2-S2,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S2.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q2-S3,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S3.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q2-S4,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S4.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q2-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S5.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q2-S6,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S6.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q3,No. of Deployments,8,count,Jira,Yes,8 Done RMM deployment ticket(s) with a valid title date in 2025-Q3.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q3-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S1.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q3-S2,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S2.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q3-S3,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S3.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q3-S4,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S4.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q3-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S5.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q3-S6,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S6.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q4,No. of Deployments,8,count,Jira,Yes,8 Done RMM deployment ticket(s) with a valid title date in 2025-Q4.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q4-S1,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S1.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q4-S2,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S2.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q4-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S3.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q4-S4,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S4.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q4-S5,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S5.,2026-07-16T19:35:58.888Z
+Smartcare,2025-Q4-S6,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S6.,2026-07-16T19:35:58.888Z
+Smartcare,2025-YTD,No. of Deployments,30,count,Jira,Yes,30 Done RMM deployment ticket(s) with a valid title date in 2025-YTD.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q1,No. of Deployments,9,count,Jira,Yes,9 Done RMM deployment ticket(s) with a valid title date in 2026-Q1.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q1-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S1.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q1-S2,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S2.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q1-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S3.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q1-S4,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S4.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q1-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S5.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q1-S6,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S6.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q2,No. of Deployments,10,count,Jira,Yes,10 Done RMM deployment ticket(s) with a valid title date in 2026-Q2.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q2-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S1.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q2-S2,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S2.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q2-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S3.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q2-S4,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S4.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q2-S5,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S5.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q2-S6,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S6.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q3,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q3.,2026-07-16T19:35:58.888Z
+Smartcare,2026-Q3-S1,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q3-S1.,2026-07-16T19:35:58.888Z
+Smartcare,2026-YTD,No. of Deployments,19,count,Jira,Yes,19 Done RMM deployment ticket(s) with a valid title date in 2026-YTD.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q1,No. of Deployments,9,count,Jira,Yes,9 Done RMM deployment ticket(s) with a valid title date in 2025-Q1.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q1-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S1.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q1-S2,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S2.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q1-S3,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S3.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q1-S4,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S4.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q1-S5,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S5.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q1-S6,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S6.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q2,No. of Deployments,11,count,Jira,Yes,11 Done RMM deployment ticket(s) with a valid title date in 2025-Q2.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q2-S1,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S1.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q2-S2,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S2.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q2-S3,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S3.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q2-S4,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S4.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q2-S5,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S5.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q2-S6,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S6.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q3,No. of Deployments,10,count,Jira,Yes,10 Done RMM deployment ticket(s) with a valid title date in 2025-Q3.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q3-S1,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S1.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q3-S2,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S2.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q3-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S3.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q3-S4,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S4.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q3-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S5.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q3-S6,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S6.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q4,No. of Deployments,7,count,Jira,Yes,7 Done RMM deployment ticket(s) with a valid title date in 2025-Q4.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q4-S1,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S1.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q4-S2,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S2.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q4-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S3.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q4-S4,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S4.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q4-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S5.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-Q4-S6,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S6.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2025-YTD,No. of Deployments,37,count,Jira,Yes,37 Done RMM deployment ticket(s) with a valid title date in 2025-YTD.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q1,No. of Deployments,14,count,Jira,Yes,14 Done RMM deployment ticket(s) with a valid title date in 2026-Q1.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q1-S1,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S1.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q1-S2,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S2.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q1-S3,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S3.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q1-S4,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S4.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q1-S5,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S5.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q1-S6,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S6.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q2,No. of Deployments,11,count,Jira,Yes,11 Done RMM deployment ticket(s) with a valid title date in 2026-Q2.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q2-S1,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S1.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q2-S2,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S2.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q2-S3,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S3.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q2-S4,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S4.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q2-S5,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S5.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q2-S6,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S6.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q3.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-Q3-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q3-S1.,2026-07-16T19:35:58.888Z
+Team Connexpoint,2026-YTD,No. of Deployments,26,count,Jira,Yes,26 Done RMM deployment ticket(s) with a valid title date in 2026-YTD.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q1,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2025-Q1.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q1-S1,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S1.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q1-S2,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S2.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q1-S3,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S3.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q1-S4,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S4.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q1-S5,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S5.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q1-S6,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q1-S6.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q2,No. of Deployments,7,count,Jira,Yes,7 Done RMM deployment ticket(s) with a valid title date in 2025-Q2.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q2-S1,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S1.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q2-S2,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S2.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q2-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S3.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q2-S4,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S4.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q2-S5,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S5.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q2-S6,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2025-Q2-S6.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q3,No. of Deployments,5,count,Jira,Yes,5 Done RMM deployment ticket(s) with a valid title date in 2025-Q3.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q3-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S1.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q3-S2,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S2.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q3-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S3.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q3-S4,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S4.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q3-S5,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S5.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q3-S6,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2025-Q3-S6.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q4,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2025-Q4.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q4-S1,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S1.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q4-S2,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S2.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q4-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S3.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q4-S4,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S4.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q4-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S5.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-Q4-S6,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2025-Q4-S6.,2026-07-16T19:35:58.888Z
+Team Webstore,2025-YTD,No. of Deployments,18,count,Jira,Yes,18 Done RMM deployment ticket(s) with a valid title date in 2025-YTD.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q1,No. of Deployments,2,count,Jira,Yes,2 Done RMM deployment ticket(s) with a valid title date in 2026-Q1.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q1-S1,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S1.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q1-S2,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S2.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q1-S3,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S3.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q1-S4,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S4.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q1-S5,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S5.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q1-S6,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q1-S6.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q2,No. of Deployments,3,count,Jira,Yes,3 Done RMM deployment ticket(s) with a valid title date in 2026-Q2.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q2-S1,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S1.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q2-S2,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S2.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q2-S3,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S3.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q2-S4,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S4.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q2-S5,No. of Deployments,1,count,Jira,Yes,1 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S5.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q2-S6,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q2-S6.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q3,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q3.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-Q3-S1,No. of Deployments,0,count,Jira,Yes,0 Done RMM deployment ticket(s) with a valid title date in 2026-Q3-S1.,2026-07-16T19:35:58.888Z
+Team Webstore,2026-YTD,No. of Deployments,5,count,Jira,Yes,5 Done RMM deployment ticket(s) with a valid title date in 2026-YTD.,2026-07-16T19:35:58.888Z

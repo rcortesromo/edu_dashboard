@@ -15,6 +15,8 @@
     "pull:defect-leakage": "node scripts/jira/pull-defect-leakage.mjs",
     "pull:jira-mttr": "node scripts/jira/pull-mttr.mjs",
     "pull:work-type-mix": "node scripts/jira/pull-work-type-mix.mjs",
+    "pull:deployments": "node scripts/jira/pull-deployment-metrics.mjs",
+    "test:deployments": "node --test scripts/jira/deployment-metrics-utils.test.mjs",
     "pull:feathery-products": "node scripts/feathery/pull-feathery-products.mjs",
     "pull:feathery-checkouts": "node scripts/feathery/pull-feathery-checkouts.mjs",
     "archive:feathery-cycles": "node scripts/feathery/archive-feathery-cycles.mjs",

@@ -1,7 +1,5 @@
 import { Fragment, useMemo, useState } from "react";
 import {
-  LineChart,
-  Line,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -12,198 +10,16 @@ import {
   Bar,
 } from "recharts";
 import { trendsMetricOrder, metricSections, metricDescriptions, getSprintsForQuarter, severityRootCauseMetricNames, mttrMetricName, type MetricsPayload, type SprintInfo } from "../lib/metrics";
-import { getAvailableQuarters, getAvailableYears, getChartPeriods, getPeriodMapping, teamColors, teamDisplayMap, type ViewMode } from "../lib/trends";
+import { getAvailableQuarters, getAvailableYears, getChartPeriods, getPeriodMapping, type ViewMode } from "../lib/trends";
 import MttrTrendChart from "../components/MttrTrendChart";
 import MrgMixChart from "../components/MrgMixChart";
+import MetricTrendChart from "../components/MetricTrendChart";
 
 type MetricsPageProps = {
   payload: MetricsPayload | null;
   loading: boolean;
   error: string;
 };
-
-// All metrics now have sprint-level data (Jira from sprint computation, AI/Cursor from pull scripts)
-
-type ChartDataPoint = {
-  quarter: string;
-  [teamKey: string]: number | string;
-};
-
-function buildChartData(
-  payload: MetricsPayload,
-  metricName: string,
-  viewMode: ViewMode,
-  selectedYear: number,
-  selectedQuarter?: string,
-  sprintLookup?: Map<string, SprintInfo>,
-): { data: ChartDataPoint[]; teams: string[] } {
-  const { xLabel } = getPeriodMapping(viewMode, selectedYear, selectedQuarter, sprintLookup);
-
-  const allPeriods = getChartPeriods(payload, viewMode, selectedYear, selectedQuarter, sprintLookup);
-
-  const relevantTeams = [
-    ...new Set(
-      payload.metrics
-        .filter((m) => m.metricName === metricName && allPeriods.includes(m.quarter))
-        .map((m) => m.team),
-    ),
-  ].filter((t) => t !== "EDU");
-
-  const data: ChartDataPoint[] = allPeriods.map((period) => {
-    const point: ChartDataPoint = { quarter: xLabel(period) };
-    for (const team of relevantTeams) {
-      const record = payload.metrics.find(
-        (m) => m.team === team && m.quarter === period && m.metricName === metricName,
-      );
-      point[team] = record?.value ?? 0;
-    }
-    return point;
-  });
-
-  return { data, teams: relevantTeams };
-}
-
-function getUnitLabel(metricName: string): string {
-  if (metricName.includes("(weeks)")) return "weeks";
-  if (metricName.includes("(points")) return "pts";
-  if (metricName.includes("%") || metricName.includes("Coverage") || metricName.includes("Rate"))
-    return "%";
-  return "";
-}
-
-function isBarMetric(metricName: string, viewMode: ViewMode): boolean {
-  return metricName === "AI Active Developers" || viewMode === "ytd";
-}
-
-function MetricChart({
-  payload,
-  metricName,
-  viewMode,
-  selectedYear,
-  selectedQuarter,
-  sprintLookup,
-}: {
-  payload: MetricsPayload;
-  metricName: string;
-  viewMode: ViewMode;
-  selectedYear: number;
-  selectedQuarter?: string;
-  sprintLookup?: Map<string, SprintInfo>;
-}) {
-  const { data, teams } = useMemo(
-    () => buildChartData(payload, metricName, viewMode, selectedYear, selectedQuarter, sprintLookup),
-    [payload, metricName, viewMode, selectedYear, selectedQuarter, sprintLookup],
-  );
-
-  const source = useMemo(() => {
-    const record = payload.metrics.find((m) => m.metricName === metricName && m.source);
-    return record?.source ?? "";
-  }, [payload, metricName]);
-
-  if (data.length === 0 || teams.length === 0) return null;
-
-  const unitLabel = getUnitLabel(metricName);
-  const useBar = isBarMetric(metricName, viewMode);
-  const isSprintView = viewMode === "sprint";
-  const xTickFormatter = isSprintView ? (value: string) => String(value).split(" (")[0] : undefined;
-  const xInterval = isSprintView ? 0 : undefined;
-
-  return (
-    <article className="trend-chart-card">
-      <div className="trend-chart-header">
-        <div className="trend-chart-title-row">
-          <h3>{metricName}</h3>
-          {source && <span className="trend-source-badge">{source}</span>}
-        </div>
-        <p className="trend-chart-description">
-          {metricDescriptions[metricName] ?? ""}
-        </p>
-      </div>
-      <div className="trend-chart-body">
-        <ResponsiveContainer width="100%" height={280}>
-          {useBar ? (
-            <BarChart data={data} margin={{ top: 8, right: 24, left: 8, bottom: 8 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(109,40,217,0.08)" />
-              <XAxis
-                dataKey="quarter"
-                tick={{ fontSize: 12, fill: "#6b5a8d" }}
-                axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
-                tickFormatter={xTickFormatter}
-                interval={xInterval}
-              />
-              <YAxis
-                tick={{ fontSize: 12, fill: "#6b5a8d" }}
-                axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
-                label={unitLabel ? { value: unitLabel, angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#6b5a8d" } } : undefined}
-              />
-              <Tooltip
-                contentStyle={{
-                  background: "#ffffff",
-                  border: "1px solid rgba(109,40,217,0.14)",
-                  borderRadius: 12,
-                  fontSize: 13,
-                }}
-              />
-              <Legend
-                wrapperStyle={{ fontSize: 12, paddingTop: 8 }}
-                formatter={(value: string) => teamDisplayMap[value] ?? value}
-              />
-              {teams.map((team) => (
-                <Bar
-                  key={team}
-                  dataKey={team}
-                  name={team}
-                  fill={teamColors[team] ?? "#6d28d9"}
-                  radius={[4, 4, 0, 0]}
-                />
-              ))}
-            </BarChart>
-          ) : (
-            <LineChart data={data} margin={{ top: 8, right: 24, left: 8, bottom: 8 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(109,40,217,0.08)" />
-              <XAxis
-                dataKey="quarter"
-                tick={{ fontSize: 12, fill: "#6b5a8d" }}
-                axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
-                tickFormatter={xTickFormatter}
-                interval={xInterval}
-              />
-              <YAxis
-                tick={{ fontSize: 12, fill: "#6b5a8d" }}
-                axisLine={{ stroke: "rgba(109,40,217,0.14)" }}
-                label={unitLabel ? { value: unitLabel, angle: -90, position: "insideLeft", style: { fontSize: 11, fill: "#6b5a8d" } } : undefined}
-              />
-              <Tooltip
-                contentStyle={{
-                  background: "#ffffff",
-                  border: "1px solid rgba(109,40,217,0.14)",
-                  borderRadius: 12,
-                  fontSize: 13,
-                }}
-              />
-              <Legend
-                wrapperStyle={{ fontSize: 12, paddingTop: 8 }}
-                formatter={(value: string) => teamDisplayMap[value] ?? value}
-              />
-              {teams.map((team) => (
-                <Line
-                  key={team}
-                  type="monotone"
-                  dataKey={team}
-                  name={team}
-                  stroke={teamColors[team] ?? "#6d28d9"}
-                  strokeWidth={2.5}
-                  dot={{ r: 4, strokeWidth: 2 }}
-                  activeDot={{ r: 6 }}
-                />
-              ))}
-            </LineChart>
-          )}
-        </ResponsiveContainer>
-      </div>
-    </article>
-  );
-}
 
 const [SEV1_INTERNAL_METRIC, SEV1_EXTERNAL_METRIC, SEV2_INTERNAL_METRIC, SEV2_EXTERNAL_METRIC] =
   severityRootCauseMetricNames;
@@ -469,7 +285,7 @@ function MetricsPage({ payload, loading, error }: MetricsPageProps) {
                             description={metricDescriptions[mttrMetricName] ?? ""}
                           />
                         ) : (
-                          <MetricChart
+                          <MetricTrendChart
                             payload={payload}
                             metricName={metricName}
                             viewMode={viewMode}

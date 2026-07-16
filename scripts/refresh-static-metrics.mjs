@@ -104,6 +104,7 @@ const ONLY_SOURCES = {
   "defect-leakage": "jira/pull-defect-leakage.mjs",
   mttr: "jira/pull-mttr.mjs",
   "work-type-mix": "jira/pull-work-type-mix.mjs",
+  deployments: "jira/pull-deployment-metrics.mjs",
 };
 
 async function main() {
@@ -140,6 +141,7 @@ async function main() {
 
   await runNodeScript(path.join(__dirname, "jira/pull-quarterly-metrics.mjs"), pullArgs);
   await runNodeScript(path.join(__dirname, "jira/compute-sprint-level-metrics.mjs"));
+  await runNodeScript(path.join(__dirname, "jira/pull-deployment-metrics.mjs"));
   await runNodeScript(path.join(__dirname, "jira/pull-defect-leakage.mjs"), pullArgs);
   await runNodeScript(path.join(__dirname, "jira/pull-mttr.mjs"), pullArgs);
   await runNodeScript(path.join(__dirname, "jira/pull-work-type-mix.mjs"), pullArgs);
@@ -166,6 +168,7 @@ async function main() {
   const sources = [
     { name: "jira-quarterly", status: "completed", note: "" },
     { name: "sprint", status: "completed", note: "" },
+    { name: "deployments", status: "completed", note: "RMM board, 2025 through today" },
     { name: "defect-leakage", status: "completed", note: "" },
     { name: "mttr", status: "completed", note: "" },
     { name: "work-type-mix", status: "completed", note: "" },

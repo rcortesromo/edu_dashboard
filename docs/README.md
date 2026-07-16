@@ -6,7 +6,7 @@ Executive delivery dashboard for SDLC metrics, sprint health, and AI adoption tr
 
 | Source | Metrics | Docs |
 |--------|---------|------|
-| **Jira** | Card Churn %, Velocity, Cycle Time Proxy, Actual Cycle Time | [jira/README.md](jira/README.md) |
+| **Jira** | Card Churn %, Velocity, Cycle Time Proxy, Actual Cycle Time, Deployments | [jira/README.md](jira/README.md) |
 | **GitHub** | AI-assisted PR Coverage, AI Active Developers | [ai/README.md](ai/README.md) |
 | **Cursor** | Cursor Adoption Rate | [cursor/README.md](cursor/README.md) |
 
@@ -36,6 +36,7 @@ By default, each script picks up where it left off:
 
 - **Jira**: re-fetches the current quarter only; older quarters are preserved in the CSV.
 - **Defect Leakage**: re-fetches the current quarter only; merges by team + period so prior history is preserved.
+- **Deployments**: recalculates the RMM board from 2025 through today and maps title dates to the shared CXP sprint calendar.
 - **GitHub AI**: reads the existing CSV, finds the latest quarter, re-fetches from that quarter onward.
 - **Cursor**: same as GitHub AI -- re-fetches from the latest existing quarter onward.
 
@@ -72,6 +73,14 @@ npm run refresh:static-metrics -- --only defect-leakage --from-year 2025
 ```
 
 Defect Leakage is also produced automatically as part of the default `npm run refresh:static-metrics`. It stays incremental (current quarter by default) and merges by team + period, so prior history is preserved. The first-time backfill above seeds the full 2025-to-today history.
+
+### Deployments-only refresh
+
+```bash
+npm run refresh:static-metrics -- --only deployments
+```
+
+This recalculates `No. of Deployments` from 2025 through today from the RMM board, then merges and republishes the JSON feed.
 
 ### Full refresh (all quarters from scratch)
 

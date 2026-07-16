@@ -10,10 +10,27 @@ Sprint-level and quarter-level delivery health metrics extracted from Jira Cloud
 | **Average Velocity (points per sprint)** | points | Average completed story points per sprint across the period. |
 | **Flow-based Cycle Time Proxy (weeks)** | weeks | Flow-health signal from average WIP vs completed cards per sprint. Lower is healthier. |
 | **Actual Cycle Time (weeks)** | weeks | Average real elapsed time from "In Development" status until Done resolution. |
+| **No. of Deployments** | count | Done RMM release tickets with a valid title date, bucketed into quarter/YTD and the shared CXP sprint calendar. |
 | **MTTR (Sev 1 + Sev 2)** | hours | **Median** time to resolve for Sev 1/2 OV issues (Bug, Story, Task): business time (weekends excluded) from issue creation until its status changes to `Closed`. Median is the headline because it is robust to the long tail of months-old issues. |
 | **MTTR Avg (Sev 1 + Sev 2)** | hours | Same definition as above but the **mean**. Plotted as a lighter reference line so outlier-driven spikes stay visible without distorting the headline. |
 | **MTTR Tickets (Sev 1 + Sev 2)** | count | Number of Sev 1/2 OV issues Closed in the period (the bars in the MTTR combo chart). |
 | **Maintain / Run / Growth %** | percent | Share of logged worklog hours per Work Type category (Maintain, Run, Growth) for the team/period. Rendered as a 3-bar snapshot chart, not a trend line. |
+
+### No. of Deployments
+
+Counts releases represented by tickets on the `RMM board` Kanban (board ID 273) from 2025 through today.
+
+- **Source script**: `scripts/jira/pull-deployment-metrics.mjs` -> `backend/jira/generated/deployment_export.csv`.
+- **Population**: current status `Done`, title starts with `ASAP`, `Webstore`, `CXP`, or `Smartcare`, and title contains a complete valid date.
+- **Bucketing**: the title date determines quarter and YTD. Since RMM has no sprints, that date is mapped to the official CXP sprint periods in `sprint_calendar_combined.csv`; S0/transition days roll into the next visible sprint so sprint totals remain complete.
+- **Audit**: every prefix-matched RMM issue is written to `deployment_issue_audit.csv`; excluded tickets carry a reason such as non-Done status, invalid/missing date, pre-2025 date, or future date.
+- **EDU rollup**: direct sum of the four team counts for each period.
+
+Run it standalone:
+
+```bash
+npm run refresh:static-metrics -- --only deployments
+```
 
 ### MTTR (Sev 1 + Sev 2)
 

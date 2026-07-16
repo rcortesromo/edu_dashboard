@@ -147,5 +147,17 @@
       { "jiraTeamName": "Team ASAP", "outputTeamName": "ASAP" },
       { "jiraTeamName": "Team Smartcare", "outputTeamName": "Smartcare" }
     ]
+  },
+  "deploymentMetrics": {
+    "boardId": "273",
+    "deploymentDateFrom": "2025-01-01",
+    "doneStatus": "Done",
+    "portfolioTeamName": "EDU",
+    "teams": [
+      { "titlePrefix": "ASAP", "outputTeamName": "ASAP" },
+      { "titlePrefix": "Webstore", "outputTeamName": "Team Webstore" },
+      { "titlePrefix": "CXP", "outputTeamName": "Team Connexpoint" },
+      { "titlePrefix": "Smartcare", "outputTeamName": "Smartcare" }
+    ]
   }
 }

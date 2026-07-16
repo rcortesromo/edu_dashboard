@@ -9,7 +9,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { getSprintsForQuarter, metricDescriptions, mttrMetricName, severityRootCauseMetricNames, type MetricsPayload, type SprintInfo } from "../lib/metrics";
+import { deploymentMetricName, getSprintsForQuarter, metricDescriptions, mttrMetricName, severityRootCauseMetricNames, type MetricsPayload, type SprintInfo } from "../lib/metrics";
 import {
   getAvailableQuarters,
   getAvailableTeams,
@@ -21,6 +21,7 @@ import {
 } from "../lib/trends";
 import MttrTrendChart from "../components/MttrTrendChart";
 import MrgMixChart from "../components/MrgMixChart";
+import MetricTrendChart from "../components/MetricTrendChart";
 
 type TeamMetricsPageProps = {
   payload: MetricsPayload | null;
@@ -269,6 +270,15 @@ function TeamMetricsPage({ payload, loading, error }: TeamMetricsPageProps) {
         {!loading && !error && payload && resolvedTeam ? (
           <div className="trends-grid">
             <MrgMixChart payload={payload} team={resolvedTeam} />
+            <MetricTrendChart
+              payload={payload}
+              metricName={deploymentMetricName}
+              team={resolvedTeam}
+              viewMode={viewMode}
+              selectedYear={resolvedYear}
+              selectedQuarter={viewMode === "sprint" ? resolvedQuarter : undefined}
+              sprintLookup={sprintLookup}
+            />
             <TeamSeverityLevelChart
               payload={payload}
               team={resolvedTeam}

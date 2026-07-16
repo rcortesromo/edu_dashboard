@@ -72,6 +72,8 @@ export const metricDescriptions: Record<string, string> = {
     "Flow-health signal from average WIP vs completed cards per sprint; lower usually means healthier flow.",
   "Actual Cycle Time (weeks)":
     "Average real elapsed time from active work start until the item is done in Jira with resolution Done.",
+  "No. of Deployments":
+    "Count of Done release tickets from the RMM board whose title starts with the team name and contains a valid deployment date.",
   "Cursor Adoption Rate":
     "Share of mapped team members with qualifying Cursor activity in the selected period.",
   "AI-assisted Pull Request Coverage":
@@ -85,6 +87,7 @@ export const metricDisplayOrder = [
   "Run %",
   "Growth %",
   "Jira Card Churn %",
+  "No. of Deployments",
   "Defect Leakage %",
   "Sev 1 Bugs",
   "Sev 2 Bugs",
@@ -102,6 +105,7 @@ export const metricDisplayOrder = [
 // that chart right after Defect Leakage.
 export const trendsMetricOrder = [
   "Jira Card Churn %",
+  "No. of Deployments",
   "Defect Leakage %",
   "MTTR (Sev 1 + Sev 2)",
   "Average Velocity (points per sprint)",
@@ -136,6 +140,7 @@ export const maintainMetricName = "Maintain %";
 export const runMetricName = "Run %";
 export const growthMetricName = "Growth %";
 export const mrgMetricNames = [maintainMetricName, runMetricName, growthMetricName] as const;
+export const deploymentMetricName = "No. of Deployments";
 
 // Format a business-hours duration adaptively: hours under a day, days (24h = 1 day) from a day up.
 export function formatBusinessHours(value: number): string {
@@ -176,6 +181,7 @@ export const metricSections: { id: MetricSectionId; title: string; description: 
     title: "Delivery Flow",
     description: "Sprint planning stability, throughput, and cycle time.",
     metrics: [
+      deploymentMetricName,
       "Jira Card Churn %",
       "Average Velocity (points per sprint)",
       "Flow-based Cycle Time Proxy (weeks)",

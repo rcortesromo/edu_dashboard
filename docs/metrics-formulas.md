@@ -33,6 +33,24 @@ Computed once from the whole period's total hours. Worklogs on issues with no Wo
 
 ## Delivery Flow
 
+### No. of Deployments
+
+**Source**: `scripts/jira/pull-deployment-metrics.mjs` · Unit: count
+
+**Population**: tickets from the Jira Kanban `RMM board` (ID 273) whose current status is exactly `Done`, whose summary begins with `ASAP`, `Webstore`, `CXP`, or `Smartcare`, and whose summary contains a complete valid deployment date. Coverage begins on `2025-01-01`; tickets with missing, incomplete, invalid, or future title dates are excluded and retained in `deployment_issue_audit.csv` with the reason.
+
+**Formula**:
+
+```
+No. of Deployments = count of qualifying RMM tickets whose title date falls in the period
+```
+
+The title date—not issue creation or resolution date—assigns the deployment to a calendar quarter and YTD. Because the RMM board does not use sprints, the same date is mapped into the shared official CXP sprint periods used throughout the dashboard. S0 is hidden; a date in S0 or a small transition gap is assigned to the next visible sprint (or the quarter's last visible sprint at quarter end) so every deployment remains visible in sprint reporting.
+
+Team mapping is `ASAP → ASAP`, `Webstore → Team Webstore (Revtrak)`, `CXP → Team Connexpoint`, and `Smartcare → Smartcare`.
+
+**EDU rollup**: sum the four team deployment counts for the same quarter, YTD, or CXP sprint period.
+
 ### Jira Card Churn %
 
 **Source**: `scripts/pull-jira-quarterly-metrics.mjs` (+ sprint-level compute) · Unit: percent

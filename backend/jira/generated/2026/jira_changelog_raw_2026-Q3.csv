@@ -1,0 +1,338 @@
+issue_key,issue_id,team_name,sprint_id,sprint_name,quarter_label,sprint_start_date,event_timestamp,event_author,field_changed,from_value,to_value,change_type,after_sprint_start_flag,backward_move_flag,reestimate_flag,scope_change_flag
+OV-83000,336496,Team ASAP,11312,ASAP - 26Q3S1,2026-Q3,2026-07-08T16:12:25.629Z,2026-07-15T09:03:31.162-0700,Alejandro Suarez,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-84531,350855,Team ASAP,11312,ASAP - 26Q3S1,2026-Q3,2026-07-08T16:12:25.629Z,2026-07-09T10:39:01.399-0700,Alejandro Suarez,status,New,In Test,status_change,yes,no,no,no
+OV-84531,350855,Team ASAP,11312,ASAP - 26Q3S1,2026-Q3,2026-07-08T16:12:25.629Z,2026-07-10T07:22:21.524-0700,Alejandro Suarez,status,In Test,In Verification,status_change,yes,no,no,no
+OV-84531,350855,Team ASAP,11312,ASAP - 26Q3S1,2026-Q3,2026-07-08T16:12:25.629Z,2026-07-10T14:04:37.159-0700,Alejandro Suarez,status,In Verification,Closed,status_change,yes,no,no,no
+OV-85274,357505,Team ASAP,11312,ASAP - 26Q3S1,2026-Q3,2026-07-08T16:12:25.629Z,2026-07-08T11:02:15.677-0700,Alejandro Suarez,status,New,Ready for Sprint,status_change,yes,no,no,no
+OV-85274,357505,Team ASAP,11312,ASAP - 26Q3S1,2026-Q3,2026-07-08T16:12:25.629Z,2026-07-08T11:13:55.268-0700,Alejandro Suarez,status,Ready for Sprint,In Secure Code Review,status_change,yes,no,no,no
+OV-85274,357505,Team ASAP,11312,ASAP - 26Q3S1,2026-Q3,2026-07-08T16:12:25.629Z,2026-07-08T13:58:30.587-0700,Alejandro Suarez,status,In Secure Code Review,In Test,status_change,yes,no,no,no
+OV-85274,357505,Team ASAP,11312,ASAP - 26Q3S1,2026-Q3,2026-07-08T16:12:25.629Z,2026-07-09T13:53:09.614-0700,Alejandro Suarez,status,In Test,In Verification,status_change,yes,no,no,no
+OV-85274,357505,Team ASAP,11312,ASAP - 26Q3S1,2026-Q3,2026-07-08T16:12:25.629Z,2026-07-10T14:04:26.238-0700,Alejandro Suarez,status,In Verification,Closed,status_change,yes,no,no,no
+OV-81029,330895,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T07:41:44.714-0700,Ulises Nunez,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-83397,340063,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T06:38:12.423-0700,Darcy Olson,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-83397,340063,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T07:34:11.013-0700,Darcy Olson,status,In Test,Reopened,status_change,yes,no,no,no
+OV-83398,340065,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T06:38:06.322-0700,Darcy Olson,status,In Development,Closed,status_change,yes,no,no,no
+OV-83399,340067,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T06:38:10.559-0700,Darcy Olson,status,New,In Test,status_change,yes,no,no,no
+OV-83399,340067,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T07:34:14.531-0700,Darcy Olson,status,In Test,Reopened,status_change,yes,no,no,no
+OV-83953,345166,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T08:11:41.334-0700,Michael Trebnick,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-84112,346188,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T08:14:28.806-0700,Michael Trebnick,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-84536,350865,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-02T08:39:47.026-0700,Michael Trebnick,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-84536,350865,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T11:13:48.593-0700,Darcy Olson,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-84536,350865,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T13:19:30.544-0700,Darcy Olson,status,In Test,Closed,status_change,yes,no,no,no
+OV-84537,350866,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T08:59:16.163-0700,Darcy Olson,status,New,In Development,status_change,yes,no,no,no
+OV-84537,350866,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T08:59:29.692-0700,Darcy Olson,status,In Development,Closed,status_change,yes,no,no,no
+OV-84538,350867,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T11:13:46.468-0700,Darcy Olson,status,New,In Test,status_change,yes,no,no,no
+OV-84538,350867,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T13:19:38.421-0700,Darcy Olson,status,In Test,Closed,status_change,yes,no,no,no
+OV-84539,350868,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T14:07:58.340-0700,Darcy Olson,status,New,Closed,status_change,yes,no,no,no
+OV-84540,350869,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T14:08:01.567-0700,Darcy Olson,status,New,In Development,status_change,yes,no,no,no
+OV-84540,350869,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T08:37:43.889-0700,Ulises Nunez,status,In Development,Closed,status_change,yes,no,no,no
+OV-84541,350873,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T08:34:44.696-0700,Ulises Nunez,status,In Test,Closed,status_change,yes,no,no,no
+OV-84542,350874,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T08:15:25.661-0700,Siva Kannan,status,In Development,Closed,status_change,yes,no,no,no
+OV-84543,350875,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T08:27:00.350-0700,Siva Kannan,status,In Test,Closed,status_change,yes,no,no,no
+OV-84544,350876,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T10:53:42.042-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-84545,350877,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T10:53:43.759-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-84547,350879,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T11:43:56.746-0700,Siva Kannan,status,New,In Development,status_change,yes,no,no,no
+OV-84552,350884,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-02T08:42:34.918-0700,Michael Trebnick,status,In Development,In Review,status_change,yes,no,no,no
+OV-84552,350884,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-02T13:46:38.517-0700,Julio Fierro,status,In Review,In Verification,status_change,yes,no,no,no
+OV-84554,350886,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-02T08:34:31.267-0700,Michael Trebnick,status,In Test,Closed,status_change,yes,no,no,no
+OV-84557,350889,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-02T08:34:20.243-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-84557,350889,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T18:42:25.512-0700,Siva Kannan,status,In Development,Closed,status_change,yes,no,no,no
+OV-84558,350890,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-02T08:34:22.032-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-84558,350890,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T09:19:26.763-0700,Rodolfo Ruiz,status,In Development,Closed,status_change,yes,no,no,no
+OV-84941,354299,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-02T09:16:01.741-0700,Claudio.Martinez,status,New,In Secure Code Review,status_change,yes,no,no,no
+OV-84941,354299,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T09:22:44.264-0700,Michael Trebnick,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-84947,354305,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T09:22:57.483-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-84947,354305,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T09:23:44.542-0700,Michael Trebnick,status,In Development,New,status_change,yes,yes,no,no
+OV-84948,354306,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T09:23:03.004-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-84948,354306,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T09:23:46.830-0700,Michael Trebnick,status,In Development,New,status_change,yes,yes,no,no
+OV-84949,354307,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T09:23:05.062-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-84949,354307,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T09:23:48.943-0700,Michael Trebnick,status,In Development,New,status_change,yes,yes,no,no
+OV-84953,354312,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T09:24:44.561-0700,Michael Trebnick,status,New,In Secure Code Review,status_change,yes,no,no,no
+OV-84954,354313,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T09:24:52.383-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-84955,354314,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-06T09:24:55.092-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-84982,354452,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-02T08:45:14.755-0700,Michael Trebnick,status,In Development,Closed,status_change,yes,no,no,no
+OV-84998,354780,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-02T09:24:19.461-0700,Claudio.Martinez,status,New,In Development,status_change,yes,no,no,no
+OV-84998,354780,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T08:32:56.294-0700,Claudio.Martinez,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85104,355318,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-02T08:47:01.310-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-85108,355406,Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,2026-07-02T12:48:58.767Z,2026-07-07T13:44:20.172-0700,Michael Trebnick,status,New,In Verification,status_change,yes,no,no,no
+OV-79951,320429,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T09:02:19.625-0700,Michael Trebnick,status,New,In Secure Code Review,status_change,yes,no,no,no
+OV-79951,320429,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T08:39:34.453-0700,Michael Trebnick,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-81001,330867,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T08:55:46.831-0700,Michael Trebnick,status,In Development,Closed,status_change,yes,no,no,no
+OV-83408,340085,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T15:36:19.458-0700,Darcy Olson,status,New,In Development,status_change,yes,no,no,no
+OV-83426,340216,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T08:56:43.003-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-83426,340216,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-14T14:19:04.483-0700,David Mendoza,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-83516,340979,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T08:56:20.572-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-83947,345157,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T08:56:30.729-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-83947,345157,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T08:07:05.910-0700,Michael Trebnick,status,In Development,In Review,status_change,yes,no,no,no
+OV-83947,345157,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T10:22:03.297-0700,Michael Trebnick,status,In Review,Ready To Test,status_change,yes,no,no,no
+OV-83953,345166,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-16T06:49:38.556-0700,Michael Trebnick,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-84053,345818,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T08:55:07.800-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-84053,345818,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-14T08:34:59.181-0700,Michael Trebnick,status,In Development,In Test,status_change,yes,no,no,no
+OV-84112,346188,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-16T06:52:09.522-0700,Michael Trebnick,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-84576,351445,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T07:41:52.809-0700,Darcy Olson,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-84576,351445,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T13:29:32.359-0700,Darcy Olson,status,In Test,Closed,status_change,yes,no,no,no
+OV-84937,354256,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-16T06:56:40.418-0700,Michael Trebnick,status,In Development,Closed,status_change,yes,no,no,no
+OV-84942,354300,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T08:51:19.483-0700,Michael Trebnick,status,In Development,New,status_change,yes,yes,no,no
+OV-84943,354301,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T08:51:22.399-0700,Michael Trebnick,status,In Development,New,status_change,yes,yes,no,no
+OV-84953,354312,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-10T10:59:01.391-0700,Rodolfo Ruiz,status,In Test,Closed,status_change,yes,no,no,no
+OV-84955,354314,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-10T09:08:11.868-0700,Siva Kannan,status,In Test,Closed,status_change,yes,no,no,no
+OV-84956,354315,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-10T09:08:45.743-0700,Siva Kannan,status,New,Closed,status_change,yes,no,no,no
+OV-84957,354316,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-10T11:05:01.265-0700,Rodolfo Ruiz,status,New,Closed,status_change,yes,no,no,no
+OV-85239,356777,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T07:41:49.719-0700,Darcy Olson,status,In Development,In Test,status_change,yes,no,no,no
+OV-85239,356777,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T13:29:40.295-0700,Darcy Olson,status,In Test,Closed,status_change,yes,no,no,no
+OV-85240,356778,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T13:29:24.233-0700,Darcy Olson,status,New,Closed,status_change,yes,no,no,no
+OV-85241,356779,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-13T13:29:46.850-0700,Darcy Olson,status,New,In Development,status_change,yes,no,no,no
+OV-85241,356779,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-14T08:22:22.729-0700,Ulises Nunez,status,In Development,Closed,status_change,yes,no,no,no
+OV-85318,358055,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T08:39:54.352-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-85318,358055,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T09:22:41.810-0700,Darcy Olson,status,In Development,In Test,status_change,yes,no,no,no
+OV-85319,358056,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-16T11:23:56.838-0700,Darcy Olson,status,New,In UX Design,status_change,yes,no,no,no
+OV-85565,359840,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T08:03:01.083-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-85567,359945,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T08:03:25.420-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-85568,359946,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T08:03:49.938-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-85569,359947,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T08:03:36.052-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-85570,359948,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T08:03:48.341-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-85580,359962,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T08:41:24.668-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-85591,360378,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T08:42:01.775-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-85599,360454,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-16T06:34:27.524-0700,Michael Trebnick,status,New,Closed,status_change,yes,no,no,no
+OV-85600,360455,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-16T06:34:29.113-0700,Michael Trebnick,status,New,Closed,status_change,yes,no,no,no
+OV-85601,360456,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-16T06:34:30.876-0700,Michael Trebnick,status,New,Closed,status_change,yes,no,no,no
+OV-85606,360529,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T10:22:23.914-0700,Michael Trebnick,status,New,In Development,status_change,yes,no,no,no
+OV-85611,360534,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-15T10:22:58.032-0700,Michael Trebnick,status,New,Ready To Test,status_change,yes,no,no,no
+OV-85616,360539,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-16T06:34:32.425-0700,Michael Trebnick,status,New,Closed,status_change,yes,no,no,no
+OV-85617,360540,Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,2026-07-10T15:45:22.117Z,2026-07-16T06:34:34.017-0700,Michael Trebnick,status,New,Closed,status_change,yes,no,no,no
+OV-61445,239621,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T03:50:21.910-0700,Dan Cornilov,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-61445,239621,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T01:35:50.403-0700,Dan Cornilov,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-61445,239621,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T02:17:00.558-0700,Victor.Gavrilita,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-61445,239621,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:23:27.771-0700,Victor.Gavrilita,status,In Test,Closed,status_change,yes,no,no,no
+OV-61446,239622,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T03:41:13.694-0700,Dan Cornilov,customfield_10043,2,5,reestimate,yes,no,yes,no
+OV-61446,239622,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T03:50:05.553-0700,Dan Cornilov,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-61446,239622,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T01:35:51.199-0700,Dan Cornilov,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-61446,239622,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T01:25:22.079-0700,Victor.Gavrilita,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-61446,239622,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T05:36:53.512-0700,Victor.Gavrilita,status,In Test,Reopened,status_change,yes,no,no,no
+OV-61446,239622,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T06:44:30.888-0700,Victor.Gavrilita,status,Reopened,In Test,status_change,yes,no,no,no
+OV-61447,239625,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T01:35:52.817-0700,Dan Cornilov,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-61447,239625,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:23:36.683-0700,Victor.Gavrilita,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-61447,239625,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:36:29.360-0700,Victor.Gavrilita,status,In Test,Reopened,status_change,yes,no,no,no
+OV-61447,239625,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:57:35.683-0700,Victor.Gavrilita,status,Reopened,In Test,status_change,yes,no,no,no
+OV-61447,239625,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T00:23:09.819-0700,Victor.Gavrilita,status,In Test,Reopened,status_change,yes,no,no,no
+OV-61447,239625,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T05:37:13.177-0700,Victor.Gavrilita,status,Reopened,In Test,status_change,yes,no,no,no
+OV-61447,239625,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T06:29:09.561-0700,Victor.Gavrilita,status,In Test,Closed,status_change,yes,no,no,no
+OV-61950,227243,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T01:36:04.135-0700,Dan Cornilov,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-68848,259209,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T00:03:33.709-0700,Dana Abrudan,customfield_10020,,Smartcare - Active Backlog,other,yes,no,no,no
+OV-68848,259209,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T00:03:40.206-0700,Dana Abrudan,status,In Discovery,Ready for Sprint,status_change,yes,no,no,no
+OV-68848,259209,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T00:03:43.679-0700,Dana Abrudan,customfield_10043,,3,reestimate,yes,no,yes,no
+OV-68848,259209,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T00:41:25.986-0700,Denis Profir,customfield_10020,Smartcare - Active Backlog,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-68848,259209,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T04:03:46.687-0700,Denis Profir,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-68848,259209,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:52:12.273-0700,Denis Profir,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-80012,321236,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T02:32:29.256-0700,Denis Profir,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-80012,321236,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T06:43:29.241-0700,Denis Profir,status,In Development,SLT Review,status_change,yes,no,no,no
+OV-80012,321236,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T06:43:31.236-0700,Denis Profir,status,SLT Review,In Secure Code Review,status_change,yes,no,no,no
+OV-80310,324440,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T08:02:56.726-0700,Juan Calderon,status,In Development,Ready To Test,status_change,yes,no,no,no
+OV-80310,324440,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T00:37:50.135-0700,Victor.Gavrilita,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-80310,324440,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T04:13:15.327-0700,Victor.Gavrilita,status,In Test,Closed,status_change,yes,no,no,no
+OV-80311,324443,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T06:56:30.688-0700,Victor.Gavrilita,status,In Test,Closed,status_change,yes,no,no,no
+OV-80429,326501,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T02:32:53.603-0700,Denis Profir,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-80429,326501,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T06:43:33.994-0700,Denis Profir,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-80430,326534,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T06:43:59.595-0700,Denis Profir,status,Ready for Sprint,In Secure Code Review,status_change,yes,no,no,no
+OV-80431,326567,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T04:33:10.356-0700,Denis Profir,status,Ready For Refinement,In Development,status_change,yes,no,no,no
+OV-80431,326567,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T06:43:32.706-0700,Denis Profir,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-80932,330657,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T22:46:25.906-0700,Javier Chavez,status,In Test,Closed,status_change,yes,no,no,no
+OV-80933,330658,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T21:00:20.175-0700,Javier Chavez,status,In Test,Closed,status_change,yes,no,no,no
+OV-80934,330659,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T21:17:38.811-0700,Javier Chavez,status,In Test,Closed,status_change,yes,no,no,no
+OV-80935,330660,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T07:59:47.309-0700,Victor.Gavrilita,status,In Test,Closed,status_change,yes,no,no,no
+OV-83552,341464,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T03:20:27.055-0700,David Truta,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-83553,341465,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:17:33.069-0700,David Truta,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-83553,341465,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:18:23.160-0700,David Truta,customfield_10043,,5,reestimate,yes,no,yes,no
+OV-83553,341465,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:18:42.173-0700,David Truta,customfield_10043,5,8,reestimate,yes,no,yes,no
+OV-83553,341465,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:19:00.810-0700,David Truta,status,New,Ready for Sprint,status_change,yes,no,no,no
+OV-83553,341465,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T03:20:22.678-0700,David Truta,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-83554,341466,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:27:45.303-0700,David Truta,customfield_10043,,3,reestimate,yes,no,yes,no
+OV-83554,341466,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:27:50.439-0700,David Truta,status,New,Ready for Sprint,status_change,yes,no,no,no
+OV-83554,341466,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T06:00:15.936-0700,David Truta,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-83554,341466,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T06:00:24.513-0700,David Truta,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-83557,341470,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:07:12.318-0700,Laurentiu Ile,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-83557,341470,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:07:25.096-0700,Laurentiu Ile,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-83558,341471,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T02:24:11.268-0700,Laurentiu Ile,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-83558,341471,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:22:30.380-0700,Laurentiu Ile,status,In Secure Code Review,Awaiting Build,status_change,yes,yes,no,no
+OV-83558,341471,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T05:14:36.260-0700,Laurentiu Ile,status,Awaiting Build,Ready To Test,status_change,yes,no,no,no
+OV-83618,342517,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T14:32:13.903-0700,Juan Calderon,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-83618,342517,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T14:33:18.083-0700,Juan Calderon,status,In Secure Code Review,SLT Review,status_change,yes,no,no,no
+OV-83619,342518,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T14:34:01.725-0700,Juan Calderon,customfield_10020,Smartcare - Active Backlog,,other,yes,no,no,no
+OV-83619,342518,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T14:34:05.217-0700,Juan Calderon,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-83619,342518,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T14:34:28.643-0700,Juan Calderon,status,New,In Development,status_change,yes,no,no,no
+OV-83619,342518,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T10:00:01.996-0700,Juan Calderon,status,In Development,SLT Review,status_change,yes,no,no,no
+OV-84771,352914,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T04:47:19.376-0700,Victor.Gavrilita,status,In Test,Closed,status_change,yes,no,no,no
+OV-84772,352917,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T07:26:10.973-0700,Dana Abrudan,customfield_10043,,3,reestimate,yes,no,yes,no
+OV-84772,352917,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T07:26:12.460-0700,Dana Abrudan,status,Ready For Refinement,Ready for Sprint,status_change,yes,no,no,no
+OV-84772,352917,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T14:04:45.654-0700,Juan Calderon,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-84772,352917,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T14:04:49.368-0700,Juan Calderon,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-84773,352950,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-15T08:57:15.050-0700,Neil Heverly,status,In Discovery,Blocked,status_change,yes,no,no,no
+OV-84923,354089,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:22:31.833-0700,Laurentiu Ile,status,In Secure Code Review,Awaiting Build,status_change,yes,yes,no,no
+OV-84923,354089,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T05:14:51.961-0700,Laurentiu Ile,status,Awaiting Build,Ready To Test,status_change,yes,no,no,no
+OV-84923,354089,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:30:31.416-0700,Javier Chavez,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-84923,354089,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T06:21:00.092-0700,Javier Chavez,status,In Test,Closed,status_change,yes,no,no,no
+OV-84984,354555,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:22:33.644-0700,Laurentiu Ile,status,In Secure Code Review,Awaiting Build,status_change,yes,yes,no,no
+OV-84984,354555,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T06:18:07.512-0700,Laurentiu Ile,status,Awaiting Build,Ready To Test,status_change,yes,no,no,no
+OV-84984,354555,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:30:49.740-0700,Javier Chavez,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-84984,354555,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T06:37:34.164-0700,Javier Chavez,status,In Test,Closed,status_change,yes,no,no,no
+OV-84985,354556,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T02:33:07.698-0700,Laurentiu Ile,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-84985,354556,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T02:37:44.235-0700,Laurentiu Ile,status,Ready For Refinement,In Development,status_change,yes,no,no,no
+OV-84985,354556,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T03:14:37.609-0700,Laurentiu Ile,customfield_10043,,2,reestimate,yes,no,yes,no
+OV-84985,354556,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:00:35.895-0700,Laurentiu Ile,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-84985,354556,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:22:35.158-0700,Laurentiu Ile,status,In Secure Code Review,Awaiting Build,status_change,yes,yes,no,no
+OV-84985,354556,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T06:18:17.686-0700,Laurentiu Ile,status,Awaiting Build,Ready To Test,status_change,yes,no,no,no
+OV-84985,354556,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T18:58:11.216-0700,Javier Chavez,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-84985,354556,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T06:25:35.779-0700,Javier Chavez,status,In Test,Closed,status_change,yes,no,no,no
+OV-84986,354589,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:14:01.058-0700,Laurentiu Ile,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-84986,354589,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:14:03.914-0700,Laurentiu Ile,customfield_10043,,2,reestimate,yes,no,yes,no
+OV-84986,354589,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T06:20:36.960-0700,Laurentiu Ile,status,Ready For Refinement,In Development,status_change,yes,no,no,no
+OV-84986,354589,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T05:30:39.314-0700,Laurentiu Ile,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-84986,354589,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:22:55.081-0700,Laurentiu Ile,status,In Secure Code Review,Awaiting Build,status_change,yes,yes,no,no
+OV-84986,354589,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T06:18:30.463-0700,Laurentiu Ile,status,Awaiting Build,Ready To Test,status_change,yes,no,no,no
+OV-84986,354589,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T02:55:18.270-0700,Victor.Gavrilita,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-84990,354663,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T22:27:20.099-0700,Javier Chavez,status,In Test,Closed,status_change,yes,no,no,no
+OV-85021,354890,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:02:18.609-0700,Laurentiu Ile,customfield_10043,,1,reestimate,yes,no,yes,no
+OV-85021,354890,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:02:25.185-0700,Laurentiu Ile,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85021,354890,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:03:21.798-0700,Laurentiu Ile,status,New,In Development,status_change,yes,no,no,no
+OV-85021,354890,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:41:29.059-0700,Laurentiu Ile,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85021,354890,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:22:56.786-0700,Laurentiu Ile,status,In Secure Code Review,Awaiting Build,status_change,yes,yes,no,no
+OV-85021,354890,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T06:18:39.874-0700,Laurentiu Ile,status,Awaiting Build,Ready To Test,status_change,yes,no,no,no
+OV-85021,354890,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T18:56:38.441-0700,Javier Chavez,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-85021,354890,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T06:26:28.601-0700,Javier Chavez,status,In Test,Closed,status_change,yes,no,no,no
+OV-85022,354891,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:02:40.853-0700,Laurentiu Ile,customfield_10043,,1,reestimate,yes,no,yes,no
+OV-85022,354891,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:02:43.891-0700,Laurentiu Ile,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85022,354891,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:03:24.332-0700,Laurentiu Ile,status,New,In Development,status_change,yes,no,no,no
+OV-85022,354891,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T06:31:23.410-0700,Laurentiu Ile,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85022,354891,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:22:58.750-0700,Laurentiu Ile,status,In Secure Code Review,Awaiting Build,status_change,yes,yes,no,no
+OV-85022,354891,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T06:18:49.418-0700,Laurentiu Ile,status,Awaiting Build,Ready To Test,status_change,yes,no,no,no
+OV-85022,354891,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T18:56:25.677-0700,Javier Chavez,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-85022,354891,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T06:27:34.417-0700,Javier Chavez,status,In Test,Closed,status_change,yes,no,no,no
+OV-85061,355040,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:03:00.445-0700,Laurentiu Ile,customfield_10043,,2,reestimate,yes,no,yes,no
+OV-85061,355040,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:03:04.164-0700,Laurentiu Ile,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85061,355040,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:03:26.748-0700,Laurentiu Ile,status,New,In Development,status_change,yes,no,no,no
+OV-85061,355040,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:06:40.537-0700,Laurentiu Ile,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85061,355040,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:23:03.633-0700,Laurentiu Ile,status,In Secure Code Review,Awaiting Build,status_change,yes,yes,no,no
+OV-85061,355040,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T06:18:57.179-0700,Laurentiu Ile,status,Awaiting Build,Ready To Test,status_change,yes,no,no,no
+OV-85061,355040,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T18:57:35.808-0700,Javier Chavez,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-85061,355040,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-16T06:29:01.052-0700,Javier Chavez,status,In Test,Closed,status_change,yes,no,no,no
+OV-85106,355395,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T02:32:21.941-0700,Denis Profir,status,In Development,In Verification,status_change,yes,no,no,no
+OV-85132,355607,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T07:31:32.663-0700,Victor.Gavrilita,status,Awaiting Build,In Test,status_change,yes,no,no,no
+OV-85132,355607,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T00:10:24.858-0700,Victor.Gavrilita,status,In Test,Closed,status_change,yes,no,no,no
+OV-85262,357257,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T07:27:17.412-0700,Victor.Gavrilita,status,New,Ready for Sprint,status_change,yes,no,no,no
+OV-85262,357257,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T07:28:02.174-0700,Victor.Gavrilita,customfield_10043,,1,reestimate,yes,no,yes,no
+OV-85262,357257,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T07:28:14.186-0700,Victor.Gavrilita,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85262,357257,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:27:52.202-0700,Javier Chavez,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-85262,357257,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T06:27:54.781-0700,Automation for Jira,status,In Development,Ready for Sprint,status_change,yes,yes,no,no
+OV-85262,357257,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T00:09:05.779-0700,Victor.Gavrilita,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-85262,357257,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-15T05:35:39.712-0700,Victor.Gavrilita,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85262,357257,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-15T06:22:09.228-0700,Javier Chavez,status,In Secure Code Review,Closed,status_change,yes,no,no,no
+OV-85263,357258,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-08T07:33:44.439-0700,Victor.Gavrilita,customfield_10043,,3,reestimate,yes,no,yes,no
+OV-85263,357258,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T04:59:45.155-0700,Victor.Gavrilita,status,New,Ready for Sprint,status_change,yes,no,no,no
+OV-85263,357258,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T05:00:07.064-0700,Victor.Gavrilita,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85263,357258,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T06:09:43.993-0700,Victor.Gavrilita,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-85297,357713,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T01:23:44.867-0700,Victor.Gavrilita,customfield_10043,3,,reestimate,yes,no,yes,no
+OV-85297,357713,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T01:27:17.513-0700,Victor.Gavrilita,status,New,Ready For Refinement,status_change,yes,no,no,no
+OV-85297,357713,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T07:36:24.746-0700,Dana Abrudan,customfield_10043,,3,reestimate,yes,no,yes,no
+OV-85297,357713,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T07:36:27.128-0700,Dana Abrudan,status,Ready For Refinement,Ready for Sprint,status_change,yes,no,no,no
+OV-85297,357713,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T00:40:25.326-0700,Denis Profir,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85297,357713,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T00:40:35.465-0700,Denis Profir,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-85297,357713,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T05:26:22.862-0700,Denis Profir,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85297,357713,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T05:26:29.152-0700,Denis Profir,status,In Secure Code Review,In Development,status_change,yes,yes,no,no
+OV-85297,357713,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:06:39.432-0700,Denis Profir,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85299,357747,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T02:07:23.234-0700,Victor.Gavrilita,status,New,Ready For Refinement,status_change,yes,no,no,no
+OV-85299,357747,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T03:53:29.890-0700,Dan Cornilov,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85299,357747,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T03:53:32.066-0700,Dan Cornilov,customfield_10043,,2,reestimate,yes,no,yes,no
+OV-85299,357747,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T06:35:02.221-0700,Dan Cornilov,status,Ready For Refinement,In Development,status_change,yes,no,no,no
+OV-85299,357747,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T00:44:25.021-0700,Dan Cornilov,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85299,357747,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T01:35:56.106-0700,Dan Cornilov,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-85299,357747,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T02:16:34.993-0700,Victor.Gavrilita,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-85299,357747,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T04:41:24.456-0700,Victor.Gavrilita,status,In Test,Closed,status_change,yes,no,no,no
+OV-85300,357780,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T02:36:30.045-0700,Victor.Gavrilita,status,New,Ready For Refinement,status_change,yes,no,no,no
+OV-85300,357780,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T03:53:40.192-0700,Dan Cornilov,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85300,357780,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T03:53:41.709-0700,Dan Cornilov,customfield_10043,,2,reestimate,yes,no,yes,no
+OV-85300,357780,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T00:49:01.082-0700,Dan Cornilov,status,Ready For Refinement,In Development,status_change,yes,no,no,no
+OV-85300,357780,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T01:03:30.235-0700,Dan Cornilov,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85300,357780,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T01:35:54.869-0700,Dan Cornilov,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-85300,357780,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T02:16:27.379-0700,Victor.Gavrilita,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-85300,357780,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T01:18:15.481-0700,Victor.Gavrilita,status,In Test,Closed,status_change,yes,no,no,no
+OV-85330,358072,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T12:24:38.297-0700,Juan Calderon,customfield_10020,"VC 26Q2S6, VC 26Q3S0","VC 26Q2S6, VC 26Q3S0, VC 26Q3S1",added_to_sprint,yes,no,no,yes
+OV-85330,358072,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T12:24:43.427-0700,Juan Calderon,customfield_10043,5,3,reestimate,yes,no,yes,no
+OV-85330,358072,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-09T12:26:57.905-0700,Juan Calderon,status,New,In Development,status_change,yes,no,no,no
+OV-85330,358072,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T14:14:26.328-0700,Juan Calderon,status,In Development,Closed,status_change,yes,no,no,no
+OV-85337,358208,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T00:01:55.971-0700,Victor.Gavrilita,customfield_10043,3,,reestimate,yes,no,yes,no
+OV-85337,358208,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T00:02:06.960-0700,Victor.Gavrilita,status,New,Ready For Refinement,status_change,yes,no,no,no
+OV-85337,358208,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T07:41:03.721-0700,Dana Abrudan,customfield_10043,,2,reestimate,yes,no,yes,no
+OV-85337,358208,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T07:41:05.755-0700,Dana Abrudan,status,Ready For Refinement,Ready for Sprint,status_change,yes,no,no,no
+OV-85337,358208,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T00:40:30.817-0700,Denis Profir,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85337,358208,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T00:40:35.923-0700,Denis Profir,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-85337,358208,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:06:28.863-0700,Denis Profir,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85415,358618,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-10T14:07:36.852-0700,Juan Calderon,status,New,In Development,status_change,yes,no,no,no
+OV-85415,358618,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T16:02:16.520-0700,Juan Calderon,customfield_10043,3,5,reestimate,yes,no,yes,no
+OV-85415,358618,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-15T13:20:46.055-0700,Juan Calderon,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85423,358811,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T01:40:27.536-0700,Victor.Gavrilita,status,New,Ready For Refinement,status_change,yes,no,no,no
+OV-85423,358811,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T01:40:32.446-0700,Victor.Gavrilita,customfield_10043,1,,reestimate,yes,no,yes,no
+OV-85423,358811,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T05:27:03.963-0700,David Truta,customfield_10043,,2,reestimate,yes,no,yes,no
+OV-85423,358811,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-13T05:54:37.201-0700,David Truta,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85423,358811,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-15T03:42:41.479-0700,David Truta,status,Ready For Refinement,In Development,status_change,yes,no,no,no
+OV-85423,358811,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-15T04:46:09.887-0700,David Truta,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85548,359684,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T04:20:59.050-0700,Victor.Gavrilita,customfield_10043,5,2,reestimate,yes,no,yes,no
+OV-85548,359684,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T04:21:18.935-0700,Victor.Gavrilita,status,New,Ready for Sprint,status_change,yes,no,no,no
+OV-85548,359684,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T04:21:23.331-0700,Victor.Gavrilita,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85548,359684,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T04:37:09.762-0700,Denis Profir,status,Ready for Sprint,Ready To Test,status_change,yes,no,no,no
+OV-85548,359684,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T04:43:39.079-0700,Victor.Gavrilita,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-85548,359684,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T04:43:49.309-0700,Victor.Gavrilita,customfield_10043,2,1,reestimate,yes,no,yes,no
+OV-85548,359684,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T06:17:12.905-0700,Victor.Gavrilita,status,In Test,Closed,status_change,yes,no,no,no
+OV-85556,359758,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:00:20.070-0700,Dana Abrudan,customfield_10020,,VC 26Q3S1,added_to_sprint,yes,no,no,yes
+OV-85556,359758,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:05:48.704-0700,Dana Abrudan,status,New,Ready for Sprint,status_change,yes,no,no,no
+OV-85556,359758,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-14T07:05:51.516-0700,Dana Abrudan,customfield_10043,,5,reestimate,yes,no,yes,no
+OV-85556,359758,Team Smartcare,11278,VC 26Q3S1,2026-Q3,2026-07-08T14:10:23.734Z,2026-07-15T00:23:30.866-0700,Denis Profir,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-77159,303104,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-16T08:53:14.463-0700,Junaid Khan,customfield_10020,"WS26Q1S3 - Cyberpunk 2077, WS26Q1S5 - Elden Ring, WS26Q3, WS26Q2S4 - Jackbox, WS26Q2S5 - Kirby’s Adventure, WS26Q2S6 - Last of Us, WS26I0","WS26Q1S3 - Cyberpunk 2077, WS26Q1S5 - Elden Ring, WS26Q2S4 - Jackbox, WS26Q2S5 - Kirby’s Adventure, WS26Q2S6 - Last of Us, WS26I0, WS26Q3S1 - Mario Kart",added_to_sprint,yes,no,no,yes
+OV-77177,303155,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-16T08:54:09.154-0700,Junaid Khan,customfield_10020,"WS26Q1S5 - Elden Ring, WS26Q1S6 - Final Fantasy, WS26Q3, WS26Q2S5 - Kirby’s Adventure, WS26Q2S6 - Last of Us, WS26I0","WS26Q1S5 - Elden Ring, WS26Q1S6 - Final Fantasy, WS26Q2S5 - Kirby’s Adventure, WS26Q2S6 - Last of Us, WS26I0, WS26Q3S1 - Mario Kart",added_to_sprint,yes,no,no,yes
+OV-80178,322911,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-16T08:53:14.869-0700,Junaid Khan,customfield_10020,"WS26Q3, WS26Q2S1 - Golden Eye, WS26Q2S5 - Kirby’s Adventure, WS26Q2S6 - Last of Us, WS26I0","WS26Q2S1 - Golden Eye, WS26Q2S5 - Kirby’s Adventure, WS26Q2S6 - Last of Us, WS26I0, WS26Q3S1 - Mario Kart",added_to_sprint,yes,no,no,yes
+OV-80828,329632,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-13T07:22:05.657-0700,Christian Poynter,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-80828,329632,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-14T08:35:53.850-0700,Junaid Khan,status,In Test,In Verification,status_change,yes,no,no,no
+OV-80828,329632,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T05:55:47.553-0700,Junaid Khan,status,In Verification,Closed,status_change,yes,no,no,no
+OV-83580,341675,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-10T06:41:26.024-0700,Junaid Khan,status,In Secure Code Review,Awaiting Build,status_change,yes,yes,no,no
+OV-83580,341675,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-10T09:15:06.877-0700,Christian Poynter,status,Awaiting Build,Ready To Test,status_change,yes,no,no,no
+OV-83580,341675,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-14T20:31:59.987-0700,Zachary Walters,status,Ready To Test,Blocked,status_change,yes,no,no,no
+OV-83580,341675,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T08:35:30.011-0700,Junaid Khan,status,Blocked,In Test,status_change,yes,no,no,no
+OV-83580,341675,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T11:00:02.924-0700,Zachary Walters,status,In Test,Reopened,status_change,yes,no,no,no
+OV-83580,341675,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T13:04:34.499-0700,Neil Heverly,status,Reopened,In Test,status_change,yes,no,no,no
+OV-83580,341675,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T13:28:50.260-0700,Zachary Walters,status,In Test,In Verification,status_change,yes,no,no,no
+OV-83580,341675,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T13:36:35.553-0700,Junaid Khan,status,In Verification,Closed,status_change,yes,no,no,no
+OV-84322,348778,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-09T09:53:06.886-0700,Michel Almagro,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-84322,348778,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-10T08:39:08.651-0700,Junaid Khan,status,In Development,Ready for Sprint,status_change,yes,yes,no,no
+OV-84322,348778,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-13T08:45:44.918-0700,Junaid Khan,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-84322,348778,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T13:25:36.902-0700,Guillermo Mc Namara,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-84723,352604,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-10T05:43:59.706-0700,Christian Poynter,status,In Secure Code Review,Ready To Test,status_change,yes,no,no,no
+OV-84723,352604,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T08:34:02.700-0700,Junaid Khan,status,Ready To Test,In Test,status_change,yes,no,no,no
+OV-84723,352604,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T10:36:17.093-0700,Jehu Castelan,status,In Test,In Verification,status_change,yes,no,no,no
+OV-84723,352604,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T10:42:07.581-0700,Junaid Khan,status,In Verification,Closed,status_change,yes,no,no,no
+OV-84886,353631,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-09T08:36:43.244-0700,Junaid Khan,status,In Verification,Closed,status_change,yes,no,no,no
+OV-85264,357259,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-09T06:32:05.897-0700,Junaid Khan,status,Ready To Test,In Verification,status_change,yes,no,no,no
+OV-85264,357259,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-09T08:31:44.274-0700,Junaid Khan,status,In Verification,Closed,status_change,yes,no,no,no
+OV-85279,357576,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-10T08:40:29.952-0700,Junaid Khan,status,In Development,Blocked,status_change,yes,no,no,no
+OV-85279,357576,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T08:10:15.498-0700,Christian Poynter,status,Blocked,In Development,status_change,yes,no,no,no
+OV-85279,357576,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T09:13:15.379-0700,Christian Poynter,status,In Development,In Secure Code Review,status_change,yes,no,no,no
+OV-85279,357576,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-16T06:32:45.219-0700,Christian Poynter,status,In Secure Code Review,In Verification,status_change,yes,no,no,no
+OV-85289,357599,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-10T08:40:53.236-0700,Junaid Khan,status,New,Ready for Sprint,status_change,yes,no,no,no
+OV-85289,357599,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-16T08:47:16.965-0700,Junaid Khan,status,Ready for Sprint,In Test,status_change,yes,no,no,no
+OV-85326,358068,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-10T10:45:54.811-0700,Neil Heverly,status,New,In Discovery,status_change,yes,no,no,no
+OV-85326,358068,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-13T08:04:07.932-0700,Neil Heverly,customfield_10020,,WS26Q3,other,yes,no,no,no
+OV-85326,358068,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-13T09:44:45.933-0700,Neil Heverly,status,In Discovery,In Review,status_change,yes,no,no,no
+OV-85326,358068,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-13T10:14:32.822-0700,Neil Heverly,status,In Review,Ready For Refinement,status_change,yes,no,no,no
+OV-85326,358068,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-14T09:20:01.970-0700,Junaid Khan,customfield_10043,,2,reestimate,yes,no,yes,no
+OV-85326,358068,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-14T09:20:06.716-0700,Junaid Khan,status,Ready For Refinement,Ready for Sprint,status_change,yes,no,no,no
+OV-85326,358068,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-14T12:32:20.831-0700,Christian Poynter,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-85326,358068,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T05:58:16.067-0700,Christian Poynter,customfield_10020,WS26Q3,WS26Q3S1 - Mario Kart,added_to_sprint,yes,no,no,yes
+OV-85326,358068,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T07:25:06.029-0700,Christian Poynter,status,In Development,In Verification,status_change,yes,no,no,no
+OV-85329,358071,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-13T06:31:45.039-0700,Neil Heverly,status,New,In Discovery,status_change,yes,no,no,no
+OV-85329,358071,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-13T08:04:08.445-0700,Neil Heverly,customfield_10020,,WS26Q3,other,yes,no,no,no
+OV-85329,358071,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-13T09:44:47.277-0700,Neil Heverly,status,In Discovery,In Review,status_change,yes,no,no,no
+OV-85329,358071,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-13T10:21:32.370-0700,Neil Heverly,status,In Review,Ready For Refinement,status_change,yes,no,no,no
+OV-85329,358071,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-14T09:42:20.952-0700,Junaid Khan,customfield_10043,,3,reestimate,yes,no,yes,no
+OV-85329,358071,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-14T09:42:25.142-0700,Junaid Khan,status,Ready For Refinement,Ready for Sprint,status_change,yes,no,no,no
+OV-85329,358071,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-14T12:12:29.903-0700,Christian Poynter,status,Ready for Sprint,In Development,status_change,yes,no,no,no
+OV-85329,358071,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-14T12:32:36.619-0700,Christian Poynter,status,In Development,In Verification,status_change,yes,no,no,no
+OV-85329,358071,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T05:58:12.535-0700,Christian Poynter,customfield_10020,WS26Q3,WS26Q3S1 - Mario Kart,added_to_sprint,yes,no,no,yes
+OV-85329,358071,Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,2026-07-08T21:04:02.977Z,2026-07-15T14:09:47.421-0700,Neil Heverly,status,In Verification,Closed,status_change,yes,no,no,no

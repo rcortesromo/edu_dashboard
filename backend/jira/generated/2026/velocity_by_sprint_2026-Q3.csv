@@ -1,0 +1,6 @@
+team_name,sprint_id,sprint_name,quarter_label,velocity_points,velocity_source,last_refresh_utc
+Team ASAP,11312,ASAP - 26Q3S1,2026-Q3,0,calculated_completed_points,2026-07-16T19:32:57.423Z
+Team Connexpoint,10227,CXP26Q3 - Sprint 0,2026-Q3,5,velocity_issue_types,2026-07-16T19:32:57.423Z
+Team Connexpoint,10929,CXP26Q3 - Sprint 1,2026-Q3,8,velocity_issue_types,2026-07-16T19:32:57.423Z
+Team Smartcare,11278,VC 26Q3S1,2026-Q3,0,calculated_completed_points,2026-07-16T19:32:57.423Z
+Team Webstore,11350,WS26Q3S1 - Mario Kart,2026-Q3,42,calculated_completed_points,2026-07-16T19:32:57.423Z
