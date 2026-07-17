@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-07-10T14:19:49.734Z",
+  "runAt": "2026-07-17T13:26:19.700Z",
   "trigger": "schedule",
   "dataChanged": true,
   "sources": [
@@ -12,6 +12,11 @@
       "name": "sprint",
       "status": "completed",
       "note": ""
+    },
+    {
+      "name": "deployments",
+      "status": "completed",
+      "note": "RMM board, 2025 through today"
     },
     {
       "name": "defect-leakage",
